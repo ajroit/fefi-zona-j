@@ -32,6 +32,7 @@ jobs:
           mkdir -p dist/data
           cp -r web/* dist/
           cp data/fefi-data.json dist/data/
+          cp data/futsal-data.json dist/data/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
