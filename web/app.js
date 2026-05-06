@@ -361,16 +361,30 @@ function renderHistorial() {
 function renderCalendario() {
   const partidos = partidosDelFoco(categoriaActual);
   const $list = document.getElementById("schedule");
-  $list.innerHTML = partidos.map(p => `
+  $list.innerHTML = partidos.map(p => {
+    let direccionHTML = "";
+    if (!p.jugado) {
+      const equipoSede = p.esLocal ? DATA.equipo_foco : p.rival;
+      const sedeData = buscarEquipo(equipoSede);
+      if (sedeData && sedeData.direccion) {
+        const mapsUrl = "https://maps.google.com/?q=" + encodeURIComponent(`${sedeData.direccion}, ${sedeData.localidad}, Argentina`);
+        direccionHTML = `<a href="${mapsUrl}" target="_blank" rel="noopener" style="display: block; font-size: 11px; color: var(--text-muted); margin-top: 2px; text-decoration: none;">📍 ${sedeData.direccion}, ${sedeData.localidad}</a>`;
+      }
+    }
+
+    return `
     <div class="schedule-fecha ${p.jugado ? 'played' : ''}">
       <span class="schedule-num">F${p.numero}</span>
-      <span>
-        <span class="schedule-rival">vs ${nombreEquipo(p.rival)}</span>
-        <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}</span>
+      <span style="display: flex; flex-direction: column; justify-content: center;">
+        <span>
+          <span class="schedule-rival">vs ${nombreEquipo(p.rival)}</span>
+          <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}</span>
+        </span>
+        ${direccionHTML}
       </span>
       <span class="schedule-date">${fechaCorta(p.fecha)}</span>
     </div>
-  `).join('');
+  `}).join('');
 }
 
 init();
