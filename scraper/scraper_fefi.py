@@ -160,6 +160,8 @@ def scrape():
                         enc["partidos"][str(cat)] = {
                             "goles_local": gl,
                             "goles_visitante": gv,
+                            "observacion_local": obs_l,
+                            "observacion_visitante": obs_v,
                             "observacion": obs_l or obs_v,
                             "jugado": (gl is not None or obs_l is not None) and (gv is not None or obs_v is not None),
                         }
