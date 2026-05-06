@@ -172,15 +172,21 @@ def scrape():
     categoria_actual = None
     for row in posiciones_tabla.find_all("tr")[1:]:
         cols = [c.get_text(strip=True) for c in row.find_all("td")]
-        if len(cols) < 6:
+        if not cols:
             continue
+        
         primera = cols[0].upper()
-        if cols[1] == "" and (
+        # Si la fila tiene 1 sola columna o las demás están vacías, es un encabezado de categoría
+        if (len(cols) == 1 or (len(cols) > 1 and cols[1] == "")) and (
             primera == "GENERAL" or primera in (str(c) for c in CATEGORIAS)
         ):
             categoria_actual = primera.lower()
             tablas_pos[categoria_actual] = []
             continue
+            
+        if len(cols) < 6:
+            continue
+            
         if categoria_actual and cols[0]:
             tablas_pos[categoria_actual].append({
                 "equipo": cols[0].upper(),
