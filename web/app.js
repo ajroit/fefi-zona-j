@@ -1,26 +1,88 @@
 // ==========================================
-// FEFI Zona J - Dashboard de Club Villa Sahores
-// Redesigned for modern UX
+// Club Villa Sahores - Dashboard Deportivo
+// Orquestador Baby Fútbol + Futsal
 // ==========================================
 
 const DATA_URL = "data/fefi-data.json";
 const CATEGORIAS_ORDEN = [2013, 2014, 2015, 2016, 2017, 2018, 2019];
 const STORAGE_KEY = "fefi-cat-preferida";
+const SPORT_STORAGE_KEY = "deporte-preferido";
 
 let DATA = null;
 let categoriaActual = "general";
+let deporteActual = "babyfutbol";
 
 // ---- Carga inicial ----
 async function init() {
-  try {
-    let res = await fetch(DATA_URL);
-    if (!res.ok) res = await fetch("../data/fefi-data.json");
-    DATA = await res.json();
-  } catch (err) {
-    document.querySelector("main").innerHTML =
-      `<div class="loading">No se pudieron cargar los datos. Reintenta en unos minutos.</div>`;
-    console.error(err);
-    return;
+  // Recuperar deporte preferido
+  const savedSport = localStorage.getItem(SPORT_STORAGE_KEY);
+  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal")) {
+    deporteActual = savedSport;
+  }
+
+  // Configurar sport selector
+  setupSportSelector();
+
+  // Cargar el deporte actual
+  if (deporteActual === "futsal") {
+    await switchToFutsal();
+  } else {
+    await switchToBabyFutbol();
+  }
+}
+
+// ---- Sport selector ----
+function setupSportSelector() {
+  document.querySelectorAll(".sport-btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const sport = btn.dataset.sport;
+      if (sport === deporteActual) return;
+
+      deporteActual = sport;
+      localStorage.setItem(SPORT_STORAGE_KEY, sport);
+
+      // Actualizar botones
+      document.querySelectorAll(".sport-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.sport === sport);
+      });
+
+      if (sport === "futsal") {
+        await switchToFutsal();
+      } else {
+        await switchToBabyFutbol();
+      }
+    });
+  });
+
+  // Actualizar estado visual inicial
+  document.querySelectorAll(".sport-btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.sport === deporteActual);
+  });
+}
+
+// ---- Cambio a Baby Fútbol ----
+async function switchToBabyFutbol() {
+  // Actualizar hero
+  document.getElementById("hero-subtitle").textContent = "Club Social y Deportivo - Desde 1931";
+  document.getElementById("badge-label").textContent = "Torneo FEFI 2026";
+  document.getElementById("badge-zona").textContent = "Zona J";
+
+  // Actualizar footer
+  document.getElementById("footer-credits").innerHTML =
+    'Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a>';
+
+  // Cargar datos si no están
+  if (!DATA) {
+    try {
+      let res = await fetch(DATA_URL);
+      if (!res.ok) res = await fetch("../data/fefi-data.json");
+      DATA = await res.json();
+    } catch (err) {
+      document.querySelector("main").innerHTML =
+        `<div class="loading">No se pudieron cargar los datos. Reintenta en unos minutos.</div>`;
+      console.error(err);
+      return;
+    }
   }
 
   const guardada = localStorage.getItem(STORAGE_KEY);
@@ -32,6 +94,24 @@ async function init() {
   renderCategorySelector();
   render();
 }
+
+// ---- Cambio a Futsal ----
+async function switchToFutsal() {
+  // Actualizar hero
+  document.getElementById("hero-subtitle").textContent = "Futsal - Liga de Honor B";
+  document.getElementById("badge-label").textContent = "Torneo Joma 2026";
+  document.getElementById("badge-zona").textContent = "Zona 1";
+
+  // Actualizar footer
+  document.getElementById("footer-credits").innerHTML =
+    'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
+
+  await activarFutsal();
+}
+
+// =============================================
+// FEFI Baby Fútbol – funciones originales
+// =============================================
 
 function renderHeader() {
   const updated = new Date(DATA.actualizado);

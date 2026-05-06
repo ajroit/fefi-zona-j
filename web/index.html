@@ -5,29 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0a0a0a">
   <meta name="description" content="Dashboard del torneo FEFI 2026 - Club Social y Deportivo Villa Sahores, Zona J">
-  <title>Villa Sahores - Torneo FEFI 2026</title>
+  <title>Villa Sahores - Dashboard Deportivo</title>
   <link rel="icon" type="image/jpeg" href="/images/logo-sahores.jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <!-- Sport Selector -->
+  <nav class="sport-selector" id="sport-selector">
+    <div class="container sport-selector-row">
+      <button class="sport-btn active" data-sport="babyfutbol" id="sport-btn-babyfutbol">
+        ⚽ Baby Fútbol
+      </button>
+      <button class="sport-btn" data-sport="futsal" id="sport-btn-futsal">
+        🏟️ Futsal
+      </button>
+    </div>
+  </nav>
+
   <!-- Hero Header -->
   <header class="hero">
     <div class="hero-bg"></div>
     <div class="container hero-content">
       <div class="hero-left">
-        <img src="images/logo-sahores.jpeg" alt="Escudo Villa Sahores" class="club-logo">
+        <img src="/images/logo-sahores.jpeg" alt="Escudo Villa Sahores" class="club-logo">
         <div class="hero-text">
           <h1>Villa Sahores</h1>
-          <p class="hero-subtitle">Club Social y Deportivo - Desde 1931</p>
+          <p class="hero-subtitle" id="hero-subtitle">Club Social y Deportivo - Desde 1931</p>
         </div>
       </div>
       <div class="hero-right">
-        <div class="tournament-badge">
-          <span class="badge-label">Torneo FEFI 2026</span>
-          <span class="badge-zona">Zona J</span>
+        <div class="tournament-badge" id="tournament-badge">
+          <span class="badge-label" id="badge-label">Torneo FEFI 2026</span>
+          <span class="badge-zona" id="badge-zona">Zona J</span>
         </div>
         <div class="updated" id="updated"></div>
       </div>
@@ -144,12 +156,13 @@
         <img src="/images/logo-sahores.jpeg" alt="Villa Sahores" class="footer-logo">
         <div class="footer-text">
           <p>Club Social y Deportivo Villa Sahores - Fundado en 1931</p>
-          <p class="footer-credits">Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a></p>
+          <p class="footer-credits" id="footer-credits">Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a></p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="/futsal.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>

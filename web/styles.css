@@ -109,6 +109,53 @@ a:hover {
   color: var(--brand-green-light);
 }
 
+/* Sport Selector */
+.sport-selector {
+  background: var(--brand-black);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+}
+
+.sport-selector-row {
+  display: flex;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-full);
+  padding: 4px;
+  max-width: 360px;
+}
+
+.sport-btn {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all var(--transition-base);
+  white-space: nowrap;
+}
+
+.sport-btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sport-btn.active {
+  background: var(--brand-green);
+  color: white;
+  box-shadow: 0 2px 8px rgba(26, 140, 74, 0.4);
+}
+
+/* Utility: hide on mobile */
+.hide-mobile { }
+@media (max-width: 480px) {
+  .hide-mobile { display: none; }
+}
+
 /* Hero Header */
 .hero {
   position: relative;
