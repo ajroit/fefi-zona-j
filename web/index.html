@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <title>Club Sahores · Zona J · FEFI 2026</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚽%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-row">
+      <div>
+        <h1>Club Sahores</h1>
+        <p class="subtitle">Zona J · Torneo Anual FEFI 2026 · <span id="torneo-label">Apertura</span></p>
+      </div>
+      <div class="updated" id="updated">—</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Selector de categoría -->
+    <section aria-label="Selector de categoría">
+      <div class="cat-selector" id="cat-selector" role="tablist"></div>
+    </section>
+
+    <!-- Próximo partido -->
+    <section class="card next-match" id="next-match-section">
+      <div class="card-header">
+        <span class="card-icon">📅</span>
+        <span class="card-label">Próximo partido</span>
+        <span class="match-date" id="next-match-date"></span>
+      </div>
+      <div class="match-teams" id="next-match-teams"></div>
+      <div class="match-meta" id="next-match-meta"></div>
+      <div class="match-prediction" id="next-match-prediction"></div>
+    </section>
+
+    <!-- Métricas -->
+    <section class="metrics" id="metrics"></section>
+
+    <!-- Forma reciente -->
+    <section class="card">
+      <div class="card-header">
+        <span class="card-icon">📊</span>
+        <span class="card-label">Forma reciente</span>
+        <span class="cat-tag" id="form-cat-tag"></span>
+      </div>
+      <div class="form-row" id="form-row"></div>
+    </section>
+
+    <!-- Tabla de posiciones -->
+    <section class="card">
+      <div class="card-header">
+        <span class="card-icon">🏆</span>
+        <span class="card-label">Tabla de posiciones</span>
+        <span class="cat-tag" id="table-cat-tag"></span>
+      </div>
+      <div class="table-wrapper">
+        <table class="standings" id="standings"></table>
+      </div>
+    </section>
+
+    <!-- Historial -->
+    <section class="card">
+      <div class="card-header">
+        <span class="card-icon">📋</span>
+        <span class="card-label">Historial</span>
+        <span class="cat-tag" id="history-cat-tag"></span>
+      </div>
+      <div class="history-list" id="history-list"></div>
+    </section>
+
+    <!-- Próximos partidos del calendario -->
+    <section class="card">
+      <div class="card-header">
+        <span class="card-icon">🗓️</span>
+        <span class="card-label">Calendario</span>
+      </div>
+      <div class="schedule" id="schedule"></div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>Datos extraídos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a> · Actualización automática semanal</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

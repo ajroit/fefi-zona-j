@@ -1,0 +1,7256 @@
+{
+  "actualizado": "2026-05-06T16:44:47.716980+00:00",
+  "zona": "J",
+  "torneo": "apertura",
+  "anio": 2026,
+  "equipo_foco": "CLUB SAHORES",
+  "categorias": [
+    2019,
+    2013,
+    2018,
+    2014,
+    2017,
+    2016,
+    2015
+  ],
+  "equipos": [
+    {
+      "nombre": "30 DE OCTUBRE",
+      "direccion": "ACHAVAL 4215",
+      "localidad": "SAN JUSTO",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "CLUB SAAVEDRA",
+      "direccion": "JUAN B JUSTO 3268",
+      "localidad": "CIUDADELA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "CLUB COMUNICACIONES",
+      "direccion": "TINOGASTA 2697",
+      "localidad": "CABA",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "EL ATALAYA",
+      "direccion": "BRUSELAS 1808",
+      "localidad": "ISIDRO CASANOVA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "ESTRELLA",
+      "direccion": "HUMBOLDT 1731",
+      "localidad": "CABA",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "FERRO C. O.",
+      "direccion": "MARTÍN DE GAINZA 280",
+      "localidad": "CABA",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "HOMERO",
+      "direccion": "VALENTÍN GÓMEZ 3357",
+      "localidad": "CABA",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "LOMAS DE LUGANO",
+      "direccion": "ALBARIÑO 3619",
+      "localidad": "C.A.B.A. - VILLA LUGANO",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "MENDEVILLE",
+      "direccion": "CAMPION 1801",
+      "localidad": "ALDO BONZI",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "PACIFICO MAR PLAST",
+      "direccion": "SANTO TOME 3845",
+      "localidad": "CABA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "SOL DE AMERICA",
+      "direccion": "CHACABUCO 874",
+      "localidad": "CIUDADELA",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "TORINO",
+      "direccion": "ZUVIRIA 4657",
+      "localidad": "CABA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "CLUB SAHORES",
+      "direccion": "SANTO TOMÉ 2496",
+      "localidad": "CABA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "A DOS TOQUES F. C.",
+      "direccion": "PASO 399",
+      "localidad": "AVELLANEDA",
+      "tiene_cancha": true
+    },
+    {
+      "nombre": "SANELI F.C.",
+      "direccion": "EVITA 279",
+      "localidad": "VILLA MADERO",
+      "tiene_cancha": false
+    },
+    {
+      "nombre": "LIBERAL",
+      "direccion": "CARHUE 2855",
+      "localidad": "CABA MATADEROS",
+      "tiene_cancha": true
+    }
+  ],
+  "fechas": [
+    {
+      "numero": 1,
+      "fecha_partido": "2026-04-18",
+      "encuentros": [
+        {
+          "local": "FERRO C. O.",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "SANELI F.C.",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "HOMERO",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 2,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 8,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 9,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "EL ATALAYA",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "GP",
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": 0,
+              "goles_visitante": 16,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 1,
+              "goles_visitante": 8,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "GP",
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 4,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": 0,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 1,
+              "goles_visitante": 11,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "SOL DE AMERICA",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 1,
+              "goles_visitante": 10,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 6,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 6,
+              "goles_visitante": 8,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 0,
+              "goles_visitante": 12,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 7,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "MENDEVILLE",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha_partido": "2026-04-25",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "MENDEVILLE",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 8,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "TORINO",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 8,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "NP",
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 7,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "LIBERAL",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 6,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 8,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "CLUB SAHORES",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 7,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 7,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 5,
+              "goles_visitante": 8,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "NP",
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "ESTRELLA",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "30 DE OCTUBRE",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": "verificado",
+          "partidos": {
+            "2019": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 0,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "fecha_partido": "2026-05-02",
+      "encuentros": [
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": "previo",
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "GP",
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "HOMERO",
+          "estado": "previo",
+          "partidos": {
+            "2019": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 4,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 6,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 6,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 10,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "EL ATALAYA",
+          "estado": "previo",
+          "partidos": {
+            "2019": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 4,
+              "goles_visitante": 11,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 0,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 3,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": "GP",
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": "previo",
+          "partidos": {
+            "2019": {
+              "goles_local": 11,
+              "goles_visitante": 0,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 4,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 6,
+              "goles_visitante": 4,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 2,
+              "goles_visitante": 12,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 0,
+              "goles_visitante": 8,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "SOL DE AMERICA",
+          "estado": "previo",
+          "partidos": {
+            "2019": {
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "observacion": null,
+              "jugado": true
+            },
+            "2013": {
+              "goles_local": 5,
+              "goles_visitante": 6,
+              "observacion": null,
+              "jugado": true
+            },
+            "2018": {
+              "goles_local": 7,
+              "goles_visitante": 3,
+              "observacion": null,
+              "jugado": true
+            },
+            "2014": {
+              "goles_local": 3,
+              "goles_visitante": 10,
+              "observacion": null,
+              "jugado": true
+            },
+            "2017": {
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2016": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "observacion": null,
+              "jugado": true
+            },
+            "2015": {
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "observacion": null,
+              "jugado": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "fecha_partido": "2026-05-09",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "fecha_partido": "2026-05-16",
+      "encuentros": [
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "fecha_partido": "2026-05-23",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "fecha_partido": "2026-05-30",
+      "encuentros": [
+        {
+          "local": "ESTRELLA",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "fecha_partido": "2026-06-06",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "fecha_partido": "2026-06-13",
+      "encuentros": [
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "fecha_partido": "2026-06-20",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "fecha_partido": "2026-06-27",
+      "encuentros": [
+        {
+          "local": "LIBERAL",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "fecha_partido": "2026-07-04",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "fecha_partido": "2026-07-11",
+      "encuentros": [
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "TORINO",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "fecha_partido": "2026-07-18",
+      "encuentros": [
+        {
+          "local": "A DOS TOQUES F. C.",
+          "visitante": "SANELI F.C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "FERRO C. O.",
+          "visitante": "HOMERO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAAVEDRA",
+          "visitante": "EL ATALAYA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "30 DE OCTUBRE",
+          "visitante": "PACIFICO MAR PLAST",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "ESTRELLA",
+          "visitante": "CLUB COMUNICACIONES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB SAHORES",
+          "visitante": "SOL DE AMERICA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LIBERAL",
+          "visitante": "MENDEVILLE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "LOMAS DE LUGANO",
+          "visitante": "TORINO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "fecha_partido": "2026-08-01",
+      "encuentros": [
+        {
+          "local": "TORINO",
+          "visitante": "A DOS TOQUES F. C.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "MENDEVILLE",
+          "visitante": "LOMAS DE LUGANO",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SOL DE AMERICA",
+          "visitante": "LIBERAL",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "CLUB COMUNICACIONES",
+          "visitante": "CLUB SAHORES",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "PACIFICO MAR PLAST",
+          "visitante": "ESTRELLA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "EL ATALAYA",
+          "visitante": "30 DE OCTUBRE",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "HOMERO",
+          "visitante": "CLUB SAAVEDRA",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        },
+        {
+          "local": "SANELI F.C.",
+          "visitante": "FERRO C. O.",
+          "estado": null,
+          "partidos": {
+            "2019": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2013": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2018": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2014": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2017": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2016": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            },
+            "2015": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "observacion": null,
+              "jugado": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "tablas_posiciones": {
+    "general": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 21,
+        "g": 17,
+        "e": 0,
+        "p": 4,
+        "pts": 55,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 21,
+        "g": 12,
+        "e": 2,
+        "p": 7,
+        "pts": 47,
+        "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 21,
+        "g": 12,
+        "e": 2,
+        "p": 7,
+        "pts": 47,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 21,
+        "g": 11,
+        "e": 1,
+        "p": 9,
+        "pts": 44,
+        "posicion": 4
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 21,
+        "g": 11,
+        "e": 0,
+        "p": 10,
+        "pts": 43,
+        "posicion": 5
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 21,
+        "g": 10,
+        "e": 1,
+        "p": 10,
+        "pts": 42,
+        "posicion": 6
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 21,
+        "g": 7,
+        "e": 4,
+        "p": 10,
+        "pts": 39,
+        "posicion": 7
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 14,
+        "g": 11,
+        "e": 0,
+        "p": 3,
+        "pts": 36,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 20,
+        "g": 7,
+        "e": 1,
+        "p": 12,
+        "pts": 35,
+        "posicion": 9
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 21,
+        "g": 8,
+        "e": 1,
+        "p": 8,
+        "pts": 34,
+        "posicion": 10
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 14,
+        "g": 6,
+        "e": 2,
+        "p": 6,
+        "pts": 28,
+        "posicion": 11
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 13,
+        "g": 7,
+        "e": 2,
+        "p": 3,
+        "pts": 28,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 14,
+        "g": 6,
+        "e": 0,
+        "p": 8,
+        "pts": 26,
+        "posicion": 13
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 4,
+        "e": 0,
+        "p": 9,
+        "pts": 21,
+        "posicion": 14
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 14,
+        "g": 0,
+        "e": 0,
+        "p": 14,
+        "pts": 14,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 7,
+        "g": 2,
+        "e": 0,
+        "p": 5,
+        "pts": 11,
+        "posicion": 16
+      }
+    ],
+    "2019": [
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 6
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 8
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 9
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 15
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "pts": 0,
+        "posicion": 16
+      }
+    ],
+    "2013": [
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 3
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 2,
+        "p": 0,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 9
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "pts": 3,
+        "posicion": 11
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 13
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 14
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 16
+      }
+    ],
+    "2018": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "pts": 4,
+        "posicion": 12
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2014": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 3
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2017": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2016": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 3
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 11
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2015": [
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "pts": 0,
+        "posicion": 16
+      }
+    ]
+  }
+}
