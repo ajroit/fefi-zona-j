@@ -1,5 +1,6 @@
 // ==========================================
-// FEFI Zona J - Dashboard de Club Sahores
+// FEFI Zona J - Dashboard de Club Villa Sahores
+// Redesigned for modern UX
 // ==========================================
 
 const DATA_URL = "data/fefi-data.json";
@@ -17,7 +18,7 @@ async function init() {
     DATA = await res.json();
   } catch (err) {
     document.querySelector("main").innerHTML =
-      `<div class="loading">No se pudieron cargar los datos. Reintentá en unos minutos.</div>`;
+      `<div class="loading">No se pudieron cargar los datos. Reintenta en unos minutos.</div>`;
     console.error(err);
     return;
   }
@@ -35,13 +36,14 @@ async function init() {
 function renderHeader() {
   const updated = new Date(DATA.actualizado);
   const formatter = new Intl.DateTimeFormat("es-AR", {
-    day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit",
+    day: "2-digit",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
     timeZone: "America/Argentina/Buenos_Aires"
   });
   document.getElementById("updated").textContent =
     "Actualizado: " + formatter.format(updated);
-  document.getElementById("torneo-label").textContent =
-    DATA.torneo.charAt(0).toUpperCase() + DATA.torneo.slice(1);
 }
 
 function renderCategorySelector() {
@@ -92,7 +94,7 @@ function render() {
 
   const tag = categoriaActual === "general"
     ? "Acumulado"
-    : `Categoría ${categoriaActual}`;
+    : `Cat. ${categoriaActual}`;
   document.getElementById("form-cat-tag").textContent = tag;
   document.getElementById("table-cat-tag").textContent = tag;
   document.getElementById("history-cat-tag").textContent = tag;
@@ -112,17 +114,14 @@ function partidosDelFoco(categoria) {
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false, observ = null;
-        let obsFoco = null, obsRival = null;
         for (const cat of DATA.categorias) {
           const p = enc.partidos[String(cat)];
           if (p && p.jugado) {
             jugado = true;
-            gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
-            gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
+            gf += esLocal ? p.goles_local : p.goles_visitante;
+            gc += esLocal ? p.goles_visitante : p.goles_local;
           }
           if (p && p.observacion) observ = p.observacion;
-          if (p && p.observacion_local) obsFoco = esLocal ? p.observacion_local : p.observacion_visitante;
-          if (p && p.observacion_visitante) obsRival = esLocal ? p.observacion_visitante : p.observacion_local;
         }
         out.push({
           numero: fecha.numero,
@@ -130,7 +129,6 @@ function partidosDelFoco(categoria) {
           rival, esLocal,
           gf: jugado ? gf : null,
           gc: jugado ? gc : null,
-          obsFoco, obsRival,
           jugado,
           observacion: observ,
           estado: enc.estado,
@@ -144,8 +142,6 @@ function partidosDelFoco(categoria) {
           rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
-          obsFoco: esLocal ? p.observacion_local : p.observacion_visitante,
-          obsRival: esLocal ? p.observacion_visitante : p.observacion_local,
           jugado: p.jugado,
           observacion: p.observacion,
           estado: enc.estado,
@@ -157,15 +153,10 @@ function partidosDelFoco(categoria) {
 }
 
 function resultadoLetra(p) {
-  if (!p.jugado) return null;
-  if (p.gf != null && p.gc != null) {
-    if (p.gf > p.gc) return "W";
-    if (p.gf < p.gc) return "L";
-    return "D";
-  }
-  if (p.obsFoco === "GP") return "W";
-  if (p.obsFoco === "NP" || p.obsFoco === "PP") return "L";
-  return null;
+  if (!p.jugado || p.gf == null) return null;
+  if (p.gf > p.gc) return "W";
+  if (p.gf < p.gc) return "L";
+  return "D";
 }
 
 function nombreEquipo(nombre) {
@@ -181,11 +172,11 @@ function buscarEquipo(nombre) {
 function fechaCorta(iso) {
   if (!iso) return "";
   const [y, m, d] = iso.split("-");
-  const meses = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
-  return `${parseInt(d)} ${meses[parseInt(m)-1]}`;
+  const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+  return `${parseInt(d)} ${meses[parseInt(m) - 1]}`;
 }
 
-// ---- Próximo partido ----
+// ---- Proximo partido ----
 function renderProximoPartido() {
   const partidos = partidosDelFoco(categoriaActual);
   const proximo = partidos.find(p => !p.jugado);
@@ -197,25 +188,25 @@ function renderProximoPartido() {
 
   if (!proximo) {
     $date.textContent = "";
-    $teams.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">No hay próximos partidos en esta categoría</div>`;
+    $teams.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">No hay proximos partidos en esta categoria</div>`;
     $meta.innerHTML = "";
     $pred.innerHTML = "";
     return;
   }
 
-  $date.textContent = "Fecha " + proximo.numero + " · " + fechaCorta(proximo.fecha);
+  $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha);
 
   const local = proximo.esLocal ? DATA.equipo_foco : proximo.rival;
   const visit = proximo.esLocal ? proximo.rival : DATA.equipo_foco;
 
   $teams.innerHTML = `
     <div class="team-block">
-      <div class="team-name">${nombreEquipo(local)}</div>
+      <div class="team-name ${local === DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(local)}</div>
       <div class="team-condition">Local</div>
     </div>
-    <div class="vs-divider">vs</div>
+    <div class="vs-badge">VS</div>
     <div class="team-block">
-      <div class="team-name">${nombreEquipo(visit)}</div>
+      <div class="team-name ${visit === DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(visit)}</div>
       <div class="team-condition">Visitante</div>
     </div>
   `;
@@ -225,12 +216,26 @@ function renderProximoPartido() {
   if (localData && localData.direccion) {
     const mapsUrl = "https://maps.google.com/?q=" +
       encodeURIComponent(`${localData.direccion}, ${localData.localidad}, Argentina`);
-    metaHTML += `<span>📍 <a href="${mapsUrl}" target="_blank" rel="noopener">${localData.direccion}, ${localData.localidad}</a></span>`;
+    metaHTML += `<span class="match-meta-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      <a href="${mapsUrl}" target="_blank" rel="noopener">${localData.direccion}, ${localData.localidad}</a>
+    </span>`;
   }
   if (proximo.fecha) {
     const f = new Date(proximo.fecha + "T12:00:00");
     const dia = f.toLocaleDateString("es-AR", { weekday: "long" });
-    metaHTML += `<span>📆 ${dia.charAt(0).toUpperCase() + dia.slice(1)}</span>`;
+    metaHTML += `<span class="match-meta-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      ${dia.charAt(0).toUpperCase() + dia.slice(1)}
+    </span>`;
   }
   $meta.innerHTML = metaHTML;
 
@@ -241,7 +246,7 @@ function renderProximoPartido() {
     const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
     if (focoEnTabla && rivalEnTabla) {
       const tipo = categoriaActual === "general" ? "general" : `cat. ${categoriaActual}`;
-      $pred.innerHTML = `<strong>📊 Comparativa ${tipo}:</strong> ${nombreEquipo(DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
+      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
     } else {
       $pred.innerHTML = "";
     }
@@ -250,41 +255,47 @@ function renderProximoPartido() {
   }
 }
 
-// ---- Métricas ----
+// ---- Metricas ----
 function renderMetrics() {
   const tabla = obtenerTabla(categoriaActual);
   const $m = document.getElementById("metrics");
 
-  if (!tabla) { $m.innerHTML = ""; return; }
+  if (!tabla) {
+    $m.innerHTML = "";
+    return;
+  }
 
   const foco = tabla.find(t => t.equipo === DATA.equipo_foco);
-  if (!foco) { $m.innerHTML = ""; return; }
+  if (!foco) {
+    $m.innerHTML = "";
+    return;
+  }
 
   const efectividad = foco.pj > 0 ? Math.round(100 * foco.g / foco.pj) : 0;
   const partidos = partidosDelFoco(categoriaActual);
   const dif = partidos
-    .filter(p => p.jugado && p.gf != null && p.gc != null)
+    .filter(p => p.jugado)
     .reduce((acc, p) => acc + (p.gf - p.gc), 0);
 
   const difClass = dif > 0 ? "positive" : (dif < 0 ? "negative" : "");
   const difStr = dif > 0 ? `+${dif}` : String(dif);
 
   $m.innerHTML = `
-    <div class="metric">
-      <div class="metric-label">Posición</div>
-      <div class="metric-value">${foco.posicion}°<span class="metric-sub">/ ${tabla.length}</span></div>
+    <div class="stat-card">
+      <div class="stat-label">Posicion</div>
+      <div class="stat-value">${foco.posicion}<span class="stat-sub">/ ${tabla.length}</span></div>
     </div>
-    <div class="metric">
-      <div class="metric-label">Puntos</div>
-      <div class="metric-value">${foco.pts}<span class="metric-sub">en ${foco.pj}PJ</span></div>
+    <div class="stat-card">
+      <div class="stat-label">Puntos</div>
+      <div class="stat-value">${foco.pts}<span class="stat-sub">pts</span></div>
     </div>
-    <div class="metric">
-      <div class="metric-label">Efectividad</div>
-      <div class="metric-value">${efectividad}%</div>
+    <div class="stat-card">
+      <div class="stat-label">Efectividad</div>
+      <div class="stat-value">${efectividad}<span class="stat-sub">%</span></div>
     </div>
-    <div class="metric">
-      <div class="metric-label">Diferencia</div>
-      <div class="metric-value ${difClass}">${difStr}</div>
+    <div class="stat-card">
+      <div class="stat-label">Diferencia</div>
+      <div class="stat-value ${difClass}">${difStr}</div>
     </div>
   `;
 }
@@ -297,16 +308,14 @@ function renderForma() {
 
   const $row = document.getElementById("form-row");
   if (partidos.length === 0) {
-    $row.innerHTML = '<div class="form-empty">Aún no hay partidos jugados en esta categoría</div>';
+    $row.innerHTML = '<div class="form-empty">Aun no hay partidos jugados en esta categoria</div>';
     return;
   }
 
   $row.innerHTML = partidos.map(p => {
     const r = resultadoLetra(p);
-    if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    const scoreStr = (p.gf != null && p.gc != null) ? `${p.gf}-${p.gc}` : `${p.obsFoco || '-'}-${p.obsRival || '-'}`;
-    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${scoreStr}">${label}</span>`;
+    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${p.gf}-${p.gc}">${label}</span>`;
   }).join("");
 }
 
@@ -314,7 +323,10 @@ function renderForma() {
 function renderTabla() {
   const tabla = obtenerTabla(categoriaActual);
   const $t = document.getElementById("standings");
-  if (!tabla) { $t.innerHTML = ""; return; }
+  if (!tabla) {
+    $t.innerHTML = "";
+    return;
+  }
 
   $t.innerHTML = `
     <thead>
@@ -332,7 +344,7 @@ function renderTabla() {
       ${tabla.map(t => `
         <tr class="${t.equipo === DATA.equipo_foco ? 'highlight' : ''}">
           <td class="pos">${t.posicion}</td>
-          <td>${nombreEquipo(t.equipo)}</td>
+          <td><span class="team-col">${nombreEquipo(t.equipo)}</span></td>
           <td class="center">${t.pj ?? '-'}</td>
           <td class="center">${t.g ?? '-'}</td>
           <td class="center">${t.e ?? '-'}</td>
@@ -350,23 +362,21 @@ function renderHistorial() {
   const $list = document.getElementById("history-list");
 
   if (partidos.length === 0) {
-    $list.innerHTML = '<div class="form-empty">Aún no hay partidos jugados</div>';
+    $list.innerHTML = '<div class="form-empty">Aun no hay partidos jugados</div>';
     return;
   }
 
   $list.innerHTML = partidos.slice().reverse().map(p => {
     const r = resultadoLetra(p);
-    if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    const scoreStr = (p.gf != null && p.gc != null) ? `${p.gf}–${p.gc}` : `${p.obsFoco || '-'}–${p.obsRival || '-'}`;
     return `
       <div class="history-item">
         <span class="history-result ${r}">${label}</span>
         <div class="history-rival">
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
-          <span class="history-rival-meta">F${p.numero} · ${p.esLocal ? 'Local' : 'Visitante'}${p.observacion ? ' · ' + p.observacion : ''}</span>
+          <span class="history-rival-meta">F${p.numero} - ${p.esLocal ? 'Local' : 'Visitante'}${p.observacion ? ' - ' + p.observacion : ''}</span>
         </div>
-        <span class="history-score">${scoreStr}</span>
+        <span class="history-score">${p.gf} - ${p.gc}</span>
       </div>
     `;
   }).join('');
@@ -376,6 +386,7 @@ function renderHistorial() {
 function renderCalendario() {
   const partidos = partidosDelFoco(categoriaActual);
   const $list = document.getElementById("schedule");
+
   $list.innerHTML = partidos.map(p => {
     let direccionHTML = "";
     if (!p.jugado) {
@@ -383,23 +394,25 @@ function renderCalendario() {
       const sedeData = buscarEquipo(equipoSede);
       if (sedeData && sedeData.direccion) {
         const mapsUrl = "https://maps.google.com/?q=" + encodeURIComponent(`${sedeData.direccion}, ${sedeData.localidad}, Argentina`);
-        direccionHTML = `<a href="${mapsUrl}" target="_blank" rel="noopener" style="display: block; font-size: 11px; color: var(--text-muted); margin-top: 2px; text-decoration: none;">📍 ${sedeData.direccion}, ${sedeData.localidad}</a>`;
+        direccionHTML = `<a href="${mapsUrl}" target="_blank" rel="noopener" class="schedule-address">📍 ${sedeData.direccion}, ${sedeData.localidad}</a>`;
       }
     }
 
     return `
-    <div class="schedule-fecha ${p.jugado ? 'played' : ''}">
-      <span class="schedule-num">F${p.numero}</span>
-      <span style="display: flex; flex-direction: column; justify-content: center;">
-        <span>
-          <span class="schedule-rival">vs ${nombreEquipo(p.rival)}</span>
-          <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}</span>
-        </span>
-        ${direccionHTML}
-      </span>
-      <span class="schedule-date">${fechaCorta(p.fecha)}</span>
-    </div>
-  `}).join('');
+      <div class="schedule-item ${p.jugado ? 'played' : ''}">
+        <span class="schedule-num">F${p.numero}</span>
+        <div class="schedule-info">
+          <span class="schedule-rival">
+            vs ${nombreEquipo(p.rival)}
+            <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}</span>
+          </span>
+          ${direccionHTML}
+        </div>
+        <span class="schedule-date">${fechaCorta(p.fecha)}</span>
+      </div>
+    `;
+  }).join('');
 }
 
+// Iniciar
 init();
