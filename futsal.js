@@ -99,12 +99,20 @@ function futsalPartidosDelFoco(categoria) {
       } else {
         const p = enc.partidos[categoria];
         if (!p) continue;
+
+        // Si el encuentro ya finalizó pero esta categoría no tiene scores,
+        // significa que no participó (NP/walkover) — se marca como jugado
+        const encuentroFinalizado = enc.estado === "Finalizado";
+        const tieneScores = p.jugado;
+
         out.push({
           numero: fecha.numero, fecha: fecha.fecha_partido,
           rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
-          jugado: p.jugado, estado: enc.estado,
+          jugado: tieneScores || encuentroFinalizado,
+          noParticipo: encuentroFinalizado && !tieneScores,
+          estado: enc.estado,
         });
       }
     }
@@ -336,6 +344,18 @@ function futsalRenderHistorial() {
   }
 
   $list.innerHTML = partidos.slice().reverse().map(p => {
+    if (p.noParticipo) {
+      return `
+        <div class="history-item" style="opacity: 0.5">
+          <span class="history-result" style="background: var(--bg-alt); color: var(--text-muted)">NP</span>
+          <div class="history-rival">
+            <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
+            <span class="history-rival-meta">F${p.numero} - No participó</span>
+          </div>
+          <span class="history-score">-</span>
+        </div>
+      `;
+    }
     const r = futsalResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
@@ -363,7 +383,7 @@ function futsalRenderCalendario() {
       <div class="schedule-info">
         <span class="schedule-rival">
           vs ${nombreEquipo(p.rival)}
-          <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}</span>
+          <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}${p.noParticipo ? ' - NP' : ''}</span>
         </span>
       </div>
       <span class="schedule-date">${fechaCorta(p.fecha)}</span>
