@@ -161,7 +161,7 @@ def scrape():
                             "goles_local": gl,
                             "goles_visitante": gv,
                             "observacion": obs_l or obs_v,
-                            "jugado": gl is not None and gv is not None,
+                            "jugado": (gl is not None or obs_l is not None) and (gv is not None or obs_v is not None),
                         }
             i += 2
         else:
