@@ -112,14 +112,17 @@ function partidosDelFoco(categoria) {
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false, observ = null;
+        let obsFoco = null, obsRival = null;
         for (const cat of DATA.categorias) {
           const p = enc.partidos[String(cat)];
           if (p && p.jugado) {
             jugado = true;
-            gf += esLocal ? p.goles_local : p.goles_visitante;
-            gc += esLocal ? p.goles_visitante : p.goles_local;
+            gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
+            gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
           }
           if (p && p.observacion) observ = p.observacion;
+          if (p && p.observacion_local) obsFoco = esLocal ? p.observacion_local : p.observacion_visitante;
+          if (p && p.observacion_visitante) obsRival = esLocal ? p.observacion_visitante : p.observacion_local;
         }
         out.push({
           numero: fecha.numero,
@@ -127,6 +130,7 @@ function partidosDelFoco(categoria) {
           rival, esLocal,
           gf: jugado ? gf : null,
           gc: jugado ? gc : null,
+          obsFoco, obsRival,
           jugado,
           observacion: observ,
           estado: enc.estado,
@@ -140,6 +144,8 @@ function partidosDelFoco(categoria) {
           rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
+          obsFoco: esLocal ? p.observacion_local : p.observacion_visitante,
+          obsRival: esLocal ? p.observacion_visitante : p.observacion_local,
           jugado: p.jugado,
           observacion: p.observacion,
           estado: enc.estado,
@@ -151,10 +157,15 @@ function partidosDelFoco(categoria) {
 }
 
 function resultadoLetra(p) {
-  if (!p.jugado || p.gf == null) return null;
-  if (p.gf > p.gc) return "W";
-  if (p.gf < p.gc) return "L";
-  return "D";
+  if (!p.jugado) return null;
+  if (p.gf != null && p.gc != null) {
+    if (p.gf > p.gc) return "W";
+    if (p.gf < p.gc) return "L";
+    return "D";
+  }
+  if (p.obsFoco === "GP") return "W";
+  if (p.obsFoco === "NP" || p.obsFoco === "PP") return "L";
+  return null;
 }
 
 function nombreEquipo(nombre) {
@@ -252,7 +263,7 @@ function renderMetrics() {
   const efectividad = foco.pj > 0 ? Math.round(100 * foco.g / foco.pj) : 0;
   const partidos = partidosDelFoco(categoriaActual);
   const dif = partidos
-    .filter(p => p.jugado)
+    .filter(p => p.jugado && p.gf != null && p.gc != null)
     .reduce((acc, p) => acc + (p.gf - p.gc), 0);
 
   const difClass = dif > 0 ? "positive" : (dif < 0 ? "negative" : "");
@@ -292,8 +303,10 @@ function renderForma() {
 
   $row.innerHTML = partidos.map(p => {
     const r = resultadoLetra(p);
+    if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${p.gf}-${p.gc}">${label}</span>`;
+    const scoreStr = (p.gf != null && p.gc != null) ? `${p.gf}-${p.gc}` : `${p.obsFoco || '-'}-${p.obsRival || '-'}`;
+    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${scoreStr}">${label}</span>`;
   }).join("");
 }
 
@@ -343,7 +356,9 @@ function renderHistorial() {
 
   $list.innerHTML = partidos.slice().reverse().map(p => {
     const r = resultadoLetra(p);
+    if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
+    const scoreStr = (p.gf != null && p.gc != null) ? `${p.gf}–${p.gc}` : `${p.obsFoco || '-'}–${p.obsRival || '-'}`;
     return `
       <div class="history-item">
         <span class="history-result ${r}">${label}</span>
@@ -351,7 +366,7 @@ function renderHistorial() {
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
           <span class="history-rival-meta">F${p.numero} · ${p.esLocal ? 'Local' : 'Visitante'}${p.observacion ? ' · ' + p.observacion : ''}</span>
         </div>
-        <span class="history-score">${p.gf}–${p.gc}</span>
+        <span class="history-score">${scoreStr}</span>
       </div>
     `;
   }).join('');
