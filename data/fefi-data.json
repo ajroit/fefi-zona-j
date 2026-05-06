@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-06T17:43:11.211972+00:00",
+  "actualizado": "2026-05-06T17:48:08.818465+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -6083,5 +6083,1174 @@
       ]
     }
   ],
-  "tablas_posiciones": {}
+  "tablas_posiciones": {
+    "general": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 21,
+        "g": 17,
+        "e": 0,
+        "p": 4,
+        "pts": 55,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 21,
+        "g": 12,
+        "e": 2,
+        "p": 7,
+        "pts": 47,
+        "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 21,
+        "g": 12,
+        "e": 2,
+        "p": 7,
+        "pts": 47,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 21,
+        "g": 11,
+        "e": 1,
+        "p": 9,
+        "pts": 44,
+        "posicion": 4
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 21,
+        "g": 11,
+        "e": 0,
+        "p": 10,
+        "pts": 43,
+        "posicion": 5
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 21,
+        "g": 10,
+        "e": 1,
+        "p": 10,
+        "pts": 42,
+        "posicion": 6
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 21,
+        "g": 7,
+        "e": 4,
+        "p": 10,
+        "pts": 39,
+        "posicion": 7
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 14,
+        "g": 11,
+        "e": 0,
+        "p": 3,
+        "pts": 36,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 20,
+        "g": 7,
+        "e": 1,
+        "p": 12,
+        "pts": 35,
+        "posicion": 9
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 21,
+        "g": 8,
+        "e": 1,
+        "p": 8,
+        "pts": 34,
+        "posicion": 10
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 14,
+        "g": 6,
+        "e": 2,
+        "p": 6,
+        "pts": 28,
+        "posicion": 11
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 13,
+        "g": 7,
+        "e": 2,
+        "p": 3,
+        "pts": 28,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 14,
+        "g": 6,
+        "e": 0,
+        "p": 8,
+        "pts": 26,
+        "posicion": 13
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 4,
+        "e": 0,
+        "p": 9,
+        "pts": 21,
+        "posicion": 14
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 14,
+        "g": 0,
+        "e": 0,
+        "p": 14,
+        "pts": 14,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 7,
+        "g": 2,
+        "e": 0,
+        "p": 5,
+        "pts": 11,
+        "posicion": 16
+      }
+    ],
+    "2019": [
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 6
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 8
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 9
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 15
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "pts": 0,
+        "posicion": 16
+      }
+    ],
+    "2013": [
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 3
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 2,
+        "p": 0,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 9
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "pts": 3,
+        "posicion": 11
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 13
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 14
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 16
+      }
+    ],
+    "2018": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "pts": 4,
+        "posicion": 12
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2014": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 3
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 7
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2017": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 5
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 10
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2016": [
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 3
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 2,
+        "e": 1,
+        "p": 0,
+        "pts": 8,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 8
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 1,
+        "e": 1,
+        "p": 0,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 11
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "pts": 3,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 15
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 16
+      }
+    ],
+    "2015": [
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "pts": 9,
+        "posicion": 1
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAHORES",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 3
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 5
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "pts": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "pts": 6,
+        "posicion": 8
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 9
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 10
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 11
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
+        "pts": 4,
+        "posicion": 12
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 13
+      },
+      {
+        "equipo": "SANELI F.C.",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "pts": 2,
+        "posicion": 14
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "pts": 1,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL ATALAYA",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "pts": 0,
+        "posicion": 16
+      }
+    ]
+  }
 }
