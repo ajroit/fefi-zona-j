@@ -8,6 +8,7 @@ Uso:
 
 Salida: ../data/fefi-data.json (estructura completa del torneo)
 """
+from typing import Optional
 import json
 import re
 from datetime import datetime, timezone
@@ -32,7 +33,7 @@ MESES_ES = {
 EQUIPO_FOCO = "CLUB SAHORES"
 
 
-def parsear_fecha_es(texto: str) -> str | None:
+def parsear_fecha_es(texto: str) -> Optional[str]:
     """'Fecha 1 - 18 de Abril' -> '2026-04-18'"""
     m = re.search(r"(\d{1,2})\s*de\s*(\w+)", texto, re.IGNORECASE)
     if not m:
@@ -54,7 +55,7 @@ def parsear_gol(celda: str):
     return None, None
 
 
-def parsear_int(celda: str) -> int | None:
+def parsear_int(celda: str) -> Optional[int]:
     s = celda.strip()
     return int(s) if s.isdigit() else None
 
@@ -136,7 +137,10 @@ def scrape():
         if len(cl) >= 11 and cl[0].startswith("F") and cl[0][1:].isdigit():
             num_fecha = int(cl[0][1:])
             local = cl[1].upper()
-            visitante = cv[1].upper()
+            
+            offset_v = 0 if len(cv) < 11 else 1
+            visitante = cv[offset_v].upper()
+            
             estado_raw = cl[10].lower() if len(cl) > 10 else ""
             estado = estado_raw if estado_raw in ("verificado", "previo") else None
 
@@ -152,7 +156,7 @@ def scrape():
                     enc["estado"] = estado
                     for idx, cat in enumerate(CATEGORIAS):
                         gl, obs_l = parsear_gol(cl[2 + idx])
-                        gv, obs_v = parsear_gol(cv[2 + idx])
+                        gv, obs_v = parsear_gol(cv[1 + offset_v + idx])
                         enc["partidos"][str(cat)] = {
                             "goles_local": gl,
                             "goles_visitante": gv,
