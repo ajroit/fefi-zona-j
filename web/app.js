@@ -2,8 +2,6 @@
 // FEFI Zona J - Dashboard de Club Sahores
 // ==========================================
 
-// En producción (GitHub Pages): "data/fefi-data.json" (mismo nivel que index.html)
-// En desarrollo local desde /web/: prueba primero "../data/" y cae a "data/"
 const DATA_URL = "data/fefi-data.json";
 const CATEGORIAS_ORDEN = [2013, 2014, 2015, 2016, 2017, 2018, 2019];
 const STORAGE_KEY = "fefi-cat-preferida";
@@ -14,7 +12,6 @@ let categoriaActual = "general";
 // ---- Carga inicial ----
 async function init() {
   try {
-    // Intentar con path de producción y caer a path de desarrollo local
     let res = await fetch(DATA_URL);
     if (!res.ok) res = await fetch("../data/fefi-data.json");
     DATA = await res.json();
@@ -25,7 +22,6 @@ async function init() {
     return;
   }
 
-  // Recordar última categoría elegida
   const guardada = localStorage.getItem(STORAGE_KEY);
   if (guardada && (guardada === "general" || CATEGORIAS_ORDEN.includes(Number(guardada)))) {
     categoriaActual = guardada;
@@ -76,6 +72,15 @@ function renderCategorySelector() {
   });
 }
 
+// ---- Helper centralizado: busca la tabla con fallback seguro ----
+function obtenerTabla(cat) {
+  if (!DATA || !DATA.tablas_posiciones) return null;
+  const t = DATA.tablas_posiciones[String(cat)];
+  if (Array.isArray(t)) return t;
+  const general = DATA.tablas_posiciones.general;
+  return Array.isArray(general) ? general : null;
+}
+
 // ---- Render principal ----
 function render() {
   renderProximoPartido();
@@ -96,7 +101,6 @@ function render() {
 // ---- Helpers ----
 const ES_FOCO = (eq) => eq === DATA.equipo_foco;
 
-/** Devuelve los encuentros del equipo foco con campos derivados */
 function partidosDelFoco(categoria) {
   const out = [];
   for (const fecha of DATA.fechas) {
@@ -106,7 +110,6 @@ function partidosDelFoco(categoria) {
       const esLocal = ES_FOCO(enc.local);
       const rival = esLocal ? enc.visitante : enc.local;
 
-      // Si la categoría es 'general', sumamos por todas las categorías
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false, observ = null;
         for (const cat of DATA.categorias) {
@@ -121,8 +124,7 @@ function partidosDelFoco(categoria) {
         out.push({
           numero: fecha.numero,
           fecha: fecha.fecha_partido,
-          rival,
-          esLocal,
+          rival, esLocal,
           gf: jugado ? gf : null,
           gc: jugado ? gc : null,
           jugado,
@@ -135,8 +137,7 @@ function partidosDelFoco(categoria) {
         out.push({
           numero: fecha.numero,
           fecha: fecha.fecha_partido,
-          rival,
-          esLocal,
+          rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
           jugado: p.jugado,
@@ -163,7 +164,7 @@ function nombreEquipo(nombre) {
 }
 
 function buscarEquipo(nombre) {
-  return DATA.equipos.find(e => e.nombre === nombre);
+  return (DATA.equipos || []).find(e => e.nombre === nombre);
 }
 
 function fechaCorta(iso) {
@@ -208,7 +209,6 @@ function renderProximoPartido() {
     </div>
   `;
 
-  // Cancha del local
   const localData = buscarEquipo(local);
   let metaHTML = "";
   if (localData && localData.direccion) {
@@ -223,39 +223,31 @@ function renderProximoPartido() {
   }
   $meta.innerHTML = metaHTML;
 
-  // Análisis básico (posición de cada equipo)
-  if (categoriaActual !== "general") {
-    const tabla = DATA.tablas_posiciones[String(categoriaActual)];
-    if (tabla) {
-      const focoEnTabla = tabla.find(t => t.equipo === DATA.equipo_foco);
-      const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
-      if (focoEnTabla && rivalEnTabla) {
-        $pred.innerHTML = `<strong>📊 Comparativa:</strong> ${nombreEquipo(DATA.equipo_foco)} va ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} en ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
-      } else {
-        $pred.innerHTML = "";
-      }
-    } else { $pred.innerHTML = ""; }
-  } else {
-    const tabla = DATA.tablas_posiciones.general;
-    const foco = tabla.find(t => t.equipo === DATA.equipo_foco);
-    const rival = tabla.find(t => t.equipo === proximo.rival);
-    if (foco && rival) {
-      $pred.innerHTML = `<strong>📊 Comparativa general:</strong> ${nombreEquipo(DATA.equipo_foco)} ${foco.posicion}° (${foco.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rival.posicion}° (${rival.pts} pts)`;
+  // Comparativa entre los dos equipos
+  const tabla = obtenerTabla(categoriaActual);
+  if (tabla) {
+    const focoEnTabla = tabla.find(t => t.equipo === DATA.equipo_foco);
+    const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
+    if (focoEnTabla && rivalEnTabla) {
+      const tipo = categoriaActual === "general" ? "general" : `cat. ${categoriaActual}`;
+      $pred.innerHTML = `<strong>📊 Comparativa ${tipo}:</strong> ${nombreEquipo(DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
     } else {
       $pred.innerHTML = "";
     }
+  } else {
+    $pred.innerHTML = "";
   }
 }
 
 // ---- Métricas ----
 function renderMetrics() {
-  const tabla = DATA.tablas_posiciones[String(categoriaActual)] || DATA.tablas_posiciones.general;
-  const foco = tabla.find(t => t.equipo === DATA.equipo_foco);
+  const tabla = obtenerTabla(categoriaActual);
+  const $m = document.getElementById("metrics");
 
-  if (!foco) {
-    document.getElementById("metrics").innerHTML = "";
-    return;
-  }
+  if (!tabla) { $m.innerHTML = ""; return; }
+
+  const foco = tabla.find(t => t.equipo === DATA.equipo_foco);
+  if (!foco) { $m.innerHTML = ""; return; }
 
   const efectividad = foco.pj > 0 ? Math.round(100 * foco.g / foco.pj) : 0;
   const partidos = partidosDelFoco(categoriaActual);
@@ -266,7 +258,7 @@ function renderMetrics() {
   const difClass = dif > 0 ? "positive" : (dif < 0 ? "negative" : "");
   const difStr = dif > 0 ? `+${dif}` : String(dif);
 
-  document.getElementById("metrics").innerHTML = `
+  $m.innerHTML = `
     <div class="metric">
       <div class="metric-label">Posición</div>
       <div class="metric-value">${foco.posicion}°<span class="metric-sub">/ ${tabla.length}</span></div>
@@ -307,7 +299,7 @@ function renderForma() {
 
 // ---- Tabla de posiciones ----
 function renderTabla() {
-  const tabla = DATA.tablas_posiciones[String(categoriaActual)];
+  const tabla = obtenerTabla(categoriaActual);
   const $t = document.getElementById("standings");
   if (!tabla) { $t.innerHTML = ""; return; }
 
@@ -381,5 +373,4 @@ function renderCalendario() {
   `).join('');
 }
 
-// Arrancar
 init();
