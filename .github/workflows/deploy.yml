@@ -9,6 +9,12 @@ on:
       - 'data/**'
       - '.github/workflows/deploy.yml'
 
+  # Este es el fix: hace que se ejecute en cuanto termina el Scraper
+  workflow_run:
+    workflows: ["Scrape FEFI Zona J"]
+    types:
+      - completed
+
   workflow_dispatch:
 
 permissions:
