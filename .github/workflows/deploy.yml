@@ -1,13 +1,22 @@
 name: Deploy a GitHub Pages
 
 on:
-  # Cada vez que cambian web/ o data/ en main
+  # Cada vez que cambian los archivos del sitio en main
   push:
     branches: [main]
     paths:
-      - 'web/**'
+      - 'index.html'
+      - 'app.js'
+      - 'futsal.js'
+      - 'styles.css'
+      - 'images/**'
       - 'data/**'
       - '.github/workflows/deploy.yml'
+
+  workflow_run:
+    workflows: ["Scrape FEFI & Futsal"]
+    types:
+      - completed
 
   workflow_dispatch:
 
@@ -29,8 +38,9 @@ jobs:
 
       - name: Armar carpeta de publicación
         run: |
-          mkdir -p dist/data
-          cp -r web/* dist/
+          mkdir -p dist/data dist/images
+          cp index.html app.js futsal.js styles.css dist/
+          cp -r images/* dist/images/ 2>/dev/null || true
           cp data/fefi-data.json dist/data/
           cp data/futsal-data.json dist/data/
 

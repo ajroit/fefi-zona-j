@@ -1,9 +1,9 @@
-name: Scrape FEFI Zona J
+name: Scrape FEFI & Futsal
 
 on:
-  # Domingos 02:30 UTC (sábados 23:30 hora Argentina)
+  # Diario a las 04:00 UTC (01:00 hora Argentina)
   schedule:
-    - cron: '30 2 * * 0'
+    - cron: '0 4 * * *'
 
   # También dispara en cada push al scraper, para testear cambios
   push:
@@ -36,15 +36,18 @@ jobs:
       - name: Install deps
         run: pip install -r scraper/requirements.txt
 
-      - name: Run scraper
+      - name: Run FEFI scraper
         run: python scraper/scraper_fefi.py
+
+      - name: Run Futsal fetcher
+        run: python scraper/scraper_futsal.py
 
       - name: Commit & push si hay cambios
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/fefi-data.json)" ]]; then
-            git add data/fefi-data.json
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git add data/fefi-data.json data/futsal-data.json
             git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Datos actualizados"
