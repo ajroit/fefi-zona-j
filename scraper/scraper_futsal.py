@@ -172,6 +172,10 @@ def procesar_fixture(visualizer_data, categorias):
 
                 jugado = (score_h is not None and score_a is not None)
 
+                # Extraer fotos de planillas si existen
+                m_info = tm.get("matchInfo", {}) or {}
+                photos = m_info.get("spreadsheetPhotos", [])
+
                 partidos[cat_nombre] = {
                     "goles_local": score_h,
                     "goles_visitante": score_a,
@@ -180,6 +184,7 @@ def procesar_fixture(visualizer_data, categorias):
                     "fecha_hora": dt,
                     "sede": venue.get("name"),
                     "direccion": venue.get("address"),
+                    "planillas": photos,
                 }
 
             # Determinar si al menos un partido se jugó

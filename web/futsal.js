@@ -82,12 +82,19 @@ function futsalPartidosDelFoco(categoria) {
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
+        let out_sede = null, out_dir = null, out_hora = null;
         for (const cat of FUTSAL_DATA.categorias) {
           const p = enc.partidos[cat];
           if (p && p.jugado) {
             jugado = true;
             gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
             gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
+            // Para general, tomamos la sede/hora del primer partido encontrado
+            if (!out_sede) {
+              out_sede = p.sede;
+              out_dir = p.direccion;
+              out_hora = p.fecha_hora ? p.fecha_hora.split(" ")[1] : null;
+            }
           }
         }
         out.push({
@@ -95,6 +102,7 @@ function futsalPartidosDelFoco(categoria) {
           rival, esLocal,
           gf: jugado ? gf : null, gc: jugado ? gc : null,
           jugado, estado: enc.estado,
+          sede: out_sede, direccion: out_dir, hora: out_hora
         });
       } else {
         const p = enc.partidos[categoria];
@@ -113,6 +121,10 @@ function futsalPartidosDelFoco(categoria) {
           jugado: tieneScores || encuentroFinalizado,
           noParticipo: encuentroFinalizado && !tieneScores,
           estado: enc.estado,
+          sede: p.sede,
+          direccion: p.direccion,
+          hora: p.fecha_hora ? p.fecha_hora.split(" ")[1] : null,
+          planillas: p.planillas || []
         });
       }
     }
@@ -204,7 +216,8 @@ function futsalRenderProximoPartido() {
     return;
   }
 
-  $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha);
+  const horaStr = proximo.hora ? ` - ${proximo.hora} hs` : "";
+  $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha) + horaStr;
 
   const local = proximo.esLocal ? FUTSAL_DATA.equipo_foco : proximo.rival;
   const visit = proximo.esLocal ? proximo.rival : FUTSAL_DATA.equipo_foco;
@@ -221,8 +234,19 @@ function futsalRenderProximoPartido() {
     </div>
   `;
 
-  // No tenemos datos de dirección para equipos de futsal (viene de API, no del scraper)
-  $meta.innerHTML = "";
+  if (proximo.sede) {
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(proximo.sede + ' ' + (proximo.direccion || ''))}`;
+    $meta.innerHTML = `
+      <div class="match-location">
+        <span class="location-icon">📍</span>
+        <a href="${mapsUrl}" target="_blank" rel="noopener" class="location-link">
+          ${proximo.sede}${proximo.direccion ? ' (' + proximo.direccion + ')' : ''}
+        </a>
+      </div>
+    `;
+  } else {
+    $meta.innerHTML = "";
+  }
 
   // Comparativa
   const tabla = futsalObtenerTabla(futsalCategoriaActual);
@@ -359,6 +383,18 @@ function futsalRenderHistorial() {
     const r = futsalResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
+    
+    let planillaHtml = "";
+    if (p.planillas && p.planillas.length > 0) {
+      planillaHtml = `
+        <div class="history-actions">
+          <a href="${p.planillas[0]}" target="_blank" class="btn-planilla" title="Ver foto de la planilla">
+            📷 Planilla
+          </a>
+        </div>
+      `;
+    }
+
     return `
       <div class="history-item">
         <span class="history-result ${r}">${label}</span>
@@ -366,7 +402,10 @@ function futsalRenderHistorial() {
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
           <span class="history-rival-meta">F${p.numero} - ${p.esLocal ? 'Local' : 'Visitante'}</span>
         </div>
-        <span class="history-score">${p.gf} - ${p.gc}</span>
+        <div class="history-score-wrap">
+          <span class="history-score">${p.gf} - ${p.gc}</span>
+          ${planillaHtml}
+        </div>
       </div>
     `;
   }).join('');
@@ -377,18 +416,24 @@ function futsalRenderCalendario() {
   const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
   const $list = document.getElementById("schedule");
 
-  $list.innerHTML = partidos.map(p => `
-    <div class="schedule-item ${p.jugado ? 'played' : ''}">
-      <span class="schedule-num">F${p.numero}</span>
-      <div class="schedule-info">
-        <span class="schedule-rival">
-          vs ${nombreEquipo(p.rival)}
-          <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}${p.noParticipo ? ' - NP' : ''}</span>
-        </span>
+  $list.innerHTML = partidos.map(p => {
+    const horaStr = p.hora ? ` @ ${p.hora}` : "";
+    const sedeStr = p.sede ? `<div class="schedule-venue">${p.sede}</div>` : "";
+    
+    return `
+      <div class="schedule-item ${p.jugado ? 'played' : ''}">
+        <span class="schedule-num">F${p.numero}</span>
+        <div class="schedule-info">
+          <span class="schedule-rival">
+            vs ${nombreEquipo(p.rival)}
+            <span class="schedule-condition">${p.esLocal ? '(L)' : '(V)'}${p.noParticipo ? ' - NP' : ''}${horaStr}</span>
+          </span>
+          ${sedeStr}
+        </div>
+        <span class="schedule-date">${fechaCorta(p.fecha)}</span>
       </div>
-      <span class="schedule-date">${fechaCorta(p.fecha)}</span>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // ---- Activar futsal ----
