@@ -42,12 +42,15 @@ jobs:
       - name: Run Futsal fetcher
         run: python scraper/scraper_futsal.py
 
+      - name: Run Futsal Reducido fetcher
+        run: python scraper/scraper_futsal_reducido.py
+
       - name: Commit & push si hay cambios
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/fefi-data.json data/futsal-data.json
+            git add data/fefi-data.json data/futsal-data.json data/futsal-reducido-data.json
             git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Datos actualizados"
