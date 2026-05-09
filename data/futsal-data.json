@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-09T16:33:23.417303Z",
+  "actualizado": "2026-05-09T16:55:04.511254Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1168,13 +1168,13 @@
       {
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
-        "g": 6,
+        "pj": 8,
+        "g": 7,
         "e": 0,
         "p": 1,
-        "gf": 31,
-        "gc": 5,
-        "pts": 18
+        "gf": 39,
+        "gc": 6,
+        "pts": 21
       },
       {
         "posicion": 3,
@@ -1190,12 +1190,12 @@
       {
         "posicion": 4,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
         "e": 2,
-        "p": 0,
-        "gf": 27,
-        "gc": 9,
+        "p": 1,
+        "gf": 28,
+        "gc": 17,
         "pts": 17
       },
       {
@@ -2046,23 +2046,23 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 73,
-        "g": 57,
+        "pj": 74,
+        "g": 58,
         "e": 4,
         "p": 12,
-        "gf": 336,
-        "gc": 122,
-        "pts": 175,
+        "gf": 344,
+        "gc": 123,
+        "pts": 178,
         "posicion": 1
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 71,
+        "pj": 72,
         "g": 49,
         "e": 8,
-        "p": 14,
-        "gf": 344,
-        "gc": 141,
+        "p": 15,
+        "gf": 345,
+        "gc": 149,
         "pts": 155,
         "posicion": 2
       },
@@ -11009,16 +11009,6 @@
               "direccion": null,
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11096,6 +11086,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153945-1000488822.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153951-1000488821.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 8,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164039-1000488881.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164043-1000488880.jpg"
               ]
             }
           },
