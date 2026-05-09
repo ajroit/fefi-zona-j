@@ -15,12 +15,12 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # necesario para que el bot commitee data/fefi-data.json
+  contents: write   # necesario para que el bot commitee data/
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -36,6 +36,28 @@ jobs:
       - name: Install deps
         run: pip install -r scraper/requirements.txt
 
+      # Guardar los rivales actuales ANTES de scrapear
+      - name: Snapshot rivales actuales
+        id: pre-rivals
+        run: |
+          python3 -c "
+          import json
+          rivales = {}
+          for fname, tid in [
+              ('data/predictions.json', '__preds__'),
+          ]:
+              try:
+                  with open(fname) as f:
+                      data = json.load(f)
+                  for p in data.get('predicciones', []):
+                      key = p.get('torneo_id', '')
+                      if key not in rivales:
+                          rivales[key] = p.get('rival', '')
+              except: pass
+          print(','.join(f'{k}:{v}' for k, v in sorted(rivales.items())))
+          " > /tmp/pre_rivals.txt
+          echo "rivals=$(cat /tmp/pre_rivals.txt)" >> $GITHUB_OUTPUT
+
       - name: Run FEFI scraper
         run: python scraper/scraper_fefi.py
 
@@ -45,12 +67,73 @@ jobs:
       - name: Run Futsal Reducido fetcher
         run: python scraper/scraper_futsal_reducido.py
 
+      # Detectar los nuevos próximos rivales DESPUÉS de scrapear
+      - name: Detectar próximos rivales
+        id: post-rivals
+        run: |
+          python3 -c "
+          import json
+
+          def next_rival(fname, equipo_default):
+              try:
+                  with open(fname) as f:
+                      data = json.load(f)
+              except: return ''
+              equipo = data.get('equipo_foco', equipo_default)
+              matches = []
+              for fecha in data.get('fechas', []):
+                  for enc in fecha.get('encuentros', []):
+                      if equipo not in (enc.get('local',''), enc.get('visitante','')):
+                          continue
+                      es_local = enc['local'] == equipo
+                      rival = enc['visitante'] if es_local else enc['local']
+                      jugado = enc.get('estado') == 'Finalizado' or any(
+                          p.get('jugado') for p in enc.get('partidos', {}).values()
+                      )
+                      matches.append({'rival': rival, 'jugado': jugado})
+              last = -1
+              for i, m in enumerate(matches):
+                  if m['jugado']: last = i
+              for i, m in enumerate(matches):
+                  if not m['jugado'] and i > last:
+                      return m['rival']
+              return ''
+
+          rivales = {}
+          for fname, tid, foco in [
+              ('data/futsal-data.json', 'futsal', 'VILLA SAHORES'),
+              ('data/futsal-reducido-data.json', 'futsal-reducido', 'VILLA SAHORES'),
+              ('data/fefi-data.json', 'babyfutbol', 'CLUB SAHORES'),
+          ]:
+              r = next_rival(fname, foco)
+              if r: rivales[tid] = r
+          print(','.join(f'{k}:{v}' for k, v in sorted(rivales.items())))
+          " > /tmp/post_rivals.txt
+          echo "rivals=$(cat /tmp/post_rivals.txt)" >> $GITHUB_OUTPUT
+
+      # Comparar: si cambió algún rival, ejecutar predictor
+      - name: Ejecutar predictor si cambió el rival
+        if: ${{ steps.pre-rivals.outputs.rivals != steps.post-rivals.outputs.rivals }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "🔮 Rivales cambiaron!"
+          echo "   Antes: ${{ steps.pre-rivals.outputs.rivals }}"
+          echo "   Ahora: ${{ steps.post-rivals.outputs.rivals }}"
+          python scraper/predictor.py
+
+      - name: Info si no cambió
+        if: ${{ steps.pre-rivals.outputs.rivals == steps.post-rivals.outputs.rivals }}
+        run: |
+          echo "ℹ️ Mismos rivales, no se ejecuta predictor"
+          echo "   Rivales: ${{ steps.post-rivals.outputs.rivals }}"
+
       - name: Commit & push si hay cambios
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/fefi-data.json data/futsal-data.json data/futsal-reducido-data.json
+            git add data/
             git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Datos actualizados"

@@ -9,6 +9,8 @@ on:
       - 'app.js'
       - 'futsal.js'
       - 'futsal_reducido.js'
+      - 'predictions.html'
+      - 'predictions.js'
       - 'styles.css'
       - 'images/**'
       - 'data/**'
@@ -41,10 +43,12 @@ jobs:
         run: |
           mkdir -p dist/data dist/images
           cp index.html app.js futsal.js futsal_reducido.js styles.css dist/
+          cp predictions.html predictions.js dist/
           cp -r images/* dist/images/ 2>/dev/null || true
           cp data/fefi-data.json dist/data/
           cp data/futsal-data.json dist/data/
           cp data/futsal-reducido-data.json dist/data/
+          cp data/predictions.json dist/data/ 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
