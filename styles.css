@@ -122,7 +122,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.06);
   border-radius: var(--radius-full);
   padding: 4px;
-  max-width: 360px;
+  max-width: 600px;
 }
 
 .sport-btn {

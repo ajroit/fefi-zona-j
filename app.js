@@ -16,7 +16,7 @@ let deporteActual = "babyfutbol";
 async function init() {
   // Recuperar deporte preferido
   const savedSport = localStorage.getItem(SPORT_STORAGE_KEY);
-  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal")) {
+  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal" || savedSport === "futsal-reducido")) {
     deporteActual = savedSport;
   }
 
@@ -26,6 +26,8 @@ async function init() {
   // Cargar el deporte actual
   if (deporteActual === "futsal") {
     await switchToFutsal();
+  } else if (deporteActual === "futsal-reducido") {
+    await switchToFutsalReducido();
   } else {
     await switchToBabyFutbol();
   }
@@ -48,6 +50,8 @@ function setupSportSelector() {
 
       if (sport === "futsal") {
         await switchToFutsal();
+      } else if (sport === "futsal-reducido") {
+        await switchToFutsalReducido();
       } else {
         await switchToBabyFutbol();
       }
@@ -107,6 +111,20 @@ async function switchToFutsal() {
     'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
 
   await activarFutsal();
+}
+
+// ---- Cambio a Futsal Reducido ----
+async function switchToFutsalReducido() {
+  // Actualizar hero
+  document.getElementById("hero-subtitle").textContent = "Futsal - Reducido";
+  document.getElementById("badge-label").textContent = "Torneo Joma 2026";
+  document.getElementById("badge-zona").textContent = "Zona A";
+
+  // Actualizar footer
+  document.getElementById("footer-credits").innerHTML =
+    'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
+
+  await activarFutsalReducido();
 }
 
 // =============================================

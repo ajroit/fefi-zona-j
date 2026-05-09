@@ -1,16 +1,16 @@
 // ==========================================
-// Futsal Liga de Honor B - Dashboard Villa Sahores
+// Futsal Reducido Zona A - Dashboard Villa Sahores
 // Matches the root index.html design system
 // ==========================================
 
-const FUTSAL_DATA_URL = "data/futsal-data.json";
-const FUTSAL_STORAGE_KEY = "futsal-cat-preferida";
+const FUTSAL_RED_DATA_URL = "data/futsal-reducido-data.json";
+const FUTSAL_RED_STORAGE_KEY = "futsal-red-cat-preferida";
 
-let FUTSAL_DATA = null;
-let futsalCategoriaActual = "general";
+let FUTSAL_RED_DATA = null;
+let futsalRedCategoriaActual = "general";
 
 // Orden de prioridad de categorías para mostrar
-const FUTSAL_CAT_PRIORIDAD = [
+const FUTSAL_RED_CAT_PRIORIDAD = [
   "PRIMERA MASCULINO",
   "TERCERA MASCULINO",
   "CUARTA MASCULINO",
@@ -18,14 +18,10 @@ const FUTSAL_CAT_PRIORIDAD = [
   "SEXTA MASCULINO",
   "SEPTIMA MASCULINO",
   "OCTAVA MASCULINO",
-  "2016 PROMOCIONALES",
-  "2017 PROMOCIONALES",
-  "2018 PROMOCIONALES",
-  "2019 PROMOCIONALES",
 ];
 
 // Labels cortos para los botones de categoría
-const FUTSAL_CAT_LABELS = {
+const FUTSAL_RED_CAT_LABELS = {
   "PRIMERA MASCULINO": "1ra",
   "TERCERA MASCULINO": "3ra",
   "CUARTA MASCULINO": "4ta",
@@ -33,57 +29,53 @@ const FUTSAL_CAT_LABELS = {
   "SEXTA MASCULINO": "6ta",
   "SEPTIMA MASCULINO": "7ma",
   "OCTAVA MASCULINO": "8va",
-  "2016 PROMOCIONALES": "2016",
-  "2017 PROMOCIONALES": "2017",
-  "2018 PROMOCIONALES": "2018",
-  "2019 PROMOCIONALES": "2019",
 };
 
 // ---- Carga de datos ----
-async function initFutsal() {
-  if (FUTSAL_DATA) return FUTSAL_DATA;
+async function initFutsalRed() {
+  if (FUTSAL_RED_DATA) return FUTSAL_RED_DATA;
 
   try {
-    let res = await fetch(FUTSAL_DATA_URL);
-    if (!res.ok) res = await fetch("../data/futsal-data.json");
-    FUTSAL_DATA = await res.json();
+    let res = await fetch(FUTSAL_RED_DATA_URL);
+    if (!res.ok) res = await fetch("../data/futsal-reducido-data.json");
+    FUTSAL_RED_DATA = await res.json();
   } catch (err) {
-    console.error("Error cargando datos Futsal:", err);
+    console.error("Error cargando datos Futsal Reducido:", err);
     return null;
   }
 
-  const guardada = localStorage.getItem(FUTSAL_STORAGE_KEY);
-  if (guardada && (guardada === "general" || FUTSAL_DATA.categorias.includes(guardada))) {
-    futsalCategoriaActual = guardada;
+  const guardada = localStorage.getItem(FUTSAL_RED_STORAGE_KEY);
+  if (guardada && (guardada === "general" || FUTSAL_RED_DATA.categorias.includes(guardada))) {
+    futsalRedCategoriaActual = guardada;
   }
 
-  return FUTSAL_DATA;
+  return FUTSAL_RED_DATA;
 }
 
 // ---- Helpers ----
-const FUTSAL_ES_FOCO = (eq) => eq === FUTSAL_DATA.equipo_foco;
+const FUTSAL_RED_ES_FOCO = (eq) => eq === FUTSAL_RED_DATA.equipo_foco;
 
-function futsalObtenerTabla(cat) {
-  if (!FUTSAL_DATA || !FUTSAL_DATA.tablas_posiciones) return null;
+function futsalRedObtenerTabla(cat) {
+  if (!FUTSAL_RED_DATA || !FUTSAL_RED_DATA.tablas_posiciones) return null;
   if (cat === "general") {
-    return FUTSAL_DATA.tablas_posiciones.general || null;
+    return FUTSAL_RED_DATA.tablas_posiciones.general || null;
   }
-  return FUTSAL_DATA.tablas_posiciones[cat] || null;
+  return FUTSAL_RED_DATA.tablas_posiciones[cat] || null;
 }
 
-function futsalPartidosDelFoco(categoria) {
+function futsalRedPartidosDelFoco(categoria) {
   const out = [];
-  for (const fecha of FUTSAL_DATA.fechas) {
+  for (const fecha of FUTSAL_RED_DATA.fechas) {
     for (const enc of fecha.encuentros) {
-      if (!FUTSAL_ES_FOCO(enc.local) && !FUTSAL_ES_FOCO(enc.visitante)) continue;
+      if (!FUTSAL_RED_ES_FOCO(enc.local) && !FUTSAL_RED_ES_FOCO(enc.visitante)) continue;
 
-      const esLocal = FUTSAL_ES_FOCO(enc.local);
+      const esLocal = FUTSAL_RED_ES_FOCO(enc.local);
       const rival = esLocal ? enc.visitante : enc.local;
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
         let out_sede = null, out_dir = null, out_hora = null;
-        for (const cat of FUTSAL_DATA.categorias) {
+        for (const cat of FUTSAL_RED_DATA.categorias) {
           const p = enc.partidos[cat];
           if (p && p.jugado) {
             jugado = true;
@@ -132,7 +124,7 @@ function futsalPartidosDelFoco(categoria) {
   return out;
 }
 
-function futsalResultadoLetra(p) {
+function futsalRedResultadoLetra(p) {
   if (!p.jugado || p.gf == null) return null;
   if (p.gf > p.gc) return "W";
   if (p.gf < p.gc) return "L";
@@ -140,67 +132,67 @@ function futsalResultadoLetra(p) {
 }
 
 // ---- Render header ----
-function futsalRenderHeader() {
+function futsalRedRenderHeader() {
   document.getElementById("updated").textContent =
     "Actualizado: " + new Intl.DateTimeFormat("es-AR", {
       day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit",
       timeZone: "America/Argentina/Buenos_Aires"
-    }).format(new Date(FUTSAL_DATA.actualizado));
+    }).format(new Date(FUTSAL_RED_DATA.actualizado));
 }
 
 // ---- Render selector de categorías ----
-function futsalRenderCategorySelector() {
+function futsalRedRenderCategorySelector() {
   const wrap = document.getElementById("cat-selector");
   const opts = [{ key: "general", label: "General" }];
-  FUTSAL_CAT_PRIORIDAD.forEach(c => {
-    if (FUTSAL_DATA.categorias.includes(c)) {
-      opts.push({ key: c, label: FUTSAL_CAT_LABELS[c] || c });
+  FUTSAL_RED_CAT_PRIORIDAD.forEach(c => {
+    if (FUTSAL_RED_DATA.categorias.includes(c)) {
+      opts.push({ key: c, label: FUTSAL_RED_CAT_LABELS[c] || c });
     }
   });
 
   wrap.innerHTML = opts.map(o =>
-    `<button class="cat-btn ${o.key === futsalCategoriaActual ? "active" : ""}"
+    `<button class="cat-btn ${o.key === futsalRedCategoriaActual ? "active" : ""}"
              data-cat="${o.key}"
              role="tab"
-             aria-selected="${o.key === futsalCategoriaActual}">
+             aria-selected="${o.key === futsalRedCategoriaActual}">
        ${o.label}
      </button>`
   ).join("");
 
   wrap.querySelectorAll(".cat-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      futsalCategoriaActual = btn.dataset.cat;
-      localStorage.setItem(FUTSAL_STORAGE_KEY, futsalCategoriaActual);
+      futsalRedCategoriaActual = btn.dataset.cat;
+      localStorage.setItem(FUTSAL_RED_STORAGE_KEY, futsalRedCategoriaActual);
       wrap.querySelectorAll(".cat-btn").forEach(b => {
-        const active = b.dataset.cat === futsalCategoriaActual;
+        const active = b.dataset.cat === futsalRedCategoriaActual;
         b.classList.toggle("active", active);
         b.setAttribute("aria-selected", active);
       });
-      futsalRender();
+      futsalRedRender();
     });
   });
 }
 
 // ---- Render principal ----
-function futsalRender() {
-  futsalRenderProximoPartido();
-  futsalRenderMetrics();
-  futsalRenderForma();
-  futsalRenderTabla();
-  futsalRenderHistorial();
-  futsalRenderCalendario();
+function futsalRedRender() {
+  futsalRedRenderProximoPartido();
+  futsalRedRenderMetrics();
+  futsalRedRenderForma();
+  futsalRedRenderTabla();
+  futsalRedRenderHistorial();
+  futsalRedRenderCalendario();
 
-  const tag = futsalCategoriaActual === "general"
+  const tag = futsalRedCategoriaActual === "general"
     ? "Acumulado"
-    : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
+    : FUTSAL_RED_CAT_LABELS[futsalRedCategoriaActual] || futsalRedCategoriaActual;
   document.getElementById("form-cat-tag").textContent = tag;
   document.getElementById("table-cat-tag").textContent = tag;
   document.getElementById("history-cat-tag").textContent = tag;
 }
 
 // ---- Próximo partido ----
-function futsalRenderProximoPartido() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
+function futsalRedRenderProximoPartido() {
+  const partidos = futsalRedPartidosDelFoco(futsalRedCategoriaActual);
   // Buscar el próximo partido real: el primer no-jugado DESPUÉS del último jugado
   // (evita mostrar fechas pasadas que quedaron "Programado" / postergadas)
   const lastPlayedIdx = partidos.reduce((acc, p, i) => p.jugado ? i : acc, -1);
@@ -222,17 +214,17 @@ function futsalRenderProximoPartido() {
   const horaStr = proximo.hora ? ` - ${proximo.hora} hs` : "";
   $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha) + horaStr;
 
-  const local = proximo.esLocal ? FUTSAL_DATA.equipo_foco : proximo.rival;
-  const visit = proximo.esLocal ? proximo.rival : FUTSAL_DATA.equipo_foco;
+  const local = proximo.esLocal ? FUTSAL_RED_DATA.equipo_foco : proximo.rival;
+  const visit = proximo.esLocal ? proximo.rival : FUTSAL_RED_DATA.equipo_foco;
 
   $teams.innerHTML = `
     <div class="team-block">
-      <div class="team-name ${local === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(local)}</div>
+      <div class="team-name ${local === FUTSAL_RED_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(local)}</div>
       <div class="team-condition">Local</div>
     </div>
     <div class="vs-badge">VS</div>
     <div class="team-block">
-      <div class="team-name ${visit === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(visit)}</div>
+      <div class="team-name ${visit === FUTSAL_RED_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(visit)}</div>
       <div class="team-condition">Visitante</div>
     </div>
   `;
@@ -252,13 +244,13 @@ function futsalRenderProximoPartido() {
   }
 
   // Comparativa
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+  const tabla = futsalRedObtenerTabla(futsalRedCategoriaActual);
   if (tabla) {
-    const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_DATA.equipo_foco);
+    const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_RED_DATA.equipo_foco);
     const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
     if (focoEnTabla && rivalEnTabla) {
-      const tipo = futsalCategoriaActual === "general" ? "general" : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
-      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
+      const tipo = futsalRedCategoriaActual === "general" ? "general" : FUTSAL_RED_CAT_LABELS[futsalRedCategoriaActual] || futsalRedCategoriaActual;
+      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_RED_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
     } else {
       $pred.innerHTML = "";
     }
@@ -268,13 +260,13 @@ function futsalRenderProximoPartido() {
 }
 
 // ---- Métricas ----
-function futsalRenderMetrics() {
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+function futsalRedRenderMetrics() {
+  const tabla = futsalRedObtenerTabla(futsalRedCategoriaActual);
   const $m = document.getElementById("metrics");
 
   if (!tabla) { $m.innerHTML = ""; return; }
 
-  const foco = tabla.find(t => t.equipo === FUTSAL_DATA.equipo_foco);
+  const foco = tabla.find(t => t.equipo === FUTSAL_RED_DATA.equipo_foco);
   if (!foco) { $m.innerHTML = ""; return; }
 
   const efectividad = foco.pj > 0 ? Math.round(100 * foco.g / foco.pj) : 0;
@@ -303,8 +295,8 @@ function futsalRenderMetrics() {
 }
 
 // ---- Forma reciente ----
-function futsalRenderForma() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual)
+function futsalRedRenderForma() {
+  const partidos = futsalRedPartidosDelFoco(futsalRedCategoriaActual)
     .filter(p => p.jugado)
     .slice(-5);
 
@@ -315,7 +307,7 @@ function futsalRenderForma() {
   }
 
   $row.innerHTML = partidos.map(p => {
-    const r = futsalResultadoLetra(p);
+    const r = futsalRedResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
     return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${p.gf}-${p.gc}">${label}</span>`;
@@ -323,8 +315,8 @@ function futsalRenderForma() {
 }
 
 // ---- Tabla de posiciones ----
-function futsalRenderTabla() {
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+function futsalRedRenderTabla() {
+  const tabla = futsalRedObtenerTabla(futsalRedCategoriaActual);
   const $t = document.getElementById("standings");
   if (!tabla) { $t.innerHTML = ""; return; }
 
@@ -344,7 +336,7 @@ function futsalRenderTabla() {
     </thead>
     <tbody>
       ${tabla.map(t => `
-        <tr class="${t.equipo === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">
+        <tr class="${t.equipo === FUTSAL_RED_DATA.equipo_foco ? 'highlight' : ''}">
           <td class="pos">${t.posicion}</td>
           <td><span class="team-col">${nombreEquipo(t.equipo)}</span></td>
           <td class="center">${t.pj}</td>
@@ -361,8 +353,8 @@ function futsalRenderTabla() {
 }
 
 // ---- Historial ----
-function futsalRenderHistorial() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual).filter(p => p.jugado);
+function futsalRedRenderHistorial() {
+  const partidos = futsalRedPartidosDelFoco(futsalRedCategoriaActual).filter(p => p.jugado);
   const $list = document.getElementById("history-list");
 
   if (partidos.length === 0) {
@@ -383,7 +375,7 @@ function futsalRenderHistorial() {
         </div>
       `;
     }
-    const r = futsalResultadoLetra(p);
+    const r = futsalRedResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
     
@@ -415,8 +407,8 @@ function futsalRenderHistorial() {
 }
 
 // ---- Calendario ----
-function futsalRenderCalendario() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
+function futsalRedRenderCalendario() {
+  const partidos = futsalRedPartidosDelFoco(futsalRedCategoriaActual);
   const $list = document.getElementById("schedule");
 
   $list.innerHTML = partidos.map(p => {
@@ -439,15 +431,15 @@ function futsalRenderCalendario() {
   }).join('');
 }
 
-// ---- Activar futsal ----
-async function activarFutsal() {
-  const data = await initFutsal();
+// ---- Activar futsal reducido ----
+async function activarFutsalReducido() {
+  const data = await initFutsalRed();
   if (!data) {
     document.querySelector("main").innerHTML =
-      `<div class="loading">No se pudieron cargar los datos de Futsal. Reintenta en unos minutos.</div>`;
+      `<div class="loading">No se pudieron cargar los datos de Futsal Reducido. Reintenta en unos minutos.</div>`;
     return;
   }
-  futsalRenderHeader();
-  futsalRenderCategorySelector();
-  futsalRender();
+  futsalRedRenderHeader();
+  futsalRedRenderCategorySelector();
+  futsalRedRender();
 }
