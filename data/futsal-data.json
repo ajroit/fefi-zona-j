@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-09T17:08:25.071042Z",
+  "actualizado": "2026-05-09T18:35:44.996964Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -811,6 +811,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 8,
+        "g": 7,
+        "e": 0,
+        "p": 1,
+        "gf": 36,
+        "gc": 7,
+        "pts": 21
+      },
+      {
+        "posicion": 3,
         "equipo": "LUNA DE MATANZA",
         "pj": 7,
         "g": 6,
@@ -818,17 +829,6 @@
         "p": 1,
         "gf": 40,
         "gc": 17,
-        "pts": 18
-      },
-      {
-        "posicion": 3,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 7,
-        "g": 6,
-        "e": 0,
-        "p": 1,
-        "gf": 28,
-        "gc": 6,
         "pts": 18
       },
       {
@@ -889,12 +889,12 @@
       {
         "posicion": 9,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 0,
-        "p": 4,
-        "gf": 14,
-        "gc": 21,
+        "p": 5,
+        "gf": 15,
+        "gc": 29,
         "pts": 9
       },
       {
@@ -989,24 +989,24 @@
       },
       {
         "posicion": 2,
-        "equipo": "MARCHIGIANA",
-        "pj": 7,
-        "g": 6,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 8,
+        "g": 7,
         "e": 0,
         "p": 1,
-        "gf": 36,
-        "gc": 9,
-        "pts": 18
+        "gf": 29,
+        "gc": 6,
+        "pts": 21
       },
       {
         "posicion": 3,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "equipo": "MARCHIGIANA",
+        "pj": 8,
         "g": 6,
         "e": 0,
-        "p": 1,
-        "gf": 25,
-        "gc": 6,
+        "p": 2,
+        "gf": 36,
+        "gc": 13,
         "pts": 18
       },
       {
@@ -2046,23 +2046,23 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 74,
-        "g": 58,
+        "pj": 76,
+        "g": 60,
         "e": 4,
         "p": 12,
-        "gf": 344,
-        "gc": 123,
-        "pts": 178,
+        "gf": 356,
+        "gc": 124,
+        "pts": 184,
         "posicion": 1
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 72,
+        "pj": 74,
         "g": 49,
         "e": 8,
-        "p": 15,
-        "gf": 345,
-        "gc": 149,
+        "p": 17,
+        "gf": 346,
+        "gc": 161,
         "pts": 155,
         "posicion": 2
       },
