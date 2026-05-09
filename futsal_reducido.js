@@ -243,46 +243,20 @@ function futsalRedRenderProximoPartido() {
     $meta.innerHTML = "";
   }
 
-  // Comparativa + Bajada AI
-  let predHtml = "";
+  // Comparativa
   const tabla = futsalRedObtenerTabla(futsalRedCategoriaActual);
   if (tabla) {
     const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_RED_DATA.equipo_foco);
     const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
     if (focoEnTabla && rivalEnTabla) {
       const tipo = futsalRedCategoriaActual === "general" ? "general" : FUTSAL_RED_CAT_LABELS[futsalRedCategoriaActual] || futsalRedCategoriaActual;
-      predHtml = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_RED_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
+      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_RED_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
+    } else {
+      $pred.innerHTML = "";
     }
+  } else {
+    $pred.innerHTML = "";
   }
-
-  // Cargar bajada AI
-  futsalRedLoadBajada(proximo, futsalRedCategoriaActual).then(bajada => {
-    if (bajada) {
-      predHtml += `<div class="ai-bajada"><span class="ai-bajada-icon">🤖</span> ${bajada}</div>`;
-    }
-    $pred.innerHTML = predHtml;
-  });
-  $pred.innerHTML = predHtml;
-}
-
-// ---- Bajada AI ----
-let _futsalRedPredictions = null;
-async function futsalRedLoadBajada(proximo, categoria) {
-  if (!_futsalRedPredictions) {
-    try {
-      let res = await fetch("data/predictions.json");
-      if (!res.ok) res = await fetch("../data/predictions.json");
-      _futsalRedPredictions = await res.json();
-    } catch { return null; }
-  }
-  const preds = _futsalRedPredictions?.predicciones || [];
-  const match = preds.find(p =>
-    p.torneo_id === "futsal-reducido" &&
-    p.fecha_num === proximo.numero &&
-    p.rival === proximo.rival &&
-    (categoria === "general" || p.categoria === categoria)
-  );
-  return match?.bajada || null;
 }
 
 // ---- Métricas ----

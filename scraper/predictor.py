@@ -190,7 +190,6 @@ REGLAS:
 - Cada categoría es un partido independiente (1 gol = 1 gol)
 - Considerá posición, forma, gol diferencia
 - Sé realista con equipos en mala racha
-- La "bajada" es un subtítulo de diario deportivo: breve, enganchante, con dato clave
 
 DATOS:
 {bloque}
@@ -207,8 +206,7 @@ Respondé SOLO con un array JSON (sin markdown):
     "prob_empate": <0-100>,
     "prob_derrota": <0-100>,
     "confianza": <0-100>,
-    "razon": "<1 oración técnica>",
-    "bajada": "<subtítulo periodístico de 10-15 palabras, estilo Olé o TyC Sports>"
+    "razon": "<1 oración>"
   }}
 ]
 """
