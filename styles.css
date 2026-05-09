@@ -114,6 +114,13 @@ a:hover {
   background: var(--brand-black);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.sport-selector::-webkit-scrollbar {
+  display: none;
 }
 
 .sport-selector-row {
@@ -123,10 +130,12 @@ a:hover {
   border-radius: var(--radius-full);
   padding: 4px;
   max-width: 600px;
+  width: fit-content;
+  min-width: 0;
 }
 
 .sport-btn {
-  flex: 1;
+  flex: 1 0 auto;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
@@ -148,6 +157,21 @@ a:hover {
   background: var(--brand-green);
   color: white;
   box-shadow: 0 2px 8px rgba(26, 140, 74, 0.4);
+}
+
+@media (max-width: 600px) {
+  .sport-selector {
+    padding: 8px 0;
+  }
+
+  .sport-selector-row {
+    max-width: none;
+  }
+
+  .sport-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
 }
 
 /* Utility: hide on mobile */

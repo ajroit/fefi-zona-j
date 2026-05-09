@@ -1,0 +1,84 @@
+{
+  "actualizado": "2026-05-09T17:06:00.312775Z",
+  "equipo_foco": "VILLA SAHORES",
+  "predicciones": [
+    {
+      "fecha_num": 8,
+      "rival": "PEDRO LOZANO",
+      "torneo_id": "Futsal Liga de Honor B",
+      "prediccion": "derrota",
+      "score_foco": 15,
+      "score_rival": 35,
+      "prob_victoria": 10,
+      "prob_empate": 15,
+      "prob_derrota": 75,
+      "confianza": 85,
+      "razon": "Villa Sahores viene de una racha muy negativa con goleadas en contra. Pedro Lozano, aunque de forma irregular, se encuentra en una posición superior en la tabla y muestra mayor capacidad goleadora."
+    },
+    {
+      "fecha_num": 9,
+      "rival": "ATENEO HAEDO",
+      "torneo_id": "Futsal Liga de Honor B",
+      "prediccion": "derrota",
+      "score_foco": 14,
+      "score_rival": 38,
+      "prob_victoria": 10,
+      "prob_empate": 10,
+      "prob_derrota": 80,
+      "confianza": 90,
+      "razon": "Ateneo Haedo está mejor posicionado y tiene un promedio de gol superior. La forma reciente de Villa Sahores es alarmante, perdiendo la mayoría de sus partidos por amplios márgenes."
+    },
+    {
+      "fecha_num": 10,
+      "rival": "MARCHIGIANA",
+      "torneo_id": "Futsal Liga de Honor B",
+      "prediccion": "derrota",
+      "score_foco": 10,
+      "score_rival": 50,
+      "prob_victoria": 0,
+      "prob_empate": 5,
+      "prob_derrota": 95,
+      "confianza": 98,
+      "razon": "Marchigiana es un equipo de élite en la liga, en una racha perfecta de victorias con goleadas. La diferencia de nivel es abismal, incluso la localía no será suficiente para Villa Sahores."
+    },
+    {
+      "fecha_num": 8,
+      "rival": "BRISAS DE HAEDO",
+      "torneo_id": "Futsal Reducido Zona A",
+      "prediccion": "derrota",
+      "score_foco": 18,
+      "score_rival": 32,
+      "prob_victoria": 10,
+      "prob_empate": 20,
+      "prob_derrota": 70,
+      "confianza": 80,
+      "razon": "Brisas de Haedo se encuentra en una posición media de tabla con mejor rendimiento general y diferencia de gol positiva. Villa Sahores arrastra una racha de derrotas muy pronunciada."
+    },
+    {
+      "fecha_num": 9,
+      "rival": "INDEPENDIENTE (C)",
+      "torneo_id": "Futsal Reducido Zona A",
+      "prediccion": "victoria",
+      "score_foco": 25,
+      "score_rival": 18,
+      "prob_victoria": 55,
+      "prob_empate": 30,
+      "prob_derrota": 15,
+      "confianza": 70,
+      "razon": "Este es el partido más accesible para Villa Sahores, enfrentando al último de la tabla. A pesar de su mala forma, juegan de local y el rival presenta números aún peores y una defensa muy vulnerable."
+    },
+    {
+      "fecha_num": 10,
+      "rival": "CRISOL JUVENTUD",
+      "torneo_id": "Futsal Reducido Zona A",
+      "prediccion": "victoria",
+      "score_foco": 22,
+      "score_rival": 19,
+      "prob_victoria": 45,
+      "prob_empate": 35,
+      "prob_derrota": 20,
+      "confianza": 65,
+      "razon": "Ambos equipos están en la parte baja de la tabla, pero Villa Sahores tiene una ligera ventaja en puntos y diferencia de gol. Crisol Juventud también arrastra una racha de derrotas severas, ofreciendo una oportunidad para Villa Sahores."
+    }
+  ]
+}

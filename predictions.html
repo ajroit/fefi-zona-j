@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Villa Sahores - Predicciones AI</title>
+  <link rel="icon" type="image/jpeg" href="images/logo-sahores.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ─── Predictions-specific styles ─── */
+    .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: var(--radius-full);
+      animation: shimmer 3s ease infinite;
+    }
+
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.85; }
+    }
+
+    .predictions-hero {
+      text-align: center;
+      padding: 48px 0 32px;
+    }
+
+    .predictions-hero h1 {
+      font-size: 32px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 0%, #a3a3a3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .predictions-hero p {
+      color: rgba(255,255,255,0.5);
+      font-size: 14px;
+    }
+
+    .predictions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 20px;
+      padding: 0 24px 48px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pred-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .pred-card:hover {
+      border-color: rgba(99, 102, 241, 0.5);
+      box-shadow: 0 8px 32px rgba(99, 102, 241, 0.12);
+      transform: translateY(-2px);
+    }
+
+    .pred-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-alt);
+    }
+
+    .pred-torneo {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .pred-fecha-num {
+      font-size: 12px;
+      font-weight: 700;
+      color: #a855f7;
+      background: rgba(168, 85, 247, 0.1);
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+    }
+
+    .pred-matchup {
+      padding: 24px 20px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .pred-team {
+      text-align: center;
+    }
+
+    .pred-team-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .pred-team-name.foco {
+      color: var(--brand-green);
+    }
+
+    .pred-team-condition {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .pred-score-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pred-score-num {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 800;
+      border-radius: var(--radius-sm);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pred-score-num.foco {
+      background: rgba(26, 140, 74, 0.15);
+      color: var(--brand-green);
+    }
+
+    .pred-score-num.rival {
+      background: var(--bg-alt);
+      color: var(--text);
+    }
+
+    .pred-score-sep {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    /* Result indicator */
+    .pred-result-strip {
+      height: 4px;
+      width: 100%;
+    }
+    .pred-result-strip.victoria { background: linear-gradient(90deg, var(--brand-green), #22c55e); }
+    .pred-result-strip.empate { background: linear-gradient(90deg, #eab308, #facc15); }
+    .pred-result-strip.derrota { background: linear-gradient(90deg, #dc2626, #ef4444); }
+
+    /* Probability bars */
+    .pred-probs {
+      padding: 16px 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .prob-col {
+      flex: 1;
+      text-align: center;
+    }
+
+    .prob-label {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .prob-bar-wrap {
+      height: 6px;
+      background: var(--bg-alt);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 4px;
+    }
+
+    .prob-bar {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 1s ease;
+    }
+
+    .prob-bar.win { background: var(--brand-green); }
+    .prob-bar.draw { background: #eab308; }
+    .prob-bar.lose { background: #dc2626; }
+
+    .prob-value {
+      font-size: 16px;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .prob-value.win { color: var(--brand-green); }
+    .prob-value.draw { color: #eab308; }
+    .prob-value.lose { color: #dc2626; }
+
+    /* Confidence meter */
+    .pred-confidence {
+      padding: 0 20px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .conf-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .conf-track {
+      flex: 1;
+      height: 4px;
+      background: var(--bg-alt);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .conf-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: linear-gradient(90deg, #6366f1, #a855f7);
+      transition: width 1.2s ease;
+    }
+
+    .conf-value {
+      font-size: 12px;
+      font-weight: 700;
+      color: #a855f7;
+      min-width: 32px;
+      text-align: right;
+    }
+
+    /* Reasoning */
+    .pred-reason {
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      background: var(--bg-alt);
+    }
+
+    .pred-reason::before {
+      content: '🤖 ';
+    }
+
+    /* Filter tabs */
+    .filter-row {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      padding: 0 24px 24px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      color: var(--text-secondary);
+      transition: all 0.2s ease;
+    }
+
+    .filter-btn:hover {
+      background: var(--bg-alt);
+      color: var(--text);
+    }
+
+    .filter-btn.active {
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      color: white;
+      border-color: transparent;
+      box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
+    }
+
+    /* Timestamp */
+    .pred-timestamp {
+      text-align: center;
+      padding: 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Loading & error states */
+    .pred-loading {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--text-muted);
+    }
+
+    .pred-loading .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: #a855f7;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .pred-empty {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--text-muted);
+      font-size: 16px;
+    }
+
+    .pred-empty .emoji {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      max-width: 600px;
+      margin: 0 auto 32px;
+      padding: 14px 20px;
+      background: rgba(168, 85, 247, 0.08);
+      border: 1px solid rgba(168, 85, 247, 0.2);
+      border-radius: var(--radius-md);
+      font-size: 12px;
+      color: var(--text-secondary);
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    /* Back link */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      padding: 12px 0;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover { color: white; }
+
+    @media (max-width: 480px) {
+      .predictions-grid {
+        grid-template-columns: 1fr;
+      }
+      .predictions-hero h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container predictions-hero">
+      <a href="index.html" class="back-link">← Volver al dashboard</a>
+      <div style="margin-top: 16px">
+        <span class="ai-badge">✨ Powered by Gemini AI</span>
+      </div>
+      <h1 style="margin-top: 16px">Predicciones de Resultados</h1>
+      <p>Análisis estadístico con inteligencia artificial</p>
+    </div>
+  </header>
+
+  <!-- Filters -->
+  <div class="filter-row" id="filter-row"></div>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    ⚠️ Las predicciones son generadas por IA basándose en datos estadísticos reales.
+    Son orientativas y no garantizan resultados. El deporte siempre sorprende.
+  </div>
+
+  <!-- Predictions container -->
+  <div id="predictions-container">
+    <div class="pred-loading">
+      <div class="spinner"></div>
+      <p>Cargando predicciones...</p>
+    </div>
+  </div>
+
+  <!-- Timestamp -->
+  <div class="pred-timestamp" id="pred-timestamp"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container" style="text-align: center; padding: 24px 0;">
+      <p style="color: var(--text-muted); font-size: 13px;">
+        Villa Sahores – Predicciones generadas con Gemini AI · Uso interno
+      </p>
+    </div>
+  </footer>
+
+  <script src="predictions.js"></script>
+</body>
+</html>
