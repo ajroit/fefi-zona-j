@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-09T18:42:20.527183Z",
+  "actualizado": "2026-05-09T18:44:54.098358Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -10999,16 +10999,6 @@
               "direccion": null,
               "planillas": null
             },
-            "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11020,16 +11010,6 @@
               "planillas": null
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -11099,6 +11079,32 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164039-1000488881.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164043-1000488880.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 8,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175116-1000488881.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175131-1000488880.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175503-1000488948.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175510-1000488949.jpg"
               ]
             }
           },
