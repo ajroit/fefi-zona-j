@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-09T06:22:46.998693Z",
+  "actualizado": "2026-05-09T16:33:23.417303Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1345,6 +1345,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "MARCHIGIANA",
+        "pj": 8,
+        "g": 6,
+        "e": 0,
+        "p": 2,
+        "gf": 41,
+        "gc": 12,
+        "pts": 18
+      },
+      {
+        "posicion": 3,
         "equipo": "ESTRADA FUTSAL",
         "pj": 7,
         "g": 6,
@@ -1355,25 +1366,14 @@
         "pts": 18
       },
       {
-        "posicion": 3,
-        "equipo": "MARCHIGIANA",
-        "pj": 7,
-        "g": 5,
-        "e": 0,
-        "p": 2,
-        "gf": 38,
-        "gc": 10,
-        "pts": 15
-      },
-      {
         "posicion": 4,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
         "e": 0,
-        "p": 2,
-        "gf": 34,
-        "gc": 10,
+        "p": 3,
+        "gf": 36,
+        "gc": 13,
         "pts": 15
       },
       {
@@ -1513,13 +1513,13 @@
       {
         "posicion": 1,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
-        "g": 7,
+        "pj": 8,
+        "g": 8,
         "e": 0,
         "p": 0,
-        "gf": 56,
-        "gc": 2,
-        "pts": 21
+        "gf": 61,
+        "gc": 4,
+        "pts": 24
       },
       {
         "posicion": 2,
@@ -1535,12 +1535,12 @@
       {
         "posicion": 3,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
         "e": 1,
-        "p": 1,
-        "gf": 47,
-        "gc": 12,
+        "p": 2,
+        "gf": 49,
+        "gc": 17,
         "pts": 16
       },
       {
@@ -1691,13 +1691,13 @@
       {
         "posicion": 1,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
-        "g": 7,
+        "pj": 8,
+        "g": 8,
         "e": 0,
         "p": 0,
-        "gf": 46,
-        "gc": 7,
-        "pts": 21
+        "gf": 52,
+        "gc": 9,
+        "pts": 24
       },
       {
         "posicion": 2,
@@ -1724,12 +1724,12 @@
       {
         "posicion": 4,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "pj": 8,
         "g": 4,
         "e": 2,
-        "p": 1,
-        "gf": 25,
-        "gc": 10,
+        "p": 2,
+        "gf": 27,
+        "gc": 16,
         "pts": 14
       },
       {
@@ -2046,14 +2046,25 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 70,
-        "g": 56,
+        "pj": 73,
+        "g": 57,
         "e": 4,
-        "p": 10,
-        "gf": 327,
-        "gc": 111,
-        "pts": 172,
+        "p": 12,
+        "gf": 336,
+        "gc": 122,
+        "pts": 175,
         "posicion": 1
+      },
+      {
+        "equipo": "MARCHIGIANA",
+        "pj": 71,
+        "g": 49,
+        "e": 8,
+        "p": 14,
+        "gf": 344,
+        "gc": 141,
+        "pts": 155,
+        "posicion": 2
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
@@ -2064,17 +2075,6 @@
         "gf": 437,
         "gc": 186,
         "pts": 152,
-        "posicion": 2
-      },
-      {
-        "equipo": "MARCHIGIANA",
-        "pj": 68,
-        "g": 47,
-        "e": 8,
-        "p": 13,
-        "gf": 333,
-        "gc": 132,
-        "pts": 149,
         "posicion": 3
       },
       {
@@ -11039,16 +11039,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "SEXTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11069,28 +11059,47 @@
               "direccion": null,
               "planillas": null
             },
-            "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+            "2016 PROMOCIONALES": {
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-133350-1000488694.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-133352-1000488693.jpg"
+              ]
+            },
+            "2017 PROMOCIONALES": {
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-144347-1000488763.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-144351-1000488762.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153945-1000488822.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153951-1000488821.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "PEDRO LOZANO",
