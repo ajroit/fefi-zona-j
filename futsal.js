@@ -251,20 +251,47 @@ function futsalRenderProximoPartido() {
     $meta.innerHTML = "";
   }
 
-  // Comparativa
+  // Comparativa + Bajada AI
   const tabla = futsalObtenerTabla(futsalCategoriaActual);
+  let predHtml = "";
   if (tabla) {
     const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_DATA.equipo_foco);
     const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
     if (focoEnTabla && rivalEnTabla) {
       const tipo = futsalCategoriaActual === "general" ? "general" : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
-      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
-    } else {
-      $pred.innerHTML = "";
+      predHtml = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
     }
-  } else {
-    $pred.innerHTML = "";
   }
+
+  // Cargar bajada AI
+  futsalLoadBajada(proximo, futsalCategoriaActual).then(bajada => {
+    if (bajada) {
+      predHtml += `<div class="ai-bajada"><span class="ai-bajada-icon">🤖</span> ${bajada}</div>`;
+    }
+    $pred.innerHTML = predHtml;
+  });
+  $pred.innerHTML = predHtml;
+}
+
+// ---- Bajada AI ----
+let _futsalPredictions = null;
+async function futsalLoadBajada(proximo, categoria) {
+  if (!_futsalPredictions) {
+    try {
+      let res = await fetch("data/predictions.json");
+      if (!res.ok) res = await fetch("../data/predictions.json");
+      _futsalPredictions = await res.json();
+    } catch { return null; }
+  }
+  const preds = _futsalPredictions?.predicciones || [];
+  // Match: same tournament, same fecha, same rival
+  const match = preds.find(p =>
+    p.torneo_id === "futsal" &&
+    p.fecha_num === proximo.numero &&
+    p.rival === proximo.rival &&
+    (categoria === "general" || p.categoria === categoria)
+  );
+  return match?.bajada || null;
 }
 
 // ---- Métricas ----

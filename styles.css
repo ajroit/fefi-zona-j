@@ -556,6 +556,24 @@ a:hover {
   color: var(--brand-green);
 }
 
+/* AI Bajada */
+.ai-bajada {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(168, 85, 247, 0.08));
+  border: 1px solid rgba(168, 85, 247, 0.15);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.ai-bajada-icon {
+  margin-right: 4px;
+  font-style: normal;
+}
+
 /* Form Row */
 .form-row {
   display: flex;
