@@ -1,5 +1,6 @@
 // ==========================================
 // Predicciones AI - Villa Sahores
+// Per-category match predictions
 // ==========================================
 
 const PREDICTIONS_URL = "data/predictions.json";
@@ -81,6 +82,27 @@ function renderFilters() {
   });
 }
 
+// ---- Group predictions by match ----
+function groupByMatch(preds) {
+  const groups = {};
+  preds.forEach(p => {
+    const key = `${p.torneo_id}|${p.fecha_num}|${p.rival}`;
+    if (!groups[key]) {
+      groups[key] = {
+        torneo_id: p.torneo_id,
+        torneo_label: p.torneo_label || p.torneo_nombre || "",
+        fecha_num: p.fecha_num,
+        rival: p.rival,
+        es_local: p.es_local,
+        fecha: p.fecha,
+        categorias: []
+      };
+    }
+    groups[key].categorias.push(p);
+  });
+  return Object.values(groups);
+}
+
 // ---- Render predictions ----
 function renderPredictions() {
   const foco = PREDICTIONS_DATA.equipo_foco;
@@ -93,69 +115,84 @@ function renderPredictions() {
     document.getElementById("predictions-container").innerHTML = `
       <div class="pred-empty">
         <div class="emoji">🏆</div>
-        <p>No hay partidos pendientes en este torneo</p>
+        <p>No hay predicciones para este torneo</p>
       </div>
     `;
     return;
   }
 
-  const html = `<div class="predictions-grid">${preds.map(pred => {
-    const result = pred.prediccion || "empate";
-    const focoLocal = pred.es_local;
-    const localName = focoLocal ? foco : pred.rival;
-    const visitName = focoLocal ? pred.rival : foco;
-    const localScore = focoLocal ? pred.score_foco : pred.score_rival;
-    const visitScore = focoLocal ? pred.score_rival : pred.score_foco;
+  const matches = groupByMatch(preds);
+
+  const html = `<div class="predictions-list">${matches.map(match => {
+    const localName = match.es_local ? foco : match.rival;
+    const visitName = match.es_local ? match.rival : foco;
+
+    // Summary stats
+    const wins = match.categorias.filter(c => c.prediccion === "victoria").length;
+    const draws = match.categorias.filter(c => c.prediccion === "empate").length;
+    const losses = match.categorias.filter(c => c.prediccion === "derrota").length;
+    const totalGoalsFoco = match.categorias.reduce((s, c) => s + (c.score_foco || 0), 0);
+    const totalGoalsRival = match.categorias.reduce((s, c) => s + (c.score_rival || 0), 0);
+
+    const overallResult = wins > losses ? "victoria" : (losses > wins ? "derrota" : "empate");
 
     return `
-      <div class="pred-card">
-        <div class="pred-result-strip ${result}"></div>
-        <div class="pred-card-header">
-          <span class="pred-torneo">${pred.torneo_label || pred.torneo_nombre || ""}</span>
-          <span class="pred-fecha-num">Fecha ${pred.fecha_num}</span>
-        </div>
+      <div class="match-pred-card">
+        <div class="pred-result-strip ${overallResult}"></div>
 
-        <div class="pred-matchup">
-          <div class="pred-team">
-            <div class="pred-team-name ${localName === foco ? 'foco' : ''}">${predNombreEquipo(localName)}</div>
-            <div class="pred-team-condition">Local</div>
+        <!-- Match header -->
+        <div class="match-pred-header">
+          <div class="match-pred-torneo">
+            <span class="pred-torneo">${match.torneo_label}</span>
+            <span class="pred-fecha-num">Fecha ${match.fecha_num}</span>
           </div>
-          <div class="pred-score-box">
-            <span class="pred-score-num ${localName === foco ? 'foco' : 'rival'}">${localScore ?? '?'}</span>
-            <span class="pred-score-sep">–</span>
-            <span class="pred-score-num ${visitName === foco ? 'foco' : 'rival'}">${visitScore ?? '?'}</span>
+          <div class="match-pred-matchup">
+            <span class="match-pred-team ${localName === foco ? 'foco' : ''}">${predNombreEquipo(localName)}</span>
+            <span class="match-pred-vs">vs</span>
+            <span class="match-pred-team ${visitName === foco ? 'foco' : ''}">${predNombreEquipo(visitName)}</span>
           </div>
-          <div class="pred-team">
-            <div class="pred-team-name ${visitName === foco ? 'foco' : ''}">${predNombreEquipo(visitName)}</div>
-            <div class="pred-team-condition">Visitante</div>
-          </div>
-        </div>
-
-        <div class="pred-probs">
-          <div class="prob-col">
-            <div class="prob-label">Victoria</div>
-            <div class="prob-bar-wrap"><div class="prob-bar win" style="width: ${pred.prob_victoria || 0}%"></div></div>
-            <div class="prob-value win">${pred.prob_victoria || 0}%</div>
-          </div>
-          <div class="prob-col">
-            <div class="prob-label">Empate</div>
-            <div class="prob-bar-wrap"><div class="prob-bar draw" style="width: ${pred.prob_empate || 0}%"></div></div>
-            <div class="prob-value draw">${pred.prob_empate || 0}%</div>
-          </div>
-          <div class="prob-col">
-            <div class="prob-label">Derrota</div>
-            <div class="prob-bar-wrap"><div class="prob-bar lose" style="width: ${pred.prob_derrota || 0}%"></div></div>
-            <div class="prob-value lose">${pred.prob_derrota || 0}%</div>
+          <div class="match-pred-summary">
+            <span class="summary-score">${totalGoalsFoco} – ${totalGoalsRival}</span>
+            <span class="summary-cats">
+              <span class="cat-dot win">${wins}G</span>
+              <span class="cat-dot draw">${draws}E</span>
+              <span class="cat-dot lose">${losses}P</span>
+            </span>
           </div>
         </div>
 
-        <div class="pred-confidence">
-          <span class="conf-label">Confianza</span>
-          <div class="conf-track"><div class="conf-fill" style="width: ${pred.confianza || 0}%"></div></div>
-          <span class="conf-value">${pred.confianza || 0}%</span>
+        <!-- Category predictions table -->
+        <div class="cat-preds-table">
+          <div class="cat-preds-header">
+            <span class="col-cat">Categoría</span>
+            <span class="col-result">Pred.</span>
+            <span class="col-score">Score</span>
+            <span class="col-probs">V% / E% / D%</span>
+            <span class="col-conf">Conf.</span>
+          </div>
+          ${match.categorias.map(cat => {
+            const resultEmoji = cat.prediccion === "victoria" ? "🟢" :
+                               (cat.prediccion === "derrota" ? "🔴" : "🟡");
+            const resultClass = cat.prediccion;
+            return `
+              <div class="cat-pred-row ${resultClass}">
+                <span class="col-cat">${cat.categoria_label || cat.categoria}</span>
+                <span class="col-result">${resultEmoji}</span>
+                <span class="col-score">${cat.score_foco ?? '?'} – ${cat.score_rival ?? '?'}</span>
+                <span class="col-probs">
+                  <span class="prob-mini win">${cat.prob_victoria || 0}</span> /
+                  <span class="prob-mini draw">${cat.prob_empate || 0}</span> /
+                  <span class="prob-mini lose">${cat.prob_derrota || 0}</span>
+                </span>
+                <span class="col-conf">
+                  <span class="conf-mini-bar"><span class="conf-mini-fill" style="width:${cat.confianza || 0}%"></span></span>
+                  ${cat.confianza || 0}%
+                </span>
+              </div>
+              ${cat.razon ? `<div class="cat-pred-reason">${cat.razon}</div>` : ''}
+            `;
+          }).join("")}
         </div>
-
-        ${pred.razon ? `<div class="pred-reason">${pred.razon}</div>` : ''}
       </div>
     `;
   }).join("")}</div>`;

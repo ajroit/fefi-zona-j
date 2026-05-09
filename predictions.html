@@ -53,122 +53,29 @@
       font-size: 14px;
     }
 
-    .predictions-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-      gap: 20px;
-      padding: 0 24px 48px;
-      max-width: 1200px;
+    /* ─── Match Card (grouped) ─── */
+    .predictions-list {
+      max-width: 900px;
       margin: 0 auto;
+      padding: 0 24px 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
     }
 
-    .pred-card {
+    .match-pred-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-lg);
       overflow: hidden;
       transition: all 0.3s ease;
-      position: relative;
     }
 
-    .pred-card:hover {
-      border-color: rgba(99, 102, 241, 0.5);
-      box-shadow: 0 8px 32px rgba(99, 102, 241, 0.12);
-      transform: translateY(-2px);
+    .match-pred-card:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+      box-shadow: 0 4px 24px rgba(99, 102, 241, 0.08);
     }
 
-    .pred-card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 14px 20px;
-      border-bottom: 1px solid var(--border);
-      background: var(--bg-alt);
-    }
-
-    .pred-torneo {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .pred-fecha-num {
-      font-size: 12px;
-      font-weight: 700;
-      color: #a855f7;
-      background: rgba(168, 85, 247, 0.1);
-      padding: 4px 10px;
-      border-radius: var(--radius-full);
-    }
-
-    .pred-matchup {
-      padding: 24px 20px;
-      display: grid;
-      grid-template-columns: 1fr auto 1fr;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .pred-team {
-      text-align: center;
-    }
-
-    .pred-team-name {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 4px;
-    }
-
-    .pred-team-name.foco {
-      color: var(--brand-green);
-    }
-
-    .pred-team-condition {
-      font-size: 10px;
-      font-weight: 500;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    .pred-score-box {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .pred-score-num {
-      width: 44px;
-      height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      font-weight: 800;
-      border-radius: var(--radius-sm);
-      font-variant-numeric: tabular-nums;
-    }
-
-    .pred-score-num.foco {
-      background: rgba(26, 140, 74, 0.15);
-      color: var(--brand-green);
-    }
-
-    .pred-score-num.rival {
-      background: var(--bg-alt);
-      color: var(--text);
-    }
-
-    .pred-score-sep {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-
-    /* Result indicator */
     .pred-result-strip {
       height: 4px;
       width: 100%;
@@ -177,71 +84,149 @@
     .pred-result-strip.empate { background: linear-gradient(90deg, #eab308, #facc15); }
     .pred-result-strip.derrota { background: linear-gradient(90deg, #dc2626, #ef4444); }
 
-    /* Probability bars */
-    .pred-probs {
-      padding: 16px 20px;
+    /* Match header */
+    .match-pred-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-alt);
+    }
+
+    .match-pred-torneo {
       display: flex;
-      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
     }
 
-    .prob-col {
-      flex: 1;
-      text-align: center;
+    .pred-torneo {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
     }
 
-    .prob-label {
+    .pred-fecha-num {
+      font-size: 11px;
+      font-weight: 700;
+      color: #a855f7;
+      background: rgba(168, 85, 247, 0.1);
+      padding: 3px 10px;
+      border-radius: var(--radius-full);
+    }
+
+    .match-pred-matchup {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .match-pred-team {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .match-pred-team.foco { color: var(--brand-green); }
+
+    .match-pred-vs {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .match-pred-summary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .summary-score {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .summary-cats {
+      display: flex;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .cat-dot.win { color: var(--brand-green); }
+    .cat-dot.draw { color: #eab308; }
+    .cat-dot.lose { color: #dc2626; }
+
+    /* ─── Category predictions table ─── */
+    .cat-preds-table { overflow-x: auto; }
+
+    .cat-preds-header {
+      display: grid;
+      grid-template-columns: 1fr 50px 80px 120px 90px;
+      gap: 8px;
+      padding: 10px 24px;
       font-size: 10px;
       font-weight: 600;
       color: var(--text-muted);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 6px;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--border);
+      min-width: 500px;
     }
 
-    .prob-bar-wrap {
-      height: 6px;
-      background: var(--bg-alt);
-      border-radius: 3px;
-      overflow: hidden;
-      margin-bottom: 4px;
+    .cat-pred-row {
+      display: grid;
+      grid-template-columns: 1fr 50px 80px 120px 90px;
+      gap: 8px;
+      padding: 10px 24px;
+      font-size: 13px;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.2s;
+      min-width: 500px;
     }
 
-    .prob-bar {
-      height: 100%;
-      border-radius: 3px;
-      transition: width 1s ease;
-    }
+    .cat-pred-row:hover { background: rgba(255,255,255,0.03); }
 
-    .prob-bar.win { background: var(--brand-green); }
-    .prob-bar.draw { background: #eab308; }
-    .prob-bar.lose { background: #dc2626; }
+    .cat-pred-row.victoria { border-left: 3px solid var(--brand-green); }
+    .cat-pred-row.derrota { border-left: 3px solid #dc2626; }
+    .cat-pred-row.empate { border-left: 3px solid #eab308; }
 
-    .prob-value {
-      font-size: 16px;
+    .cat-pred-row .col-cat { font-weight: 600; color: var(--text); }
+    .cat-pred-row .col-result { text-align: center; }
+    .cat-pred-row .col-score {
       font-weight: 700;
       font-variant-numeric: tabular-nums;
+      text-align: center;
+      color: var(--text);
     }
 
-    .prob-value.win { color: var(--brand-green); }
-    .prob-value.draw { color: #eab308; }
-    .prob-value.lose { color: #dc2626; }
+    .col-probs {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      text-align: center;
+      color: var(--text-secondary);
+    }
 
-    /* Confidence meter */
-    .pred-confidence {
-      padding: 0 20px 16px;
+    .prob-mini.win { color: var(--brand-green); font-weight: 600; }
+    .prob-mini.draw { color: #eab308; font-weight: 600; }
+    .prob-mini.lose { color: #dc2626; font-weight: 600; }
+
+    .col-conf {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #a855f7;
     }
 
-    .conf-label {
-      font-size: 11px;
-      font-weight: 500;
-      color: var(--text-muted);
-      white-space: nowrap;
-    }
-
-    .conf-track {
+    .conf-mini-bar {
       flex: 1;
       height: 4px;
       background: var(--bg-alt);
@@ -249,36 +234,22 @@
       overflow: hidden;
     }
 
-    .conf-fill {
+    .conf-mini-fill {
       height: 100%;
       border-radius: 2px;
       background: linear-gradient(90deg, #6366f1, #a855f7);
-      transition: width 1.2s ease;
     }
 
-    .conf-value {
+    .cat-pred-reason {
+      padding: 6px 24px 10px 32px;
       font-size: 12px;
-      font-weight: 700;
-      color: #a855f7;
-      min-width: 32px;
-      text-align: right;
+      color: var(--text-muted);
+      line-height: 1.5;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
     }
+    .cat-pred-reason::before { content: '↳ '; color: #a855f7; }
 
-    /* Reasoning */
-    .pred-reason {
-      padding: 14px 20px;
-      border-top: 1px solid var(--border);
-      font-size: 13px;
-      color: var(--text-secondary);
-      line-height: 1.6;
-      background: var(--bg-alt);
-    }
-
-    .pred-reason::before {
-      content: '🤖 ';
-    }
-
-    /* Filter tabs */
+    /* ─── Filter tabs ─── */
     .filter-row {
       display: flex;
       gap: 8px;
@@ -300,10 +271,7 @@
       transition: all 0.2s ease;
     }
 
-    .filter-btn:hover {
-      background: var(--bg-alt);
-      color: var(--text);
-    }
+    .filter-btn:hover { background: var(--bg-alt); color: var(--text); }
 
     .filter-btn.active {
       background: linear-gradient(135deg, #6366f1, #a855f7);
@@ -312,7 +280,7 @@
       box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
     }
 
-    /* Timestamp */
+    /* ─── Misc ─── */
     .pred-timestamp {
       text-align: center;
       padding: 16px;
@@ -320,7 +288,6 @@
       color: var(--text-muted);
     }
 
-    /* Loading & error states */
     .pred-loading {
       text-align: center;
       padding: 80px 24px;
@@ -337,9 +304,7 @@
       margin: 0 auto 16px;
     }
 
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
+    @keyframes spin { to { transform: rotate(360deg); } }
 
     .pred-empty {
       text-align: center;
@@ -347,13 +312,8 @@
       color: var(--text-muted);
       font-size: 16px;
     }
+    .pred-empty .emoji { font-size: 48px; margin-bottom: 16px; }
 
-    .pred-empty .emoji {
-      font-size: 48px;
-      margin-bottom: 16px;
-    }
-
-    /* Disclaimer */
     .disclaimer {
       max-width: 600px;
       margin: 0 auto 32px;
@@ -367,7 +327,6 @@
       line-height: 1.5;
     }
 
-    /* Back link */
     .back-link {
       display: inline-flex;
       align-items: center;
@@ -377,13 +336,14 @@
       padding: 12px 0;
       transition: color 0.2s;
     }
-
     .back-link:hover { color: white; }
 
-    @media (max-width: 480px) {
-      .predictions-grid {
-        grid-template-columns: 1fr;
-      }
+    @media (max-width: 600px) {
+      .predictions-list { padding: 0 12px 32px; }
+      .match-pred-header { padding: 16px; }
+      .match-pred-team { font-size: 15px; }
+      .summary-score { font-size: 22px; }
+      .cat-preds-header, .cat-pred-row { padding-left: 12px; padding-right: 12px; }
       .predictions-hero h1 { font-size: 24px; }
     }
   </style>
