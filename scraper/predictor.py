@@ -100,8 +100,16 @@ def forma_reciente_cat(data, equipo, cat, n=5):
             gc = (p.get("goles_visitante", 0) if es_local
                   else p.get("goles_local", 0)) or 0
             r = "W" if gf > gc else ("L" if gf < gc else "D")
-            rival = enc["visitante"] if es_local else enc["local"]
-            resultados.append(f"{r}({gf}-{gc} vs {rival})")
+            rival_name = enc["visitante"] if es_local else enc["local"]
+            
+            # Detectar si es FEFI (suele tener "zona" en la raiz o "apertura" sin decir futsal)
+            # En FEFI, los "goles" en realidad son puntos del partido (2 o 0).
+            # Para evitar que la IA crea que son goles, ocultamos el resultado exacto.
+            es_fefi = "zona" in data and "futsal" not in str(data.get("torneo", "")).lower()
+            if es_fefi:
+                resultados.append(f"{r} vs {rival_name}")
+            else:
+                resultados.append(f"{r}({gf}-{gc} vs {rival_name})")
     return resultados[-n:]
 
 
@@ -194,7 +202,11 @@ REGLAS:
 - Sé realista con equipos en mala racha
 - El campo "scouting_rival" debe ser un mini-informe para la gente de {equipo_foco}
   sobre qué esperar de {rival} en esa categoría. Redactalo en 2-3 oraciones,
-  mencionando fortalezas/debilidades, racha, peligro goleador, localía, etc.
+  mencionando fortalezas/debilidades o racha.
+  ¡ATENCIÓN!: NO INVENTES DATOS. Si en los DATOS provistos no hay información de goles 
+  a favor/en contra (como pasa en FEFI) o resultados exactos previos, NO menciones 
+  resultados exactos ni cantidad de goles. Basate ÚNICAMENTE en los partidos ganados, 
+  empatados, perdidos y la posición en la tabla.
   Usá un tono cercano y directo, como si le hablaras a un hincha, PERO SIEMPRE
   desde el respeto deportivo. 
   REGLA ESTRICTA: Al tratarse (en muchos casos) de fútbol infantil, NO uses ningún tipo 
