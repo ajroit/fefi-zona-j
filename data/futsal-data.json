@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-10T00:55:23.008632Z",
+  "actualizado": "2026-05-10T06:39:16.105592Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "pj": 8,
         "g": 7,
-        "e": 0,
+        "e": 1,
         "p": 0,
-        "gf": 37,
-        "gc": 18,
-        "pts": 21
+        "gf": 41,
+        "gc": 22,
+        "pts": 22
       },
       {
         "posicion": 2,
@@ -122,13 +122,13 @@
       {
         "posicion": 4,
         "equipo": "MARCHIGIANA",
-        "pj": 6,
+        "pj": 7,
         "g": 4,
-        "e": 2,
+        "e": 3,
         "p": 0,
-        "gf": 26,
-        "gc": 14,
-        "pts": 14
+        "gf": 30,
+        "gc": 18,
+        "pts": 15
       },
       {
         "posicion": 5,
@@ -2046,24 +2046,24 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 79,
+        "pj": 80,
         "g": 61,
-        "e": 5,
+        "e": 6,
         "p": 13,
-        "gf": 359,
-        "gc": 127,
-        "pts": 188,
+        "gf": 363,
+        "gc": 131,
+        "pts": 189,
         "posicion": 1
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 77,
+        "pj": 78,
         "g": 50,
-        "e": 9,
+        "e": 10,
         "p": 18,
-        "gf": 349,
-        "gc": 164,
-        "pts": 159,
+        "gf": 353,
+        "gc": 168,
+        "pts": 160,
         "posicion": 2
       },
       {
@@ -11003,14 +11003,17 @@
               "planillas": null
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020329-17783785676571960899431952216360.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020348-17783786124728352514735402535253.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "goles_local": 2,
