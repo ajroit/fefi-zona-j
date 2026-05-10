@@ -394,11 +394,14 @@ function futsalRenderHistorial() {
     
     let planillaHtml = "";
     if (p.planillas && p.planillas.length > 0) {
+      const links = p.planillas.map((url, idx) => `
+        <a href="${url}" target="_blank" class="btn-planilla" title="Ver foto de la planilla">
+          📷 ${p.planillas.length > 1 ? 'P' + (idx + 1) : 'Planilla'}
+        </a>
+      `).join("");
       planillaHtml = `
         <div class="history-actions">
-          <a href="${p.planillas[0]}" target="_blank" class="btn-planilla" title="Ver foto de la planilla">
-            📷 Planilla
-          </a>
+          ${links}
         </div>
       `;
     }
