@@ -357,7 +357,7 @@ function renderProximoPartido() {
   }
 
   // Scouting del rival
-  renderScoutingSection($scouting, "babyfutbol", proximo.rival);
+  renderScoutingSection($scouting, "babyfutbol", proximo.rival, categoriaActual);
 }
 
 // ---- Metricas ----
@@ -533,8 +533,14 @@ async function loadPredictionsData() {
   return PREDICTIONS_CACHE;
 }
 
-function renderScoutingSection($container, torneoId, rival) {
+function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
   if (!$container) return;
+
+  // Si está en 'general', no mostramos el scouting individual
+  if (categoriaFilter === "general" || !categoriaFilter) {
+    $container.innerHTML = "";
+    return;
+  }
 
   loadPredictionsData().then(data => {
     if (!data || !data.predicciones) {
@@ -542,9 +548,12 @@ function renderScoutingSection($container, torneoId, rival) {
       return;
     }
 
-    // Filtrar predicciones para este torneo y rival
+    // Filtrar predicciones para este torneo, rival y categoría seleccionada
     const items = data.predicciones.filter(p =>
-      p.torneo_id === torneoId && p.rival === rival && p.scouting_rival
+      p.torneo_id === torneoId && 
+      p.rival === rival && 
+      p.scouting_rival && 
+      String(p.categoria) === String(categoriaFilter)
     );
 
     if (items.length === 0) {

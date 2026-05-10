@@ -146,8 +146,10 @@ def armar_prompt_partido(torneo, data, partido, equipo_foco):
 
     bloque = ""
     cats_con_datos = []
-    for cat in categorias:
-        label = cat_labels.get(cat, cat)
+    for cat_raw in categorias:
+        cat = str(cat_raw)
+        label = cat_labels.get(cat_raw, cat) # Some labels might still be keyed by ints, or maybe strings. We can try both.
+        label = cat_labels.get(cat, label)
         foco_st = stats_equipo_cat(data, equipo_foco, cat)
         rival_st = stats_equipo_cat(data, rival, cat)
         foco_forma = forma_reciente_cat(data, equipo_foco, cat)

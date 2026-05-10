@@ -269,7 +269,7 @@ function futsalRenderProximoPartido() {
   }
 
   // Scouting del rival
-  renderScoutingSection($scouting, "futsal", proximo.rival);
+  renderScoutingSection($scouting, "futsal", proximo.rival, futsalCategoriaActual);
 }
 
 // ---- Métricas ----
