@@ -253,7 +253,12 @@ function partidosDelFoco(categoria) {
 }
 
 function resultadoLetra(p) {
-  if (!p.jugado || p.gf == null) return null;
+  if (!p.jugado) return null;
+  if (p.gf == null || p.gc == null) {
+    if (p.observacion === "GP") return "W";
+    if (p.observacion === "PP" || p.observacion === "NP") return "L";
+    return "D";
+  }
   if (p.gf > p.gc) return "W";
   if (p.gf < p.gc) return "L";
   return "D";
@@ -420,7 +425,8 @@ function renderForma() {
   $row.innerHTML = partidos.map(p => {
     const r = resultadoLetra(p);
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${p.gf}-${p.gc}">${label}</span>`;
+    const scoreStr = (p.gf != null && p.gc != null) ? `${p.gf}-${p.gc}` : (p.observacion || '-');
+    return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${scoreStr}">${label}</span>`;
   }).join("");
 }
 
@@ -481,7 +487,7 @@ function renderHistorial() {
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
           <span class="history-rival-meta">F${p.numero} - ${p.esLocal ? 'Local' : 'Visitante'}${p.observacion ? ' - ' + p.observacion : ''}</span>
         </div>
-        <span class="history-score">${p.gf} - ${p.gc}</span>
+        <span class="history-score">${(p.gf != null && p.gc != null) ? p.gf + ' - ' + p.gc : (p.observacion || '-')}</span>
       </div>
     `;
   }).join('');
