@@ -190,6 +190,10 @@ REGLAS:
 - Cada categoría es un partido independiente (1 gol = 1 gol)
 - Considerá posición, forma, gol diferencia
 - Sé realista con equipos en mala racha
+- El campo "scouting_rival" debe ser un mini-informe para la gente de {equipo_foco}
+  sobre qué esperar de {rival} en esa categoría. Redactalo en 2-3 oraciones,
+  mencionando fortalezas/debilidades, racha, peligro goleador, localía, etc.
+  Usá un tono cercano y directo, como si le hablaras a un hincha.
 
 DATOS:
 {bloque}
@@ -206,7 +210,8 @@ Respondé SOLO con un array JSON (sin markdown):
     "prob_empate": <0-100>,
     "prob_derrota": <0-100>,
     "confianza": <0-100>,
-    "razon": "<1 oración>"
+    "razon": "<1 oración>",
+    "scouting_rival": "<2-3 oraciones sobre qué hay que saber del rival en esta categoría>"
   }}
 ]
 """

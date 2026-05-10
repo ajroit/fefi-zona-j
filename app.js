@@ -4,6 +4,7 @@
 // ==========================================
 
 const DATA_URL = "data/fefi-data.json";
+const PREDICTIONS_DATA_URL = "data/predictions.json";
 const CATEGORIAS_ORDEN = [2013, 2014, 2015, 2016, 2017, 2018, 2019];
 const STORAGE_KEY = "fefi-cat-preferida";
 const SPORT_STORAGE_KEY = "deporte-preferido";
@@ -11,6 +12,7 @@ const SPORT_STORAGE_KEY = "deporte-preferido";
 let DATA = null;
 let categoriaActual = "general";
 let deporteActual = "babyfutbol";
+let PREDICTIONS_CACHE = null;
 
 // ---- Carga inicial ----
 async function init() {
@@ -283,12 +285,14 @@ function renderProximoPartido() {
   const $meta = document.getElementById("next-match-meta");
   const $date = document.getElementById("next-match-date");
   const $pred = document.getElementById("next-match-prediction");
+  const $scouting = document.getElementById("next-match-scouting");
 
   if (!proximo) {
     $date.textContent = "";
     $teams.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">No hay proximos partidos en esta categoria</div>`;
     $meta.innerHTML = "";
     $pred.innerHTML = "";
+    if ($scouting) $scouting.innerHTML = "";
     return;
   }
 
@@ -351,6 +355,9 @@ function renderProximoPartido() {
   } else {
     $pred.innerHTML = "";
   }
+
+  // Scouting del rival
+  renderScoutingSection($scouting, "babyfutbol", proximo.rival);
 }
 
 // ---- Metricas ----
@@ -510,6 +517,58 @@ function renderCalendario() {
       </div>
     `;
   }).join('');
+}
+
+// ── Scouting compartido: carga predictions y muestra análisis del rival ──
+async function loadPredictionsData() {
+  if (PREDICTIONS_CACHE) return PREDICTIONS_CACHE;
+  try {
+    let res = await fetch(PREDICTIONS_DATA_URL);
+    if (!res.ok) res = await fetch("../data/predictions.json");
+    PREDICTIONS_CACHE = await res.json();
+  } catch (e) {
+    console.warn("No se pudieron cargar predicciones para scouting:", e);
+    PREDICTIONS_CACHE = null;
+  }
+  return PREDICTIONS_CACHE;
+}
+
+function renderScoutingSection($container, torneoId, rival) {
+  if (!$container) return;
+
+  loadPredictionsData().then(data => {
+    if (!data || !data.predicciones) {
+      $container.innerHTML = "";
+      return;
+    }
+
+    // Filtrar predicciones para este torneo y rival
+    const items = data.predicciones.filter(p =>
+      p.torneo_id === torneoId && p.rival === rival && p.scouting_rival
+    );
+
+    if (items.length === 0) {
+      $container.innerHTML = "";
+      return;
+    }
+
+    const rivalNombre = nombreEquipo(rival);
+    $container.innerHTML = `
+      <div class="scouting-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <span class="scouting-icon">🔍</span>
+        <span>¿Qué hay que saber sobre ${rivalNombre}?</span>
+        <span class="scouting-toggle">▼</span>
+      </div>
+      <div class="scouting-list">
+        ${items.map(item => `
+          <div class="scouting-item">
+            <span class="scouting-cat-label">${item.categoria_label || item.categoria}</span>
+            <div class="scouting-text">${item.scouting_rival}</div>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  });
 }
 
 // Iniciar

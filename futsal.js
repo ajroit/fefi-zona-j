@@ -210,12 +210,14 @@ function futsalRenderProximoPartido() {
   const $meta = document.getElementById("next-match-meta");
   const $date = document.getElementById("next-match-date");
   const $pred = document.getElementById("next-match-prediction");
+  const $scouting = document.getElementById("next-match-scouting");
 
   if (!proximo) {
     $date.textContent = "";
     $teams.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">No hay proximos partidos en esta categoria</div>`;
     $meta.innerHTML = "";
     $pred.innerHTML = "";
+    if ($scouting) $scouting.innerHTML = "";
     return;
   }
 
@@ -265,6 +267,9 @@ function futsalRenderProximoPartido() {
   } else {
     $pred.innerHTML = "";
   }
+
+  // Scouting del rival
+  renderScoutingSection($scouting, "futsal", proximo.rival);
 }
 
 // ---- Métricas ----

@@ -190,6 +190,7 @@ function renderPredictions() {
                 </span>
               </div>
               ${cat.razon ? `<div class="cat-pred-reason">${cat.razon}</div>` : ''}
+              ${cat.scouting_rival ? `<div class="cat-scouting-rival"><span class="scouting-label">🔍 ¿Qué hay que saber del rival?</span> ${cat.scouting_rival}</div>` : ''}
             `;
           }).join("")}
         </div>
