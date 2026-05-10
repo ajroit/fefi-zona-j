@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-09T18:44:54.098358Z",
+  "actualizado": "2026-05-10T00:33:36.551680Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -266,6 +266,17 @@
     "TERCERA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "MARCHIGIANA",
+        "pj": 7,
+        "g": 5,
+        "e": 1,
+        "p": 1,
+        "gf": 33,
+        "gc": 13,
+        "pts": 16
+      },
+      {
+        "posicion": 2,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 7,
         "g": 5,
@@ -276,7 +287,7 @@
         "pts": 16
       },
       {
-        "posicion": 2,
+        "posicion": 3,
         "equipo": "ESTRADA FUTSAL",
         "pj": 7,
         "g": 5,
@@ -287,7 +298,7 @@
         "pts": 15
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "BPNA",
         "pj": 7,
         "g": 5,
@@ -298,25 +309,14 @@
         "pts": 15
       },
       {
-        "posicion": 4,
-        "equipo": "MARCHIGIANA",
-        "pj": 6,
-        "g": 4,
-        "e": 1,
-        "p": 1,
-        "gf": 30,
-        "gc": 12,
-        "pts": 13
-      },
-      {
         "posicion": 5,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "pj": 8,
         "g": 4,
         "e": 1,
-        "p": 2,
-        "gf": 32,
-        "gc": 26,
+        "p": 3,
+        "gf": 33,
+        "gc": 29,
         "pts": 13
       },
       {
@@ -466,6 +466,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 8,
+        "g": 6,
+        "e": 0,
+        "p": 2,
+        "gf": 27,
+        "gc": 17,
+        "pts": 18
+      },
+      {
+        "posicion": 4,
         "equipo": "ROTONDA",
         "pj": 7,
         "g": 5,
@@ -476,7 +487,7 @@
         "pts": 16
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "ESTRADA FUTSAL",
         "pj": 7,
         "g": 5,
@@ -484,17 +495,6 @@
         "p": 2,
         "gf": 38,
         "gc": 28,
-        "pts": 15
-      },
-      {
-        "posicion": 5,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 7,
-        "g": 5,
-        "e": 0,
-        "p": 2,
-        "gf": 25,
-        "gc": 17,
         "pts": 15
       },
       {
@@ -511,12 +511,12 @@
       {
         "posicion": 7,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 2,
-        "p": 2,
+        "p": 3,
         "gf": 30,
-        "gc": 18,
+        "gc": 20,
         "pts": 11
       },
       {
@@ -634,24 +634,24 @@
       {
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
-        "pj": 7,
+        "pj": 8,
         "g": 6,
-        "e": 1,
+        "e": 2,
         "p": 0,
         "gf": 34,
         "gc": 11,
-        "pts": 19
+        "pts": 20
       },
       {
         "posicion": 3,
         "equipo": "MARCHIGIANA",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 2,
         "gf": 39,
         "gc": 20,
-        "pts": 15
+        "pts": 16
       },
       {
         "posicion": 4,
@@ -2046,24 +2046,24 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 76,
-        "g": 60,
-        "e": 4,
-        "p": 12,
-        "gf": 356,
-        "gc": 124,
-        "pts": 184,
+        "pj": 79,
+        "g": 61,
+        "e": 5,
+        "p": 13,
+        "gf": 359,
+        "gc": 127,
+        "pts": 188,
         "posicion": 1
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 74,
-        "g": 49,
-        "e": 8,
-        "p": 17,
-        "gf": 346,
-        "gc": 161,
-        "pts": 155,
+        "pj": 77,
+        "g": 50,
+        "e": 9,
+        "p": 18,
+        "gf": 349,
+        "gc": 164,
+        "pts": 159,
         "posicion": 2
       },
       {
@@ -10979,25 +10979,18 @@
           "local": "HAEDO JUNIOR",
           "visitante": "MARCHIGIANA",
           "partidos": {
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260509-200705-17783571962202342369997595170199.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260509-200626-17783571478274859715916548364848.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "goles_local": null,
@@ -11010,16 +11003,6 @@
               "planillas": null
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -11105,6 +11088,32 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175503-1000488948.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175510-1000488949.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-212714-1000489130.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-212732-1000489129.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225108-1000489187.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225111-1000489186.jpg"
               ]
             }
           },
