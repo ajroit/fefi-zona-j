@@ -195,7 +195,11 @@ REGLAS:
 - El campo "scouting_rival" debe ser un mini-informe para la gente de {equipo_foco}
   sobre qué esperar de {rival} en esa categoría. Redactalo en 2-3 oraciones,
   mencionando fortalezas/debilidades, racha, peligro goleador, localía, etc.
-  Usá un tono cercano y directo, como si le hablaras a un hincha.
+  Usá un tono cercano y directo, como si le hablaras a un hincha, PERO SIEMPRE
+  desde el respeto deportivo. 
+  REGLA ESTRICTA: Al tratarse (en muchos casos) de fútbol infantil, NO uses ningún tipo 
+  de lenguaje ofensivo, peyorativo, burlesco ni folclore agresivo hacia el club o 
+  equipo rival. El análisis debe ser táctico y estadístico.
 
 DATOS:
 {bloque}
