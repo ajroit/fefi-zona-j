@@ -540,9 +540,11 @@ function renderCalendario() {
 async function loadPredictionsData() {
   if (PREDICTIONS_CACHE) return PREDICTIONS_CACHE;
   try {
-    let res = await fetch(PREDICTIONS_DATA_URL);
-    if (!res.ok) res = await fetch("../data/predictions.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(PREDICTIONS_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/predictions.json" + cacheBust);
     PREDICTIONS_CACHE = await res.json();
+    console.log("Scouting data loaded:", PREDICTIONS_CACHE.predicciones?.length, "items");
   } catch (e) {
     console.warn("No se pudieron cargar predicciones para scouting:", e);
     PREDICTIONS_CACHE = null;
@@ -551,10 +553,12 @@ async function loadPredictionsData() {
 }
 
 function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
+  console.log("Rendering scouting for:", torneoId, rival, categoriaFilter);
   if (!$container) return;
 
   loadPredictionsData().then(data => {
     if (!data || !data.predicciones) {
+      console.warn("No scouting data available");
       $container.innerHTML = "";
       return;
     }
@@ -566,6 +570,7 @@ function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
       p.scouting_rival && 
       (!categoriaFilter || categoriaFilter === "general" || String(p.categoria) === String(categoriaFilter))
     );
+    console.log("Scouting items found:", items.length);
 
     if (items.length === 0) {
       $container.innerHTML = "";
