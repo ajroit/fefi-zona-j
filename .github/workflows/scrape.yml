@@ -58,6 +58,9 @@ jobs:
           " > /tmp/pre_rivals.txt
           echo "rivals=$(cat /tmp/pre_rivals.txt)" >> $GITHUB_OUTPUT
 
+      - name: Backup old Futsal data
+        run: cp data/futsal-data.json /tmp/futsal-data-old.json || true
+
       - name: Run FEFI scraper
         run: python scraper/scraper_fefi.py
 
@@ -66,6 +69,12 @@ jobs:
 
       - name: Run Futsal Reducido fetcher
         run: python scraper/scraper_futsal_reducido.py
+
+      - name: Notify Telegram (Futsal Schedules)
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper/notify_telegram.py
 
       # Detectar los nuevos próximos rivales DESPUÉS de scrapear
       - name: Detectar próximos rivales
