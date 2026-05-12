@@ -553,24 +553,18 @@ async function loadPredictionsData() {
 function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
   if (!$container) return;
 
-  // Si está en 'general', no mostramos el scouting individual
-  if (categoriaFilter === "general" || !categoriaFilter) {
-    $container.innerHTML = "";
-    return;
-  }
-
   loadPredictionsData().then(data => {
     if (!data || !data.predicciones) {
       $container.innerHTML = "";
       return;
     }
 
-    // Filtrar predicciones para este torneo, rival y categoría seleccionada
+    // Filtrar predicciones para este torneo, rival y categoría seleccionada (o todas si es general)
     const items = data.predicciones.filter(p =>
       p.torneo_id === torneoId && 
       p.rival === rival && 
       p.scouting_rival && 
-      String(p.categoria) === String(categoriaFilter)
+      (!categoriaFilter || categoriaFilter === "general" || String(p.categoria) === String(categoriaFilter))
     );
 
     if (items.length === 0) {
