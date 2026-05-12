@@ -284,7 +284,18 @@ function fechaCorta(iso) {
 // ---- Proximo partido ----
 function renderProximoPartido() {
   const partidos = partidosDelFoco(categoriaActual);
-  const proximo = partidos.find(p => !p.jugado);
+  const now = new Date();
+  const argFormatter = new Intl.DateTimeFormat("es-AR", { timeZone: "America/Argentina/Buenos_Aires", year: "numeric", month: "2-digit", day: "2-digit" });
+  const parts = argFormatter.formatToParts(now);
+  const pMap = {}; parts.forEach(p => pMap[p.type] = p.value);
+  const todayStr = `${pMap.year}-${pMap.month}-${pMap.day}`;
+
+  let proximo = partidos.find(p => p.fecha && p.fecha >= todayStr);
+  
+  if (!proximo) {
+    const lastPlayedIdx = partidos.reduce((acc, p, i) => p.jugado ? i : acc, -1);
+    proximo = partidos.find((p, i) => !p.jugado && i > lastPlayedIdx);
+  }
 
   const $teams = document.getElementById("next-match-teams");
   const $meta = document.getElementById("next-match-meta");

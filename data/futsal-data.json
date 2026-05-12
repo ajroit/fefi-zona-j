@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-11T07:51:14.986934Z",
+  "actualizado": "2026-05-11T23:52:50.192950Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -36,20 +36,20 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/e44d5de5-f8cd-4f3d-b338-82789228a757.png"
     },
     {
-      "nombre": "ARGENTINO DE CASTELAR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
-    },
-    {
-      "nombre": "PEDRO LOZANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013918-images__3___1_.png"
-    },
-    {
       "nombre": "DEPORTIVO ABBAS",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-005256-download-removebg-preview__1_.png"
     },
     {
       "nombre": "INDEPENDIENTE DE BECCAR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
+    },
+    {
+      "nombre": "ARGENTINO DE CASTELAR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
+    },
+    {
+      "nombre": "PEDRO LOZANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013918-images__3___1_.png"
     },
     {
       "nombre": "VILLA SAHORES",
@@ -132,6 +132,28 @@
       },
       {
         "posicion": 5,
+        "equipo": "DEPORTIVO ABBAS",
+        "pj": 8,
+        "g": 4,
+        "e": 1,
+        "p": 3,
+        "gf": 43,
+        "gc": 32,
+        "pts": 13
+      },
+      {
+        "posicion": 6,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 8,
+        "g": 4,
+        "e": 1,
+        "p": 3,
+        "gf": 44,
+        "gc": 39,
+        "pts": 13
+      },
+      {
+        "posicion": 7,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 8,
         "g": 4,
@@ -142,7 +164,7 @@
         "pts": 13
       },
       {
-        "posicion": 6,
+        "posicion": 8,
         "equipo": "PEDRO LOZANO",
         "pj": 7,
         "g": 3,
@@ -151,28 +173,6 @@
         "gf": 26,
         "gc": 20,
         "pts": 11
-      },
-      {
-        "posicion": 7,
-        "equipo": "DEPORTIVO ABBAS",
-        "pj": 7,
-        "g": 3,
-        "e": 1,
-        "p": 3,
-        "gf": 35,
-        "gc": 30,
-        "pts": 10
-      },
-      {
-        "posicion": 8,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 7,
-        "g": 3,
-        "e": 1,
-        "p": 3,
-        "gf": 34,
-        "gc": 34,
-        "pts": 10
       },
       {
         "posicion": 9,
@@ -199,12 +199,12 @@
       {
         "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 2,
-        "p": 3,
-        "gf": 28,
-        "gc": 38,
+        "p": 4,
+        "gf": 33,
+        "gc": 48,
         "pts": 8
       },
       {
@@ -243,12 +243,12 @@
       {
         "posicion": 15,
         "equipo": "ROTONDA",
-        "pj": 6,
+        "pj": 7,
         "g": 1,
         "e": 1,
-        "p": 4,
-        "gf": 28,
-        "gc": 44,
+        "p": 5,
+        "gf": 30,
+        "gc": 52,
         "pts": 4
       },
       {
@@ -833,6 +833,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "VILLA RITA",
+        "pj": 8,
+        "g": 6,
+        "e": 0,
+        "p": 2,
+        "gf": 32,
+        "gc": 12,
+        "pts": 18
+      },
+      {
+        "posicion": 5,
         "equipo": "RIVADAVIA 87",
         "pj": 8,
         "g": 6,
@@ -841,17 +852,6 @@
         "gf": 36,
         "gc": 18,
         "pts": 18
-      },
-      {
-        "posicion": 5,
-        "equipo": "VILLA RITA",
-        "pj": 7,
-        "g": 5,
-        "e": 0,
-        "p": 2,
-        "gf": 27,
-        "gc": 12,
-        "pts": 15
       },
       {
         "posicion": 6,
@@ -933,12 +933,12 @@
       {
         "posicion": 13,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 6,
+        "pj": 7,
         "g": 1,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 13,
-        "gc": 22,
+        "gc": 27,
         "pts": 4
       },
       {
@@ -1066,17 +1066,28 @@
       },
       {
         "posicion": 9,
-        "equipo": "VILLA RITA",
-        "pj": 8,
-        "g": 4,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 7,
+        "g": 3,
         "e": 0,
         "p": 4,
-        "gf": 21,
-        "gc": 29,
-        "pts": 12
+        "gf": 16,
+        "gc": 22,
+        "pts": 9
       },
       {
         "posicion": 10,
+        "equipo": "VILLA RITA",
+        "pj": 8,
+        "g": 3,
+        "e": 0,
+        "p": 5,
+        "gf": 23,
+        "gc": 33,
+        "pts": 9
+      },
+      {
+        "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
         "pj": 7,
         "g": 3,
@@ -1087,7 +1098,7 @@
         "pts": 9
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "JUVENTUD",
         "pj": 8,
         "g": 2,
@@ -1096,17 +1107,6 @@
         "gf": 14,
         "gc": 47,
         "pts": 7
-      },
-      {
-        "posicion": 12,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 7,
-        "g": 2,
-        "e": 0,
-        "p": 5,
-        "gf": 12,
-        "gc": 20,
-        "pts": 6
       },
       {
         "posicion": 13,
@@ -1169,15 +1169,26 @@
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
-        "g": 7,
-        "e": 0,
+        "g": 6,
+        "e": 1,
         "p": 1,
-        "gf": 39,
-        "gc": 6,
-        "pts": 21
+        "gf": 33,
+        "gc": 7,
+        "pts": 19
       },
       {
         "posicion": 3,
+        "equipo": "MARCHIGIANA",
+        "pj": 8,
+        "g": 5,
+        "e": 3,
+        "p": 0,
+        "gf": 29,
+        "gc": 11,
+        "pts": 18
+      },
+      {
+        "posicion": 4,
         "equipo": "PEDRO LOZANO",
         "pj": 8,
         "g": 5,
@@ -1188,7 +1199,7 @@
         "pts": 17
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "ROTONDA",
         "pj": 7,
         "g": 5,
@@ -1196,17 +1207,6 @@
         "p": 0,
         "gf": 26,
         "gc": 6,
-        "pts": 17
-      },
-      {
-        "posicion": 5,
-        "equipo": "MARCHIGIANA",
-        "pj": 8,
-        "g": 5,
-        "e": 2,
-        "p": 1,
-        "gf": 28,
-        "gc": 17,
         "pts": 17
       },
       {
@@ -1222,6 +1222,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "RIVADAVIA 87",
+        "pj": 8,
+        "g": 4,
+        "e": 0,
+        "p": 4,
+        "gf": 33,
+        "gc": 20,
+        "pts": 12
+      },
+      {
+        "posicion": 8,
         "equipo": "JUVENTUD",
         "pj": 8,
         "g": 3,
@@ -1232,29 +1243,29 @@
         "pts": 10
       },
       {
-        "posicion": 8,
-        "equipo": "RIVADAVIA 87",
-        "pj": 7,
-        "g": 3,
-        "e": 0,
-        "p": 4,
-        "gf": 28,
-        "gc": 20,
-        "pts": 9
-      },
-      {
         "posicion": 9,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 6,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 8,
         "g": 3,
         "e": 0,
-        "p": 3,
-        "gf": 20,
-        "gc": 18,
+        "p": 5,
+        "gf": 27,
+        "gc": 25,
         "pts": 9
       },
       {
         "posicion": 10,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 7,
+        "g": 3,
+        "e": 0,
+        "p": 4,
+        "gf": 20,
+        "gc": 23,
+        "pts": 9
+      },
+      {
+        "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
         "pj": 7,
         "g": 3,
@@ -1265,7 +1276,7 @@
         "pts": 9
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "VILLA SAHORES",
         "pj": 8,
         "g": 3,
@@ -1274,17 +1285,6 @@
         "gf": 15,
         "gc": 21,
         "pts": 9
-      },
-      {
-        "posicion": 12,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 7,
-        "g": 2,
-        "e": 0,
-        "p": 5,
-        "gf": 22,
-        "gc": 25,
-        "pts": 6
       },
       {
         "posicion": 13,
@@ -1299,35 +1299,35 @@
       },
       {
         "posicion": 14,
-        "equipo": "ATENEO HAEDO",
-        "pj": 7,
-        "g": 1,
+        "equipo": "VILLA RITA",
+        "pj": 8,
+        "g": 2,
         "e": 0,
         "p": 6,
-        "gf": 17,
-        "gc": 48,
-        "pts": 3
+        "gf": 10,
+        "gc": 40,
+        "pts": 6
       },
       {
         "posicion": 15,
-        "equipo": "VILLA RITA",
-        "pj": 7,
+        "equipo": "ATENEO HAEDO",
+        "pj": 8,
         "g": 1,
         "e": 0,
-        "p": 6,
-        "gf": 5,
-        "gc": 40,
+        "p": 7,
+        "gf": 17,
+        "gc": 53,
         "pts": 3
       },
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 7,
+        "pj": 8,
         "g": 0,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 0,
-        "gc": 35,
+        "gc": 40,
         "pts": 0
       }
     ],
@@ -1367,22 +1367,22 @@
       },
       {
         "posicion": 4,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 8,
+        "g": 6,
+        "e": 0,
+        "p": 2,
+        "gf": 41,
+        "gc": 13,
+        "pts": 18
+      },
+      {
+        "posicion": 5,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
         "g": 5,
         "e": 0,
         "p": 3,
-        "gf": 36,
-        "gc": 13,
-        "pts": 15
-      },
-      {
-        "posicion": 5,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
-        "g": 5,
-        "e": 0,
-        "p": 2,
         "gf": 36,
         "gc": 13,
         "pts": 15
@@ -1412,12 +1412,12 @@
       {
         "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 7,
+        "pj": 8,
         "g": 4,
         "e": 1,
-        "p": 2,
+        "p": 3,
         "gf": 23,
-        "gc": 17,
+        "gc": 22,
         "pts": 13
       },
       {
@@ -1444,6 +1444,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "BPNA",
+        "pj": 7,
+        "g": 2,
+        "e": 0,
+        "p": 5,
+        "gf": 14,
+        "gc": 33,
+        "pts": 6
+      },
+      {
+        "posicion": 12,
         "equipo": "VILLA SAHORES",
         "pj": 7,
         "g": 2,
@@ -1454,18 +1465,18 @@
         "pts": 6
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 7,
+        "pj": 8,
         "g": 1,
         "e": 2,
-        "p": 4,
+        "p": 5,
         "gf": 21,
-        "gc": 28,
+        "gc": 33,
         "pts": 5
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "ATENEO HAEDO",
         "pj": 7,
         "g": 1,
@@ -1474,17 +1485,6 @@
         "gf": 16,
         "gc": 31,
         "pts": 4
-      },
-      {
-        "posicion": 14,
-        "equipo": "BPNA",
-        "pj": 6,
-        "g": 1,
-        "e": 0,
-        "p": 5,
-        "gf": 9,
-        "gc": 33,
-        "pts": 3
       },
       {
         "posicion": 15,
@@ -1590,13 +1590,13 @@
       {
         "posicion": 8,
         "equipo": "VILLA RITA",
-        "pj": 7,
-        "g": 4,
+        "pj": 8,
+        "g": 5,
         "e": 0,
         "p": 3,
-        "gf": 17,
-        "gc": 13,
-        "pts": 12
+        "gf": 19,
+        "gc": 14,
+        "pts": 15
       },
       {
         "posicion": 9,
@@ -1623,34 +1623,34 @@
       {
         "posicion": 11,
         "equipo": "RIVADAVIA 87",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 11,
-        "gc": 24,
+        "gc": 29,
         "pts": 6
       },
       {
         "posicion": 12,
         "equipo": "ATENEO HAEDO",
-        "pj": 6,
+        "pj": 7,
         "g": 2,
         "e": 0,
-        "p": 4,
+        "p": 5,
         "gf": 15,
-        "gc": 36,
+        "gc": 41,
         "pts": 6
       },
       {
         "posicion": 13,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 7,
+        "pj": 8,
         "g": 1,
         "e": 0,
-        "p": 6,
-        "gf": 10,
-        "gc": 30,
+        "p": 7,
+        "gf": 11,
+        "gc": 32,
         "pts": 3
       },
       {
@@ -1667,24 +1667,24 @@
       {
         "posicion": 15,
         "equipo": "LUNA DE MATANZA",
-        "pj": 7,
-        "g": 0,
+        "pj": 8,
+        "g": 1,
         "e": 0,
         "p": 7,
-        "gf": 3,
+        "gf": 8,
         "gc": 38,
-        "pts": 0
+        "pts": 3
       },
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 6,
-        "g": 0,
+        "pj": 7,
+        "g": 1,
         "e": 0,
         "p": 6,
-        "gf": 2,
+        "gf": 7,
         "gc": 40,
-        "pts": 0
+        "pts": 3
       }
     ],
     "2018 PROMOCIONALES": [
@@ -1701,6 +1701,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 8,
+        "g": 6,
+        "e": 0,
+        "p": 2,
+        "gf": 35,
+        "gc": 15,
+        "pts": 18
+      },
+      {
+        "posicion": 3,
         "equipo": "LUNA DE MATANZA",
         "pj": 8,
         "g": 5,
@@ -1711,29 +1722,29 @@
         "pts": 16
       },
       {
-        "posicion": 3,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 7,
-        "g": 5,
-        "e": 0,
-        "p": 2,
-        "gf": 36,
-        "gc": 16,
-        "pts": 15
-      },
-      {
         "posicion": 4,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 8,
         "g": 5,
         "e": 0,
-        "p": 2,
-        "gf": 30,
-        "gc": 15,
+        "p": 3,
+        "gf": 36,
+        "gc": 21,
         "pts": 15
       },
       {
         "posicion": 5,
+        "equipo": "VILLA RITA",
+        "pj": 7,
+        "g": 5,
+        "e": 0,
+        "p": 2,
+        "gf": 27,
+        "gc": 18,
+        "pts": 15
+      },
+      {
+        "posicion": 6,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
         "g": 4,
@@ -1744,7 +1755,7 @@
         "pts": 14
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ROTONDA",
         "pj": 7,
         "g": 4,
@@ -1753,17 +1764,6 @@
         "gf": 29,
         "gc": 16,
         "pts": 13
-      },
-      {
-        "posicion": 7,
-        "equipo": "VILLA RITA",
-        "pj": 6,
-        "g": 4,
-        "e": 0,
-        "p": 2,
-        "gf": 22,
-        "gc": 18,
-        "pts": 12
       },
       {
         "posicion": 8,
@@ -1779,12 +1779,12 @@
       {
         "posicion": 9,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 1,
-        "p": 3,
+        "p": 4,
         "gf": 18,
-        "gc": 24,
+        "gc": 29,
         "pts": 10
       },
       {
@@ -1811,6 +1811,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "RIVADAVIA 87",
+        "pj": 7,
+        "g": 2,
+        "e": 1,
+        "p": 4,
+        "gf": 19,
+        "gc": 40,
+        "pts": 7
+      },
+      {
+        "posicion": 13,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 7,
         "g": 1,
@@ -1818,17 +1829,6 @@
         "p": 5,
         "gf": 7,
         "gc": 27,
-        "pts": 4
-      },
-      {
-        "posicion": 13,
-        "equipo": "RIVADAVIA 87",
-        "pj": 6,
-        "g": 1,
-        "e": 1,
-        "p": 4,
-        "gf": 14,
-        "gc": 40,
         "pts": 4
       },
       {
@@ -1856,12 +1856,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 5,
+        "pj": 6,
         "g": 0,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 0,
-        "gc": 28,
+        "gc": 33,
         "pts": 0
       }
     ],
@@ -2047,35 +2047,46 @@
       {
         "equipo": "HAEDO JUNIOR",
         "pj": 80,
-        "g": 61,
-        "e": 6,
+        "g": 60,
+        "e": 7,
         "p": 13,
-        "gf": 363,
-        "gc": 131,
-        "pts": 189,
+        "gf": 357,
+        "gc": 132,
+        "pts": 187,
         "posicion": 1
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 77,
-        "g": 53,
+        "pj": 80,
+        "g": 54,
         "e": 5,
-        "p": 19,
-        "gf": 478,
-        "gc": 219,
-        "pts": 164,
+        "p": 21,
+        "gf": 488,
+        "gc": 234,
+        "pts": 167,
         "posicion": 2
       },
       {
         "equipo": "MARCHIGIANA",
         "pj": 78,
         "g": 50,
-        "e": 10,
-        "p": 18,
-        "gf": 353,
-        "gc": 168,
-        "pts": 160,
+        "e": 11,
+        "p": 17,
+        "gf": 354,
+        "gc": 162,
+        "pts": 161,
         "posicion": 3
+      },
+      {
+        "equipo": "LUNA DE MATANZA",
+        "pj": 80,
+        "g": 42,
+        "e": 6,
+        "p": 32,
+        "gf": 326,
+        "gc": 246,
+        "pts": 132,
+        "posicion": 4
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -2086,40 +2097,51 @@
         "gf": 259,
         "gc": 224,
         "pts": 129,
-        "posicion": 4
-      },
-      {
-        "equipo": "LUNA DE MATANZA",
-        "pj": 78,
-        "g": 40,
-        "e": 6,
-        "p": 32,
-        "gf": 316,
-        "gc": 246,
-        "pts": 126,
         "posicion": 5
       },
       {
         "equipo": "ROTONDA",
-        "pj": 69,
+        "pj": 70,
         "g": 38,
         "e": 10,
-        "p": 21,
-        "gf": 284,
-        "gc": 200,
+        "p": 22,
+        "gf": 286,
+        "gc": 208,
         "pts": 124,
         "posicion": 6
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 75,
-        "g": 37,
+        "pj": 79,
+        "g": 39,
         "e": 7,
-        "p": 31,
-        "gf": 320,
-        "gc": 285,
-        "pts": 118,
+        "p": 33,
+        "gf": 330,
+        "gc": 295,
+        "pts": 124,
         "posicion": 7
+      },
+      {
+        "equipo": "VILLA RITA",
+        "pj": 79,
+        "g": 36,
+        "e": 6,
+        "p": 37,
+        "gf": 287,
+        "gc": 305,
+        "pts": 114,
+        "posicion": 8
+      },
+      {
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 77,
+        "g": 34,
+        "e": 4,
+        "p": 39,
+        "gf": 260,
+        "gc": 278,
+        "pts": 106,
+        "posicion": 9
       },
       {
         "equipo": "PEDRO LOZANO",
@@ -2130,50 +2152,28 @@
         "gf": 240,
         "gc": 218,
         "pts": 105,
-        "posicion": 8
-      },
-      {
-        "equipo": "VILLA RITA",
-        "pj": 75,
-        "g": 33,
-        "e": 6,
-        "p": 36,
-        "gf": 268,
-        "gc": 300,
-        "pts": 105,
-        "posicion": 9
-      },
-      {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 73,
-        "g": 33,
-        "e": 4,
-        "p": 36,
-        "gf": 255,
-        "gc": 259,
-        "pts": 103,
         "posicion": 10
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 72,
+        "pj": 74,
         "g": 32,
         "e": 2,
-        "p": 38,
+        "p": 40,
         "gf": 255,
-        "gc": 289,
+        "gc": 299,
         "pts": 98,
         "posicion": 11
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 74,
-        "g": 28,
+        "pj": 77,
+        "g": 30,
         "e": 6,
-        "p": 40,
-        "gf": 225,
-        "gc": 275,
-        "pts": 90,
+        "p": 41,
+        "gf": 240,
+        "gc": 285,
+        "pts": 96,
         "posicion": 12
       },
       {
@@ -2189,13 +2189,13 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 70,
-        "g": 18,
+        "pj": 71,
+        "g": 19,
         "e": 6,
         "p": 46,
-        "gf": 184,
-        "gc": 315,
-        "pts": 60,
+        "gf": 192,
+        "gc": 317,
+        "pts": 63,
         "posicion": 14
       },
       {
@@ -2211,13 +2211,13 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 72,
-        "g": 12,
+        "pj": 76,
+        "g": 14,
         "e": 3,
-        "p": 57,
-        "gf": 132,
-        "gc": 411,
-        "pts": 39,
+        "p": 59,
+        "gf": 142,
+        "gc": 421,
+        "pts": 45,
         "posicion": 16
       }
     ]
@@ -10317,7 +10317,7 @@
               ]
             },
             "2017 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -10378,16 +10378,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260510-232715-image.jpg"
               ]
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "goles_local": 8,
               "goles_visitante": 4,
@@ -10413,6 +10403,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260511-005742-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260511-005829-image.jpg"
               ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -10634,7 +10634,7 @@
               ]
             },
             "2016 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -10670,17 +10670,20 @@
               "planillas": null
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 10,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260511-205650-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260511-205656-image.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -10739,7 +10742,7 @@
               ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -10752,8 +10755,8 @@
               ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 1,
+              "goles_local": 4,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": null,
@@ -10765,9 +10768,9 @@
               ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10775,9 +10778,9 @@
               "planillas": null
             },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10785,9 +10788,9 @@
               "planillas": null
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10877,9 +10880,9 @@
               ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10887,9 +10890,9 @@
               "planillas": null
             },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10897,9 +10900,9 @@
               "planillas": null
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10930,7 +10933,7 @@
               ]
             },
             "2016 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -10985,16 +10988,6 @@
           "local": "ROTONDA",
           "visitante": "DEPORTIVO ABBAS",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11097,6 +11090,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-al9qkjteyrnsdd7iqiys2fmvypa3/20260511-020430-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-al9qkjteyrnsdd7iqiys2fmvypa3/20260511-020432-image.jpg"
               ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 8,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xp3podmftcr2jmz5xnzgcc49m2e2/20260511-143158-inbound1299546062269421304.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xp3podmftcr2jmz5xnzgcc49m2e2/20260511-143159-inbound1481314899647711660.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -11127,19 +11133,6 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020329-17783785676571960899431952216360.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020348-17783786124728352514735402535253.jpg"
-              ]
             },
             "2016 PROMOCIONALES": {
               "goles_local": 2,
@@ -11178,19 +11171,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153945-1000488822.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-153951-1000488821.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 8,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164039-1000488881.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164043-1000488880.jpg"
               ]
             },
             "SEXTA MASCULINO": {
@@ -11243,6 +11223,32 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225108-1000489187.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225111-1000489186.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164039-1000488881.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-164043-1000488880.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020329-17783785676571960899431952216360.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260510-020348-17783786124728352514735402535253.jpg"
               ]
             }
           },

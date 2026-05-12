@@ -214,7 +214,8 @@ function futsalRedRenderProximoPartido() {
   }
 
   const horaStr = proximo.hora ? ` - ${proximo.hora} hs` : "";
-  $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha) + horaStr;
+  const fechaStr = proximo.fecha ? fechaCorta(proximo.fecha) : "Pendiente";
+  $date.textContent = "Fecha " + proximo.numero + " - " + fechaStr + horaStr;
 
   const local = proximo.esLocal ? FUTSAL_RED_DATA.equipo_foco : proximo.rival;
   const visit = proximo.esLocal ? proximo.rival : FUTSAL_RED_DATA.equipo_foco;
@@ -242,7 +243,7 @@ function futsalRedRenderProximoPartido() {
       </div>
     `;
   } else {
-    $meta.innerHTML = "";
+    $meta.innerHTML = `<div class="match-location" style="color: var(--text-muted);"><span class="location-icon">⏳</span> Sede pendiente</div>`;
   }
 
   // Comparativa
@@ -421,7 +422,11 @@ function futsalRedRenderCalendario() {
 
   $list.innerHTML = partidos.map(p => {
     const horaStr = p.hora ? ` @ ${p.hora}` : "";
-    const sedeStr = p.sede ? `<div class="schedule-venue">${p.sede}</div>` : "";
+    let sedeStr = p.sede ? `<div class="schedule-venue">${p.sede}</div>` : "";
+    
+    if (!p.jugado && !p.sede && !p.hora) {
+      sedeStr = `<div class="schedule-venue" style="color: var(--text-muted);">Pendiente</div>`;
+    }
     
     return `
       <div class="schedule-item ${p.jugado ? 'played' : ''}">
