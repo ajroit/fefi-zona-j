@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-13T06:53:02.379645Z",
+  "actualizado": "2026-05-13T22:10:00.692566Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -6651,7 +6651,7 @@
           "local": "CRISOL JUVENTUD",
           "visitante": "ARGENTINO DE MATADEROS",
           "partidos": {
-            "TERCERA MASCULINO": {
+            "PRIMERA MASCULINO": {
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -6661,7 +6661,7 @@
               "direccion": null,
               "planillas": null
             },
-            "PRIMERA MASCULINO": {
+            "TERCERA MASCULINO": {
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -9135,16 +9135,6 @@
               "direccion": null,
               "planillas": null
             },
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -9176,6 +9166,16 @@
               "planillas": null
             },
             "OCTAVA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
