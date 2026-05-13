@@ -85,15 +85,20 @@ function futsalPartidosDelFoco(categoria) {
         let out_sede = null, out_dir = null, out_hora = null;
         for (const cat of FUTSAL_DATA.categorias) {
           const p = enc.partidos[cat];
-          if (p && p.jugado) {
-            jugado = true;
-            gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
-            gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
-            // Para general, tomamos la sede/hora del primer partido encontrado
-            if (!out_sede) {
+          if (p) {
+            if (p.jugado) {
+              jugado = true;
+              gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
+              gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
+            }
+            // Para general, tomamos la sede/hora del primer partido encontrado, sea jugado o no
+            if (!out_sede && p.sede) {
               out_sede = p.sede;
               out_dir = p.direccion;
-              out_hora = p.fecha_hora ? p.fecha_hora.split(" ")[1] : null;
+            }
+            if (!out_hora && p.fecha_hora) {
+              const fh = p.fecha_hora;
+              out_hora = fh.includes(" ") ? fh.split(" ")[1].substring(0, 5) : (fh.includes("T") ? fh.split("T")[1].substring(0, 5) : null);
             }
           }
         }
@@ -123,7 +128,7 @@ function futsalPartidosDelFoco(categoria) {
           estado: enc.estado,
           sede: p.sede,
           direccion: p.direccion,
-          hora: p.fecha_hora ? p.fecha_hora.split(" ")[1] : null,
+          hora: p.fecha_hora ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
           planillas: p.planillas || []
         });
       }

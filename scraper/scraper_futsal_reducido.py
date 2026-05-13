@@ -8,6 +8,7 @@ import json
 import os
 import sys
 from datetime import datetime
+import concurrent.futures
 
 import requests
 
@@ -131,14 +132,52 @@ def obtener_fixture(phase_id):
     return data
 
 
-def procesar_fixture(visualizer_data, categorias):
-    """
-    Convierte el visualizer en lista de fechas con encuentros.
-    """
-    fechas = []
-    children = visualizer_data.get("children", [])
+def _fetch_match_details(phase_id, node_id, cat_id):
+    """Auxiliar para hacer fetch concurrente de los detalles de partidos (sedes)."""
+    url = f"/tournament/{TOURNAMENT_ID}/phase/{phase_id}/category/{cat_id}/visualizer/{node_id}/match"
+    try:
+        res = api_get(url, params={"instanceUUID": INSTANCE_UUID})
+        return res if isinstance(res, list) else []
+    except Exception as e:
+        return []
 
-    for child in children:
+def procesar_fixture(visualizer_data, categorias, phase_id):
+    """Convierte los datos del fixture en la lista estructurada de fechas."""
+    fechas = []
+    
+    # 1. Recopilar todas las combinaciones (node_id, cat_id) necesarias
+    tareas = set()
+    for child in visualizer_data.get("children", []):
+        if child.get("type") != "container":
+            continue
+        node_id = child.get("id")
+        for mp in child.get("matchesPlanning", []):
+            for tm in mp.get("tournamentMatches", []):
+                cat_id = tm.get("category", {}).get("id")
+                if node_id and cat_id:
+                    tareas.add((node_id, cat_id))
+    
+    # 2. Fetch concurrente de sedes
+    match_venues = {} # match_id -> venue
+    print(f"   ⏳ Fetcheando sedes de {len(tareas)} combinaciones de categoría/fecha...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        futuros = [
+            executor.submit(_fetch_match_details, phase_id, n_id, c_id)
+            for n_id, c_id in tareas
+        ]
+        for fut in concurrent.futures.as_completed(futuros):
+            for match in fut.result():
+                m_id = match.get("matchInfo", {}).get("id")
+                venue = match.get("venue")
+                if m_id and venue:
+                    match_venues[m_id] = venue
+
+    print(f"   ✅ Se encontraron sedes para {len(match_venues)} partidos.")
+
+    for child in visualizer_data.get("children", []):
+        if child.get("type") != "container":
+            continue
+
         fecha_label = child.get("value", "")
         # Extraer número de fecha
         num = 0
@@ -167,14 +206,17 @@ def procesar_fixture(visualizer_data, categorias):
                 status = tm.get("matchStatus", {}) or {}
                 status_label = status.get("label", "")
                 finalized = status.get("finalized", False)
-                dt = tm.get("dateTime") or tm.get("dateTimeUTC")
-                venue = tm.get("venue", {}) or {}
+                
+                # Extraer info de matchInfo
+                m_info = tm.get("matchInfo", {}) or {}
+                dt = m_info.get("dateTime") or m_info.get("dateTimeUTC")
+                photos = m_info.get("spreadsheetPhotos", [])
+                match_id = m_info.get("id")
+                
+                # Obtener venue pre-fetcheado, o fallback al de tm
+                venue = match_venues.get(match_id) or tm.get("venue", {}) or {}
 
                 jugado = (score_h is not None and score_a is not None)
-
-                # Extraer fotos de planillas si existen
-                m_info = tm.get("matchInfo", {}) or {}
-                photos = m_info.get("spreadsheetPhotos", [])
 
                 partidos[cat_nombre] = {
                     "goles_local": score_h,
@@ -265,7 +307,7 @@ def main():
     # 4. Fixture
     print("📅 Obteniendo fixture...")
     visualizer = obtener_fixture(phase_id)
-    fechas = procesar_fixture(visualizer, categorias)
+    fechas = procesar_fixture(visualizer, categorias, phase_id)
     print(f"✅ {len(fechas)} fechas procesadas")
 
     # 5. Armar JSON de salida

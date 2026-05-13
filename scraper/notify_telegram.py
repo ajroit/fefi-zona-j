@@ -71,9 +71,28 @@ def main():
         
         for cat, p in new_match.get('partidos', {}).items():
             if p.get('fecha_hora') or p.get('sede'):
-                fecha_hora = p.get('fecha_hora') or 'Pendiente'
-                sede = p.get('sede') or 'Pendiente'
-                msg += f"🔸 **{cat}**: {fecha_hora} en {sede}\n"
+                fecha_hora = p.get('fecha_hora')
+                if fecha_hora:
+                    # "2026-03-21 18:30" -> "21/03/2026 a las 18:30 hs"
+                    # "2026-03-21T21:30:00.000Z" -> "21/03/2026 a las 21:30 hs"
+                    if "T" in fecha_hora:
+                        date_part, time_part = fecha_hora.split("T")
+                        time_part = time_part[:5]
+                    else:
+                        date_part, time_part = fecha_hora.split(" ")
+                        time_part = time_part[:5]
+                    y, m, d = date_part.split("-")
+                    fecha_str = f"{d}/{m}/{y} a las {time_part} hs"
+                else:
+                    fecha_str = 'Pendiente'
+
+                sede = p.get('sede')
+                direccion = p.get('direccion')
+                sede_str = sede if sede else 'Pendiente'
+                if direccion:
+                    sede_str += f" ({direccion})"
+
+                msg += f"🔸 **{cat}**: {fecha_str} en {sede_str}\n"
                 
         # Send message
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
