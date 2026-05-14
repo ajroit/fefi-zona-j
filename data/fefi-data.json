@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-13T22:58:23.792586+00:00",
+  "actualizado": "2026-05-14T06:50:31.661426+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -1072,8 +1072,8 @@
           "visitante": "CLUB SAAVEDRA",
           "partidos": {
             "2019": {
-              "goles_local": 5,
-              "goles_visitante": 0,
+              "goles_local": 0,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
@@ -1716,58 +1716,58 @@
             "2019": {
               "goles_local": null,
               "goles_visitante": null,
-              "observacion_local": null,
-              "observacion_visitante": null,
-              "observacion": null,
-              "jugado": false
+              "observacion_local": "NP",
+              "observacion_visitante": "GP",
+              "observacion": "NP",
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 4,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 9,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 6,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -1777,60 +1777,60 @@
           "visitante": "TORINO",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -2029,60 +2029,60 @@
           "visitante": "ESTRELLA",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 4,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -2092,60 +2092,60 @@
           "visitante": "30 DE OCTUBRE",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 10,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7767,21 +7767,66 @@
     "general": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 21,
-        "g": 17,
+        "pj": 28,
+        "g": 21,
         "e": 0,
-        "p": 4,
-        "pts": 55,
+        "p": 7,
+        "pts": 70,
         "posicion": 1
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 21,
-        "g": 16,
+        "pj": 28,
+        "g": 20,
         "e": 0,
-        "p": 5,
-        "pts": 53,
+        "p": 8,
+        "pts": 68,
         "posicion": 2
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 28,
+        "g": 16,
+        "e": 2,
+        "p": 10,
+        "pts": 62,
+        "posicion": 3
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 28,
+        "g": 16,
+        "e": 2,
+        "p": 10,
+        "pts": 62,
+        "posicion": 4
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 28,
+        "g": 14,
+        "e": 2,
+        "p": 12,
+        "pts": 58,
+        "posicion": 5
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 28,
+        "g": 13,
+        "e": 0,
+        "p": 15,
+        "pts": 54,
+        "posicion": 6
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 27,
+        "g": 13,
+        "e": 3,
+        "p": 8,
+        "pts": 53,
+        "posicion": 7
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -7790,7 +7835,7 @@
         "e": 4,
         "p": 15,
         "pts": 50,
-        "posicion": 3
+        "posicion": 8
       },
       {
         "equipo": "EL ATALAYA",
@@ -7799,16 +7844,7 @@
         "e": 1,
         "p": 9,
         "pts": 50,
-        "posicion": 4
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 21,
-        "g": 13,
-        "e": 2,
-        "p": 6,
-        "pts": 49,
-        "posicion": 5
+        "posicion": 9
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -7817,25 +7853,7 @@
         "e": 2,
         "p": 7,
         "pts": 47,
-        "posicion": 6
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 21,
-        "g": 12,
-        "e": 2,
-        "p": 7,
-        "pts": 47,
-        "posicion": 7
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 21,
-        "g": 11,
-        "e": 1,
-        "p": 9,
-        "pts": 44,
-        "posicion": 8
+        "posicion": 10
       },
       {
         "equipo": "CLUB SAHORES",
@@ -7844,7 +7862,7 @@
         "e": 0,
         "p": 10,
         "pts": 43,
-        "posicion": 9
+        "posicion": 11
       },
       {
         "equipo": "HOMERO",
@@ -7853,25 +7871,16 @@
         "e": 1,
         "p": 10,
         "pts": 42,
-        "posicion": 10
-      },
-      {
-        "equipo": "TORINO",
-        "pj": 21,
-        "g": 10,
-        "e": 0,
-        "p": 11,
-        "pts": 41,
-        "posicion": 11
-      },
-      {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 20,
-        "g": 10,
-        "e": 2,
-        "p": 6,
-        "pts": 40,
         "posicion": 12
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 21,
+        "g": 7,
+        "e": 0,
+        "p": 14,
+        "pts": 35,
+        "posicion": 13
       },
       {
         "equipo": "LIBERAL",
@@ -7880,15 +7889,6 @@
         "e": 1,
         "p": 12,
         "pts": 35,
-        "posicion": 13
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 14,
-        "g": 4,
-        "e": 0,
-        "p": 10,
-        "pts": 22,
         "posicion": 14
       },
       {
@@ -7912,13 +7912,31 @@
     ],
     "2019": [
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
+        "g": 4,
+        "e": 0,
+        "p": 0,
+        "pts": 12,
+        "posicion": 1
+      },
+      {
         "equipo": "LOMAS DE LUGANO",
         "pj": 4,
         "g": 3,
         "e": 0,
         "p": 1,
         "pts": 10,
-        "posicion": 1
+        "posicion": 2
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 3
       },
       {
         "equipo": "CLUB SAHORES",
@@ -7927,7 +7945,7 @@
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 2
+        "posicion": 4
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -7936,34 +7954,34 @@
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
-        "posicion": 4
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
         "posicion": 5
       },
       {
-        "equipo": "TORINO",
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 6
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 7
+      },
+      {
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 2,
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 6
+        "posicion": 8
       },
       {
         "equipo": "HOMERO",
@@ -7972,42 +7990,24 @@
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 7
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
-        "g": 2,
-        "e": 0,
-        "p": 0,
-        "pts": 6,
-        "posicion": 8
-      },
-      {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
         "posicion": 9
       },
       {
-        "equipo": "MENDEVILLE",
-        "pj": 3,
+        "equipo": "30 DE OCTUBRE",
+        "pj": 4,
         "g": 1,
         "e": 0,
-        "p": 2,
-        "pts": 5,
+        "p": 3,
+        "pts": 6,
         "posicion": 10
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
+        "pj": 4,
         "g": 1,
         "e": 0,
-        "p": 2,
-        "pts": 5,
+        "p": 3,
+        "pts": 6,
         "posicion": 11
       },
       {
@@ -8048,7 +8048,7 @@
       },
       {
         "equipo": "CLUB COMUNICACIONES",
-        "pj": 2,
+        "pj": 3,
         "g": 0,
         "e": 0,
         "p": 0,
@@ -8067,13 +8067,49 @@
         "posicion": 1
       },
       {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 4,
+        "g": 3,
+        "e": 1,
+        "p": 0,
+        "pts": 11,
+        "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 3,
+        "e": 1,
+        "p": 0,
+        "pts": 11,
+        "posicion": 3
+      },
+      {
         "equipo": "HOMERO",
         "pj": 3,
         "g": 3,
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 2
+        "posicion": 4
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 5
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 6
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8082,25 +8118,16 @@
         "e": 2,
         "p": 1,
         "pts": 8,
-        "posicion": 3
+        "posicion": 7
       },
       {
-        "equipo": "CLUB COMUNICACIONES",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 2,
-        "e": 1,
-        "p": 0,
-        "pts": 8,
-        "posicion": 4
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
-        "g": 2,
-        "e": 1,
-        "p": 0,
-        "pts": 8,
-        "posicion": 5
+        "e": 0,
+        "p": 1,
+        "pts": 7,
+        "posicion": 8
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8109,16 +8136,25 @@
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 6
+        "posicion": 9
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
-        "g": 2,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
+        "g": 1,
         "e": 0,
-        "p": 0,
+        "p": 3,
         "pts": 6,
-        "posicion": 7
+        "posicion": 10
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 4,
+        "g": 1,
+        "e": 0,
+        "p": 3,
+        "pts": 6,
+        "posicion": 11
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8127,43 +8163,16 @@
         "e": 0,
         "p": 0,
         "pts": 6,
-        "posicion": 8
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
-        "posicion": 9
-      },
-      {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
-        "posicion": 10
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
-        "posicion": 11
-      },
-      {
-        "equipo": "TORINO",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
         "posicion": 12
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 4,
+        "g": 0,
+        "e": 0,
+        "p": 4,
+        "pts": 4,
+        "posicion": 13
       },
       {
         "equipo": "CLUB SAHORES",
@@ -8172,19 +8181,10 @@
         "e": 0,
         "p": 3,
         "pts": 3,
-        "posicion": 13
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 3,
-        "g": 0,
-        "e": 0,
-        "p": 3,
-        "pts": 3,
         "posicion": 14
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "LIBERAL",
         "pj": 3,
         "g": 0,
         "e": 0,
@@ -8204,22 +8204,49 @@
     ],
     "2018": [
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
+        "g": 4,
+        "e": 0,
+        "p": 0,
+        "pts": 12,
+        "posicion": 1
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 3,
+        "e": 1,
+        "p": 0,
+        "pts": 11,
+        "posicion": 2
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 3
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 4
+      },
+      {
         "equipo": "EL ATALAYA",
         "pj": 4,
         "g": 3,
         "e": 0,
         "p": 1,
         "pts": 10,
-        "posicion": 1
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 3,
-        "e": 0,
-        "p": 0,
-        "pts": 9,
-        "posicion": 2
+        "posicion": 5
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8228,34 +8255,25 @@
         "e": 1,
         "p": 1,
         "pts": 9,
-        "posicion": 3
-      },
-      {
-        "equipo": "TORINO",
-        "pj": 3,
-        "g": 3,
-        "e": 0,
-        "p": 0,
-        "pts": 9,
-        "posicion": 4
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 3,
-        "g": 2,
-        "e": 1,
-        "p": 0,
-        "pts": 8,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 3,
+        "pj": 4,
         "g": 2,
         "e": 0,
-        "p": 1,
-        "pts": 7,
-        "posicion": 6
+        "p": 2,
+        "pts": 8,
+        "posicion": 7
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 8
       },
       {
         "equipo": "CLUB SAHORES",
@@ -8264,16 +8282,7 @@
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 7
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "HOMERO",
@@ -8282,19 +8291,10 @@
         "e": 1,
         "p": 1,
         "pts": 6,
-        "posicion": 9
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
         "posicion": 10
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
+        "equipo": "LIBERAL",
         "pj": 3,
         "g": 1,
         "e": 0,
@@ -8313,15 +8313,15 @@
       },
       {
         "equipo": "CLUB COMUNICACIONES",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
-        "pts": 3,
+        "p": 4,
+        "pts": 4,
         "posicion": 13
       },
       {
-        "equipo": "SANELI F.C.",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 0,
         "e": 0,
@@ -8330,12 +8330,12 @@
         "posicion": 14
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
+        "equipo": "SANELI F.C.",
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 2,
-        "pts": 2,
+        "p": 3,
+        "pts": 3,
         "posicion": 15
       },
       {
@@ -8350,7 +8350,7 @@
     ],
     "2014": [
       {
-        "equipo": "EL ATALAYA",
+        "equipo": "30 DE OCTUBRE",
         "pj": 4,
         "g": 4,
         "e": 0,
@@ -8359,22 +8359,31 @@
         "posicion": 1
       },
       {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 3,
+        "equipo": "EL ATALAYA",
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "pts": 9,
+        "pts": 12,
         "posicion": 2
       },
       {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 3,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
         "g": 3,
         "e": 0,
-        "p": 0,
-        "pts": 9,
+        "p": 1,
+        "pts": 10,
         "posicion": 3
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 4
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8383,25 +8392,34 @@
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 4
-      },
-      {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
         "posicion": 5
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
+        "equipo": "TORINO",
+        "pj": 4,
         "g": 2,
         "e": 0,
-        "p": 1,
-        "pts": 7,
+        "p": 2,
+        "pts": 8,
         "posicion": 6
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 1,
+        "e": 0,
+        "p": 3,
+        "pts": 6,
+        "posicion": 8
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8410,37 +8428,19 @@
         "e": 0,
         "p": 3,
         "pts": 6,
-        "posicion": 7
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
-        "posicion": 8
-      },
-      {
-        "equipo": "CLUB SAHORES",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
         "posicion": 9
       },
       {
-        "equipo": "TORINO",
-        "pj": 3,
+        "equipo": "MENDEVILLE",
+        "pj": 4,
         "g": 1,
         "e": 0,
-        "p": 2,
-        "pts": 5,
+        "p": 3,
+        "pts": 6,
         "posicion": 10
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 1,
         "e": 0,
@@ -8449,13 +8449,22 @@
         "posicion": 11
       },
       {
-        "equipo": "HOMERO",
+        "equipo": "CLUB SAHORES",
         "pj": 3,
         "g": 1,
         "e": 0,
         "p": 2,
         "pts": 5,
         "posicion": 12
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 13
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8464,19 +8473,10 @@
         "e": 0,
         "p": 1,
         "pts": 4,
-        "posicion": 13
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 3,
-        "g": 0,
-        "e": 0,
-        "p": 3,
-        "pts": 3,
         "posicion": 14
       },
       {
-        "equipo": "SANELI F.C.",
+        "equipo": "LIBERAL",
         "pj": 3,
         "g": 0,
         "e": 0,
@@ -8485,33 +8485,60 @@
         "posicion": 15
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
+        "equipo": "SANELI F.C.",
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 2,
-        "pts": 2,
+        "p": 3,
+        "pts": 3,
         "posicion": 16
       }
     ],
     "2017": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "pts": 9,
+        "pts": 12,
         "posicion": 1
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 3,
+        "pj": 4,
         "g": 3,
         "e": 0,
-        "p": 0,
-        "pts": 9,
+        "p": 1,
+        "pts": 10,
         "posicion": 2
+      },
+      {
+        "equipo": "TORINO",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 3
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 4
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 2,
+        "e": 1,
+        "p": 1,
+        "pts": 9,
+        "posicion": 5
       },
       {
         "equipo": "LIBERAL",
@@ -8520,25 +8547,25 @@
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 3
+        "posicion": 6
       },
       {
-        "equipo": "TORINO",
-        "pj": 3,
-        "g": 3,
-        "e": 0,
-        "p": 0,
-        "pts": 9,
-        "posicion": 4
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 3,
+        "equipo": "MENDEVILLE",
+        "pj": 4,
         "g": 2,
-        "e": 1,
-        "p": 0,
+        "e": 0,
+        "p": 2,
         "pts": 8,
-        "posicion": 5
+        "posicion": 7
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "pts": 8,
+        "posicion": 8
       },
       {
         "equipo": "CLUB SAHORES",
@@ -8547,25 +8574,7 @@
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 6
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
-        "posicion": 7
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "EL ATALAYA",
@@ -8574,19 +8583,10 @@
         "e": 1,
         "p": 2,
         "pts": 7,
-        "posicion": 9
-      },
-      {
-        "equipo": "SOL DE AMERICA",
-        "pj": 3,
-        "g": 1,
-        "e": 0,
-        "p": 2,
-        "pts": 5,
         "posicion": 10
       },
       {
-        "equipo": "CLUB COMUNICACIONES",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 1,
         "e": 0,
@@ -8595,13 +8595,22 @@
         "posicion": 11
       },
       {
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 12
+      },
+      {
         "equipo": "LOMAS DE LUGANO",
         "pj": 4,
         "g": 0,
         "e": 0,
         "p": 4,
         "pts": 4,
-        "posicion": 12
+        "posicion": 13
       },
       {
         "equipo": "HOMERO",
@@ -8610,7 +8619,7 @@
         "e": 0,
         "p": 3,
         "pts": 3,
-        "posicion": 13
+        "posicion": 14
       },
       {
         "equipo": "SANELI F.C.",
@@ -8619,15 +8628,6 @@
         "e": 0,
         "p": 3,
         "pts": 3,
-        "posicion": 14
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
-        "g": 0,
-        "e": 0,
-        "p": 2,
-        "pts": 2,
         "posicion": 15
       },
       {
@@ -8642,61 +8642,61 @@
     ],
     "2016": [
       {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 3,
+        "equipo": "30 DE OCTUBRE",
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "pts": 9,
+        "pts": 12,
         "posicion": 1
       },
       {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 3,
-        "g": 3,
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "pts": 9,
+        "pts": 12,
         "posicion": 2
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 3,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
         "g": 3,
         "e": 0,
-        "p": 0,
-        "pts": 9,
+        "p": 1,
+        "pts": 10,
         "posicion": 3
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
+        "equipo": "ESTRELLA",
+        "pj": 4,
         "g": 3,
         "e": 0,
-        "p": 0,
-        "pts": 9,
+        "p": 1,
+        "pts": 10,
         "posicion": 4
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 3,
+        "pj": 4,
         "g": 2,
-        "e": 1,
+        "e": 2,
         "p": 0,
-        "pts": 8,
+        "pts": 10,
         "posicion": 5
       },
       {
-        "equipo": "SOL DE AMERICA",
-        "pj": 3,
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 4,
         "g": 2,
-        "e": 1,
+        "e": 2,
         "p": 0,
-        "pts": 8,
+        "pts": 10,
         "posicion": 6
       },
       {
-        "equipo": "CLUB COMUNICACIONES",
+        "equipo": "SOL DE AMERICA",
         "pj": 3,
         "g": 2,
         "e": 1,
@@ -8723,7 +8723,7 @@
         "posicion": 9
       },
       {
-        "equipo": "CLUB SAHORES",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 1,
         "e": 0,
@@ -8732,7 +8732,7 @@
         "posicion": 10
       },
       {
-        "equipo": "HOMERO",
+        "equipo": "CLUB SAHORES",
         "pj": 3,
         "g": 1,
         "e": 0,
@@ -8741,22 +8741,31 @@
         "posicion": 11
       },
       {
+        "equipo": "HOMERO",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "pts": 5,
+        "posicion": 12
+      },
+      {
         "equipo": "LOMAS DE LUGANO",
         "pj": 4,
         "g": 0,
         "e": 0,
         "p": 4,
         "pts": 4,
-        "posicion": 12
+        "posicion": 13
       },
       {
         "equipo": "TORINO",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
-        "pts": 3,
-        "posicion": 13
+        "p": 4,
+        "pts": 4,
+        "posicion": 14
       },
       {
         "equipo": "SANELI F.C.",
@@ -8765,15 +8774,6 @@
         "e": 0,
         "p": 3,
         "pts": 3,
-        "posicion": 14
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
-        "g": 0,
-        "e": 0,
-        "p": 2,
-        "pts": 2,
         "posicion": 15
       },
       {
@@ -8789,12 +8789,39 @@
     "2015": [
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "pts": 9,
+        "pts": 12,
         "posicion": 1
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 4,
+        "g": 4,
+        "e": 0,
+        "p": 0,
+        "pts": 12,
+        "posicion": 2
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 3
+      },
+      {
+        "equipo": "CLUB COMUNICACIONES",
+        "pj": 4,
+        "g": 3,
+        "e": 0,
+        "p": 1,
+        "pts": 10,
+        "posicion": 4
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8803,42 +8830,15 @@
         "e": 1,
         "p": 1,
         "pts": 9,
-        "posicion": 2
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 3,
-        "g": 3,
-        "e": 0,
-        "p": 0,
-        "pts": 9,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 3,
-        "g": 3,
-        "e": 0,
-        "p": 0,
-        "pts": 9,
-        "posicion": 4
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "pts": 7,
         "posicion": 5
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 3,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 4,
         "g": 2,
         "e": 0,
-        "p": 1,
-        "pts": 7,
+        "p": 2,
+        "pts": 8,
         "posicion": 6
       },
       {
@@ -8851,22 +8851,31 @@
         "posicion": 7
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 1,
+        "e": 1,
+        "p": 2,
+        "pts": 7,
+        "posicion": 8
+      },
+      {
         "equipo": "HOMERO",
         "pj": 3,
         "g": 2,
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 8
+        "posicion": 9
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 3,
+        "equipo": "TORINO",
+        "pj": 4,
         "g": 1,
-        "e": 1,
-        "p": 1,
+        "e": 0,
+        "p": 3,
         "pts": 6,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "LIBERAL",
@@ -8875,7 +8884,7 @@
         "e": 0,
         "p": 2,
         "pts": 5,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8884,7 +8893,7 @@
         "e": 0,
         "p": 2,
         "pts": 5,
-        "posicion": 11
+        "posicion": 12
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8893,19 +8902,10 @@
         "e": 0,
         "p": 1,
         "pts": 4,
-        "posicion": 12
-      },
-      {
-        "equipo": "TORINO",
-        "pj": 3,
-        "g": 0,
-        "e": 0,
-        "p": 3,
-        "pts": 3,
         "posicion": 13
       },
       {
-        "equipo": "SANELI F.C.",
+        "equipo": "FERRO C. O.",
         "pj": 3,
         "g": 0,
         "e": 0,
@@ -8914,12 +8914,12 @@
         "posicion": 14
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 2,
+        "equipo": "SANELI F.C.",
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 2,
-        "pts": 2,
+        "p": 3,
+        "pts": 3,
         "posicion": 15
       },
       {
