@@ -275,7 +275,7 @@ function futsalFemeninoRenderProximoPartido() {
   }
 
   // Scouting del rival
-  renderScoutingSection($scouting, "futsalFemenino", proximo.rival, futsalFemeninoCategoriaActual);
+  renderScoutingSection($scouting, "futsal-femenino", proximo.rival, futsalFemeninoCategoriaActual);
 }
 
 // ---- Métricas ----
