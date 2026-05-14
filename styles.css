@@ -161,16 +161,27 @@ a:hover {
 
 @media (max-width: 600px) {
   .sport-selector {
-    padding: 8px 0;
+    padding: 12px 0;
   }
 
   .sport-selector-row {
     max-width: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: var(--radius-md);
+    gap: 6px;
   }
 
   .sport-btn {
-    padding: 8px 14px;
-    font-size: 12px;
+    padding: 10px 8px;
+    font-size: 11px;
+    white-space: normal;
+    text-align: center;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
