@@ -117,6 +117,7 @@ jobs:
           for fname, tid, foco in [
               ('data/futsal-data.json', 'futsal', 'VILLA SAHORES'),
               ('data/futsal-reducido-data.json', 'futsal-reducido', 'VILLA SAHORES'),
+              ('data/futsal-femenino-data.json', 'futsal-femenino', 'VILLA SAHORES'),
               ('data/fefi-data.json', 'babyfutbol', 'CLUB SAHORES'),
           ]:
               r = next_rival(fname, foco)

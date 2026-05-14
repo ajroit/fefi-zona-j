@@ -59,6 +59,11 @@ TORNEOS = [
         "archivo": "futsal-reducido-data.json", "label_corto": "Futsal Reducido",
         "cat_labels": FUTSAL_CAT_LABELS,
     },
+    {
+        "id": "futsal-femenino", "nombre": "Futsal Femenino Elite 1",
+        "archivo": "futsal-femenino-data.json", "label_corto": "Futsal Femenino",
+        "cat_labels": FUTSAL_CAT_LABELS,
+    },
 ]
 
 
