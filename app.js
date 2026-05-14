@@ -18,7 +18,7 @@ let PREDICTIONS_CACHE = null;
 async function init() {
   // Recuperar deporte preferido
   const savedSport = localStorage.getItem(SPORT_STORAGE_KEY);
-  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal" || savedSport === "futsal-reducido")) {
+  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal" || savedSport === "futsal-reducido" || savedSport === "futsal-femenino")) {
     deporteActual = savedSport;
   }
 
@@ -30,6 +30,8 @@ async function init() {
     await switchToFutsal();
   } else if (deporteActual === "futsal-reducido") {
     await switchToFutsalReducido();
+  } else if (deporteActual === "futsal-femenino") {
+    await switchToFutsalFemenino();
   } else {
     await switchToBabyFutbol();
   }
@@ -54,6 +56,8 @@ function setupSportSelector() {
         await switchToFutsal();
       } else if (sport === "futsal-reducido") {
         await switchToFutsalReducido();
+      } else if (sport === "futsal-femenino") {
+        await switchToFutsalFemenino();
       } else {
         await switchToBabyFutbol();
       }
@@ -127,6 +131,20 @@ async function switchToFutsalReducido() {
     'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
 
   await activarFutsalReducido();
+}
+
+// ---- Cambio a Futsal Femenino ----
+async function switchToFutsalFemenino() {
+  // Actualizar hero
+  document.getElementById("hero-subtitle").textContent = "Futsal Femenino - Elite 1";
+  document.getElementById("badge-label").textContent = "Torneo Joma 2026";
+  document.getElementById("badge-zona").textContent = "Apertura";
+
+  // Actualizar footer
+  document.getElementById("footer-credits").innerHTML =
+    'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
+
+  await activarFutsalFemenino();
 }
 
 // =============================================

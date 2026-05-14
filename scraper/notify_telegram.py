@@ -18,35 +18,31 @@ def get_sahores_match(data):
                     return enc
     return None
 
-def main():
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Telegram credentials not found.")
-        return
-
+def process_league(name, old_file, new_file):
     try:
-        with open('/tmp/futsal-data-old.json', 'r') as f:
+        with open(old_file, 'r') as f:
             old_data = json.load(f)
     except Exception as e:
-        print("Could not load old data:", e)
+        print(f"Could not load old data for {name}:", e)
         return
 
     try:
-        with open('data/futsal-data.json', 'r') as f:
+        with open(new_file, 'r') as f:
             new_data = json.load(f)
     except Exception as e:
-        print("Could not load new data:", e)
+        print(f"Could not load new data for {name}:", e)
         return
 
     old_match = get_sahores_match(old_data)
     new_match = get_sahores_match(new_data)
 
     if not old_match or not new_match:
-        print("Could not find upcoming match.")
+        print(f"[{name}] Could not find upcoming match.")
         return
 
     # Check if they refer to the same match
     if old_match.get('local') != new_match.get('local') or old_match.get('visitante') != new_match.get('visitante'):
-        print("Next match changed entirely, not evaluating schedule updates.")
+        print(f"[{name}] Next match changed entirely, not evaluating schedule updates.")
         return
 
     # Check if it was pending and now it has data
@@ -67,14 +63,12 @@ def main():
         # Build message
         local = new_match.get('local')
         visitante = new_match.get('visitante')
-        msg = f"⚽ ¡Ya están los horarios y días para Futsal (Liga de Honor)!\n\n**{local} vs {visitante}**\n\nSegún el siguiente detalle:\n"
+        msg = f"⚽ ¡Ya están los horarios y días para {name}!\n\n**{local} vs {visitante}**\n\nSegún el siguiente detalle:\n"
         
         for cat, p in new_match.get('partidos', {}).items():
             if p.get('fecha_hora') or p.get('sede'):
                 fecha_hora = p.get('fecha_hora')
                 if fecha_hora:
-                    # "2026-03-21 18:30" -> "21/03/2026 a las 18:30 hs"
-                    # "2026-03-21T21:30:00.000Z" -> "21/03/2026 a las 21:30 hs"
                     if "T" in fecha_hora:
                         date_part, time_part = fecha_hora.split("T")
                         time_part = time_part[:5]
@@ -102,9 +96,22 @@ def main():
             "parse_mode": "Markdown"
         }
         res = requests.post(url, json=payload)
-        print("Telegram API response:", res.status_code, res.text)
+        print(f"[{name}] Telegram API response:", res.status_code, res.text)
     else:
-        print("No new schedule updates detected.")
+        print(f"[{name}] No new schedule updates detected.")
+
+def main():
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Telegram credentials not found.")
+        return
+
+    leagues = [
+        ("Futsal (Liga de Honor)", "/tmp/futsal-data-old.json", "data/futsal-data.json"),
+        ("Futsal Femenino (Elite 1)", "/tmp/futsal-femenino-data-old.json", "data/futsal-femenino-data.json")
+    ]
+
+    for name, old_file, new_file in leagues:
+        process_league(name, old_file, new_file)
 
 if __name__ == '__main__':
     main()

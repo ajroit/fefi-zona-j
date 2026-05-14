@@ -59,7 +59,9 @@ jobs:
           echo "rivals=$(cat /tmp/pre_rivals.txt)" >> $GITHUB_OUTPUT
 
       - name: Backup old Futsal data
-        run: cp data/futsal-data.json /tmp/futsal-data-old.json || true
+        run: |
+          cp data/futsal-data.json /tmp/futsal-data-old.json || true
+          cp data/futsal-femenino-data.json /tmp/futsal-femenino-data-old.json || true
 
       - name: Run FEFI scraper
         run: python scraper/scraper_fefi.py
@@ -69,6 +71,9 @@ jobs:
 
       - name: Run Futsal Reducido fetcher
         run: python scraper/scraper_futsal_reducido.py
+
+      - name: Run Futsal Femenino fetcher
+        run: python scraper/scraper_futsal_femenino.py
 
       - name: Notify Telegram (Futsal Schedules)
         env:
