@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-14T21:52:22.119825Z",
+  "actualizado": "2026-05-16T06:28:15.852208Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -888,6 +888,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "PEDRO LOZANO",
+        "pj": 8,
+        "g": 3,
+        "e": 1,
+        "p": 4,
+        "gf": 19,
+        "gc": 32,
+        "pts": 10
+      },
+      {
+        "posicion": 10,
         "equipo": "MARCHIGIANA",
         "pj": 8,
         "g": 3,
@@ -898,7 +909,7 @@
         "pts": 9
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "ROTONDA",
         "pj": 7,
         "g": 2,
@@ -906,17 +917,6 @@
         "p": 4,
         "gf": 13,
         "gc": 15,
-        "pts": 7
-      },
-      {
-        "posicion": 11,
-        "equipo": "PEDRO LOZANO",
-        "pj": 7,
-        "g": 2,
-        "e": 1,
-        "p": 4,
-        "gf": 14,
-        "gc": 32,
         "pts": 7
       },
       {
@@ -944,12 +944,12 @@
       {
         "posicion": 14,
         "equipo": "VILLA SAHORES",
-        "pj": 7,
+        "pj": 8,
         "g": 1,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 7,
-        "gc": 29,
+        "gc": 34,
         "pts": 3
       },
       {
@@ -1756,6 +1756,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "PEDRO LOZANO",
+        "pj": 7,
+        "g": 4,
+        "e": 1,
+        "p": 2,
+        "gf": 23,
+        "gc": 8,
+        "pts": 13
+      },
+      {
+        "posicion": 8,
         "equipo": "ROTONDA",
         "pj": 7,
         "g": 4,
@@ -1764,17 +1775,6 @@
         "gf": 29,
         "gc": 16,
         "pts": 13
-      },
-      {
-        "posicion": 8,
-        "equipo": "PEDRO LOZANO",
-        "pj": 6,
-        "g": 3,
-        "e": 1,
-        "p": 2,
-        "gf": 18,
-        "gc": 8,
-        "pts": 10
       },
       {
         "posicion": 9,
@@ -1845,12 +1845,12 @@
       {
         "posicion": 15,
         "equipo": "VILLA SAHORES",
-        "pj": 5,
+        "pj": 6,
         "g": 0,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 0,
-        "gc": 25,
+        "gc": 30,
         "pts": 0
       },
       {
@@ -2133,6 +2133,17 @@
         "posicion": 8
       },
       {
+        "equipo": "PEDRO LOZANO",
+        "pj": 74,
+        "g": 33,
+        "e": 12,
+        "p": 29,
+        "gf": 250,
+        "gc": 218,
+        "pts": 111,
+        "posicion": 9
+      },
+      {
         "equipo": "ESTRADA FUTSAL",
         "pj": 77,
         "g": 34,
@@ -2141,17 +2152,6 @@
         "gf": 260,
         "gc": 278,
         "pts": 106,
-        "posicion": 9
-      },
-      {
-        "equipo": "PEDRO LOZANO",
-        "pj": 72,
-        "g": 31,
-        "e": 12,
-        "p": 29,
-        "gf": 240,
-        "gc": 218,
-        "pts": 105,
         "posicion": 10
       },
       {
@@ -2200,12 +2200,12 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 74,
+        "pj": 76,
         "g": 18,
         "e": 4,
-        "p": 52,
+        "p": 54,
         "gf": 131,
-        "gc": 322,
+        "gc": 332,
         "pts": 58,
         "posicion": 15
       },
@@ -10016,16 +10016,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 7,
@@ -10116,14 +10106,7 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260503-120745-inbound5765412964197763492.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260503-120743-inbound2234696926510098765.jpg"
               ]
-            }
-          },
-          "estado": "Finalizado"
-        },
-        {
-          "local": "JUVENTUD",
-          "visitante": "LUNA DE MATANZA",
-          "partidos": {
+            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -10133,7 +10116,14 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "JUVENTUD",
+          "visitante": "LUNA DE MATANZA",
+          "partidos": {
             "CUARTA MASCULINO": {
               "goles_local": 1,
               "goles_visitante": 11,
@@ -10263,6 +10253,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-143706-1001015084.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-143708-1001015090.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -10343,9 +10343,9 @@
               ]
             },
             "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10473,16 +10473,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260510-151421-220497.jpg"
               ]
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "SEPTIMA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 1,
@@ -10560,6 +10550,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260511-024305-220829.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260511-024311-220830.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -10619,16 +10619,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-144850-1000115064.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-144852-1000115063.jpg"
               ]
-            },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
             },
             "PRIMERA MASCULINO": {
               "goles_local": 5,
@@ -10707,6 +10697,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-185100-1000115263.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-185058-1000115264.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -10755,16 +10755,6 @@
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10845,6 +10835,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-161335-1000418853.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-161337-1000418853.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -10877,16 +10877,6 @@
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10980,6 +10970,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260510-171532-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260510-171540-image.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -11068,16 +11068,6 @@
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "goles_local": 10,
               "goles_visitante": 4,
@@ -11103,14 +11093,7 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xp3podmftcr2jmz5xnzgcc49m2e2/20260511-143158-inbound1299546062269421304.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xp3podmftcr2jmz5xnzgcc49m2e2/20260511-143159-inbound1481314899647711660.jpg"
               ]
-            }
-          },
-          "estado": "Finalizado"
-        },
-        {
-          "local": "HAEDO JUNIOR",
-          "visitante": "MARCHIGIANA",
-          "partidos": {
+            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11120,7 +11103,14 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "HAEDO JUNIOR",
+          "visitante": "MARCHIGIANA",
+          "partidos": {
             "PRIMERA MASCULINO": {
               "goles_local": 4,
               "goles_visitante": 4,
@@ -11250,6 +11240,16 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225108-1000489187.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-225111-1000489186.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -11259,9 +11259,9 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-07 11:00",
               "sede": "El Ferroviario ",
@@ -11269,9 +11269,9 @@
               "planillas": null
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -11495,16 +11495,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11513,6 +11503,16 @@
               "fecha_hora": "2026-05-16 19:30",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
+              "planillas": null
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             }
           },
@@ -11612,16 +11612,6 @@
               "direccion": "Ana María janer 2601",
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11630,6 +11620,16 @@
               "fecha_hora": "2026-05-17 19:30",
               "sede": "Club deportivo Riestra ",
               "direccion": "Ana María janer 2601",
+              "planillas": null
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             }
           },
@@ -11699,22 +11699,12 @@
               "direccion": "Las Bases 151 Haedo",
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
+            "TERCERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-17 14:30",
+              "fecha_hora": "2026-05-17 18:00",
               "sede": "Instituto Brown Haedo",
               "direccion": "Las Bases 151 Haedo",
               "planillas": null
@@ -11729,12 +11719,12 @@
               "direccion": "Las Bases 151 Haedo",
               "planillas": null
             },
-            "TERCERA MASCULINO": {
+            "SEXTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-05-17 18:00",
+              "fecha_hora": "2026-05-17 14:30",
               "sede": "Instituto Brown Haedo",
               "direccion": "Las Bases 151 Haedo",
               "planillas": null
@@ -11747,6 +11737,16 @@
               "fecha_hora": "2026-05-17 10:30",
               "sede": "Instituto Brown Haedo",
               "direccion": "Las Bases 151 Haedo",
+              "planillas": null
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             }
           },
@@ -11963,16 +11963,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -11981,6 +11971,16 @@
               "fecha_hora": "2026-05-17 15:00",
               "sede": "Complejo San José ",
               "direccion": "Perón 7100, Martin Coronado",
+              "planillas": null
+            },
+            "2019 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             }
           },

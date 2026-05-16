@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-14T21:52:29.929235Z",
+  "actualizado": "2026-05-16T06:28:24.426682Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -359,12 +359,12 @@
       {
         "posicion": 7,
         "equipo": "CAPITAN ROSALES",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
         "e": 0,
-        "p": 2,
+        "p": 3,
         "gf": 37,
-        "gc": 27,
+        "gc": 32,
         "pts": 15
       },
       {
@@ -402,6 +402,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "ALTO PASTO",
+        "pj": 8,
+        "g": 3,
+        "e": 0,
+        "p": 5,
+        "gf": 31,
+        "gc": 38,
+        "pts": 9
+      },
+      {
+        "posicion": 12,
         "equipo": "PARQUE CHAS",
         "pj": 8,
         "g": 3,
@@ -412,7 +423,7 @@
         "pts": 9
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "VILLA SAHORES",
         "pj": 6,
         "g": 2,
@@ -421,17 +432,6 @@
         "gf": 20,
         "gc": 27,
         "pts": 7
-      },
-      {
-        "posicion": 13,
-        "equipo": "ALTO PASTO",
-        "pj": 7,
-        "g": 2,
-        "e": 0,
-        "p": 5,
-        "gf": 26,
-        "gc": 38,
-        "pts": 6
       },
       {
         "posicion": 14,
@@ -1492,12 +1492,12 @@
     "general": [
       {
         "equipo": "CAPITAN ROSALES",
-        "pj": 54,
+        "pj": 55,
         "g": 42,
         "e": 2,
-        "p": 10,
+        "p": 11,
         "gf": 357,
-        "gc": 161,
+        "gc": 166,
         "pts": 128,
         "posicion": 1
       },
@@ -1646,13 +1646,13 @@
       },
       {
         "equipo": "ALTO PASTO",
-        "pj": 54,
-        "g": 13,
+        "pj": 55,
+        "g": 14,
         "e": 3,
         "p": 38,
-        "gf": 143,
+        "gf": 148,
         "gc": 286,
-        "pts": 42,
+        "pts": 45,
         "posicion": 15
       },
       {
@@ -8413,19 +8413,6 @@
               "direccion": "4 de marzo 1146",
               "planillas": null
             },
-            "TERCERA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-10 16:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260511-022848-WhatsApp_Image_2026-05-10_at_23.28.09__1_.jpeg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260511-022855-WhatsApp_Image_2026-05-10_at_23.28.09.jpeg"
-              ]
-            },
             "QUINTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 12,
@@ -8463,6 +8450,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260510-173217-inbound6875399904067245566.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260510-173240-inbound2183075131948175219.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-10 16:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260511-022848-WhatsApp_Image_2026-05-10_at_23.28.09__1_.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260511-022855-WhatsApp_Image_2026-05-10_at_23.28.09.jpeg"
               ]
             }
           },

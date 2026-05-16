@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-14T21:52:34.586937Z",
+  "actualizado": "2026-05-16T06:28:30.117826Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -36,6 +36,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
+      "nombre": "MAVIA FC",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
+    },
+    {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
@@ -50,10 +54,6 @@
     {
       "nombre": "VELEZ SARSFIELD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
-    },
-    {
-      "nombre": "MAVIA FC",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -154,6 +154,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "MAVIA FC",
+        "pj": 8,
+        "g": 4,
+        "e": 1,
+        "p": 3,
+        "gf": 21,
+        "gc": 21,
+        "pts": 13
+      },
+      {
+        "posicion": 8,
         "equipo": "PURA SUELA",
         "pj": 8,
         "g": 3,
@@ -164,7 +175,7 @@
         "pts": 12
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 8,
         "g": 3,
@@ -175,7 +186,7 @@
         "pts": 11
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ALLENDE",
         "pj": 7,
         "g": 2,
@@ -186,7 +197,7 @@
         "pts": 10
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
         "pj": 8,
         "g": 3,
@@ -194,17 +205,6 @@
         "p": 4,
         "gf": 25,
         "gc": 30,
-        "pts": 10
-      },
-      {
-        "posicion": 11,
-        "equipo": "MAVIA FC",
-        "pj": 7,
-        "g": 3,
-        "e": 1,
-        "p": 3,
-        "gf": 16,
-        "gc": 21,
         "pts": 10
       },
       {
@@ -265,12 +265,12 @@
       {
         "posicion": 17,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 5,
+        "pj": 6,
         "g": 0,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 6,
-        "gc": 22,
+        "gc": 27,
         "pts": 0
       },
       {
@@ -354,6 +354,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "MAVIA FC",
+        "pj": 8,
+        "g": 4,
+        "e": 2,
+        "p": 2,
+        "gf": 17,
+        "gc": 10,
+        "pts": 14
+      },
+      {
+        "posicion": 8,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 8,
         "g": 3,
@@ -364,7 +375,7 @@
         "pts": 12
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "VELEZ SARSFIELD",
         "pj": 8,
         "g": 4,
@@ -375,25 +386,14 @@
         "pts": 12
       },
       {
-        "posicion": 9,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 5,
-        "g": 3,
-        "e": 2,
-        "p": 0,
-        "gf": 12,
-        "gc": 8,
-        "pts": 11
-      },
-      {
         "posicion": 10,
-        "equipo": "MAVIA FC",
-        "pj": 7,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 6,
         "g": 3,
         "e": 2,
-        "p": 2,
+        "p": 1,
         "gf": 12,
-        "gc": 10,
+        "gc": 13,
         "pts": 11
       },
       {
@@ -598,6 +598,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "MAVIA FC",
+        "pj": 8,
+        "g": 3,
+        "e": 2,
+        "p": 3,
+        "gf": 20,
+        "gc": 12,
+        "pts": 11
+      },
+      {
+        "posicion": 12,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 8,
         "g": 3,
@@ -606,17 +617,6 @@
         "gf": 9,
         "gc": 10,
         "pts": 10
-      },
-      {
-        "posicion": 12,
-        "equipo": "MAVIA FC",
-        "pj": 7,
-        "g": 2,
-        "e": 2,
-        "p": 3,
-        "gf": 15,
-        "gc": 12,
-        "pts": 8
       },
       {
         "posicion": 13,
@@ -631,6 +631,17 @@
       },
       {
         "posicion": 14,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 7,
+        "g": 2,
+        "e": 0,
+        "p": 5,
+        "gf": 10,
+        "gc": 16,
+        "pts": 6
+      },
+      {
+        "posicion": 15,
         "equipo": "ASTRA MACKIE",
         "pj": 7,
         "g": 1,
@@ -639,17 +650,6 @@
         "gf": 6,
         "gc": 9,
         "pts": 4
-      },
-      {
-        "posicion": 15,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 5,
-        "g": 1,
-        "e": 0,
-        "p": 4,
-        "gf": 5,
-        "gc": 11,
-        "pts": 3
       },
       {
         "posicion": 16,
@@ -664,18 +664,18 @@
       },
       {
         "posicion": 17,
-        "equipo": "SAN TELMO",
-        "pj": 7,
+        "equipo": "CENTRO VK",
+        "pj": 8,
         "g": 0,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 0,
-        "gc": 35,
+        "gc": 40,
         "pts": 0
       },
       {
         "posicion": 18,
-        "equipo": "CENTRO VK",
+        "equipo": "SAN TELMO",
         "pj": 8,
         "g": 0,
         "e": 0,
@@ -742,6 +742,17 @@
         "posicion": 5
       },
       {
+        "equipo": "MAVIA FC",
+        "pj": 24,
+        "g": 11,
+        "e": 5,
+        "p": 8,
+        "gf": 58,
+        "gc": 43,
+        "pts": 38,
+        "posicion": 6
+      },
+      {
         "equipo": "INDEPENDIENTE (C)",
         "pj": 24,
         "g": 9,
@@ -750,7 +761,7 @@
         "gf": 37,
         "gc": 35,
         "pts": 35,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "ASTRA MACKIE",
@@ -761,7 +772,7 @@
         "gf": 36,
         "gc": 22,
         "pts": 33,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "ESTRELLA FEDERAL",
@@ -772,7 +783,7 @@
         "gf": 34,
         "gc": 45,
         "pts": 33,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "EL GALPON",
@@ -783,7 +794,7 @@
         "gf": 37,
         "gc": 34,
         "pts": 31,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "SACA DEL MEDIO",
@@ -794,7 +805,7 @@
         "gf": 34,
         "gc": 45,
         "pts": 31,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -805,17 +816,6 @@
         "gf": 49,
         "gc": 60,
         "pts": 30,
-        "posicion": 11
-      },
-      {
-        "equipo": "MAVIA FC",
-        "pj": 21,
-        "g": 8,
-        "e": 5,
-        "p": 8,
-        "gf": 43,
-        "gc": 43,
-        "pts": 29,
         "posicion": 12
       },
       {
@@ -853,13 +853,13 @@
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 15,
-        "g": 4,
+        "pj": 19,
+        "g": 5,
         "e": 2,
-        "p": 9,
-        "gf": 23,
-        "gc": 41,
-        "pts": 14,
+        "p": 12,
+        "gf": 28,
+        "gc": 56,
+        "pts": 17,
         "posicion": 16
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 21,
+        "pj": 22,
         "g": 0,
         "e": 1,
-        "p": 20,
+        "p": 21,
         "gf": 9,
-        "gc": 96,
+        "gc": 101,
         "pts": 1,
         "posicion": 18
       }
@@ -1236,9 +1236,9 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -1246,7 +1246,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ZIZOU FUTSAL",
@@ -4485,22 +4485,22 @@
               "direccion": "Avenida Albarellos 2935",
               "planillas": null
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-17 18:00",
-              "sede": "17 de Agosto ",
-              "direccion": "Avenida Albarellos 2935",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-17 19:15",
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
+              "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-17 18:00",
               "sede": "17 de Agosto ",
               "direccion": "Avenida Albarellos 2935",
               "planillas": null
