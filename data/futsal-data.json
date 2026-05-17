@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-16T06:28:15.852208Z",
+  "actualizado": "2026-05-17T06:49:34.082224Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -20,12 +20,12 @@
   ],
   "equipos": [
     {
-      "nombre": "HAEDO JUNIOR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
-    },
-    {
       "nombre": "RIVADAVIA 87",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-201955-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740601962760%20(1).png"
+    },
+    {
+      "nombre": "HAEDO JUNIOR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
     },
     {
       "nombre": "ATENEO HAEDO",
@@ -76,18 +76,29 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
     },
     {
-      "nombre": "ROTONDA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
-    },
-    {
       "nombre": "BPNA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
+    },
+    {
+      "nombre": "ROTONDA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
     }
   ],
   "tablas_posiciones": {
     "PRIMERA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "RIVADAVIA 87",
+        "pj": 9,
+        "g": 7,
+        "e": 1,
+        "p": 1,
+        "gf": 55,
+        "gc": 32,
+        "pts": 22
+      },
+      {
+        "posicion": 2,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
         "g": 7,
@@ -96,17 +107,6 @@
         "gf": 41,
         "gc": 22,
         "pts": 22
-      },
-      {
-        "posicion": 2,
-        "equipo": "RIVADAVIA 87",
-        "pj": 8,
-        "g": 6,
-        "e": 1,
-        "p": 1,
-        "gf": 49,
-        "gc": 29,
-        "pts": 19
       },
       {
         "posicion": 3,
@@ -221,13 +221,13 @@
       {
         "posicion": 13,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
-        "e": 2,
+        "e": 3,
         "p": 5,
-        "gf": 25,
-        "gc": 32,
-        "pts": 5
+        "gf": 32,
+        "gc": 39,
+        "pts": 6
       },
       {
         "posicion": 14,
@@ -242,24 +242,24 @@
       },
       {
         "posicion": 15,
-        "equipo": "ROTONDA",
-        "pj": 7,
+        "equipo": "BPNA",
+        "pj": 9,
         "g": 1,
-        "e": 1,
-        "p": 5,
-        "gf": 30,
+        "e": 2,
+        "p": 6,
+        "gf": 29,
         "gc": 52,
-        "pts": 4
+        "pts": 5
       },
       {
         "posicion": 16,
-        "equipo": "BPNA",
+        "equipo": "ROTONDA",
         "pj": 8,
         "g": 1,
         "e": 1,
         "p": 6,
-        "gf": 22,
-        "gc": 45,
+        "gf": 33,
+        "gc": 58,
         "pts": 4
       }
     ],
@@ -277,6 +277,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "BPNA",
+        "pj": 9,
+        "g": 5,
+        "e": 2,
+        "p": 2,
+        "gf": 51,
+        "gc": 45,
+        "pts": 17
+      },
+      {
+        "posicion": 3,
         "equipo": "MARCHIGIANA",
         "pj": 7,
         "g": 5,
@@ -287,7 +298,18 @@
         "pts": 16
       },
       {
-        "posicion": 3,
+        "posicion": 4,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 9,
+        "g": 5,
+        "e": 1,
+        "p": 3,
+        "gf": 50,
+        "gc": 43,
+        "pts": 16
+      },
+      {
+        "posicion": 5,
         "equipo": "LUNA DE MATANZA",
         "pj": 8,
         "g": 5,
@@ -298,29 +320,29 @@
         "pts": 16
       },
       {
-        "posicion": 4,
-        "equipo": "BPNA",
-        "pj": 8,
-        "g": 5,
-        "e": 1,
-        "p": 2,
-        "gf": 44,
-        "gc": 38,
-        "pts": 16
-      },
-      {
-        "posicion": 5,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 8,
-        "g": 5,
-        "e": 0,
-        "p": 3,
-        "gf": 43,
-        "gc": 36,
-        "pts": 15
-      },
-      {
         "posicion": 6,
+        "equipo": "ATENEO HAEDO",
+        "pj": 8,
+        "g": 4,
+        "e": 1,
+        "p": 3,
+        "gf": 41,
+        "gc": 28,
+        "pts": 13
+      },
+      {
+        "posicion": 7,
+        "equipo": "RIVADAVIA 87",
+        "pj": 9,
+        "g": 3,
+        "e": 4,
+        "p": 2,
+        "gf": 45,
+        "gc": 37,
+        "pts": 13
+      },
+      {
+        "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 8,
         "g": 4,
@@ -331,7 +353,7 @@
         "pts": 13
       },
       {
-        "posicion": 7,
+        "posicion": 9,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
         "g": 4,
@@ -342,37 +364,15 @@
         "pts": 13
       },
       {
-        "posicion": 8,
-        "equipo": "ATENEO HAEDO",
-        "pj": 7,
-        "g": 4,
-        "e": 0,
-        "p": 3,
-        "gf": 40,
-        "gc": 27,
-        "pts": 12
-      },
-      {
-        "posicion": 9,
-        "equipo": "RIVADAVIA 87",
-        "pj": 8,
-        "g": 3,
-        "e": 3,
-        "p": 2,
-        "gf": 42,
-        "gc": 34,
-        "pts": 12
-      },
-      {
         "posicion": 10,
         "equipo": "ROTONDA",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
-        "e": 1,
+        "e": 2,
         "p": 3,
-        "gf": 41,
-        "gc": 37,
-        "pts": 10
+        "gf": 44,
+        "gc": 40,
+        "pts": 11
       },
       {
         "posicion": 11,
@@ -432,26 +432,26 @@
       {
         "posicion": 16,
         "equipo": "VILLA SAHORES",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
-        "e": 1,
+        "e": 2,
         "p": 7,
-        "gf": 15,
-        "gc": 39,
-        "pts": 1
+        "gf": 16,
+        "gc": 40,
+        "pts": 2
       }
     ],
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
-        "g": 8,
+        "pj": 9,
+        "g": 9,
         "e": 0,
         "p": 0,
-        "gf": 61,
-        "gc": 26,
-        "pts": 24
+        "gf": 65,
+        "gc": 28,
+        "pts": 27
       },
       {
         "posicion": 2,
@@ -467,13 +467,13 @@
       {
         "posicion": 3,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 8,
-        "g": 6,
+        "pj": 9,
+        "g": 7,
         "e": 0,
         "p": 2,
-        "gf": 46,
+        "gf": 62,
         "gc": 31,
-        "pts": 18
+        "pts": 21
       },
       {
         "posicion": 4,
@@ -489,12 +489,12 @@
       {
         "posicion": 5,
         "equipo": "ROTONDA",
-        "pj": 7,
+        "pj": 8,
         "g": 5,
         "e": 1,
-        "p": 1,
-        "gf": 44,
-        "gc": 19,
+        "p": 2,
+        "gf": 46,
+        "gc": 23,
         "pts": 16
       },
       {
@@ -510,6 +510,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ATENEO HAEDO",
+        "pj": 8,
+        "g": 4,
+        "e": 0,
+        "p": 4,
+        "gf": 52,
+        "gc": 28,
+        "pts": 12
+      },
+      {
+        "posicion": 8,
         "equipo": "VILLA RITA",
         "pj": 8,
         "g": 4,
@@ -520,7 +531,7 @@
         "pts": 12
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "MARCHIGIANA",
         "pj": 8,
         "g": 3,
@@ -531,7 +542,7 @@
         "pts": 11
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 7,
         "g": 3,
@@ -542,7 +553,7 @@
         "pts": 10
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "PEDRO LOZANO",
         "pj": 7,
         "g": 3,
@@ -553,25 +564,14 @@
         "pts": 10
       },
       {
-        "posicion": 11,
-        "equipo": "ATENEO HAEDO",
-        "pj": 7,
-        "g": 3,
-        "e": 0,
-        "p": 4,
-        "gf": 42,
-        "gc": 28,
-        "pts": 9
-      },
-      {
         "posicion": 12,
         "equipo": "VILLA SAHORES",
-        "pj": 8,
+        "pj": 9,
         "g": 3,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 18,
-        "gc": 32,
+        "gc": 42,
         "pts": 9
       },
       {
@@ -610,12 +610,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 14,
-        "gc": 83,
+        "gc": 99,
         "pts": 0
       }
     ],
@@ -644,6 +644,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "RIVADAVIA 87",
+        "pj": 9,
+        "g": 6,
+        "e": 0,
+        "p": 3,
+        "gf": 49,
+        "gc": 27,
+        "pts": 18
+      },
+      {
+        "posicion": 4,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 8,
         "g": 6,
@@ -654,7 +665,7 @@
         "pts": 18
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "MARCHIGIANA",
         "pj": 8,
         "g": 5,
@@ -665,18 +676,18 @@
         "pts": 16
       },
       {
-        "posicion": 5,
-        "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "posicion": 6,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 9,
         "g": 5,
         "e": 0,
-        "p": 3,
-        "gf": 41,
-        "gc": 26,
+        "p": 4,
+        "gf": 39,
+        "gc": 27,
         "pts": 15
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 8,
         "g": 4,
@@ -687,40 +698,40 @@
         "pts": 14
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "VILLA SAHORES",
-        "pj": 8,
+        "pj": 9,
         "g": 4,
         "e": 2,
-        "p": 2,
-        "gf": 25,
-        "gc": 20,
+        "p": 3,
+        "gf": 26,
+        "gc": 28,
         "pts": 14
-      },
-      {
-        "posicion": 8,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 8,
-        "g": 4,
-        "e": 0,
-        "p": 4,
-        "gf": 33,
-        "gc": 26,
-        "pts": 12
       },
       {
         "posicion": 9,
         "equipo": "ROTONDA",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 2,
-        "p": 2,
-        "gf": 22,
-        "gc": 18,
+        "p": 3,
+        "gf": 23,
+        "gc": 26,
         "pts": 11
       },
       {
         "posicion": 10,
+        "equipo": "ATENEO HAEDO",
+        "pj": 9,
+        "g": 3,
+        "e": 1,
+        "p": 5,
+        "gf": 32,
+        "gc": 38,
+        "pts": 10
+      },
+      {
+        "posicion": 11,
         "equipo": "VILLA RITA",
         "pj": 8,
         "g": 3,
@@ -731,7 +742,7 @@
         "pts": 10
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "JUVENTUD",
         "pj": 8,
         "g": 2,
@@ -742,25 +753,14 @@
         "pts": 8
       },
       {
-        "posicion": 12,
-        "equipo": "ATENEO HAEDO",
-        "pj": 8,
-        "g": 2,
-        "e": 1,
-        "p": 5,
-        "gf": 24,
-        "gc": 37,
-        "pts": 7
-      },
-      {
         "posicion": 13,
         "equipo": "BPNA",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 1,
-        "p": 6,
-        "gf": 17,
-        "gc": 42,
+        "p": 7,
+        "gf": 18,
+        "gc": 48,
         "pts": 4
       },
       {
@@ -833,6 +833,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "RIVADAVIA 87",
+        "pj": 9,
+        "g": 7,
+        "e": 0,
+        "p": 2,
+        "gf": 44,
+        "gc": 18,
+        "pts": 21
+      },
+      {
+        "posicion": 5,
         "equipo": "VILLA RITA",
         "pj": 8,
         "g": 6,
@@ -843,25 +854,14 @@
         "pts": 18
       },
       {
-        "posicion": 5,
-        "equipo": "RIVADAVIA 87",
-        "pj": 8,
-        "g": 6,
-        "e": 0,
-        "p": 2,
-        "gf": 36,
-        "gc": 18,
-        "pts": 18
-      },
-      {
         "posicion": 6,
         "equipo": "ATENEO HAEDO",
-        "pj": 8,
+        "pj": 9,
         "g": 5,
         "e": 0,
-        "p": 3,
+        "p": 4,
         "gf": 26,
-        "gc": 27,
+        "gc": 28,
         "pts": 15
       },
       {
@@ -911,12 +911,12 @@
       {
         "posicion": 11,
         "equipo": "ROTONDA",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 13,
-        "gc": 15,
+        "gc": 23,
         "pts": 7
       },
       {
@@ -932,6 +932,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "VILLA SAHORES",
+        "pj": 9,
+        "g": 2,
+        "e": 0,
+        "p": 7,
+        "gf": 8,
+        "gc": 34,
+        "pts": 6
+      },
+      {
+        "posicion": 14,
         "equipo": "ESTRADA FUTSAL",
         "pj": 7,
         "g": 1,
@@ -940,17 +951,6 @@
         "gf": 13,
         "gc": 27,
         "pts": 4
-      },
-      {
-        "posicion": 14,
-        "equipo": "VILLA SAHORES",
-        "pj": 8,
-        "g": 1,
-        "e": 0,
-        "p": 7,
-        "gf": 7,
-        "gc": 34,
-        "pts": 3
       },
       {
         "posicion": 15,
@@ -1033,6 +1033,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "ROTONDA",
+        "pj": 8,
+        "g": 5,
+        "e": 0,
+        "p": 3,
+        "gf": 30,
+        "gc": 18,
+        "pts": 15
+      },
+      {
+        "posicion": 7,
         "equipo": "ATENEO HAEDO",
         "pj": 8,
         "g": 5,
@@ -1043,7 +1054,7 @@
         "pts": 15
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 8,
         "g": 5,
@@ -1052,17 +1063,6 @@
         "gf": 22,
         "gc": 32,
         "pts": 15
-      },
-      {
-        "posicion": 8,
-        "equipo": "ROTONDA",
-        "pj": 7,
-        "g": 4,
-        "e": 0,
-        "p": 3,
-        "gf": 26,
-        "gc": 17,
-        "pts": 12
       },
       {
         "posicion": 9,
@@ -1111,12 +1111,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 0,
-        "p": 6,
-        "gf": 17,
-        "gc": 40,
+        "p": 7,
+        "gf": 18,
+        "gc": 44,
         "pts": 6
       },
       {
@@ -1167,6 +1167,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ROTONDA",
+        "pj": 8,
+        "g": 6,
+        "e": 2,
+        "p": 0,
+        "gf": 29,
+        "gc": 7,
+        "pts": 20
+      },
+      {
+        "posicion": 3,
         "equipo": "HAEDO JUNIOR",
         "pj": 8,
         "g": 6,
@@ -1177,7 +1188,7 @@
         "pts": 19
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "MARCHIGIANA",
         "pj": 8,
         "g": 5,
@@ -1188,7 +1199,7 @@
         "pts": 18
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "PEDRO LOZANO",
         "pj": 8,
         "g": 5,
@@ -1196,17 +1207,6 @@
         "p": 1,
         "gf": 36,
         "gc": 9,
-        "pts": 17
-      },
-      {
-        "posicion": 5,
-        "equipo": "ROTONDA",
-        "pj": 7,
-        "g": 5,
-        "e": 2,
-        "p": 0,
-        "gf": 26,
-        "gc": 6,
         "pts": 17
       },
       {
@@ -1223,16 +1223,27 @@
       {
         "posicion": 7,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "pj": 9,
         "g": 4,
         "e": 0,
-        "p": 4,
-        "gf": 33,
-        "gc": 20,
+        "p": 5,
+        "gf": 34,
+        "gc": 23,
         "pts": 12
       },
       {
         "posicion": 8,
+        "equipo": "VILLA SAHORES",
+        "pj": 9,
+        "g": 4,
+        "e": 0,
+        "p": 5,
+        "gf": 19,
+        "gc": 22,
+        "pts": 12
+      },
+      {
+        "posicion": 9,
         "equipo": "JUVENTUD",
         "pj": 8,
         "g": 3,
@@ -1243,7 +1254,7 @@
         "pts": 10
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "LUNA DE MATANZA",
         "pj": 8,
         "g": 3,
@@ -1254,7 +1265,7 @@
         "pts": 9
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "ESTRADA FUTSAL",
         "pj": 7,
         "g": 3,
@@ -1265,7 +1276,7 @@
         "pts": 9
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "CIENCIA Y LABOR",
         "pj": 7,
         "g": 3,
@@ -1273,17 +1284,6 @@
         "p": 4,
         "gf": 17,
         "gc": 23,
-        "pts": 9
-      },
-      {
-        "posicion": 12,
-        "equipo": "VILLA SAHORES",
-        "pj": 8,
-        "g": 3,
-        "e": 0,
-        "p": 5,
-        "gf": 15,
-        "gc": 21,
         "pts": 9
       },
       {
@@ -1311,12 +1311,12 @@
       {
         "posicion": 15,
         "equipo": "ATENEO HAEDO",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 0,
-        "p": 7,
-        "gf": 17,
-        "gc": 53,
+        "p": 8,
+        "gf": 18,
+        "gc": 57,
         "pts": 3
       },
       {
@@ -1444,6 +1444,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "ATENEO HAEDO",
+        "pj": 8,
+        "g": 2,
+        "e": 1,
+        "p": 5,
+        "gf": 18,
+        "gc": 32,
+        "pts": 7
+      },
+      {
+        "posicion": 12,
         "equipo": "BPNA",
         "pj": 7,
         "g": 2,
@@ -1454,18 +1465,18 @@
         "pts": 6
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "VILLA SAHORES",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 0,
-        "p": 5,
-        "gf": 14,
-        "gc": 42,
+        "p": 6,
+        "gf": 15,
+        "gc": 44,
         "pts": 6
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "RIVADAVIA 87",
         "pj": 8,
         "g": 1,
@@ -1474,17 +1485,6 @@
         "gf": 21,
         "gc": 33,
         "pts": 5
-      },
-      {
-        "posicion": 14,
-        "equipo": "ATENEO HAEDO",
-        "pj": 7,
-        "g": 1,
-        "e": 1,
-        "p": 5,
-        "gf": 16,
-        "gc": 31,
-        "pts": 4
       },
       {
         "posicion": 15,
@@ -1611,6 +1611,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "ATENEO HAEDO",
+        "pj": 8,
+        "g": 3,
+        "e": 0,
+        "p": 5,
+        "gf": 18,
+        "gc": 42,
+        "pts": 9
+      },
+      {
+        "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 7,
         "g": 2,
@@ -1621,7 +1632,7 @@
         "pts": 8
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "RIVADAVIA 87",
         "pj": 8,
         "g": 2,
@@ -1629,17 +1640,6 @@
         "p": 6,
         "gf": 11,
         "gc": 29,
-        "pts": 6
-      },
-      {
-        "posicion": 12,
-        "equipo": "ATENEO HAEDO",
-        "pj": 7,
-        "g": 2,
-        "e": 0,
-        "p": 5,
-        "gf": 15,
-        "gc": 41,
         "pts": 6
       },
       {
@@ -1656,12 +1656,12 @@
       {
         "posicion": 14,
         "equipo": "VILLA SAHORES",
-        "pj": 7,
+        "pj": 8,
         "g": 1,
         "e": 0,
-        "p": 6,
-        "gf": 5,
-        "gc": 32,
+        "p": 7,
+        "gf": 6,
+        "gc": 35,
         "pts": 3
       },
       {
@@ -2078,6 +2078,17 @@
         "posicion": 3
       },
       {
+        "equipo": "RIVADAVIA 87",
+        "pj": 86,
+        "g": 43,
+        "e": 8,
+        "p": 35,
+        "gf": 361,
+        "gc": 311,
+        "pts": 137,
+        "posicion": 4
+      },
+      {
         "equipo": "LUNA DE MATANZA",
         "pj": 80,
         "g": 42,
@@ -2086,7 +2097,18 @@
         "gf": 326,
         "gc": 246,
         "pts": 132,
-        "posicion": 4
+        "posicion": 5
+      },
+      {
+        "equipo": "ROTONDA",
+        "pj": 77,
+        "g": 40,
+        "e": 11,
+        "p": 26,
+        "gf": 302,
+        "gc": 239,
+        "pts": 131,
+        "posicion": 6
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -2097,29 +2119,18 @@
         "gf": 259,
         "gc": 224,
         "pts": 129,
-        "posicion": 5
-      },
-      {
-        "equipo": "ROTONDA",
-        "pj": 70,
-        "g": 38,
-        "e": 10,
-        "p": 22,
-        "gf": 286,
-        "gc": 208,
-        "pts": 124,
-        "posicion": 6
-      },
-      {
-        "equipo": "RIVADAVIA 87",
-        "pj": 79,
-        "g": 39,
-        "e": 7,
-        "p": 33,
-        "gf": 330,
-        "gc": 295,
-        "pts": 124,
         "posicion": 7
+      },
+      {
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 81,
+        "g": 36,
+        "e": 6,
+        "p": 39,
+        "gf": 296,
+        "gc": 293,
+        "pts": 114,
+        "posicion": 8
       },
       {
         "equipo": "VILLA RITA",
@@ -2130,7 +2141,7 @@
         "gf": 287,
         "gc": 305,
         "pts": 114,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "PEDRO LOZANO",
@@ -2141,28 +2152,17 @@
         "gf": 250,
         "gc": 218,
         "pts": 111,
-        "posicion": 9
-      },
-      {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 77,
-        "g": 34,
-        "e": 4,
-        "p": 39,
-        "gf": 260,
-        "gc": 278,
-        "pts": 106,
         "posicion": 10
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 74,
-        "g": 32,
-        "e": 2,
-        "p": 40,
-        "gf": 255,
-        "gc": 299,
-        "pts": 98,
+        "pj": 81,
+        "g": 36,
+        "e": 3,
+        "p": 42,
+        "gf": 280,
+        "gc": 308,
+        "pts": 111,
         "posicion": 11
       },
       {
@@ -2188,6 +2188,17 @@
         "posicion": 13
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 83,
+        "g": 20,
+        "e": 5,
+        "p": 58,
+        "gf": 140,
+        "gc": 357,
+        "pts": 65,
+        "posicion": 14
+      },
+      {
         "equipo": "DEPORTIVO ABBAS",
         "pj": 71,
         "g": 19,
@@ -2196,28 +2207,17 @@
         "gf": 192,
         "gc": 317,
         "pts": 63,
-        "posicion": 14
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 76,
-        "g": 18,
-        "e": 4,
-        "p": 54,
-        "gf": 131,
-        "gc": 332,
-        "pts": 58,
         "posicion": 15
       },
       {
         "equipo": "BPNA",
-        "pj": 76,
+        "pj": 80,
         "g": 14,
-        "e": 3,
-        "p": 59,
-        "gf": 142,
-        "gc": 421,
-        "pts": 45,
+        "e": 5,
+        "p": 61,
+        "gf": 157,
+        "gc": 457,
+        "pts": 47,
         "posicion": 16
       }
     ]
@@ -11406,84 +11406,69 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 18:00",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260516-223649-17789709948488296044859044941123.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260516-223702-17789710103713341434509963829905.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 10,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 16:45",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 15:30",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260516-223358-185353.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260516-223400-185354.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 12:30",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 13:30",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-164246-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-163924-image.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 14:30",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
-            },
-            "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 11:00",
-              "sede": "Club ateneo ",
-              "direccion": "Las bases 221",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-183943-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-183803-image.jpg"
+              ]
             },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 10:00",
               "sede": "Club ateneo ",
               "direccion": "Las bases 221",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-151755-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-151745-image.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "goles_local": null,
@@ -11514,9 +11499,45 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 11:00",
+              "sede": "Club ateneo ",
+              "direccion": "Las bases 221",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-152428-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-152436-image.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 13:30",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 8,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 15:30",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-195533-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-195517-image.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "MARCHIGIANA",
@@ -11756,75 +11777,57 @@
           "local": "RIVADAVIA 87",
           "visitante": "ROTONDA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 17:00",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 15:30",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 14:15",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260516-184054-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260516-184132-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 13:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-184258-228789.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-184156-228790.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 12:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-155933-228691.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-155940-228692.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 11:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 10:00",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-153208-228633.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-153136-228659.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "goles_local": null,
@@ -11865,53 +11868,65 @@
               "sede": "Club Rivadavia 87",
               "direccion": "Josefina b Marquez 3497",
               "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 10:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-140704-228570.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-140707-228592.png"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 15:30",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-200717-228917.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-200720-228918.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 6,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 17:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-223850-229029.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-224010-229030.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ESTRADA FUTSAL",
           "visitante": "BPNA",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 21:00",
               "sede": "CEDEM 3",
               "direccion": "Emancipador y Miramar, Loma Hermosa.",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 19:30",
-              "sede": "CEDEM 3",
-              "direccion": "Emancipador y Miramar, Loma Hermosa.",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 18:15",
-              "sede": "CEDEM 3",
-              "direccion": "Emancipador y Miramar, Loma Hermosa.",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-16 17:00",
-              "sede": "CEDEM 3",
-              "direccion": "Emancipador y Miramar, Loma Hermosa.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004647-1000926958.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004558-1000926959.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "goles_local": null,
@@ -11982,9 +11997,48 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 6,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 17:00",
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260516-213115-1000926879.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260516-213021-1000926880.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 16,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 18:15",
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260516-223830-1000926894.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260516-223827-1000926895.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 7,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 19:30",
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-023420-1000926958.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-023418-1000926959.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "INDEPENDIENTE DE BECCAR",
