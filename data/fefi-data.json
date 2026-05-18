@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-17T06:49:23.194155+00:00",
+  "actualizado": "2026-05-18T08:11:25.714094+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -2224,60 +2224,60 @@
           "visitante": "CLUB SAAVEDRA",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 8,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 7,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 4,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7767,12 +7767,21 @@
     "general": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 28,
-        "g": 21,
-        "e": 0,
-        "p": 7,
-        "pts": 70,
+        "pj": 35,
+        "g": 25,
+        "e": 1,
+        "p": 9,
+        "pts": 86,
         "posicion": 1
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 35,
+        "g": 18,
+        "e": 3,
+        "p": 14,
+        "pts": 74,
+        "posicion": 2
       },
       {
         "equipo": "30 DE OCTUBRE",
@@ -7781,15 +7790,6 @@
         "e": 0,
         "p": 8,
         "pts": 68,
-        "posicion": 2
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 28,
-        "g": 16,
-        "e": 2,
-        "p": 10,
-        "pts": 62,
         "posicion": 3
       },
       {
@@ -7913,11 +7913,11 @@
     "2019": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 4,
-        "g": 4,
+        "pj": 5,
+        "g": 5,
         "e": 0,
         "p": 0,
-        "pts": 12,
+        "pts": 15,
         "posicion": 1
       },
       {
@@ -7939,16 +7939,16 @@
         "posicion": 3
       },
       {
-        "equipo": "CLUB SAHORES",
-        "pj": 3,
-        "g": 3,
+        "equipo": "ESTRELLA",
+        "pj": 5,
+        "g": 2,
         "e": 0,
-        "p": 0,
+        "p": 3,
         "pts": 9,
         "posicion": 4
       },
       {
-        "equipo": "SOL DE AMERICA",
+        "equipo": "CLUB SAHORES",
         "pj": 3,
         "g": 3,
         "e": 0,
@@ -7957,12 +7957,12 @@
         "posicion": 5
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 4,
-        "g": 2,
+        "equipo": "SOL DE AMERICA",
+        "pj": 3,
+        "g": 3,
         "e": 0,
-        "p": 2,
-        "pts": 8,
+        "p": 0,
+        "pts": 9,
         "posicion": 6
       },
       {
@@ -8067,16 +8067,16 @@
         "posicion": 1
       },
       {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 4,
+        "equipo": "ESTRELLA",
+        "pj": 5,
         "g": 3,
-        "e": 1,
-        "p": 0,
+        "e": 0,
+        "p": 2,
         "pts": 11,
         "posicion": 2
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
+        "equipo": "CLUB COMUNICACIONES",
         "pj": 4,
         "g": 3,
         "e": 1,
@@ -8085,25 +8085,25 @@
         "posicion": 3
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 4,
+        "g": 3,
+        "e": 1,
+        "p": 0,
+        "pts": 11,
+        "posicion": 4
+      },
+      {
         "equipo": "HOMERO",
         "pj": 3,
         "g": 3,
         "e": 0,
         "p": 0,
         "pts": 9,
-        "posicion": 4
-      },
-      {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 4,
-        "g": 2,
-        "e": 0,
-        "p": 2,
-        "pts": 8,
         "posicion": 5
       },
       {
-        "equipo": "ESTRELLA",
+        "equipo": "30 DE OCTUBRE",
         "pj": 4,
         "g": 2,
         "e": 0,
@@ -8130,21 +8130,21 @@
         "posicion": 8
       },
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 5,
+        "g": 1,
+        "e": 0,
+        "p": 4,
+        "pts": 7,
+        "posicion": 9
+      },
+      {
         "equipo": "SOL DE AMERICA",
         "pj": 3,
         "g": 2,
         "e": 0,
         "p": 1,
         "pts": 7,
-        "posicion": 9
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 4,
-        "g": 1,
-        "e": 0,
-        "p": 3,
-        "pts": 6,
         "posicion": 10
       },
       {
@@ -8205,20 +8205,20 @@
     "2018": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 4,
+        "pj": 5,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 0,
-        "pts": 12,
+        "pts": 14,
         "posicion": 1
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 4,
+        "pj": 5,
         "g": 3,
-        "e": 1,
+        "e": 2,
         "p": 0,
-        "pts": 11,
+        "pts": 13,
         "posicion": 2
       },
       {
@@ -8350,16 +8350,16 @@
     ],
     "2014": [
       {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 4,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 5,
         "g": 4,
         "e": 0,
-        "p": 0,
-        "pts": 12,
+        "p": 1,
+        "pts": 13,
         "posicion": 1
       },
       {
-        "equipo": "EL ATALAYA",
+        "equipo": "30 DE OCTUBRE",
         "pj": 4,
         "g": 4,
         "e": 0,
@@ -8368,12 +8368,12 @@
         "posicion": 2
       },
       {
-        "equipo": "CLUB SAAVEDRA",
+        "equipo": "EL ATALAYA",
         "pj": 4,
-        "g": 3,
+        "g": 4,
         "e": 0,
-        "p": 1,
-        "pts": 10,
+        "p": 0,
+        "pts": 12,
         "posicion": 3
       },
       {
@@ -8414,11 +8414,11 @@
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 4,
+        "pj": 5,
         "g": 1,
         "e": 0,
-        "p": 3,
-        "pts": 6,
+        "p": 4,
+        "pts": 7,
         "posicion": 8
       },
       {
@@ -8497,11 +8497,11 @@
     "2017": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 4,
-        "g": 4,
+        "pj": 5,
+        "g": 5,
         "e": 0,
         "p": 0,
-        "pts": 12,
+        "pts": 15,
         "posicion": 1
       },
       {
@@ -8514,16 +8514,16 @@
         "posicion": 2
       },
       {
-        "equipo": "TORINO",
-        "pj": 4,
-        "g": 3,
-        "e": 0,
-        "p": 1,
+        "equipo": "ESTRELLA",
+        "pj": 5,
+        "g": 2,
+        "e": 1,
+        "p": 2,
         "pts": 10,
         "posicion": 3
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
+        "equipo": "TORINO",
         "pj": 4,
         "g": 3,
         "e": 0,
@@ -8532,12 +8532,12 @@
         "posicion": 4
       },
       {
-        "equipo": "ESTRELLA",
+        "equipo": "PACIFICO MAR PLAST",
         "pj": 4,
-        "g": 2,
-        "e": 1,
+        "g": 3,
+        "e": 0,
         "p": 1,
-        "pts": 9,
+        "pts": 10,
         "posicion": 5
       },
       {
@@ -8642,16 +8642,16 @@
     ],
     "2016": [
       {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 4,
+        "equipo": "ESTRELLA",
+        "pj": 5,
         "g": 4,
         "e": 0,
-        "p": 0,
-        "pts": 12,
+        "p": 1,
+        "pts": 13,
         "posicion": 1
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
+        "equipo": "30 DE OCTUBRE",
         "pj": 4,
         "g": 4,
         "e": 0,
@@ -8660,21 +8660,21 @@
         "posicion": 2
       },
       {
-        "equipo": "CLUB SAAVEDRA",
+        "equipo": "PACIFICO MAR PLAST",
         "pj": 4,
-        "g": 3,
+        "g": 4,
         "e": 0,
-        "p": 1,
-        "pts": 10,
+        "p": 0,
+        "pts": 12,
         "posicion": 3
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 4,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 5,
         "g": 3,
         "e": 0,
-        "p": 1,
-        "pts": 10,
+        "p": 2,
+        "pts": 11,
         "posicion": 4
       },
       {
@@ -8806,13 +8806,22 @@
         "posicion": 2
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 4,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 5,
         "g": 3,
         "e": 0,
-        "p": 1,
-        "pts": 10,
+        "p": 2,
+        "pts": 11,
         "posicion": 3
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 5,
+        "g": 3,
+        "e": 0,
+        "p": 2,
+        "pts": 11,
+        "posicion": 4
       },
       {
         "equipo": "CLUB COMUNICACIONES",
@@ -8821,7 +8830,7 @@
         "e": 0,
         "p": 1,
         "pts": 10,
-        "posicion": 4
+        "posicion": 5
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8830,15 +8839,6 @@
         "e": 1,
         "p": 1,
         "pts": 9,
-        "posicion": 5
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 4,
-        "g": 2,
-        "e": 0,
-        "p": 2,
-        "pts": 8,
         "posicion": 6
       },
       {
