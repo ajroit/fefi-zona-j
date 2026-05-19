@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-18T08:11:30.304450Z",
+  "actualizado": "2026-05-19T07:53:34.376743Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -52,12 +52,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
-    },
-    {
       "nombre": "VILLA RITA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201009-Captura%20de%20pantalla%202025-04-09%20170817.png"
+    },
+    {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
     },
     {
       "nombre": "CIENCIA Y LABOR",
@@ -68,16 +68,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260227-160851-20260224-224609-Disen_o_sin_ti_tulo.PNG"
     },
     {
+      "nombre": "BPNA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
+    },
+    {
       "nombre": "ESTRADA FUTSAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195807-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
       "nombre": "LUNA DE MATANZA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
-    },
-    {
-      "nombre": "BPNA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
       "nombre": "ROTONDA",
@@ -166,16 +166,27 @@
       {
         "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 8,
+        "pj": 9,
         "g": 4,
         "e": 1,
-        "p": 3,
-        "gf": 44,
-        "gc": 39,
+        "p": 4,
+        "gf": 48,
+        "gc": 48,
         "pts": 13
       },
       {
         "posicion": 9,
+        "equipo": "VILLA RITA",
+        "pj": 9,
+        "g": 3,
+        "e": 2,
+        "p": 4,
+        "gf": 47,
+        "gc": 47,
+        "pts": 11
+      },
+      {
+        "posicion": 10,
         "equipo": "VILLA SAHORES",
         "pj": 9,
         "g": 3,
@@ -184,17 +195,6 @@
         "gf": 27,
         "gc": 36,
         "pts": 10
-      },
-      {
-        "posicion": 10,
-        "equipo": "VILLA RITA",
-        "pj": 8,
-        "g": 2,
-        "e": 2,
-        "p": 4,
-        "gf": 38,
-        "gc": 43,
-        "pts": 8
       },
       {
         "posicion": 11,
@@ -220,17 +220,28 @@
       },
       {
         "posicion": 13,
-        "equipo": "ESTRADA FUTSAL",
+        "equipo": "BPNA",
         "pj": 9,
-        "g": 1,
-        "e": 3,
-        "p": 5,
-        "gf": 32,
-        "gc": 39,
-        "pts": 6
+        "g": 2,
+        "e": 1,
+        "p": 6,
+        "gf": 26,
+        "gc": 48,
+        "pts": 7
       },
       {
         "posicion": 14,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 9,
+        "g": 1,
+        "e": 2,
+        "p": 6,
+        "gf": 28,
+        "gc": 36,
+        "pts": 5
+      },
+      {
+        "posicion": 15,
         "equipo": "LUNA DE MATANZA",
         "pj": 9,
         "g": 1,
@@ -238,17 +249,6 @@
         "p": 6,
         "gf": 18,
         "gc": 34,
-        "pts": 5
-      },
-      {
-        "posicion": 15,
-        "equipo": "BPNA",
-        "pj": 9,
-        "g": 1,
-        "e": 2,
-        "p": 6,
-        "gf": 29,
-        "gc": 52,
         "pts": 5
       },
       {
@@ -266,6 +266,17 @@
     "TERCERA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 9,
+        "g": 7,
+        "e": 1,
+        "p": 1,
+        "gf": 61,
+        "gc": 37,
+        "pts": 22
+      },
+      {
+        "posicion": 2,
         "equipo": "MARCHIGIANA",
         "pj": 8,
         "g": 6,
@@ -273,17 +284,6 @@
         "p": 1,
         "gf": 40,
         "gc": 15,
-        "pts": 19
-      },
-      {
-        "posicion": 2,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 8,
-        "g": 6,
-        "e": 1,
-        "p": 1,
-        "gf": 55,
-        "gc": 34,
         "pts": 19
       },
       {
@@ -399,12 +399,12 @@
       {
         "posicion": 13,
         "equipo": "VILLA RITA",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 2,
-        "p": 4,
-        "gf": 45,
-        "gc": 51,
+        "p": 5,
+        "gf": 48,
+        "gc": 57,
         "pts": 8
       },
       {
@@ -2056,6 +2056,17 @@
         "posicion": 1
       },
       {
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 89,
+        "g": 59,
+        "e": 5,
+        "p": 25,
+        "gf": 533,
+        "gc": 279,
+        "pts": 182,
+        "posicion": 2
+      },
+      {
         "equipo": "MARCHIGIANA",
         "pj": 88,
         "g": 56,
@@ -2064,17 +2075,6 @@
         "gf": 402,
         "gc": 190,
         "pts": 180,
-        "posicion": 2
-      },
-      {
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 87,
-        "g": 58,
-        "e": 5,
-        "p": 24,
-        "gf": 523,
-        "gc": 267,
-        "pts": 179,
         "posicion": 3
       },
       {
@@ -2122,25 +2122,25 @@
         "posicion": 7
       },
       {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 84,
-        "g": 39,
+        "equipo": "VILLA RITA",
+        "pj": 88,
+        "g": 40,
         "e": 6,
-        "p": 39,
-        "gf": 317,
-        "gc": 297,
-        "pts": 123,
+        "p": 42,
+        "gf": 332,
+        "gc": 350,
+        "pts": 126,
         "posicion": 8
       },
       {
-        "equipo": "VILLA RITA",
-        "pj": 86,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 84,
         "g": 39,
-        "e": 6,
-        "p": 41,
-        "gf": 320,
-        "gc": 340,
-        "pts": 123,
+        "e": 5,
+        "p": 40,
+        "gf": 313,
+        "gc": 294,
+        "pts": 122,
         "posicion": 9
       },
       {
@@ -2212,12 +2212,12 @@
       {
         "equipo": "BPNA",
         "pj": 83,
-        "g": 14,
-        "e": 5,
+        "g": 15,
+        "e": 4,
         "p": 64,
-        "gf": 161,
-        "gc": 478,
-        "pts": 47,
+        "gf": 158,
+        "gc": 474,
+        "pts": 49,
         "posicion": 16
       }
     ]
@@ -11978,19 +11978,6 @@
           "local": "ESTRADA FUTSAL",
           "visitante": "BPNA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": 7,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-16 21:00",
-              "sede": "CEDEM 3",
-              "direccion": "Emancipador y Miramar, Loma Hermosa.",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004647-1000926958.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004558-1000926959.jpg"
-              ]
-            },
             "SEXTA MASCULINO": {
               "goles_local": 0,
               "goles_visitante": 0,
@@ -12111,6 +12098,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-181811-1000927232.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-181814-1000927233.jpg"
               ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-16 21:00",
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004647-1000926958.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260517-004558-1000926959.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -12120,24 +12120,17 @@
           "visitante": "VILLA RITA",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 22:30",
               "sede": "Inmaculada Concepción ",
               "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-17 21:00",
-              "sede": "Inmaculada Concepción ",
-              "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260518-235417-1779148441319832243988139624481.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260518-235346-17791484067418434588049057798343.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "goles_local": 3,
@@ -12248,6 +12241,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260517-230035-17790588206942192842362431264651.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260517-230018-17790588012035340961360032452031.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 6,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-17 21:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260518-235906-17791487299815162255974048372373.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260518-235951-17791487790998652563849782946576.jpg"
               ]
             }
           },

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-18T08:11:37.571584Z",
+  "actualizado": "2026-05-19T07:53:52.513622Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -232,13 +232,13 @@
       {
         "posicion": 14,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
-        "e": 4,
+        "e": 5,
         "p": 3,
-        "gf": 7,
-        "gc": 17,
-        "pts": 7
+        "gf": 10,
+        "gc": 20,
+        "pts": 8
       },
       {
         "posicion": 15,
@@ -276,13 +276,13 @@
       {
         "posicion": 18,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 6,
+        "pj": 7,
         "g": 0,
-        "e": 0,
+        "e": 1,
         "p": 6,
-        "gf": 6,
-        "gc": 27,
-        "pts": 0
+        "gf": 9,
+        "gc": 30,
+        "pts": 1
       }
     ],
     "RESERVA ADULTAS FEMENINO ": [
@@ -776,13 +776,13 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 25,
+        "pj": 26,
         "g": 9,
-        "e": 8,
+        "e": 9,
         "p": 8,
-        "gf": 37,
-        "gc": 36,
-        "pts": 35,
+        "gf": 40,
+        "gc": 39,
+        "pts": 36,
         "posicion": 9
       },
       {
@@ -841,6 +841,17 @@
         "posicion": 14
       },
       {
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 21,
+        "g": 6,
+        "e": 3,
+        "p": 12,
+        "gf": 32,
+        "gc": 59,
+        "pts": 21,
+        "posicion": 15
+      },
+      {
         "equipo": "PURA SUELA",
         "pj": 27,
         "g": 5,
@@ -849,17 +860,6 @@
         "gf": 29,
         "gc": 65,
         "pts": 21,
-        "posicion": 15
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 20,
-        "g": 6,
-        "e": 2,
-        "p": 12,
-        "gf": 29,
-        "gc": 56,
-        "pts": 20,
         "posicion": 16
       },
       {
@@ -4317,16 +4317,6 @@
           "local": "BROWN DE ADROGUE",
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-17 20:45",
-              "sede": "Gimnasio Nicolás Abud",
-              "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 1,
               "goles_visitante": 0,
@@ -4349,6 +4339,19 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-17 20:45",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260518-131120-inbound4202612319077304868.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260518-131123-inbound5860098986345854250.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -4538,22 +4541,22 @@
           "local": "17 DE AGOSTO",
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-17 18:00",
-              "sede": "17 de Agosto ",
-              "direccion": "Avenida Albarellos 2935",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:15",
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
+              "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-17 18:00",
               "sede": "17 de Agosto ",
               "direccion": "Avenida Albarellos 2935",
               "planillas": null
