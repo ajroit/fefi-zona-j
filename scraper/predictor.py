@@ -140,24 +140,25 @@ def proximos_partidos(data, equipo_foco):
                 "jugado": encuentro_jugado(enc),
             })
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    # Find the next match: the first unplayed match after the last played match
+    last_played_idx = -1
+    for i, p in enumerate(partidos):
+        if p["jugado"]:
+            last_played_idx = i
 
     proximo = None
-    for p in partidos:
-        if p.get("fecha") and p["fecha"] >= today_str:
+    for i, p in enumerate(partidos):
+        if not p["jugado"] and i > last_played_idx:
             proximo = p
             break
-            
+
+    # Fallback if no played matches exist yet or all matches before are unplayed
     if not proximo:
-        last_played = -1
-        for i, p in enumerate(partidos):
-            if p["jugado"]:
-                last_played = i
-        for i, p in enumerate(partidos):
-            if not p["jugado"] and i > last_played:
+        for p in partidos:
+            if not p["jugado"]:
                 proximo = p
                 break
-                
+
     pendientes = [proximo] if proximo else []
     return pendientes[:MAX_PARTIDOS]
 
