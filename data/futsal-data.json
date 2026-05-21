@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-20T07:52:33.472178Z",
+  "actualizado": "2026-05-21T07:59:39.537073Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1701,6 +1701,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "VILLA RITA",
+        "pj": 9,
+        "g": 7,
+        "e": 0,
+        "p": 2,
+        "gf": 53,
+        "gc": 20,
+        "pts": 21
+      },
+      {
+        "posicion": 3,
         "equipo": "CIENCIA Y LABOR",
         "pj": 9,
         "g": 7,
@@ -1711,7 +1722,7 @@
         "pts": 21
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "LUNA DE MATANZA",
         "pj": 9,
         "g": 6,
@@ -1720,17 +1731,6 @@
         "gf": 46,
         "gc": 15,
         "pts": 19
-      },
-      {
-        "posicion": 4,
-        "equipo": "VILLA RITA",
-        "pj": 8,
-        "g": 6,
-        "e": 0,
-        "p": 2,
-        "gf": 32,
-        "gc": 18,
-        "pts": 18
       },
       {
         "posicion": 5,
@@ -1812,12 +1812,12 @@
       {
         "posicion": 12,
         "equipo": "RIVADAVIA 87",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 1,
-        "p": 4,
-        "gf": 19,
-        "gc": 40,
+        "p": 5,
+        "gf": 21,
+        "gc": 61,
         "pts": 7
       },
       {
@@ -2101,14 +2101,25 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 86,
+        "pj": 87,
         "g": 43,
         "e": 8,
-        "p": 35,
-        "gf": 361,
-        "gc": 311,
+        "p": 36,
+        "gf": 363,
+        "gc": 332,
         "pts": 137,
         "posicion": 6
+      },
+      {
+        "equipo": "VILLA RITA",
+        "pj": 90,
+        "g": 42,
+        "e": 6,
+        "p": 42,
+        "gf": 358,
+        "gc": 352,
+        "pts": 132,
+        "posicion": 7
       },
       {
         "equipo": "ROTONDA",
@@ -2119,7 +2130,7 @@
         "gf": 302,
         "gc": 239,
         "pts": 131,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2130,17 +2141,6 @@
         "gf": 328,
         "gc": 294,
         "pts": 131,
-        "posicion": 8
-      },
-      {
-        "equipo": "VILLA RITA",
-        "pj": 89,
-        "g": 41,
-        "e": 6,
-        "p": 42,
-        "gf": 337,
-        "gc": 350,
-        "pts": 129,
         "posicion": 9
       },
       {
@@ -3609,9 +3609,9 @@
               "planillas": null
             },
             "2019 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
