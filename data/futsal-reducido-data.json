@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-22T07:51:01.637505Z",
+  "actualizado": "2026-05-24T07:26:55.580572Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -25,7 +25,7 @@
     },
     {
       "nombre": "BRISAS DE HAEDO",
-      "logo": ""
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205513-20260327-174248-WhatsApp_Image_2026-03-27_at_2.41.30_PM.png"
     },
     {
       "nombre": "PROGRESO SANTA RITA",
@@ -52,16 +52,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen_de_WhatsApp_2025-03-17_a_las_13.21.52_cce7a3bd-removebg-preview%20(1).png"
     },
     {
-      "nombre": "SUD AMERICA",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
-    },
-    {
       "nombre": "UGAB",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-215321-T6lzlzqK_400x400.png"
     },
     {
+      "nombre": "SUD AMERICA",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
+    },
+    {
       "nombre": "CRISOL JUVENTUD",
-      "logo": ""
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205804-images__1_.png"
     },
     {
       "nombre": "ALTO PASTO",
@@ -191,6 +191,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "UGAB",
+        "pj": 9,
+        "g": 4,
+        "e": 1,
+        "p": 4,
+        "gf": 40,
+        "gc": 34,
+        "pts": 13
+      },
+      {
+        "posicion": 11,
         "equipo": "SUD AMERICA",
         "pj": 9,
         "g": 3,
@@ -199,17 +210,6 @@
         "gf": 42,
         "gc": 47,
         "pts": 12
-      },
-      {
-        "posicion": 11,
-        "equipo": "UGAB",
-        "pj": 8,
-        "g": 3,
-        "e": 1,
-        "p": 4,
-        "gf": 32,
-        "gc": 31,
-        "pts": 10
       },
       {
         "posicion": 12,
@@ -269,12 +269,12 @@
       {
         "posicion": 17,
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 1,
-        "p": 6,
-        "gf": 39,
-        "gc": 62,
+        "p": 7,
+        "gf": 42,
+        "gc": 70,
         "pts": 4
       },
       {
@@ -336,6 +336,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 9,
+        "g": 5,
+        "e": 3,
+        "p": 1,
+        "gf": 58,
+        "gc": 34,
+        "pts": 18
+      },
+      {
+        "posicion": 6,
         "equipo": "PACHECO SUR",
         "pj": 9,
         "g": 5,
@@ -346,26 +357,15 @@
         "pts": 18
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "UGAB",
-        "pj": 8,
+        "pj": 9,
         "g": 5,
         "e": 1,
-        "p": 2,
-        "gf": 61,
-        "gc": 33,
+        "p": 3,
+        "gf": 64,
+        "gc": 41,
         "pts": 16
-      },
-      {
-        "posicion": 7,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
-        "g": 4,
-        "e": 3,
-        "p": 1,
-        "gf": 50,
-        "gc": 31,
-        "pts": 15
       },
       {
         "posicion": 8,
@@ -580,6 +580,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 9,
+        "g": 4,
+        "e": 1,
+        "p": 4,
+        "gf": 37,
+        "gc": 33,
+        "pts": 13
+      },
+      {
+        "posicion": 10,
         "equipo": "PACHECO SUR",
         "pj": 9,
         "g": 4,
@@ -588,17 +599,6 @@
         "gf": 38,
         "gc": 52,
         "pts": 13
-      },
-      {
-        "posicion": 10,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
-        "g": 3,
-        "e": 1,
-        "p": 4,
-        "gf": 33,
-        "gc": 32,
-        "pts": 10
       },
       {
         "posicion": 11,
@@ -636,12 +636,12 @@
       {
         "posicion": 14,
         "equipo": "UGAB",
-        "pj": 8,
+        "pj": 9,
         "g": 3,
         "e": 0,
-        "p": 5,
-        "gf": 19,
-        "gc": 25,
+        "p": 6,
+        "gf": 20,
+        "gc": 29,
         "pts": 9
       },
       {
@@ -747,6 +747,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 9,
+        "g": 5,
+        "e": 0,
+        "p": 4,
+        "gf": 31,
+        "gc": 22,
+        "pts": 15
+      },
+      {
+        "posicion": 7,
         "equipo": "VICTORIA",
         "pj": 9,
         "g": 5,
@@ -757,7 +768,7 @@
         "pts": 15
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "CRISOL JUVENTUD",
         "pj": 8,
         "g": 5,
@@ -768,7 +779,7 @@
         "pts": 15
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "PACHECO SUR",
         "pj": 9,
         "g": 4,
@@ -779,7 +790,7 @@
         "pts": 14
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "PRIMERA JUNTA",
         "pj": 9,
         "g": 4,
@@ -788,17 +799,6 @@
         "gf": 32,
         "gc": 26,
         "pts": 13
-      },
-      {
-        "posicion": 10,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
-        "g": 4,
-        "e": 0,
-        "p": 4,
-        "gf": 28,
-        "gc": 20,
-        "pts": 12
       },
       {
         "posicion": 11,
@@ -869,12 +869,12 @@
       {
         "posicion": 17,
         "equipo": "UGAB",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 0,
-        "p": 7,
-        "gf": 9,
-        "gc": 50,
+        "p": 8,
+        "gf": 11,
+        "gc": 53,
         "pts": 3
       },
       {
@@ -1014,12 +1014,12 @@
       {
         "posicion": 12,
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
+        "pj": 9,
         "g": 3,
         "e": 0,
-        "p": 5,
-        "gf": 29,
-        "gc": 32,
+        "p": 6,
+        "gf": 30,
+        "gc": 39,
         "pts": 9
       },
       {
@@ -1058,13 +1058,13 @@
       {
         "posicion": 16,
         "equipo": "UGAB",
-        "pj": 8,
-        "g": 1,
+        "pj": 9,
+        "g": 2,
         "e": 0,
         "p": 7,
-        "gf": 30,
-        "gc": 80,
-        "pts": 3
+        "gf": 37,
+        "gc": 81,
+        "pts": 6
       },
       {
         "posicion": 17,
@@ -1125,6 +1125,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 9,
+        "g": 7,
+        "e": 0,
+        "p": 2,
+        "gf": 45,
+        "gc": 18,
+        "pts": 21
+      },
+      {
+        "posicion": 5,
         "equipo": "CAPITAN ROSALES",
         "pj": 9,
         "g": 7,
@@ -1133,17 +1144,6 @@
         "gf": 42,
         "gc": 17,
         "pts": 21
-      },
-      {
-        "posicion": 5,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
-        "g": 6,
-        "e": 0,
-        "p": 2,
-        "gf": 39,
-        "gc": 17,
-        "pts": 18
       },
       {
         "posicion": 6,
@@ -1236,12 +1236,12 @@
       {
         "posicion": 14,
         "equipo": "UGAB",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 0,
-        "p": 6,
-        "gf": 14,
-        "gc": 65,
+        "p": 7,
+        "gf": 15,
+        "gc": 71,
         "pts": 6
       },
       {
@@ -1602,13 +1602,13 @@
       },
       {
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 55,
-        "g": 25,
+        "pj": 61,
+        "g": 29,
         "e": 6,
-        "p": 24,
-        "gf": 241,
-        "gc": 221,
-        "pts": 81,
+        "p": 26,
+        "gf": 266,
+        "gc": 243,
+        "pts": 93,
         "posicion": 11
       },
       {
@@ -1623,6 +1623,17 @@
         "posicion": 12
       },
       {
+        "equipo": "UGAB",
+        "pj": 62,
+        "g": 17,
+        "e": 2,
+        "p": 43,
+        "gf": 187,
+        "gc": 349,
+        "pts": 53,
+        "posicion": 13
+      },
+      {
         "equipo": "ALTO PASTO",
         "pj": 62,
         "g": 15,
@@ -1631,7 +1642,7 @@
         "gf": 167,
         "gc": 320,
         "pts": 49,
-        "posicion": 13
+        "posicion": 14
       },
       {
         "equipo": "SUD AMERICA",
@@ -1642,7 +1653,7 @@
         "gf": 167,
         "gc": 397,
         "pts": 49,
-        "posicion": 14
+        "posicion": 15
       },
       {
         "equipo": "VILLA SAHORES",
@@ -1653,17 +1664,6 @@
         "gf": 142,
         "gc": 210,
         "pts": 48,
-        "posicion": 15
-      },
-      {
-        "equipo": "UGAB",
-        "pj": 56,
-        "g": 15,
-        "e": 2,
-        "p": 39,
-        "gf": 165,
-        "gc": 324,
-        "pts": 47,
         "posicion": 16
       },
       {
@@ -2477,12 +2477,12 @@
               "direccion": "Santo Tomé 2496",
               "planillas": null
             },
-            "QUINTA MASCULINO": {
+            "TERCERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-05-24 17:00",
+              "fecha_hora": "2026-05-24 19:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
               "planillas": null
@@ -2497,22 +2497,12 @@
               "direccion": "Santo Tomé 2496",
               "planillas": null
             },
-            "TERCERA MASCULINO": {
+            "QUINTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-05-24 19:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-24 15:00",
+              "fecha_hora": "2026-05-24 17:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
               "planillas": null
@@ -2523,6 +2513,16 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-24 16:00",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
+              "planillas": null
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-24 15:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
               "planillas": null
@@ -3010,29 +3010,29 @@
           "visitante": "ARGENTINO DE MATADEROS",
           "partidos": {
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 11:00",
               "sede": "Armenia",
               "direccion": "1352",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260330-035024-461968.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260330-035044-461968.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-150825-1001058893.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-150828-1001058896.jpg"
               ]
             },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 15:00",
               "sede": "Armenia",
               "direccion": "1352",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163335-461969.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163338-461969.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-192858-1001059378.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-192900-1001059379.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -3046,59 +3046,59 @@
               "planillas": null
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 16:15",
               "sede": "Armenia",
               "direccion": "1352",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163602-461969.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163604-461969.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-204635-1001059470.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-204637-1001059472.jpg"
               ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 12:00",
               "sede": "Armenia",
               "direccion": "1352",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-191652-461969.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-191657-461968.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-23 13:00",
-              "sede": "Armenia",
-              "direccion": "1352",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-155454-461969.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-155453-461968.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-160054-1001059018.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-160055-1001059019.jpg"
               ]
             },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 14:00",
               "sede": "Armenia",
               "direccion": "1352",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163440-462080.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260329-163447-461969.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-181347-1001059273.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-181349-1001059274.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-23 13:00",
+              "sede": "Armenia",
+              "direccion": "1352",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-171407-1001059205.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-171409-1001059206.jpg"
               ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ALL BOYS SAAVEDRA",
@@ -9434,7 +9434,7 @@
     },
     {
       "numero": 10,
-      "fecha_partido": null,
+      "fecha_partido": "2026-05-31",
       "encuentros": [
         {
           "local": "VICTORIA",
@@ -10061,9 +10061,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -10071,9 +10071,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -10081,9 +10081,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -10091,9 +10091,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 20:15",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -10101,9 +10101,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -10111,9 +10111,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -10121,9 +10121,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": null
             }
           },
