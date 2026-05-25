@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-24T07:27:01.768082Z",
+  "actualizado": "2026-05-25T08:26:26.330758Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -72,16 +72,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
+      "nombre": "BROWN DE ADROGUE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160418-Escudo_Club_Atl%C3%A9tico_Brown_(Adrogu%C3%A9).png"
+    },
+    {
       "nombre": "CENTRO VK",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/92fc8277-7835-4b96-a9f9-29ed32e08929.png"
     },
     {
       "nombre": "SAN TELMO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-tnlrjgd9qwp1uywan0zz912mwp62%2F20250708-180614-fa012df2-b15a-4ffa-9e97-fad616d45a95.jpg"
-    },
-    {
-      "nombre": "BROWN DE ADROGUE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160418-Escudo_Club_Atl%C3%A9tico_Brown_(Adrogu%C3%A9).png"
     }
   ],
   "tablas_posiciones": {
@@ -199,13 +199,13 @@
       {
         "posicion": 11,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
-        "e": 4,
+        "e": 5,
         "p": 3,
-        "gf": 19,
-        "gc": 21,
-        "pts": 10
+        "gf": 20,
+        "gc": 22,
+        "pts": 11
       },
       {
         "posicion": 12,
@@ -221,13 +221,13 @@
       {
         "posicion": 13,
         "equipo": "SACA DEL MEDIO",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
-        "e": 3,
+        "e": 4,
         "p": 4,
-        "gf": 12,
-        "gc": 24,
-        "pts": 9
+        "gf": 13,
+        "gc": 25,
+        "pts": 10
       },
       {
         "posicion": 14,
@@ -253,6 +253,17 @@
       },
       {
         "posicion": 16,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 8,
+        "g": 1,
+        "e": 1,
+        "p": 6,
+        "gf": 16,
+        "gc": 30,
+        "pts": 4
+      },
+      {
+        "posicion": 17,
         "equipo": "CENTRO VK",
         "pj": 9,
         "g": 1,
@@ -263,26 +274,15 @@
         "pts": 3
       },
       {
-        "posicion": 17,
+        "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 5,
-        "gc": 30,
+        "gc": 37,
         "pts": 3
-      },
-      {
-        "posicion": 18,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 7,
-        "g": 0,
-        "e": 1,
-        "p": 6,
-        "gf": 9,
-        "gc": 30,
-        "pts": 1
       }
     ],
     "RESERVA ADULTAS FEMENINO ": [
@@ -343,6 +343,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 8,
+        "g": 5,
+        "e": 2,
+        "p": 1,
+        "gf": 14,
+        "gc": 13,
+        "pts": 17
+      },
+      {
+        "posicion": 7,
         "equipo": "CENTRO ASTURIANO",
         "pj": 8,
         "g": 4,
@@ -353,7 +364,7 @@
         "pts": 14
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "MAVIA FC",
         "pj": 9,
         "g": 4,
@@ -364,18 +375,18 @@
         "pts": 14
       },
       {
-        "posicion": 8,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 7,
+        "posicion": 9,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 10,
         "g": 4,
-        "e": 2,
-        "p": 1,
-        "gf": 13,
-        "gc": 13,
-        "pts": 14
+        "e": 1,
+        "p": 5,
+        "gf": 10,
+        "gc": 25,
+        "pts": 13
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 9,
         "g": 3,
@@ -386,7 +397,7 @@
         "pts": 12
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
         "pj": 9,
         "g": 4,
@@ -397,7 +408,7 @@
         "pts": 12
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 9,
         "g": 3,
@@ -405,17 +416,6 @@
         "p": 5,
         "gf": 11,
         "gc": 17,
-        "pts": 10
-      },
-      {
-        "posicion": 12,
-        "equipo": "SACA DEL MEDIO",
-        "pj": 9,
-        "g": 3,
-        "e": 1,
-        "p": 5,
-        "gf": 7,
-        "gc": 25,
         "pts": 10
       },
       {
@@ -432,12 +432,12 @@
       {
         "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 1,
-        "p": 6,
+        "p": 7,
         "gf": 9,
-        "gc": 14,
+        "gc": 17,
         "pts": 7
       },
       {
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 7,
-        "gc": 34,
+        "gc": 35,
         "pts": 1
       }
     ],
@@ -554,6 +554,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 10,
+        "g": 5,
+        "e": 3,
+        "p": 2,
+        "gf": 23,
+        "gc": 9,
+        "pts": 18
+      },
+      {
+        "posicion": 8,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 9,
         "g": 5,
@@ -562,17 +573,6 @@
         "gf": 16,
         "gc": 13,
         "pts": 16
-      },
-      {
-        "posicion": 8,
-        "equipo": "SACA DEL MEDIO",
-        "pj": 9,
-        "g": 4,
-        "e": 3,
-        "p": 2,
-        "gf": 19,
-        "gc": 8,
-        "pts": 15
       },
       {
         "posicion": 9,
@@ -610,12 +610,12 @@
       {
         "posicion": 12,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 2,
-        "p": 4,
-        "gf": 10,
-        "gc": 11,
+        "p": 5,
+        "gf": 11,
+        "gc": 15,
         "pts": 11
       },
       {
@@ -742,6 +742,17 @@
         "posicion": 5
       },
       {
+        "equipo": "SACA DEL MEDIO",
+        "pj": 30,
+        "g": 11,
+        "e": 8,
+        "p": 11,
+        "gf": 46,
+        "gc": 59,
+        "pts": 41,
+        "posicion": 6
+      },
+      {
         "equipo": "ASTRA MACKIE",
         "pj": 24,
         "g": 12,
@@ -750,7 +761,7 @@
         "gf": 48,
         "gc": 26,
         "pts": 39,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "INDEPENDIENTE (C)",
@@ -761,7 +772,7 @@
         "gf": 45,
         "gc": 39,
         "pts": 39,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "MAVIA FC",
@@ -772,7 +783,7 @@
         "gf": 60,
         "gc": 52,
         "pts": 38,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "ESTRELLA FEDERAL",
@@ -783,7 +794,7 @@
         "gf": 38,
         "gc": 47,
         "pts": 38,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "EL GALPON",
@@ -793,17 +804,6 @@
         "p": 10,
         "gf": 38,
         "gc": 39,
-        "pts": 34,
-        "posicion": 10
-      },
-      {
-        "equipo": "SACA DEL MEDIO",
-        "pj": 27,
-        "g": 9,
-        "e": 7,
-        "p": 11,
-        "gf": 38,
-        "gc": 57,
         "pts": 34,
         "posicion": 11
       },
@@ -831,24 +831,24 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 27,
+        "pj": 30,
         "g": 7,
-        "e": 7,
-        "p": 13,
-        "gf": 38,
-        "gc": 46,
-        "pts": 28,
+        "e": 8,
+        "p": 15,
+        "gf": 40,
+        "gc": 54,
+        "pts": 29,
         "posicion": 14
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 22,
-        "g": 6,
+        "pj": 24,
+        "g": 8,
         "e": 3,
         "p": 13,
-        "gf": 32,
+        "gf": 40,
         "gc": 64,
-        "pts": 21,
+        "pts": 27,
         "posicion": 15
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 24,
+        "pj": 26,
         "g": 1,
         "e": 1,
-        "p": 22,
+        "p": 24,
         "gf": 12,
-        "gc": 104,
+        "gc": 112,
         "pts": 4,
         "posicion": 18
       }
@@ -1216,24 +1216,30 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 21:00",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260525-010609-1000383321.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260525-010612-1000383322.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 22:15",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260525-022718-1000383357.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260525-022712-1000383358.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "goles_local": 5,
@@ -4541,25 +4547,32 @@
           "local": "17 DE AGOSTO",
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-24 11:00",
-              "sede": "17 de Agosto ",
-              "direccion": "Avenida Albarellos 2935",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_local": 4,
+              "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 13:30",
               "sede": "17 de Agosto ",
               "direccion": "Avenida Albarellos 2935",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-175501-1001297865.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-175505-1001297866.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-175510-1001297867.jpg"
+              ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-24 11:00",
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-154515-1001296926.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-154518-1001296927.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "goles_local": 0,
@@ -4569,7 +4582,10 @@
               "fecha_hora": "2026-05-24 12:15",
               "sede": "17 de Agosto ",
               "direccion": "Avenida Albarellos 2935",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-162209-1001297209.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-162211-1001297210.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -4733,37 +4749,46 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 15:45",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-195819-1000243656.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-195822-1000243657.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 14:30",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-184052-1000243637.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-184054-1000243638.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 17:00",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-211339-1000243681.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-211344-1000243682.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "INDEPENDIENTE (C)",
