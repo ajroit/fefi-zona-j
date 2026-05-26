@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-25T08:26:17.557025Z",
+  "actualizado": "2026-05-26T07:57:03.643786Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -72,16 +72,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
+      "nombre": "ROTONDA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
+    },
+    {
       "nombre": "ESTRADA FUTSAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195807-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
       "nombre": "LUNA DE MATANZA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
-    },
-    {
-      "nombre": "ROTONDA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
     }
   ],
   "tablas_posiciones": {
@@ -133,12 +133,12 @@
       {
         "posicion": 5,
         "equipo": "MARCHIGIANA",
-        "pj": 8,
+        "pj": 9,
         "g": 4,
         "e": 3,
-        "p": 1,
-        "gf": 33,
-        "gc": 24,
+        "p": 2,
+        "gf": 37,
+        "gc": 29,
         "pts": 15
       },
       {
@@ -199,24 +199,24 @@
       {
         "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
-        "e": 2,
+        "e": 3,
         "p": 4,
-        "gf": 33,
-        "gc": 48,
-        "pts": 8
+        "gf": 36,
+        "gc": 51,
+        "pts": 9
       },
       {
         "posicion": 12,
         "equipo": "JUVENTUD",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
-        "e": 1,
+        "e": 2,
         "p": 5,
-        "gf": 25,
-        "gc": 35,
-        "pts": 7
+        "gf": 28,
+        "gc": 38,
+        "pts": 8
       },
       {
         "posicion": 13,
@@ -231,6 +231,17 @@
       },
       {
         "posicion": 14,
+        "equipo": "ROTONDA",
+        "pj": 9,
+        "g": 2,
+        "e": 1,
+        "p": 6,
+        "gf": 38,
+        "gc": 62,
+        "pts": 7
+      },
+      {
+        "posicion": 15,
         "equipo": "ESTRADA FUTSAL",
         "pj": 9,
         "g": 1,
@@ -241,7 +252,7 @@
         "pts": 5
       },
       {
-        "posicion": 15,
+        "posicion": 16,
         "equipo": "LUNA DE MATANZA",
         "pj": 9,
         "g": 1,
@@ -250,17 +261,6 @@
         "gf": 18,
         "gc": 34,
         "pts": 5
-      },
-      {
-        "posicion": 16,
-        "equipo": "ROTONDA",
-        "pj": 8,
-        "g": 1,
-        "e": 1,
-        "p": 6,
-        "gf": 33,
-        "gc": 58,
-        "pts": 4
       }
     ],
     "TERCERA MASCULINO": [
@@ -278,12 +278,12 @@
       {
         "posicion": 2,
         "equipo": "MARCHIGIANA",
-        "pj": 8,
+        "pj": 9,
         "g": 6,
         "e": 1,
-        "p": 1,
-        "gf": 40,
-        "gc": 15,
+        "p": 2,
+        "gf": 42,
+        "gc": 20,
         "pts": 19
       },
       {
@@ -343,6 +343,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ROTONDA",
+        "pj": 9,
+        "g": 4,
+        "e": 2,
+        "p": 3,
+        "gf": 49,
+        "gc": 42,
+        "pts": 14
+      },
+      {
+        "posicion": 9,
         "equipo": "RIVADAVIA 87",
         "pj": 9,
         "g": 3,
@@ -353,7 +364,7 @@
         "pts": 13
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 9,
         "g": 4,
@@ -364,25 +375,14 @@
         "pts": 13
       },
       {
-        "posicion": 10,
-        "equipo": "ROTONDA",
-        "pj": 8,
-        "g": 3,
-        "e": 2,
-        "p": 3,
-        "gf": 44,
-        "gc": 40,
-        "pts": 11
-      },
-      {
         "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 8,
+        "pj": 9,
         "g": 3,
         "e": 1,
-        "p": 4,
-        "gf": 34,
-        "gc": 45,
+        "p": 5,
+        "gf": 37,
+        "gc": 50,
         "pts": 10
       },
       {
@@ -409,6 +409,17 @@
       },
       {
         "posicion": 14,
+        "equipo": "JUVENTUD",
+        "pj": 9,
+        "g": 1,
+        "e": 2,
+        "p": 6,
+        "gf": 24,
+        "gc": 45,
+        "pts": 5
+      },
+      {
+        "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 9,
         "g": 1,
@@ -417,17 +428,6 @@
         "gf": 27,
         "gc": 55,
         "pts": 4
-      },
-      {
-        "posicion": 15,
-        "equipo": "JUVENTUD",
-        "pj": 8,
-        "g": 0,
-        "e": 2,
-        "p": 6,
-        "gf": 19,
-        "gc": 42,
-        "pts": 2
       },
       {
         "posicion": 16,
@@ -565,6 +565,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 9,
+        "g": 3,
+        "e": 1,
+        "p": 5,
+        "gf": 31,
+        "gc": 34,
+        "pts": 10
+      },
+      {
+        "posicion": 13,
         "equipo": "VILLA SAHORES",
         "pj": 9,
         "g": 3,
@@ -573,17 +584,6 @@
         "gf": 18,
         "gc": 42,
         "pts": 9
-      },
-      {
-        "posicion": 13,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 8,
-        "g": 2,
-        "e": 1,
-        "p": 5,
-        "gf": 24,
-        "gc": 33,
-        "pts": 7
       },
       {
         "posicion": 14,
@@ -599,12 +599,12 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
         "e": 0,
-        "p": 8,
-        "gf": 10,
-        "gc": 74,
+        "p": 9,
+        "gf": 11,
+        "gc": 81,
         "pts": 0
       },
       {
@@ -711,13 +711,13 @@
       {
         "posicion": 9,
         "equipo": "ROTONDA",
-        "pj": 8,
+        "pj": 9,
         "g": 3,
-        "e": 2,
+        "e": 3,
         "p": 3,
-        "gf": 23,
-        "gc": 26,
-        "pts": 11
+        "gf": 25,
+        "gc": 28,
+        "pts": 12
       },
       {
         "posicion": 10,
@@ -744,24 +744,24 @@
       {
         "posicion": 12,
         "equipo": "JUVENTUD",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
-        "e": 2,
+        "e": 3,
         "p": 4,
         "gf": 24,
         "gc": 50,
-        "pts": 8
+        "pts": 9
       },
       {
         "posicion": 13,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
-        "e": 1,
+        "e": 2,
         "p": 6,
-        "gf": 16,
-        "gc": 27,
-        "pts": 4
+        "gf": 18,
+        "gc": 29,
+        "pts": 5
       },
       {
         "posicion": 14,
@@ -788,13 +788,13 @@
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
-        "e": 1,
+        "e": 2,
         "p": 7,
         "gf": 15,
         "gc": 32,
-        "pts": 1
+        "pts": 2
       }
     ],
     "SEXTA MASCULINO": [
@@ -955,23 +955,23 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 8,
-        "g": 1,
+        "pj": 9,
+        "g": 2,
         "e": 0,
         "p": 7,
-        "gf": 9,
+        "gf": 12,
         "gc": 46,
-        "pts": 3
+        "pts": 6
       },
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
+        "pj": 8,
         "g": 0,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 1,
-        "gc": 38,
+        "gc": 41,
         "pts": 0
       }
     ],
@@ -1077,6 +1077,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "JUVENTUD",
+        "pj": 9,
+        "g": 3,
+        "e": 1,
+        "p": 5,
+        "gf": 16,
+        "gc": 48,
+        "pts": 10
+      },
+      {
+        "posicion": 11,
         "equipo": "VILLA RITA",
         "pj": 9,
         "g": 3,
@@ -1087,26 +1098,15 @@
         "pts": 9
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 0,
-        "p": 4,
-        "gf": 15,
-        "gc": 30,
-        "pts": 9
-      },
-      {
-        "posicion": 12,
-        "equipo": "JUVENTUD",
-        "pj": 8,
-        "g": 2,
-        "e": 1,
         "p": 5,
-        "gf": 14,
-        "gc": 47,
-        "pts": 7
+        "gf": 16,
+        "gc": 32,
+        "pts": 9
       },
       {
         "posicion": 13,
@@ -1222,6 +1222,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "JUVENTUD",
+        "pj": 9,
+        "g": 4,
+        "e": 1,
+        "p": 4,
+        "gf": 34,
+        "gc": 51,
+        "pts": 13
+      },
+      {
+        "posicion": 8,
         "equipo": "RIVADAVIA 87",
         "pj": 9,
         "g": 4,
@@ -1232,7 +1243,7 @@
         "pts": 12
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "ESTRADA FUTSAL",
         "pj": 8,
         "g": 4,
@@ -1243,7 +1254,7 @@
         "pts": 12
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "VILLA SAHORES",
         "pj": 9,
         "g": 4,
@@ -1252,17 +1263,6 @@
         "gf": 19,
         "gc": 22,
         "pts": 12
-      },
-      {
-        "posicion": 10,
-        "equipo": "JUVENTUD",
-        "pj": 8,
-        "g": 3,
-        "e": 1,
-        "p": 4,
-        "gf": 31,
-        "gc": 51,
-        "pts": 10
       },
       {
         "posicion": 11,
@@ -1278,12 +1278,12 @@
       {
         "posicion": 12,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 7,
+        "pj": 8,
         "g": 3,
         "e": 0,
-        "p": 4,
+        "p": 5,
         "gf": 17,
-        "gc": 23,
+        "gc": 26,
         "pts": 9
       },
       {
@@ -2068,14 +2068,25 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 88,
+        "pj": 90,
         "g": 56,
         "e": 12,
-        "p": 20,
-        "gf": 402,
-        "gc": 190,
+        "p": 22,
+        "gf": 408,
+        "gc": 200,
         "pts": 180,
         "posicion": 3
+      },
+      {
+        "equipo": "ROTONDA",
+        "pj": 85,
+        "g": 46,
+        "e": 13,
+        "p": 26,
+        "gf": 346,
+        "gc": 255,
+        "pts": 151,
+        "posicion": 4
       },
       {
         "equipo": "LUNA DE MATANZA",
@@ -2086,7 +2097,7 @@
         "gf": 356,
         "gc": 271,
         "pts": 145,
-        "posicion": 4
+        "posicion": 5
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -2097,17 +2108,6 @@
         "gf": 284,
         "gc": 254,
         "pts": 145,
-        "posicion": 5
-      },
-      {
-        "equipo": "ROTONDA",
-        "pj": 82,
-        "g": 44,
-        "e": 12,
-        "p": 26,
-        "gf": 334,
-        "gc": 247,
-        "pts": 144,
         "posicion": 6
       },
       {
@@ -2167,35 +2167,35 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 80,
-        "g": 31,
-        "e": 6,
-        "p": 43,
-        "gf": 249,
-        "gc": 293,
-        "pts": 99,
+        "pj": 87,
+        "g": 32,
+        "e": 8,
+        "p": 47,
+        "gf": 263,
+        "gc": 310,
+        "pts": 104,
         "posicion": 12
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 83,
-        "g": 22,
-        "e": 13,
-        "p": 48,
-        "gf": 217,
-        "gc": 419,
-        "pts": 79,
+        "pj": 90,
+        "g": 26,
+        "e": 15,
+        "p": 49,
+        "gf": 234,
+        "gc": 433,
+        "pts": 93,
         "posicion": 13
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 86,
+        "pj": 87,
         "g": 19,
-        "e": 8,
+        "e": 9,
         "p": 59,
-        "gf": 208,
-        "gc": 399,
-        "pts": 65,
+        "gf": 210,
+        "gc": 401,
+        "pts": 66,
         "posicion": 14
       },
       {
@@ -9436,24 +9436,30 @@
           "visitante": "ROTONDA",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 20:30",
               "sede": "Club deportivo Riestra ",
               "direccion": "Ana María janer 2601",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260526-015441-153995.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260526-015442-153994.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 19:00",
               "sede": "Club deportivo Riestra ",
               "direccion": "Ana María janer 2601",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260525-232807-153917.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260525-232808-153916.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "goles_local": 4,
@@ -11020,16 +11026,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260524-223836-1001061929.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-24 17:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
-            },
             "SEXTA MASCULINO": {
               "goles_local": 4,
               "goles_visitante": 4,
@@ -11137,6 +11133,19 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-24 17:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260526-032350-1001064926.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260526-032359-1001064925.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -12297,75 +12306,83 @@
           "local": "JUVENTUD",
           "visitante": "CIENCIA Y LABOR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-25 20:00",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 18:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-230916-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-230923-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 17:45",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-214229-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-214235-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 16:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-202733-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260525-202739-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 15:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-185919-IMG_0094.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-185926-IMG_0093.jpeg"
+              ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 14:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-181756-IMG_0092.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-181805-IMG_0091.jpeg"
+              ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 13:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171807-IMG_0090.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171813-IMG_0089.jpeg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "goles_local": null,
@@ -12414,6 +12431,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260517-220028-1000931895.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260517-220019-1000931891.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-25 20:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260526-005845-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260526-005904-image.jpg"
               ]
             }
           },
