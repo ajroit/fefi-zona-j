@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-26T07:57:03.643786Z",
+  "actualizado": "2026-05-27T08:09:01.857146Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1345,6 +1345,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ROTONDA",
+        "pj": 8,
+        "g": 7,
+        "e": 1,
+        "p": 0,
+        "gf": 33,
+        "gc": 9,
+        "pts": 22
+      },
+      {
+        "posicion": 3,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 7,
@@ -1353,17 +1364,6 @@
         "gf": 48,
         "gc": 12,
         "pts": 21
-      },
-      {
-        "posicion": 3,
-        "equipo": "ROTONDA",
-        "pj": 7,
-        "g": 6,
-        "e": 1,
-        "p": 0,
-        "gf": 28,
-        "gc": 9,
-        "pts": 19
       },
       {
         "posicion": 4,
@@ -1489,12 +1489,12 @@
       {
         "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 12,
-        "gc": 44,
+        "gc": 49,
         "pts": 3
       },
       {
@@ -1745,6 +1745,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "ROTONDA",
+        "pj": 8,
+        "g": 5,
+        "e": 1,
+        "p": 2,
+        "gf": 34,
+        "gc": 16,
+        "pts": 16
+      },
+      {
+        "posicion": 7,
         "equipo": "PEDRO LOZANO",
         "pj": 9,
         "g": 5,
@@ -1755,7 +1766,7 @@
         "pts": 16
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 9,
         "g": 5,
@@ -1764,17 +1775,6 @@
         "gf": 36,
         "gc": 26,
         "pts": 15
-      },
-      {
-        "posicion": 8,
-        "equipo": "ROTONDA",
-        "pj": 7,
-        "g": 4,
-        "e": 1,
-        "p": 2,
-        "gf": 29,
-        "gc": 16,
-        "pts": 13
       },
       {
         "posicion": 9,
@@ -1801,12 +1801,12 @@
       {
         "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 13,
-        "gc": 25,
+        "gc": 30,
         "pts": 7
       },
       {
@@ -2079,13 +2079,13 @@
       },
       {
         "equipo": "ROTONDA",
-        "pj": 85,
-        "g": 46,
+        "pj": 87,
+        "g": 48,
         "e": 13,
         "p": 26,
-        "gf": 346,
+        "gf": 356,
         "gc": 255,
-        "pts": 151,
+        "pts": 157,
         "posicion": 4
       },
       {
@@ -2189,12 +2189,12 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 87,
+        "pj": 89,
         "g": 19,
         "e": 9,
-        "p": 59,
+        "p": 61,
         "gf": 210,
-        "gc": 401,
+        "gc": 411,
         "pts": 66,
         "posicion": 14
       },
@@ -9260,6 +9260,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260502-184318-24086.jpg"
               ]
             },
+            "PRIMERA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-24 21:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-035037-240767.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-035038-240768.jpg"
+              ]
+            },
             "TERCERA MASCULINO": {
               "goles_local": 6,
               "goles_visitante": 1,
@@ -9272,19 +9285,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-001014-240570.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-001018-240571.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-001017-240586.png"
-              ]
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-24 21:00",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-035037-240767.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260525-035038-240768.jpg"
               ]
             }
           },
@@ -11066,9 +11066,9 @@
               ]
             },
             "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 11:00",
               "sede": "San jose",
@@ -11089,9 +11089,9 @@
               ]
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 13:00",
               "sede": "San jose",
@@ -12371,19 +12371,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-181805-IMG_0091.jpeg"
               ]
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": 3,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-25 13:30",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171807-IMG_0090.jpeg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171813-IMG_0089.jpeg"
-              ]
-            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -12444,6 +12431,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260526-005845-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260526-005904-image.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-25 13:30",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171807-IMG_0090.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-171813-IMG_0089.jpeg"
               ]
             }
           },

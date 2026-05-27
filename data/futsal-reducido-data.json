@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-26T07:57:13.740898Z",
+  "actualizado": "2026-05-27T08:09:09.162911Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -32,16 +32,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
     },
     {
+      "nombre": "EL IDEAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260310-193421-images-Photoroom__5_.png"
+    },
+    {
       "nombre": "RESPLANDOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
     },
     {
       "nombre": "CAPITAN ROSALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
-    },
-    {
-      "nombre": "EL IDEAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260310-193421-images-Photoroom__5_.png"
     },
     {
       "nombre": "VICTORIA",
@@ -136,6 +136,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "EL IDEAL",
+        "pj": 9,
+        "g": 5,
+        "e": 3,
+        "p": 1,
+        "gf": 55,
+        "gc": 46,
+        "pts": 18
+      },
+      {
+        "posicion": 6,
         "equipo": "RESPLANDOR",
         "pj": 9,
         "g": 5,
@@ -146,7 +157,7 @@
         "pts": 17
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "CAPITAN ROSALES",
         "pj": 8,
         "g": 5,
@@ -155,17 +166,6 @@
         "gf": 54,
         "gc": 46,
         "pts": 16
-      },
-      {
-        "posicion": 7,
-        "equipo": "EL IDEAL",
-        "pj": 8,
-        "g": 4,
-        "e": 3,
-        "p": 1,
-        "gf": 46,
-        "gc": 40,
-        "pts": 15
       },
       {
         "posicion": 8,
@@ -247,12 +247,12 @@
       {
         "posicion": 15,
         "equipo": "VILLA SAHORES",
-        "pj": 7,
+        "pj": 8,
         "g": 2,
         "e": 1,
-        "p": 4,
-        "gf": 30,
-        "gc": 40,
+        "p": 5,
+        "gf": 36,
+        "gc": 49,
         "pts": 7
       },
       {
@@ -391,6 +391,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "VILLA SAHORES",
+        "pj": 8,
+        "g": 4,
+        "e": 1,
+        "p": 3,
+        "gf": 31,
+        "gc": 31,
+        "pts": 13
+      },
+      {
+        "posicion": 11,
         "equipo": "PARQUE CHAS",
         "pj": 9,
         "g": 4,
@@ -399,17 +410,6 @@
         "gf": 41,
         "gc": 54,
         "pts": 12
-      },
-      {
-        "posicion": 11,
-        "equipo": "VILLA SAHORES",
-        "pj": 7,
-        "g": 3,
-        "e": 1,
-        "p": 3,
-        "gf": 25,
-        "gc": 27,
-        "pts": 10
       },
       {
         "posicion": 12,
@@ -436,12 +436,12 @@
       {
         "posicion": 14,
         "equipo": "EL IDEAL",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 2,
-        "p": 4,
-        "gf": 36,
-        "gc": 56,
+        "p": 5,
+        "gf": 40,
+        "gc": 62,
         "pts": 8
       },
       {
@@ -1292,6 +1292,17 @@
     "OCTAVA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "MAYO FUTSAL",
+        "pj": 9,
+        "g": 9,
+        "e": 0,
+        "p": 0,
+        "gf": 56,
+        "gc": 4,
+        "pts": 27
+      },
+      {
+        "posicion": 2,
         "equipo": "VICTORIA",
         "pj": 9,
         "g": 9,
@@ -1300,17 +1311,6 @@
         "gf": 53,
         "gc": 21,
         "pts": 27
-      },
-      {
-        "posicion": 2,
-        "equipo": "MAYO FUTSAL",
-        "pj": 8,
-        "g": 8,
-        "e": 0,
-        "p": 0,
-        "gf": 51,
-        "gc": 4,
-        "pts": 24
       },
       {
         "posicion": 3,
@@ -1392,12 +1392,12 @@
       {
         "posicion": 10,
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 7,
+        "pj": 8,
         "g": 4,
         "e": 1,
-        "p": 2,
+        "p": 3,
         "gf": 23,
-        "gc": 27,
+        "gc": 32,
         "pts": 13
       },
       {
@@ -1525,13 +1525,13 @@
       },
       {
         "equipo": "MAYO FUTSAL",
-        "pj": 62,
-        "g": 40,
+        "pj": 63,
+        "g": 41,
         "e": 4,
         "p": 18,
-        "gf": 369,
+        "gf": 374,
         "gc": 187,
-        "pts": 124,
+        "pts": 127,
         "posicion": 4
       },
       {
@@ -1546,6 +1546,17 @@
         "posicion": 5
       },
       {
+        "equipo": "EL IDEAL",
+        "pj": 63,
+        "g": 36,
+        "e": 9,
+        "p": 18,
+        "gf": 345,
+        "gc": 227,
+        "pts": 117,
+        "posicion": 6
+      },
+      {
         "equipo": "PACHECO SUR",
         "pj": 63,
         "g": 35,
@@ -1554,17 +1565,6 @@
         "gf": 291,
         "gc": 224,
         "pts": 115,
-        "posicion": 6
-      },
-      {
-        "equipo": "EL IDEAL",
-        "pj": 61,
-        "g": 35,
-        "e": 9,
-        "p": 17,
-        "gf": 332,
-        "gc": 215,
-        "pts": 114,
         "posicion": 7
       },
       {
@@ -1602,12 +1602,12 @@
       },
       {
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 61,
+        "pj": 62,
         "g": 29,
         "e": 6,
-        "p": 26,
+        "p": 27,
         "gf": 266,
-        "gc": 243,
+        "gc": 248,
         "pts": 93,
         "posicion": 11
       },
@@ -1634,6 +1634,17 @@
         "posicion": 13
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 56,
+        "g": 16,
+        "e": 3,
+        "p": 37,
+        "gf": 162,
+        "gc": 255,
+        "pts": 51,
+        "posicion": 14
+      },
+      {
         "equipo": "ALTO PASTO",
         "pj": 62,
         "g": 15,
@@ -1642,7 +1653,7 @@
         "gf": 167,
         "gc": 320,
         "pts": 49,
-        "posicion": 14
+        "posicion": 15
       },
       {
         "equipo": "SUD AMERICA",
@@ -1653,17 +1664,6 @@
         "gf": 167,
         "gc": 397,
         "pts": 49,
-        "posicion": 15
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 54,
-        "g": 15,
-        "e": 3,
-        "p": 36,
-        "gf": 150,
-        "gc": 242,
-        "pts": 48,
         "posicion": 16
       },
       {
@@ -2471,11 +2471,21 @@
               ]
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 20:15",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
+              "planillas": null
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 6,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-24 19:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
               "planillas": null
@@ -2492,16 +2502,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260524-215623-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260524-215619-image.jpg"
               ]
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-24 19:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
-              "planillas": null
             },
             "QUINTA MASCULINO": {
               "goles_local": 1,
@@ -8529,7 +8529,7 @@
               ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
