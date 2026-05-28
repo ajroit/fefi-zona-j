@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-27T08:08:55.659871+00:00",
+  "actualizado": "2026-05-28T08:06:50.591685+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -2224,8 +2224,8 @@
           "visitante": "CLUB SAAVEDRA",
           "partidos": {
             "2019": {
-              "goles_local": 8,
-              "goles_visitante": 0,
+              "goles_local": 0,
+              "goles_visitante": 8,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
@@ -7768,10 +7768,10 @@
       {
         "equipo": "CLUB SAAVEDRA",
         "pj": 42,
-        "g": 29,
+        "g": 30,
         "e": 1,
-        "p": 12,
-        "pts": 101,
+        "p": 11,
+        "pts": 103,
         "posicion": 1
       },
       {
@@ -7793,21 +7793,21 @@
         "posicion": 3
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 35,
-        "g": 19,
-        "e": 3,
-        "p": 13,
-        "pts": 76,
-        "posicion": 4
-      },
-      {
         "equipo": "PACIFICO MAR PLAST",
         "pj": 35,
         "g": 19,
         "e": 2,
         "p": 14,
         "pts": 75,
+        "posicion": 4
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 35,
+        "g": 18,
+        "e": 3,
+        "p": 14,
+        "pts": 74,
         "posicion": 5
       },
       {
@@ -7914,10 +7914,10 @@
       {
         "equipo": "CLUB SAAVEDRA",
         "pj": 6,
-        "g": 5,
+        "g": 6,
         "e": 0,
-        "p": 1,
-        "pts": 16,
+        "p": 0,
+        "pts": 18,
         "posicion": 1
       },
       {
@@ -7957,7 +7957,7 @@
         "posicion": 5
       },
       {
-        "equipo": "ESTRELLA",
+        "equipo": "CLUB SAHORES",
         "pj": 5,
         "g": 3,
         "e": 0,
@@ -7966,16 +7966,16 @@
         "posicion": 6
       },
       {
-        "equipo": "CLUB SAHORES",
+        "equipo": "30 DE OCTUBRE",
         "pj": 5,
-        "g": 3,
+        "g": 2,
         "e": 0,
-        "p": 2,
-        "pts": 11,
+        "p": 3,
+        "pts": 9,
         "posicion": 7
       },
       {
-        "equipo": "30 DE OCTUBRE",
+        "equipo": "ESTRELLA",
         "pj": 5,
         "g": 2,
         "e": 0,

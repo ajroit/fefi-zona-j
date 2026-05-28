@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-27T08:09:09.162911Z",
+  "actualizado": "2026-05-28T08:07:09.415675Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1380,6 +1380,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 9,
+        "g": 5,
+        "e": 1,
+        "p": 3,
+        "gf": 28,
+        "gc": 32,
+        "pts": 16
+      },
+      {
+        "posicion": 10,
         "equipo": "SUD AMERICA",
         "pj": 9,
         "g": 4,
@@ -1388,17 +1399,6 @@
         "gf": 31,
         "gc": 20,
         "pts": 15
-      },
-      {
-        "posicion": 10,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 8,
-        "g": 4,
-        "e": 1,
-        "p": 3,
-        "gf": 23,
-        "gc": 32,
-        "pts": 13
       },
       {
         "posicion": 11,
@@ -1468,17 +1468,6 @@
       },
       {
         "posicion": 17,
-        "equipo": "UGAB",
-        "pj": 8,
-        "g": 0,
-        "e": 0,
-        "p": 8,
-        "gf": 0,
-        "gc": 40,
-        "pts": 0
-      },
-      {
-        "posicion": 18,
         "equipo": "RESPLANDOR",
         "pj": 9,
         "g": 0,
@@ -1486,6 +1475,17 @@
         "p": 9,
         "gf": 24,
         "gc": 65,
+        "pts": 0
+      },
+      {
+        "posicion": 18,
+        "equipo": "UGAB",
+        "pj": 9,
+        "g": 0,
+        "e": 0,
+        "p": 9,
+        "gf": 0,
+        "gc": 45,
         "pts": 0
       }
     ],
@@ -1590,6 +1590,17 @@
         "posicion": 9
       },
       {
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 63,
+        "g": 30,
+        "e": 6,
+        "p": 27,
+        "gf": 271,
+        "gc": 248,
+        "pts": 96,
+        "posicion": 10
+      },
+      {
         "equipo": "BRISAS DE HAEDO",
         "pj": 63,
         "g": 29,
@@ -1598,17 +1609,6 @@
         "gf": 253,
         "gc": 235,
         "pts": 95,
-        "posicion": 10
-      },
-      {
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 62,
-        "g": 29,
-        "e": 6,
-        "p": 27,
-        "gf": 266,
-        "gc": 248,
-        "pts": 93,
         "posicion": 11
       },
       {
@@ -1624,12 +1624,12 @@
       },
       {
         "equipo": "UGAB",
-        "pj": 62,
+        "pj": 63,
         "g": 17,
         "e": 2,
-        "p": 43,
+        "p": 44,
         "gf": 187,
-        "gc": 349,
+        "gc": 354,
         "pts": 53,
         "posicion": 13
       },
@@ -3051,9 +3051,9 @@
               ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 13:00",
               "sede": "Armenia",
@@ -9466,9 +9466,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9476,9 +9476,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9486,9 +9486,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 20:15",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9496,9 +9496,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9506,9 +9506,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9516,9 +9516,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9526,9 +9526,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             }
           },
@@ -9620,9 +9620,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9630,9 +9630,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9640,9 +9640,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9650,9 +9650,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 19:15",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9660,9 +9660,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9670,9 +9670,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9680,9 +9680,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             }
           },
@@ -9697,9 +9697,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9707,9 +9707,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9717,9 +9717,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9727,9 +9727,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 20:15",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9737,9 +9737,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9747,9 +9747,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9757,9 +9757,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
             }
           },
@@ -9774,9 +9774,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9784,9 +9784,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9804,9 +9804,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9814,9 +9814,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9824,9 +9824,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 10:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9851,9 +9851,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9861,9 +9861,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9871,9 +9871,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 10:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9881,9 +9881,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:15",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9891,9 +9891,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9901,9 +9901,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9911,9 +9911,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             }
           },
@@ -9928,9 +9928,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9938,9 +9938,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9948,9 +9948,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -9958,9 +9958,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:15",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9968,9 +9968,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9978,9 +9978,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9988,9 +9988,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": null
             }
           },
@@ -10005,9 +10005,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -10015,9 +10015,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -10025,9 +10025,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -10035,9 +10035,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 20:15",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -10045,9 +10045,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -10055,9 +10055,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -10065,9 +10065,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             }
           },
