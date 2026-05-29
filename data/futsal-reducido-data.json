@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-28T08:07:09.415675Z",
+  "actualizado": "2026-05-29T08:04:16.636992Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -9543,9 +9543,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 10:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9553,9 +9553,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 09:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -9573,9 +9573,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 14:15",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9583,9 +9583,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -9593,9 +9593,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9603,9 +9603,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             }
           },
@@ -9819,16 +9819,6 @@
               "direccion": "BOYACA 470",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 10:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -9837,6 +9827,16 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-31 10:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": null
             }
           },
