@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-29T08:04:22.446672Z",
+  "actualizado": "2026-05-30T06:52:24.244390Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -3563,19 +3563,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-02 21:45",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -3586,6 +3576,16 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
+              "planillas": null
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-02 20:30",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": null
             }
           },
@@ -4804,22 +4804,22 @@
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 10:00",
-              "sede": "El Poli",
-              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-31 11:15",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-31 10:00",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
@@ -4905,16 +4905,6 @@
           "local": "ESTRELLA FEDERAL",
           "visitante": "EL GALPON",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "Estrella Federal",
-              "direccion": "Ayacucho 745 - Florida",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": null,
               "goles_visitante": null,
@@ -4931,6 +4921,16 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-31 09:30",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
+              "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
               "sede": "Estrella Federal",
               "direccion": "Ayacucho 745 - Florida",
               "planillas": null

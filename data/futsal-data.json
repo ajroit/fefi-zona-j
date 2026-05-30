@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-29T08:04:06.681221Z",
+  "actualizado": "2026-05-30T06:52:06.602962Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -20,16 +20,16 @@
   ],
   "equipos": [
     {
+      "nombre": "RIVADAVIA 87",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-201955-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740601962760%20(1).png"
+    },
+    {
       "nombre": "HAEDO JUNIOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
     },
     {
       "nombre": "ATENEO HAEDO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-000309-images-removebg-preview.png"
-    },
-    {
-      "nombre": "RIVADAVIA 87",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-201955-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740601962760%20(1).png"
     },
     {
       "nombre": "ARGENTINO DE CASTELAR",
@@ -88,17 +88,28 @@
     "PRIMERA MASCULINO": [
       {
         "posicion": 1,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 9,
+        "equipo": "RIVADAVIA 87",
+        "pj": 10,
         "g": 8,
         "e": 1,
-        "p": 0,
-        "gf": 44,
-        "gc": 24,
+        "p": 1,
+        "gf": 62,
+        "gc": 36,
         "pts": 25
       },
       {
         "posicion": 2,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 10,
+        "g": 8,
+        "e": 1,
+        "p": 1,
+        "gf": 48,
+        "gc": 31,
+        "pts": 25
+      },
+      {
+        "posicion": 3,
         "equipo": "ATENEO HAEDO",
         "pj": 9,
         "g": 8,
@@ -107,17 +118,6 @@
         "gf": 41,
         "gc": 12,
         "pts": 24
-      },
-      {
-        "posicion": 3,
-        "equipo": "RIVADAVIA 87",
-        "pj": 9,
-        "g": 7,
-        "e": 1,
-        "p": 1,
-        "gf": 55,
-        "gc": 32,
-        "pts": 22
       },
       {
         "posicion": 4,
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 10,
+        "g": 6,
+        "e": 1,
+        "p": 3,
+        "gf": 40,
+        "gc": 33,
+        "pts": 19
+      },
+      {
+        "posicion": 5,
         "equipo": "BPNA",
         "pj": 9,
         "g": 5,
@@ -309,7 +320,7 @@
         "pts": 17
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ATENEO HAEDO",
         "pj": 9,
         "g": 5,
@@ -320,7 +331,7 @@
         "pts": 16
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ESTRADA FUTSAL",
         "pj": 9,
         "g": 5,
@@ -328,17 +339,6 @@
         "p": 3,
         "gf": 50,
         "gc": 43,
-        "pts": 16
-      },
-      {
-        "posicion": 7,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 5,
-        "e": 1,
-        "p": 3,
-        "gf": 35,
-        "gc": 29,
         "pts": 16
       },
       {
@@ -355,12 +355,12 @@
       {
         "posicion": 9,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 4,
-        "p": 2,
-        "gf": 45,
-        "gc": 37,
+        "p": 3,
+        "gf": 49,
+        "gc": 42,
         "pts": 13
       },
       {
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 90,
-        "g": 69,
+        "pj": 92,
+        "g": 70,
         "e": 8,
-        "p": 13,
-        "gf": 407,
-        "gc": 140,
-        "pts": 215,
+        "p": 14,
+        "gf": 416,
+        "gc": 151,
+        "pts": 218,
         "posicion": 1
       },
       {
@@ -2112,13 +2112,13 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 87,
-        "g": 43,
+        "pj": 89,
+        "g": 44,
         "e": 8,
-        "p": 36,
-        "gf": 363,
-        "gc": 332,
-        "pts": 137,
+        "p": 37,
+        "gf": 374,
+        "gc": 341,
+        "pts": 140,
         "posicion": 7
       },
       {
@@ -13189,24 +13189,17 @@
           "visitante": "RIVADAVIA 87",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-29 22:30",
               "sede": "Colegio San José ",
               "direccion": "Casullo 362",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-29 21:00",
-              "sede": "Colegio San José ",
-              "direccion": "Casullo 362",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043157-248598.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043200-248601.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "goles_local": null,
@@ -13297,9 +13290,22 @@
               "sede": "Escuela María Mazarello",
               "direccion": "Av Don Bosco 4654, Moron",
               "planillas": null
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-29 21:00",
+              "sede": "Colegio San José ",
+              "direccion": "Casullo 362",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-013755-248508.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-013758-248509.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "PEDRO LOZANO",
