@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-30T06:52:24.244390Z",
+  "actualizado": "2026-05-31T07:50:15.542533Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -12,12 +12,12 @@
   ],
   "equipos": [
     {
-      "nombre": "17 DE AGOSTO",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
-    },
-    {
       "nombre": "SOCIAL OESTE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
+    },
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
       "nombre": "CENTRO ASTURIANO",
@@ -88,25 +88,25 @@
     "PRIMERA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
-        "equipo": "17 DE AGOSTO",
-        "pj": 9,
-        "g": 8,
-        "e": 1,
-        "p": 0,
-        "gf": 38,
-        "gc": 4,
-        "pts": 25
+        "equipo": "SOCIAL OESTE",
+        "pj": 10,
+        "g": 9,
+        "e": 0,
+        "p": 1,
+        "gf": 50,
+        "gc": 12,
+        "pts": 27
       },
       {
         "posicion": 2,
-        "equipo": "SOCIAL OESTE",
-        "pj": 9,
+        "equipo": "17 DE AGOSTO",
+        "pj": 10,
         "g": 8,
-        "e": 0,
+        "e": 1,
         "p": 1,
-        "gf": 47,
-        "gc": 10,
-        "pts": 24
+        "gf": 40,
+        "gc": 7,
+        "pts": 25
       },
       {
         "posicion": 3,
@@ -122,13 +122,13 @@
       {
         "posicion": 4,
         "equipo": "ASTRA MACKIE",
-        "pj": 8,
-        "g": 5,
+        "pj": 9,
+        "g": 6,
         "e": 1,
         "p": 2,
-        "gf": 13,
-        "gc": 8,
-        "pts": 16
+        "gf": 20,
+        "gc": 9,
+        "pts": 19
       },
       {
         "posicion": 5,
@@ -276,12 +276,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 0,
-        "p": 8,
-        "gf": 5,
-        "gc": 37,
+        "p": 9,
+        "gf": 6,
+        "gc": 44,
         "pts": 3
       }
     ],
@@ -289,27 +289,38 @@
       {
         "posicion": 1,
         "equipo": "17 DE AGOSTO",
-        "pj": 9,
+        "pj": 10,
         "g": 8,
-        "e": 0,
+        "e": 1,
         "p": 1,
-        "gf": 32,
-        "gc": 7,
-        "pts": 24
+        "gf": 33,
+        "gc": 8,
+        "pts": 25
       },
       {
         "posicion": 2,
         "equipo": "SOCIAL OESTE",
+        "pj": 10,
+        "g": 7,
+        "e": 2,
+        "p": 1,
+        "gf": 32,
+        "gc": 7,
+        "pts": 23
+      },
+      {
+        "posicion": 3,
+        "equipo": "ASTRA MACKIE",
         "pj": 9,
         "g": 7,
         "e": 1,
         "p": 1,
-        "gf": 31,
+        "gf": 35,
         "gc": 6,
         "pts": 22
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "VILLA SAHORES",
         "pj": 9,
         "g": 6,
@@ -318,17 +329,6 @@
         "gf": 15,
         "gc": 8,
         "pts": 20
-      },
-      {
-        "posicion": 4,
-        "equipo": "ASTRA MACKIE",
-        "pj": 8,
-        "g": 6,
-        "e": 1,
-        "p": 1,
-        "gf": 29,
-        "gc": 6,
-        "pts": 19
       },
       {
         "posicion": 5,
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 7,
-        "gc": 35,
+        "gc": 41,
         "pts": 1
       }
     ],
@@ -489,23 +489,23 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 9,
-        "g": 7,
+        "pj": 10,
+        "g": 8,
         "e": 2,
         "p": 0,
-        "gf": 24,
+        "gf": 25,
         "gc": 3,
-        "pts": 23
+        "pts": 26
       },
       {
         "posicion": 2,
         "equipo": "17 DE AGOSTO",
-        "pj": 9,
+        "pj": 10,
         "g": 7,
         "e": 1,
-        "p": 1,
+        "p": 2,
         "gf": 29,
-        "gc": 6,
+        "gc": 7,
         "pts": 22
       },
       {
@@ -687,25 +687,25 @@
     ],
     "general": [
       {
-        "equipo": "17 DE AGOSTO",
-        "pj": 27,
-        "g": 23,
-        "e": 2,
+        "equipo": "SOCIAL OESTE",
+        "pj": 30,
+        "g": 24,
+        "e": 4,
         "p": 2,
-        "gf": 99,
-        "gc": 17,
-        "pts": 71,
+        "gf": 107,
+        "gc": 22,
+        "pts": 76,
         "posicion": 1
       },
       {
-        "equipo": "SOCIAL OESTE",
-        "pj": 27,
-        "g": 22,
+        "equipo": "17 DE AGOSTO",
+        "pj": 30,
+        "g": 23,
         "e": 3,
-        "p": 2,
+        "p": 4,
         "gf": 102,
-        "gc": 19,
-        "pts": 69,
+        "gc": 22,
+        "pts": 72,
         "posicion": 2
       },
       {
@@ -742,6 +742,17 @@
         "posicion": 5
       },
       {
+        "equipo": "ASTRA MACKIE",
+        "pj": 26,
+        "g": 14,
+        "e": 3,
+        "p": 9,
+        "gf": 61,
+        "gc": 27,
+        "pts": 45,
+        "posicion": 6
+      },
+      {
         "equipo": "SACA DEL MEDIO",
         "pj": 30,
         "g": 11,
@@ -750,17 +761,6 @@
         "gf": 46,
         "gc": 59,
         "pts": 41,
-        "posicion": 6
-      },
-      {
-        "equipo": "ASTRA MACKIE",
-        "pj": 24,
-        "g": 12,
-        "e": 3,
-        "p": 9,
-        "gf": 48,
-        "gc": 26,
-        "pts": 39,
         "posicion": 7
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 26,
+        "pj": 28,
         "g": 1,
         "e": 1,
-        "p": 24,
-        "gf": 12,
-        "gc": 112,
+        "p": 26,
+        "gf": 13,
+        "gc": 125,
         "pts": 4,
         "posicion": 18
       }
@@ -4638,37 +4638,47 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 20:00",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260531-004740-1001335625.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260531-004740-1001335476.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260531-004746-1001335479.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 18:45",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260530-230354-1001334983.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260530-230403-1001334984.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 17:30",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260530-230157-1001334935.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260530-230201-1001334939.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO VK",
@@ -4711,25 +4721,18 @@
           "local": "ASTRA MACKIE",
           "visitante": "SAN TELMO",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 16:30",
-              "sede": "parque chacabuco",
-              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 15:15",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-192730-inbound815842294597092399.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-192744-inbound6844887908629522995.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "goles_local": null,
@@ -4740,9 +4743,22 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 16:30",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-204606-inbound3598716401600629159.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-204614-inbound3623848738262442564.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CULTURAL DE TAPIALES",

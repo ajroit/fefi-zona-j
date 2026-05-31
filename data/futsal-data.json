@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-05-30T06:52:06.602962Z",
+  "actualizado": "2026-05-31T07:50:06.058190Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -20,6 +20,10 @@
   ],
   "equipos": [
     {
+      "nombre": "ATENEO HAEDO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-000309-images-removebg-preview.png"
+    },
+    {
       "nombre": "RIVADAVIA 87",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-201955-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740601962760%20(1).png"
     },
@@ -28,12 +32,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
     },
     {
-      "nombre": "ATENEO HAEDO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-000309-images-removebg-preview.png"
-    },
-    {
       "nombre": "ARGENTINO DE CASTELAR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
+    },
+    {
+      "nombre": "INDEPENDIENTE DE BECCAR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
       "nombre": "MARCHIGIANA",
@@ -46,10 +50,6 @@
     {
       "nombre": "DEPORTIVO ABBAS",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-005256-download-removebg-preview__1_.png"
-    },
-    {
-      "nombre": "INDEPENDIENTE DE BECCAR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
       "nombre": "VILLA RITA",
@@ -68,12 +68,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260227-160851-20260224-224609-Disen_o_sin_ti_tulo.PNG"
     },
     {
-      "nombre": "BPNA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
-    },
-    {
       "nombre": "ROTONDA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
+    },
+    {
+      "nombre": "BPNA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
       "nombre": "ESTRADA FUTSAL",
@@ -88,6 +88,17 @@
     "PRIMERA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 9,
+        "e": 0,
+        "p": 1,
+        "gf": 47,
+        "gc": 15,
+        "pts": 27
+      },
+      {
+        "posicion": 2,
         "equipo": "RIVADAVIA 87",
         "pj": 10,
         "g": 8,
@@ -98,7 +109,7 @@
         "pts": 25
       },
       {
-        "posicion": 2,
+        "posicion": 3,
         "equipo": "HAEDO JUNIOR",
         "pj": 10,
         "g": 8,
@@ -109,29 +120,29 @@
         "pts": 25
       },
       {
-        "posicion": 3,
-        "equipo": "ATENEO HAEDO",
-        "pj": 9,
-        "g": 8,
-        "e": 0,
-        "p": 1,
-        "gf": 41,
-        "gc": 12,
-        "pts": 24
-      },
-      {
         "posicion": 4,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
+        "pj": 10,
         "g": 5,
         "e": 1,
-        "p": 3,
-        "gf": 31,
-        "gc": 25,
+        "p": 4,
+        "gf": 34,
+        "gc": 31,
         "pts": 16
       },
       {
         "posicion": 5,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 10,
+        "g": 5,
+        "e": 1,
+        "p": 4,
+        "gf": 55,
+        "gc": 53,
+        "pts": 16
+      },
+      {
+        "posicion": 6,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 4,
@@ -142,7 +153,7 @@
         "pts": 15
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "PEDRO LOZANO",
         "pj": 9,
         "g": 4,
@@ -153,7 +164,7 @@
         "pts": 14
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 9,
         "g": 4,
@@ -161,17 +172,6 @@
         "p": 4,
         "gf": 45,
         "gc": 35,
-        "pts": 13
-      },
-      {
-        "posicion": 8,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 4,
-        "e": 1,
-        "p": 4,
-        "gf": 48,
-        "gc": 48,
         "pts": 13
       },
       {
@@ -220,17 +220,6 @@
       },
       {
         "posicion": 13,
-        "equipo": "BPNA",
-        "pj": 9,
-        "g": 2,
-        "e": 1,
-        "p": 6,
-        "gf": 26,
-        "gc": 48,
-        "pts": 7
-      },
-      {
-        "posicion": 14,
         "equipo": "ROTONDA",
         "pj": 9,
         "g": 2,
@@ -238,6 +227,17 @@
         "p": 6,
         "gf": 38,
         "gc": 62,
+        "pts": 7
+      },
+      {
+        "posicion": 14,
+        "equipo": "BPNA",
+        "pj": 10,
+        "g": 2,
+        "e": 1,
+        "p": 7,
+        "gf": 31,
+        "gc": 55,
         "pts": 7
       },
       {
@@ -267,13 +267,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 7,
+        "pj": 10,
+        "g": 8,
         "e": 1,
         "p": 1,
-        "gf": 61,
-        "gc": 37,
-        "pts": 22
+        "gf": 76,
+        "gc": 42,
+        "pts": 25
       },
       {
         "posicion": 2,
@@ -288,6 +288,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 6,
+        "e": 1,
+        "p": 3,
+        "gf": 52,
+        "gc": 32,
+        "pts": 19
+      },
+      {
+        "posicion": 4,
         "equipo": "LUNA DE MATANZA",
         "pj": 9,
         "g": 6,
@@ -298,7 +309,7 @@
         "pts": 19
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "HAEDO JUNIOR",
         "pj": 10,
         "g": 6,
@@ -309,26 +320,15 @@
         "pts": 19
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 5,
         "e": 2,
-        "p": 2,
-        "gf": 51,
-        "gc": 45,
-        "pts": 17
-      },
-      {
-        "posicion": 6,
-        "equipo": "ATENEO HAEDO",
-        "pj": 9,
-        "g": 5,
-        "e": 1,
         "p": 3,
-        "gf": 47,
-        "gc": 29,
-        "pts": 16
+        "gf": 56,
+        "gc": 60,
+        "pts": 17
       },
       {
         "posicion": 7,
@@ -366,12 +366,12 @@
       {
         "posicion": 10,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
+        "pj": 10,
         "g": 4,
         "e": 1,
-        "p": 4,
-        "gf": 33,
-        "gc": 32,
+        "p": 5,
+        "gf": 36,
+        "gc": 37,
         "pts": 13
       },
       {
@@ -445,13 +445,13 @@
       {
         "posicion": 1,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
-        "g": 9,
+        "pj": 10,
+        "g": 10,
         "e": 0,
         "p": 0,
-        "gf": 65,
-        "gc": 28,
-        "pts": 27
+        "gf": 69,
+        "gc": 29,
+        "pts": 30
       },
       {
         "posicion": 2,
@@ -478,12 +478,12 @@
       {
         "posicion": 4,
         "equipo": "HAEDO JUNIOR",
-        "pj": 9,
+        "pj": 10,
         "g": 7,
         "e": 0,
-        "p": 2,
-        "gf": 31,
-        "gc": 20,
+        "p": 3,
+        "gf": 32,
+        "gc": 24,
         "pts": 21
       },
       {
@@ -499,17 +499,28 @@
       },
       {
         "posicion": 6,
-        "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 4,
-        "gf": 58,
+        "gf": 41,
         "gc": 30,
-        "pts": 15
+        "pts": 16
       },
       {
         "posicion": 7,
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 5,
+        "e": 0,
+        "p": 5,
+        "gf": 61,
+        "gc": 37,
+        "pts": 15
+      },
+      {
+        "posicion": 8,
         "equipo": "VILLA RITA",
         "pj": 9,
         "g": 5,
@@ -518,17 +529,6 @@
         "gf": 36,
         "gc": 35,
         "pts": 15
-      },
-      {
-        "posicion": 8,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 4,
-        "e": 1,
-        "p": 4,
-        "gf": 34,
-        "gc": 27,
-        "pts": 13
       },
       {
         "posicion": 9,
@@ -588,13 +588,13 @@
       {
         "posicion": 14,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 1,
+        "pj": 10,
+        "g": 2,
         "e": 1,
         "p": 7,
-        "gf": 31,
-        "gc": 48,
-        "pts": 4
+        "gf": 39,
+        "gc": 54,
+        "pts": 7
       },
       {
         "posicion": 15,
@@ -610,12 +610,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
-        "gf": 14,
-        "gc": 99,
+        "p": 10,
+        "gf": 20,
+        "gc": 107,
         "pts": 0
       }
     ],
@@ -633,28 +633,39 @@
       },
       {
         "posicion": 2,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 6,
-        "e": 3,
-        "p": 0,
-        "gf": 36,
-        "gc": 13,
-        "pts": 21
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 10,
+        "g": 8,
+        "e": 0,
+        "p": 2,
+        "gf": 48,
+        "gc": 33,
+        "pts": 24
       },
       {
         "posicion": 3,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
+        "equipo": "RIVADAVIA 87",
+        "pj": 10,
         "g": 7,
         "e": 0,
-        "p": 2,
-        "gf": 42,
-        "gc": 32,
+        "p": 3,
+        "gf": 52,
+        "gc": 28,
         "pts": 21
       },
       {
         "posicion": 4,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 10,
+        "g": 6,
+        "e": 3,
+        "p": 1,
+        "gf": 37,
+        "gc": 16,
+        "pts": 21
+      },
+      {
+        "posicion": 5,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 6,
@@ -665,18 +676,18 @@
         "pts": 19
       },
       {
-        "posicion": 5,
-        "equipo": "RIVADAVIA 87",
-        "pj": 9,
-        "g": 6,
-        "e": 0,
+        "posicion": 6,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
+        "g": 5,
+        "e": 2,
         "p": 3,
-        "gf": 49,
-        "gc": 27,
-        "pts": 18
+        "gf": 32,
+        "gc": 24,
+        "pts": 17
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ESTRADA FUTSAL",
         "pj": 9,
         "g": 5,
@@ -685,17 +696,6 @@
         "gf": 39,
         "gc": 27,
         "pts": 15
-      },
-      {
-        "posicion": 7,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 4,
-        "e": 2,
-        "p": 3,
-        "gf": 27,
-        "gc": 21,
-        "pts": 14
       },
       {
         "posicion": 8,
@@ -722,12 +722,12 @@
       {
         "posicion": 10,
         "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 1,
-        "p": 5,
-        "gf": 32,
-        "gc": 38,
+        "p": 6,
+        "gf": 35,
+        "gc": 43,
         "pts": 10
       },
       {
@@ -766,12 +766,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 1,
-        "p": 7,
-        "gf": 18,
-        "gc": 48,
+        "p": 8,
+        "gf": 19,
+        "gc": 54,
         "pts": 4
       },
       {
@@ -801,35 +801,35 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 9,
+        "pj": 10,
+        "g": 10,
         "e": 0,
         "p": 0,
-        "gf": 90,
-        "gc": 12,
-        "pts": 27
+        "gf": 98,
+        "gc": 17,
+        "pts": 30
       },
       {
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
-        "pj": 9,
+        "pj": 10,
         "g": 8,
         "e": 0,
-        "p": 1,
-        "gf": 45,
-        "gc": 8,
+        "p": 2,
+        "gf": 47,
+        "gc": 11,
         "pts": 24
       },
       {
         "posicion": 3,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
-        "g": 7,
+        "pj": 10,
+        "g": 8,
         "e": 0,
         "p": 2,
-        "gf": 44,
-        "gc": 18,
-        "pts": 21
+        "gf": 47,
+        "gc": 20,
+        "pts": 24
       },
       {
         "posicion": 4,
@@ -855,25 +855,25 @@
       },
       {
         "posicion": 6,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 5,
-        "e": 1,
-        "p": 3,
-        "gf": 31,
-        "gc": 26,
-        "pts": 16
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 6,
+        "e": 0,
+        "p": 4,
+        "gf": 30,
+        "gc": 29,
+        "pts": 18
       },
       {
         "posicion": 7,
-        "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 4,
-        "gf": 26,
-        "gc": 28,
-        "pts": 15
+        "gf": 32,
+        "gc": 30,
+        "pts": 16
       },
       {
         "posicion": 8,
@@ -889,12 +889,12 @@
       {
         "posicion": 9,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 4,
         "e": 0,
-        "p": 5,
-        "gf": 20,
-        "gc": 33,
+        "p": 6,
+        "gf": 25,
+        "gc": 41,
         "pts": 12
       },
       {
@@ -979,27 +979,38 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 9,
+        "pj": 10,
+        "g": 10,
         "e": 0,
         "p": 0,
-        "gf": 96,
-        "gc": 9,
-        "pts": 27
+        "gf": 105,
+        "gc": 10,
+        "pts": 30
       },
       {
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 8,
+        "pj": 10,
+        "g": 9,
         "e": 0,
         "p": 1,
-        "gf": 34,
+        "gf": 43,
         "gc": 6,
-        "pts": 24
+        "pts": 27
       },
       {
         "posicion": 3,
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 7,
+        "e": 0,
+        "p": 3,
+        "gf": 34,
+        "gc": 22,
+        "pts": 21
+      },
+      {
+        "posicion": 4,
         "equipo": "PEDRO LOZANO",
         "pj": 9,
         "g": 6,
@@ -1010,7 +1021,7 @@
         "pts": 19
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 6,
@@ -1021,7 +1032,7 @@
         "pts": 19
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ROTONDA",
         "pj": 9,
         "g": 6,
@@ -1029,17 +1040,6 @@
         "p": 3,
         "gf": 38,
         "gc": 19,
-        "pts": 18
-      },
-      {
-        "posicion": 6,
-        "equipo": "ATENEO HAEDO",
-        "pj": 9,
-        "g": 6,
-        "e": 0,
-        "p": 3,
-        "gf": 30,
-        "gc": 21,
         "pts": 18
       },
       {
@@ -1056,12 +1056,12 @@
       {
         "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
+        "pj": 10,
         "g": 5,
         "e": 1,
-        "p": 3,
-        "gf": 22,
-        "gc": 32,
+        "p": 4,
+        "gf": 23,
+        "gc": 36,
         "pts": 16
       },
       {
@@ -1111,12 +1111,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 18,
-        "gc": 44,
+        "gc": 53,
         "pts": 6
       },
       {
@@ -1144,12 +1144,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
-        "gf": 6,
-        "gc": 45,
+        "p": 10,
+        "gf": 7,
+        "gc": 54,
         "pts": 0
       }
     ],
@@ -1179,16 +1179,27 @@
       {
         "posicion": 3,
         "equipo": "HAEDO JUNIOR",
-        "pj": 9,
+        "pj": 10,
         "g": 7,
-        "e": 1,
+        "e": 2,
         "p": 1,
         "gf": 37,
         "gc": 7,
-        "pts": 22
+        "pts": 23
       },
       {
         "posicion": 4,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
+        "g": 7,
+        "e": 1,
+        "p": 2,
+        "gf": 35,
+        "gc": 17,
+        "pts": 22
+      },
+      {
+        "posicion": 5,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 6,
@@ -1197,17 +1208,6 @@
         "gf": 34,
         "gc": 14,
         "pts": 21
-      },
-      {
-        "posicion": 5,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 6,
-        "e": 1,
-        "p": 2,
-        "gf": 30,
-        "gc": 17,
-        "pts": 19
       },
       {
         "posicion": 6,
@@ -1222,6 +1222,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "RIVADAVIA 87",
+        "pj": 10,
+        "g": 4,
+        "e": 1,
+        "p": 5,
+        "gf": 34,
+        "gc": 23,
+        "pts": 13
+      },
+      {
+        "posicion": 8,
         "equipo": "JUVENTUD",
         "pj": 9,
         "g": 4,
@@ -1230,17 +1241,6 @@
         "gf": 34,
         "gc": 51,
         "pts": 13
-      },
-      {
-        "posicion": 8,
-        "equipo": "RIVADAVIA 87",
-        "pj": 9,
-        "g": 4,
-        "e": 0,
-        "p": 5,
-        "gf": 34,
-        "gc": 23,
-        "pts": 12
       },
       {
         "posicion": 9,
@@ -1311,12 +1311,12 @@
       {
         "posicion": 15,
         "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 18,
-        "gc": 57,
+        "gc": 62,
         "pts": 3
       },
       {
@@ -1356,6 +1356,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 10,
+        "g": 7,
+        "e": 0,
+        "p": 3,
+        "gf": 52,
+        "gc": 13,
+        "pts": 21
+      },
+      {
+        "posicion": 4,
         "equipo": "MARCHIGIANA",
         "pj": 9,
         "g": 7,
@@ -1364,17 +1375,6 @@
         "gf": 48,
         "gc": 12,
         "pts": 21
-      },
-      {
-        "posicion": 4,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 6,
-        "e": 0,
-        "p": 3,
-        "gf": 43,
-        "gc": 13,
-        "pts": 18
       },
       {
         "posicion": 5,
@@ -1400,6 +1400,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
+        "g": 5,
+        "e": 2,
+        "p": 3,
+        "gf": 35,
+        "gc": 30,
+        "pts": 17
+      },
+      {
+        "posicion": 8,
         "equipo": "VILLA RITA",
         "pj": 9,
         "g": 5,
@@ -1408,17 +1419,6 @@
         "gf": 44,
         "gc": 28,
         "pts": 16
-      },
-      {
-        "posicion": 8,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 4,
-        "e": 2,
-        "p": 3,
-        "gf": 33,
-        "gc": 30,
-        "pts": 14
       },
       {
         "posicion": 9,
@@ -1445,12 +1445,12 @@
       {
         "posicion": 11,
         "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 1,
-        "p": 6,
+        "p": 7,
         "gf": 19,
-        "gc": 41,
+        "gc": 43,
         "pts": 7
       },
       {
@@ -1478,12 +1478,12 @@
       {
         "posicion": 14,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 2,
-        "p": 5,
+        "p": 6,
         "gf": 21,
-        "gc": 33,
+        "gc": 42,
         "pts": 5
       },
       {
@@ -1523,6 +1523,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 10,
+        "g": 7,
+        "e": 2,
+        "p": 1,
+        "gf": 44,
+        "gc": 12,
+        "pts": 23
+      },
+      {
+        "posicion": 3,
         "equipo": "JUVENTUD",
         "pj": 9,
         "g": 7,
@@ -1531,17 +1542,6 @@
         "gf": 46,
         "gc": 22,
         "pts": 21
-      },
-      {
-        "posicion": 3,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 9,
-        "g": 6,
-        "e": 2,
-        "p": 1,
-        "gf": 36,
-        "gc": 12,
-        "pts": 20
       },
       {
         "posicion": 4,
@@ -1612,12 +1612,12 @@
       {
         "posicion": 10,
         "equipo": "ATENEO HAEDO",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 21,
-        "gc": 46,
+        "gc": 54,
         "pts": 9
       },
       {
@@ -1723,6 +1723,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 10,
+        "g": 6,
+        "e": 2,
+        "p": 2,
+        "gf": 37,
+        "gc": 16,
+        "pts": 20
+      },
+      {
+        "posicion": 5,
         "equipo": "LUNA DE MATANZA",
         "pj": 9,
         "g": 6,
@@ -1731,17 +1742,6 @@
         "gf": 46,
         "gc": 15,
         "pts": 19
-      },
-      {
-        "posicion": 5,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 5,
-        "e": 2,
-        "p": 2,
-        "gf": 28,
-        "gc": 16,
-        "pts": 17
       },
       {
         "posicion": 6,
@@ -1812,12 +1812,12 @@
       {
         "posicion": 12,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 1,
-        "p": 5,
+        "p": 6,
         "gf": 21,
-        "gc": 61,
+        "gc": 70,
         "pts": 7
       },
       {
@@ -2046,24 +2046,24 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 92,
-        "g": 70,
-        "e": 8,
-        "p": 14,
-        "gf": 416,
-        "gc": 151,
-        "pts": 218,
+        "pj": 99,
+        "g": 73,
+        "e": 9,
+        "p": 17,
+        "gf": 447,
+        "gc": 161,
+        "pts": 228,
         "posicion": 1
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 90,
-        "g": 59,
+        "pj": 96,
+        "g": 65,
         "e": 5,
         "p": 26,
-        "gf": 533,
-        "gc": 284,
-        "pts": 182,
+        "gf": 586,
+        "gc": 307,
+        "pts": 200,
         "posicion": 2
       },
       {
@@ -2078,6 +2078,17 @@
         "posicion": 3
       },
       {
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 98,
+        "g": 49,
+        "e": 13,
+        "p": 36,
+        "gf": 319,
+        "gc": 279,
+        "pts": 160,
+        "posicion": 4
+      },
+      {
         "equipo": "ROTONDA",
         "pj": 87,
         "g": 48,
@@ -2086,7 +2097,18 @@
         "gf": 356,
         "gc": 255,
         "pts": 157,
-        "posicion": 4
+        "posicion": 5
+      },
+      {
+        "equipo": "RIVADAVIA 87",
+        "pj": 96,
+        "g": 47,
+        "e": 9,
+        "p": 40,
+        "gf": 384,
+        "gc": 372,
+        "pts": 150,
+        "posicion": 6
       },
       {
         "equipo": "LUNA DE MATANZA",
@@ -2097,29 +2119,18 @@
         "gf": 356,
         "gc": 271,
         "pts": 145,
-        "posicion": 5
-      },
-      {
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 89,
-        "g": 44,
-        "e": 13,
-        "p": 32,
-        "gf": 284,
-        "gc": 254,
-        "pts": 145,
-        "posicion": 6
-      },
-      {
-        "equipo": "RIVADAVIA 87",
-        "pj": 89,
-        "g": 44,
-        "e": 8,
-        "p": 37,
-        "gf": 374,
-        "gc": 341,
-        "pts": 140,
         "posicion": 7
+      },
+      {
+        "equipo": "ATENEO HAEDO",
+        "pj": 98,
+        "g": 45,
+        "e": 3,
+        "p": 50,
+        "gf": 335,
+        "gc": 366,
+        "pts": 138,
+        "posicion": 8
       },
       {
         "equipo": "VILLA RITA",
@@ -2130,7 +2141,7 @@
         "gf": 358,
         "gc": 352,
         "pts": 132,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2141,7 +2152,7 @@
         "gf": 328,
         "gc": 294,
         "pts": 131,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "PEDRO LOZANO",
@@ -2152,17 +2163,6 @@
         "gf": 301,
         "gc": 286,
         "pts": 130,
-        "posicion": 10
-      },
-      {
-        "equipo": "ATENEO HAEDO",
-        "pj": 89,
-        "g": 41,
-        "e": 3,
-        "p": 45,
-        "gf": 310,
-        "gc": 331,
-        "pts": 126,
         "posicion": 11
       },
       {
@@ -2211,12 +2211,12 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 86,
+        "pj": 92,
         "g": 15,
         "e": 4,
-        "p": 67,
-        "gf": 158,
-        "gc": 489,
+        "p": 73,
+        "gf": 181,
+        "gc": 542,
         "pts": 49,
         "posicion": 16
       }
@@ -12604,84 +12604,69 @@
           "visitante": "ATENEO HAEDO",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 18:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 16:30",
-              "sede": "ARG. CASTELAR FEMENINO",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 15:15",
-              "sede": "ARG. CASTELAR FEMENINO",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 14:00",
-              "sede": "ARG. CASTELAR FEMENINO",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-224436-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-224452-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 13:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-160031-1001074663.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-160034-1001074666.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 12:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-160239-1001074663.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-160242-1001074666.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 11:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-145637-1001074559.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-145640-1001074560.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 09:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-130343-1001074308.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-130346-1001074309.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "goles_local": null,
@@ -12704,17 +12689,59 @@
               "planillas": null
             },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 10:00",
               "sede": "ARG. CASTELAR FEMENINO",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-135743-1001074401.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-135745-1001074402.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 14:00",
+              "sede": "ARG. CASTELAR FEMENINO",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181513-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181523-image.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 7,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 15:15",
+              "sede": "ARG. CASTELAR FEMENINO",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-192742-1001074997.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-192748-1001074998.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 16:30",
+              "sede": "ARG. CASTELAR FEMENINO",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-211216-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-211222-image.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CIENCIA Y LABOR",
@@ -12955,54 +12982,69 @@
           "visitante": "INDEPENDIENTE DE BECCAR",
           "partidos": {
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 18:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223322-1000494528.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223325-1000494534.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 15,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 16:30",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-210047-1000494455.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-210055-1000494461.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 14:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182101-inbound5188654688327790322.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182104-inbound7082329433472861075.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 13:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-171216-inbound6783386936710856916.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-171218-inbound6855217384605257799.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 12:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161017-inbound3015082142567236582.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161019-inbound8515510624698113297.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "goles_local": null,
@@ -13055,17 +13097,20 @@
               "planillas": null
             },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 15:15",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-194441-1000494404.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-194450-1000494408.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ROTONDA",
@@ -13201,56 +13246,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043200-248601.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 14:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 11:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 12:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 13:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
-            "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 09:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -13261,16 +13256,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 10:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -13279,16 +13264,6 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-30 15:15",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -13302,6 +13277,99 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-013755-248508.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-013758-248509.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 9,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 09:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130916-1000512888.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130919-1000512887.jpg"
+              ]
+            },
+            "2018 PROMOCIONALES": {
+              "goles_local": 9,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 10:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141015-1000512895.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141018-1000512894.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 11:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-151159-1000512934.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-151203-1000512933.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 9,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 12:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-165339-1000513038.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-165344-1000513037.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 13:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-172012-1000513051.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-172023-1000513050.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 14:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513116.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513115.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 15:15",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195308-1000513162.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195340-1000513161.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195338-1000513139.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195408-1000513138.jpg"
               ]
             }
           },
