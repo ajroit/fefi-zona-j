@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-01T09:32:30.748648Z",
+  "actualizado": "2026-06-02T08:42:37.165213Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -492,6 +492,17 @@
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "VICTORIA",
+        "pj": 10,
+        "g": 8,
+        "e": 1,
+        "p": 1,
+        "gf": 57,
+        "gc": 32,
+        "pts": 25
+      },
+      {
+        "posicion": 2,
         "equipo": "PRIMERA JUNTA",
         "pj": 10,
         "g": 7,
@@ -499,17 +510,6 @@
         "p": 2,
         "gf": 42,
         "gc": 18,
-        "pts": 22
-      },
-      {
-        "posicion": 2,
-        "equipo": "VICTORIA",
-        "pj": 9,
-        "g": 7,
-        "e": 1,
-        "p": 1,
-        "gf": 51,
-        "gc": 30,
         "pts": 22
       },
       {
@@ -603,12 +603,12 @@
       {
         "posicion": 11,
         "equipo": "PACHECO SUR",
-        "pj": 9,
+        "pj": 10,
         "g": 4,
         "e": 1,
-        "p": 4,
-        "gf": 38,
-        "gc": 52,
+        "p": 5,
+        "gf": 40,
+        "gc": 58,
         "pts": 13
       },
       {
@@ -747,6 +747,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "VICTORIA",
+        "pj": 10,
+        "g": 6,
+        "e": 0,
+        "p": 4,
+        "gf": 44,
+        "gc": 37,
+        "pts": 18
+      },
+      {
+        "posicion": 7,
         "equipo": "PRIMERA JUNTA",
         "pj": 10,
         "g": 5,
@@ -755,17 +766,6 @@
         "gf": 38,
         "gc": 28,
         "pts": 16
-      },
-      {
-        "posicion": 7,
-        "equipo": "VICTORIA",
-        "pj": 9,
-        "g": 5,
-        "e": 0,
-        "p": 4,
-        "gf": 37,
-        "gc": 32,
-        "pts": 15
       },
       {
         "posicion": 8,
@@ -803,12 +803,12 @@
       {
         "posicion": 11,
         "equipo": "PACHECO SUR",
-        "pj": 9,
+        "pj": 10,
         "g": 4,
         "e": 2,
-        "p": 3,
-        "gf": 37,
-        "gc": 36,
+        "p": 4,
+        "gf": 42,
+        "gc": 43,
         "pts": 14
       },
       {
@@ -1513,6 +1513,17 @@
         "posicion": 2
       },
       {
+        "equipo": "VICTORIA",
+        "pj": 70,
+        "g": 45,
+        "e": 6,
+        "p": 19,
+        "gf": 382,
+        "gc": 267,
+        "pts": 141,
+        "posicion": 3
+      },
+      {
         "equipo": "MAYO FUTSAL",
         "pj": 70,
         "g": 45,
@@ -1521,17 +1532,6 @@
         "gf": 404,
         "gc": 211,
         "pts": 139,
-        "posicion": 3
-      },
-      {
-        "equipo": "VICTORIA",
-        "pj": 68,
-        "g": 43,
-        "e": 6,
-        "p": 19,
-        "gf": 369,
-        "gc": 260,
-        "pts": 135,
         "posicion": 4
       },
       {
@@ -1558,12 +1558,12 @@
       },
       {
         "equipo": "PACHECO SUR",
-        "pj": 68,
+        "pj": 70,
         "g": 38,
         "e": 10,
-        "p": 20,
-        "gf": 312,
-        "gc": 245,
+        "p": 22,
+        "gf": 319,
+        "gc": 258,
         "pts": 124,
         "posicion": 7
       },
@@ -9501,24 +9501,30 @@
               ]
             },
             "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 18:00",
               "sede": "Club Victoria",
               "direccion": "Garicoits 805, esquina Esteban Echeverria",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-df90t2qhtcmqhqgsitujm5yx8572/20260601-170222-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-df90t2qhtcmqhqgsitujm5yx8572/20260601-170232-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
               "sede": "Club Victoria",
               "direccion": "Garicoits 805, esquina Esteban Echeverria",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260601-171213-7ee27f89-823d-4e34-8c94-552113e96f9e.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260601-171219-39f7cca3-900e-4a6d-9bbf-34c867a4655f.jpeg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "goles_local": 2,
@@ -9566,19 +9572,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-141029-1000208522.jpg"
               ]
             },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 16,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 09:00",
-              "sede": "Armenia",
-              "direccion": "1352",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131231-1000208469.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131232-1000208466.jpg"
-              ]
-            },
             "OCTAVA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -9588,19 +9581,6 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": 7,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 13:00",
-              "sede": "Armenia",
-              "direccion": "1352",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172755-1000208596.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172756-1000208595.jpg"
-              ]
             },
             "CUARTA MASCULINO": {
               "goles_local": 5,
@@ -9628,6 +9608,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-150924-1000208543.jpg"
               ]
             },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 16,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 09:00",
+              "sede": "Armenia",
+              "direccion": "1352",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131231-1000208469.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131232-1000208466.jpg"
+              ]
+            },
             "PRIMERA MASCULINO": {
               "goles_local": 3,
               "goles_visitante": 8,
@@ -9640,6 +9633,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-203744-1000208731.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-203847-1000208730.jpg"
               ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 7,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "Armenia",
+              "direccion": "1352",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172755-1000208596.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172756-1000208595.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -9648,6 +9654,65 @@
           "local": "ALL BOYS SAAVEDRA",
           "visitante": "PROGRESO SANTA RITA",
           "partidos": {
+            "PRIMERA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-05-31 19:15",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": null
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201741-1000126946.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201743-1000126947.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260601-105735-1000127247.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260601-105736-1000127248.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-170701-1000126886.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-170702-1000126887.jpg"
+              ]
+            },
             "SEXTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 3,
@@ -9673,62 +9738,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-181023-1000126902.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-181023-1000126901.jpg"
               ]
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 19:15",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 18:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-05-31 17:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 16:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201741-1000126946.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201743-1000126947.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 13:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-170701-1000126886.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-170702-1000126887.jpg"
-              ]
             }
           },
           "estado": "Finalizado"
@@ -9737,6 +9746,58 @@
           "local": "BRISAS DE HAEDO",
           "visitante": "SUD AMERICA",
           "partidos": {
+            "OCTAVA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-182118-535405.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-182122-535404.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 7,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 20:15",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012857-WhatsApp_Image_2026-05-31_at_21.40.36__1_.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012901-WhatsApp_Image_2026-05-31_at_21.40.36.jpeg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 18:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-221652-535809.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-221656-535808.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211926-535755.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211929-535754.jpg"
+              ]
+            },
             "SEXTA MASCULINO": {
               "goles_local": 10,
               "goles_visitante": 1,
@@ -9775,58 +9836,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-233020-536010.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-233024-536009.jpg"
               ]
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 18:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-221652-535809.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-221656-535808.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-182118-535405.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-182122-535404.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": 3,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 17:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211926-535755.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211929-535754.jpg"
-              ]
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": 7,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 20:15",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012857-WhatsApp_Image_2026-05-31_at_21.40.36__1_.jpeg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012901-WhatsApp_Image_2026-05-31_at_21.40.36.jpeg"
-              ]
             }
           },
           "estado": "Finalizado"
@@ -9835,32 +9844,6 @@
           "local": "INDEPENDIENTE (C)",
           "visitante": "EL IDEAL",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161804-112952.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161811-112949.jpg"
-              ]
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154551-112940.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154556-112938.jpg"
-              ]
-            },
             "TERCERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -9870,19 +9853,6 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-182636-112994.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-182638-112993.jpg"
-              ]
             },
             "PRIMERA MASCULINO": {
               "goles_local": null,
@@ -9919,6 +9889,45 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-172156-112967.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-172203-112966.jpg"
               ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-182636-112994.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-182638-112993.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161804-112952.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161811-112949.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154551-112940.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154556-112938.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -9927,32 +9936,6 @@
           "local": "CRISOL JUVENTUD",
           "visitante": "VILLA SAHORES",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153022-177704.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153030-177705.jpg"
-              ]
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152756-177691.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152804-177692.jpg"
-              ]
-            },
             "PRIMERA MASCULINO": {
               "goles_local": 5,
               "goles_visitante": 8,
@@ -9964,32 +9947,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-205209-177860.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-205217-177861.jpg"
-              ]
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 14,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 15:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193509-177839.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193518-177840.jpg"
-              ]
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 8,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-182839-177791.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-182857-177792.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -10017,6 +9974,58 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-172540-177747.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-172616-177748.jpg"
               ]
+            },
+            "CUARTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 8,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-182839-177791.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-182857-177792.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 14,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193509-177839.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193518-177840.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153022-177704.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153030-177705.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152756-177691.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152804-177692.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -10025,45 +10034,6 @@
           "local": "ALTO PASTO",
           "visitante": "PARQUE CHAS",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 8,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181232-1000508525.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181237-1000508524.jpg"
-              ]
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 13:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170742-1000508486.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170747-1000508485.jpg"
-              ]
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": 8,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 17:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213057-1000508688.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213101-1000508690.jpg"
-              ]
-            },
             "QUINTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 14,
@@ -10075,19 +10045,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-192126-1000508571.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-192131-1000508572.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-161000-1000508450.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-161005-1000508455.jpg"
               ]
             },
             "CUARTA MASCULINO": {
@@ -10115,6 +10072,58 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260601-021800-1000508819.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260601-021807-1000508820.jpg"
               ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 8,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213057-1000508688.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213101-1000508690.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170742-1000508486.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170747-1000508485.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-161000-1000508450.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-161005-1000508455.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 8,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181232-1000508525.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181237-1000508524.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -10123,19 +10132,6 @@
           "local": "MAYO FUTSAL",
           "visitante": "PRIMERA JUNTA",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 16:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194644-1000249833.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194640-1000249834.jpg"
-              ]
-            },
             "OCTAVA MASCULINO": {
               "goles_local": 8,
               "goles_visitante": 3,
@@ -10147,19 +10143,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-175238-1000249728.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-175226-1000249729.jpg"
-              ]
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 19:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230009-1000249899.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230037-1000249900.jpg"
               ]
             },
             "SEPTIMA MASCULINO": {
@@ -10175,6 +10158,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-184934-1000249806.jpg"
               ]
             },
+            "TERCERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230009-1000249899.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230037-1000249900.jpg"
+              ]
+            },
             "QUINTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 6,
@@ -10186,6 +10182,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-205355-1000249871.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-205410-1000249872.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194644-1000249833.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194640-1000249834.jpg"
               ]
             },
             "CUARTA MASCULINO": {
@@ -10221,45 +10230,6 @@
           "local": "ARGENTINO DE MATADEROS",
           "visitante": "CAPITAN ROSALES",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "goles_local": 3,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 16:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200816-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200825-image.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-181157-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-181204-image.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 17:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211720-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211728-image.jpg"
-              ]
-            },
             "SEPTIMA MASCULINO": {
               "goles_local": 4,
               "goles_visitante": 2,
@@ -10286,6 +10256,32 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-223943-image.jpg"
               ]
             },
+            "SEXTA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 16:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200816-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200825-image.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-181157-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-181204-image.jpg"
+              ]
+            },
             "TERCERA MASCULINO": {
               "goles_local": 5,
               "goles_visitante": 3,
@@ -10297,6 +10293,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-235318-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-235326-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211720-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211728-image.jpg"
               ]
             },
             "PRIMERA MASCULINO": {

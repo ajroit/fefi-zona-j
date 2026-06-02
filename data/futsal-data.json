@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-01T09:32:22.545977Z",
+  "actualizado": "2026-06-02T08:42:27.773070Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -855,28 +855,17 @@
       },
       {
         "posicion": 6,
-        "equipo": "ATENEO HAEDO",
+        "equipo": "ARGENTINO DE CASTELAR",
         "pj": 10,
         "g": 6,
-        "e": 0,
-        "p": 4,
-        "gf": 30,
-        "gc": 29,
-        "pts": 18
+        "e": 1,
+        "p": 3,
+        "gf": 36,
+        "gc": 26,
+        "pts": 19
       },
       {
         "posicion": 7,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 10,
-        "g": 5,
-        "e": 1,
-        "p": 4,
-        "gf": 32,
-        "gc": 30,
-        "pts": 16
-      },
-      {
-        "posicion": 8,
         "equipo": "PEDRO LOZANO",
         "pj": 10,
         "g": 5,
@@ -885,6 +874,17 @@
         "gf": 26,
         "gc": 33,
         "pts": 16
+      },
+      {
+        "posicion": 8,
+        "equipo": "ATENEO HAEDO",
+        "pj": 10,
+        "g": 5,
+        "e": 0,
+        "p": 5,
+        "gf": 26,
+        "gc": 33,
+        "pts": 15
       },
       {
         "posicion": 9,
@@ -1066,6 +1066,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "JUVENTUD",
+        "pj": 10,
+        "g": 4,
+        "e": 1,
+        "p": 5,
+        "gf": 21,
+        "gc": 48,
+        "pts": 13
+      },
+      {
+        "posicion": 10,
         "equipo": "ESTRADA FUTSAL",
         "pj": 9,
         "g": 4,
@@ -1076,25 +1087,14 @@
         "pts": 12
       },
       {
-        "posicion": 10,
-        "equipo": "JUVENTUD",
-        "pj": 9,
-        "g": 3,
-        "e": 1,
-        "p": 5,
-        "gf": 16,
-        "gc": 48,
-        "pts": 10
-      },
-      {
         "posicion": 11,
         "equipo": "VILLA RITA",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 27,
-        "gc": 38,
+        "gc": 43,
         "pts": 9
       },
       {
@@ -1157,13 +1157,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
-        "g": 8,
+        "pj": 10,
+        "g": 9,
         "e": 0,
         "p": 1,
-        "gf": 76,
+        "gf": 81,
         "gc": 19,
-        "pts": 24
+        "pts": 27
       },
       {
         "posicion": 2,
@@ -1266,24 +1266,24 @@
       },
       {
         "posicion": 11,
-        "equipo": "LUNA DE MATANZA",
+        "equipo": "CIENCIA Y LABOR",
         "pj": 9,
-        "g": 3,
+        "g": 4,
         "e": 0,
-        "p": 6,
-        "gf": 28,
-        "gc": 29,
-        "pts": 9
+        "p": 5,
+        "gf": 22,
+        "gc": 26,
+        "pts": 12
       },
       {
         "posicion": 12,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 8,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 10,
         "g": 3,
         "e": 0,
-        "p": 5,
-        "gf": 17,
-        "gc": 26,
+        "p": 7,
+        "gf": 28,
+        "gc": 34,
         "pts": 9
       },
       {
@@ -1322,12 +1322,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 0,
-        "gc": 45,
+        "gc": 50,
         "pts": 0
       }
     ],
@@ -1378,6 +1378,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 10,
+        "g": 7,
+        "e": 0,
+        "p": 3,
+        "gf": 50,
+        "gc": 18,
+        "pts": 21
+      },
+      {
+        "posicion": 6,
         "equipo": "VILLA RITA",
         "pj": 10,
         "g": 6,
@@ -1386,17 +1397,6 @@
         "gf": 49,
         "gc": 30,
         "pts": 19
-      },
-      {
-        "posicion": 6,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
-        "g": 6,
-        "e": 0,
-        "p": 3,
-        "gf": 45,
-        "gc": 18,
-        "pts": 18
       },
       {
         "posicion": 7,
@@ -1500,12 +1500,12 @@
       {
         "posicion": 16,
         "equipo": "LUNA DE MATANZA",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 8,
-        "gc": 43,
+        "gc": 48,
         "pts": 1
       }
     ],
@@ -1513,13 +1513,13 @@
       {
         "posicion": 1,
         "equipo": "HAEDO JUNIOR",
-        "pj": 9,
-        "g": 9,
+        "pj": 10,
+        "g": 10,
         "e": 0,
         "p": 0,
-        "gf": 74,
+        "gf": 79,
         "gc": 4,
-        "pts": 27
+        "pts": 30
       },
       {
         "posicion": 2,
@@ -1534,6 +1534,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "MARCHIGIANA",
+        "pj": 10,
+        "g": 7,
+        "e": 1,
+        "p": 2,
+        "gf": 66,
+        "gc": 19,
+        "pts": 22
+      },
+      {
+        "posicion": 4,
         "equipo": "JUVENTUD",
         "pj": 10,
         "g": 7,
@@ -1544,7 +1555,7 @@
         "pts": 21
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "VILLA RITA",
         "pj": 10,
         "g": 7,
@@ -1555,18 +1566,18 @@
         "pts": 21
       },
       {
-        "posicion": 5,
-        "equipo": "MARCHIGIANA",
-        "pj": 9,
+        "posicion": 6,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 10,
         "g": 6,
         "e": 1,
-        "p": 2,
-        "gf": 61,
-        "gc": 19,
+        "p": 3,
+        "gf": 32,
+        "gc": 11,
         "pts": 19
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ROTONDA",
         "pj": 9,
         "g": 6,
@@ -1577,25 +1588,14 @@
         "pts": 18
       },
       {
-        "posicion": 7,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
-        "g": 5,
-        "e": 1,
-        "p": 3,
-        "gf": 27,
-        "gc": 11,
-        "pts": 16
-      },
-      {
         "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
+        "pj": 10,
         "g": 5,
         "e": 1,
-        "p": 3,
+        "p": 4,
         "gf": 27,
-        "gc": 21,
+        "gc": 26,
         "pts": 16
       },
       {
@@ -1645,44 +1645,44 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 8,
+        "pj": 9,
         "g": 2,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 11,
-        "gc": 29,
+        "gc": 34,
         "pts": 6
       },
       {
         "posicion": 14,
-        "equipo": "VILLA SAHORES",
-        "pj": 8,
-        "g": 1,
+        "equipo": "BPNA",
+        "pj": 9,
+        "g": 2,
         "e": 0,
         "p": 7,
-        "gf": 6,
-        "gc": 35,
-        "pts": 3
+        "gf": 14,
+        "gc": 44,
+        "pts": 6
       },
       {
         "posicion": 15,
-        "equipo": "LUNA DE MATANZA",
+        "equipo": "VILLA SAHORES",
         "pj": 9,
         "g": 1,
         "e": 0,
         "p": 8,
-        "gf": 8,
-        "gc": 39,
+        "gf": 6,
+        "gc": 40,
         "pts": 3
       },
       {
         "posicion": 16,
-        "equipo": "BPNA",
-        "pj": 8,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 10,
         "g": 1,
         "e": 0,
-        "p": 7,
-        "gf": 9,
+        "p": 9,
+        "gf": 8,
         "gc": 44,
         "pts": 3
       }
@@ -1691,13 +1691,13 @@
       {
         "posicion": 1,
         "equipo": "MARCHIGIANA",
-        "pj": 9,
-        "g": 9,
+        "pj": 10,
+        "g": 10,
         "e": 0,
         "p": 0,
-        "gf": 56,
+        "gf": 61,
         "gc": 11,
-        "pts": 27
+        "pts": 30
       },
       {
         "posicion": 2,
@@ -1713,13 +1713,13 @@
       {
         "posicion": 3,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
-        "g": 7,
+        "pj": 10,
+        "g": 8,
         "e": 0,
         "p": 2,
-        "gf": 38,
+        "gf": 43,
         "gc": 15,
-        "pts": 21
+        "pts": 24
       },
       {
         "posicion": 4,
@@ -1735,12 +1735,12 @@
       {
         "posicion": 5,
         "equipo": "LUNA DE MATANZA",
-        "pj": 9,
+        "pj": 10,
         "g": 6,
         "e": 1,
-        "p": 2,
+        "p": 3,
         "gf": 46,
-        "gc": 15,
+        "gc": 20,
         "pts": 19
       },
       {
@@ -1768,12 +1768,12 @@
       {
         "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 9,
+        "pj": 10,
         "g": 5,
         "e": 0,
-        "p": 4,
+        "p": 5,
         "gf": 36,
-        "gc": 26,
+        "gc": 31,
         "pts": 15
       },
       {
@@ -1790,13 +1790,13 @@
       {
         "posicion": 10,
         "equipo": "ATENEO HAEDO",
-        "pj": 8,
-        "g": 3,
+        "pj": 9,
+        "g": 4,
         "e": 0,
         "p": 5,
-        "gf": 18,
+        "gf": 23,
         "gc": 29,
-        "pts": 9
+        "pts": 12
       },
       {
         "posicion": 11,
@@ -1823,12 +1823,12 @@
       {
         "posicion": 13,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 8,
+        "pj": 9,
         "g": 1,
         "e": 1,
-        "p": 6,
+        "p": 7,
         "gf": 7,
-        "gc": 32,
+        "gc": 37,
         "pts": 4
       },
       {
@@ -1844,24 +1844,24 @@
       },
       {
         "posicion": 15,
-        "equipo": "VILLA SAHORES",
-        "pj": 6,
-        "g": 0,
+        "equipo": "BPNA",
+        "pj": 8,
+        "g": 1,
         "e": 0,
-        "p": 6,
-        "gf": 0,
-        "gc": 30,
-        "pts": 0
+        "p": 7,
+        "gf": 5,
+        "gc": 38,
+        "pts": 3
       },
       {
         "posicion": 16,
-        "equipo": "BPNA",
+        "equipo": "VILLA SAHORES",
         "pj": 7,
         "g": 0,
         "e": 0,
         "p": 7,
         "gf": 0,
-        "gc": 38,
+        "gc": 35,
         "pts": 0
       }
     ],
@@ -2046,35 +2046,35 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 99,
-        "g": 73,
+        "pj": 100,
+        "g": 74,
         "e": 9,
         "p": 17,
-        "gf": 447,
+        "gf": 452,
         "gc": 161,
-        "pts": 228,
+        "pts": 231,
         "posicion": 1
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 97,
-        "g": 66,
+        "pj": 100,
+        "g": 67,
         "e": 5,
-        "p": 26,
-        "gf": 591,
-        "gc": 307,
-        "pts": 203,
+        "p": 28,
+        "gf": 596,
+        "gc": 317,
+        "pts": 206,
         "posicion": 2
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 98,
-        "g": 60,
+        "pj": 100,
+        "g": 62,
         "e": 13,
         "p": 25,
-        "gf": 438,
+        "gf": 448,
         "gc": 213,
-        "pts": 193,
+        "pts": 199,
         "posicion": 3
       },
       {
@@ -2090,34 +2090,34 @@
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 98,
-        "g": 49,
+        "pj": 99,
+        "g": 50,
         "e": 13,
         "p": 36,
-        "gf": 319,
-        "gc": 279,
-        "pts": 160,
+        "gf": 323,
+        "gc": 280,
+        "pts": 163,
         "posicion": 5
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 96,
+        "pj": 100,
         "g": 50,
         "e": 7,
-        "p": 39,
+        "p": 43,
         "gf": 390,
-        "gc": 289,
+        "gc": 309,
         "pts": 157,
         "posicion": 6
       },
       {
         "equipo": "VILLA RITA",
-        "pj": 99,
+        "pj": 100,
         "g": 50,
         "e": 7,
-        "p": 42,
+        "p": 43,
         "gf": 424,
-        "gc": 362,
+        "gc": 367,
         "pts": 157,
         "posicion": 7
       },
@@ -2134,12 +2134,12 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 96,
+        "pj": 97,
         "g": 47,
         "e": 9,
-        "p": 40,
+        "p": 41,
         "gf": 384,
-        "gc": 372,
+        "gc": 377,
         "pts": 150,
         "posicion": 9
       },
@@ -2156,45 +2156,45 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 98,
+        "pj": 99,
         "g": 45,
         "e": 3,
-        "p": 50,
-        "gf": 335,
-        "gc": 366,
+        "p": 51,
+        "gf": 336,
+        "gc": 370,
         "pts": 138,
         "posicion": 11
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 93,
-        "g": 34,
+        "pj": 97,
+        "g": 38,
         "e": 8,
         "p": 51,
-        "gf": 281,
+        "gf": 301,
         "gc": 344,
-        "pts": 110,
+        "pts": 122,
         "posicion": 12
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 99,
-        "g": 26,
+        "pj": 100,
+        "g": 27,
         "e": 16,
         "p": 57,
-        "gf": 244,
+        "gf": 249,
         "gc": 499,
-        "pts": 94,
+        "pts": 97,
         "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 93,
+        "pj": 95,
         "g": 23,
         "e": 6,
-        "p": 64,
+        "p": 66,
         "gf": 153,
-        "gc": 397,
+        "gc": 407,
         "pts": 75,
         "posicion": 14
       },
@@ -2211,13 +2211,13 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 93,
-        "g": 15,
+        "pj": 96,
+        "g": 17,
         "e": 4,
-        "p": 74,
-        "gf": 181,
-        "gc": 547,
-        "pts": 49,
+        "p": 75,
+        "gf": 191,
+        "gc": 552,
+        "pts": 55,
         "posicion": 16
       }
     ]
@@ -12617,8 +12617,8 @@
               ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 4,
+              "goles_local": 5,
+              "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 13:00",
@@ -12669,9 +12669,9 @@
               ]
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -12701,19 +12701,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260530-135745-1001074402.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-30 14:00",
-              "sede": "ARG. CASTELAR FEMENINO",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181513-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181523-image.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "goles_local": 7,
               "goles_visitante": 3,
@@ -12738,6 +12725,19 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-211216-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-211222-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 14:00",
+              "sede": "ARG. CASTELAR FEMENINO",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181513-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260530-181523-image.jpg"
               ]
             }
           },
@@ -12773,21 +12773,8 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-203408-17802595967893351301599269107520.jpg"
               ]
             },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-180555-17802507354963530692911039766344.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-180610-17802507582991893339875657602236.jpg"
-              ]
-            },
             "2016 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -12806,28 +12793,8 @@
               "direccion": null,
               "planillas": null
             },
-            "2017 PROMOCIONALES": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
-            "2018 PROMOCIONALES": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
             "OCTAVA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -12836,18 +12803,28 @@
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": null
             },
-            "SEXTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 8,
+            "PRIMERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 4,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-31 15:00",
+              "fecha_hora": "2026-05-31 20:00",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-185741-17802538379721022455419422212053.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-185757-17802538641825592629194657680286.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260601-010700-1000427270.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260601-010710-1000427269.jpg"
               ]
+            },
+            "2018 PROMOCIONALES": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": null
             },
             "TERCERA MASCULINO": {
               "goles_local": 7,
@@ -12862,18 +12839,41 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260531-230741-1000572901.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 4,
+            "SEXTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 8,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-31 20:00",
+              "fecha_hora": "2026-05-31 15:00",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260601-010700-1000427270.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260601-010710-1000427269.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-185741-17802538379721022455419422212053.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-185757-17802538641825592629194657680286.jpg"
               ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-180555-17802507354963530692911039766344.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260531-180610-17802507582991893339875657602236.jpg"
+              ]
+            },
+            "2017 PROMOCIONALES": {
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -12882,19 +12882,6 @@
           "local": "VILLA RITA",
           "visitante": "JUVENTUD",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 21:30",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260601-031631-1780283774577291926506632369684.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260601-031642-17802837920534304311175888293085.jpg"
-              ]
-            },
             "TERCERA MASCULINO": {
               "goles_local": 7,
               "goles_visitante": 2,
@@ -12910,7 +12897,7 @@
             },
             "SEPTIMA MASCULINO": {
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:30",
@@ -12919,32 +12906,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-185754-17802538657594398026019443638047.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-185802-178025387466233589881584632844.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 13,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:30",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-183523-17802525144898461087119086177758.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-183533-17802525252431565764478212948938.jpg"
-              ]
-            },
-            "2016 PROMOCIONALES": {
-              "goles_local": 5,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:30",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-152729-17802412391586124466181252642927.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-152745-17802412563664391747978103505648.jpg"
               ]
             },
             "2018 PROMOCIONALES": {
@@ -12996,19 +12957,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-163137-17802450900286637093538380365567.jpg"
               ]
             },
-            "SEXTA MASCULINO": {
-              "goles_local": 6,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 16:30",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-203825-17802598949656285086526508564537.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-203837-17802599092187713625883450035386.jpg"
-              ]
-            },
             "QUINTA MASCULINO": {
               "goles_local": 14,
               "goles_visitante": 0,
@@ -13021,6 +12969,58 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y8brg7anche4zdacy2mriooaw5y2/20260531-211859-1000742286.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y8brg7anche4zdacy2mriooaw5y2/20260531-211900-1000742286.jpg"
               ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 13,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:30",
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-183523-17802525144898461087119086177758.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-183533-17802525252431565764478212948938.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:30",
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-152729-17802412391586124466181252642927.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-152745-17802412563664391747978103505648.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 21:30",
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260601-031631-1780283774577291926506632369684.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260601-031642-17802837920534304311175888293085.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 16:30",
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-203825-17802598949656285086526508564537.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260531-203837-17802599092187713625883450035386.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -13029,19 +13029,6 @@
           "local": "BPNA",
           "visitante": "INDEPENDIENTE DE BECCAR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-30 18:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223322-1000494528.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223325-1000494534.jpg"
-              ]
-            },
             "TERCERA MASCULINO": {
               "goles_local": 5,
               "goles_visitante": 15,
@@ -13053,19 +13040,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-210047-1000494455.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-210055-1000494461.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-30 14:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182101-inbound5188654688327790322.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182104-inbound7082329433472861075.jpg"
               ]
             },
             "SEXTA MASCULINO": {
@@ -13081,46 +13055,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-171218-inbound6855217384605257799.jpg"
               ]
             },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 9,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-30 12:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161017-inbound3015082142567236582.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161019-inbound8515510624698113297.jpg"
-              ]
-            },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "goles_local": 0,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gjz3dxprejrffjmls5x3hq5owgy1/20260531-175041-IMG_0534.jpeg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gjz3dxprejrffjmls5x3hq5owgy1/20260531-175053-IMG_0533.jpeg"
-              ]
-            },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13151,7 +13099,7 @@
               ]
             },
             "2017 PROMOCIONALES": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -13159,6 +13107,58 @@
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
               "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 18:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223322-1000494528.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260530-223325-1000494534.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 14:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182101-inbound5188654688327790322.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-182104-inbound7082329433472861075.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 9,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 12:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161017-inbound3015082142567236582.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260530-161019-inbound8515510624698113297.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gjz3dxprejrffjmls5x3hq5owgy1/20260531-175041-IMG_0534.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gjz3dxprejrffjmls5x3hq5owgy1/20260531-175053-IMG_0533.jpeg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -13178,32 +13178,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-182557-1000404628.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-182613-1000404628.jpg"
-              ]
-            },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-173748-17802490287054906360771804809178.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-173807-17802490728245961324954017561303.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 13:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-174136-17802492812892978880257587375021.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-174218-17802493252149115454844226721686.jpg"
               ]
             },
             "2016 PROMOCIONALES": {
@@ -13255,19 +13229,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-142629-17802375790856972084323708134173.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 15:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-194828-1000404642.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-194840-1000404641.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "goles_local": 2,
               "goles_visitante": 5,
@@ -13279,19 +13240,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-210251-1000404671.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-210304-1000404670.jpg"
-              ]
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 19:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-022240-1000404825.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-022243-1000404824.jpg"
               ]
             },
             "TERCERA MASCULINO": {
@@ -13306,6 +13254,58 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-025335-1000404838.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-025337-1000404836.jpg"
               ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-173748-17802490287054906360771804809178.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-173807-17802490728245961324954017561303.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-174136-17802492812892978880257587375021.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260531-174218-17802493252149115454844226721686.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 15:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-194828-1000404642.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260531-194840-1000404641.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 19:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-022240-1000404825.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260601-022243-1000404824.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -13314,23 +13314,10 @@
           "local": "HAEDO JUNIOR",
           "visitante": "RIVADAVIA 87",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-29 22:30",
-              "sede": "Colegio San José ",
-              "direccion": "Casullo 362",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043157-248598.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043200-248601.jpg"
-              ]
-            },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13360,30 +13347,45 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-013758-248509.jpg"
               ]
             },
-            "2016 PROMOCIONALES": {
-              "goles_local": 9,
-              "goles_visitante": 0,
+            "PRIMERA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 7,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-30 09:00",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
+              "fecha_hora": "2026-05-29 22:30",
+              "sede": "Colegio San José ",
+              "direccion": "Casullo 362",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130916-1000512888.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130919-1000512887.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043157-248598.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260530-043200-248601.jpg"
               ]
             },
-            "2018 PROMOCIONALES": {
-              "goles_local": 9,
-              "goles_visitante": 0,
+            "CUARTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 4,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-30 10:00",
+              "fecha_hora": "2026-05-30 15:15",
               "sede": "Escuela María Mazarello",
               "direccion": "Av Don Bosco 4654, Moron",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141015-1000512895.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141018-1000512894.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195308-1000513162.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195340-1000513161.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195338-1000513139.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195408-1000513138.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-30 14:00",
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513116.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513115.jpg"
               ]
             },
             "SEXTA MASCULINO": {
@@ -13425,32 +13427,30 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-172023-1000513050.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 3,
+            "2016 PROMOCIONALES": {
+              "goles_local": 9,
+              "goles_visitante": 0,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-30 14:00",
+              "fecha_hora": "2026-05-30 09:00",
               "sede": "Escuela María Mazarello",
               "direccion": "Av Don Bosco 4654, Moron",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513116.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-183556-1000513115.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130916-1000512888.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-130919-1000512887.jpg"
               ]
             },
-            "CUARTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 4,
+            "2018 PROMOCIONALES": {
+              "goles_local": 9,
+              "goles_visitante": 0,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-05-30 15:15",
+              "fecha_hora": "2026-05-30 10:00",
               "sede": "Escuela María Mazarello",
               "direccion": "Av Don Bosco 4654, Moron",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195308-1000513162.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195340-1000513161.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195338-1000513139.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-195408-1000513138.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141015-1000512895.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260530-141018-1000512894.jpg"
               ]
             }
           },
@@ -13460,84 +13460,6 @@
           "local": "PEDRO LOZANO",
           "visitante": "DEPORTIVO ABBAS",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 21:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260601-021349-157740.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260601-021353-157739.jpg"
-              ]
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 19:30",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260531-235830-157654.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260531-235841-157653.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "goles_local": 2,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 17:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-221430-17802656578246352210846360812726.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-221442-17802656675033173714748292833502.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "goles_local": 7,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-180606-17802507550635507208289879981886.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-180615-17802507648467507729022114648111.jpg"
-              ]
-            },
-            "2016 PROMOCIONALES": {
-              "goles_local": 6,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 13:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-173225-1000125022.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-173237-1000125020.jpg"
-              ]
-            },
-            "2018 PROMOCIONALES": {
-              "goles_local": 8,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-172818-1000125009.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-172825-1000125015.jpg"
-              ]
-            },
             "2019 PROMOCIONALES": {
               "goles_local": null,
               "goles_visitante": null,
@@ -13599,6 +13521,84 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-200345-17802578090615001355882267853128.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-200351-17802578219177648742798470964598.jpg"
               ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-180606-17802507550635507208289879981886.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-180615-17802507648467507729022114648111.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 13:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-173225-1000125022.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-173237-1000125020.jpg"
+              ]
+            },
+            "2018 PROMOCIONALES": {
+              "goles_local": 8,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-172818-1000125009.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-172825-1000125015.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 21:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260601-021349-157740.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260601-021353-157739.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 17:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-221430-17802656578246352210846360812726.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260531-221442-17802656675033173714748292833502.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 19:30",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260531-235830-157654.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260531-235841-157653.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -13620,19 +13620,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-212721-image.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "goles_local": 1,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 14:00",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-182645-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-182651-image.jpg"
-              ]
-            },
             "SEPTIMA MASCULINO": {
               "goles_local": 0,
               "goles_visitante": 8,
@@ -13646,36 +13633,10 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-160823-image.jpg"
               ]
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": 3,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 11:00",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-151515-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-151519-image.jpg"
-              ]
-            },
-            "2016 PROMOCIONALES": {
-              "goles_local": 0,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 09:00",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-125807-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-125824-image.jpg"
-              ]
-            },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13742,6 +13703,45 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-225820-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-225834-image.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 11:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-151515-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-151519-image.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "goles_local": 0,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 09:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-125807-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-125824-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 14:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-182645-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ipxtzrj0utfwtva1kvggs9pyhty2/20260531-182651-image.jpg"
               ]
             }
           },

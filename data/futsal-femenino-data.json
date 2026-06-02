@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-01T09:32:37.180134Z",
+  "actualizado": "2026-06-02T08:42:42.616579Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -40,12 +40,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
     },
     {
-      "nombre": "PURA SUELA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
-    },
-    {
       "nombre": "MAVIA FC",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
+    },
+    {
+      "nombre": "PURA SUELA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
     {
       "nombre": "ESTRELLA FEDERAL",
@@ -111,13 +111,13 @@
       {
         "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 9,
-        "g": 6,
+        "pj": 10,
+        "g": 7,
         "e": 2,
         "p": 1,
-        "gf": 30,
-        "gc": 8,
-        "pts": 20
+        "gf": 34,
+        "gc": 9,
+        "pts": 23
       },
       {
         "posicion": 4,
@@ -165,17 +165,6 @@
       },
       {
         "posicion": 8,
-        "equipo": "PURA SUELA",
-        "pj": 9,
-        "g": 3,
-        "e": 4,
-        "p": 2,
-        "gf": 16,
-        "gc": 16,
-        "pts": 13
-      },
-      {
-        "posicion": 9,
         "equipo": "MAVIA FC",
         "pj": 9,
         "g": 4,
@@ -183,6 +172,17 @@
         "p": 4,
         "gf": 22,
         "gc": 23,
+        "pts": 13
+      },
+      {
+        "posicion": 9,
+        "equipo": "PURA SUELA",
+        "pj": 10,
+        "g": 3,
+        "e": 4,
+        "p": 3,
+        "gf": 17,
+        "gc": 20,
         "pts": 13
       },
       {
@@ -710,13 +710,13 @@
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 29,
-        "g": 18,
+        "pj": 30,
+        "g": 19,
         "e": 5,
         "p": 6,
-        "gf": 87,
-        "gc": 33,
-        "pts": 59,
+        "gf": 91,
+        "gc": 34,
+        "pts": 62,
         "posicion": 3
       },
       {
@@ -853,12 +853,12 @@
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 29,
+        "pj": 30,
         "g": 5,
         "e": 6,
-        "p": 18,
-        "gf": 30,
-        "gc": 76,
+        "p": 19,
+        "gf": 31,
+        "gc": 80,
         "pts": 21,
         "posicion": 16
       },
@@ -4601,14 +4601,17 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:45",
               "sede": "Campo de deportes Asturias",
               "direccion": "Av Del Libertador 981, Vicente Lopez",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260601-154704-1001340189.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260601-154708-1001340197.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 5,
@@ -4829,19 +4832,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-141246-17802367528181315036234613538042.jpg"
               ]
             },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": 2,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:30",
-              "sede": "El Poli",
-              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173457-17802488804167160491087906643295.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173506-17802488954727611641127060374354.jpg"
-              ]
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 1,
               "goles_visitante": 0,
@@ -4854,6 +4844,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-152421-17802410459455626179600237629480.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-152438-17802410620106269731834612148395.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-152515-17802410966704247458001158683827.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:30",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173457-17802488804167160491087906643295.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173506-17802488954727611641127060374354.jpg"
               ]
             }
           },
@@ -4906,6 +4909,19 @@
           "local": "VILLA SAHORES",
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 22:30",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023755-17802814407335519908592045202881.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023801-17802814551218956633841638972787.jpg"
+              ]
+            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 2,
               "goles_visitante": 1,
@@ -4931,19 +4947,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-000611-17802723198867443245380078451341.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-000635-17802723441862496289384631875883.jpg"
               ]
-            },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": 2,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 22:30",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023755-17802814407335519908592045202881.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023801-17802814551218956633841638972787.jpg"
-              ]
             }
           },
           "estado": "Finalizado"
@@ -4952,6 +4955,19 @@
           "local": "ESTRELLA FEDERAL",
           "visitante": "EL GALPON",
           "partidos": {
+            "PRIMERA ADULTAS FEMENINO ": {
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-05-31 12:00",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164311-29943.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164313-29944.jpg"
+              ]
+            },
             "RESERVA ADULTAS FEMENINO ": {
               "goles_local": 2,
               "goles_visitante": 0,
@@ -4976,19 +4992,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-133438-29914.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-133441-29913.jpg"
-              ]
-            },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-05-31 12:00",
-              "sede": "Estrella Federal",
-              "direccion": "Ayacucho 745 - Florida",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164311-29943.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164313-29944.jpg"
               ]
             }
           },
