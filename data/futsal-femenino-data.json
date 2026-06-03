@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-02T08:42:42.616579Z",
+  "actualizado": "2026-06-03T08:59:53.142371Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -122,13 +122,13 @@
       {
         "posicion": 4,
         "equipo": "ASTRA MACKIE",
-        "pj": 9,
-        "g": 6,
+        "pj": 10,
+        "g": 7,
         "e": 1,
         "p": 2,
-        "gf": 20,
-        "gc": 9,
-        "pts": 19
+        "gf": 22,
+        "gc": 10,
+        "pts": 22
       },
       {
         "posicion": 5,
@@ -254,12 +254,12 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 1,
-        "p": 7,
-        "gf": 16,
-        "gc": 36,
+        "p": 8,
+        "gf": 17,
+        "gc": 38,
         "pts": 4
       },
       {
@@ -322,16 +322,27 @@
       {
         "posicion": 4,
         "equipo": "ASTRA MACKIE",
-        "pj": 9,
+        "pj": 10,
         "g": 7,
         "e": 1,
-        "p": 1,
-        "gf": 35,
-        "gc": 6,
+        "p": 2,
+        "gf": 36,
+        "gc": 12,
         "pts": 22
       },
       {
         "posicion": 5,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 10,
+        "g": 6,
+        "e": 3,
+        "p": 1,
+        "gf": 20,
+        "gc": 14,
+        "pts": 21
+      },
+      {
+        "posicion": 6,
         "equipo": "ALLENDE",
         "pj": 9,
         "g": 6,
@@ -340,17 +351,6 @@
         "gf": 22,
         "gc": 5,
         "pts": 19
-      },
-      {
-        "posicion": 6,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 9,
-        "g": 5,
-        "e": 3,
-        "p": 1,
-        "gf": 14,
-        "gc": 13,
-        "pts": 18
       },
       {
         "posicion": 7,
@@ -499,6 +499,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ALLENDE",
+        "pj": 9,
+        "g": 8,
+        "e": 0,
+        "p": 1,
+        "gf": 23,
+        "gc": 6,
+        "pts": 24
+      },
+      {
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 10,
         "g": 7,
@@ -509,7 +520,7 @@
         "pts": 22
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "CENTRO ASTURIANO",
         "pj": 10,
         "g": 7,
@@ -520,7 +531,7 @@
         "pts": 22
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 10,
         "g": 7,
@@ -529,17 +540,6 @@
         "gf": 29,
         "gc": 11,
         "pts": 22
-      },
-      {
-        "posicion": 5,
-        "equipo": "ALLENDE",
-        "pj": 8,
-        "g": 7,
-        "e": 0,
-        "p": 1,
-        "gf": 18,
-        "gc": 6,
-        "pts": 21
       },
       {
         "posicion": 6,
@@ -631,25 +631,25 @@
       },
       {
         "posicion": 14,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 8,
+        "equipo": "ASTRA MACKIE",
+        "pj": 9,
         "g": 2,
-        "e": 0,
+        "e": 1,
         "p": 6,
-        "gf": 10,
-        "gc": 21,
-        "pts": 6
+        "gf": 11,
+        "gc": 12,
+        "pts": 7
       },
       {
         "posicion": 15,
-        "equipo": "ASTRA MACKIE",
-        "pj": 8,
-        "g": 1,
-        "e": 1,
-        "p": 6,
-        "gf": 6,
-        "gc": 12,
-        "pts": 4
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 9,
+        "g": 2,
+        "e": 0,
+        "p": 7,
+        "gf": 10,
+        "gc": 26,
+        "pts": 6
       },
       {
         "posicion": 16,
@@ -676,12 +676,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 8,
+        "pj": 9,
         "g": 0,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 0,
-        "gc": 40,
+        "gc": 45,
         "pts": 0
       }
     ],
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "ALLENDE",
+        "pj": 27,
+        "g": 18,
+        "e": 5,
+        "p": 4,
+        "gf": 71,
+        "gc": 23,
+        "pts": 59,
+        "posicion": 4
+      },
+      {
         "equipo": "VILLA SAHORES",
         "pj": 30,
         "g": 18,
@@ -728,18 +739,18 @@
         "gf": 62,
         "gc": 37,
         "pts": 59,
-        "posicion": 4
+        "posicion": 5
       },
       {
-        "equipo": "ALLENDE",
-        "pj": 26,
-        "g": 17,
-        "e": 5,
-        "p": 4,
-        "gf": 66,
-        "gc": 23,
-        "pts": 56,
-        "posicion": 5
+        "equipo": "ASTRA MACKIE",
+        "pj": 29,
+        "g": 16,
+        "e": 3,
+        "p": 10,
+        "gf": 69,
+        "gc": 34,
+        "pts": 51,
+        "posicion": 6
       },
       {
         "equipo": "INDEPENDIENTE (C)",
@@ -750,17 +761,6 @@
         "gf": 51,
         "gc": 41,
         "pts": 48,
-        "posicion": 6
-      },
-      {
-        "equipo": "ASTRA MACKIE",
-        "pj": 26,
-        "g": 14,
-        "e": 3,
-        "p": 9,
-        "gf": 61,
-        "gc": 27,
-        "pts": 45,
         "posicion": 7
       },
       {
@@ -819,6 +819,17 @@
         "posicion": 12
       },
       {
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 29,
+        "g": 9,
+        "e": 4,
+        "p": 16,
+        "gf": 47,
+        "gc": 78,
+        "pts": 31,
+        "posicion": 13
+      },
+      {
         "equipo": "ZIZOU FUTSAL",
         "pj": 30,
         "g": 8,
@@ -827,7 +838,7 @@
         "gf": 51,
         "gc": 73,
         "pts": 30,
-        "posicion": 13
+        "posicion": 14
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
@@ -838,17 +849,6 @@
         "gf": 40,
         "gc": 54,
         "pts": 29,
-        "posicion": 14
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 26,
-        "g": 8,
-        "e": 4,
-        "p": 14,
-        "gf": 40,
-        "gc": 70,
-        "pts": 28,
         "posicion": 15
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 28,
+        "pj": 29,
         "g": 1,
         "e": 1,
-        "p": 26,
+        "p": 27,
         "gf": 13,
-        "gc": 125,
+        "gc": 130,
         "pts": 4,
         "posicion": 18
       }
@@ -3559,14 +3559,30 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-02 21:45",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260603-022147-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260603-022215-image.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "goles_local": 6,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-02 20:30",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260603-003943-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260603-004000-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "goles_local": null,
@@ -3577,19 +3593,9 @@
               "sede": null,
               "direccion": null,
               "planillas": null
-            },
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-02 20:30",
-              "sede": "Gimnasio Nicolás Abud",
-              "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ZIZOU FUTSAL",
@@ -4744,9 +4750,9 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -4893,9 +4899,9 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
