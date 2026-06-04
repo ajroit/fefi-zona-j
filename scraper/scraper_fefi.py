@@ -78,7 +78,16 @@ HEADERS = {
 
 def scrape():
     print(f"Descargando {URL}...")
-    html = requests.get(URL, timeout=30, headers=HEADERS).text
+    try:
+        html = requests.get(URL, timeout=30, headers=HEADERS).text
+    except Exception as e:
+        print(f"⚠️ Error en descarga directa: {e}. Intentando vía proxy de fallback...")
+        import urllib.parse
+        proxy_url = f"https://api.allorigins.win/get?url={urllib.parse.quote(URL)}"
+        resp = requests.get(proxy_url, timeout=30)
+        resp.raise_for_status()
+        html = resp.json()["contents"]
+
     soup = BeautifulSoup(html, "html.parser")
     tablas = soup.find_all("table")
 
