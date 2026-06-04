@@ -66,7 +66,7 @@ function futsalFemeninoPartidosDelFoco(categoria) {
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
-        let out_sede = null, out_dir = null, out_hora = null;
+        let out_sede = null, out_dir = null, out_hora = null, out_fecha = null;
         for (const cat of FUTSAL_FEMENINO_DATA.categorias) {
           const p = enc.partidos[cat];
           if (p) {
@@ -75,7 +75,7 @@ function futsalFemeninoPartidosDelFoco(categoria) {
               gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
               gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
             }
-            // Para general, tomamos la sede/hora del primer partido encontrado, sea jugado o no
+            // Para general, tomamos la sede/hora/fecha del primer partido encontrado, sea jugado o no
             if (!out_sede && p.sede) {
               out_sede = p.sede;
               out_dir = p.direccion;
@@ -84,10 +84,14 @@ function futsalFemeninoPartidosDelFoco(categoria) {
               const fh = p.fecha_hora;
               out_hora = fh.includes(" ") ? fh.split(" ")[1].substring(0, 5) : (fh.includes("T") ? fh.split("T")[1].substring(0, 5) : null);
             }
+            if (!out_fecha && p.fecha_hora) {
+              const fh = p.fecha_hora;
+              out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
+            }
           }
         }
         out.push({
-          numero: fecha.numero, fecha: fecha.fecha_partido,
+          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
           rival, esLocal,
           gf: jugado ? gf : null, gc: jugado ? gc : null,
           jugado, estado: enc.estado,
@@ -102,8 +106,14 @@ function futsalFemeninoPartidosDelFoco(categoria) {
         const encuentroFinalizado = enc.estado === "Finalizado";
         const tieneScores = p.jugado;
 
+        let out_fecha = null;
+        if (p.fecha_hora) {
+          const fh = p.fecha_hora;
+          out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
+        }
+
         out.push({
-          numero: fecha.numero, fecha: fecha.fecha_partido,
+          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
           rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
