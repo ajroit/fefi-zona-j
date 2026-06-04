@@ -1,5 +1,11 @@
 import json
 import os
+import socket
+import urllib3.util.connection as connection
+
+# Force IPv4 to avoid Network is unreachable errors in environments without IPv6 routing (like GitHub Actions)
+connection.allowed_gai_family = lambda: socket.AF_INET
+
 import requests
 
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
