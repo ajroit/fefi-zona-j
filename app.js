@@ -327,6 +327,8 @@ function renderProximoPartido() {
     $meta.innerHTML = "";
     $pred.innerHTML = "";
     if ($scouting) $scouting.innerHTML = "";
+    const $actions = document.getElementById("next-match-actions");
+    if ($actions) $actions.innerHTML = "";
     return;
   }
 
@@ -392,6 +394,9 @@ function renderProximoPartido() {
 
   // Scouting del rival
   renderScoutingSection($scouting, "babyfutbol", proximo.rival, categoriaActual);
+
+  // Botón para compartir partido
+  renderizarBotonCompartir("babyfutbol", proximo.numero, proximo.rival);
 }
 
 // ---- Metricas ----

@@ -217,6 +217,8 @@ function futsalFemeninoRenderProximoPartido() {
     $meta.innerHTML = "";
     $pred.innerHTML = "";
     if ($scouting) $scouting.innerHTML = "";
+    const $actions = document.getElementById("next-match-actions");
+    if ($actions) $actions.innerHTML = "";
     return;
   }
 
@@ -270,6 +272,9 @@ function futsalFemeninoRenderProximoPartido() {
 
   // Scouting del rival
   renderScoutingSection($scouting, "futsal-femenino", proximo.rival, futsalFemeninoCategoriaActual);
+
+  // Botón para compartir partido
+  renderizarBotonCompartir("futsal-femenino", proximo.numero, proximo.rival);
 }
 
 // ---- Métricas ----

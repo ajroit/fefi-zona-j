@@ -233,6 +233,8 @@ function futsalRenderProximoPartido() {
     $meta.innerHTML = "";
     $pred.innerHTML = "";
     if ($scouting) $scouting.innerHTML = "";
+    const $actions = document.getElementById("next-match-actions");
+    if ($actions) $actions.innerHTML = "";
     return;
   }
 
@@ -286,6 +288,9 @@ function futsalRenderProximoPartido() {
 
   // Scouting del rival
   renderScoutingSection($scouting, "futsal", proximo.rival, futsalCategoriaActual);
+
+  // Botón para compartir partido
+  renderizarBotonCompartir("futsal", proximo.numero, proximo.rival);
 }
 
 // ---- Métricas ----
