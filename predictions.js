@@ -203,3 +203,91 @@ function renderPredictions() {
 
 // ---- Init ----
 loadPredictions();
+
+// ---- Trigger Scraper ----
+function updateTokenLinks() {
+  const token = localStorage.getItem("github_pat");
+  const clearBtn = document.getElementById("btn-clear-pat");
+  if (clearBtn) {
+    clearBtn.style.display = token ? "inline-block" : "none";
+  }
+}
+
+async function triggerScraper() {
+  const btn = document.getElementById("btn-trigger-scraper");
+  if (!btn) return;
+
+  let token = localStorage.getItem("github_pat");
+  if (!token) {
+    token = prompt("Para ejecutar el scraper necesitas un GitHub Personal Access Token (PAT) con permisos de 'actions:write'.\n\nPor favor, ingresalo a continuación (se guardará localmente en tu navegador):");
+    if (!token) return;
+    localStorage.setItem("github_pat", token.trim());
+    updateTokenLinks();
+  }
+
+  btn.classList.add("loading");
+  btn.disabled = true;
+  btn.textContent = "Disparando Scraper... ";
+
+  try {
+    const response = await fetch("https://api.github.com/repos/ajroit/fefi-zona-j/actions/workflows/scrape.yml/dispatches", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        ref: "main"
+      })
+    });
+
+    if (response.status === 204) {
+      alert("¡GitHub Action ejecutada con éxito! 🚀\nEl scraper se está ejecutando en segundo plano en GitHub. Los datos se actualizarán en unos minutos.");
+    } else {
+      const errData = await response.json().catch(() => null);
+      const errMsg = errData?.message || `Código de estado: ${response.status}`;
+      if (response.status === 401 || response.status === 403) {
+        localStorage.removeItem("github_pat");
+        updateTokenLinks();
+        alert(`Error de autenticación: ${errMsg}.\nSe borró el token guardado para que puedas intentar de nuevo con otro válido.`);
+      } else {
+        alert(`No se pudo iniciar el scraper: ${errMsg}`);
+      }
+    }
+  } catch (error) {
+    console.error("Error disparando el scraper:", error);
+    alert(`Ocurrió un error de red: ${error.message}`);
+  } finally {
+    btn.classList.remove("loading");
+    btn.disabled = false;
+    btn.textContent = "🔄 Ejecutar Scraper / Actualizar Datos";
+  }
+}
+
+// Configurar listeners
+function setupScraperListeners() {
+  const triggerBtn = document.getElementById("btn-trigger-scraper");
+  if (triggerBtn && !triggerBtn.dataset.listenerAttached) {
+    triggerBtn.addEventListener("click", triggerScraper);
+    triggerBtn.dataset.listenerAttached = "true";
+  }
+
+  const clearBtn = document.getElementById("btn-clear-pat");
+  if (clearBtn && !clearBtn.dataset.listenerAttached) {
+    clearBtn.addEventListener("click", () => {
+      localStorage.removeItem("github_pat");
+      updateTokenLinks();
+      alert("Token eliminado de tu navegador.");
+    });
+    clearBtn.dataset.listenerAttached = "true";
+  }
+
+  updateTokenLinks();
+}
+
+document.addEventListener("DOMContentLoaded", setupScraperListeners);
+if (document.readyState === "interactive" || document.readyState === "complete") {
+  setupScraperListeners();
+}

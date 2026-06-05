@@ -370,6 +370,44 @@
       .cat-preds-header, .cat-pred-row { padding-left: 12px; padding-right: 12px; }
       .predictions-hero h1 { font-size: 24px; }
     }
+
+    .btn-trigger-scraper {
+      background: linear-gradient(135deg, var(--brand-green) 0%, #15733c 100%);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 16px;
+      transition: all var(--transition-fast);
+      box-shadow: 0 4px 12px rgba(26, 140, 74, 0.2);
+    }
+    .btn-trigger-scraper:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(26, 140, 74, 0.3);
+      filter: brightness(1.1);
+    }
+    .btn-trigger-scraper:active {
+      transform: translateY(1px);
+    }
+    .btn-trigger-scraper.loading {
+      pointer-events: none;
+      opacity: 0.7;
+    }
+    .btn-trigger-scraper.loading::after {
+      content: "";
+      width: 14px;
+      height: 14px;
+      border: 2px solid white;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
   </style>
 </head>
 <body>
@@ -383,6 +421,10 @@
       </div>
       <h1 style="margin-top: 16px">Predicciones de Resultados</h1>
       <p>Análisis estadístico con inteligencia artificial</p>
+      <div style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 8px;">
+        <button id="btn-trigger-scraper" class="btn-trigger-scraper">🔄 Ejecutar Scraper / Actualizar Datos</button>
+        <button id="btn-clear-pat" style="display: none; background: none; border: none; color: rgba(255,255,255,0.4); font-size: 11px; cursor: pointer; text-decoration: underline;">Borrar Token Guardado</button>
+      </div>
     </div>
   </header>
 
