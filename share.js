@@ -177,6 +177,92 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
   const waUrl = `https://api.whatsapp.com/send?text=${textoEncoded}`;
   const tgUrl = `https://t.me/share/url?url=&text=${textoEncoded}`;
 
+  // Obtener categoría actual y ver si habilitamos botón de Google Calendar
+  let catActual = "general";
+  if (deporte === "futsal") {
+    catActual = typeof futsalCategoriaActual !== 'undefined' ? futsalCategoriaActual : "general";
+  } else if (deporte === "futsal-reducido") {
+    catActual = typeof futsalRedCategoriaActual !== 'undefined' ? futsalRedCategoriaActual : "general";
+  } else if (deporte === "futsal-femenino") {
+    catActual = typeof futsalFemeninoCategoriaActual !== 'undefined' ? futsalFemeninoCategoriaActual : "general";
+  }
+
+  let gCalUrl = "";
+  if (deporte !== "babyfutbol" && catActual !== "general") {
+    let data = null;
+    let nombreDeporte = "";
+    if (deporte === "futsal") {
+      data = typeof FUTSAL_DATA !== 'undefined' ? FUTSAL_DATA : null;
+      nombreDeporte = "Futsal - Liga de Honor";
+    } else if (deporte === "futsal-reducido") {
+      data = typeof FUTSAL_RED_DATA !== 'undefined' ? FUTSAL_RED_DATA : null;
+      nombreDeporte = "Futsal - Reducido";
+    } else if (deporte === "futsal-femenino") {
+      data = typeof FUTSAL_FEMENINO_DATA !== 'undefined' ? FUTSAL_FEMENINO_DATA : null;
+      nombreDeporte = "Futsal - Femenino";
+    }
+
+    if (data) {
+      let encuentro = null;
+      for (const f of data.fechas) {
+        if (f.numero === numeroFecha) {
+          for (const e of f.encuentros) {
+            if (e.local === rival || e.visitante === rival) {
+              encuentro = e;
+              break;
+            }
+          }
+        }
+      }
+
+      if (encuentro) {
+        const p = encuentro.partidos[catActual];
+        if (p && p.fecha_hora && p.sede) {
+          const datetimeStr = p.fecha_hora.trim();
+          const matchDate = datetimeStr.match(/^(\d{4})-(\d{2})-(\d{2})(?:\s+|T)(\d{2}):(\d{2})/);
+          if (matchDate) {
+            const [, year, month, day, hour, minute] = matchDate;
+            const start = `${year}${month}${day}T${hour}${minute}00`;
+            
+            const jsDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day), parseInt(hour), parseInt(minute));
+            const jsEndDate = new Date(jsDate.getTime() + 60 * 60 * 1000); // 1 hora de duración
+            const endYear = jsEndDate.getFullYear();
+            const endMonth = String(jsEndDate.getMonth() + 1).padStart(2, '0');
+            const endDay = String(jsEndDate.getDate()).padStart(2, '0');
+            const endHour = String(jsEndDate.getHours()).padStart(2, '0');
+            const endMinute = String(jsEndDate.getMinutes()).padStart(2, '0');
+            const end = `${endYear}${endMonth}${endDay}T${endHour}${endMinute}00`;
+            
+            const datesParam = `${start}/${end}`;
+            
+            let catLabel = catActual;
+            if (deporte === "futsal" && typeof FUTSAL_CAT_LABELS !== 'undefined') {
+              catLabel = FUTSAL_CAT_LABELS[catActual] || catActual;
+            } else if (deporte === "futsal-reducido") {
+              if (catActual === "PRIMERA MASCULINO") catLabel = "1ra";
+              else if (catActual === "TERCERA MASCULINO") catLabel = "3ra";
+              else if (catActual === "CUARTA MASCULINO") catLabel = "4ta";
+              else if (catActual === "QUINTA MASCULINO") catLabel = "5ta";
+              else if (catActual === "SEXTA MASCULINO") catLabel = "6ta";
+              else if (catActual === "SEPTIMA MASCULINO") catLabel = "7ma";
+              else if (catActual === "OCTAVA MASCULINO") catLabel = "8va";
+            } else if (deporte === "futsal-femenino" && typeof FUTSAL_FEMENINO_CAT_LABELS !== 'undefined') {
+              catLabel = FUTSAL_FEMENINO_CAT_LABELS[catActual] || catActual;
+            }
+
+            const local = encuentro.local;
+            const visitante = encuentro.visitante;
+            const title = `Futsal: ${local} vs ${visitante} (${catLabel})`;
+            const location = `${p.sede}${p.direccion ? ', ' + p.direccion : ''}`;
+            const details = `🏆 Torneo: ${nombreDeporte} (Fecha ${numeroFecha})\n🆚 Encuentro: ${local} vs ${visitante}\n📍 Sede: ${location}\n\n¡Vamos Sahores! 💪🔴⚫`;
+            
+            gCalUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${datesParam}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
+          }
+        }
+      }
+    }
+  }
+
   container.innerHTML = `
     <div class="share-actions-wrapper">
       <button class="btn-share-main" onclick="compartirMatch('${deporte}', ${numeroFecha}, '${rival}')" title="Copiar o compartir texto formateado">
@@ -200,6 +286,16 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.96-.75 3.78-1.65 6.31-2.74 7.58-3.27 3.61-1.51 4.35-1.78 4.84-1.79.11 0 .35.03.5.16.13.12.17.28.19.39.02.06.02.16.01.25z"/>
         </svg>
       </a>
+      ${gCalUrl ? `
+      <a href="${gCalUrl}" target="_blank" rel="noopener" class="btn-share-social google-calendar" title="Agregar al Google Calendar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-social">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+      </a>
+      ` : ""}
       <div class="share-toast" id="share-toast">📋 ¡Texto copiado al portapapeles!</div>
     </div>
   `;
