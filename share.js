@@ -95,14 +95,8 @@ function generarTextoCompartir(deporte, numeroFecha, rival) {
     texto += `📍 Sede: *Pendiente*\n`;
   }
 
-  texto += `\n*Horarios por categoría:*\n`;
-
-  if (deporte === "babyfutbol") {
-    const categoriasOrdenadas = data.categorias || [];
-    categoriasOrdenadas.forEach(cat => {
-      texto += `🔸 Cat ${cat}\n`;
-    });
-  } else {
+  if (deporte !== "babyfutbol") {
+    texto += `\n*Horarios por categoría:*\n`;
     const listaCategorias = [];
     for (const cat of data.categorias) {
       const p = encuentro.partidos[cat];
