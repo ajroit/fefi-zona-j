@@ -168,6 +168,28 @@ function compartirMatch(deporte, numeroFecha, rival) {
   }
 }
 
+function compartirInstagram(deporte, numeroFecha, rival) {
+  const texto = generarTextoCompartir(deporte, numeroFecha, rival);
+  if (!texto) return;
+
+  navigator.clipboard.writeText(texto).then(() => {
+    const toast = document.getElementById("share-toast");
+    if (toast) {
+      toast.textContent = "📋 ¡Texto copiado! Abriendo Instagram Direct...";
+      toast.classList.add("show");
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2500);
+    }
+    setTimeout(() => {
+      window.open("https://www.instagram.com/direct/inbox/", "_blank", "noopener");
+    }, 800);
+  }).catch(err => {
+    console.error("Error al copiar para Instagram:", err);
+    window.open("https://www.instagram.com/direct/inbox/", "_blank", "noopener");
+  });
+}
+
 function renderizarBotonCompartir(deporte, numeroFecha, rival) {
   const container = document.getElementById("next-match-actions");
   if (!container) return;
@@ -265,16 +287,6 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
 
   container.innerHTML = `
     <div class="share-actions-wrapper">
-      <button class="btn-share-main" onclick="compartirMatch('${deporte}', ${numeroFecha}, '${rival}')" title="Copiar o compartir texto formateado">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-share">
-          <circle cx="18" cy="5" r="3"></circle>
-          <circle cx="6" cy="12" r="3"></circle>
-          <circle cx="18" cy="19" r="3"></circle>
-          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-          <line x1="8.59" y1="10.49" x2="15.41" y2="6.51"></line>
-        </svg>
-        <span>Compartir / Copiar</span>
-      </button>
       <a href="${waUrl}" target="_blank" rel="noopener" class="btn-share-social whatsapp" title="Compartir directo en WhatsApp">
         <svg viewBox="0 0 24 24" fill="currentColor" class="icon-social">
           <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.328 1.968 13.861.94 11.997.94c-5.441 0-9.87 4.372-9.874 9.802-.002 1.768.468 3.49 1.36 5.041L2.447 21.5l5.8-1.513z"/>
@@ -286,6 +298,13 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.96-.75 3.78-1.65 6.31-2.74 7.58-3.27 3.61-1.51 4.35-1.78 4.84-1.79.11 0 .35.03.5.16.13.12.17.28.19.39.02.06.02.16.01.25z"/>
         </svg>
       </a>
+      <button class="btn-share-social instagram" onclick="compartirInstagram('${deporte}', ${numeroFecha}, '${rival}')" title="Copiar texto y abrir Instagram Direct">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-social">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </button>
       ${gCalUrl ? `
       <a href="${gCalUrl}" target="_blank" rel="noopener" class="btn-share-social google-calendar" title="Agregar al Google Calendar">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-social">

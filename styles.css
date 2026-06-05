@@ -1210,3 +1210,15 @@ footer {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
 }
+
+.btn-share-social.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0 2px 6px rgba(214, 36, 159, 0.2);
+  border: none;
+  cursor: pointer;
+}
+.btn-share-social.instagram:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(214, 36, 159, 0.3);
+  filter: brightness(1.1);
+}
