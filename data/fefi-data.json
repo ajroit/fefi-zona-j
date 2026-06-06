@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-05T08:12:13.257048+00:00",
+  "actualizado": "2026-06-06T07:20:22.085212+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -2564,7 +2564,7 @@
             },
             "2014": {
               "goles_local": 4,
-              "goles_visitante": 0,
+              "goles_visitante": 10,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
@@ -7795,10 +7795,10 @@
       {
         "equipo": "PACIFICO MAR PLAST",
         "pj": 49,
-        "g": 26,
+        "g": 27,
         "e": 2,
-        "p": 21,
-        "pts": 103,
+        "p": 20,
+        "pts": 105,
         "posicion": 4
       },
       {
@@ -7813,10 +7813,10 @@
       {
         "equipo": "MENDEVILLE",
         "pj": 49,
-        "g": 25,
+        "g": 24,
         "e": 3,
-        "p": 21,
-        "pts": 102,
+        "p": 22,
+        "pts": 100,
         "posicion": 6
       },
       {
@@ -8395,13 +8395,22 @@
         "posicion": 5
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 7,
+        "g": 4,
+        "e": 0,
+        "p": 3,
+        "pts": 15,
+        "posicion": 6
+      },
+      {
         "equipo": "A DOS TOQUES F. C.",
         "pj": 6,
         "g": 4,
         "e": 1,
         "p": 1,
         "pts": 15,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8410,7 +8419,7 @@
         "e": 2,
         "p": 3,
         "pts": 13,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "TORINO",
@@ -8419,19 +8428,10 @@
         "e": 0,
         "p": 4,
         "pts": 13,
-        "posicion": 8
-      },
-      {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 7,
-        "g": 3,
-        "e": 0,
-        "p": 4,
-        "pts": 13,
         "posicion": 9
       },
       {
-        "equipo": "PACIFICO MAR PLAST",
+        "equipo": "CLUB COMUNICACIONES",
         "pj": 7,
         "g": 3,
         "e": 0,
@@ -8449,22 +8449,13 @@
         "posicion": 11
       },
       {
-        "equipo": "MENDEVILLE",
-        "pj": 7,
-        "g": 2,
-        "e": 0,
-        "p": 5,
-        "pts": 11,
-        "posicion": 12
-      },
-      {
         "equipo": "LIBERAL",
         "pj": 6,
         "g": 2,
         "e": 0,
         "p": 4,
         "pts": 10,
-        "posicion": 13
+        "posicion": 12
       },
       {
         "equipo": "FERRO C. O.",
@@ -8473,10 +8464,19 @@
         "e": 1,
         "p": 4,
         "pts": 9,
-        "posicion": 14
+        "posicion": 13
       },
       {
         "equipo": "ESTRELLA",
+        "pj": 7,
+        "g": 1,
+        "e": 0,
+        "p": 6,
+        "pts": 9,
+        "posicion": 14
+      },
+      {
+        "equipo": "MENDEVILLE",
         "pj": 7,
         "g": 1,
         "e": 0,
