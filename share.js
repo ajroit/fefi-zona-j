@@ -285,6 +285,69 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
     }
   }
 
+  // Obtener fecha del partido en formato ISO para el pronóstico del clima
+  let fechaMatchIso = "";
+  let dataWeather = null;
+  if (deporte === "babyfutbol") {
+    dataWeather = typeof DATA !== 'undefined' ? DATA : null;
+  } else if (deporte === "futsal") {
+    dataWeather = typeof FUTSAL_DATA !== 'undefined' ? FUTSAL_DATA : null;
+  } else if (deporte === "futsal-reducido") {
+    dataWeather = typeof FUTSAL_RED_DATA !== 'undefined' ? FUTSAL_RED_DATA : null;
+  } else if (deporte === "futsal-femenino") {
+    dataWeather = typeof FUTSAL_FEMENINO_DATA !== 'undefined' ? FUTSAL_FEMENINO_DATA : null;
+  }
+
+  if (dataWeather) {
+    let encuentroWeather = null;
+    let fechaObjWeather = null;
+    for (const f of dataWeather.fechas) {
+      if (f.numero === numeroFecha) {
+        for (const e of f.encuentros) {
+          if (e.local === rival || e.visitante === rival) {
+            encuentroWeather = e;
+            fechaObjWeather = f;
+            break;
+          }
+        }
+      }
+    }
+
+    if (encuentroWeather) {
+      if (deporte === "babyfutbol") {
+        if (fechaObjWeather && fechaObjWeather.fecha_partido) {
+          fechaMatchIso = fechaObjWeather.fecha_partido;
+        }
+      } else {
+        if (catActual !== "general") {
+          const p = encuentroWeather.partidos[catActual];
+          if (p && p.fecha_hora) {
+            fechaMatchIso = p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[0] : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[0] : p.fecha_hora);
+          }
+        }
+        if (!fechaMatchIso) {
+          for (const cat of dataWeather.categorias) {
+            const p = encuentroWeather.partidos[cat];
+            if (p && p.fecha_hora) {
+              const iso = p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[0] : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[0] : p.fecha_hora);
+              if (iso) {
+                fechaMatchIso = iso;
+                break;
+              }
+            }
+          }
+        }
+        if (!fechaMatchIso && fechaObjWeather && fechaObjWeather.fecha_partido) {
+          fechaMatchIso = fechaObjWeather.fecha_partido;
+        }
+      }
+    }
+  }
+
+  if (typeof loadWeather === 'function') {
+    loadWeather(fechaMatchIso);
+  }
+
   container.innerHTML = `
     <div class="share-actions-wrapper">
       <a href="${waUrl}" target="_blank" rel="noopener" class="btn-share-social whatsapp" title="Compartir directo en WhatsApp">
