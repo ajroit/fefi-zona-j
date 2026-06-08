@@ -79,12 +79,12 @@ def main():
             for child in visualizer.get("children", []):
                 if child.get("type") != "container":
                     continue
-                fecha_num = child.get("name", "")
+                fecha_label = child.get("value") or child.get("name") or ""
                 
                 # Intentar parsear el número de fecha
                 n_fecha = 0
                 import re
-                match_num = re.search(r'\d+', fecha_num)
+                match_num = re.search(r'\d+', str(fecha_label))
                 if match_num:
                     n_fecha = int(match_num.group())
                 
