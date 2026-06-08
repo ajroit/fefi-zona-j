@@ -168,28 +168,6 @@ function compartirMatch(deporte, numeroFecha, rival) {
   }
 }
 
-function compartirInstagram(deporte, numeroFecha, rival) {
-  const texto = generarTextoCompartir(deporte, numeroFecha, rival);
-  if (!texto) return;
-
-  navigator.clipboard.writeText(texto).then(() => {
-    const toast = document.getElementById("share-toast");
-    if (toast) {
-      toast.textContent = "📋 ¡Texto copiado! Abriendo Instagram Direct...";
-      toast.classList.add("show");
-      setTimeout(() => {
-        toast.classList.remove("show");
-      }, 2500);
-    }
-    setTimeout(() => {
-      window.open("https://www.instagram.com/direct/inbox/", "_blank", "noopener");
-    }, 800);
-  }).catch(err => {
-    console.error("Error al copiar para Instagram:", err);
-    window.open("https://www.instagram.com/direct/inbox/", "_blank", "noopener");
-  });
-}
-
 function renderizarBotonCompartir(deporte, numeroFecha, rival) {
   const container = document.getElementById("next-match-actions");
   if (!container) return;
@@ -197,7 +175,6 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
   const texto = generarTextoCompartir(deporte, numeroFecha, rival);
   const textoEncoded = encodeURIComponent(texto);
   const waUrl = `https://api.whatsapp.com/send?text=${textoEncoded}`;
-  const tgUrl = `https://t.me/share/url?url=&text=${textoEncoded}`;
 
   // Obtener categoría actual y ver si habilitamos botón de Google Calendar
   let catActual = "general";
@@ -356,18 +333,6 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
           <path d="M15.42 12.924c-.266-.134-1.579-.78-1.823-.869-.243-.089-.422-.134-.599.134-.178.267-.688.869-.843 1.047-.155.178-.311.2-.577.067-.267-.134-1.127-.417-2.148-1.328-.794-.709-1.33-1.585-1.486-1.853-.155-.267-.016-.411.118-.544.12-.119.267-.312.4-.468.133-.156.177-.267.266-.445.09-.178.044-.334-.022-.468-.067-.134-.599-1.448-.821-1.983-.216-.52-.435-.449-.599-.458-.155-.008-.333-.01-.51-.01s-.467.067-.71.334c-.244.267-.933.913-.933 2.228 0 1.314.954 2.584 1.088 2.762.133.178 1.877 2.867 4.549 4.02.636.275 1.132.44 1.52.563.639.203 1.22.174 1.68.107.512-.074 1.579-.646 1.8-.1.223-.546.223-1.014.156-1.092-.067-.079-.244-.134-.511-.267z"/>
         </svg>
       </a>
-      <a href="${tgUrl}" target="_blank" rel="noopener" class="btn-share-social telegram" title="Compartir directo en Telegram">
-        <svg viewBox="0 0 24 24" fill="currentColor" class="icon-social">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.96-.75 3.78-1.65 6.31-2.74 7.58-3.27 3.61-1.51 4.35-1.78 4.84-1.79.11 0 .35.03.5.16.13.12.17.28.19.39.02.06.02.16.01.25z"/>
-        </svg>
-      </a>
-      <button class="btn-share-social instagram" onclick="compartirInstagram('${deporte}', ${numeroFecha}, '${rival}')" title="Copiar texto y abrir Instagram Direct">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-social">
-          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-        </svg>
-      </button>
       ${gCalUrl ? `
       <a href="${gCalUrl}" target="_blank" rel="noopener" class="btn-share-social google-calendar" title="Agregar al Google Calendar">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-social">
