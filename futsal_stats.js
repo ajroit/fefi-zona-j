@@ -27,8 +27,9 @@ const STATS_CAT_LABELS = {
 async function cargarFutsalStats() {
   if (FUTSAL_STATS) return FUTSAL_STATS;
   try {
-    let res = await fetch("data/futsal-stats.json");
-    if (!res.ok) res = await fetch("../data/futsal-stats.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch("data/futsal-stats.json" + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-stats.json" + cacheBust);
     FUTSAL_STATS = await res.json();
     console.log("📊 Futsal stats loaded successfully.");
   } catch (err) {
@@ -253,7 +254,12 @@ function configurarHistorialExpandible(torneoNombre, categoriaActual) {
       const showCatTag = categoriaActual === "general";
       detailsHtml += `
         <div class="match-detail-row">
-          ${showCatTag ? `<div class="detail-cat-badge">${catLabel}</div>` : ""}
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; flex-wrap: wrap; gap: 6px;">
+            ${showCatTag ? `<div class="detail-cat-badge">${catLabel}</div>` : "<div></div>"}
+            <a href="match.html?id=${Number(m.match_id).toString(16)}" class="btn-planilla" style="font-size: 10px; padding: 3px 6px;" title="Ver ficha completa y compartir">
+              🔗 Ver Ficha
+            </a>
+          </div>
           <div class="detail-columns">
             ${refHtml}
             ${goalsHtml}

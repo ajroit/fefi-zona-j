@@ -44,8 +44,9 @@ async function initFutsal() {
   if (FUTSAL_DATA) return FUTSAL_DATA;
 
   try {
-    let res = await fetch(FUTSAL_DATA_URL);
-    if (!res.ok) res = await fetch("../data/futsal-data.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(FUTSAL_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-data.json" + cacheBust);
     FUTSAL_DATA = await res.json();
   } catch (err) {
     console.error("Error cargando datos Futsal:", err);

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Detalle de partido - Club Social y Deportivo Villa Sahores">
+  <title>Villa Sahores - Detalle de Partido</title>
+  <link rel="icon" type="image/jpeg" href="images/logo-sahores.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .match-page {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    
+    .match-header-container {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    
+    .match-category-badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--brand-green-light);
+      background: rgba(26, 140, 74, 0.15);
+      border: 1px solid rgba(26, 140, 74, 0.3);
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+    
+    .match-date-label {
+      font-size: 14px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    
+    .match-scoreboard-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 24px;
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .match-scoreboard-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--brand-green) 0%, var(--brand-green-light) 100%);
+    }
+    
+    .scoreboard-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    
+    .scoreboard-team {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .team-logo-wrapper {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: var(--bg-alt);
+      border: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-base);
+    }
+    
+    .scoreboard-team:hover .team-logo-wrapper {
+      transform: scale(1.05);
+    }
+    
+    .team-logo-img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+    
+    .team-logo-placeholder {
+      font-size: 32px;
+    }
+    
+    .team-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+    
+    .team-title.highlight {
+      color: var(--brand-green-light);
+    }
+    
+    .scoreboard-score-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    
+    .score-number {
+      font-size: 64px;
+      font-weight: 800;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+    
+    .score-divider {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    
+    .match-events-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    
+    .event-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+    }
+    
+    .event-card-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .event-card-title svg {
+      width: 16px;
+      height: 16px;
+      color: var(--brand-green);
+    }
+    
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .event-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    
+    .event-team-badge {
+      font-size: 9px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    
+    .event-team-badge.home {
+      background: rgba(42, 133, 244, 0.1);
+      color: #4285F4;
+    }
+    
+    .event-team-badge.away {
+      background: rgba(220, 38, 38, 0.1);
+      color: #dc2626;
+    }
+    
+    .event-icon {
+      font-size: 14px;
+    }
+    
+    .event-player {
+      font-weight: 600;
+      color: var(--text);
+    }
+    
+    .event-detail {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .referee-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    
+    .referee-photo-large {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--brand-green);
+      box-shadow: var(--shadow-sm);
+    }
+    
+    .referee-placeholder-large {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--bg-alt);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      border: 2px solid var(--border);
+    }
+    
+    .referee-info-block {
+      flex: 1;
+    }
+    
+    .referee-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+    
+    .referee-fullname {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    
+    .referee-stats-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+    
+    .match-action-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+      margin-top: 40px;
+    }
+    
+    .share-row {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .btn-match-action {
+      flex: 1;
+      padding: 12px;
+      border-radius: var(--radius-md);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all var(--transition-fast);
+      text-decoration: none;
+      border: none;
+      color: white;
+    }
+    
+    .btn-match-action.back {
+      background: var(--bg-alt);
+      color: var(--text);
+      border: 1px solid var(--border);
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .btn-match-action.back:hover {
+      background: var(--border);
+      transform: translateY(-1px);
+    }
+    
+    .btn-match-action.copy {
+      background: var(--brand-green);
+      box-shadow: 0 2px 6px rgba(26, 140, 74, 0.2);
+    }
+    
+    .btn-match-action.copy:hover {
+      background: #15733c;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(26, 140, 74, 0.3);
+    }
+    
+    .btn-match-action.whatsapp {
+      background: #25D366;
+      box-shadow: 0 2px 6px rgba(37, 211, 102, 0.2);
+    }
+    
+    .btn-match-action.whatsapp:hover {
+      background: #128C7E;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    }
+    
+    .btn-match-action.telegram {
+      background: #0088cc;
+      box-shadow: 0 2px 6px rgba(0, 136, 204, 0.2);
+    }
+    
+    .btn-match-action.telegram:hover {
+      background: #006699;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+    }
+    
+    /* Loading and error layouts */
+    .match-loader {
+      text-align: center;
+      padding: 100px 0;
+      color: var(--text-muted);
+    }
+    
+    .spinner {
+      border: 4px solid rgba(26, 140, 74, 0.1);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border-left-color: var(--brand-green);
+      animation: spin 1s linear infinite;
+      margin: 0 auto 16px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .match-error-container {
+      text-align: center;
+      padding: 60px 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+    }
+    
+    .match-error-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    
+    .match-error-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--danger);
+    }
+    
+    @media (max-width: 768px) {
+      .match-events-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      
+      .score-number {
+        font-size: 48px;
+      }
+      
+      .team-logo-wrapper {
+        width: 80px;
+        height: 80px;
+      }
+      
+      .team-logo-img {
+        width: 60px;
+        height: 60px;
+      }
+      
+      .team-title {
+        font-size: 16px;
+      }
+      
+      .match-scoreboard-card {
+        padding: 24px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="match-page">
+    <!-- Loader -->
+    <div id="loader" class="match-loader">
+      <div class="spinner"></div>
+      <p>Cargando detalles del partido...</p>
+    </div>
+
+    <!-- Error Screen -->
+    <div id="error-screen" style="display: none;" class="match-error-container">
+      <div class="match-error-icon">⚠️</div>
+      <h2 class="match-error-title">No se encontró el partido</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 24px;" id="error-msg">El ID de partido proporcionado no existe en la base de datos local o no es válido.</p>
+      <a href="index.html" class="btn-match-action back">Volver al Inicio</a>
+    </div>
+
+    <!-- Match Content (Hidden by default) -->
+    <div id="match-content" style="display: none;">
+      <!-- Header -->
+      <header class="match-header-container">
+        <span class="match-category-badge" id="category-badge">CATEGORIA</span>
+        <div class="match-date-label" id="match-date-label">FECHA Y HORA</div>
+      </header>
+
+      <!-- Scoreboard -->
+      <section class="match-scoreboard-card">
+        <div class="scoreboard-row">
+          <!-- Home Team -->
+          <div class="scoreboard-team">
+            <div class="team-logo-wrapper" id="home-logo-wrap">
+              <span class="team-logo-placeholder">⚽</span>
+            </div>
+            <h2 class="team-title" id="home-name">LOCAL</h2>
+          </div>
+
+          <!-- Score -->
+          <div class="scoreboard-score-wrapper">
+            <span class="score-number" id="home-score">0</span>
+            <span class="score-divider">-</span>
+            <span class="score-number" id="away-score">0</span>
+          </div>
+
+          <!-- Away Team -->
+          <div class="scoreboard-team">
+            <div class="team-logo-wrapper" id="away-logo-wrap">
+              <span class="team-logo-placeholder">⚽</span>
+            </div>
+            <h2 class="team-title" id="away-name">VISITANTE</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Events -->
+      <section class="match-events-grid">
+        <!-- Goals Card -->
+        <div class="event-card">
+          <h3 class="event-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            <span>Goles del Partido</span>
+          </h3>
+          <div class="event-list" id="goals-list"></div>
+        </div>
+
+        <!-- Cards Card -->
+        <div class="event-card">
+          <h3 class="event-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="9" y1="3" x2="9" y2="21"></line>
+            </svg>
+            <span>Tarjetas y Amonestaciones</span>
+          </h3>
+          <div class="event-list" id="cards-list"></div>
+        </div>
+      </section>
+
+      <!-- Referee Info -->
+      <section class="referee-card" id="referee-card" style="display: none;">
+        <div id="referee-photo-container">
+          <span class="referee-placeholder-large">🧑‍⚖️</span>
+        </div>
+        <div class="referee-info-block">
+          <div class="referee-label">Árbitro Principal</div>
+          <div class="referee-fullname" id="referee-fullname">Nombre del Árbitro</div>
+          <div class="referee-stats-label" id="referee-stats-label">Dirigió 1 partidos de Villa Sahores</div>
+        </div>
+      </section>
+
+      <!-- Actions / Share -->
+      <footer class="match-action-buttons">
+        <div class="share-row">
+          <button id="btn-copy-link" class="btn-match-action copy">
+            🔗 Copiar Enlace
+          </button>
+          <a id="btn-share-whatsapp" href="#" target="_blank" rel="noopener" class="btn-match-action whatsapp">
+            💬 WhatsApp
+          </a>
+          <a id="btn-share-telegram" href="#" target="_blank" rel="noopener" class="btn-match-action telegram">
+            ✈️ Telegram
+          </a>
+        </div>
+        <a href="index.html" class="btn-match-action back">
+          ↩️ Volver al Dashboard
+        </a>
+      </footer>
+    </div>
+  </div>
+
+  <script src="match.js"></script>
+</body>
+</html>

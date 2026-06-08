@@ -36,8 +36,9 @@ async function initFutsalRed() {
   if (FUTSAL_RED_DATA) return FUTSAL_RED_DATA;
 
   try {
-    let res = await fetch(FUTSAL_RED_DATA_URL);
-    if (!res.ok) res = await fetch("../data/futsal-reducido-data.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(FUTSAL_RED_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-reducido-data.json" + cacheBust);
     FUTSAL_RED_DATA = await res.json();
   } catch (err) {
     console.error("Error cargando datos Futsal Reducido:", err);

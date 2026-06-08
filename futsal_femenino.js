@@ -28,8 +28,9 @@ async function initFutsalFemenino() {
   if (FUTSAL_FEMENINO_DATA) return FUTSAL_FEMENINO_DATA;
 
   try {
-    let res = await fetch(FUTSAL_FEMENINO_DATA_URL);
-    if (!res.ok) res = await fetch("../data/futsal-femenino-data.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(FUTSAL_FEMENINO_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-femenino-data.json" + cacheBust);
     FUTSAL_FEMENINO_DATA = await res.json();
   } catch (err) {
     console.error("Error cargando datos FutsalFemenino:", err);

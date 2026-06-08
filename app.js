@@ -84,11 +84,11 @@ async function switchToBabyFutbol() {
   document.getElementById("footer-credits").innerHTML =
     'Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a>';
 
-  // Cargar datos si no están
   if (!DATA) {
     try {
-      let res = await fetch(DATA_URL);
-      if (!res.ok) res = await fetch("../data/fefi-data.json");
+      const cacheBust = "?v=" + new Date().getTime();
+      let res = await fetch(DATA_URL + cacheBust);
+      if (!res.ok) res = await fetch("../data/fefi-data.json" + cacheBust);
       DATA = await res.json();
     } catch (err) {
       document.querySelector("main").innerHTML =

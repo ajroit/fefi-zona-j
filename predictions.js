@@ -22,8 +22,9 @@ function predNombreEquipo(nombre) {
 // ---- Load ----
 async function loadPredictions() {
   try {
-    let res = await fetch(PREDICTIONS_URL);
-    if (!res.ok) res = await fetch("../data/predictions.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(PREDICTIONS_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/predictions.json" + cacheBust);
     PREDICTIONS_DATA = await res.json();
   } catch (err) {
     console.error("Error cargando predicciones:", err);
