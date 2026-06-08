@@ -56,28 +56,10 @@ async function initMatchDetails() {
   }
 
   // 2. Resolver ID hexadecimal (si contiene letras, ej: '244ab' -> 148651)
-  let matchId = rawId;
-  const isHex = /[a-fA-F]/.test(rawId) || isNaN(Number(rawId));
-  if (isHex) {
-    try {
-      matchId = parseInt(rawId, 16);
-      if (isNaN(matchId)) {
-        showError(`El identificador hexadecimal "${rawId}" no es válido.`);
-        return;
-      }
-      console.log(`🔍 Hexadecimal "${rawId}" decodificado como decimal: ${matchId}`);
-    } catch (e) {
-      showError(`Error decodificando el identificador hexadecimal "${rawId}".`);
-      return;
-    }
-  } else {
-    matchId = parseInt(rawId, 10);
-  }
-
-  // 3. Cargar futsal-stats.json
+  // 2. Cargar futsal-stats.json
   let statsData = null;
+  const cacheBust = "?v=" + new Date().getTime();
   try {
-    const cacheBust = "?v=" + new Date().getTime();
     let res = await fetch("data/futsal-stats.json" + cacheBust);
     if (!res.ok) res = await fetch("../data/futsal-stats.json" + cacheBust);
     statsData = await res.json();
@@ -87,10 +69,28 @@ async function initMatchDetails() {
     return;
   }
 
-  // 4. Buscar partido en partidos_detalles
-  const match = statsData.partidos_detalles[String(matchId)];
+  // 3. Buscar partido en partidos_detalles
+  // Intentar primero con el ID tal cual (decimal)
+  let match = statsData.partidos_detalles[String(rawId)];
+  let matchId = rawId;
+
+  // Si no se encuentra, intentar decodificando de hexadecimal (ej: '24602' o '244ab')
   if (!match) {
-    showError(`El partido con ID ${matchId} (código "${rawId}") no se encontró en la base de datos.`);
+    try {
+      const decodedId = parseInt(rawId, 16);
+      if (!isNaN(decodedId)) {
+        match = statsData.partidos_detalles[String(decodedId)];
+        if (match) {
+          matchId = decodedId;
+        }
+      }
+    } catch (e) {
+      console.warn("Error decodificando hexadecimal:", e);
+    }
+  }
+
+  if (!match) {
+    showError(`El partido con código "${rawId}" no se encontró en la base de datos.`);
     return;
   }
 
@@ -218,7 +218,10 @@ async function initMatchDetails() {
     const refGlobal = statsData.arbitros[ref.nombre_completo];
     const refCountLabel = document.getElementById("referee-stats-label");
     if (refGlobal) {
-      refCountLabel.textContent = `Dirigió ${refGlobal.partidos_dirigidos} partido(s) de Villa Sahores en este torneo.`;
+      const v = refGlobal.victorias || 0;
+      const e = refGlobal.empates || 0;
+      const d = refGlobal.derrotas || 0;
+      refCountLabel.textContent = `Dirigió ${refGlobal.partidos_dirigidos} partido(s) a Villa Sahores (V: ${v}, E: ${e}, D: ${d}).`;
     } else {
       refCountLabel.textContent = "Árbitro oficial de la federación.";
     }
@@ -233,10 +236,6 @@ async function initMatchDetails() {
   // WhatsApp
   const wsBtn = document.getElementById("btn-share-whatsapp");
   wsBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareTitle + " ⚽👇\n" + shareUrl)}`;
-  
-  // Telegram
-  const tgBtn = document.getElementById("btn-share-telegram");
-  tgBtn.href = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareTitle)}`;
   
   // Copiar Enlace
   const copyBtn = document.getElementById("btn-copy-link");

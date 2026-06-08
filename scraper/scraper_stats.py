@@ -154,6 +154,23 @@ def main():
         score_a = raw.get("scoreAway", 0)
         fecha_hora = raw.get("dateTime", "")
         
+        # Determinar resultado del partido para Villa Sahores
+        resultado = None
+        if EQUIPO_FOCO in local.upper():
+            if score_h > score_a:
+                resultado = "victoria"
+            elif score_h == score_a:
+                resultado = "empate"
+            else:
+                resultado = "derrota"
+        elif EQUIPO_FOCO in visitante.upper():
+            if score_a > score_h:
+                resultado = "victoria"
+            elif score_a == score_h:
+                resultado = "empate"
+            else:
+                resultado = "derrota"
+
         # Árbitros del partido
         ref_list = []
         for ref in raw.get("referees", []) or []:
@@ -176,9 +193,18 @@ def main():
                     "nombre": ref.get("name", ""),
                     "apellido": ref.get("lastName", ""),
                     "foto": ref_logo,
-                    "partidos_dirigidos": 0
+                    "partidos_dirigidos": 0,
+                    "victorias": 0,
+                    "empates": 0,
+                    "derrotas": 0
                 }
             arbitros[ref_name]["partidos_dirigidos"] += 1
+            if resultado == "victoria":
+                arbitros[ref_name]["victorias"] += 1
+            elif resultado == "empate":
+                arbitros[ref_name]["empates"] += 1
+            elif resultado == "derrota":
+                arbitros[ref_name]["derrotas"] += 1
 
         # Goles del partido
         goles_list = []
