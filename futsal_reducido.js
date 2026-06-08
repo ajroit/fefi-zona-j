@@ -197,6 +197,10 @@ function futsalRedRender() {
   futsalRedRenderHistorial();
   futsalRedRenderCalendario();
 
+  // Actualizar estadísticas de goleadores y tarjetas e historial expandible
+  actualizarStatsYTablas("Futsal Reducido", futsalRedCategoriaActual, "VILLA SAHORES B (MASC)");
+  configurarHistorialExpandible("Futsal Reducido", futsalRedCategoriaActual);
+
   const tag = futsalRedCategoriaActual === "general"
     ? "Acumulado"
     : FUTSAL_RED_CAT_LABELS[futsalRedCategoriaActual] || futsalRedCategoriaActual;
@@ -472,6 +476,7 @@ async function activarFutsalReducido() {
       `<div class="loading">No se pudieron cargar los datos de Futsal Reducido. Reintenta en unos minutos.</div>`;
     return;
   }
+  await cargarFutsalStats(); // Cargar estadísticas en segundo plano (o localmente)
   futsalRedRenderHeader();
   futsalRedRenderCategorySelector();
   futsalRedRender();

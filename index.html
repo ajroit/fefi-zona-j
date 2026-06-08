@@ -106,6 +106,23 @@
             <table class="standings" id="standings"></table>
           </div>
         </section>
+
+        <!-- Estadísticas de Goleadores y Tarjetas -->
+        <section class="card" id="futsal-stats-card" style="display: none;">
+          <div class="card-header">
+            <div class="card-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <path d="M5.5 21l3-8 7 8"></path>
+              </svg>
+              <span>Estadísticas de Jugadores</span>
+            </div>
+            <span class="card-tag" id="futsal-stats-cat-tag"></span>
+          </div>
+          <div class="table-wrapper">
+            <table class="standings" id="futsal-stats-table"></table>
+          </div>
+        </section>
       </div>
 
       <!-- Right Column -->
@@ -172,6 +189,7 @@
 
   <script src="weather.js"></script>
   <script src="share.js"></script>
+  <script src="futsal_stats.js"></script>
   <script src="futsal.js"></script>
   <script src="futsal_reducido.js"></script>
   <script src="futsal_femenino.js"></script>

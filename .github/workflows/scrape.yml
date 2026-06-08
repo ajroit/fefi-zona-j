@@ -75,6 +75,9 @@ jobs:
       - name: Run Futsal Femenino fetcher
         run: python scraper/scraper_futsal_femenino.py
 
+      - name: Run Futsal Stats compiler
+        run: python scraper/scraper_stats.py
+
       - name: Notify Telegram (Futsal Schedules)
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}

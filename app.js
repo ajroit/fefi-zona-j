@@ -72,6 +72,9 @@ function setupSportSelector() {
 
 // ---- Cambio a Baby Fútbol ----
 async function switchToBabyFutbol() {
+  const statsCard = document.getElementById("futsal-stats-card");
+  if (statsCard) statsCard.style.display = "none";
+
   // Actualizar hero
   document.getElementById("hero-subtitle").textContent = "Club Social y Deportivo - Desde 1931";
   document.getElementById("badge-label").textContent = "Torneo FEFI 2026";

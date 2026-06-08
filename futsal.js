@@ -205,6 +205,10 @@ function futsalRender() {
   futsalRenderHistorial();
   futsalRenderCalendario();
 
+  // Actualizar estadísticas de goleadores y tarjetas e historial expandible
+  actualizarStatsYTablas("Futsal Liga de Honor", futsalCategoriaActual, "VILLA SAHORES (LDH)");
+  configurarHistorialExpandible("Futsal Liga de Honor", futsalCategoriaActual);
+
   const tag = futsalCategoriaActual === "general"
     ? "Acumulado"
     : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
@@ -480,6 +484,7 @@ async function activarFutsal() {
       `<div class="loading">No se pudieron cargar los datos de Futsal. Reintenta en unos minutos.</div>`;
     return;
   }
+  await cargarFutsalStats(); // Cargar estadísticas en segundo plano (o localmente)
   futsalRenderHeader();
   futsalRenderCategorySelector();
   futsalRender();

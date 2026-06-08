@@ -1222,3 +1222,173 @@ footer {
   box-shadow: 0 4px 12px rgba(214, 36, 159, 0.3);
   filter: brightness(1.1);
 }
+
+/* Futsal Statistics & Leaderboard Styles */
+#futsal-stats-card {
+  margin-top: 24px;
+}
+
+#futsal-stats-table th.center,
+#futsal-stats-table td.center {
+  text-align: center;
+}
+
+#futsal-stats-table tr:hover {
+  background: var(--bg-alt);
+}
+
+/* Expandable History Match Details */
+.history-item.clickable-history {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  transition: all var(--transition-base);
+}
+
+.history-item.clickable-history:hover {
+  background: var(--bg-alt);
+}
+
+/* Indicator showing item can be expanded */
+.history-item.clickable-history::after {
+  content: '▼';
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-left: 10px;
+  align-self: center;
+  transition: transform var(--transition-base);
+  margin-top: -16px; /* Ajuste para centrado vertical con el puntaje */
+}
+
+.history-item.clickable-history.expanded::after {
+  transform: rotate(180deg);
+}
+
+.history-details {
+  display: none;
+  grid-column: 1 / -1;
+  padding-top: 14px;
+  margin-top: 10px;
+  border-top: 1px dashed var(--border);
+  animation: slideDown 0.25s ease-out;
+}
+
+.history-item.expanded .history-details {
+  display: block;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.match-detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+  margin-bottom: 8px;
+}
+
+.match-detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.detail-cat-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--brand-green-light);
+  background: rgba(26, 140, 74, 0.1);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.detail-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hist-detail-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hist-detail-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.hist-detail-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.referee-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.referee-badge-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-alt);
+  padding: 4px 10px 4px 6px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+}
+
+.ref-photo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--brand-green);
+}
+
+.ref-photo-placeholder {
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--border);
+  border-radius: 50%;
+}
+
+.ref-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.details-empty-msg,
+.details-empty {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 4px 0;
+}
+

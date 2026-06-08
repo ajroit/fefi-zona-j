@@ -10,6 +10,7 @@ on:
       - 'futsal.js'
       - 'futsal_reducido.js'
       - 'futsal_femenino.js'
+      - 'futsal_stats.js'
       - 'predictions.html'
       - 'predictions.js'
       - 'styles.css'
@@ -43,13 +44,14 @@ jobs:
       - name: Armar carpeta de publicación
         run: |
           mkdir -p dist/data dist/images
-          cp index.html app.js futsal.js futsal_reducido.js futsal_femenino.js styles.css dist/
+          cp index.html app.js futsal.js futsal_reducido.js futsal_femenino.js futsal_stats.js styles.css dist/
           cp predictions.html predictions.js dist/
           cp -r images/* dist/images/ 2>/dev/null || true
           cp data/fefi-data.json dist/data/
           cp data/futsal-data.json dist/data/
           cp data/futsal-reducido-data.json dist/data/
           cp data/futsal-femenino-data.json dist/data/ 2>/dev/null || true
+          cp data/futsal-stats.json dist/data/ 2>/dev/null || true
           cp data/predictions.json dist/data/ 2>/dev/null || true
 
       - name: Setup Pages

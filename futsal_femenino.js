@@ -189,6 +189,10 @@ function futsalFemeninoRender() {
   futsalFemeninoRenderHistorial();
   futsalFemeninoRenderCalendario();
 
+  // Actualizar estadísticas de goleadores y tarjetas e historial expandible
+  actualizarStatsYTablas("Futsal Femenino", futsalFemeninoCategoriaActual, "VILLA SAHORES (FEM)");
+  configurarHistorialExpandible("Futsal Femenino", futsalFemeninoCategoriaActual);
+
   const tag = futsalFemeninoCategoriaActual === "general"
     ? "Acumulado"
     : FUTSAL_FEMENINO_CAT_LABELS[futsalFemeninoCategoriaActual] || futsalFemeninoCategoriaActual;
@@ -464,6 +468,7 @@ async function activarFutsalFemenino() {
       `<div class="loading">No se pudieron cargar los datos de FutsalFemenino. Reintenta en unos minutos.</div>`;
     return;
   }
+  await cargarFutsalStats(); // Cargar estadísticas en segundo plano (o localmente)
   futsalFemeninoRenderHeader();
   futsalFemeninoRenderCategorySelector();
   futsalFemeninoRender();
