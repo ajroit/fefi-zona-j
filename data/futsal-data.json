@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-08T15:11:43.145284Z",
+  "actualizado": "2026-06-09T07:56:54.077976Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -333,12 +333,12 @@
       {
         "posicion": 7,
         "equipo": "BPNA",
-        "pj": 10,
+        "pj": 11,
         "g": 5,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 56,
-        "gc": 60,
+        "gc": 65,
         "pts": 17
       },
       {
@@ -410,13 +410,13 @@
       {
         "posicion": 14,
         "equipo": "JUVENTUD",
-        "pj": 10,
-        "g": 1,
+        "pj": 11,
+        "g": 2,
         "e": 2,
         "p": 7,
-        "gf": 26,
+        "gf": 31,
         "gc": 52,
-        "pts": 5
+        "pts": 8
       },
       {
         "posicion": 15,
@@ -467,13 +467,13 @@
       {
         "posicion": 3,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 10,
-        "g": 8,
+        "pj": 11,
+        "g": 9,
         "e": 0,
         "p": 2,
-        "gf": 67,
-        "gc": 33,
-        "pts": 24
+        "gf": 72,
+        "gc": 36,
+        "pts": 27
       },
       {
         "posicion": 4,
@@ -489,12 +489,12 @@
       {
         "posicion": 5,
         "equipo": "HAEDO JUNIOR",
-        "pj": 10,
+        "pj": 11,
         "g": 7,
         "e": 0,
-        "p": 3,
-        "gf": 32,
-        "gc": 24,
+        "p": 4,
+        "gf": 35,
+        "gc": 29,
         "pts": 21
       },
       {
@@ -844,6 +844,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "gf": 41,
+        "gc": 26,
+        "pts": 22
+      },
+      {
+        "posicion": 6,
         "equipo": "VILLA RITA",
         "pj": 11,
         "g": 7,
@@ -852,17 +863,6 @@
         "gf": 45,
         "gc": 27,
         "pts": 21
-      },
-      {
-        "posicion": 6,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 36,
-        "gc": 26,
-        "pts": 19
       },
       {
         "posicion": 7,
@@ -966,12 +966,12 @@
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 2,
-        "gc": 49,
+        "gc": 54,
         "pts": 0
       }
     ],
@@ -1000,6 +1000,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "PEDRO LOZANO",
+        "pj": 11,
+        "g": 8,
+        "e": 1,
+        "p": 2,
+        "gf": 59,
+        "gc": 20,
+        "pts": 25
+      },
+      {
+        "posicion": 4,
         "equipo": "ATENEO HAEDO",
         "pj": 11,
         "g": 8,
@@ -1010,18 +1021,18 @@
         "pts": 24
       },
       {
-        "posicion": 4,
-        "equipo": "PEDRO LOZANO",
-        "pj": 10,
+        "posicion": 5,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 11,
         "g": 7,
-        "e": 1,
+        "e": 2,
         "p": 2,
-        "gf": 54,
-        "gc": 20,
-        "pts": 22
+        "gf": 51,
+        "gc": 12,
+        "pts": 23
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "MARCHIGIANA",
         "pj": 11,
         "g": 7,
@@ -1032,7 +1043,7 @@
         "pts": 22
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ROTONDA",
         "pj": 11,
         "g": 7,
@@ -1043,26 +1054,15 @@
         "pts": 21
       },
       {
-        "posicion": 7,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 10,
-        "g": 6,
-        "e": 2,
-        "p": 2,
-        "gf": 46,
-        "gc": 12,
-        "pts": 20
-      },
-      {
         "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 10,
-        "g": 5,
+        "pj": 11,
+        "g": 6,
         "e": 1,
         "p": 4,
-        "gf": 23,
-        "gc": 36,
-        "pts": 16
+        "gf": 30,
+        "gc": 37,
+        "pts": 19
       },
       {
         "posicion": 9,
@@ -1089,56 +1089,56 @@
       {
         "posicion": 11,
         "equipo": "VILLA RITA",
-        "pj": 10,
+        "pj": 11,
         "g": 3,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 27,
-        "gc": 43,
+        "gc": 48,
         "pts": 9
       },
       {
         "posicion": 12,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 0,
-        "p": 6,
-        "gf": 16,
-        "gc": 34,
+        "p": 7,
+        "gf": 17,
+        "gc": 41,
         "pts": 9
       },
       {
         "posicion": 13,
-        "equipo": "RIVADAVIA 87",
-        "pj": 10,
+        "equipo": "DEPORTIVO ABBAS",
+        "pj": 11,
         "g": 2,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 18,
-        "gc": 53,
+        "gc": 58,
         "pts": 6
       },
       {
         "posicion": 14,
-        "equipo": "DEPORTIVO ABBAS",
-        "pj": 10,
-        "g": 1,
+        "equipo": "RIVADAVIA 87",
+        "pj": 11,
+        "g": 2,
         "e": 0,
         "p": 9,
-        "gf": 13,
+        "gf": 18,
         "gc": 58,
-        "pts": 3
+        "pts": 6
       },
       {
         "posicion": 15,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 1,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 5,
-        "gc": 64,
+        "gc": 69,
         "pts": 3
       },
       {
@@ -1167,6 +1167,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 11,
+        "g": 8,
+        "e": 1,
+        "p": 2,
+        "gf": 40,
+        "gc": 17,
+        "pts": 25
+      },
+      {
+        "posicion": 3,
         "equipo": "HAEDO JUNIOR",
         "pj": 11,
         "g": 7,
@@ -1177,7 +1188,7 @@
         "pts": 23
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "ROTONDA",
         "pj": 11,
         "g": 7,
@@ -1186,17 +1197,6 @@
         "gf": 42,
         "gc": 25,
         "pts": 23
-      },
-      {
-        "posicion": 4,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 10,
-        "g": 7,
-        "e": 1,
-        "p": 2,
-        "gf": 35,
-        "gc": 17,
-        "pts": 22
       },
       {
         "posicion": 5,
@@ -1267,12 +1267,12 @@
       {
         "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 9,
+        "pj": 10,
         "g": 4,
         "e": 0,
-        "p": 5,
+        "p": 6,
         "gf": 22,
-        "gc": 26,
+        "gc": 31,
         "pts": 12
       },
       {
@@ -1378,6 +1378,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "VILLA RITA",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "gf": 54,
+        "gc": 30,
+        "pts": 22
+      },
+      {
+        "posicion": 6,
         "equipo": "HAEDO JUNIOR",
         "pj": 11,
         "g": 7,
@@ -1386,17 +1397,6 @@
         "gf": 52,
         "gc": 14,
         "pts": 21
-      },
-      {
-        "posicion": 6,
-        "equipo": "VILLA RITA",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 49,
-        "gc": 30,
-        "pts": 19
       },
       {
         "posicion": 7,
@@ -1500,12 +1500,12 @@
       {
         "posicion": 16,
         "equipo": "LUNA DE MATANZA",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 1,
-        "p": 9,
+        "p": 10,
         "gf": 8,
-        "gc": 48,
+        "gc": 53,
         "pts": 1
       }
     ],
@@ -1589,6 +1589,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "PEDRO LOZANO",
+        "pj": 11,
+        "g": 6,
+        "e": 1,
+        "p": 4,
+        "gf": 29,
+        "gc": 43,
+        "pts": 19
+      },
+      {
+        "posicion": 9,
         "equipo": "ROTONDA",
         "pj": 10,
         "g": 6,
@@ -1597,17 +1608,6 @@
         "gf": 37,
         "gc": 28,
         "pts": 18
-      },
-      {
-        "posicion": 9,
-        "equipo": "PEDRO LOZANO",
-        "pj": 10,
-        "g": 5,
-        "e": 1,
-        "p": 4,
-        "gf": 24,
-        "gc": 43,
-        "pts": 16
       },
       {
         "posicion": 10,
@@ -1645,12 +1645,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 11,
-        "gc": 34,
+        "gc": 39,
         "pts": 6
       },
       {
@@ -1734,6 +1734,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "PEDRO LOZANO",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "gf": 44,
+        "gc": 16,
+        "pts": 22
+      },
+      {
+        "posicion": 6,
         "equipo": "ROTONDA",
         "pj": 10,
         "g": 7,
@@ -1742,17 +1753,6 @@
         "gf": 42,
         "gc": 18,
         "pts": 22
-      },
-      {
-        "posicion": 6,
-        "equipo": "PEDRO LOZANO",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 39,
-        "gc": 16,
-        "pts": 19
       },
       {
         "posicion": 7,
@@ -1801,23 +1801,23 @@
       {
         "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 9,
-        "g": 2,
+        "pj": 10,
+        "g": 3,
         "e": 1,
         "p": 6,
-        "gf": 15,
+        "gf": 20,
         "gc": 38,
-        "pts": 7
+        "pts": 10
       },
       {
         "posicion": 12,
         "equipo": "RIVADAVIA 87",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 1,
-        "p": 6,
+        "p": 7,
         "gf": 21,
-        "gc": 70,
+        "gc": 75,
         "pts": 7
       },
       {
@@ -1856,12 +1856,12 @@
       {
         "posicion": 16,
         "equipo": "VILLA SAHORES",
-        "pj": 7,
+        "pj": 8,
         "g": 0,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 0,
-        "gc": 35,
+        "gc": 40,
         "pts": 0
       }
     ],
@@ -2046,12 +2046,12 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 109,
+        "pj": 110,
         "g": 78,
         "e": 11,
-        "p": 20,
-        "gf": 485,
-        "gc": 183,
+        "p": 21,
+        "gf": 488,
+        "gc": 188,
         "pts": 245,
         "posicion": 1
       },
@@ -2078,6 +2078,17 @@
         "posicion": 3
       },
       {
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 109,
+        "g": 57,
+        "e": 14,
+        "p": 38,
+        "gf": 372,
+        "gc": 296,
+        "pts": 185,
+        "posicion": 4
+      },
+      {
         "equipo": "ROTONDA",
         "pj": 107,
         "g": 56,
@@ -2086,72 +2097,61 @@
         "gf": 422,
         "gc": 367,
         "pts": 181,
-        "posicion": 4
-      },
-      {
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 106,
-        "g": 54,
-        "e": 14,
-        "p": 38,
-        "gf": 355,
-        "gc": 295,
-        "pts": 176,
         "posicion": 5
       },
       {
         "equipo": "VILLA RITA",
-        "pj": 108,
-        "g": 53,
+        "pj": 110,
+        "g": 54,
         "e": 9,
-        "p": 46,
-        "gf": 476,
-        "gc": 396,
-        "pts": 168,
+        "p": 47,
+        "gf": 481,
+        "gc": 401,
+        "pts": 171,
         "posicion": 6
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 108,
-        "g": 53,
+        "pj": 110,
+        "g": 54,
         "e": 9,
-        "p": 46,
-        "gf": 419,
-        "gc": 361,
-        "pts": 168,
+        "p": 47,
+        "gf": 424,
+        "gc": 366,
+        "pts": 171,
         "posicion": 7
       },
       {
-        "equipo": "RIVADAVIA 87",
-        "pj": 104,
-        "g": 52,
-        "e": 11,
-        "p": 41,
-        "gf": 411,
-        "gc": 390,
-        "pts": 167,
+        "equipo": "PEDRO LOZANO",
+        "pj": 110,
+        "g": 51,
+        "e": 15,
+        "p": 44,
+        "gf": 378,
+        "gc": 324,
+        "pts": 168,
         "posicion": 8
       },
       {
-        "equipo": "PEDRO LOZANO",
+        "equipo": "RIVADAVIA 87",
         "pj": 107,
-        "g": 48,
-        "e": 15,
+        "g": 52,
+        "e": 11,
         "p": 44,
-        "gf": 363,
-        "gc": 324,
-        "pts": 159,
+        "gf": 411,
+        "gc": 405,
+        "pts": 167,
         "posicion": 9
       },
       {
         "equipo": "ESTRADA FUTSAL",
-        "pj": 106,
-        "g": 50,
+        "pj": 107,
+        "g": 51,
         "e": 7,
         "p": 49,
-        "gf": 386,
-        "gc": 355,
-        "pts": 157,
+        "gf": 391,
+        "gc": 358,
+        "pts": 160,
         "posicion": 10
       },
       {
@@ -2167,56 +2167,56 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 104,
+        "pj": 107,
         "g": 40,
         "e": 9,
-        "p": 55,
-        "gf": 316,
-        "gc": 376,
+        "p": 58,
+        "gf": 317,
+        "gc": 393,
         "pts": 129,
         "posicion": 12
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 102,
-        "g": 28,
+        "pj": 103,
+        "g": 29,
         "e": 16,
         "p": 58,
-        "gf": 256,
+        "gf": 261,
         "gc": 508,
-        "pts": 100,
+        "pts": 103,
         "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 103,
+        "pj": 105,
         "g": 29,
         "e": 6,
-        "p": 68,
+        "p": 70,
         "gf": 182,
-        "gc": 427,
+        "gc": 437,
         "pts": 93,
         "posicion": 14
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 107,
-        "g": 22,
+        "pj": 109,
+        "g": 24,
         "e": 9,
         "p": 76,
-        "gf": 241,
+        "gf": 251,
         "gc": 489,
-        "pts": 75,
+        "pts": 81,
         "posicion": 15
       },
       {
         "equipo": "BPNA",
-        "pj": 98,
+        "pj": 99,
         "g": 18,
         "e": 4,
-        "p": 76,
+        "p": 77,
         "gf": 200,
-        "gc": 559,
+        "gc": 564,
         "pts": 58,
         "posicion": 16
       }
@@ -2296,8 +2296,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-21 18:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260322-002610-150166.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260322-002613-150167.jpg"
@@ -2489,8 +2489,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-10 22:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "GB Sports",
+              "direccion": "Av. Pres. Juan Domingo Perón 4753, B1650 Villa Lynch, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260411-033417-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260411-033438-image.jpg"
@@ -2613,8 +2613,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Colegio San José ",
+              "direccion": "Casullo 362",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-msbs1j2eqdp2dynapkse2q3sbfe3/20260323-002628-inbound242884495026526764.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-msbs1j2eqdp2dynapkse2q3sbfe3/20260323-002635-inbound997672661057134430.jpg"
@@ -2718,8 +2718,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260322-232615-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260322-232605-image.jpg"
@@ -2813,8 +2813,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-21 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-dt69vzazgjnrvafh38fkihvz1q43/20260322-000341-17741378016235456051850615000551.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-dt69vzazgjnrvafh38fkihvz1q43/20260322-000402-17741378267105000391553297557871.jpg"
@@ -3068,8 +3068,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 21:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club deportivo Riestra ",
+              "direccion": "Ana María janer 2601",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260323-042735-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260323-042746-image.jpg"
@@ -3163,8 +3163,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 19:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Instituto Brown Haedo",
+              "direccion": "Las Bases 151 Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260323-032542-152036.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260323-032543-152037.jpg"
@@ -3346,8 +3346,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-24 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Colegio Maria Mazzarello",
+              "direccion": "Don busco 4654",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260325-161005-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ratezgydh1pggi5csz47iyozm213/20260325-161012-image.jpg"
@@ -3441,8 +3441,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-28 16:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260328-210009-IMG_20260328_175622168.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260328-210016-IMG_20260328_175616367.jpg"
@@ -3552,8 +3552,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 19:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260330-001754-17748298420116973825497140184913.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260330-001809-17748298579345661346280295105459.jpg"
@@ -3810,8 +3810,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sociedad de fomento progreso ",
+              "direccion": "Perdriel 4051",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260330-000546-inbound7441460051944813612.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260330-000554-inbound1169666550547375955.jpg"
@@ -3951,8 +3951,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 20:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260330-011510-1000384665.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260330-011513-1000384664.jpg"
@@ -4072,8 +4072,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 17:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260330-020934-1774836555788813372202543490694.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260330-020943-17748365730971981615648423863120.jpg"
@@ -4128,8 +4128,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 18:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-offborkun1eosvcnpfhe8zq3so42/20260329-230749-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-offborkun1eosvcnpfhe8zq3so42/20260329-230810-image.jpg"
@@ -4350,8 +4350,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260402-225607-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260402-225612-image.jpg"
@@ -4491,8 +4491,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-28 16:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7djhnvz1mufvpptgechin4v1bh63/20260329-031300-17747539684843428922708421064958.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7djhnvz1mufvpptgechin4v1bh63/20260329-031220-17747539242197627942682275949610.jpg"
@@ -8058,8 +8058,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260426-153008-1000548307.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260426-153013-1000548308.jpg"
@@ -8376,8 +8376,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260426-163131-inbound8373009265233920060.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260426-163132-inbound8166655624048095092.jpg"
@@ -8644,8 +8644,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260426-170500-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260426-170511-image.jpg"
@@ -8811,8 +8811,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-25 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260425-135724-1000106469.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260425-135720-1000106468.jpg"
@@ -8887,8 +8887,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260426-150447-1000377779.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260426-150500-1000377778.jpg"
@@ -8998,8 +8998,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Colegio San José ",
+              "direccion": "Casullo 362",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260426-140755-198936.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260426-140759-198937.jpg"
@@ -9227,8 +9227,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-02 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260502-153238-24019.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260502-153248-24020.jpg"
@@ -9253,8 +9253,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-02 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260502-184306-24085.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260502-184318-24086.jpg"
@@ -9336,8 +9336,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260503-150121-17778204693861562062313587801129.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260503-150131-17778204825405082756470999944579.jpg"
@@ -9421,8 +9421,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260503-165731-17778274384904955287590183239280.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-v7ouqchnn8cikgcnl7mgz84gtcq2/20260503-165748-17778274543924189710664952828882.jpg"
@@ -9516,8 +9516,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club deportivo Riestra ",
+              "direccion": "Ana María janer 2601",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260503-172251-1000487207.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260503-172300-1000487206.jpg"
@@ -9529,8 +9529,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club deportivo Riestra ",
+              "direccion": "Ana María janer 2601",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260503-193302-1000487281.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260503-193314-1000487280.jpg"
@@ -9670,8 +9670,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 13:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Instituto Brown Haedo",
+              "direccion": "Las Bases 151 Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260503-174848-inbound7482132143297836973.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260503-174852-inbound7721646214105534983.jpg"
@@ -9775,8 +9775,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Colegio Maria Mazzarello",
+              "direccion": "Don busco 4654",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260503-194728-1777837637588539909143750149200.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260503-194718-17778376267993085609180627852122.jpg"
@@ -9827,8 +9827,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Colegio Maria Mazzarello",
+              "direccion": "Don busco 4654",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260503-195549-1777838139379586241315057232423.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260503-195558-17778381488257978284171647989796.jpg"
@@ -9873,8 +9873,8 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-02 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -9893,8 +9893,8 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-05-02 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CEDEM 3",
+              "direccion": "Emancipador y Miramar, Loma Hermosa.",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -10024,8 +10024,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 15:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260503-193740-1000450977.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260503-193744-1000450976.jpg"
@@ -10099,8 +10099,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 17:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260503-212938-1000451207.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260503-212941-1000451206.jpg"
@@ -10168,8 +10168,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 13:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-173445-1001015300.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-173452-1001015301.jpg"
@@ -10194,8 +10194,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 15:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-194237-1001015507.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260503-194241-1001015508.jpg"
@@ -10321,8 +10321,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Luna de Matanza",
+              "direccion": "📍Itau 690 Rafael Castillo ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260510-195401-1000464769.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260510-195402-1000464768.jpg"
@@ -10334,8 +10334,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 12:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "📍Itau 690 Rafael Castillo ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260510-160214-1000464330.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260510-160216-1000464329.jpg"
@@ -10478,8 +10478,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 10:00",
-              "sede": "ARGENTINO DE CASTELAR",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260510-140929-220442.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260510-140931-220443.jpg"
@@ -10504,8 +10504,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260510-182918-220658.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260510-182921-220659.jpg"
@@ -10625,8 +10625,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 10:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-131712-1000115041.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-131715-1000115042.jpg"
@@ -10703,8 +10703,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-175348-1000115210.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260510-175347-1000115209.jpg"
@@ -10831,8 +10831,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-171334-1000418923.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-171338-1000418923.jpg"
@@ -10854,8 +10854,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 12:00",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-161335-1000418853.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260510-161337-1000418853.jpg"
@@ -10927,8 +10927,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 11:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -10950,8 +10950,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260510-161730-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260510-161737-image.jpg"
@@ -11045,8 +11045,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260524-190036-1001061607.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260524-190039-1001061608.jpg"
@@ -11071,8 +11071,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 11:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -11212,8 +11212,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-09 13:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Escuela María Mazarello",
+              "direccion": "Av Don Bosco 4654, Moron",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175503-1000488948.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-175510-1000488949.jpg"
@@ -11238,8 +11238,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-09 09:30",
-              "sede": "Escuela María Mazarello",
-              "direccion": "Av Don Bosco 4654, Moron",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-133350-1000488694.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260509-133352-1000488693.jpg"
@@ -11350,8 +11350,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 10:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260510-142227-100029.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260510-142229-100028.jpg"
@@ -11415,8 +11415,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260510-155511-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260510-155519-image.jpg"
@@ -11480,8 +11480,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 12:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-164246-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260516-163924-image.jpg"
@@ -11696,8 +11696,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 14:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club deportivo Riestra ",
+              "direccion": "Ana María janer 2601",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260517-182343-1000119369.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260517-182341-1000119368.jpg"
@@ -11781,8 +11781,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 14:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Instituto Brown Haedo",
+              "direccion": "Las Bases 151 Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260518-021012-230092.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260518-021017-230095.jpg"
@@ -11968,8 +11968,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-155933-228691.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-155940-228692.jpg"
@@ -12027,8 +12027,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260518-020408-1000927587.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-b4hqhqezjpaeey67johihvqw5mo1/20260518-020410-1000927588.jpg"
@@ -12253,8 +12253,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 17:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260517-214456-17790542672516448392444638174592.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260517-214532-1779054313669165434465622570874.jpg"
@@ -12351,8 +12351,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 15:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-185919-IMG_0094.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260525-185926-IMG_0093.jpeg"
@@ -12479,8 +12479,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 17:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260517-215230-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260517-215242-image.jpg"
@@ -13928,7 +13928,7 @@
               ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -13967,9 +13967,9 @@
               ]
             },
             "2018 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -14059,9 +14059,9 @@
               ]
             },
             "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -14093,7 +14093,7 @@
             },
             "2018 PROMOCIONALES": {
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 10:00",
@@ -14171,7 +14171,7 @@
             },
             "SEPTIMA MASCULINO": {
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 12:00",
@@ -14497,9 +14497,9 @@
               ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 18:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
@@ -14566,6 +14566,16 @@
               "direccion": null,
               "planillas": null
             },
+            "OCTAVA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-15 13:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
+              "planillas": null
+            },
             "CUARTA MASCULINO": {
               "goles_local": 5,
               "goles_visitante": 4,
@@ -14579,18 +14589,8 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260606-233036-1000578354.jpg"
               ]
             },
-            "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-15 13:00",
-              "sede": "Sociedad de fomento Villa Don Bosco ",
-              "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -14620,9 +14620,9 @@
               ]
             },
             "SEPTIMA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -14630,9 +14630,9 @@
               "planillas": null
             },
             "2016 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -14787,7 +14787,7 @@
               ]
             },
             "SEXTA MASCULINO": {
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -14833,9 +14833,9 @@
               "planillas": null
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-04 12:00",
               "sede": "ARGENTINO DE CASTELAR",

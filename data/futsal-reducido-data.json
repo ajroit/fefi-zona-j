@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-08T15:11:45.402995Z",
+  "actualizado": "2026-06-09T07:56:56.368674Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -48,16 +48,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen_de_WhatsApp_2025-03-17_a_las_13.21.52_cce7a3bd-removebg-preview%20(1).png"
     },
     {
+      "nombre": "SUD AMERICA",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
+    },
+    {
       "nombre": "VICTORIA",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/050c3f9f-82f1-42f4-95e1-576ce55a0259.png"
     },
     {
       "nombre": "UGAB",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-215321-T6lzlzqK_400x400.png"
-    },
-    {
-      "nombre": "SUD AMERICA",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
     },
     {
       "nombre": "VILLA SAHORES",
@@ -180,6 +180,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "SUD AMERICA",
+        "pj": 11,
+        "g": 4,
+        "e": 3,
+        "p": 4,
+        "gf": 50,
+        "gc": 54,
+        "pts": 15
+      },
+      {
+        "posicion": 10,
         "equipo": "VICTORIA",
         "pj": 10,
         "g": 3,
@@ -190,7 +201,7 @@
         "pts": 13
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "UGAB",
         "pj": 10,
         "g": 4,
@@ -201,26 +212,15 @@
         "pts": 13
       },
       {
-        "posicion": 11,
-        "equipo": "SUD AMERICA",
-        "pj": 10,
-        "g": 3,
-        "e": 3,
-        "p": 4,
-        "gf": 45,
-        "gc": 54,
-        "pts": 12
-      },
-      {
         "posicion": 12,
         "equipo": "VILLA SAHORES",
-        "pj": 9,
-        "g": 3,
+        "pj": 10,
+        "g": 4,
         "e": 1,
         "p": 5,
-        "gf": 44,
-        "gc": 54,
-        "pts": 10
+        "gf": 52,
+        "gc": 60,
+        "pts": 13
       },
       {
         "posicion": 13,
@@ -247,12 +247,12 @@
       {
         "posicion": 15,
         "equipo": "ALTO PASTO",
-        "pj": 9,
+        "pj": 10,
         "g": 3,
         "e": 0,
-        "p": 6,
-        "gf": 39,
-        "gc": 62,
+        "p": 7,
+        "gf": 45,
+        "gc": 70,
         "pts": 9
       },
       {
@@ -280,12 +280,12 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 0,
-        "gc": 50,
+        "gc": 55,
         "pts": 0
       }
     ],
@@ -447,13 +447,13 @@
       {
         "posicion": 15,
         "equipo": "SUD AMERICA",
-        "pj": 10,
-        "g": 2,
+        "pj": 11,
+        "g": 3,
         "e": 0,
         "p": 8,
-        "gf": 37,
+        "gf": 42,
         "gc": 85,
-        "pts": 6
+        "pts": 9
       },
       {
         "posicion": 16,
@@ -480,37 +480,37 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 0,
-        "gc": 50,
+        "gc": 55,
         "pts": 0
       }
     ],
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "VICTORIA",
+        "pj": 11,
+        "g": 9,
+        "e": 1,
+        "p": 1,
+        "gf": 62,
+        "gc": 34,
+        "pts": 28
+      },
+      {
+        "posicion": 2,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 10,
         "g": 9,
         "e": 0,
         "p": 1,
-        "gf": 50,
-        "gc": 25,
+        "gf": 52,
+        "gc": 24,
         "pts": 27
-      },
-      {
-        "posicion": 2,
-        "equipo": "VICTORIA",
-        "pj": 10,
-        "g": 8,
-        "e": 1,
-        "p": 1,
-        "gf": 57,
-        "gc": 32,
-        "pts": 25
       },
       {
         "posicion": 3,
@@ -574,8 +574,8 @@
         "g": 5,
         "e": 3,
         "p": 3,
-        "gf": 37,
-        "gc": 34,
+        "gf": 36,
+        "gc": 36,
         "pts": 18
       },
       {
@@ -614,12 +614,12 @@
       {
         "posicion": 12,
         "equipo": "UGAB",
-        "pj": 10,
+        "pj": 11,
         "g": 4,
         "e": 0,
-        "p": 6,
-        "gf": 25,
-        "gc": 30,
+        "p": 7,
+        "gf": 27,
+        "gc": 35,
         "pts": 12
       },
       {
@@ -648,23 +648,23 @@
         "posicion": 15,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 11,
-        "g": 2,
-        "e": 2,
+        "g": 3,
+        "e": 1,
         "p": 7,
-        "gf": 40,
-        "gc": 56,
-        "pts": 8
+        "gf": 44,
+        "gc": 57,
+        "pts": 10
       },
       {
         "posicion": 16,
         "equipo": "SUD AMERICA",
         "pj": 11,
         "g": 2,
-        "e": 1,
-        "p": 8,
-        "gf": 22,
-        "gc": 45,
-        "pts": 7
+        "e": 0,
+        "p": 9,
+        "gf": 23,
+        "gc": 49,
+        "pts": 6
       },
       {
         "posicion": 17,
@@ -719,8 +719,8 @@
         "g": 8,
         "e": 1,
         "p": 1,
-        "gf": 47,
-        "gc": 16,
+        "gf": 45,
+        "gc": 17,
         "pts": 25
       },
       {
@@ -807,8 +807,8 @@
         "g": 5,
         "e": 0,
         "p": 6,
-        "gf": 33,
-        "gc": 36,
+        "gf": 34,
+        "gc": 34,
         "pts": 15
       },
       {
@@ -851,8 +851,8 @@
         "g": 2,
         "e": 2,
         "p": 6,
-        "gf": 18,
-        "gc": 49,
+        "gf": 17,
+        "gc": 48,
         "pts": 8
       },
       {
@@ -862,8 +862,8 @@
         "g": 1,
         "e": 2,
         "p": 8,
-        "gf": 25,
-        "gc": 66,
+        "gf": 24,
+        "gc": 65,
         "pts": 5
       },
       {
@@ -1003,16 +1003,27 @@
       {
         "posicion": 11,
         "equipo": "PRIMERA JUNTA",
-        "pj": 10,
+        "pj": 11,
         "g": 4,
         "e": 0,
-        "p": 6,
-        "gf": 29,
-        "gc": 35,
+        "p": 7,
+        "gf": 31,
+        "gc": 38,
         "pts": 12
       },
       {
         "posicion": 12,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 11,
+        "g": 4,
+        "e": 0,
+        "p": 7,
+        "gf": 36,
+        "gc": 48,
+        "pts": 12
+      },
+      {
+        "posicion": 13,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 11,
         "g": 4,
@@ -1023,7 +1034,7 @@
         "pts": 12
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 3,
@@ -1032,17 +1043,6 @@
         "gf": 36,
         "gc": 43,
         "pts": 10
-      },
-      {
-        "posicion": 14,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 10,
-        "g": 3,
-        "e": 0,
-        "p": 7,
-        "gf": 33,
-        "gc": 46,
-        "pts": 9
       },
       {
         "posicion": 15,
@@ -1125,6 +1125,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "gf": 49,
+        "gc": 26,
+        "pts": 22
+      },
+      {
+        "posicion": 5,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 10,
         "g": 7,
@@ -1135,7 +1146,7 @@
         "pts": 21
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "PARQUE CHAS",
         "pj": 11,
         "g": 6,
@@ -1143,17 +1154,6 @@
         "p": 2,
         "gf": 44,
         "gc": 17,
-        "pts": 21
-      },
-      {
-        "posicion": 6,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 10,
-        "g": 7,
-        "e": 0,
-        "p": 3,
-        "gf": 44,
-        "gc": 21,
         "pts": 21
       },
       {
@@ -1169,6 +1169,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "PACHECO SUR",
+        "pj": 11,
+        "g": 6,
+        "e": 2,
+        "p": 3,
+        "gf": 53,
+        "gc": 32,
+        "pts": 20
+      },
+      {
+        "posicion": 9,
         "equipo": "BRISAS DE HAEDO",
         "pj": 11,
         "g": 6,
@@ -1177,17 +1188,6 @@
         "gf": 38,
         "gc": 18,
         "pts": 20
-      },
-      {
-        "posicion": 9,
-        "equipo": "PACHECO SUR",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 48,
-        "gc": 27,
-        "pts": 19
       },
       {
         "posicion": 10,
@@ -1304,24 +1304,24 @@
       {
         "posicion": 2,
         "equipo": "VICTORIA",
-        "pj": 10,
-        "g": 9,
+        "pj": 11,
+        "g": 10,
         "e": 0,
         "p": 1,
-        "gf": 55,
+        "gf": 60,
         "gc": 25,
-        "pts": 27
+        "pts": 30
       },
       {
         "posicion": 3,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 10,
-        "g": 8,
+        "pj": 11,
+        "g": 9,
         "e": 0,
         "p": 2,
-        "gf": 48,
+        "gf": 53,
         "gc": 10,
-        "pts": 24
+        "pts": 27
       },
       {
         "posicion": 4,
@@ -1469,58 +1469,58 @@
       {
         "posicion": 17,
         "equipo": "RESPLANDOR",
-        "pj": 10,
+        "pj": 11,
         "g": 1,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 29,
-        "gc": 65,
+        "gc": 70,
         "pts": 3
       },
       {
         "posicion": 18,
         "equipo": "UGAB",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 0,
-        "gc": 50,
+        "gc": 55,
         "pts": 0
       }
     ],
     "general": [
       {
-        "equipo": "CAPITAN ROSALES",
-        "pj": 75,
+        "equipo": "ALL BOYS SAAVEDRA",
+        "pj": 77,
         "g": 54,
-        "e": 4,
+        "e": 6,
         "p": 17,
-        "gf": 457,
-        "gc": 251,
-        "pts": 166,
+        "gf": 394,
+        "gc": 214,
+        "pts": 168,
         "posicion": 1
       },
       {
-        "equipo": "ALL BOYS SAAVEDRA",
+        "equipo": "CAPITAN ROSALES",
         "pj": 76,
-        "g": 53,
-        "e": 6,
+        "g": 54,
+        "e": 5,
         "p": 17,
-        "gf": 389,
-        "gc": 214,
-        "pts": 165,
+        "gf": 462,
+        "gc": 256,
+        "pts": 167,
         "posicion": 2
       },
       {
         "equipo": "VICTORIA",
-        "pj": 74,
-        "g": 49,
+        "pj": 76,
+        "g": 51,
         "e": 6,
         "p": 19,
-        "gf": 419,
-        "gc": 277,
-        "pts": 153,
+        "gf": 429,
+        "gc": 279,
+        "pts": 159,
         "posicion": 3
       },
       {
@@ -1569,13 +1569,13 @@
       },
       {
         "equipo": "PACHECO SUR",
-        "pj": 76,
+        "pj": 77,
         "g": 39,
-        "e": 12,
+        "e": 13,
         "p": 25,
-        "gf": 346,
-        "gc": 286,
-        "pts": 129,
+        "gf": 351,
+        "gc": 291,
+        "pts": 130,
         "posicion": 8
       },
       {
@@ -1591,79 +1591,79 @@
       },
       {
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 76,
-        "g": 36,
+        "pj": 77,
+        "g": 37,
         "e": 7,
         "p": 33,
-        "gf": 324,
-        "gc": 299,
-        "pts": 115,
+        "gf": 327,
+        "gc": 301,
+        "pts": 118,
         "posicion": 10
       },
       {
         "equipo": "PRIMERA JUNTA",
-        "pj": 76,
+        "pj": 77,
         "g": 35,
         "e": 9,
-        "p": 32,
-        "gf": 267,
-        "gc": 257,
+        "p": 33,
+        "gf": 269,
+        "gc": 260,
         "pts": 114,
         "posicion": 11
       },
       {
         "equipo": "RESPLANDOR",
-        "pj": 76,
+        "pj": 77,
         "g": 28,
         "e": 6,
-        "p": 42,
+        "p": 43,
         "gf": 367,
-        "gc": 379,
+        "gc": 384,
         "pts": 90,
         "posicion": 12
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 69,
-        "g": 25,
+        "pj": 70,
+        "g": 26,
         "e": 4,
         "p": 40,
-        "gf": 240,
-        "gc": 281,
-        "pts": 79,
+        "gf": 248,
+        "gc": 287,
+        "pts": 82,
         "posicion": 13
       },
       {
         "equipo": "UGAB",
-        "pj": 74,
+        "pj": 76,
         "g": 20,
         "e": 2,
-        "p": 52,
-        "gf": 222,
-        "gc": 437,
+        "p": 54,
+        "gf": 224,
+        "gc": 447,
         "pts": 62,
         "posicion": 14
       },
       {
-        "equipo": "ALTO PASTO",
-        "pj": 75,
+        "equipo": "SUD AMERICA",
+        "pj": 77,
         "g": 17,
-        "e": 6,
+        "e": 8,
         "p": 52,
-        "gf": 204,
-        "gc": 401,
-        "pts": 57,
+        "gf": 214,
+        "gc": 457,
+        "pts": 59,
         "posicion": 15
       },
       {
-        "equipo": "SUD AMERICA",
-        "pj": 75,
-        "g": 15,
-        "e": 9,
-        "p": 51,
-        "gf": 204,
-        "gc": 454,
-        "pts": 54,
+        "equipo": "ALTO PASTO",
+        "pj": 76,
+        "g": 17,
+        "e": 6,
+        "p": 53,
+        "gf": 210,
+        "gc": 409,
+        "pts": 57,
         "posicion": 16
       },
       {
@@ -1679,13 +1679,13 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 74,
-        "g": 12,
-        "e": 5,
-        "p": 57,
-        "gf": 130,
-        "gc": 391,
-        "pts": 41,
+        "pj": 76,
+        "g": 13,
+        "e": 4,
+        "p": 59,
+        "gf": 133,
+        "gc": 401,
+        "pts": 43,
         "posicion": 18
       }
     ]
@@ -1725,8 +1725,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 16:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jfvoalvpvkpin3jfup0o5m6nudh2/20260323-142736-1000073904.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jfvoalvpvkpin3jfup0o5m6nudh2/20260323-142741-1000073904.jpg"
@@ -1804,8 +1804,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 15:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260322-192042-121483.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260322-192054-121484.jpg"
@@ -1840,8 +1840,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 17:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260322-220311-121632.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260322-220333-121631.jpg"
@@ -1880,8 +1880,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 15:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-030847-1000385312.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-030900-1000385311.jpg"
@@ -1893,8 +1893,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 13:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-030017-1000385283.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-030029-1000385282.jpg"
@@ -1932,8 +1932,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 09:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-021908-1000384638.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ogiqqnubbetvkddwyr6epvrciq02/20260323-021926-1000384639.jpg"
@@ -1978,8 +1978,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 16:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260323-134343-17742734125204213158965499602153.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260323-134352-17742734225927433816129694890475.jpg"
@@ -2017,8 +2017,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260323-135121-1774273862300999206702809945418.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260323-135130-17742738805461348417428859555217.jpg"
@@ -2073,8 +2073,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 19:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260403-014636-109321.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260403-014637-109322.jpg"
@@ -2099,8 +2099,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 13:30",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260402-174108-1000171066.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260402-174112-1000171065.jpg"
@@ -2151,8 +2151,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 17:30",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260402-214815-108900.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260402-214818-108901.jpg"
@@ -2171,8 +2171,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 14:00",
-              "sede": "Capitan rosales",
-              "direccion": "Maria b cazon 1210 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-kgba87ikkwty1rcvcpoatq1xlqk2/20260323-012926-1000029040.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-kgba87ikkwty1rcvcpoatq1xlqk2/20260323-012926-1000029041.jpg"
@@ -2210,8 +2210,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynj5zxf1wvnw9gt1hpysqhenbe03/20260323-013143-1000174906.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynj5zxf1wvnw9gt1hpysqhenbe03/20260323-013145-1000174905.jpg"
@@ -2237,8 +2237,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 18:00",
-              "sede": "Capitan rosales",
-              "direccion": "Maria b cazon 1210 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-kgba87ikkwty1rcvcpoatq1xlqk2/20260323-020144-1000029048.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-kgba87ikkwty1rcvcpoatq1xlqk2/20260323-020146-1000029049.jpg"
@@ -2296,8 +2296,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260323-011902-1000608719.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260323-011752-1000608719.jpg"
@@ -2309,8 +2309,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 14:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260322-181218-1000608428.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260322-181219-1000608429.jpg"
@@ -2322,8 +2322,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 18:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260322-223434-1000608614.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lhgwiumkkhznzpsq8v1xj8osxds2/20260322-223436-1000608615.jpg"
@@ -2391,8 +2391,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 14:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260322-181646-1000616271.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260322-181648-1000616270.jpg"
@@ -2417,8 +2417,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 17:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260322-211801-1000616404.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260322-211812-1000616403.jpg"
@@ -2443,8 +2443,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-22 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260323-000131-1000616565.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260323-000137-1000616564.jpg"
@@ -2463,8 +2463,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 14:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260524-175646-1000121545.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260524-175649-1000121544.jpg"
@@ -2476,8 +2476,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -2496,8 +2496,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 18:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260524-215623-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260524-215619-image.jpg"
@@ -2574,8 +2574,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 17:00",
-              "sede": "El ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260329-212518-20260329_182438.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260329-212528-20260329_182443.jpg"
@@ -2600,8 +2600,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "El ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260330-012022-20260329_221613.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260330-012034-20260329_221618.jpg"
@@ -2613,8 +2613,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260329-191325-20260329_161236.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260329-191336-20260329_161244.jpg"
@@ -2736,8 +2736,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-151310-17747971466781715400536254933404.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-151306-1774797170087831940907938408799.jpg"
@@ -2762,8 +2762,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 16:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-220536-17748218897344584871651999279938.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-220533-17748219188388360463158411618463.jpg"
@@ -2788,8 +2788,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 13:00",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-173225-17748055360507041030087205941710.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260329-173237-1774805548112951421725254345755.jpg"
@@ -2847,8 +2847,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 17:00",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260329-210726-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260329-210733-image.jpg"
@@ -2886,8 +2886,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260329-190247-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260329-190237-image.jpg"
@@ -2912,8 +2912,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260330-004123-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260330-004132-image.jpg"
@@ -2932,8 +2932,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260330-013505-1000633310.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260330-013507-1000633311.jpg"
@@ -2971,8 +2971,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 17:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260329-213644-1000632912.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260329-213648-1000632913.jpg"
@@ -2997,8 +2997,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260329-192056-1000632730.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1qm2oqmk9yfq3ihldaj5extc1zg2/20260329-192105-1000632731.jpg"
@@ -3066,8 +3066,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 16:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-204635-1001059470.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-204637-1001059472.jpg"
@@ -3079,8 +3079,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-160054-1001059018.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-160055-1001059019.jpg"
@@ -3105,8 +3105,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-23 13:00",
-              "sede": "Armenia",
-              "direccion": "1352",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-171407-1001059205.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260523-171409-1001059206.jpg"
@@ -3151,8 +3151,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 16:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260329-200404-1000084604.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260329-200414-1000084603.jpg"
@@ -3164,8 +3164,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260329-180056-1000084530.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260329-180104-1000084531.jpg"
@@ -3203,8 +3203,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260330-031442-17748404697384534371342035870124.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260330-031458-17748404822501547832681501697093.jpg"
@@ -3236,8 +3236,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260329-185135-128764.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260329-185142-128765.jpg"
@@ -3249,8 +3249,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260330-003718-128952.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260330-003724-128953.jpg"
@@ -3288,8 +3288,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 17:00",
-              "sede": "Haedo Sur",
-              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260329-210145-128832.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260329-210154-128833.jpg"
@@ -3344,8 +3344,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260525-140942-1000446748.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260525-140944-1000446748.jpg"
@@ -3393,8 +3393,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-25 12:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260525-161107-1000446911.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260525-161110-1000446911.jpg"
@@ -3432,8 +3432,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-03 14:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-znzly7omq5n4thvmm1wbtav5npb3/20260403-182209-1002050751.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-znzly7omq5n4thvmm1wbtav5npb3/20260403-182239-1002050750.jpg"
@@ -3586,8 +3586,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 10:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260402-141649-166458.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260402-141643-166459.jpg"
@@ -3671,8 +3671,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-03 14:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260403-175821-1000510323.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260403-175819-1000510324.jpg"
@@ -3782,8 +3782,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 14:30",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260405-183228-478913.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260405-183233-478910.jpg"
@@ -3802,8 +3802,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 14:00",
-              "sede": "Capitan rosales",
-              "direccion": "Maria b cazon 1210 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -3894,8 +3894,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 16:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260405-202223-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260405-202331-image.jpg"
@@ -4070,8 +4070,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 15:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260405-190439-1000088684.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260405-190445-1000088683.jpg"
@@ -4090,8 +4090,8 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-17 15:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -4232,8 +4232,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 15:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260405-190902-1000282219.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260405-190911-1000282220.jpg"
@@ -4284,8 +4284,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260413-012205-1000359601.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260413-012210-1000359600.jpg",
@@ -4311,8 +4311,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260412-193337-1000359420.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260412-193334-1000359419.jpg"
@@ -4396,8 +4396,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iusasin1p1ejzbvrngofyrvmoyd2/20260412-231329-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iusasin1p1ejzbvrngofyrvmoyd2/20260412-231337-image.jpg"
@@ -4422,8 +4422,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iusasin1p1ejzbvrngofyrvmoyd2/20260412-193626-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iusasin1p1ejzbvrngofyrvmoyd2/20260412-193636-image.jpg"
@@ -4481,8 +4481,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260413-013329-inbound2952077701793270856.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260413-013336-inbound8956920635609052906.jpg"
@@ -4507,8 +4507,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260412-212332-inbound805624203056206464.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260412-212341-inbound5907122807570576949.jpg"
@@ -4593,8 +4593,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260413-025339-1000361328.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260413-025340-1000361327.jpg"
@@ -4619,8 +4619,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260412-212012-1000360653.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260412-212014-1000360652.jpg"
@@ -4701,8 +4701,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 19:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mcmmmfwgclr94fno7uxf5jxsb2l2/20260413-014831-IMG_7319.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mcmmmfwgclr94fno7uxf5jxsb2l2/20260413-014840-IMG_7320.jpeg"
@@ -4727,8 +4727,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 16:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mcmmmfwgclr94fno7uxf5jxsb2l2/20260412-211459-IMG_7312.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mcmmmfwgclr94fno7uxf5jxsb2l2/20260412-211500-IMG_7313.jpeg"
@@ -4760,8 +4760,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260412-234810-1000177338.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260412-234821-1000177337.jpg"
@@ -4812,8 +4812,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260412-200627-1000177290.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260412-200637-1000177289.jpg"
@@ -4858,8 +4858,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-809zu1wmrcnalar9h5oa3bjqcjm2/20260413-014511-1000242141.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-809zu1wmrcnalar9h5oa3bjqcjm2/20260413-014513-1000242140.jpg"
@@ -4897,8 +4897,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-809zu1wmrcnalar9h5oa3bjqcjm2/20260412-211854-1000241648.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-809zu1wmrcnalar9h5oa3bjqcjm2/20260412-211902-1000241649.jpg"
@@ -4989,8 +4989,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-m7zu6oaoqypd5qcthsukjmswwxn2/20260412-180118-IMG_6523.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-m7zu6oaoqypd5qcthsukjmswwxn2/20260412-180127-IMG_6524.jpeg"
@@ -5061,8 +5061,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 16:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260412-221447-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260412-221537-image.jpg"
@@ -5126,8 +5126,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260412-182549-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260412-182603-image.jpg"
@@ -5191,8 +5191,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wqfoa8x9kte93itvls3y448nsrz1/20260419-230100-1000154959.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wqfoa8x9kte93itvls3y448nsrz1/20260419-230125-1000154960.jpg"
@@ -5204,8 +5204,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260420-035530-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260420-035452-image.jpg"
@@ -5283,8 +5283,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4zznjpbjy9e1x1gx4aon8xyfn682/20260419-175849-17766215154611824988855871912236.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4zznjpbjy9e1x1gx4aon8xyfn682/20260419-175904-17766215321528375278157396110107.jpg"
@@ -5322,8 +5322,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0gylq2dlxvcgadw46vtkmjfdqlr2/20260419-151723-1000670592.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0gylq2dlxvcgadw46vtkmjfdqlr2/20260419-151729-1000670593.jpg"
@@ -5375,8 +5375,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260419-214503-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260419-214516-image.jpg"
@@ -5434,8 +5434,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260420-001205-1776643856468651572467604310846.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260420-001232-17766439292692237147376715786982.jpg"
@@ -5512,8 +5512,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260419-211559-17766333188436707814730172140174.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rfhdrfd1hct5miuoc5kaf4txlv32/20260419-211617-17766333529657588215704691087738.jpg"
@@ -5545,8 +5545,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260419-220128-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260419-220136-image.jpg"
@@ -5558,8 +5558,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260420-030427-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260420-030421-image.jpg"
@@ -5640,8 +5640,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260419-202012-1000316742.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260419-202015-1000316743.jpg"
@@ -5666,8 +5666,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260420-010518-1000316910.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260420-010521-1000316911.jpg"
@@ -5725,8 +5725,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260419-211719-1000098038.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260419-211726-1000098039.jpg"
@@ -5751,8 +5751,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qq937vrciob46mfdgrt6qnoer6z2/20260419-233716-inbound2271120599933342417.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qq937vrciob46mfdgrt6qnoer6z2/20260419-233727-inbound3786002417928984480.jpg"
@@ -5873,8 +5873,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -5883,8 +5883,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             }
           },
@@ -5900,8 +5900,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260419-205409-1000181707.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260419-205418-1000181706.jpg"
@@ -5965,8 +5965,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-19 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260419-230433-1000181751.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260419-230445-1000181750.jpg"
@@ -6043,8 +6043,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 18:15",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mctrxhj9dsmpsiler5hffdnlwd13/20260426-231059-1002684644.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mctrxhj9dsmpsiler5hffdnlwd13/20260426-231103-1002684646.jpg"
@@ -6069,8 +6069,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260426-202251-17772349520324970249706961688726.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260426-202302-17772349738977977372524158800793.jpg"
@@ -6082,8 +6082,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260426-192051-17772312300566030541217492603623.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260426-192102-1777231250362263341988093089712.jpg"
@@ -6128,8 +6128,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260426-225249-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260426-225251-image.jpg"
@@ -6141,8 +6141,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 20:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260427-015244-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260427-015304-image.jpg"
@@ -6154,8 +6154,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260426-213834-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260426-213847-image.jpg"
@@ -6236,8 +6236,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260426-213233-inbound8977968291664575038.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260426-213240-inbound2774096950286078555.jpg"
@@ -6249,8 +6249,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260426-232026-1001030782.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260426-232036-1001030783.jpg"
@@ -6275,8 +6275,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 20:15",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260427-012248-1001031081.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260427-012320-1001031084.jpg"
@@ -6318,8 +6318,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:15",
-              "sede": "Armenia",
-              "direccion": "1352",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-224119-149094.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-224126-149095.jpg"
@@ -6331,8 +6331,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-183452-148948.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-183458-148949.jpg"
@@ -6370,8 +6370,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-195042-149021.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260426-195049-149022.jpg"
@@ -6390,8 +6390,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 19:45",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260427-005929-17772515525881722000119646902474.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260427-005938-17772515671977931551262270347100.jpg"
@@ -6416,8 +6416,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260426-222743-17772424491711675962954393559551.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260426-222756-1777242463126476656890061393207.jpg"
@@ -6442,8 +6442,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 16:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260426-211709-17772382083678308950754528491390.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fd4z9l1xl8psrr5frvducyrrhc42/20260426-211721-17772382276927687650687161019869.jpg"
@@ -6514,8 +6514,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260426-221714-inbound2373554066173574228.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260426-221715-inbound4116772878751319885.jpg"
@@ -6527,8 +6527,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Haedo Sur",
+              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260426-211333-inbound5011936194343293839.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260426-211337-inbound8771835604610193284.jpg"
@@ -6540,8 +6540,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 20:15",
-              "sede": "Haedo Sur",
-              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260427-025650-inbound1183259206975677307.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260427-025659-inbound8268363976767490298.jpg"
@@ -6606,8 +6606,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260426-171229-65576.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260426-171232-65575.jpg"
@@ -6619,8 +6619,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260426-160958-65522.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mtmtmami6anljx8qhavo1y1zif62/20260426-160959-65521.jpg"
@@ -6678,8 +6678,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-20 22:45",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260521-034133-17793348747234366839217000463828.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260521-034143-17793348900208771562126915117483.jpg"
@@ -6704,8 +6704,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260426-210621-1000185796.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260426-210631-1000185795.jpg"
@@ -6756,8 +6756,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-20 21:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260521-004444-1000201980.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260521-004446-1000201979.jpg"
@@ -6776,8 +6776,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 19:15",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-234451-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-234503-image.jpg"
@@ -6789,8 +6789,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-200828-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-200819-image.jpg"
@@ -6815,8 +6815,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-210740-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260426-210751-image.jpg"
@@ -6906,8 +6906,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260503-224920-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260503-224927-image.jpg"
@@ -6932,8 +6932,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260504-005758-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260504-005802-image.jpg"
@@ -7008,8 +7008,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 17:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260504-154941-inbound8512336379915632564.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260504-154945-inbound8826682170131195108.jpg"
@@ -7034,8 +7034,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-j4qxhnpuquq3a2m647l7auxeebt2/20260503-202726-17778400303163625756161249255181.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-j4qxhnpuquq3a2m647l7auxeebt2/20260503-202745-17778400489855123867883490168926.jpg"
@@ -7103,8 +7103,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-shwloeimz6xjw0gj7sfwlqh15d92/20260503-234719-91687.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-shwloeimz6xjw0gj7sfwlqh15d92/20260503-234721-91686.jpg"
@@ -7116,8 +7116,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynj5zxf1wvnw9gt1hpysqhenbe03/20260504-022143-1000193727.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynj5zxf1wvnw9gt1hpysqhenbe03/20260504-022153-1000193726.jpg"
@@ -7254,8 +7254,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 19:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260503-235417-1000190818.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260503-235419-1000190817.jpg"
@@ -7329,8 +7329,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 20:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260504-010140-1000190845.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260504-010142-1000190844.jpg"
@@ -7362,8 +7362,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260503-231413-1000178569.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260503-231430-1000178568.jpg",
@@ -7376,8 +7376,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260504-011922-1000178601.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260504-011933-1000178600.jpg"
@@ -7471,8 +7471,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260504-002326-1000204213.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260504-002316-1000204215.jpg"
@@ -7484,8 +7484,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260503-225611-1000204102.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260503-225604-1000204100.jpg"
@@ -7595,8 +7595,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fen4r3asnbtucg5soeayl66sneg2/20260503-230130-17778492725122056398051385635357.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fen4r3asnbtucg5soeayl66sneg2/20260503-230114-17778492563092863506426449914093.jpg"
@@ -7608,8 +7608,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fen4r3asnbtucg5soeayl66sneg2/20260503-204031-17778407962199130330331043229800.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fen4r3asnbtucg5soeayl66sneg2/20260503-204049-17778408073719105942530731268377.jpg"
@@ -7641,8 +7641,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260504-005412-inbound6037675544818027490.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260504-005426-inbound5717414728117206767.jpg"
@@ -7654,8 +7654,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-03 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260503-214300-inbound728312451011051492.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260503-214309-inbound3686207555907100414.jpg"
@@ -7765,8 +7765,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 16:00",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260510-200021-1778443206778992305005919358886.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260510-200037-1778443225849976174002858568518.jpg"
@@ -7801,8 +7801,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 22:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260511-042648-1000494445.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-4djypuswksp8n7xtsxsca94aj0q2/20260511-042700-1000494444.jpg"
@@ -7847,8 +7847,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 20:15",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260511-013456-1000331591.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260511-013459-1000331592.jpg"
@@ -7912,8 +7912,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260510-180432-1000331373.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260510-180503-1000331374.jpg"
@@ -7968,8 +7968,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 15:15",
-              "sede": "Armenia",
-              "direccion": "1352",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260510-200749-17784436547336393953363428945249.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-x7xozyp9abwskth6leojhjczycz2/20260510-200804-17784436719708289586728760949972.jpg"
@@ -8092,8 +8092,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 19:15",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-em7mnfyqgcdm2s0sxthswzqzhtk2/20260511-000927-1000876561.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-em7mnfyqgcdm2s0sxthswzqzhtk2/20260511-000929-1000876562.jpg"
@@ -8105,8 +8105,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 13:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260510-171140-inbound4090351405027026660.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260510-171154-inbound1808168617794758697.jpg"
@@ -8190,8 +8190,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": "Haedo Sur",
-              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260510-180813-157564.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260510-180816-157565.jpg"
@@ -8203,8 +8203,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 20:15",
-              "sede": "Haedo Sur",
-              "direccion": "Dalmacio Velez Sarsfield 800 (esquina Magdalena) Haedo",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260511-005745-157661.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260511-005753-157662.jpg"
@@ -8295,8 +8295,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 10:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260510-140805-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-yfxwqedizbfizh4mpsxmytvrh983/20260510-140858-image.jpg"
@@ -8367,8 +8367,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 10:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260510-224548-inbound2495209412983518991.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260510-224624-inbound8649865690746841079.jpg"
@@ -8380,8 +8380,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 16:15",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260510-231335-inbound8349001228313217551.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260510-231355-inbound1574570918018063757.jpg"
@@ -8439,8 +8439,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 17:15",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -8462,8 +8462,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 11:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260510-152001-inbound3764719215148904583.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260510-152007-inbound8701660564783522213.jpg"
@@ -8534,8 +8534,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 14:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260510-180042-inbound1595493266231524232.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260510-180052-inbound5207517679296281682.jpg"
@@ -8560,8 +8560,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-10 20:15",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260511-011810-inbound1677554808269740816.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260511-011829-inbound6310524360203417317.jpg"
@@ -8612,8 +8612,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260517-211754-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260517-211746-image.jpg"
@@ -8664,8 +8664,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 20:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260518-005437-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260518-005448-image.jpg"
@@ -8690,8 +8690,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260517-200721-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260517-200711-image.jpg"
@@ -8723,8 +8723,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:00",
-              "sede": "Capitan rosales",
-              "direccion": "Maria b cazon 1210 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260517-233448-inbound3503107812462190640.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wumic6jr84d2qtmbtjlsk2xnvv02/20260517-233456-inbound4098371368505082110.jpg"
@@ -8749,8 +8749,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Capitan rosales",
+              "direccion": "Maria b cazon 1210 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-200934-inbound2771946467836663507.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-200952-inbound1078194097218778879.jpg"
@@ -8775,8 +8775,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:00",
-              "sede": "Capitan rosales",
-              "direccion": "Maria b cazon 1210 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-190633-inbound8933690501792478056.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-190644-inbound2933142377065123485.jpg"
@@ -8808,8 +8808,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 14:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -8828,8 +8828,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 18:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -8848,8 +8848,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -8924,8 +8924,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:30",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-234829-1000433245.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-234833-1000433245.jpg"
@@ -8937,8 +8937,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 14:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-183813-1000432910.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-183816-1000432910.jpg"
@@ -8963,8 +8963,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:30",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-193914-1000432961.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260517-193940-1000432961.jpg"
@@ -9029,8 +9029,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260517-201110-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260517-201123-image.jpg"
@@ -9042,8 +9042,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260517-191205-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260517-191211-image.jpg"
@@ -9114,8 +9114,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260518-020627-inbound2686882440358590409.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260518-020629-inbound3953769070515999595.jpg"
@@ -9140,8 +9140,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260517-202638-inbound1768992576258636389.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260517-202639-inbound842354091405480696.jpg"
@@ -9153,8 +9153,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260517-191746-inbound1839651163623767108.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260517-191748-inbound3254307287706738771.jpg"
@@ -9186,8 +9186,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-230656-inbound5022792987048650884.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-230709-inbound2750856368281626489.jpg"
@@ -9225,8 +9225,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-200220-inbound3821773301179510795.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-200235-inbound6087875323568482881.jpg"
@@ -9238,8 +9238,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-190436-inbound7085489737399425979.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260517-190446-inbound6585001209131638803.jpg"
@@ -9271,8 +9271,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 12:00",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y2mbtzk9fuh6zupm07rmhgkgkcw2/20260517-160808-1000622053.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y2mbtzk9fuh6zupm07rmhgkgkcw2/20260517-160813-1000622052.jpg"
@@ -9320,8 +9320,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:00",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ymcn1svbqdxb4xyfadrx4jlfow2/20260518-015154-1001080348.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ymcn1svbqdxb4xyfadrx4jlfow2/20260518-015200-1001080351.jpg"
@@ -9333,8 +9333,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y2mbtzk9fuh6zupm07rmhgkgkcw2/20260517-171146-1000622116.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y2mbtzk9fuh6zupm07rmhgkgkcw2/20260517-171155-1000622114.jpg"
@@ -9366,8 +9366,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 15:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260517-193126-1000281688.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260517-193134-1000281689.jpg"
@@ -9415,8 +9415,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 16:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260517-203102-1000281727.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260517-203103-1000281728.jpg"
@@ -9428,8 +9428,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260517-235943-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260517-235952-image.jpg"
@@ -9467,8 +9467,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-191939-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-191940-image.jpg"
@@ -9480,8 +9480,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-df90t2qhtcmqhqgsitujm5yx8572/20260601-020229-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-df90t2qhtcmqhqgsitujm5yx8572/20260601-020235-image.jpg"
@@ -9493,8 +9493,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-234728-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-234731-image.jpg"
@@ -9519,8 +9519,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260601-171213-7ee27f89-823d-4e34-8c94-552113e96f9e.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260601-171219-39f7cca3-900e-4a6d-9bbf-34c867a4655f.jpeg"
@@ -9545,8 +9545,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-201459-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260531-201501-image.jpg"
@@ -9565,8 +9565,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 10:00",
-              "sede": "Armenia",
-              "direccion": "1352",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-141027-1000208523.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-141029-1000208522.jpg"
@@ -9601,8 +9601,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 11:00",
-              "sede": "Armenia",
-              "direccion": "1352",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-150923-1000208544.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-150924-1000208543.jpg"
@@ -9614,8 +9614,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131231-1000208469.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-131232-1000208466.jpg"
@@ -9627,8 +9627,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 14:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-203744-1000208731.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-203847-1000208730.jpg"
@@ -9640,8 +9640,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172755-1000208596.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260531-172756-1000208595.jpg"
@@ -9660,8 +9660,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -9670,8 +9670,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -9680,8 +9680,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201741-1000126946.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-201743-1000126947.jpg"
@@ -9719,8 +9719,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-190653-1000126919.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-190703-1000126920.jpg"
@@ -9732,8 +9732,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-181023-1000126902.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260531-181023-1000126901.jpg"
@@ -9765,8 +9765,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012857-WhatsApp_Image_2026-05-31_at_21.40.36__1_.jpeg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260601-012901-WhatsApp_Image_2026-05-31_at_21.40.36.jpeg"
@@ -9791,8 +9791,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211926-535755.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-211929-535754.jpg"
@@ -9804,8 +9804,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-202059-535684.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-202102-535683.jpg"
@@ -9817,8 +9817,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-191443-535522.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-191447-535521.jpg"
@@ -9830,8 +9830,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-233020-536010.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260531-233024-536009.jpg"
@@ -9883,8 +9883,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 13:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-172156-112967.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-172203-112966.jpg"
@@ -9909,8 +9909,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 12:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161804-112952.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-161811-112949.jpg"
@@ -9922,8 +9922,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154551-112940.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jqpihfs5j5voghzexm7ovaiuhwi1/20260531-154556-112938.jpg"
@@ -9942,8 +9942,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-205209-177860.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-205217-177861.jpg"
@@ -9968,8 +9968,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 13:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-172540-177747.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-172616-177748.jpg"
@@ -9994,8 +9994,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193509-177839.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-193518-177840.jpg"
@@ -10007,8 +10007,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 12:00",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153022-177704.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-153030-177705.jpg"
@@ -10020,8 +10020,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152756-177691.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ffxa7kbs8yvuakq9mv06abwpi7t1/20260531-152804-177692.jpg"
@@ -10040,8 +10040,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-192126-1000508571.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-192131-1000508572.jpg"
@@ -10066,8 +10066,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260601-021800-1000508819.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260601-021807-1000508820.jpg"
@@ -10079,8 +10079,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213057-1000508688.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-213101-1000508690.jpg"
@@ -10092,8 +10092,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170742-1000508486.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-170747-1000508485.jpg"
@@ -10118,8 +10118,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 14:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181232-1000508525.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260531-181237-1000508524.jpg"
@@ -10151,8 +10151,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-184927-1000249805.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-184934-1000249806.jpg"
@@ -10164,8 +10164,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230009-1000249899.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-230037-1000249900.jpg"
@@ -10177,8 +10177,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-205355-1000249871.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-205410-1000249872.jpg"
@@ -10190,8 +10190,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194644-1000249833.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260531-194640-1000249834.jpg"
@@ -10216,8 +10216,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260601-001752-1000249924.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260601-001809-1000249925.jpg"
@@ -10236,8 +10236,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 15:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-190843-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-190852-image.jpg"
@@ -10262,8 +10262,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 16:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200816-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-200825-image.jpg"
@@ -10288,8 +10288,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-235318-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-235326-image.jpg"
@@ -10301,8 +10301,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 17:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211720-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260531-211728-image.jpg"
@@ -10314,8 +10314,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260601-012102-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260601-012112-image.jpg"
@@ -10340,8 +10340,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-201646-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-201637-image.jpg"
@@ -10366,8 +10366,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-011848-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-011904-image.jpg"
@@ -10379,8 +10379,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-000911-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-000919-image.jpg"
@@ -10399,19 +10399,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-213152-image.jpg"
               ]
             },
-            "SEPTIMA MASCULINO": {
-              "goles_local": 5,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-07 15:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-190939-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-190947-image.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "goles_local": 6,
               "goles_visitante": 6,
@@ -10424,6 +10411,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-000321-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260608-000330-image.jpg"
               ]
+            },
+            "SEPTIMA MASCULINO": {
+              "goles_local": 5,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-07 15:00",
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-190939-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-suqelfj1dltdycaj5izoks8zifj1/20260607-190947-image.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -10433,14 +10433,17 @@
           "visitante": "ARGENTINO DE MATADEROS",
           "partidos": {
             "SEXTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 17:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
-              "planillas": null
+              "sede": null,
+              "direccion": null,
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-211253-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-211337-image.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "goles_local": 3,
@@ -10500,8 +10503,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-005711-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-005715-image.jpg"
@@ -10513,8 +10516,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 21:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-032300-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zhwynnh6yhvd37jvxxgqiztbzp23/20260608-032306-image.jpg"
@@ -10533,8 +10536,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:30",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260607-204158-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260607-204207-image.jpg"
@@ -10559,8 +10562,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260608-012311-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bpprg69z4chvkh46czfzp9cosqq2/20260608-012325-image.jpg"
@@ -10572,8 +10575,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-uosuvkrpg5qip2wivy4phplzhw93/20260608-001006-inbound444120948246937009.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-uosuvkrpg5qip2wivy4phplzhw93/20260608-001014-inbound4572111707967210065.jpg"
@@ -10631,8 +10634,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:00",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260607-203919-1000243348.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260607-203914-1000243346.jpg"
@@ -10652,13 +10655,13 @@
               ]
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -10667,8 +10670,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260608-001244-1000243493.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-n8zzzvxeczt45q3acamvre4gxjs1/20260608-001236-1000243491.jpg"
@@ -10726,8 +10729,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260607-201223-inbound594551256281561296.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260607-201238-inbound3505723856064198812.jpg"
@@ -10739,8 +10742,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260608-014502-inbound374127596180095144.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bbz9r79bcco6fh0uqc9hpgjqv233/20260608-014506-inbound6931271377082793248.jpg"
@@ -10752,8 +10755,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260607-232804-1000503094.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyihbnh3zwqc0hrlqqpxmtzjpfv1/20260607-232808-1000503102.jpg"
@@ -10832,9 +10835,9 @@
               ]
             },
             "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10842,9 +10845,9 @@
               "planillas": null
             },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -10852,8 +10855,8 @@
               "planillas": null
             },
             "CUARTA MASCULINO": {
-              "goles_local": 3,
-              "goles_visitante": 3,
+              "goles_local": 4,
+              "goles_visitante": 7,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 18:00",
@@ -10870,8 +10873,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ggyoxzcl9wxb9dttc23ocautuv13/20260607-203010-1000795102.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ggyoxzcl9wxb9dttc23ocautuv13/20260607-203017-1000795103.jpg"
@@ -10891,8 +10894,8 @@
               ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 4,
+              "goles_local": 3,
+              "goles_visitante": 3,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 17:00",
@@ -10929,8 +10932,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5xuxc7yxjnfxoj4zixuejhgcuot2/20260607-224427-17808722528764179061511120063226.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5xuxc7yxjnfxoj4zixuejhgcuot2/20260607-224451-17808722678822166978587154932394.jpg"
@@ -10942,16 +10945,16 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5xuxc7yxjnfxoj4zixuejhgcuot2/20260607-213152-17808678923704495092229366014817.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5xuxc7yxjnfxoj4zixuejhgcuot2/20260607-213204-17808679128333063676526417251751.jpg"
               ]
             },
             "CUARTA MASCULINO": {
-              "goles_local": 4,
-              "goles_visitante": 2,
+              "goles_local": 6,
+              "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 16:00",
@@ -10981,16 +10984,16 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 14:00",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260607-180957-17808557867985797676218727151348.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260607-181023-17808558094977484412325562357147.jpg"
               ]
             },
             "QUINTA MASCULINO": {
-              "goles_local": 6,
-              "goles_visitante": 1,
+              "goles_local": 4,
+              "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 15:00",
@@ -11009,9 +11012,9 @@
           "visitante": "ALL BOYS SAAVEDRA",
           "partidos": {
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -11063,8 +11066,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 17:00",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260607-205536-1000213220.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260607-205539-1000213219.jpg"
@@ -11076,8 +11079,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 21:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260608-012701-1000213382.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260608-012713-1000213381.jpg"
@@ -11089,8 +11092,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260608-014011-17808827971228234858508542490455.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260608-014017-1780882807465315793334580524822.jpg"
@@ -11109,8 +11112,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 15:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260607-203330-inbound7152521663595064076.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260607-203339-inbound1523989662719168972.jpg"
@@ -11130,9 +11133,9 @@
               ]
             },
             "OCTAVA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -11145,8 +11148,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 18:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5rqerkdgmjowl7qpdynl188n9ki1/20260607-235151-inbound7126562468583002268.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-5rqerkdgmjowl7qpdynl188n9ki1/20260607-235157-inbound1400365542215356841.jpg"
@@ -11184,8 +11187,8 @@
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260608-005619-inbound1591237889390099174.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260608-005606-inbound3894204799742999128.jpg"
