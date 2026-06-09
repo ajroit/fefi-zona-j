@@ -25,7 +25,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_FILE = os.path.join(DATA_DIR, "predictions.json")
 
 EQUIPO_FOCO = "VILLA SAHORES"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 MAX_PARTIDOS = 1  # Solo el próximo partido por torneo
 
 FEFI_CAT_LABELS = {
