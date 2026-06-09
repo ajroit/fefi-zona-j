@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-09T14:22:54.380697Z",
+  "actualizado": "2026-06-09T21:41:49.248829Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -543,6 +543,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "VILLA SAHORES",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "gf": 24,
+        "gc": 16,
+        "pts": 22
+      },
+      {
+        "posicion": 7,
         "equipo": "SACA DEL MEDIO",
         "pj": 11,
         "g": 5,
@@ -553,24 +564,13 @@
         "pts": 19
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 11,
         "g": 6,
         "e": 1,
         "p": 4,
         "gf": 20,
-        "gc": 16,
-        "pts": 19
-      },
-      {
-        "posicion": 8,
-        "equipo": "VILLA SAHORES",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 19,
         "gc": 16,
         "pts": 19
       },
@@ -609,6 +609,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 11,
+        "g": 4,
+        "e": 2,
+        "p": 5,
+        "gf": 16,
+        "gc": 15,
+        "pts": 14
+      },
+      {
+        "posicion": 13,
         "equipo": "EL GALPON",
         "pj": 10,
         "g": 4,
@@ -617,17 +628,6 @@
         "gf": 13,
         "gc": 15,
         "pts": 12
-      },
-      {
-        "posicion": 13,
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 10,
-        "g": 3,
-        "e": 2,
-        "p": 5,
-        "gf": 11,
-        "gc": 15,
-        "pts": 11
       },
       {
         "posicion": 14,
@@ -642,17 +642,6 @@
       },
       {
         "posicion": 15,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 10,
-        "g": 2,
-        "e": 0,
-        "p": 8,
-        "gf": 10,
-        "gc": 31,
-        "pts": 6
-      },
-      {
-        "posicion": 16,
         "equipo": "PURA SUELA",
         "pj": 11,
         "g": 2,
@@ -660,6 +649,17 @@
         "p": 9,
         "gf": 11,
         "gc": 33,
+        "pts": 6
+      },
+      {
+        "posicion": 16,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 11,
+        "g": 2,
+        "e": 0,
+        "p": 9,
+        "gf": 10,
+        "gc": 36,
         "pts": 6
       },
       {
@@ -676,12 +676,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 0,
-        "gc": 45,
+        "gc": 50,
         "pts": 0
       }
     ],
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 33,
+        "g": 20,
+        "e": 4,
+        "p": 9,
+        "gf": 72,
+        "gc": 46,
+        "pts": 64,
+        "posicion": 4
+      },
+      {
         "equipo": "CENTRO ASTURIANO",
         "pj": 30,
         "g": 19,
@@ -728,17 +739,6 @@
         "gf": 91,
         "gc": 34,
         "pts": 62,
-        "posicion": 4
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 32,
-        "g": 19,
-        "e": 4,
-        "p": 9,
-        "gf": 67,
-        "gc": 46,
-        "pts": 61,
         "posicion": 5
       },
       {
@@ -820,23 +820,23 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 32,
-        "g": 9,
+        "pj": 33,
+        "g": 10,
         "e": 8,
         "p": 15,
-        "gf": 48,
+        "gf": 53,
         "gc": 54,
-        "pts": 35,
+        "pts": 38,
         "posicion": 13
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 32,
+        "pj": 33,
         "g": 10,
         "e": 4,
-        "p": 18,
+        "p": 19,
         "gf": 51,
-        "gc": 88,
+        "gc": 93,
         "pts": 34,
         "posicion": 14
       },
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 31,
+        "pj": 32,
         "g": 1,
         "e": 1,
-        "p": 29,
+        "p": 30,
         "gf": 13,
-        "gc": 138,
+        "gc": 143,
         "pts": 4,
         "posicion": 18
       }
@@ -896,6 +896,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152425,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -909,6 +910,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152119,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -922,6 +924,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152272,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -942,6 +945,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152426,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
@@ -955,6 +959,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152273,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
@@ -968,6 +973,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152120,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -988,6 +994,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152427,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -998,6 +1005,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152121,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -1011,6 +1019,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152274,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1031,6 +1040,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152428,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -1044,6 +1054,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152122,
               "goles_local": 2,
               "goles_visitante": 3,
               "jugado": true,
@@ -1058,6 +1069,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152275,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -1078,6 +1090,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152429,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -1091,6 +1104,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152123,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -1104,6 +1118,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152276,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
@@ -1124,6 +1139,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152430,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -1137,6 +1153,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152277,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -1150,6 +1167,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152124,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -1170,6 +1188,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152125,
               "goles_local": 3,
               "goles_visitante": 4,
               "jugado": true,
@@ -1183,6 +1202,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152278,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
@@ -1196,6 +1216,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152431,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -1216,6 +1237,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152279,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -1229,6 +1251,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152126,
               "goles_local": 7,
               "goles_visitante": 0,
               "jugado": true,
@@ -1242,6 +1265,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152432,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1259,6 +1283,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152127,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
@@ -1272,6 +1297,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152280,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -1285,6 +1311,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152433,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -1311,6 +1338,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152128,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -1324,6 +1352,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152281,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -1337,13 +1366,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152434,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-28 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260329-003949-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260329-003955-image.jpg"
@@ -1357,6 +1387,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152435,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -1367,6 +1398,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152129,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -1380,6 +1412,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152282,
               "goles_local": 1,
               "goles_visitante": 6,
               "jugado": true,
@@ -1400,6 +1433,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152130,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1410,6 +1444,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152283,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1420,6 +1455,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152436,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1437,6 +1473,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152131,
               "goles_local": 7,
               "goles_visitante": 0,
               "jugado": true,
@@ -1451,19 +1488,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152437,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260330-003535-1000336751.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260330-003536-1000336752.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152284,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -1484,6 +1523,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152132,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -1497,6 +1537,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152285,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -1510,13 +1551,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152438,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260329-170742-1000343399.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260329-170759-1000343400.jpg"
@@ -1530,6 +1572,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152133,
               "goles_local": 7,
               "goles_visitante": 0,
               "jugado": true,
@@ -1543,6 +1586,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152286,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -1556,13 +1600,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152439,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-28 18:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "POLIDEVORTIVO UAI",
+              "direccion": "Lavalle 1275, Ituzaingo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-dt69vzazgjnrvafh38fkihvz1q43/20260328-224738-17747380394626365016430213730395.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-dt69vzazgjnrvafh38fkihvz1q43/20260328-224757-17747380654494157001842221641676.jpg"
@@ -1576,6 +1621,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152440,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -1586,6 +1632,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152134,
               "goles_local": 2,
               "goles_visitante": 3,
               "jugado": true,
@@ -1599,6 +1646,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152287,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -1619,6 +1667,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152135,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -1632,6 +1681,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152288,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -1645,13 +1695,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152441,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-28 14:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260329-162659-1000343352.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260329-162715-1000343351.jpg"
@@ -1665,6 +1716,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152289,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -1678,19 +1730,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152442,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-03-29 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260329-131610-1000196962.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260329-131616-1000196963.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152136,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -1717,6 +1771,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152137,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -1730,6 +1785,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152443,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -1743,13 +1799,14 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152290,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-04 15:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260404-194614-inbound4869886588249029405.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260404-194609-inbound6600284736948450459.jpg"
@@ -1763,6 +1820,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152138,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -1776,19 +1834,21 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152291,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-02 11:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260402-153313-1000345712.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260402-153316-1000345711.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152444,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -1809,6 +1869,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152139,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -1822,19 +1883,21 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152292,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-04 21:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260405-013933-inbound2992800018068882410.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260405-013936-inbound2052158476594828590.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152445,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -1855,6 +1918,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152446,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -1865,6 +1929,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152140,
               "goles_local": 4,
               "goles_visitante": 1,
               "jugado": true,
@@ -1878,13 +1943,14 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152293,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-03 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260404-042007-inbound1771496136685536761.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260404-042118-inbound955511749302946158.jpg"
@@ -1898,6 +1964,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152141,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -1911,19 +1978,21 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152294,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-03 14:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260403-182147-17752404838795732957635321712269.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260403-182133-17752404721957221690106173449808.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152447,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -1944,6 +2013,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152142,
               "goles_local": 4,
               "goles_visitante": 5,
               "jugado": true,
@@ -1957,19 +2027,21 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152295,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 10:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260405-143420-inbound2901050363378237397.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260405-143424-inbound3382706391342963686.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152448,
               "goles_local": 1,
               "goles_visitante": 4,
               "jugado": true,
@@ -1990,6 +2062,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152143,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -2003,19 +2076,21 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152296,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260406-031358-1000355247.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-d50z7cjw1pgoipsx94oei7ujwzs1/20260406-031400-1000355246.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152449,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -2036,6 +2111,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152450,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -2049,6 +2125,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152144,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -2062,13 +2139,14 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152297,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 11:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mevbkflmglrg5zsmh0qp4khhfb93/20260405-153324-1000621768.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mevbkflmglrg5zsmh0qp4khhfb93/20260405-153328-1000621769.jpg"
@@ -2082,6 +2160,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152451,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -2092,6 +2171,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152145,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -2105,13 +2185,14 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152298,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-05 13:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wzgu7bdxkyaz9grpcstdqtezpy53/20260405-173111-1000077029.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wzgu7bdxkyaz9grpcstdqtezpy53/20260405-173119-1000077031.jpg"
@@ -2131,6 +2212,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152452,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -2141,6 +2223,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152146,
               "goles_local": 0,
               "goles_visitante": 6,
               "jugado": true,
@@ -2154,6 +2237,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152299,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -2174,6 +2258,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152300,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -2187,6 +2272,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152147,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -2200,13 +2286,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152453,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-11 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260412-040720-inbound4708598189877062674.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260412-040827-inbound213960612070214087.jpg"
@@ -2220,6 +2307,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152301,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -2233,19 +2321,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152454,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260412-231533-1001092705.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260412-231535-1001092708.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152148,
               "goles_local": 6,
               "goles_visitante": 0,
               "jugado": true,
@@ -2267,19 +2357,21 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152455,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrlhmnepkkhgzvlmeqzuazyivhs1/20260412-224027-1001243654.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrlhmnepkkhgzvlmeqzuazyivhs1/20260412-224036-1001243653.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152149,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -2293,6 +2385,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152302,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
@@ -2313,6 +2406,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152303,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -2326,6 +2420,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152150,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -2339,13 +2434,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152456,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-11 19:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "POLIDEVORTIVO UAI",
+              "direccion": "Lavalle 1275, Ituzaingo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260411-235752-17759518535353424836700164876672.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260411-235805-17759518691586067238513291294726.jpg"
@@ -2359,6 +2455,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152304,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -2372,6 +2469,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152457,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -2382,6 +2480,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152151,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -2402,6 +2501,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152152,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -2415,6 +2515,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152305,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -2428,13 +2529,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152458,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-11 17:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rltf67iikmpoqzyzlnq2xq2evni2/20260411-212514-1002509931.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rltf67iikmpoqzyzlnq2xq2evni2/20260411-212517-1002509930.jpg"
@@ -2448,6 +2550,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152153,
               "goles_local": 4,
               "goles_visitante": 6,
               "jugado": true,
@@ -2461,6 +2564,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152306,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -2474,13 +2578,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152459,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ocotre1vsfcpttp0lipzahgghl1/20260412-132204-20260412_101816.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ocotre1vsfcpttp0lipzahgghl1/20260412-132201-20260412_101809.jpg"
@@ -2494,19 +2599,21 @@
           "visitante": "ALLENDE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152460,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-12 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260412-141302-inbound1021246407520648438.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260412-141312-inbound2477429807888473669.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152154,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -2520,6 +2627,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152307,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -2546,6 +2654,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152155,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
@@ -2559,6 +2668,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152308,
               "goles_local": 0,
               "goles_visitante": 6,
               "jugado": true,
@@ -2572,6 +2682,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152461,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -2592,6 +2703,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152156,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -2605,6 +2717,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152309,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -2618,6 +2731,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152462,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -2638,6 +2752,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152310,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -2651,6 +2766,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152157,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -2664,6 +2780,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152463,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -2684,6 +2801,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152464,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -2697,6 +2815,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152158,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -2710,6 +2829,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152311,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
@@ -2730,6 +2850,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152465,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -2740,6 +2861,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152159,
               "goles_local": 6,
               "goles_visitante": 3,
               "jugado": true,
@@ -2753,6 +2875,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152312,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -2773,6 +2896,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152466,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -2786,6 +2910,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152160,
               "goles_local": 2,
               "goles_visitante": 7,
               "jugado": true,
@@ -2799,6 +2924,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152313,
               "goles_local": 4,
               "goles_visitante": 3,
               "jugado": true,
@@ -2819,6 +2945,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152467,
               "goles_local": 4,
               "goles_visitante": 3,
               "jugado": true,
@@ -2832,6 +2959,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152314,
               "goles_local": 2,
               "goles_visitante": 3,
               "jugado": true,
@@ -2845,6 +2973,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152161,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -2865,6 +2994,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152468,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
@@ -2878,6 +3008,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152162,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -2891,6 +3022,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152315,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
@@ -2911,6 +3043,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152469,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -2921,6 +3054,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152163,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -2934,6 +3068,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152316,
               "goles_local": 2,
               "goles_visitante": 3,
               "jugado": true,
@@ -2960,6 +3095,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152164,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -2973,6 +3109,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152317,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -2986,13 +3123,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152470,
               "goles_local": 7,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-25 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260425-231003-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260425-231011-image.jpg"
@@ -3006,6 +3144,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152471,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -3016,6 +3155,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152165,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -3029,6 +3169,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152318,
               "goles_local": 9,
               "goles_visitante": 1,
               "jugado": true,
@@ -3049,19 +3190,21 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152472,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 18:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260426-230226-1001163217.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260426-230230-1001163220.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152166,
               "goles_local": 6,
               "goles_visitante": 1,
               "jugado": true,
@@ -3075,6 +3218,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152319,
               "goles_local": 7,
               "goles_visitante": 0,
               "jugado": true,
@@ -3095,6 +3239,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152320,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -3108,6 +3253,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152167,
               "goles_local": 8,
               "goles_visitante": 2,
               "jugado": true,
@@ -3121,13 +3267,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152473,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-25 18:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "POLIDEVORTIVO UAI",
+              "direccion": "Lavalle 1275, Ituzaingo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260425-224027-22641.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260425-224035-22642.jpg",
@@ -3142,6 +3289,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152168,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
@@ -3155,6 +3303,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152321,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -3168,6 +3317,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152474,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3185,6 +3335,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152169,
               "goles_local": 3,
               "goles_visitante": 5,
               "jugado": true,
@@ -3198,6 +3349,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152322,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -3211,13 +3363,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152475,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-25 14:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260425-182653-17771415951517926468185188720421.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260425-182658-17771416080739171030856780882691.jpg"
@@ -3231,6 +3384,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152170,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -3244,6 +3398,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152323,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -3257,13 +3412,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152476,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260426-131054-1000220348.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260426-131055-1000220349.jpg"
@@ -3277,6 +3433,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152324,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -3290,19 +3447,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152477,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260426-141326-150218.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260426-141330-150219.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152171,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -3323,6 +3482,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152172,
               "goles_local": 2,
               "goles_visitante": 3,
               "jugado": true,
@@ -3336,19 +3496,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152478,
               "goles_local": 5,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-04-26 09:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrlhmnepkkhgzvlmeqzuazyivhs1/20260426-132046-1001299414.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrlhmnepkkhgzvlmeqzuazyivhs1/20260426-132052-1001299413.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152325,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -3375,6 +3537,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152173,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -3388,6 +3551,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152479,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -3401,6 +3565,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152326,
               "goles_local": 1,
               "goles_visitante": 4,
               "jugado": true,
@@ -3421,6 +3586,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152174,
               "goles_local": 1,
               "goles_visitante": 4,
               "jugado": true,
@@ -3434,6 +3600,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152327,
               "goles_local": 4,
               "goles_visitante": 3,
               "jugado": true,
@@ -3447,6 +3614,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152480,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -3467,6 +3635,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152175,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -3480,6 +3649,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152328,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -3493,6 +3663,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152481,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -3513,6 +3684,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152176,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
@@ -3526,6 +3698,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152482,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -3539,6 +3712,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152329,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
@@ -3559,6 +3733,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152177,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -3572,6 +3747,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152483,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3582,6 +3758,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152330,
               "goles_local": 6,
               "goles_visitante": 1,
               "jugado": true,
@@ -3602,6 +3779,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152484,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -3612,6 +3790,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152178,
               "goles_local": 6,
               "goles_visitante": 1,
               "jugado": true,
@@ -3625,6 +3804,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152331,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -3645,6 +3825,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152485,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -3658,6 +3839,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152179,
               "goles_local": 0,
               "goles_visitante": 6,
               "jugado": true,
@@ -3671,6 +3853,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152332,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3691,6 +3874,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152486,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3701,6 +3885,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152180,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3714,6 +3899,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152333,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -3734,6 +3920,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152487,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
@@ -3747,6 +3934,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152181,
               "goles_local": 2,
               "goles_visitante": 7,
               "jugado": true,
@@ -3760,6 +3948,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152334,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -3786,6 +3975,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152182,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -3800,6 +3990,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152488,
               "goles_local": 7,
               "goles_visitante": 1,
               "jugado": true,
@@ -3813,6 +4004,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152335,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -3833,6 +4025,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152183,
               "goles_local": 4,
               "goles_visitante": 0,
               "jugado": true,
@@ -3846,6 +4039,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152336,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -3859,6 +4053,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152489,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
@@ -3879,6 +4074,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152184,
               "goles_local": 8,
               "goles_visitante": 0,
               "jugado": true,
@@ -3892,6 +4088,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152490,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -3902,6 +4099,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152337,
               "goles_local": 7,
               "goles_visitante": 0,
               "jugado": true,
@@ -3922,6 +4120,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152491,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -3932,6 +4131,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152185,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -3945,6 +4145,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152338,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -3965,6 +4166,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152492,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -3978,6 +4180,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152186,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -3991,6 +4194,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152339,
               "goles_local": 6,
               "goles_visitante": 0,
               "jugado": true,
@@ -4011,6 +4215,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152493,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -4021,6 +4226,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152187,
               "goles_local": 4,
               "goles_visitante": 2,
               "jugado": true,
@@ -4034,6 +4240,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152340,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -4054,6 +4261,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152494,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
@@ -4067,6 +4275,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152341,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -4080,6 +4289,7 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152188,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -4100,6 +4310,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152189,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4110,6 +4321,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152342,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4120,6 +4332,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152495,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4140,6 +4353,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152190,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -4153,6 +4367,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152343,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -4166,6 +4381,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152496,
               "goles_local": 6,
               "goles_visitante": 1,
               "jugado": true,
@@ -4192,6 +4408,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152344,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -4205,19 +4422,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152497,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260517-170557-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fglzwfgrcoszofv3bpimy7gkdoi1/20260517-170555-image.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152191,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -4238,6 +4457,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152192,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -4251,6 +4471,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152345,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -4264,13 +4485,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152498,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 10:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0dqwr2didudd6jraccqb3vcizq13/20260517-144529-1000815458.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0dqwr2didudd6jraccqb3vcizq13/20260517-144534-1000815457.jpg"
@@ -4284,6 +4506,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152193,
               "goles_local": 2,
               "goles_visitante": 4,
               "jugado": true,
@@ -4297,19 +4520,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152499,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Estadio Multifuncion",
+              "direccion": "Juan B Justo 9200, CABA",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rltf67iikmpoqzyzlnq2xq2evni2/20260517-231518-1002635476.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-rltf67iikmpoqzyzlnq2xq2evni2/20260517-231521-1002635475.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152346,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -4330,6 +4555,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152194,
               "goles_local": 3,
               "goles_visitante": 3,
               "jugado": true,
@@ -4343,6 +4569,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152347,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -4356,6 +4583,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152500,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -4373,6 +4601,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152195,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -4386,6 +4615,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152348,
               "goles_local": 0,
               "goles_visitante": 2,
               "jugado": true,
@@ -4399,13 +4629,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152501,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260517-145952-inbound1360407992797355887.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260517-145955-inbound5059974179069520397.jpg"
@@ -4419,6 +4650,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152196,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
@@ -4432,6 +4664,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152349,
               "goles_local": 1,
               "goles_visitante": 9,
               "jugado": true,
@@ -4445,13 +4678,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152502,
               "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-17 13:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Polideportivo San Telmo",
+              "direccion": "Bolivar 1257, CABA",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260517-171220-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260517-171239-image.jpg"
@@ -4465,6 +4699,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152197,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -4478,6 +4713,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152503,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4488,6 +4724,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152350,
               "goles_local": 1,
               "goles_visitante": 3,
               "jugado": true,
@@ -4508,6 +4745,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152198,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -4521,6 +4759,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152351,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
@@ -4534,13 +4773,14 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152504,
               "goles_local": 1,
               "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-16 19:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-163443-inbound5138102153473076830.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mezkt6ipqmh4dg2cjpguigiu7ra2/20260517-163451-inbound5212921364371923060.jpg"
@@ -4554,6 +4794,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152352,
               "goles_local": 4,
               "goles_visitante": 2,
               "jugado": true,
@@ -4568,19 +4809,21 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152505,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 11:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-154515-1001296926.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260524-154518-1001296927.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152199,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4607,19 +4850,21 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152200,
               "goles_local": 4,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 20:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "Campo de deportes Asturias",
+              "direccion": "Av Del Libertador 981, Vicente Lopez",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260601-154704-1001340189.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260601-154708-1001340197.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152353,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -4633,6 +4878,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152506,
               "goles_local": 6,
               "goles_visitante": 1,
               "jugado": true,
@@ -4653,13 +4899,14 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152201,
               "goles_local": 3,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 20:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "POLIDEVORTIVO UAI",
+              "direccion": "Lavalle 1275, Ituzaingo",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260531-004740-1001335625.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-218tgaqyemc8jwb8c3ziy7wmsdb2/20260531-004740-1001335476.jpg",
@@ -4667,6 +4914,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152354,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -4680,6 +4928,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152507,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -4700,6 +4949,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152202,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -4710,6 +4960,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152355,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -4720,6 +4971,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152508,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -4737,6 +4989,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152356,
               "goles_local": 6,
               "goles_visitante": 0,
               "jugado": true,
@@ -4750,6 +5003,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152509,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -4760,13 +5014,14 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152203,
               "goles_local": 7,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-30 16:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-204606-inbound3598716401600629159.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260530-204614-inbound3623848738262442564.jpg"
@@ -4780,6 +5035,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152357,
               "goles_local": 0,
               "goles_visitante": 3,
               "jugado": true,
@@ -4793,6 +5049,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152510,
               "goles_local": 1,
               "goles_visitante": 4,
               "jugado": true,
@@ -4806,13 +5063,14 @@
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152204,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-24 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-211339-1000243681.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260524-211344-1000243682.jpg"
@@ -4826,19 +5084,21 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152205,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 12:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173457-17802488804167160491087906643295.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260531-173506-17802488954727611641127060374354.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152511,
               "goles_local": 3,
               "goles_visitante": 1,
               "jugado": true,
@@ -4852,6 +5112,7 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152358,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
@@ -4873,19 +5134,21 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152206,
               "goles_local": 6,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 12:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260531-181318-1000133744.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260531-181322-1000133751.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152359,
               "goles_local": 0,
               "goles_visitante": 0,
               "jugado": true,
@@ -4899,6 +5162,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152512,
               "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
@@ -4916,19 +5180,21 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152207,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 22:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023755-17802814407335519908592045202881.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260601-023801-17802814551218956633841638972787.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152360,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -4942,6 +5208,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152513,
               "goles_local": 0,
               "goles_visitante": 5,
               "jugado": true,
@@ -4962,19 +5229,21 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152208,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-31 12:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164311-29943.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260531-164313-29944.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152361,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
@@ -4988,6 +5257,7 @@
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152514,
               "goles_local": 4,
               "goles_visitante": 1,
               "jugado": true,
@@ -5014,32 +5284,35 @@
           "visitante": "EL GALPON",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152362,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 15:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260606-192916-17807741447586196781351670348581.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260606-192935-17807741603159006945451254046071.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152515,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260606-181113-17807694603056905456840412735216.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260606-181125-17807694764182869649268435712100.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152209,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -5059,7 +5332,22 @@
           "local": "VELEZ SARSFIELD",
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152363,
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-07 11:15",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-202604-1000380087.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-202606-1000380086.jpg"
+              ]
+            },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152210,
               "goles_local": 2,
               "goles_visitante": 1,
               "jugado": true,
@@ -5072,27 +5360,15 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-205928-1000380104.jpg"
               ]
             },
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-07 11:15",
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-202604-1000380087.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-202606-1000380086.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152516,
               "goles_local": 2,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-145832-1000380030.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260607-145832-1000380031.jpg"
@@ -5105,23 +5381,11 @@
           "local": "BROWN DE ADROGUE",
           "visitante": "VILLA SAHORES",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": 2,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-07 20:00",
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-003230-inbound6174030242010115318.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-003241-inbound1531187914539501781.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "match_id": 152517,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -5129,6 +5393,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152211,
               "goles_local": 2,
               "goles_visitante": 5,
               "jugado": true,
@@ -5140,6 +5405,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-021709-inbound8263056623197633866.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-021715-inbound6696596790775830356.jpg"
               ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152364,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-07 20:00",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-003230-inbound6174030242010115318.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260608-003241-inbound1531187914539501781.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -5149,6 +5428,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152212,
               "goles_local": 1,
               "goles_visitante": 2,
               "jugado": true,
@@ -5162,26 +5442,28 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152365,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 11:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260607-154450-inbound712577952969428462.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260607-154451-inbound8682976262294150038.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152518,
               "goles_local": 2,
               "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 10:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260607-142833-inbound1312304616061007586.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260607-142834-inbound3345074751369760945.jpg"
@@ -5194,33 +5476,22 @@
           "local": "SACA DEL MEDIO",
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": 1,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-06 15:15",
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-221520-136465.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-221526-136464.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152519,
               "goles_local": 2,
               "goles_visitante": 2,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 14:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-200936-136373.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-200937-136372.jpg"
               ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152213,
               "goles_local": 0,
               "goles_visitante": 1,
               "jugado": true,
@@ -5232,6 +5503,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-224540-136467.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-224543-136466.jpg"
               ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152366,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-06 15:15",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-221520-136465.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260606-221526-136464.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -5240,7 +5525,19 @@
           "local": "SAN TELMO",
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152520,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152214,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
@@ -5253,24 +5550,15 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyfgajbfjgmuktzoxwpj1yy29ei2/20260606-224541-inbound5882416393419869341.jpg"
               ]
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152367,
               "goles_local": 0,
               "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 17:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "Club San Telmo",
+              "direccion": "Bolivar 1257",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyfgajbfjgmuktzoxwpj1yy29ei2/20260606-212815-inbound6183553834740403914.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gyfgajbfjgmuktzoxwpj1yy29ei2/20260606-212825-inbound4935567456922776415.jpg"
@@ -5283,33 +5571,8 @@
           "local": "MAVIA FC",
           "visitante": "ASTRA MACKIE",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "goles_local": 0,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-06 21:00",
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-050037-17808084241678184912434867222632.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-050051-17808084401729219539177752587400.jpg"
-              ]
-            },
-            "UNICA ADULTAS FEMENINO ": {
-              "goles_local": 2,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-06 19:45",
-              "sede": null,
-              "direccion": null,
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045814-17808082782483658077137045523693.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045828-17808082934076740684567378668153.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152215,
               "goles_local": 1,
               "goles_visitante": 1,
               "jugado": true,
@@ -5321,6 +5584,34 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045612-1780808152924513771302555264203.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045632-17808081765051001825751024653428.jpg"
               ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152368,
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-06 21:00",
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-050037-17808084241678184912434867222632.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-050051-17808084401729219539177752587400.jpg"
+              ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152521,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-06 19:45",
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045814-17808082782483658077137045523693.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260607-045828-17808082934076740684567378668153.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -5330,6 +5621,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152216,
               "goles_local": 5,
               "goles_visitante": 1,
               "jugado": true,
@@ -5343,26 +5635,28 @@
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152369,
               "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 20:15",
-              "sede": null,
-              "direccion": null,
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260608-041842-1000385597.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260608-041844-1000385598.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152522,
               "goles_local": 5,
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-07 19:00",
-              "sede": null,
-              "direccion": null,
+              "sede": "17 de Agosto ",
+              "direccion": "Avenida Albarellos 2935",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260608-041715-1000385595.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xnscua8hfndl5qqgn41dfijqtkh3/20260608-041716-1000385596.jpg"
@@ -5376,6 +5670,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152217,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5386,23 +5681,25 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152523,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-06 18:30",
-              "sede": null,
-              "direccion": null,
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152370,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-06 19:45",
-              "sede": null,
-              "direccion": null,
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
               "planillas": null
             }
           },
@@ -5419,6 +5716,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152371,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5429,6 +5727,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152218,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5439,6 +5738,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152524,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5456,6 +5756,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152219,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5466,6 +5767,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152372,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5476,6 +5778,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152525,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5493,6 +5796,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152220,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5503,6 +5807,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152373,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5513,6 +5818,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152526,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5530,6 +5836,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152374,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5540,6 +5847,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152527,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5550,6 +5858,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152221,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5567,6 +5876,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152222,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5577,6 +5887,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152375,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5587,6 +5898,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152528,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5604,6 +5916,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152223,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5614,6 +5927,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152376,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5624,6 +5938,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152529,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5641,6 +5956,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152224,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5651,6 +5967,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152377,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5661,6 +5978,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152530,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5678,6 +5996,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152225,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5688,6 +6007,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152378,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5698,6 +6018,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152531,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5715,6 +6036,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152226,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5725,6 +6047,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152379,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5735,6 +6058,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152532,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5758,6 +6082,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152227,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5768,6 +6093,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152380,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5778,6 +6104,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152533,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5795,6 +6122,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152228,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5805,6 +6133,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152381,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5815,6 +6144,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152534,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5832,6 +6162,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152229,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5842,6 +6173,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152382,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5852,6 +6184,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152535,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5869,6 +6202,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152230,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5879,6 +6213,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152383,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5889,6 +6224,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152536,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5906,6 +6242,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152231,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5916,6 +6253,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152384,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5926,6 +6264,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152537,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5943,6 +6282,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152538,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5953,6 +6293,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152232,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5963,6 +6304,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152385,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5980,6 +6322,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152233,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -5990,6 +6333,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152386,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6000,6 +6344,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152539,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6017,6 +6362,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152234,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6027,6 +6373,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152387,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6037,6 +6384,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152540,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6054,6 +6402,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152235,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6064,6 +6413,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152388,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6074,6 +6424,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152541,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6097,6 +6448,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152236,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6107,6 +6459,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152389,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6117,6 +6470,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152542,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6134,6 +6488,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152237,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6144,6 +6499,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152390,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6154,6 +6510,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152543,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6171,6 +6528,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152238,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6181,6 +6539,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152391,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6191,6 +6550,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152544,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6208,6 +6568,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152545,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6218,6 +6579,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152239,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6228,6 +6590,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152392,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6245,6 +6608,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152393,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6255,6 +6619,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152546,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6265,6 +6630,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152240,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6282,6 +6648,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152241,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6292,6 +6659,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152394,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6302,6 +6670,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152547,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6319,6 +6688,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152242,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6329,6 +6699,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152395,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6339,6 +6710,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152548,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6356,6 +6728,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152243,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6366,6 +6739,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152396,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6376,6 +6750,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152549,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6393,6 +6768,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152244,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6403,6 +6779,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152397,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6413,6 +6790,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152550,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6436,6 +6814,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152245,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6446,6 +6825,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152398,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6456,6 +6836,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152551,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6473,6 +6854,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152246,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6483,6 +6865,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152399,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6493,6 +6876,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152552,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6510,6 +6894,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152247,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6520,6 +6905,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152400,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6530,6 +6916,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152553,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6547,6 +6934,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152248,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6557,6 +6945,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152401,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6567,6 +6956,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152554,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6584,6 +6974,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152249,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6594,6 +6985,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152402,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6604,6 +6996,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152555,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6621,6 +7014,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152250,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6631,6 +7025,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152403,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6641,6 +7036,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152556,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6658,6 +7054,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152557,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6668,6 +7065,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152404,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6678,6 +7076,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152251,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6695,6 +7094,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152252,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6705,6 +7105,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152405,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6715,6 +7116,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152558,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6732,6 +7134,7 @@
           "visitante": "ASTRA MACKIE",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152253,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6742,6 +7145,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152406,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6752,6 +7156,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152559,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6775,6 +7180,7 @@
           "visitante": "PURA SUELA",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152254,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6785,6 +7191,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152407,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6795,6 +7202,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152560,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6812,6 +7220,7 @@
           "visitante": "CENTRO VK",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152255,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6822,6 +7231,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152408,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6832,6 +7242,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152561,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6849,6 +7260,7 @@
           "visitante": "SOCIAL OESTE",
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152562,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6859,6 +7271,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152256,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6869,6 +7282,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152409,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6886,6 +7300,7 @@
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152257,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6896,6 +7311,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152410,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6906,6 +7322,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152563,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6923,6 +7340,7 @@
           "visitante": "17 DE AGOSTO",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152411,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6933,6 +7351,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152564,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6943,6 +7362,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152258,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6960,6 +7380,7 @@
           "visitante": "MAVIA FC",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152259,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6970,6 +7391,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152412,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6980,6 +7402,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152565,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -6997,6 +7420,7 @@
           "visitante": "SAN TELMO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152260,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7007,6 +7431,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152413,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7017,6 +7442,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152566,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7034,6 +7460,7 @@
           "visitante": "SACA DEL MEDIO",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152261,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7044,6 +7471,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152414,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7054,6 +7482,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152567,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7071,6 +7500,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152262,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7081,6 +7511,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152415,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7091,6 +7522,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152568,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7114,6 +7546,7 @@
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152416,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7124,6 +7557,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152569,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7134,6 +7568,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152263,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7151,6 +7586,7 @@
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152417,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7161,6 +7597,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152570,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7171,6 +7608,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152264,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7188,6 +7626,7 @@
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152265,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7198,6 +7637,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152571,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7208,6 +7648,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152418,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7225,6 +7666,7 @@
           "visitante": "EL GALPON",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152266,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7235,6 +7677,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152419,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7245,6 +7688,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152572,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7262,6 +7706,7 @@
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152267,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7272,6 +7717,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152420,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7282,6 +7728,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152573,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7299,6 +7746,7 @@
           "visitante": "VILLA SAHORES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152268,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7309,6 +7757,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152421,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7319,6 +7768,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152574,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7336,6 +7786,7 @@
           "visitante": "ALLENDE",
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152422,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7346,6 +7797,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152575,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7356,6 +7808,7 @@
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152269,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7373,6 +7826,7 @@
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152270,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7383,6 +7837,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152576,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7393,6 +7848,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152423,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7410,6 +7866,7 @@
           "visitante": "CULTURAL DE TAPIALES",
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152271,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7420,6 +7877,7 @@
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152424,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -7430,6 +7888,7 @@
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152577,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,

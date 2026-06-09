@@ -55,8 +55,7 @@ async function initMatchDetails() {
     return;
   }
 
-  // 2. Resolver ID hexadecimal (si contiene letras, ej: '244ab' -> 148651)
-  // 2. Cargar futsal-stats.json
+  // 2. Cargar futsal-stats.json (con fallback)
   let statsData = null;
   const cacheBust = "?v=" + new Date().getTime();
   try {
@@ -64,28 +63,78 @@ async function initMatchDetails() {
     if (!res.ok) res = await fetch("../data/futsal-stats.json" + cacheBust);
     statsData = await res.json();
   } catch (err) {
-    showError("No se pudieron cargar los datos de estadísticas del servidor.");
-    console.error(err);
-    return;
+    console.warn("No se pudieron cargar los datos de estadísticas del servidor. Intentando fallback a fixtures...");
   }
 
-  // 3. Buscar partido en partidos_detalles
-  // Intentar primero con el ID tal cual (decimal)
-  let match = statsData.partidos_detalles[String(rawId)];
+  // 3. Buscar partido en partidos_detalles (si statsData está disponible)
+  let match = null;
   let matchId = rawId;
+  const decodedId = parseInt(rawId, 16);
+  const targetMatchId = isNaN(decodedId) ? Number(rawId) : decodedId;
 
-  // Si no se encuentra, intentar decodificando de hexadecimal (ej: '24602' o '244ab')
+  if (statsData && statsData.partidos_detalles) {
+    // Intentar primero con el ID tal cual (decimal)
+    match = statsData.partidos_detalles[String(rawId)];
+    
+    // Si no se encuentra, intentar decodificando de hexadecimal (ej: '24602' o '244ab')
+    if (!match && !isNaN(decodedId)) {
+      match = statsData.partidos_detalles[String(decodedId)];
+      if (match) {
+        matchId = decodedId;
+      }
+    }
+  }
+
+  // 4. Si no se encontró en partidos_detalles, buscar en los fixtures del torneo
   if (!match) {
     try {
-      const decodedId = parseInt(rawId, 16);
-      if (!isNaN(decodedId)) {
-        match = statsData.partidos_detalles[String(decodedId)];
-        if (match) {
-          matchId = decodedId;
+      const fixtureFiles = [
+        { url: "data/futsal-data.json", torneo: "Futsal Liga de Honor" },
+        { url: "data/futsal-reducido-data.json", torneo: "Futsal Reducido" },
+        { url: "data/futsal-femenino-data.json", torneo: "Futsal Femenino" }
+      ];
+      
+      for (const t of fixtureFiles) {
+        try {
+          let res = await fetch(t.url + cacheBust);
+          if (!res.ok) res = await fetch("../" + t.url + cacheBust);
+          if (res.ok) {
+            const tData = await res.json();
+            for (const fecha of tData.fechas || []) {
+              for (const enc of fecha.encuentros || []) {
+                for (const catName in enc.partidos || {}) {
+                  const p = enc.partidos[catName];
+                  if (p && (p.match_id === targetMatchId || p.match_id === String(targetMatchId))) {
+                    match = {
+                      match_id: targetMatchId,
+                      torneo: t.torneo,
+                      categoria: catName,
+                      fecha_num: fecha.numero,
+                      fecha_hora: p.fecha_hora,
+                      local: enc.local,
+                      visitante: enc.visitante,
+                      goles_local: p.goles_local,
+                      goles_visitante: p.goles_visitante,
+                      referees: [],
+                      goles: [],
+                      tarjetas: []
+                    };
+                    matchId = targetMatchId;
+                    break;
+                  }
+                }
+                if (match) break;
+              }
+              if (match) break;
+            }
+          }
+        } catch (e) {
+          console.warn(`Error buscando en ${t.url}:`, e);
         }
+        if (match) break;
       }
     } catch (e) {
-      console.warn("Error decodificando hexadecimal:", e);
+      console.warn("Error buscando en fixtures:", e);
     }
   }
 
@@ -98,9 +147,10 @@ async function initMatchDetails() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("match-content").style.display = "block";
 
-  // 5. Cargar logos de los equipos (opcional de fondo)
+  // 5. Cargar logos de los equipos y planillas del fixture
   let homeLogo = null;
   let awayLogo = null;
+  let planillas = [];
   const torneoUrl = TOURNAMENT_DATA_URLS[match.torneo];
   if (torneoUrl) {
     try {
@@ -113,6 +163,22 @@ async function initMatchDetails() {
       
       if (homeEq) homeLogo = homeEq.logo;
       if (awayEq) awayLogo = awayEq.logo;
+
+      // Buscar planillas en el fixture cruzando por fecha_num + categoría + equipos
+      for (const fecha of torneoData.fechas || []) {
+        if (fecha.numero !== match.fecha_num) continue;
+        for (const enc of fecha.encuentros || []) {
+          const matchesHome = enc.local.toUpperCase().includes(match.local.toUpperCase()) || match.local.toUpperCase().includes(enc.local.toUpperCase());
+          const matchesAway = enc.visitante.toUpperCase().includes(match.visitante.toUpperCase()) || match.visitante.toUpperCase().includes(enc.visitante.toUpperCase());
+          if (matchesHome && matchesAway) {
+            const catPartido = enc.partidos[match.categoria];
+            if (catPartido && catPartido.planillas && catPartido.planillas.length > 0) {
+              planillas = catPartido.planillas;
+            }
+            break;
+          }
+        }
+      }
     } catch (e) {
       console.warn("No se pudieron cargar los logos de los equipos:", e);
     }
@@ -215,7 +281,7 @@ async function initMatchDetails() {
     }
 
     // Estadísticas del árbitro en nuestra base
-    const refGlobal = statsData.arbitros[ref.nombre_completo];
+    const refGlobal = (statsData && statsData.arbitros) ? statsData.arbitros[ref.nombre_completo] : null;
     const refCountLabel = document.getElementById("referee-stats-label");
     if (refGlobal) {
       const v = refGlobal.victorias || 0;
@@ -229,7 +295,22 @@ async function initMatchDetails() {
     refereeCard.style.display = "none";
   }
 
-  // 9. Configurar Botones de Compartir
+  // 9. Planillas (fotos de las planillas oficiales)
+  const planillasSection = document.getElementById("planillas-section");
+  if (planillas.length > 0) {
+    planillasSection.style.display = "block";
+    const planillasGrid = document.getElementById("planillas-grid");
+    planillasGrid.innerHTML = planillas.map((url, idx) => `
+      <a href="${url}" target="_blank" rel="noopener" class="planilla-thumb" title="Ver planilla ${idx + 1} en tamaño completo">
+        <img src="${url}" alt="Planilla ${idx + 1}" loading="lazy">
+        <span class="planilla-overlay">📷 Ver planilla ${idx + 1}</span>
+      </a>
+    `).join("");
+  } else {
+    planillasSection.style.display = "none";
+  }
+
+  // 10. Configurar Botones de Compartir
   const shareTitle = `${nombreEquipo(match.local)} ${match.goles_local ?? 0} - ${match.goles_visitante ?? 0} ${nombreEquipo(match.visitante)} (${catLabel}) - Villa Sahores`;
   const shareUrl = window.location.href;
   

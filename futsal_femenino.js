@@ -192,7 +192,6 @@ function futsalFemeninoRender() {
 
   // Actualizar estadísticas de goleadores y tarjetas e historial expandible
   actualizarStatsYTablas("Futsal Femenino", futsalFemeninoCategoriaActual, "VILLA SAHORES (FEM)");
-  configurarHistorialExpandible("Futsal Femenino", futsalFemeninoCategoriaActual);
 
   const tag = futsalFemeninoCategoriaActual === "general"
     ? "Acumulado"
@@ -401,20 +400,14 @@ function futsalFemeninoRenderHistorial() {
     const r = futsalFemeninoResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    
-    let planillaHtml = "";
-    if (p.planillas && p.planillas.length > 0) {
-      const links = p.planillas.map((url, idx) => `
-        <a href="${url}" target="_blank" class="btn-planilla" title="Ver foto de la planilla">
-          📷 ${p.planillas.length > 1 ? 'P' + (idx + 1) : 'Planilla'}
+
+    const fichaHtml = p.match_id ? `
+      <div class="history-ficha-btns">
+        <a href="match.html?id=${p.match_id}" class="btn-ver-ficha" title="Ver ficha completa">
+          📋 Ficha
         </a>
-      `).join("");
-      planillaHtml = `
-        <div class="history-actions">
-          ${links}
-        </div>
-      `;
-    }
+      </div>
+    ` : "";
 
     return `
       <div class="history-item">
@@ -423,10 +416,8 @@ function futsalFemeninoRenderHistorial() {
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
           <span class="history-rival-meta">F${p.numero} - ${p.esLocal ? 'Local' : 'Visitante'}</span>
         </div>
-        <div class="history-score-wrap">
-          <span class="history-score">${p.gf} - ${p.gc}</span>
-          ${planillaHtml}
-        </div>
+        <span class="history-score">${p.gf} - ${p.gc}</span>
+        ${fichaHtml}
       </div>
     `;
   }).join('');

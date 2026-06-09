@@ -221,6 +221,7 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
                 jugado = (score_h is not None and score_a is not None)
 
                 partidos[cat_nombre] = {
+                    "match_id": match_id,
                     "goles_local": score_h,
                     "goles_visitante": score_a,
                     "jugado": jugado,

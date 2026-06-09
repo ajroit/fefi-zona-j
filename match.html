@@ -343,17 +343,6 @@
       box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
     }
     
-    .btn-match-action.telegram {
-      background: #0088cc;
-      box-shadow: 0 2px 6px rgba(0, 136, 204, 0.2);
-    }
-    
-    .btn-match-action.telegram:hover {
-      background: #006699;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
-    }
-    
     /* Loading and error layouts */
     .match-loader {
       text-align: center;
@@ -423,6 +412,55 @@
       .match-scoreboard-card {
         padding: 24px 16px;
       }
+    }
+    
+    /* Planilla Photo Gallery */
+    .planillas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    
+    .planilla-thumb {
+      position: relative;
+      display: block;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      aspect-ratio: 3/4;
+    }
+    
+    .planilla-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    
+    .planilla-thumb:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      border-color: var(--brand-green);
+    }
+    
+    .planilla-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+      color: #fff;
+      padding: 16px 12px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    
+    .planilla-thumb:hover .planilla-overlay {
+      opacity: 1;
     }
   </style>
 </head>
@@ -515,6 +553,19 @@
           <div class="referee-fullname" id="referee-fullname">Nombre del Árbitro</div>
           <div class="referee-stats-label" id="referee-stats-label">Dirigió 1 partidos de Villa Sahores</div>
         </div>
+      </section>
+
+      <!-- Planillas (fotos oficiales) -->
+      <section id="planillas-section" style="display: none; margin-bottom: 24px;">
+        <h3 class="event-card-title" style="margin-bottom: 16px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span>Planillas Oficiales</span>
+        </h3>
+        <div class="planillas-grid" id="planillas-grid"></div>
       </section>
 
       <!-- Actions / Share -->
