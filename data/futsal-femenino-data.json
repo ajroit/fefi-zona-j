@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-09T21:41:49.248829Z",
+  "actualizado": "2026-06-10T08:13:13.084561Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -322,12 +322,12 @@
       {
         "posicion": 4,
         "equipo": "SOCIAL OESTE",
-        "pj": 10,
+        "pj": 11,
         "g": 7,
         "e": 2,
-        "p": 1,
-        "gf": 32,
-        "gc": 7,
+        "p": 2,
+        "gf": 33,
+        "gc": 9,
         "pts": 23
       },
       {
@@ -354,6 +354,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 11,
+        "g": 6,
+        "e": 2,
+        "p": 3,
+        "gf": 28,
+        "gc": 15,
+        "pts": 20
+      },
+      {
+        "posicion": 8,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 11,
         "g": 5,
@@ -362,17 +373,6 @@
         "gf": 12,
         "gc": 10,
         "pts": 18
-      },
-      {
-        "posicion": 8,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 10,
-        "g": 5,
-        "e": 2,
-        "p": 3,
-        "gf": 26,
-        "gc": 14,
-        "pts": 17
       },
       {
         "posicion": 9,
@@ -488,6 +488,17 @@
     "UNICA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
+        "equipo": "SOCIAL OESTE",
+        "pj": 11,
+        "g": 9,
+        "e": 2,
+        "p": 0,
+        "gf": 27,
+        "gc": 4,
+        "pts": 29
+      },
+      {
+        "posicion": 2,
         "equipo": "ALLENDE",
         "pj": 10,
         "g": 9,
@@ -496,17 +507,6 @@
         "gf": 28,
         "gc": 8,
         "pts": 27
-      },
-      {
-        "posicion": 2,
-        "equipo": "SOCIAL OESTE",
-        "pj": 10,
-        "g": 8,
-        "e": 2,
-        "p": 0,
-        "gf": 25,
-        "gc": 3,
-        "pts": 26
       },
       {
         "posicion": 3,
@@ -533,12 +533,12 @@
       {
         "posicion": 5,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 10,
+        "pj": 11,
         "g": 7,
         "e": 1,
-        "p": 2,
-        "gf": 31,
-        "gc": 11,
+        "p": 3,
+        "gf": 32,
+        "gc": 13,
         "pts": 22
       },
       {
@@ -699,13 +699,13 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 30,
-        "g": 24,
+        "pj": 32,
+        "g": 25,
         "e": 4,
-        "p": 2,
-        "gf": 107,
-        "gc": 22,
-        "pts": 76,
+        "p": 3,
+        "gf": 110,
+        "gc": 25,
+        "pts": 79,
         "posicion": 2
       },
       {
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 32,
+        "g": 20,
+        "e": 5,
+        "p": 7,
+        "gf": 94,
+        "gc": 37,
+        "pts": 65,
+        "posicion": 4
+      },
+      {
         "equipo": "VILLA SAHORES",
         "pj": 33,
         "g": 20,
@@ -728,17 +739,6 @@
         "gf": 72,
         "gc": 46,
         "pts": 64,
-        "posicion": 4
-      },
-      {
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 30,
-        "g": 19,
-        "e": 5,
-        "p": 6,
-        "gf": 91,
-        "gc": 34,
-        "pts": 62,
         "posicion": 5
       },
       {
@@ -5671,39 +5671,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152217,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 21:00",
               "sede": "Centro Asturiano Sede Deportiva Vicente López",
               "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220802-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220752-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152523,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 18:30",
               "sede": "Centro Asturiano Sede Deportiva Vicente López",
               "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220541-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220531-image.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152370,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-06 19:45",
               "sede": "Centro Asturiano Sede Deportiva Vicente López",
               "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220400-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220407-image.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },
