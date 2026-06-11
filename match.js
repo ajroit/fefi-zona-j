@@ -66,23 +66,19 @@ async function initMatchDetails() {
     console.warn("No se pudieron cargar los datos de estadísticas del servidor. Intentando fallback a fixtures...");
   }
 
-  // 3. Buscar partido en partidos_detalles (si statsData está disponible)
+  // 3. Resolver ID (decimal o hexadecimal)
+  let targetMatchId = null;
+  if (/^\d{6,}$/.test(rawId)) {
+    targetMatchId = parseInt(rawId, 10);
+  } else {
+    targetMatchId = parseInt(rawId, 16);
+  }
+
   let match = null;
-  let matchId = rawId;
-  const decodedId = parseInt(rawId, 16);
-  const targetMatchId = isNaN(decodedId) ? Number(rawId) : decodedId;
+  let matchId = targetMatchId;
 
   if (statsData && statsData.partidos_detalles) {
-    // Intentar primero con el ID tal cual (decimal)
-    match = statsData.partidos_detalles[String(rawId)];
-    
-    // Si no se encuentra, intentar decodificando de hexadecimal (ej: '24602' o '244ab')
-    if (!match && !isNaN(decodedId)) {
-      match = statsData.partidos_detalles[String(decodedId)];
-      if (match) {
-        matchId = decodedId;
-      }
-    }
+    match = statsData.partidos_detalles[String(targetMatchId)];
   }
 
   // 4. Si no se encontró en partidos_detalles, buscar en los fixtures del torneo
