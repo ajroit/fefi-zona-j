@@ -76,17 +76,37 @@ HEADERS = {
 }
 
 
+def fetch_url(url, headers=None, is_proxy=False):
+    import time
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, timeout=30, headers=headers)
+            resp.raise_for_status()
+            if is_proxy:
+                return resp.json()["contents"]
+            return resp.text
+        except Exception as e:
+            print(f"⚠️ Intento {attempt + 1} falló para {url}: {e}")
+            if attempt < 2:
+                time.sleep(3)
+            else:
+                raise e
+
+
 def scrape():
     print(f"Descargando {URL}...")
     try:
-        html = requests.get(URL, timeout=30, headers=HEADERS).text
+        html = fetch_url(URL, headers=HEADERS)
     except Exception as e:
         print(f"⚠️ Error en descarga directa: {e}. Intentando vía proxy de fallback...")
         import urllib.parse
         proxy_url = f"https://api.allorigins.win/get?url={urllib.parse.quote(URL)}"
-        resp = requests.get(proxy_url, timeout=30)
-        resp.raise_for_status()
-        html = resp.json()["contents"]
+        try:
+            html = fetch_url(proxy_url, is_proxy=True)
+        except Exception as proxy_err:
+            print(f"❌ Falló también el proxy principal. Intentando con proxy secundario (codetabs)...")
+            alt_proxy_url = f"https://api.codetabs.com/v1/proxy?quest={urllib.parse.quote(URL)}"
+            html = fetch_url(alt_proxy_url)
 
     soup = BeautifulSoup(html, "html.parser")
     tablas = soup.find_all("table")
