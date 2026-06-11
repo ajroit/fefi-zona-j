@@ -33,10 +33,19 @@ OUTPUT_FILE = os.path.join(BASE_DIR, "data", "futsal-reducido-data.json")
 # ── Helpers ────────────────────────────────────────────────
 def api_get(path, params=None):
     """GET al endpoint público de Weball."""
+    import time
     url = f"{API_BASE}{path}"
-    resp = requests.get(url, params=params, timeout=TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+    for attempt in range(4):
+        try:
+            resp = requests.get(url, params=params, timeout=TIMEOUT)
+            resp.raise_for_status()
+            return resp.json()
+        except Exception as e:
+            print(f"⚠️ Attempt {attempt + 1} failed for {path}: {e}")
+            if attempt < 3:
+                time.sleep(2 * (attempt + 1))
+            else:
+                raise e
 
 
 # ── 1. Obtener fases ──────────────────────────────────────
