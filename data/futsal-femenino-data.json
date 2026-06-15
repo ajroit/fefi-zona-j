@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-14T20:16:18.599520Z",
+  "actualizado": "2026-06-15T10:29:07.374792Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -12,12 +12,12 @@
   ],
   "equipos": [
     {
-      "nombre": "17 DE AGOSTO",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
-    },
-    {
       "nombre": "SOCIAL OESTE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
+    },
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
       "nombre": "ASTRA MACKIE",
@@ -44,6 +44,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
+      "nombre": "VELEZ SARSFIELD",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
+    },
+    {
       "nombre": "INDEPENDIENTE (C)",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
     },
@@ -52,16 +56,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
     },
     {
-      "nombre": "VELEZ SARSFIELD",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
+      "nombre": "ESTRELLA FEDERAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
     {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
-    },
-    {
-      "nombre": "ESTRELLA FEDERAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -88,6 +88,17 @@
     "PRIMERA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
+        "equipo": "SOCIAL OESTE",
+        "pj": 11,
+        "g": 10,
+        "e": 0,
+        "p": 1,
+        "gf": 53,
+        "gc": 13,
+        "pts": 30
+      },
+      {
+        "posicion": 2,
         "equipo": "17 DE AGOSTO",
         "pj": 12,
         "g": 9,
@@ -96,17 +107,6 @@
         "gf": 46,
         "gc": 11,
         "pts": 28
-      },
-      {
-        "posicion": 2,
-        "equipo": "SOCIAL OESTE",
-        "pj": 10,
-        "g": 9,
-        "e": 0,
-        "p": 1,
-        "gf": 50,
-        "gc": 12,
-        "pts": 27
       },
       {
         "posicion": 3,
@@ -144,12 +144,12 @@
       {
         "posicion": 6,
         "equipo": "EL GALPON",
-        "pj": 10,
+        "pj": 11,
         "g": 7,
         "e": 1,
-        "p": 2,
-        "gf": 20,
-        "gc": 11,
+        "p": 3,
+        "gf": 21,
+        "gc": 13,
         "pts": 22
       },
       {
@@ -176,6 +176,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 12,
+        "g": 5,
+        "e": 2,
+        "p": 5,
+        "gf": 33,
+        "gc": 38,
+        "pts": 17
+      },
+      {
+        "posicion": 10,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 12,
         "g": 4,
@@ -186,7 +197,7 @@
         "pts": 17
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 12,
         "g": 3,
@@ -197,29 +208,7 @@
         "pts": 14
       },
       {
-        "posicion": 11,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 11,
-        "g": 4,
-        "e": 2,
-        "p": 5,
-        "gf": 31,
-        "gc": 37,
-        "pts": 14
-      },
-      {
         "posicion": 12,
-        "equipo": "PURA SUELA",
-        "pj": 11,
-        "g": 3,
-        "e": 4,
-        "p": 4,
-        "gf": 17,
-        "gc": 24,
-        "pts": 13
-      },
-      {
-        "posicion": 13,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 12,
         "g": 3,
@@ -227,6 +216,17 @@
         "p": 5,
         "gf": 13,
         "gc": 21,
+        "pts": 13
+      },
+      {
+        "posicion": 13,
+        "equipo": "PURA SUELA",
+        "pj": 12,
+        "g": 3,
+        "e": 4,
+        "p": 5,
+        "gf": 18,
+        "gc": 27,
         "pts": 13
       },
       {
@@ -333,12 +333,12 @@
       {
         "posicion": 5,
         "equipo": "SOCIAL OESTE",
-        "pj": 11,
+        "pj": 12,
         "g": 7,
         "e": 2,
-        "p": 2,
-        "gf": 33,
-        "gc": 9,
+        "p": 3,
+        "gf": 35,
+        "gc": 12,
         "pts": 23
       },
       {
@@ -442,6 +442,17 @@
       },
       {
         "posicion": 15,
+        "equipo": "PURA SUELA",
+        "pj": 12,
+        "g": 2,
+        "e": 3,
+        "p": 7,
+        "gf": 9,
+        "gc": 30,
+        "pts": 9
+      },
+      {
+        "posicion": 16,
         "equipo": "ZIZOU FUTSAL",
         "pj": 12,
         "g": 2,
@@ -450,17 +461,6 @@
         "gf": 13,
         "gc": 26,
         "pts": 8
-      },
-      {
-        "posicion": 16,
-        "equipo": "PURA SUELA",
-        "pj": 11,
-        "g": 1,
-        "e": 3,
-        "p": 7,
-        "gf": 6,
-        "gc": 28,
-        "pts": 6
       },
       {
         "posicion": 17,
@@ -489,13 +489,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 11,
-        "g": 9,
+        "pj": 12,
+        "g": 10,
         "e": 2,
         "p": 0,
-        "gf": 27,
+        "gf": 30,
         "gc": 4,
-        "pts": 29
+        "pts": 32
       },
       {
         "posicion": 2,
@@ -643,12 +643,12 @@
       {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 11,
+        "pj": 12,
         "g": 2,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 11,
-        "gc": 33,
+        "gc": 36,
         "pts": 6
       },
       {
@@ -699,13 +699,13 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 32,
-        "g": 25,
+        "pj": 35,
+        "g": 27,
         "e": 4,
-        "p": 3,
-        "gf": 110,
-        "gc": 25,
-        "pts": 79,
+        "p": 4,
+        "gf": 118,
+        "gc": 29,
+        "pts": 85,
         "posicion": 2
       },
       {
@@ -787,14 +787,25 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 31,
+        "pj": 32,
         "g": 13,
         "e": 5,
-        "p": 13,
-        "gf": 46,
-        "gc": 48,
+        "p": 14,
+        "gf": 47,
+        "gc": 50,
         "pts": 44,
         "posicion": 10
+      },
+      {
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 35,
+        "g": 13,
+        "e": 4,
+        "p": 18,
+        "gf": 66,
+        "gc": 82,
+        "pts": 43,
+        "posicion": 11
       },
       {
         "equipo": "SACA DEL MEDIO",
@@ -805,17 +816,6 @@
         "gf": 49,
         "gc": 64,
         "pts": 42,
-        "posicion": 11
-      },
-      {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 34,
-        "g": 12,
-        "e": 4,
-        "p": 18,
-        "gf": 64,
-        "gc": 81,
-        "pts": 40,
         "posicion": 12
       },
       {
@@ -853,13 +853,13 @@
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 33,
-        "g": 6,
+        "pj": 36,
+        "g": 7,
         "e": 7,
-        "p": 20,
-        "gf": 34,
-        "gc": 85,
-        "pts": 25,
+        "p": 22,
+        "gf": 38,
+        "gc": 93,
+        "pts": 28,
         "posicion": 16
       },
       {
@@ -5726,39 +5726,48 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152371,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 18:45",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-221354-20260614_191107.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-221358-20260614_191110.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152218,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 20:00",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-220946-20260614_190724.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-220953-20260614_190727.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152524,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 17:30",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-221737-20260614_191434.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260614-221745-20260614_191437.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO VK",
@@ -5916,6 +5925,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-182653-17814616012912020975829054089534.jpg"
               ]
             },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152222,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 15:30",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-194332-17814661971514009962090331307971.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-194342-1781466209038205938099488717897.jpg"
+              ]
+            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152528,
               "goles_local": null,
@@ -5923,17 +5946,6 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-14 13:00",
-              "sede": "El Poli",
-              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
-            },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152222,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 15:30",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
@@ -6082,14 +6094,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152226,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 12:30",
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260615-013508-inbound1137249057446170377.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260615-013515-inbound8667024223982401338.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152532,

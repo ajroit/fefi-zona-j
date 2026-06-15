@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-14T20:16:10.633201Z",
+  "actualizado": "2026-06-15T10:28:57.609921Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -36,16 +36,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
+      "nombre": "PEDRO LOZANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013918-images__3___1_.png"
+    },
+    {
       "nombre": "ARGENTINO DE CASTELAR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
     },
     {
       "nombre": "VILLA SAHORES",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
-    },
-    {
-      "nombre": "PEDRO LOZANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013918-images__3___1_.png"
     },
     {
       "nombre": "MARCHIGIANA",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "ATENEO HAEDO",
-        "pj": 11,
-        "g": 10,
+        "pj": 12,
+        "g": 11,
         "e": 0,
         "p": 1,
-        "gf": 49,
+        "gf": 57,
         "gc": 16,
-        "pts": 30
+        "pts": 33
       },
       {
         "posicion": 2,
@@ -111,27 +111,38 @@
       {
         "posicion": 3,
         "equipo": "HAEDO JUNIOR",
-        "pj": 11,
+        "pj": 12,
         "g": 8,
         "e": 2,
-        "p": 1,
-        "gf": 53,
-        "gc": 36,
+        "p": 2,
+        "gf": 59,
+        "gc": 43,
         "pts": 26
       },
       {
         "posicion": 4,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 11,
-        "g": 6,
+        "pj": 12,
+        "g": 7,
         "e": 1,
         "p": 4,
-        "gf": 70,
-        "gc": 60,
-        "pts": 19
+        "gf": 77,
+        "gc": 66,
+        "pts": 22
       },
       {
         "posicion": 5,
+        "equipo": "PEDRO LOZANO",
+        "pj": 12,
+        "g": 6,
+        "e": 3,
+        "p": 3,
+        "gf": 46,
+        "gc": 35,
+        "pts": 21
+      },
+      {
+        "posicion": 6,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 11,
         "g": 6,
@@ -142,7 +153,7 @@
         "pts": 19
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 6,
@@ -151,17 +162,6 @@
         "gf": 41,
         "gc": 43,
         "pts": 19
-      },
-      {
-        "posicion": 7,
-        "equipo": "PEDRO LOZANO",
-        "pj": 11,
-        "g": 5,
-        "e": 3,
-        "p": 3,
-        "gf": 43,
-        "gc": 33,
-        "pts": 18
       },
       {
         "posicion": 8,
@@ -210,12 +210,12 @@
       {
         "posicion": 12,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 11,
+        "pj": 12,
         "g": 3,
         "e": 3,
-        "p": 5,
+        "p": 6,
         "gf": 44,
-        "gc": 62,
+        "gc": 70,
         "pts": 12
       },
       {
@@ -254,12 +254,12 @@
       {
         "posicion": 16,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 3,
-        "p": 7,
-        "gf": 37,
-        "gc": 46,
+        "p": 8,
+        "gf": 39,
+        "gc": 49,
         "pts": 6
       }
     ],
@@ -267,13 +267,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 11,
-        "g": 9,
+        "pj": 12,
+        "g": 10,
         "e": 1,
         "p": 1,
-        "gf": 87,
-        "gc": 50,
-        "pts": 28
+        "gf": 93,
+        "gc": 54,
+        "pts": 31
       },
       {
         "posicion": 2,
@@ -289,12 +289,12 @@
       {
         "posicion": 3,
         "equipo": "HAEDO JUNIOR",
-        "pj": 11,
+        "pj": 12,
         "g": 7,
         "e": 1,
-        "p": 3,
-        "gf": 47,
-        "gc": 35,
+        "p": 4,
+        "gf": 51,
+        "gc": 41,
         "pts": 22
       },
       {
@@ -311,12 +311,12 @@
       {
         "posicion": 5,
         "equipo": "ATENEO HAEDO",
-        "pj": 11,
+        "pj": 12,
         "g": 6,
         "e": 2,
-        "p": 3,
-        "gf": 54,
-        "gc": 34,
+        "p": 4,
+        "gf": 57,
+        "gc": 42,
         "pts": 20
       },
       {
@@ -343,6 +343,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 12,
+        "g": 6,
+        "e": 1,
+        "p": 5,
+        "gf": 57,
+        "gc": 58,
+        "pts": 19
+      },
+      {
+        "posicion": 9,
         "equipo": "RIVADAVIA 87",
         "pj": 12,
         "g": 4,
@@ -353,7 +364,7 @@
         "pts": 16
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 11,
         "g": 5,
@@ -364,36 +375,25 @@
         "pts": 16
       },
       {
-        "posicion": 10,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 11,
+        "posicion": 11,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 12,
         "g": 5,
         "e": 1,
-        "p": 5,
-        "gf": 52,
-        "gc": 55,
+        "p": 6,
+        "gf": 53,
+        "gc": 69,
         "pts": 16
       },
       {
-        "posicion": 11,
-        "equipo": "PEDRO LOZANO",
-        "pj": 11,
-        "g": 4,
-        "e": 1,
-        "p": 6,
-        "gf": 35,
-        "gc": 53,
-        "pts": 13
-      },
-      {
         "posicion": 12,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 11,
+        "equipo": "PEDRO LOZANO",
+        "pj": 12,
         "g": 4,
         "e": 1,
-        "p": 6,
-        "gf": 45,
-        "gc": 66,
+        "p": 7,
+        "gf": 38,
+        "gc": 58,
         "pts": 13
       },
       {
@@ -467,13 +467,13 @@
       {
         "posicion": 3,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 11,
-        "g": 9,
+        "pj": 12,
+        "g": 10,
         "e": 0,
         "p": 2,
-        "gf": 72,
-        "gc": 36,
-        "pts": 27
+        "gf": 76,
+        "gc": 38,
+        "pts": 30
       },
       {
         "posicion": 4,
@@ -488,17 +488,28 @@
       },
       {
         "posicion": 5,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 11,
+        "equipo": "ATENEO HAEDO",
+        "pj": 12,
         "g": 7,
         "e": 0,
-        "p": 4,
-        "gf": 35,
-        "gc": 29,
+        "p": 5,
+        "gf": 76,
+        "gc": 41,
         "pts": 21
       },
       {
         "posicion": 6,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 12,
+        "g": 7,
+        "e": 0,
+        "p": 5,
+        "gf": 39,
+        "gc": 35,
+        "pts": 21
+      },
+      {
+        "posicion": 7,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 12,
         "g": 6,
@@ -509,7 +520,7 @@
         "pts": 19
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 11,
         "g": 6,
@@ -518,17 +529,6 @@
         "gf": 49,
         "gc": 31,
         "pts": 19
-      },
-      {
-        "posicion": 8,
-        "equipo": "ATENEO HAEDO",
-        "pj": 11,
-        "g": 6,
-        "e": 0,
-        "p": 5,
-        "gf": 68,
-        "gc": 38,
-        "pts": 18
       },
       {
         "posicion": 9,
@@ -544,12 +544,12 @@
       {
         "posicion": 10,
         "equipo": "PEDRO LOZANO",
-        "pj": 11,
+        "pj": 12,
         "g": 4,
         "e": 1,
-        "p": 6,
-        "gf": 38,
-        "gc": 40,
+        "p": 7,
+        "gf": 40,
+        "gc": 44,
         "pts": 13
       },
       {
@@ -565,17 +565,28 @@
       },
       {
         "posicion": 12,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 11,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 12,
         "g": 3,
         "e": 1,
-        "p": 7,
-        "gf": 33,
-        "gc": 50,
+        "p": 8,
+        "gf": 47,
+        "gc": 62,
         "pts": 10
       },
       {
         "posicion": 13,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 12,
+        "g": 3,
+        "e": 1,
+        "p": 8,
+        "gf": 36,
+        "gc": 58,
+        "pts": 10
+      },
+      {
+        "posicion": 14,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 3,
@@ -584,17 +595,6 @@
         "gf": 22,
         "gc": 51,
         "pts": 10
-      },
-      {
-        "posicion": 14,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 11,
-        "g": 2,
-        "e": 1,
-        "p": 8,
-        "gf": 41,
-        "gc": 58,
-        "pts": 7
       },
       {
         "posicion": 15,
@@ -721,6 +721,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "ATENEO HAEDO",
+        "pj": 12,
+        "g": 4,
+        "e": 2,
+        "p": 6,
+        "gf": 47,
+        "gc": 49,
+        "pts": 14
+      },
+      {
+        "posicion": 11,
         "equipo": "ROTONDA",
         "pj": 11,
         "g": 3,
@@ -731,7 +742,7 @@
         "pts": 12
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "JUVENTUD",
         "pj": 11,
         "g": 3,
@@ -740,17 +751,6 @@
         "gf": 29,
         "gc": 64,
         "pts": 12
-      },
-      {
-        "posicion": 12,
-        "equipo": "ATENEO HAEDO",
-        "pj": 11,
-        "g": 3,
-        "e": 2,
-        "p": 6,
-        "gf": 38,
-        "gc": 46,
-        "pts": 11
       },
       {
         "posicion": 13,
@@ -788,12 +788,12 @@
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 2,
-        "p": 9,
-        "gf": 19,
-        "gc": 40,
+        "p": 10,
+        "gf": 22,
+        "gc": 49,
         "pts": 2
       }
     ],
@@ -2046,14 +2046,25 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 117,
+        "pj": 120,
         "g": 82,
         "e": 11,
-        "p": 24,
-        "gf": 520,
-        "gc": 208,
+        "p": 27,
+        "gf": 534,
+        "gc": 227,
         "pts": 257,
         "posicion": 1
+      },
+      {
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 120,
+        "g": 80,
+        "e": 5,
+        "p": 35,
+        "gf": 711,
+        "gc": 401,
+        "pts": 245,
+        "posicion": 2
       },
       {
         "equipo": "MARCHIGIANA",
@@ -2064,17 +2075,6 @@
         "gf": 539,
         "gc": 256,
         "pts": 237,
-        "posicion": 2
-      },
-      {
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 117,
-        "g": 77,
-        "e": 5,
-        "p": 35,
-        "gf": 692,
-        "gc": 387,
-        "pts": 236,
         "posicion": 3
       },
       {
@@ -2123,24 +2123,24 @@
       },
       {
         "equipo": "ESTRADA FUTSAL",
-        "pj": 114,
-        "g": 55,
+        "pj": 117,
+        "g": 57,
         "e": 9,
-        "p": 50,
-        "gf": 412,
-        "gc": 373,
-        "pts": 174,
+        "p": 51,
+        "gf": 423,
+        "gc": 381,
+        "pts": 180,
         "posicion": 8
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 117,
-        "g": 52,
+        "pj": 120,
+        "g": 53,
         "e": 17,
-        "p": 48,
-        "gf": 393,
-        "gc": 345,
-        "pts": 173,
+        "p": 50,
+        "gf": 401,
+        "gc": 356,
+        "pts": 176,
         "posicion": 9
       },
       {
@@ -2156,24 +2156,24 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 112,
-        "g": 49,
+        "pj": 116,
+        "g": 52,
         "e": 5,
-        "p": 58,
-        "gf": 371,
-        "gc": 409,
-        "pts": 152,
+        "p": 59,
+        "gf": 399,
+        "gc": 423,
+        "pts": 161,
         "posicion": 11
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 111,
-        "g": 43,
+        "pj": 115,
+        "g": 44,
         "e": 9,
-        "p": 59,
-        "gf": 330,
-        "gc": 404,
-        "pts": 138,
+        "p": 62,
+        "gf": 344,
+        "gc": 432,
+        "pts": 141,
         "posicion": 12
       },
       {
@@ -15862,49 +15862,33 @@
           "local": "CIENCIA Y LABOR",
           "visitante": "ATENEO HAEDO",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148178,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 19:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148298,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 17:30",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260615-010238-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260615-010245-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148418,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 16:15",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 148538,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 15:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260614-204137-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260614-204148-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148658,
@@ -15997,6 +15981,36 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260614-182059-1000533100.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260614-182133-1000533102.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148178,
+              "goles_local": 0,
+              "goles_visitante": 8,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 19:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-021213-1000533530.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-021214-1000533531.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-021218-1000533532.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148538,
+              "goles_local": 3,
+              "goles_visitante": 9,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 15:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-022326-1000533535.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-022327-1000533536.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260615-022333-1000533316.jpg"
               ]
             }
           },
@@ -16441,38 +16455,33 @@
           "local": "HAEDO JUNIOR",
           "visitante": "INDEPENDIENTE DE BECCAR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148182,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 19:30",
-              "sede": "Colegio San José ",
-              "direccion": "Casullo 362",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148302,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 18:00",
               "sede": "Colegio San José ",
               "direccion": "Casullo 362",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-231625-1000988275.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-231623-1000988276.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 148542,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 15:30",
               "sede": "Colegio San José ",
               "direccion": "Casullo 362",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-200902-1000988045.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-200904-1000988046.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148662,
@@ -16543,14 +16552,17 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148422,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 16:45",
               "sede": "Colegio San José ",
               "direccion": "Casullo 362",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260614-223417-1000003289.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260614-223423-1000003288.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149022,
@@ -16579,6 +16591,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-173939-1000987863.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-173936-1000987864.jpg"
               ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148182,
+              "goles_local": 6,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 19:30",
+              "sede": "Colegio San José ",
+              "direccion": "Casullo 362",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260615-015907-1000003466.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260615-015909-1000003465.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -16589,36 +16615,31 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148183,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 19:00",
               "sede": "El Ferroviario ",
               "direccion": "Reservistas Argentinos 219",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 148303,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 17:30",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-235655-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-235703-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148423,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 16:15",
               "sede": "El Ferroviario ",
               "direccion": "Reservistas Argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-203225-17814691328626666835298084293489.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-203234-17814691424106716814714310541915.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148663,
@@ -16728,6 +16749,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192518-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192522-image.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 148303,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 17:30",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-br0xdjquzlvyhxt3p6bccrtlm703/20260614-221330-1000502887.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-br0xdjquzlvyhxt3p6bccrtlm703/20260614-221336-1000502887.jpg"
               ]
             }
           },
