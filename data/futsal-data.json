@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-15T10:28:57.609921Z",
+  "actualizado": "2026-06-16T14:59:45.073643Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -866,6 +866,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "BPNA",
+        "pj": 12,
+        "g": 6,
+        "e": 0,
+        "p": 6,
+        "gf": 40,
+        "gc": 44,
+        "pts": 18
+      },
+      {
+        "posicion": 8,
         "equipo": "PEDRO LOZANO",
         "pj": 12,
         "g": 5,
@@ -876,7 +887,7 @@
         "pts": 16
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "ATENEO HAEDO",
         "pj": 11,
         "g": 5,
@@ -887,7 +898,7 @@
         "pts": 15
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "MARCHIGIANA",
         "pj": 12,
         "g": 5,
@@ -895,17 +906,6 @@
         "p": 7,
         "gf": 22,
         "gc": 35,
-        "pts": 15
-      },
-      {
-        "posicion": 10,
-        "equipo": "BPNA",
-        "pj": 11,
-        "g": 5,
-        "e": 0,
-        "p": 6,
-        "gf": 28,
-        "gc": 43,
         "pts": 15
       },
       {
@@ -955,12 +955,12 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 11,
+        "pj": 12,
         "g": 2,
         "e": 0,
-        "p": 9,
-        "gf": 15,
-        "gc": 65,
+        "p": 10,
+        "gf": 16,
+        "gc": 77,
         "pts": 6
       },
       {
@@ -1067,12 +1067,12 @@
       {
         "posicion": 9,
         "equipo": "JUVENTUD",
-        "pj": 11,
+        "pj": 12,
         "g": 4,
         "e": 1,
-        "p": 6,
-        "gf": 22,
-        "gc": 52,
+        "p": 7,
+        "gf": 23,
+        "gc": 59,
         "pts": 13
       },
       {
@@ -1132,6 +1132,17 @@
       },
       {
         "posicion": 15,
+        "equipo": "BPNA",
+        "pj": 12,
+        "g": 1,
+        "e": 0,
+        "p": 11,
+        "gf": 14,
+        "gc": 63,
+        "pts": 3
+      },
+      {
+        "posicion": 16,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 1,
@@ -1140,17 +1151,6 @@
         "gf": 5,
         "gc": 72,
         "pts": 3
-      },
-      {
-        "posicion": 16,
-        "equipo": "BPNA",
-        "pj": 11,
-        "g": 0,
-        "e": 0,
-        "p": 11,
-        "gf": 7,
-        "gc": 62,
-        "pts": 0
       }
     ],
     "OCTAVA MASCULINO": [
@@ -1255,6 +1255,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "JUVENTUD",
+        "pj": 12,
+        "g": 5,
+        "e": 1,
+        "p": 6,
+        "gf": 44,
+        "gc": 82,
+        "pts": 16
+      },
+      {
+        "posicion": 11,
         "equipo": "CIENCIA Y LABOR",
         "pj": 11,
         "g": 5,
@@ -1265,7 +1276,7 @@
         "pts": 15
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "LUNA DE MATANZA",
         "pj": 12,
         "g": 4,
@@ -1273,17 +1284,6 @@
         "p": 7,
         "gf": 39,
         "gc": 42,
-        "pts": 13
-      },
-      {
-        "posicion": 12,
-        "equipo": "JUVENTUD",
-        "pj": 11,
-        "g": 4,
-        "e": 1,
-        "p": 6,
-        "gf": 35,
-        "gc": 80,
         "pts": 13
       },
       {
@@ -1322,12 +1322,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 0,
-        "p": 11,
-        "gf": 5,
-        "gc": 58,
+        "p": 12,
+        "gf": 7,
+        "gc": 67,
         "pts": 0
       }
     ],
@@ -1389,6 +1389,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "JUVENTUD",
+        "pj": 12,
+        "g": 7,
+        "e": 3,
+        "p": 2,
+        "gf": 41,
+        "gc": 29,
+        "pts": 24
+      },
+      {
+        "posicion": 7,
         "equipo": "VILLA RITA",
         "pj": 11,
         "g": 7,
@@ -1397,17 +1408,6 @@
         "gf": 54,
         "gc": 30,
         "pts": 22
-      },
-      {
-        "posicion": 7,
-        "equipo": "JUVENTUD",
-        "pj": 11,
-        "g": 6,
-        "e": 3,
-        "p": 2,
-        "gf": 37,
-        "gc": 28,
-        "pts": 21
       },
       {
         "posicion": 8,
@@ -1478,12 +1478,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 0,
-        "p": 7,
-        "gf": 14,
-        "gc": 49,
+        "p": 8,
+        "gf": 15,
+        "gc": 53,
         "pts": 6
       },
       {
@@ -1523,6 +1523,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "JUVENTUD",
+        "pj": 12,
+        "g": 9,
+        "e": 0,
+        "p": 3,
+        "gf": 64,
+        "gc": 29,
+        "pts": 27
+      },
+      {
+        "posicion": 3,
         "equipo": "MARCHIGIANA",
         "pj": 12,
         "g": 8,
@@ -1533,7 +1544,7 @@
         "pts": 25
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "CIENCIA Y LABOR",
         "pj": 12,
         "g": 8,
@@ -1544,7 +1555,7 @@
         "pts": 25
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "VILLA RITA",
         "pj": 11,
         "g": 8,
@@ -1552,17 +1563,6 @@
         "p": 3,
         "gf": 45,
         "gc": 15,
-        "pts": 24
-      },
-      {
-        "posicion": 5,
-        "equipo": "JUVENTUD",
-        "pj": 11,
-        "g": 8,
-        "e": 0,
-        "p": 3,
-        "gf": 54,
-        "gc": 27,
         "pts": 24
       },
       {
@@ -1656,12 +1656,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 9,
+        "pj": 10,
         "g": 2,
         "e": 0,
-        "p": 7,
-        "gf": 14,
-        "gc": 44,
+        "p": 8,
+        "gf": 16,
+        "gc": 54,
         "pts": 6
       },
       {
@@ -1822,6 +1822,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "BPNA",
+        "pj": 9,
+        "g": 2,
+        "e": 0,
+        "p": 7,
+        "gf": 11,
+        "gc": 38,
+        "pts": 6
+      },
+      {
+        "posicion": 14,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 10,
         "g": 1,
@@ -1832,25 +1843,14 @@
         "pts": 4
       },
       {
-        "posicion": 14,
+        "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 3,
-        "p": 7,
+        "p": 8,
         "gf": 10,
-        "gc": 40,
-        "pts": 3
-      },
-      {
-        "posicion": 15,
-        "equipo": "BPNA",
-        "pj": 8,
-        "g": 1,
-        "e": 0,
-        "p": 7,
-        "gf": 5,
-        "gc": 38,
+        "gc": 46,
         "pts": 3
       },
       {
@@ -2178,13 +2178,13 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 111,
-        "g": 32,
+        "pj": 117,
+        "g": 35,
         "e": 16,
-        "p": 63,
-        "gf": 286,
-        "gc": 553,
-        "pts": 112,
+        "p": 66,
+        "gf": 311,
+        "gc": 583,
+        "pts": 121,
         "posicion": 13
       },
       {
@@ -2211,13 +2211,13 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 105,
-        "g": 20,
+        "pj": 111,
+        "g": 23,
         "e": 4,
-        "p": 81,
-        "gf": 218,
-        "gc": 596,
-        "pts": 64,
+        "p": 84,
+        "gf": 248,
+        "gc": 621,
+        "pts": 73,
         "posicion": 16
       }
     ]
@@ -15445,58 +15445,59 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 148655,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 12,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 15:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-201925-274009.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-201928-274075.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148775,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 14:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-182550-273964.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-182554-273965.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149015,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 10:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
-            },
-            "2017 PROMOCIONALES": {
-              "match_id": 149135,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-15 11:00",
-              "sede": "Sociedad de fomento Villa Don Bosco ",
-              "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-141325-273645.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-141328-273646.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149255,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 12:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-165517-273794.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-165520-273798.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149375,
@@ -15511,14 +15512,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148895,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 9,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 13:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-172612-273875.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-172615-273876.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148295,
@@ -15543,6 +15547,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260606-233027-1000578355.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260606-233036-1000578354.jpg"
+              ]
+            },
+            "2017 PROMOCIONALES": {
+              "match_id": 149135,
+              "goles_local": 10,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-15 11:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-151430-273667.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260615-151433-273668.jpg"
               ]
             }
           },

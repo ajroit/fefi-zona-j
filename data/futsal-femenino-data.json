@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-15T10:29:07.374792Z",
+  "actualizado": "2026-06-16T14:59:57.064227Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -20,12 +20,16 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
+      "nombre": "CENTRO ASTURIANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
+    },
+    {
       "nombre": "ASTRA MACKIE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
-      "nombre": "CENTRO ASTURIANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
+      "nombre": "ALLENDE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "VILLA SAHORES",
@@ -34,10 +38,6 @@
     {
       "nombre": "EL GALPON",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
-    },
-    {
-      "nombre": "ALLENDE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "MAVIA FC",
@@ -110,6 +110,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 11,
+        "g": 8,
+        "e": 2,
+        "p": 1,
+        "gf": 42,
+        "gc": 9,
+        "pts": 26
+      },
+      {
+        "posicion": 4,
         "equipo": "ASTRA MACKIE",
         "pj": 12,
         "g": 8,
@@ -120,18 +131,18 @@
         "pts": 26
       },
       {
-        "posicion": 4,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 10,
-        "g": 7,
-        "e": 2,
+        "posicion": 5,
+        "equipo": "ALLENDE",
+        "pj": 11,
+        "g": 6,
+        "e": 4,
         "p": 1,
-        "gf": 34,
-        "gc": 9,
-        "pts": 23
+        "gf": 33,
+        "gc": 13,
+        "pts": 22
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 7,
@@ -142,7 +153,7 @@
         "pts": 22
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "EL GALPON",
         "pj": 11,
         "g": 7,
@@ -151,17 +162,6 @@
         "gf": 21,
         "gc": 13,
         "pts": 22
-      },
-      {
-        "posicion": 7,
-        "equipo": "ALLENDE",
-        "pj": 10,
-        "g": 5,
-        "e": 4,
-        "p": 1,
-        "gf": 28,
-        "gc": 13,
-        "pts": 19
       },
       {
         "posicion": 8,
@@ -232,12 +232,12 @@
       {
         "posicion": 14,
         "equipo": "SACA DEL MEDIO",
-        "pj": 11,
+        "pj": 12,
         "g": 2,
         "e": 4,
-        "p": 5,
+        "p": 6,
         "gf": 13,
-        "gc": 26,
+        "gc": 31,
         "pts": 10
       },
       {
@@ -265,12 +265,12 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 10,
+        "pj": 11,
         "g": 1,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 12,
-        "gc": 36,
+        "gc": 44,
         "pts": 3
       },
       {
@@ -332,6 +332,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ALLENDE",
+        "pj": 11,
+        "g": 8,
+        "e": 1,
+        "p": 2,
+        "gf": 29,
+        "gc": 5,
+        "pts": 25
+      },
+      {
+        "posicion": 6,
         "equipo": "SOCIAL OESTE",
         "pj": 12,
         "g": 7,
@@ -342,25 +353,14 @@
         "pts": 23
       },
       {
-        "posicion": 6,
-        "equipo": "ALLENDE",
-        "pj": 10,
-        "g": 7,
-        "e": 1,
-        "p": 2,
-        "gf": 26,
-        "gc": 5,
-        "pts": 22
-      },
-      {
         "posicion": 7,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 11,
+        "pj": 12,
         "g": 6,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 28,
-        "gc": 15,
+        "gc": 16,
         "pts": 20
       },
       {
@@ -399,12 +399,12 @@
       {
         "posicion": 11,
         "equipo": "SACA DEL MEDIO",
-        "pj": 11,
+        "pj": 12,
         "g": 4,
         "e": 1,
-        "p": 6,
+        "p": 7,
         "gf": 11,
-        "gc": 27,
+        "gc": 30,
         "pts": 13
       },
       {
@@ -453,6 +453,17 @@
       },
       {
         "posicion": 16,
+        "equipo": "CENTRO VK",
+        "pj": 11,
+        "g": 2,
+        "e": 2,
+        "p": 7,
+        "gf": 8,
+        "gc": 19,
+        "pts": 8
+      },
+      {
+        "posicion": 17,
         "equipo": "ZIZOU FUTSAL",
         "pj": 12,
         "g": 2,
@@ -461,17 +472,6 @@
         "gf": 13,
         "gc": 26,
         "pts": 8
-      },
-      {
-        "posicion": 17,
-        "equipo": "CENTRO VK",
-        "pj": 10,
-        "g": 1,
-        "e": 2,
-        "p": 7,
-        "gf": 7,
-        "gc": 19,
-        "pts": 5
       },
       {
         "posicion": 18,
@@ -499,6 +499,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ALLENDE",
+        "pj": 11,
+        "g": 10,
+        "e": 0,
+        "p": 1,
+        "gf": 30,
+        "gc": 8,
+        "pts": 30
+      },
+      {
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 12,
         "g": 9,
@@ -509,18 +520,18 @@
         "pts": 28
       },
       {
-        "posicion": 3,
-        "equipo": "ALLENDE",
-        "pj": 10,
-        "g": 9,
-        "e": 0,
-        "p": 1,
-        "gf": 28,
-        "gc": 8,
-        "pts": 27
+        "posicion": 4,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 12,
+        "g": 8,
+        "e": 1,
+        "p": 3,
+        "gf": 35,
+        "gc": 13,
+        "pts": 25
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 8,
@@ -531,7 +542,7 @@
         "pts": 25
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 11,
         "g": 7,
@@ -542,25 +553,14 @@
         "pts": 23
       },
       {
-        "posicion": 6,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 11,
-        "g": 7,
-        "e": 1,
-        "p": 3,
-        "gf": 32,
-        "gc": 13,
-        "pts": 22
-      },
-      {
         "posicion": 7,
         "equipo": "SACA DEL MEDIO",
-        "pj": 11,
+        "pj": 12,
         "g": 5,
         "e": 4,
-        "p": 2,
+        "p": 3,
         "gf": 25,
-        "gc": 11,
+        "gc": 13,
         "pts": 19
       },
       {
@@ -665,12 +665,12 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 9,
+        "pj": 10,
         "g": 0,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 1,
-        "gc": 45,
+        "gc": 48,
         "pts": 0
       },
       {
@@ -709,6 +709,17 @@
         "posicion": 2
       },
       {
+        "equipo": "ALLENDE",
+        "pj": 33,
+        "g": 24,
+        "e": 5,
+        "p": 4,
+        "gf": 92,
+        "gc": 26,
+        "pts": 77,
+        "posicion": 3
+      },
+      {
         "equipo": "VILLA SAHORES",
         "pj": 36,
         "g": 23,
@@ -717,28 +728,17 @@
         "gf": 79,
         "gc": 48,
         "pts": 73,
-        "posicion": 3
-      },
-      {
-        "equipo": "ALLENDE",
-        "pj": 30,
-        "g": 21,
-        "e": 5,
-        "p": 4,
-        "gf": 82,
-        "gc": 26,
-        "pts": 68,
         "posicion": 4
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 32,
-        "g": 20,
+        "pj": 35,
+        "g": 22,
         "e": 5,
-        "p": 7,
-        "gf": 94,
-        "gc": 37,
-        "pts": 65,
+        "p": 8,
+        "gf": 105,
+        "gc": 38,
+        "pts": 71,
         "posicion": 5
       },
       {
@@ -809,12 +809,12 @@
       },
       {
         "equipo": "SACA DEL MEDIO",
-        "pj": 33,
+        "pj": 36,
         "g": 11,
         "e": 9,
-        "p": 13,
+        "p": 16,
         "gf": 49,
-        "gc": 64,
+        "gc": 74,
         "pts": 42,
         "posicion": 12
       },
@@ -864,13 +864,13 @@
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 29,
-        "g": 2,
+        "pj": 32,
+        "g": 3,
         "e": 2,
-        "p": 25,
-        "gf": 20,
-        "gc": 100,
-        "pts": 8,
+        "p": 27,
+        "gf": 21,
+        "gc": 111,
+        "pts": 11,
         "posicion": 17
       },
       {
@@ -5775,39 +5775,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152219,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 12:30",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-165653-inbound1074729566964921975.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-165656-inbound725313850932720733.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152372,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 11:15",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-152948-inbound6691270233162389056.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-152951-inbound3993152735982404149.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152525,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 10:00",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-141751-inbound7810637978421770744.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-141755-inbound1958101478817340977.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ASTRA MACKIE",
@@ -5959,39 +5968,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152223,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 16:30",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-213219-inbound4690176789467584140.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-213221-inbound3246085704457857957.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152376,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 15:15",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-194847-inbound4832403242526772469.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-194851-inbound9102239537964954758.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152529,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 14:00",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-182938-inbound6058462929621971269.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260615-182941-inbound6932731269120562716.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VILLA SAHORES",

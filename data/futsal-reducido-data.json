@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-15T10:29:03.577282Z",
+  "actualizado": "2026-06-16T14:59:52.684696Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -325,6 +325,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 11,
+        "g": 8,
+        "e": 1,
+        "p": 2,
+        "gf": 66,
+        "gc": 34,
+        "pts": 25
+      },
+      {
+        "posicion": 5,
         "equipo": "PACHECO SUR",
         "pj": 12,
         "g": 7,
@@ -335,7 +346,7 @@
         "pts": 24
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "MAYO FUTSAL",
         "pj": 11,
         "g": 7,
@@ -346,29 +357,7 @@
         "pts": 22
       },
       {
-        "posicion": 6,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 10,
-        "g": 7,
-        "e": 1,
-        "p": 2,
-        "gf": 61,
-        "gc": 34,
-        "pts": 22
-      },
-      {
         "posicion": 7,
-        "equipo": "VILLA SAHORES",
-        "pj": 10,
-        "g": 6,
-        "e": 1,
-        "p": 3,
-        "gf": 52,
-        "gc": 34,
-        "pts": 19
-      },
-      {
-        "posicion": 8,
         "equipo": "UGAB",
         "pj": 12,
         "g": 6,
@@ -376,6 +365,17 @@
         "p": 5,
         "gf": 79,
         "gc": 64,
+        "pts": 19
+      },
+      {
+        "posicion": 8,
+        "equipo": "VILLA SAHORES",
+        "pj": 11,
+        "g": 6,
+        "e": 1,
+        "p": 4,
+        "gf": 52,
+        "gc": 39,
         "pts": 19
       },
       {
@@ -424,17 +424,6 @@
       },
       {
         "posicion": 13,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 11,
-        "g": 3,
-        "e": 3,
-        "p": 5,
-        "gf": 53,
-        "gc": 62,
-        "pts": 12
-      },
-      {
-        "posicion": 14,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 4,
@@ -442,6 +431,17 @@
         "p": 7,
         "gf": 43,
         "gc": 54,
+        "pts": 12
+      },
+      {
+        "posicion": 14,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 12,
+        "g": 3,
+        "e": 3,
+        "p": 6,
+        "gf": 62,
+        "gc": 74,
         "pts": 12
       },
       {
@@ -458,13 +458,13 @@
       {
         "posicion": 16,
         "equipo": "RESPLANDOR",
-        "pj": 11,
-        "g": 1,
+        "pj": 12,
+        "g": 2,
         "e": 1,
         "p": 9,
-        "gf": 44,
-        "gc": 70,
-        "pts": 4
+        "gf": 56,
+        "gc": 79,
+        "pts": 7
       },
       {
         "posicion": 17,
@@ -504,13 +504,13 @@
       {
         "posicion": 2,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 11,
+        "pj": 12,
         "g": 9,
-        "e": 1,
+        "e": 2,
         "p": 1,
-        "gf": 56,
-        "gc": 28,
-        "pts": 28
+        "gf": 59,
+        "gc": 31,
+        "pts": 29
       },
       {
         "posicion": 3,
@@ -570,12 +570,12 @@
       {
         "posicion": 8,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 11,
+        "pj": 12,
         "g": 5,
         "e": 3,
-        "p": 3,
-        "gf": 36,
-        "gc": 36,
+        "p": 4,
+        "gf": 38,
+        "gc": 40,
         "pts": 18
       },
       {
@@ -613,6 +613,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "RESPLANDOR",
+        "pj": 12,
+        "g": 4,
+        "e": 1,
+        "p": 7,
+        "gf": 48,
+        "gc": 57,
+        "pts": 13
+      },
+      {
+        "posicion": 13,
         "equipo": "UGAB",
         "pj": 12,
         "g": 4,
@@ -623,7 +634,7 @@
         "pts": 12
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 12,
         "g": 3,
@@ -634,7 +645,7 @@
         "pts": 11
       },
       {
-        "posicion": 14,
+        "posicion": 15,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 3,
@@ -643,17 +654,6 @@
         "gf": 29,
         "gc": 48,
         "pts": 11
-      },
-      {
-        "posicion": 15,
-        "equipo": "RESPLANDOR",
-        "pj": 11,
-        "g": 3,
-        "e": 1,
-        "p": 7,
-        "gf": 44,
-        "gc": 55,
-        "pts": 10
       },
       {
         "posicion": 16,
@@ -669,13 +669,13 @@
       {
         "posicion": 17,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 1,
-        "e": 1,
+        "e": 2,
         "p": 8,
-        "gf": 25,
-        "gc": 52,
-        "pts": 4
+        "gf": 28,
+        "gc": 55,
+        "pts": 5
       },
       {
         "posicion": 18,
@@ -715,13 +715,13 @@
       {
         "posicion": 3,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 11,
-        "g": 9,
+        "pj": 12,
+        "g": 10,
         "e": 1,
         "p": 1,
-        "gf": 54,
-        "gc": 17,
-        "pts": 28
+        "gf": 61,
+        "gc": 20,
+        "pts": 31
       },
       {
         "posicion": 4,
@@ -736,6 +736,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "RESPLANDOR",
+        "pj": 12,
+        "g": 7,
+        "e": 1,
+        "p": 4,
+        "gf": 52,
+        "gc": 46,
+        "pts": 22
+      },
+      {
+        "posicion": 6,
         "equipo": "VICTORIA",
         "pj": 12,
         "g": 7,
@@ -744,17 +755,6 @@
         "gf": 60,
         "gc": 45,
         "pts": 21
-      },
-      {
-        "posicion": 6,
-        "equipo": "RESPLANDOR",
-        "pj": 11,
-        "g": 6,
-        "e": 1,
-        "p": 4,
-        "gf": 46,
-        "gc": 43,
-        "pts": 19
       },
       {
         "posicion": 7,
@@ -792,23 +792,23 @@
       {
         "posicion": 10,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 5,
         "e": 0,
-        "p": 5,
-        "gf": 36,
-        "gc": 29,
+        "p": 6,
+        "gf": 39,
+        "gc": 36,
         "pts": 15
       },
       {
         "posicion": 11,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 11,
+        "pj": 12,
         "g": 5,
         "e": 0,
-        "p": 6,
-        "gf": 34,
-        "gc": 34,
+        "p": 7,
+        "gf": 37,
+        "gc": 40,
         "pts": 15
       },
       {
@@ -937,13 +937,13 @@
       {
         "posicion": 5,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 11,
-        "g": 8,
+        "pj": 12,
+        "g": 9,
         "e": 0,
         "p": 3,
-        "gf": 52,
-        "gc": 27,
-        "pts": 24
+        "gf": 56,
+        "gc": 30,
+        "pts": 27
       },
       {
         "posicion": 6,
@@ -970,12 +970,12 @@
       {
         "posicion": 8,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 6,
         "e": 0,
-        "p": 4,
-        "gf": 36,
-        "gc": 37,
+        "p": 5,
+        "gf": 39,
+        "gc": 41,
         "pts": 18
       },
       {
@@ -1125,6 +1125,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 12,
+        "g": 9,
+        "e": 0,
+        "p": 3,
+        "gf": 65,
+        "gc": 27,
+        "pts": 27
+      },
+      {
+        "posicion": 5,
         "equipo": "CAPITAN ROSALES",
         "pj": 12,
         "g": 8,
@@ -1133,17 +1144,6 @@
         "gf": 58,
         "gc": 28,
         "pts": 25
-      },
-      {
-        "posicion": 5,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 11,
-        "g": 8,
-        "e": 0,
-        "p": 3,
-        "gf": 57,
-        "gc": 26,
-        "pts": 24
       },
       {
         "posicion": 6,
@@ -1280,12 +1280,12 @@
       {
         "posicion": 18,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 1,
-        "p": 9,
-        "gf": 8,
-        "gc": 40,
+        "p": 10,
+        "gf": 9,
+        "gc": 48,
         "pts": 1
       }
     ],
@@ -1413,24 +1413,24 @@
       },
       {
         "posicion": 12,
-        "equipo": "VILLA SAHORES",
-        "pj": 10,
-        "g": 4,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 12,
+        "g": 5,
         "e": 0,
-        "p": 6,
-        "gf": 39,
-        "gc": 35,
-        "pts": 12
+        "p": 7,
+        "gf": 32,
+        "gc": 49,
+        "pts": 15
       },
       {
         "posicion": 13,
-        "equipo": "PROGRESO SANTA RITA",
+        "equipo": "VILLA SAHORES",
         "pj": 11,
         "g": 4,
         "e": 0,
         "p": 7,
-        "gf": 29,
-        "gc": 48,
+        "gf": 40,
+        "gc": 38,
         "pts": 12
       },
       {
@@ -1513,6 +1513,17 @@
         "posicion": 2
       },
       {
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 81,
+        "g": 56,
+        "e": 7,
+        "p": 18,
+        "gf": 385,
+        "gc": 224,
+        "pts": 175,
+        "posicion": 3
+      },
+      {
         "equipo": "VICTORIA",
         "pj": 83,
         "g": 54,
@@ -1521,17 +1532,6 @@
         "gf": 463,
         "gc": 316,
         "pts": 168,
-        "posicion": 3
-      },
-      {
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 75,
-        "g": 51,
-        "e": 6,
-        "p": 18,
-        "gf": 355,
-        "gc": 213,
-        "pts": 159,
         "posicion": 4
       },
       {
@@ -1602,35 +1602,35 @@
       },
       {
         "equipo": "BRISAS DE HAEDO",
-        "pj": 80,
+        "pj": 83,
         "g": 37,
         "e": 9,
-        "p": 34,
-        "gf": 323,
-        "gc": 308,
+        "p": 37,
+        "gf": 337,
+        "gc": 330,
         "pts": 120,
         "posicion": 11
       },
       {
         "equipo": "RESPLANDOR",
-        "pj": 80,
-        "g": 30,
+        "pj": 83,
+        "g": 33,
         "e": 7,
         "p": 43,
-        "gf": 387,
-        "gc": 395,
-        "pts": 97,
+        "gf": 409,
+        "gc": 409,
+        "pts": 106,
         "posicion": 12
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 70,
+        "pj": 76,
         "g": 26,
-        "e": 4,
-        "p": 40,
-        "gf": 248,
-        "gc": 287,
-        "pts": 82,
+        "e": 5,
+        "p": 45,
+        "gf": 259,
+        "gc": 317,
+        "pts": 83,
         "posicion": 13
       },
       {
@@ -4261,83 +4261,104 @@
           "partidos": {
             "SEPTIMA MASCULINO": {
               "match_id": 150200,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 15:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-192306-1000641434.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-192310-1000641435.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 149588,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 19:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-223057-1000641720.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-223109-1000641721.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 149741,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 18:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-234042-1000641808.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-234046-1000641809.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149894,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 17:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-213701-1000641669.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-213702-1000641670.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150353,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 14:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-181151-1000641387.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-181210-1000641388.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 150047,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 16:00",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-202932-1000641566.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260615-202946-1000641567.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 149435,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 20:15",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260616-004731-1000641819.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260616-004744-1000641820.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "EL IDEAL",
@@ -12174,20 +12195,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-clhvnilqdonndhfj9bnfvkctjwf2/20260614-222659-1000595004.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "match_id": 149970,
-              "goles_local": 3,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-14 17:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-clhvnilqdonndhfj9bnfvkctjwf2/20260614-211652-1000594980.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-clhvnilqdonndhfj9bnfvkctjwf2/20260614-211657-1000594981.jpg"
-              ]
-            },
             "SEXTA MASCULINO": {
               "match_id": 150123,
               "goles_local": 3,
@@ -12200,6 +12207,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260614-212417-inbound6072617568379298227.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260614-212426-inbound7028322577850546066.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 149970,
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 17:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-clhvnilqdonndhfj9bnfvkctjwf2/20260614-211652-1000594980.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-clhvnilqdonndhfj9bnfvkctjwf2/20260614-211657-1000594981.jpg"
               ]
             }
           },
@@ -12308,17 +12329,6 @@
           "local": "CRISOL JUVENTUD",
           "visitante": "SUD AMERICA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 149513,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 21:15",
-              "sede": "Crisol",
-              "direccion": "Colon 849, Ramos Mejía",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149666,
               "goles_local": 4,
@@ -12401,6 +12411,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260614-215531-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260614-215555-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149513,
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 21:15",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260615-141836-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260615-141845-image.jpg"
               ]
             }
           },
