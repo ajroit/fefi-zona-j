@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-16T14:59:57.064227Z",
+  "actualizado": "2026-06-16T22:34:08.784114Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -5669,20 +5669,6 @@
           "local": "CENTRO ASTURIANO",
           "visitante": "SOCIAL OESTE",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152217,
-              "goles_local": 0,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-06 21:00",
-              "sede": "Centro Asturiano Sede Deportiva Vicente López",
-              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220802-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220752-image.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152523,
               "goles_local": 1,
@@ -5709,6 +5695,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220400-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220407-image.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152217,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-06 21:00",
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220802-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220752-image.jpg"
               ]
             }
           },
@@ -5885,20 +5885,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-142046-inbound3817725575352353053.jpg"
               ]
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152527,
-              "goles_local": 3,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-14 09:00",
-              "sede": "Juventud de Tapiales",
-              "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-131526-inbound4245094135737225782.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-131534-inbound1058099012750061193.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152221,
               "goles_local": 2,
@@ -5912,6 +5898,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-163607-inbound4795852205261779744.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-163615-inbound358023065999647279.jpg"
               ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152527,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 09:00",
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-131526-inbound4245094135737225782.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260614-131534-inbound1058099012750061193.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -5920,20 +5920,6 @@
           "local": "INDEPENDIENTE (C)",
           "visitante": "SAN TELMO",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152375,
-              "goles_local": 2,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-14 14:15",
-              "sede": "El Poli",
-              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-182644-1781461588808462709337834958355.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-182653-17814616012912020975829054089534.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152222,
               "goles_local": 2,
@@ -5958,6 +5944,20 @@
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152375,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 14:15",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-182644-1781461588808462709337834958355.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260614-182653-17814616012912020975829054089534.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -6029,20 +6029,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-012457-1001109198.jpg"
               ]
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152530,
-              "goles_local": 2,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-13 20:00",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000840-1001108969.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000844-1001108970.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152224,
               "goles_local": 3,
@@ -6056,6 +6042,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024320-1001109358.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024325-1001109361.jpg"
               ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152530,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-13 20:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000840-1001108969.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000844-1001108970.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -6064,6 +6064,17 @@
           "local": "ESTRELLA FEDERAL",
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152531,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152225,
               "goles_local": 1,
@@ -6091,17 +6102,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260614-142931-1000188632.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260614-142933-1000188631.jpg"
               ]
-            },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152531,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -6110,6 +6110,17 @@
           "local": "EL GALPON",
           "visitante": "VELEZ SARSFIELD",
           "partidos": {
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152532,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-14 10:00",
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
+              "planillas": null
+            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152226,
               "goles_local": 1,
@@ -6123,17 +6134,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260615-013508-inbound1137249057446170377.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ossokvexfza46dz7bnymmx2ccyz1/20260615-013515-inbound8667024223982401338.jpg"
               ]
-            },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152532,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-14 10:00",
-              "sede": "EL GALPON",
-              "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152379,
