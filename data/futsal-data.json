@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-16T22:33:59.782709Z",
+  "actualizado": "2026-06-17T09:06:59.280056Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -16684,20 +16684,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-150724-17814496367702651748190672745073.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "match_id": 148543,
-              "goles_local": 1,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-14 15:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192518-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192522-image.jpg"
-              ]
-            },
             "SEXTA MASCULINO": {
               "match_id": 148663,
               "goles_local": 2,
@@ -16710,6 +16696,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-180636-17814603840126778255948346170564.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-180644-17814603947002717817781984854158.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148543,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-14 15:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192518-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260614-192522-image.jpg"
               ]
             },
             "SEPTIMA MASCULINO": {
