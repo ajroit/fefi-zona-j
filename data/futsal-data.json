@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-17T09:06:59.280056Z",
+  "actualizado": "2026-06-18T08:51:11.210056Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -456,13 +456,13 @@
       {
         "posicion": 2,
         "equipo": "LUNA DE MATANZA",
-        "pj": 11,
-        "g": 10,
+        "pj": 12,
+        "g": 11,
         "e": 0,
         "p": 1,
-        "gf": 69,
-        "gc": 17,
-        "pts": 30
+        "gf": 75,
+        "gc": 18,
+        "pts": 33
       },
       {
         "posicion": 3,
@@ -610,12 +610,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 0,
-        "p": 11,
-        "gf": 24,
-        "gc": 112,
+        "p": 12,
+        "gf": 25,
+        "gc": 118,
         "pts": 0
       }
     ],
@@ -623,13 +623,13 @@
       {
         "posicion": 1,
         "equipo": "LUNA DE MATANZA",
-        "pj": 11,
-        "g": 10,
+        "pj": 12,
+        "g": 11,
         "e": 1,
         "p": 0,
-        "gf": 65,
-        "gc": 35,
-        "pts": 31
+        "gf": 72,
+        "gc": 39,
+        "pts": 34
       },
       {
         "posicion": 2,
@@ -777,12 +777,12 @@
       {
         "posicion": 15,
         "equipo": "BPNA",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 1,
-        "p": 9,
-        "gf": 19,
-        "gc": 59,
+        "p": 10,
+        "gf": 23,
+        "gc": 66,
         "pts": 4
       },
       {
@@ -1701,6 +1701,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 12,
+        "g": 10,
+        "e": 0,
+        "p": 2,
+        "gf": 51,
+        "gc": 15,
+        "pts": 30
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA RITA",
         "pj": 11,
         "g": 9,
@@ -1708,17 +1719,6 @@
         "p": 2,
         "gf": 68,
         "gc": 20,
-        "pts": 27
-      },
-      {
-        "posicion": 3,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 11,
-        "g": 9,
-        "e": 0,
-        "p": 2,
-        "gf": 46,
-        "gc": 15,
         "pts": 27
       },
       {
@@ -1734,6 +1734,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ROTONDA",
+        "pj": 11,
+        "g": 8,
+        "e": 1,
+        "p": 2,
+        "gf": 47,
+        "gc": 18,
+        "pts": 25
+      },
+      {
+        "posicion": 6,
         "equipo": "PEDRO LOZANO",
         "pj": 12,
         "g": 7,
@@ -1742,17 +1753,6 @@
         "gf": 44,
         "gc": 16,
         "pts": 23
-      },
-      {
-        "posicion": 6,
-        "equipo": "ROTONDA",
-        "pj": 10,
-        "g": 7,
-        "e": 1,
-        "p": 2,
-        "gf": 42,
-        "gc": 18,
-        "pts": 22
       },
       {
         "posicion": 7,
@@ -1790,12 +1790,12 @@
       {
         "posicion": 10,
         "equipo": "ATENEO HAEDO",
-        "pj": 10,
+        "pj": 11,
         "g": 4,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 25,
-        "gc": 33,
+        "gc": 38,
         "pts": 12
       },
       {
@@ -1845,12 +1845,12 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 3,
-        "p": 8,
+        "p": 9,
         "gf": 10,
-        "gc": 46,
+        "gc": 51,
         "pts": 3
       },
       {
@@ -2079,14 +2079,25 @@
       },
       {
         "equipo": "ROTONDA",
-        "pj": 114,
-        "g": 61,
+        "pj": 115,
+        "g": 62,
         "e": 13,
         "p": 40,
-        "gf": 467,
+        "gf": 472,
         "gc": 387,
-        "pts": 196,
+        "pts": 199,
         "posicion": 4
+      },
+      {
+        "equipo": "LUNA DE MATANZA",
+        "pj": 118,
+        "g": 59,
+        "e": 9,
+        "p": 50,
+        "gf": 464,
+        "gc": 394,
+        "pts": 186,
+        "posicion": 5
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -2097,7 +2108,7 @@
         "gf": 372,
         "gc": 296,
         "pts": 185,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "RIVADAVIA 87",
@@ -2108,7 +2119,7 @@
         "gf": 437,
         "gc": 421,
         "pts": 185,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2119,17 +2130,6 @@
         "gf": 424,
         "gc": 381,
         "pts": 182,
-        "posicion": 7
-      },
-      {
-        "equipo": "LUNA DE MATANZA",
-        "pj": 116,
-        "g": 57,
-        "e": 9,
-        "p": 50,
-        "gf": 451,
-        "gc": 389,
-        "pts": 180,
         "posicion": 8
       },
       {
@@ -2156,34 +2156,34 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 117,
+        "pj": 118,
         "g": 53,
         "e": 5,
-        "p": 59,
+        "p": 60,
         "gf": 404,
-        "gc": 423,
+        "gc": 428,
         "pts": 164,
         "posicion": 11
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 116,
-        "g": 44,
+        "pj": 117,
+        "g": 45,
         "e": 9,
         "p": 63,
-        "gf": 344,
+        "gf": 349,
         "gc": 437,
-        "pts": 141,
+        "pts": 144,
         "posicion": 12
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 117,
+        "pj": 118,
         "g": 35,
         "e": 16,
-        "p": 66,
+        "p": 67,
         "gf": 311,
-        "gc": 583,
+        "gc": 588,
         "pts": 121,
         "posicion": 13
       },
@@ -2211,12 +2211,12 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 112,
+        "pj": 114,
         "g": 24,
         "e": 4,
-        "p": 84,
-        "gf": 253,
-        "gc": 621,
+        "p": 86,
+        "gf": 258,
+        "gc": 634,
         "pts": 76,
         "posicion": 16
       }
@@ -15946,7 +15946,7 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149258,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -16252,20 +16252,6 @@
               "direccion": null,
               "planillas": null
             },
-            "QUINTA MASCULINO": {
-              "match_id": 148540,
-              "goles_local": 4,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-13 15:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260613-192702-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260613-192707-image.jpg"
-              ]
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 148780,
               "goles_local": 0,
@@ -16306,6 +16292,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260613-162041-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260613-162104-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148540,
+              "goles_local": 4,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-13 15:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260613-192702-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ktxrn3g00qwam4njc5myeoquc3d2/20260613-192707-image.jpg"
               ]
             }
           },
@@ -16356,7 +16356,7 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149261,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -17051,20 +17051,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260613-143502-image.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 148185,
-              "goles_local": 4,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-13 19:30",
-              "sede": "Club deportivo Riestra ",
-              "direccion": "Ana María janer 2601",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260614-003215-1000435284.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260614-003208-1000435283.jpg"
-              ]
-            },
             "TERCERA MASCULINO": {
               "match_id": 148305,
               "goles_local": 10,
@@ -17077,6 +17063,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260614-011246-1000584330.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260614-011248-1000584329.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148185,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-13 19:30",
+              "sede": "Club deportivo Riestra ",
+              "direccion": "Ana María janer 2601",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260614-003215-1000435284.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1osqexizr4ylb7scooer1gwnmal2/20260614-003208-1000435283.jpg"
               ]
             },
             "SEPTIMA MASCULINO": {
@@ -17100,7 +17100,7 @@
     },
     {
       "numero": 13,
-      "fecha_partido": null,
+      "fecha_partido": "2026-06-20",
       "encuentros": [
         {
           "local": "ATENEO HAEDO",
@@ -17112,9 +17112,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 18:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17123,9 +17123,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 16:30",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17134,9 +17134,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 15:15",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17145,9 +17145,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 14:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17156,9 +17156,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 11:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17167,9 +17167,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 12:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17178,9 +17178,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 13:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17189,9 +17189,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 12:00",
+              "sede": "Club ateneo ",
+              "direccion": "Las bases 221",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17200,9 +17200,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 11:00",
+              "sede": "Club ateneo ",
+              "direccion": "Las bases 221",
               "planillas": null
             },
             "2018 PROMOCIONALES": {
@@ -17211,9 +17211,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 10:00",
+              "sede": "Club ateneo ",
+              "direccion": "Las bases 221",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -17368,9 +17368,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 20:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17379,9 +17379,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 18:30",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17390,9 +17390,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 16:15",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17401,9 +17401,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 15:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17412,9 +17412,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 17:30",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17423,9 +17423,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 14:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17434,9 +17434,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 13:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17445,9 +17445,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 12:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17456,9 +17456,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 11:00",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
               "planillas": null
             },
             "2018 PROMOCIONALES": {
@@ -17624,9 +17624,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 22:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17635,9 +17635,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 15:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17646,9 +17646,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 12:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17657,9 +17657,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 13:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17668,9 +17668,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 14:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17679,9 +17679,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 10:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "2018 PROMOCIONALES": {
@@ -17690,35 +17690,13 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 11:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
               "match_id": 149390,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 148310,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 148430,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -17734,9 +17712,31 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 09:00",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
+              "planillas": null
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 148430,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-20 16:15",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
+              "planillas": null
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 148310,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-20 20:30",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "Jose Nicolas Arriola 1857, Ramos Mejia",
               "planillas": null
             }
           },

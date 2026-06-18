@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-17T09:07:14.516914Z",
+  "actualizado": "2026-06-18T08:51:25.657442Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -521,6 +521,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 12,
+        "g": 8,
+        "e": 2,
+        "p": 2,
+        "gf": 36,
+        "gc": 13,
+        "pts": 26
+      },
+      {
+        "posicion": 5,
         "equipo": "CENTRO ASTURIANO",
         "pj": 12,
         "g": 8,
@@ -531,7 +542,7 @@
         "pts": 25
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 8,
@@ -542,18 +553,18 @@
         "pts": 25
       },
       {
-        "posicion": 6,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 11,
+        "posicion": 7,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 12,
         "g": 7,
-        "e": 2,
-        "p": 2,
-        "gf": 31,
-        "gc": 13,
-        "pts": 23
+        "e": 1,
+        "p": 4,
+        "gf": 25,
+        "gc": 16,
+        "pts": 22
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "SACA DEL MEDIO",
         "pj": 12,
         "g": 5,
@@ -561,17 +572,6 @@
         "p": 3,
         "gf": 25,
         "gc": 13,
-        "pts": 19
-      },
-      {
-        "posicion": 8,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 11,
-        "g": 6,
-        "e": 1,
-        "p": 4,
-        "gf": 20,
-        "gc": 16,
         "pts": 19
       },
       {
@@ -654,12 +654,12 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 11,
+        "pj": 12,
         "g": 2,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 10,
-        "gc": 36,
+        "gc": 41,
         "pts": 6
       },
       {
@@ -676,12 +676,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 10,
+        "pj": 11,
         "g": 0,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 0,
-        "gc": 50,
+        "gc": 55,
         "pts": 0
       }
     ],
@@ -742,6 +742,17 @@
         "posicion": 5
       },
       {
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 36,
+        "g": 17,
+        "e": 11,
+        "p": 8,
+        "gf": 65,
+        "gc": 46,
+        "pts": 62,
+        "posicion": 6
+      },
+      {
         "equipo": "ASTRA MACKIE",
         "pj": 36,
         "g": 19,
@@ -750,17 +761,6 @@
         "gf": 83,
         "gc": 44,
         "pts": 61,
-        "posicion": 6
-      },
-      {
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 35,
-        "g": 16,
-        "e": 11,
-        "p": 8,
-        "gf": 60,
-        "gc": 46,
-        "pts": 59,
         "posicion": 7
       },
       {
@@ -776,13 +776,13 @@
       },
       {
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 35,
-        "g": 14,
+        "pj": 36,
+        "g": 15,
         "e": 6,
         "p": 15,
-        "gf": 50,
+        "gf": 55,
         "gc": 60,
-        "pts": 48,
+        "pts": 51,
         "posicion": 9
       },
       {
@@ -831,12 +831,12 @@
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 35,
+        "pj": 36,
         "g": 11,
         "e": 5,
-        "p": 19,
+        "p": 20,
         "gf": 58,
-        "gc": 95,
+        "gc": 100,
         "pts": 38,
         "posicion": 14
       },
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 34,
+        "pj": 35,
         "g": 1,
         "e": 2,
-        "p": 31,
+        "p": 32,
         "gf": 15,
-        "gc": 147,
+        "gc": 152,
         "pts": 5,
         "posicion": 18
       }
@@ -5936,9 +5936,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152528,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 13:00",
               "sede": "El Poli",
@@ -6029,20 +6029,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-012457-1001109198.jpg"
               ]
             },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152224,
-              "goles_local": 3,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-13 22:30",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024320-1001109358.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024325-1001109361.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152530,
               "goles_local": 2,
@@ -6056,6 +6042,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000840-1001108969.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-000844-1001108970.jpg"
               ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152224,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-13 22:30",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024320-1001109358.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260614-024325-1001109361.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -6066,9 +6066,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152531,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6156,7 +6156,7 @@
     },
     {
       "numero": 13,
-      "fecha_partido": null,
+      "fecha_partido": "2026-06-20",
       "encuentros": [
         {
           "local": "PURA SUELA",
@@ -6168,9 +6168,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 16:30",
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6179,9 +6179,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 15:15",
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6190,9 +6190,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 14:00",
+              "sede": "Arena Futsala",
+              "direccion": "Rio Cuarto 1900",
               "planillas": null
             }
           },
@@ -6248,9 +6248,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 10:00",
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6259,9 +6259,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 11:15",
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6270,9 +6270,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 12:30",
+              "sede": "Parque Chacabuco",
+              "direccion": "Asamblea 1213 (dentro del parque)",
               "planillas": null
             }
           },
@@ -6288,9 +6288,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 22:30",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6299,9 +6299,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 21:15",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6310,9 +6310,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 20:00",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": null
             }
           },
@@ -6368,20 +6368,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152232,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 18:00",
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6390,9 +6379,20 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 19:15",
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
+              "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152232,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-20 20:30",
+              "sede": "Independiente de beccar",
+              "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
               "planillas": null
             }
           },
@@ -6408,9 +6408,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 12:30",
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6419,9 +6419,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 11:15",
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6430,9 +6430,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 10:00",
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
               "planillas": null
             }
           },
