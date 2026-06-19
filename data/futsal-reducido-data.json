@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-18T08:51:19.924733Z",
+  "actualizado": "2026-06-19T09:08:55.704422Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -12873,17 +12873,6 @@
               "direccion": "Alberdi 823, Pacheco",
               "planillas": null
             },
-            "SEPTIMA MASCULINO": {
-              "match_id": 150283,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 15:00",
-              "sede": "Pacheco sur",
-              "direccion": "Alberdi 823, Pacheco",
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "match_id": 149977,
               "goles_local": null,
@@ -12891,6 +12880,17 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-21 17:00",
+              "sede": "Pacheco sur",
+              "direccion": "Alberdi 823, Pacheco",
+              "planillas": null
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 150283,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-21 15:00",
               "sede": "Pacheco sur",
               "direccion": "Alberdi 823, Pacheco",
               "planillas": null
@@ -13412,9 +13412,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 16:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -13423,9 +13423,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 15:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -13434,9 +13434,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 14:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -13445,9 +13445,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 20:15",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -13456,9 +13456,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 19:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -13467,9 +13467,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 18:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -13478,9 +13478,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 17:00",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
               "planillas": null
             }
           },

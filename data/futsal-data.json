@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-18T08:51:11.210056Z",
+  "actualizado": "2026-06-19T09:08:48.975259Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1734,6 +1734,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "PEDRO LOZANO",
+        "pj": 12,
+        "g": 8,
+        "e": 1,
+        "p": 3,
+        "gf": 49,
+        "gc": 16,
+        "pts": 25
+      },
+      {
+        "posicion": 6,
         "equipo": "ROTONDA",
         "pj": 11,
         "g": 8,
@@ -1742,17 +1753,6 @@
         "gf": 47,
         "gc": 18,
         "pts": 25
-      },
-      {
-        "posicion": 6,
-        "equipo": "PEDRO LOZANO",
-        "pj": 12,
-        "g": 7,
-        "e": 2,
-        "p": 3,
-        "gf": 44,
-        "gc": 16,
-        "pts": 23
       },
       {
         "posicion": 7,
@@ -1781,11 +1781,11 @@
         "equipo": "ESTRADA FUTSAL",
         "pj": 12,
         "g": 4,
-        "e": 2,
-        "p": 6,
+        "e": 1,
+        "p": 7,
         "gf": 26,
-        "gc": 39,
-        "pts": 14
+        "gc": 44,
+        "pts": 13
       },
       {
         "posicion": 10,
@@ -2125,22 +2125,22 @@
         "equipo": "ESTRADA FUTSAL",
         "pj": 117,
         "g": 58,
-        "e": 8,
-        "p": 51,
+        "e": 7,
+        "p": 52,
         "gf": 424,
-        "gc": 381,
-        "pts": 182,
+        "gc": 386,
+        "pts": 181,
         "posicion": 8
       },
       {
         "equipo": "PEDRO LOZANO",
         "pj": 120,
-        "g": 53,
-        "e": 16,
+        "g": 54,
+        "e": 15,
         "p": 51,
-        "gf": 401,
+        "gf": 406,
         "gc": 357,
-        "pts": 175,
+        "pts": 177,
         "posicion": 9
       },
       {
@@ -16757,7 +16757,7 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149263,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -17240,9 +17240,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 22:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17251,9 +17251,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 20:30",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17262,9 +17262,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 21:15",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17273,9 +17273,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 20:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17284,9 +17284,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 19:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17295,9 +17295,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 18:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17306,9 +17306,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 17:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17317,9 +17317,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 15:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17339,9 +17339,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 16:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -17496,9 +17496,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 22:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17507,9 +17507,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 19:15",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17518,9 +17518,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 18:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17529,9 +17529,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 17:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17540,9 +17540,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 16:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17551,9 +17551,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 15:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17562,9 +17562,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 12:30",
+              "sede": "Independiente de beccar ",
+              "direccion": "Formosa 2057 - beccar ",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17573,9 +17573,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 11:30",
+              "sede": "Independiente de beccar ",
+              "direccion": "Formosa 2057 - beccar ",
               "planillas": null
             },
             "2018 PROMOCIONALES": {
@@ -17584,9 +17584,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 10:30",
+              "sede": "Independiente de beccar ",
+              "direccion": "Formosa 2057 - beccar ",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -17606,9 +17606,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 20:30",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             }
           },
@@ -17706,17 +17706,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149030,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-20 09:00",
-              "sede": "Sociedad de fomento Villa Don Bosco ",
-              "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 148430,
               "goles_local": null,
@@ -17724,6 +17713,17 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-06-20 16:15",
+              "sede": "Sociedad de fomento Villa Don Bosco ",
+              "direccion": "José Nicolás de Arriola 1857",
+              "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149030,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-20 09:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
@@ -17752,9 +17752,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 21:15",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17763,9 +17763,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 19:45",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17785,9 +17785,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 18:30",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17818,9 +17818,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 17:30",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17829,9 +17829,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 15:30",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17851,9 +17851,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-21 16:30",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -17880,9 +17880,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 19:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17891,9 +17891,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 17:30",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17902,9 +17902,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 16:15",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17913,9 +17913,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 15:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "SEXTA MASCULINO": {
@@ -17924,9 +17924,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 14:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17935,9 +17935,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 13:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17946,9 +17946,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 12:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17957,9 +17957,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 09:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -17968,9 +17968,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 10:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "2018 PROMOCIONALES": {
@@ -17979,9 +17979,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-20 11:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
