@@ -568,32 +568,169 @@ async function loadPredictionsData() {
   return PREDICTIONS_CACHE;
 }
 
+// Helper to get data source object by torneoId
+function getDataSource(torneoId) {
+  if (torneoId === "babyfutbol") return typeof DATA !== "undefined" ? DATA : null;
+  if (torneoId === "futsal") return typeof FUTSAL_DATA !== "undefined" ? FUTSAL_DATA : null;
+  if (torneoId === "futsal-reducido") return typeof FUTSAL_RED_DATA !== "undefined" ? FUTSAL_RED_DATA : null;
+  if (torneoId === "futsal-femenino") return typeof FUTSAL_FEMENINO_DATA !== "undefined" ? FUTSAL_FEMENINO_DATA : null;
+  return null;
+}
+
+function getRivalLastMatches(torneoId, rival, categoriaFilter) {
+  const dataSource = getDataSource(torneoId);
+  if (!dataSource || !dataSource.fechas) return [];
+
+  let playedMatches = [];
+  for (const fecha of dataSource.fechas) {
+    for (const encuentro of fecha.encuentros) {
+      if (encuentro.local === rival || encuentro.visitante === rival) {
+        const esRivalLocal = (encuentro.local === rival);
+        const contrincante = esRivalLocal ? encuentro.visitante : encuentro.local;
+        
+        let golesRival = 0;
+        let golesContrincante = 0;
+        let jugado = false;
+        let observacion = null;
+        let hasGoles = false;
+        
+        if (!categoriaFilter || categoriaFilter === "general") {
+          // Acumulado de goles de todas las categorías jugadas en esta fecha
+          for (const cat of dataSource.categorias) {
+            const p = encuentro.partidos[String(cat)];
+            if (p && p.jugado) {
+              jugado = true;
+              if (p.goles_local != null && p.goles_visitante != null) {
+                golesRival += esRivalLocal ? p.goles_local : p.goles_visitante;
+                golesContrincante += esRivalLocal ? p.goles_visitante : p.goles_local;
+                hasGoles = true;
+              }
+              if (p.observacion) observacion = p.observacion;
+            }
+          }
+        } else {
+          // Categoría específica
+          const p = encuentro.partidos[String(categoriaFilter)];
+          if (p && p.jugado) {
+            jugado = true;
+            if (p.goles_local != null && p.goles_visitante != null) {
+              golesRival = esRivalLocal ? p.goles_local : p.goles_visitante;
+              golesContrincante = esRivalLocal ? p.goles_visitante : p.goles_local;
+              hasGoles = true;
+            } else {
+              golesRival = null;
+              golesContrincante = null;
+            }
+            observacion = p.observacion;
+          }
+        }
+        
+        if (jugado) {
+          playedMatches.push({
+            numero: fecha.numero,
+            fecha: fecha.fecha_partido,
+            esLocal: esRivalLocal,
+            contrincante: contrincante,
+            golesRival: golesRival,
+            golesContrincante: golesContrincante,
+            hasGoles: hasGoles,
+            observacion: observacion
+          });
+        }
+      }
+    }
+  }
+  
+  // Ordenar por número de fecha descendente
+  playedMatches.sort((a, b) => b.numero - a.numero);
+  return playedMatches.slice(0, 3);
+}
+
 function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
   console.log("Rendering scouting for:", torneoId, rival, categoriaFilter);
   if (!$container) return;
 
   loadPredictionsData().then(data => {
-    if (!data || !data.predicciones) {
-      console.warn("No scouting data available");
-      $container.innerHTML = "";
-      return;
-    }
-
     // Filtrar predicciones para este torneo, rival y categoría seleccionada (o todas si es general)
-    const items = data.predicciones.filter(p =>
-      p.torneo_id === torneoId && 
-      p.rival === rival && 
-      p.scouting_rival && 
-      (!categoriaFilter || categoriaFilter === "general" || String(p.categoria) === String(categoriaFilter))
-    );
-    console.log("Scouting items found:", items.length);
+    let items = [];
+    if (data && data.predicciones) {
+      items = data.predicciones.filter(p =>
+        p.torneo_id === torneoId && 
+        p.rival === rival && 
+        p.scouting_rival && 
+        (!categoriaFilter || categoriaFilter === "general" || String(p.categoria) === String(categoriaFilter))
+      );
+    }
+    
+    // Obtener los últimos 3 partidos del rival
+    const lastMatches = getRivalLastMatches(torneoId, rival, categoriaFilter);
+    console.log("Scouting items found:", items.length, "Recent matches found:", lastMatches.length);
 
-    if (items.length === 0) {
+    // Si no hay datos de scouting ni partidos del rival, ocultar el contenedor
+    if (items.length === 0 && lastMatches.length === 0) {
       $container.innerHTML = "";
       return;
     }
 
     const rivalNombre = nombreEquipo(rival);
+    
+    let scoutingHtml = "";
+    if (items.length > 0) {
+      scoutingHtml = items.map(item => `
+        <div class="scouting-item">
+          <span class="scouting-cat-label">${item.categoria_label || item.categoria}</span>
+          <div class="scouting-text">${item.scouting_rival}</div>
+        </div>
+      `).join("");
+    } else {
+      scoutingHtml = `
+        <div class="scouting-item">
+          <div class="scouting-text" style="font-style: italic; color: var(--text-muted); font-size: 13px;">No hay análisis de scouting registrado para esta categoría.</div>
+        </div>
+      `;
+    }
+
+    let matchesHtml = "";
+    if (lastMatches.length > 0) {
+      matchesHtml = `
+        <div class="scouting-matches-title">Últimos 3 partidos de ${rivalNombre}</div>
+        <div class="scouting-matches-list">
+          ${lastMatches.map(m => {
+            let resultClass = "D";
+            let resultText = "Empató";
+            if (m.observacion === "GP") {
+              resultClass = "W";
+              resultText = "Ganó";
+            } else if (m.observacion === "PP" || m.observacion === "NP") {
+              resultClass = "L";
+              resultText = "Perdió";
+            } else if (m.hasGoles) {
+              if (m.golesRival > m.golesContrincante) {
+                resultClass = "W";
+                resultText = "Ganó";
+              } else if (m.golesRival < m.golesContrincante) {
+                resultClass = "L";
+                resultText = "Perdió";
+              }
+            }
+            
+            const scoreDisplay = m.hasGoles ? `${m.golesRival} - ${m.golesContrincante}` : (m.observacion || "-");
+            
+            return `
+              <div class="scouting-match-item">
+                <span class="scouting-match-badge ${resultClass}">${resultText}</span>
+                <div class="scouting-match-info">
+                  <span class="scouting-match-rival">vs ${nombreEquipo(m.contrincante)}</span>
+                  <span class="scouting-match-meta">Fecha ${m.numero} · ${m.esLocal ? 'Local' : 'Visitante'}</span>
+                </div>
+                <span class="scouting-match-score">${scoreDisplay}</span>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
     $container.innerHTML = `
       <div class="scouting-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
         <span class="scouting-icon">🔍</span>
@@ -601,12 +738,8 @@ function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
         <span class="scouting-toggle">▼</span>
       </div>
       <div class="scouting-list">
-        ${items.map(item => `
-          <div class="scouting-item">
-            <span class="scouting-cat-label">${item.categoria_label || item.categoria}</span>
-            <div class="scouting-text">${item.scouting_rival}</div>
-          </div>
-        `).join("")}
+        ${scoutingHtml}
+        ${matchesHtml}
       </div>
     `;
   });
