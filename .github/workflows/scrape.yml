@@ -1,9 +1,11 @@
 name: Scrape FEFI & Futsal
 
 on:
-  # Diario a las 04:00 UTC (01:00 hora Argentina)
+  # Diario a las 04:00 UTC (01:00 hora Argentina) y fines de semana cada 2 horas (9 AM - 9 PM hora AR)
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *'                      # Diario de control
+    - cron: '0 12,14,16,18,20,22 * * 6,0'    # Sab/Dom 9:00 a 19:00 AR (12:00 a 22:00 UTC)
+    - cron: '0 0 * * 0,1'                    # Sab/Dom 21:00 AR (Dom/Lun 00:00 UTC)
 
   # También dispara en cada push al scraper, para testear cambios
   push:
@@ -92,6 +94,10 @@ jobs:
           import json
 
           def next_rival(fname, equipo_default):
+              from datetime import datetime, timedelta, timezone
+              tz_arg = timezone(timedelta(hours=-3))
+              today_str = datetime.now(tz_arg).strftime("%Y-%m-%d")
+
               try:
                   with open(fname) as f:
                       data = json.load(f)
@@ -107,13 +113,21 @@ jobs:
                       jugado = enc.get('estado') == 'Finalizado' or any(
                           p.get('jugado') for p in enc.get('partidos', {}).values()
                       )
-                      matches.append({'rival': rival, 'jugado': jugado})
-              last = -1
-              for i, m in enumerate(matches):
-                  if m['jugado']: last = i
-              for i, m in enumerate(matches):
-                  if not m['jugado'] and i > last:
-                      return m['rival']
+                      matches.append({
+                          'rival': rival,
+                          'jugado': jugado,
+                          'fecha': fecha.get('fecha_partido')
+                      })
+
+              for m in matches:
+                  if not m.get('fecha'):
+                      if not m['jugado']:
+                          return m['rival']
+                  else:
+                      if m['fecha'] >= today_str:
+                          return m['rival']
+                      elif not m['jugado']:
+                          return m['rival']
               return ''
 
           rivales = {}

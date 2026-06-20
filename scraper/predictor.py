@@ -126,6 +126,10 @@ def encuentro_jugado(enc):
 
 
 def proximos_partidos(data, equipo_foco):
+    from datetime import datetime, timedelta, timezone
+    tz_arg = timezone(timedelta(hours=-3))
+    today_str = datetime.now(tz_arg).strftime("%Y-%m-%d")
+
     partidos = []
     for fecha in data.get("fechas", []):
         for enc in fecha.get("encuentros", []):
@@ -140,19 +144,21 @@ def proximos_partidos(data, equipo_foco):
                 "jugado": encuentro_jugado(enc),
             })
 
-    # Find the next match: the first unplayed match after the last played match
-    last_played_idx = -1
-    for i, p in enumerate(partidos):
-        if p["jugado"]:
-            last_played_idx = i
-
     proximo = None
-    for i, p in enumerate(partidos):
-        if not p["jugado"] and i > last_played_idx:
-            proximo = p
-            break
+    for p in partidos:
+        if not p.get("fecha"):
+            if not p["jugado"]:
+                proximo = p
+                break
+        else:
+            if p["fecha"] >= today_str:
+                proximo = p
+                break
+            elif not p["jugado"]:
+                proximo = p
+                break
 
-    # Fallback if no played matches exist yet or all matches before are unplayed
+    # Fallback if still not found, find the first unplayed match
     if not proximo:
         for p in partidos:
             if not p["jugado"]:
