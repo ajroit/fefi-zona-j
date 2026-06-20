@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-19T09:08:55.704422Z",
+  "actualizado": "2026-06-20T07:55:10.813980Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -20,16 +20,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213218-images%20(3).png"
     },
     {
+      "nombre": "PROGRESO SANTA RITA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
+    },
+    {
       "nombre": "RESPLANDOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
     },
     {
       "nombre": "CAPITAN ROSALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
-    },
-    {
-      "nombre": "PROGRESO SANTA RITA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
     },
     {
       "nombre": "PACHECO SUR",
@@ -103,6 +103,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 13,
+        "g": 9,
+        "e": 3,
+        "p": 1,
+        "gf": 62,
+        "gc": 38,
+        "pts": 30
+      },
+      {
+        "posicion": 3,
         "equipo": "RESPLANDOR",
         "pj": 12,
         "g": 8,
@@ -113,7 +124,7 @@
         "pts": 26
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "CAPITAN ROSALES",
         "pj": 11,
         "g": 8,
@@ -122,17 +133,6 @@
         "gf": 77,
         "gc": 61,
         "pts": 25
-      },
-      {
-        "posicion": 4,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 11,
-        "g": 7,
-        "e": 3,
-        "p": 1,
-        "gf": 51,
-        "gc": 33,
-        "pts": 24
       },
       {
         "posicion": 5,
@@ -214,12 +214,12 @@
       {
         "posicion": 12,
         "equipo": "VILLA SAHORES",
-        "pj": 10,
+        "pj": 11,
         "g": 4,
         "e": 1,
-        "p": 5,
-        "gf": 52,
-        "gc": 60,
+        "p": 6,
+        "gf": 57,
+        "gc": 66,
         "pts": 13
       },
       {
@@ -236,12 +236,12 @@
       {
         "posicion": 14,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 11,
+        "pj": 12,
         "g": 3,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 39,
-        "gc": 57,
+        "gc": 62,
         "pts": 10
       },
       {
@@ -314,6 +314,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 13,
+        "g": 9,
+        "e": 2,
+        "p": 2,
+        "gf": 74,
+        "gc": 37,
+        "pts": 29
+      },
+      {
+        "posicion": 4,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 12,
         "g": 8,
@@ -322,17 +333,6 @@
         "gf": 83,
         "gc": 40,
         "pts": 27
-      },
-      {
-        "posicion": 4,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 8,
-        "e": 2,
-        "p": 2,
-        "gf": 69,
-        "gc": 37,
-        "pts": 26
       },
       {
         "posicion": 5,
@@ -469,12 +469,12 @@
       {
         "posicion": 17,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 1,
-        "p": 10,
+        "p": 11,
         "gf": 48,
-        "gc": 99,
+        "gc": 104,
         "pts": 4
       },
       {
@@ -493,13 +493,13 @@
       {
         "posicion": 1,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 10,
+        "pj": 13,
+        "g": 11,
         "e": 1,
         "p": 1,
-        "gf": 61,
+        "gf": 66,
         "gc": 28,
-        "pts": 31
+        "pts": 34
       },
       {
         "posicion": 2,
@@ -680,12 +680,12 @@
       {
         "posicion": 18,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 0,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 20,
-        "gc": 75,
+        "gc": 80,
         "pts": 0
       }
     ],
@@ -703,6 +703,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 13,
+        "g": 11,
+        "e": 1,
+        "p": 1,
+        "gf": 66,
+        "gc": 20,
+        "pts": 34
+      },
+      {
+        "posicion": 3,
         "equipo": "EL IDEAL",
         "pj": 11,
         "g": 10,
@@ -710,17 +721,6 @@
         "p": 0,
         "gf": 78,
         "gc": 10,
-        "pts": 31
-      },
-      {
-        "posicion": 3,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 10,
-        "e": 1,
-        "p": 1,
-        "gf": 61,
-        "gc": 20,
         "pts": 31
       },
       {
@@ -814,12 +814,12 @@
       {
         "posicion": 12,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 45,
-        "gc": 65,
+        "gc": 70,
         "pts": 15
       },
       {
@@ -925,6 +925,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 13,
+        "g": 10,
+        "e": 0,
+        "p": 3,
+        "gf": 61,
+        "gc": 30,
+        "pts": 30
+      },
+      {
+        "posicion": 5,
         "equipo": "EL IDEAL",
         "pj": 11,
         "g": 9,
@@ -933,17 +944,6 @@
         "gf": 80,
         "gc": 20,
         "pts": 29
-      },
-      {
-        "posicion": 5,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 9,
-        "e": 0,
-        "p": 3,
-        "gf": 56,
-        "gc": 30,
-        "pts": 27
       },
       {
         "posicion": 6,
@@ -1080,12 +1080,12 @@
       {
         "posicion": 18,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 0,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 10,
-        "gc": 68,
+        "gc": 73,
         "pts": 0
       }
     ],
@@ -1103,6 +1103,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 13,
+        "g": 10,
+        "e": 0,
+        "p": 3,
+        "gf": 70,
+        "gc": 27,
+        "pts": 30
+      },
+      {
+        "posicion": 3,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 12,
         "g": 10,
@@ -1113,7 +1124,7 @@
         "pts": 30
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "RESPLANDOR",
         "pj": 12,
         "g": 9,
@@ -1122,17 +1133,6 @@
         "gf": 92,
         "gc": 39,
         "pts": 28
-      },
-      {
-        "posicion": 4,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 9,
-        "e": 0,
-        "p": 3,
-        "gf": 65,
-        "gc": 27,
-        "pts": 27
       },
       {
         "posicion": 5,
@@ -1225,12 +1225,12 @@
       {
         "posicion": 13,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 27,
-        "gc": 59,
+        "gc": 64,
         "pts": 10
       },
       {
@@ -1403,24 +1403,24 @@
       {
         "posicion": 11,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 11,
-        "g": 5,
+        "pj": 12,
+        "g": 6,
         "e": 0,
         "p": 6,
-        "gf": 39,
+        "gf": 44,
         "gc": 41,
-        "pts": 15
+        "pts": 18
       },
       {
         "posicion": 12,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 12,
-        "g": 5,
+        "pj": 13,
+        "g": 6,
         "e": 0,
         "p": 7,
-        "gf": 32,
+        "gf": 37,
         "gc": 49,
-        "pts": 15
+        "pts": 18
       },
       {
         "posicion": 13,
@@ -1436,12 +1436,12 @@
       {
         "posicion": 14,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 1,
-        "p": 9,
+        "p": 10,
         "gf": 19,
-        "gc": 65,
+        "gc": 70,
         "pts": 7
       },
       {
@@ -1469,12 +1469,12 @@
       {
         "posicion": 17,
         "equipo": "RESPLANDOR",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 29,
-        "gc": 70,
+        "gc": 75,
         "pts": 3
       },
       {
@@ -1492,13 +1492,13 @@
     "general": [
       {
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 83,
-        "g": 58,
+        "pj": 91,
+        "g": 66,
         "e": 7,
         "p": 18,
-        "gf": 395,
-        "gc": 224,
-        "pts": 181,
+        "gf": 436,
+        "gc": 229,
+        "pts": 205,
         "posicion": 1
       },
       {
@@ -1590,6 +1590,17 @@
         "posicion": 9
       },
       {
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 84,
+        "g": 38,
+        "e": 9,
+        "p": 37,
+        "gf": 342,
+        "gc": 330,
+        "pts": 123,
+        "posicion": 10
+      },
+      {
         "equipo": "PRIMERA JUNTA",
         "pj": 84,
         "g": 37,
@@ -1598,38 +1609,27 @@
         "gf": 293,
         "gc": 303,
         "pts": 121,
-        "posicion": 10
-      },
-      {
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 83,
-        "g": 37,
-        "e": 9,
-        "p": 37,
-        "gf": 337,
-        "gc": 330,
-        "pts": 120,
         "posicion": 11
       },
       {
         "equipo": "RESPLANDOR",
-        "pj": 83,
+        "pj": 84,
         "g": 33,
         "e": 7,
-        "p": 43,
+        "p": 44,
         "gf": 409,
-        "gc": 409,
+        "gc": 414,
         "pts": 106,
         "posicion": 12
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 76,
+        "pj": 77,
         "g": 26,
         "e": 5,
-        "p": 45,
-        "gf": 259,
-        "gc": 317,
+        "p": 46,
+        "gf": 264,
+        "gc": 323,
         "pts": 83,
         "posicion": 13
       },
@@ -1668,12 +1668,12 @@
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 83,
+        "pj": 90,
         "g": 14,
         "e": 4,
-        "p": 65,
+        "p": 72,
         "gf": 208,
-        "gc": 488,
+        "gc": 523,
         "pts": 46,
         "posicion": 17
       },
@@ -4346,7 +4346,7 @@
             "PRIMERA MASCULINO": {
               "match_id": 149435,
               "goles_local": 5,
-              "goles_visitante": 3,
+              "goles_visitante": 6,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-15 20:15",
@@ -12130,9 +12130,9 @@
           "partidos": {
             "OCTAVA MASCULINO": {
               "match_id": 150429,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 14:00",
               "sede": "Malvinas",
@@ -13240,9 +13240,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150135,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13251,9 +13251,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150288,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13262,9 +13262,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150441,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13273,9 +13273,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149523,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13284,9 +13284,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149676,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13295,9 +13295,9 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149829,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13306,9 +13306,9 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 149982,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13316,7 +13316,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "RESPLANDOR",

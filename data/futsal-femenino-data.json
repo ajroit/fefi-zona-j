@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-19T09:09:00.991018Z",
+  "actualizado": "2026-06-20T07:55:15.495289Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -398,6 +398,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 12,
+        "g": 5,
+        "e": 0,
+        "p": 7,
+        "gf": 17,
+        "gc": 26,
+        "pts": 15
+      },
+      {
+        "posicion": 12,
         "equipo": "SACA DEL MEDIO",
         "pj": 12,
         "g": 4,
@@ -406,17 +417,6 @@
         "gf": 11,
         "gc": 30,
         "pts": 13
-      },
-      {
-        "posicion": 12,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 12,
-        "g": 4,
-        "e": 0,
-        "p": 8,
-        "gf": 12,
-        "gc": 27,
-        "pts": 12
       },
       {
         "posicion": 13,
@@ -431,17 +431,6 @@
       },
       {
         "posicion": 14,
-        "equipo": "EL GALPON",
-        "pj": 11,
-        "g": 2,
-        "e": 4,
-        "p": 5,
-        "gf": 13,
-        "gc": 22,
-        "pts": 10
-      },
-      {
-        "posicion": 15,
         "equipo": "PURA SUELA",
         "pj": 12,
         "g": 2,
@@ -452,7 +441,7 @@
         "pts": 9
       },
       {
-        "posicion": 16,
+        "posicion": 15,
         "equipo": "CENTRO VK",
         "pj": 11,
         "g": 2,
@@ -463,7 +452,7 @@
         "pts": 8
       },
       {
-        "posicion": 17,
+        "posicion": 16,
         "equipo": "ZIZOU FUTSAL",
         "pj": 12,
         "g": 2,
@@ -472,6 +461,17 @@
         "gf": 13,
         "gc": 26,
         "pts": 8
+      },
+      {
+        "posicion": 17,
+        "equipo": "EL GALPON",
+        "pj": 11,
+        "g": 1,
+        "e": 4,
+        "p": 6,
+        "gf": 12,
+        "gc": 27,
+        "pts": 7
       },
       {
         "posicion": 18,
@@ -786,26 +786,15 @@
         "posicion": 9
       },
       {
-        "equipo": "EL GALPON",
-        "pj": 32,
-        "g": 13,
-        "e": 5,
-        "p": 14,
-        "gf": 47,
-        "gc": 50,
-        "pts": 44,
-        "posicion": 10
-      },
-      {
         "equipo": "VELEZ SARSFIELD",
         "pj": 35,
-        "g": 13,
+        "g": 14,
         "e": 4,
-        "p": 18,
-        "gf": 66,
-        "gc": 82,
-        "pts": 43,
-        "posicion": 11
+        "p": 17,
+        "gf": 71,
+        "gc": 81,
+        "pts": 46,
+        "posicion": 10
       },
       {
         "equipo": "SACA DEL MEDIO",
@@ -816,6 +805,17 @@
         "gf": 49,
         "gc": 74,
         "pts": 42,
+        "posicion": 11
+      },
+      {
+        "equipo": "EL GALPON",
+        "pj": 32,
+        "g": 12,
+        "e": 5,
+        "p": 15,
+        "gf": 46,
+        "gc": 55,
+        "pts": 41,
         "posicion": 12
       },
       {
@@ -5703,9 +5703,9 @@
               "goles_visitante": 1,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-06-06 21:00",
-              "sede": "Centro Asturiano Sede Deportiva Vicente López",
-              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
+              "fecha_hora": "2026-06-24 21:30",
+              "sede": "Campo de deportes Asturias",
+              "direccion": "Av Del Libertador 981, Vicente Lopez",
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220802-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220752-image.jpg"
@@ -6137,8 +6137,8 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152379,
-              "goles_local": 1,
-              "goles_visitante": 0,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-14 11:15",

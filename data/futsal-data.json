@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-19T09:08:48.975259Z",
+  "actualizado": "2026-06-20T07:54:59.717616Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1633,6 +1633,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "BPNA",
+        "pj": 11,
+        "g": 3,
+        "e": 0,
+        "p": 8,
+        "gf": 21,
+        "gc": 54,
+        "pts": 9
+      },
+      {
+        "posicion": 13,
         "equipo": "ATENEO HAEDO",
         "pj": 12,
         "g": 3,
@@ -1643,7 +1654,7 @@
         "pts": 9
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "RIVADAVIA 87",
         "pj": 10,
         "g": 2,
@@ -1651,17 +1662,6 @@
         "p": 8,
         "gf": 11,
         "gc": 39,
-        "pts": 6
-      },
-      {
-        "posicion": 14,
-        "equipo": "BPNA",
-        "pj": 10,
-        "g": 2,
-        "e": 0,
-        "p": 8,
-        "gf": 16,
-        "gc": 54,
         "pts": 6
       },
       {
@@ -1678,12 +1678,12 @@
       {
         "posicion": 16,
         "equipo": "LUNA DE MATANZA",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 8,
-        "gc": 61,
+        "gc": 66,
         "pts": 3
       }
     ],
@@ -1757,12 +1757,12 @@
       {
         "posicion": 7,
         "equipo": "LUNA DE MATANZA",
-        "pj": 11,
+        "pj": 12,
         "g": 6,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 46,
-        "gc": 27,
+        "gc": 32,
         "pts": 19
       },
       {
@@ -1823,13 +1823,13 @@
       {
         "posicion": 13,
         "equipo": "BPNA",
-        "pj": 9,
-        "g": 2,
+        "pj": 10,
+        "g": 3,
         "e": 0,
         "p": 7,
-        "gf": 11,
+        "gf": 16,
         "gc": 38,
-        "pts": 6
+        "pts": 9
       },
       {
         "posicion": 14,
@@ -2090,12 +2090,12 @@
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 118,
+        "pj": 120,
         "g": 59,
         "e": 9,
-        "p": 50,
+        "p": 52,
         "gf": 464,
-        "gc": 394,
+        "gc": 404,
         "pts": 186,
         "posicion": 5
       },
@@ -2211,13 +2211,13 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 114,
-        "g": 24,
+        "pj": 116,
+        "g": 26,
         "e": 4,
         "p": 86,
-        "gf": 258,
+        "gf": 268,
         "gc": 634,
-        "pts": 76,
+        "pts": 82,
         "posicion": 16
       }
     ]
@@ -16221,9 +16221,9 @@
             },
             "2017 PROMOCIONALES": {
               "match_id": 149140,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 10:00",
               "sede": "B.P.N.A.",
@@ -16232,9 +16232,9 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149260,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 11:00",
               "sede": "B.P.N.A.",
