@@ -96,7 +96,7 @@ jobs:
           def next_rival(fname, equipo_default):
               from datetime import datetime, timedelta, timezone
               tz_arg = timezone(timedelta(hours=-3))
-              today_str = datetime.now(tz_arg).strftime("%Y-%m-%d")
+              today_str = datetime.now(tz_arg).strftime('%Y-%m-%d')
 
               try:
                   with open(fname) as f:
