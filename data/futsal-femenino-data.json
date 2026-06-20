@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-20T18:16:37.706707Z",
+  "actualizado": "2026-06-20T18:43:25.737952Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -587,6 +587,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 12,
+        "g": 5,
+        "e": 2,
+        "p": 5,
+        "gf": 23,
+        "gc": 18,
+        "pts": 17
+      },
+      {
+        "posicion": 11,
         "equipo": "ZIZOU FUTSAL",
         "pj": 12,
         "g": 4,
@@ -595,17 +606,6 @@
         "gf": 23,
         "gc": 27,
         "pts": 15
-      },
-      {
-        "posicion": 11,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 11,
-        "g": 4,
-        "e": 2,
-        "p": 5,
-        "gf": 21,
-        "gc": 17,
-        "pts": 14
       },
       {
         "posicion": 12,
@@ -643,12 +643,12 @@
       {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 0,
-        "p": 10,
-        "gf": 11,
-        "gc": 36,
+        "p": 11,
+        "gf": 12,
+        "gc": 38,
         "pts": 6
       },
       {
@@ -787,13 +787,13 @@
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 35,
-        "g": 14,
+        "pj": 36,
+        "g": 15,
         "e": 4,
         "p": 17,
-        "gf": 71,
-        "gc": 81,
-        "pts": 46,
+        "gf": 73,
+        "gc": 82,
+        "pts": 49,
         "posicion": 10
       },
       {
@@ -853,12 +853,12 @@
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 36,
+        "pj": 37,
         "g": 7,
         "e": 7,
-        "p": 22,
-        "gf": 38,
-        "gc": 93,
+        "p": 23,
+        "gf": 39,
+        "gc": 95,
         "pts": 28,
         "posicion": 16
       },
@@ -6186,17 +6186,20 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152533,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 14:00",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-181929-inbound4751527639269031021.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-181931-inbound3264113954880312637.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "BROWN DE ADROGUE",

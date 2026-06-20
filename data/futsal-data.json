@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-20T18:16:07.645776Z",
+  "actualizado": "2026-06-20T18:43:16.508640Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -288,6 +288,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "ATENEO HAEDO",
+        "pj": 13,
+        "g": 7,
+        "e": 2,
+        "p": 4,
+        "gf": 60,
+        "gc": 44,
+        "pts": 23
+      },
+      {
+        "posicion": 4,
         "equipo": "HAEDO JUNIOR",
         "pj": 12,
         "g": 7,
@@ -298,7 +309,7 @@
         "pts": 22
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "LUNA DE MATANZA",
         "pj": 12,
         "g": 7,
@@ -307,17 +318,6 @@
         "gf": 66,
         "gc": 57,
         "pts": 22
-      },
-      {
-        "posicion": 5,
-        "equipo": "ATENEO HAEDO",
-        "pj": 12,
-        "g": 6,
-        "e": 2,
-        "p": 4,
-        "gf": 57,
-        "gc": 42,
-        "pts": 20
       },
       {
         "posicion": 6,
@@ -432,12 +432,12 @@
       {
         "posicion": 16,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 1,
-        "p": 10,
-        "gf": 35,
-        "gc": 78,
+        "p": 11,
+        "gf": 37,
+        "gc": 81,
         "pts": 4
       }
     ],
@@ -845,12 +845,12 @@
       {
         "posicion": 5,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 11,
+        "pj": 12,
         "g": 7,
         "e": 1,
-        "p": 3,
-        "gf": 41,
-        "gc": 26,
+        "p": 4,
+        "gf": 44,
+        "gc": 30,
         "pts": 22
       },
       {
@@ -878,13 +878,13 @@
       {
         "posicion": 8,
         "equipo": "BPNA",
-        "pj": 12,
-        "g": 6,
+        "pj": 13,
+        "g": 7,
         "e": 0,
         "p": 6,
-        "gf": 40,
-        "gc": 44,
-        "pts": 18
+        "gf": 44,
+        "gc": 47,
+        "pts": 21
       },
       {
         "posicion": 9,
@@ -978,6 +978,17 @@
     "SEPTIMA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 13,
+        "g": 12,
+        "e": 0,
+        "p": 1,
+        "gf": 61,
+        "gc": 8,
+        "pts": 36
+      },
+      {
+        "posicion": 2,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 12,
         "g": 11,
@@ -985,17 +996,6 @@
         "p": 1,
         "gf": 111,
         "gc": 13,
-        "pts": 33
-      },
-      {
-        "posicion": 2,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 12,
-        "g": 11,
-        "e": 0,
-        "p": 1,
-        "gf": 51,
-        "gc": 7,
         "pts": 33
       },
       {
@@ -1078,12 +1078,12 @@
       {
         "posicion": 10,
         "equipo": "JUVENTUD",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
         "e": 1,
-        "p": 7,
-        "gf": 23,
-        "gc": 59,
+        "p": 8,
+        "gf": 24,
+        "gc": 69,
         "pts": 13
       },
       {
@@ -1299,25 +1299,25 @@
       },
       {
         "posicion": 14,
-        "equipo": "DEPORTIVO ABBAS",
+        "equipo": "ATENEO HAEDO",
         "pj": 12,
         "g": 2,
         "e": 0,
         "p": 10,
-        "gf": 16,
+        "gf": 25,
         "gc": 71,
         "pts": 6
       },
       {
         "posicion": 15,
-        "equipo": "ATENEO HAEDO",
-        "pj": 11,
-        "g": 1,
+        "equipo": "DEPORTIVO ABBAS",
+        "pj": 13,
+        "g": 2,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 19,
-        "gc": 68,
-        "pts": 3
+        "gc": 77,
+        "pts": 6
       },
       {
         "posicion": 16,
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 123,
-        "g": 84,
+        "pj": 124,
+        "g": 85,
         "e": 11,
         "p": 28,
-        "gf": 549,
-        "gc": 232,
-        "pts": 263,
+        "gf": 559,
+        "gc": 233,
+        "pts": 266,
         "posicion": 1
       },
       {
@@ -2090,12 +2090,12 @@
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 113,
+        "pj": 114,
         "g": 61,
         "e": 14,
-        "p": 38,
-        "gf": 396,
-        "gc": 300,
+        "p": 39,
+        "gf": 399,
+        "gc": 304,
         "pts": 197,
         "posicion": 5
       },
@@ -2144,6 +2144,17 @@
         "posicion": 9
       },
       {
+        "equipo": "ATENEO HAEDO",
+        "pj": 121,
+        "g": 56,
+        "e": 5,
+        "p": 60,
+        "gf": 419,
+        "gc": 436,
+        "pts": 173,
+        "posicion": 10
+      },
+      {
         "equipo": "VILLA RITA",
         "pj": 110,
         "g": 54,
@@ -2152,17 +2163,6 @@
         "gf": 481,
         "gc": 401,
         "pts": 171,
-        "posicion": 10
-      },
-      {
-        "equipo": "ATENEO HAEDO",
-        "pj": 119,
-        "g": 54,
-        "e": 5,
-        "p": 60,
-        "gf": 410,
-        "gc": 431,
-        "pts": 167,
         "posicion": 11
       },
       {
@@ -2178,12 +2178,12 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 121,
+        "pj": 122,
         "g": 36,
         "e": 16,
-        "p": 69,
-        "gf": 316,
-        "gc": 603,
+        "p": 70,
+        "gf": 317,
+        "gc": 613,
         "pts": 124,
         "posicion": 13
       },
@@ -2200,24 +2200,24 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 120,
+        "pj": 122,
         "g": 26,
         "e": 9,
-        "p": 85,
-        "gf": 273,
-        "gc": 560,
+        "p": 87,
+        "gf": 278,
+        "gc": 569,
         "pts": 87,
         "posicion": 15
       },
       {
         "equipo": "BPNA",
-        "pj": 120,
-        "g": 26,
+        "pj": 121,
+        "g": 27,
         "e": 4,
         "p": 90,
-        "gf": 272,
-        "gc": 658,
-        "pts": 82,
+        "gf": 276,
+        "gc": 661,
+        "pts": 85,
         "posicion": 16
       }
     ]
@@ -17119,14 +17119,17 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 148306,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 16:30",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260620-181923-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260620-181932-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148426,
@@ -17177,14 +17180,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148906,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 13:00",
               "sede": "COLEGIO BROWN",
               "direccion": "Las Bases 205, Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0dqwr2didudd6jraccqb3vcizq13/20260620-182712-inbound8657454488548701285.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0dqwr2didudd6jraccqb3vcizq13/20260620-182721-inbound4536759247976365041.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149026,
@@ -17422,14 +17428,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148788,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 14:00",
               "sede": "Complejo San José ",
               "direccion": "Perón 7100, Martin Coronado",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260620-181248-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260620-181322-image.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 148908,
@@ -17660,25 +17669,31 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 148670,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 12:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-181011-inbound8796714849216271368.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-181046-inbound1860753005569629659.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148790,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 10,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 13:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-181545-inbound8502314573995457787.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-181549-inbound5563482758451095263.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 148910,
@@ -17689,18 +17704,24 @@
               "fecha_hora": "2026-06-20 14:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-182244-inbound4252184216309927707.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-182247-inbound2292806335641104758.jpg"
+              ]
             },
             "2017 PROMOCIONALES": {
               "match_id": 149150,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 10:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-180600-inbound8459660410079420733.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-180604-inbound9201227714347301394.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149270,
@@ -17737,14 +17758,17 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149030,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 09:00",
               "sede": "Sociedad de fomento Villa Don Bosco ",
               "direccion": "José Nicolás de Arriola 1857",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-180303-inbound197707360727872088.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-stayjos6ndmvjjp7cwckafnrqgc2/20260620-180307-inbound8970637663664999737.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148310,
@@ -17758,7 +17782,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "LUNA DE MATANZA",
@@ -17949,14 +17973,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148792,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 13:00",
               "sede": "ARGENTINO DE CASTELAR",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260620-180039-280944.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260620-180040-280945.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149032,
