@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-20T18:55:10.412884Z",
+  "actualizado": "2026-06-20T23:13:26.103340Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,12 +16,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "17 DE AGOSTO",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
-    },
-    {
       "nombre": "CENTRO ASTURIANO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
+    },
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
       "nombre": "ASTRA MACKIE",
@@ -40,12 +40,12 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
     },
     {
-      "nombre": "MAVIA FC",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
-    },
-    {
       "nombre": "VELEZ SARSFIELD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
+    },
+    {
+      "nombre": "MAVIA FC",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
       "nombre": "INDEPENDIENTE (C)",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 12,
+        "g": 9,
+        "e": 2,
+        "p": 1,
+        "gf": 43,
+        "gc": 9,
+        "pts": 29
+      },
+      {
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 12,
         "g": 9,
@@ -109,25 +120,14 @@
         "pts": 28
       },
       {
-        "posicion": 3,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 11,
-        "g": 8,
-        "e": 2,
-        "p": 1,
-        "gf": 42,
-        "gc": 9,
-        "pts": 26
-      },
-      {
         "posicion": 4,
         "equipo": "ASTRA MACKIE",
-        "pj": 12,
+        "pj": 13,
         "g": 8,
         "e": 2,
-        "p": 2,
+        "p": 3,
         "gf": 26,
-        "gc": 12,
+        "gc": 13,
         "pts": 26
       },
       {
@@ -165,6 +165,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 13,
+        "g": 6,
+        "e": 2,
+        "p": 5,
+        "gf": 36,
+        "gc": 40,
+        "pts": 20
+      },
+      {
+        "posicion": 9,
         "equipo": "MAVIA FC",
         "pj": 11,
         "g": 5,
@@ -172,17 +183,6 @@
         "p": 4,
         "gf": 26,
         "gc": 26,
-        "pts": 17
-      },
-      {
-        "posicion": 9,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 12,
-        "g": 5,
-        "e": 2,
-        "p": 5,
-        "gf": 33,
-        "gc": 38,
         "pts": 17
       },
       {
@@ -221,12 +221,12 @@
       {
         "posicion": 13,
         "equipo": "PURA SUELA",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 4,
-        "p": 5,
-        "gf": 18,
-        "gc": 27,
+        "p": 6,
+        "gf": 20,
+        "gc": 30,
         "pts": 13
       },
       {
@@ -321,17 +321,6 @@
       },
       {
         "posicion": 4,
-        "equipo": "ASTRA MACKIE",
-        "pj": 12,
-        "g": 8,
-        "e": 1,
-        "p": 3,
-        "gf": 40,
-        "gc": 16,
-        "pts": 25
-      },
-      {
-        "posicion": 5,
         "equipo": "ALLENDE",
         "pj": 11,
         "g": 8,
@@ -342,26 +331,37 @@
         "pts": 25
       },
       {
+        "posicion": 5,
+        "equipo": "ASTRA MACKIE",
+        "pj": 13,
+        "g": 8,
+        "e": 1,
+        "p": 4,
+        "gf": 40,
+        "gc": 18,
+        "pts": 25
+      },
+      {
         "posicion": 6,
         "equipo": "SOCIAL OESTE",
-        "pj": 12,
+        "pj": 13,
         "g": 7,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 35,
-        "gc": 12,
+        "gc": 14,
         "pts": 23
       },
       {
         "posicion": 7,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 12,
-        "g": 6,
+        "pj": 13,
+        "g": 7,
         "e": 2,
         "p": 4,
-        "gf": 28,
+        "gf": 30,
         "gc": 16,
-        "pts": 20
+        "pts": 23
       },
       {
         "posicion": 8,
@@ -399,13 +399,13 @@
       {
         "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 7,
-        "gf": 17,
-        "gc": 26,
-        "pts": 15
+        "gf": 18,
+        "gc": 27,
+        "pts": 16
       },
       {
         "posicion": 12,
@@ -420,6 +420,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "CENTRO VK",
+        "pj": 12,
+        "g": 3,
+        "e": 2,
+        "p": 7,
+        "gf": 10,
+        "gc": 19,
+        "pts": 11
+      },
+      {
+        "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 12,
         "g": 3,
@@ -430,26 +441,15 @@
         "pts": 10
       },
       {
-        "posicion": 14,
-        "equipo": "PURA SUELA",
-        "pj": 12,
-        "g": 2,
-        "e": 3,
-        "p": 7,
-        "gf": 9,
-        "gc": 30,
-        "pts": 9
-      },
-      {
         "posicion": 15,
-        "equipo": "CENTRO VK",
-        "pj": 11,
+        "equipo": "PURA SUELA",
+        "pj": 13,
         "g": 2,
-        "e": 2,
+        "e": 4,
         "p": 7,
-        "gf": 8,
-        "gc": 19,
-        "pts": 8
+        "gf": 10,
+        "gc": 31,
+        "pts": 10
       },
       {
         "posicion": 16,
@@ -510,6 +510,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 13,
+        "g": 9,
+        "e": 2,
+        "p": 2,
+        "gf": 38,
+        "gc": 13,
+        "pts": 29
+      },
+      {
+        "posicion": 4,
         "equipo": "17 DE AGOSTO",
         "pj": 12,
         "g": 9,
@@ -520,26 +531,15 @@
         "pts": 28
       },
       {
-        "posicion": 4,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 12,
-        "g": 8,
-        "e": 2,
-        "p": 2,
-        "gf": 36,
-        "gc": 13,
-        "pts": 26
-      },
-      {
         "posicion": 5,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 12,
-        "g": 8,
+        "pj": 13,
+        "g": 9,
         "e": 1,
         "p": 3,
-        "gf": 35,
+        "gf": 36,
         "gc": 13,
-        "pts": 25
+        "pts": 28
       },
       {
         "posicion": 6,
@@ -577,12 +577,12 @@
       {
         "posicion": 9,
         "equipo": "MAVIA FC",
-        "pj": 11,
+        "pj": 12,
         "g": 5,
         "e": 2,
-        "p": 4,
+        "p": 5,
         "gf": 27,
-        "gc": 19,
+        "gc": 21,
         "pts": 17
       },
       {
@@ -632,12 +632,12 @@
       {
         "posicion": 14,
         "equipo": "ASTRA MACKIE",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 17,
-        "gc": 16,
+        "gc": 17,
         "pts": 10
       },
       {
@@ -699,14 +699,25 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 35,
+        "pj": 36,
         "g": 27,
         "e": 4,
-        "p": 4,
+        "p": 5,
         "gf": 118,
-        "gc": 29,
+        "gc": 31,
         "pts": 85,
         "posicion": 2
+      },
+      {
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 38,
+        "g": 25,
+        "e": 5,
+        "p": 8,
+        "gf": 109,
+        "gc": 38,
+        "pts": 80,
+        "posicion": 3
       },
       {
         "equipo": "ALLENDE",
@@ -717,7 +728,7 @@
         "gf": 92,
         "gc": 26,
         "pts": 77,
-        "posicion": 3
+        "posicion": 4
       },
       {
         "equipo": "VILLA SAHORES",
@@ -728,51 +739,51 @@
         "gf": 79,
         "gc": 48,
         "pts": 73,
-        "posicion": 4
-      },
-      {
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 35,
-        "g": 22,
-        "e": 5,
-        "p": 8,
-        "gf": 105,
-        "gc": 38,
-        "pts": 71,
         "posicion": 5
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 36,
-        "g": 17,
+        "pj": 37,
+        "g": 18,
         "e": 11,
         "p": 8,
-        "gf": 65,
+        "gf": 67,
         "gc": 46,
-        "pts": 62,
+        "pts": 65,
         "posicion": 6
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 36,
+        "pj": 39,
         "g": 19,
         "e": 4,
-        "p": 13,
+        "p": 16,
         "gf": 83,
-        "gc": 44,
+        "gc": 48,
         "pts": 61,
         "posicion": 7
       },
       {
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 38,
+        "g": 16,
+        "e": 5,
+        "p": 17,
+        "gf": 77,
+        "gc": 85,
+        "pts": 53,
+        "posicion": 8
+      },
+      {
         "equipo": "MAVIA FC",
-        "pj": 33,
+        "pj": 34,
         "g": 15,
         "e": 6,
-        "p": 12,
+        "p": 13,
         "gf": 72,
-        "gc": 61,
+        "gc": 63,
         "pts": 51,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "ESTRELLA FEDERAL",
@@ -783,17 +794,6 @@
         "gf": 55,
         "gc": 60,
         "pts": 51,
-        "posicion": 9
-      },
-      {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 36,
-        "g": 15,
-        "e": 4,
-        "p": 17,
-        "gf": 73,
-        "gc": 82,
-        "pts": 49,
         "posicion": 10
       },
       {
@@ -853,24 +853,24 @@
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 37,
+        "pj": 39,
         "g": 7,
-        "e": 7,
-        "p": 23,
-        "gf": 39,
-        "gc": 95,
-        "pts": 28,
+        "e": 8,
+        "p": 24,
+        "gf": 42,
+        "gc": 99,
+        "pts": 29,
         "posicion": 16
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 32,
-        "g": 3,
+        "pj": 33,
+        "g": 4,
         "e": 2,
         "p": 27,
-        "gf": 21,
+        "gf": 23,
         "gc": 111,
-        "pts": 11,
+        "pts": 14,
         "posicion": 17
       },
       {
@@ -6164,25 +6164,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152227,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 16:30",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-205152-inbound2026031039650769970.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-205154-inbound2529987073263220227.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152380,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 15:15",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-193248-inbound3344279843154055308.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260620-193252-inbound4321570287167080307.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152533,
@@ -6367,14 +6373,17 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152538,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 18:00",
               "sede": "Independiente de beccar",
               "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260620-221451-1781993669327239239102758498515.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7fkvjn2ezkxy3enkkq02rfupngp2/20260620-221504-17819936901522038607899683275366.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152232,
@@ -6399,7 +6408,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "17 DE AGOSTO",
@@ -6447,39 +6456,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152234,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 17:30",
               "sede": "Campo de deportes Asturias",
               "direccion": "Av Del Libertador 981, Vicente Lopez",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-214507-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-214513-image.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152387,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 16:15",
               "sede": "Campo de deportes Asturias",
               "direccion": "Av Del Libertador 981, Vicente Lopez",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-202856-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-202923-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152540,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 15:00",
               "sede": "Campo de deportes Asturias",
               "direccion": "Av Del Libertador 981, Vicente Lopez",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-202709-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-2ifefyi9cuqceckptaupu9ghfyu2/20260620-202718-image.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SOCIAL OESTE",
@@ -6498,14 +6516,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152388,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 18:00",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260620-221046-1000519517.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-trbevjsznhpvbysles8hjbpcfbi2/20260620-221051-1000519516.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152541,
@@ -6519,7 +6540,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },
