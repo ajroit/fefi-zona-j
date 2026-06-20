@@ -145,20 +145,13 @@ def proximos_partidos(data, equipo_foco):
             })
 
     proximo = None
+    # 1. Buscar primero partidos de hoy o futuros
     for p in partidos:
-        if not p.get("fecha"):
-            if not p["jugado"]:
-                proximo = p
-                break
-        else:
-            if p["fecha"] >= today_str:
-                proximo = p
-                break
-            elif not p["jugado"]:
-                proximo = p
-                break
+        if p.get("fecha") and p["fecha"] >= today_str:
+            proximo = p
+            break
 
-    # Fallback if still not found, find the first unplayed match
+    # 2. Si no hay partidos futuros/hoy, buscar el primero no jugado (postergados)
     if not proximo:
         for p in partidos:
             if not p["jugado"]:

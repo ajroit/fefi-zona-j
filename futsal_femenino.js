@@ -210,11 +210,7 @@ function futsalFemeninoRender() {
 function futsalFemeninoRenderProximoPartido() {
   const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
   const partidos = futsalFemeninoPartidosDelFoco(futsalFemeninoCategoriaActual);
-  const proximo = partidos.find(p => {
-    if (!p.fecha) return !p.jugado;
-    if (p.fecha >= todayStr) return true;
-    return !p.jugado;
-  });
+  const proximo = partidos.find(p => p.fecha && p.fecha >= todayStr) || partidos.find(p => !p.jugado);
 
   const $teams = document.getElementById("next-match-teams");
   const $meta = document.getElementById("next-match-meta");

@@ -119,15 +119,15 @@ jobs:
                           'fecha': fecha.get('fecha_partido')
                       })
 
+              # 1. Buscar primero partidos de hoy o futuros
               for m in matches:
-                  if not m.get('fecha'):
-                      if not m['jugado']:
-                          return m['rival']
-                  else:
-                      if m['fecha'] >= today_str:
-                          return m['rival']
-                      elif not m['jugado']:
-                          return m['rival']
+                  if m.get('fecha') and m['fecha'] >= today_str:
+                      return m['rival']
+
+              # 2. Si no hay partidos futuros/hoy, buscar el primero no jugado (postergados)
+              for m in matches:
+                  if not m['jugado']:
+                      return m['rival']
               return ''
 
           rivales = {}

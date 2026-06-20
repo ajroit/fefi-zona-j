@@ -304,9 +304,9 @@ function fechaCorta(iso) {
 
 // ---- Proximo partido ----
 function renderProximoPartido() {
+  const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
   const partidos = partidosDelFoco(categoriaActual);
-  const lastPlayedIdx = partidos.reduce((acc, p, i) => p.jugado ? i : acc, -1);
-  const proximo = partidos.find((p, i) => !p.jugado && i > lastPlayedIdx);
+  const proximo = partidos.find(p => p.fecha && p.fecha >= todayStr) || partidos.find(p => !p.jugado);
 
   const $teams = document.getElementById("next-match-teams");
   const $meta = document.getElementById("next-match-meta");

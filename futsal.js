@@ -224,11 +224,9 @@ function futsalRender() {
 
 // ---- Próximo partido ----
 function futsalRenderProximoPartido() {
+  const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
   const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
-  // Buscar el próximo partido real: el primer no-jugado DESPUÉS del último jugado
-  // (evita mostrar fechas pasadas que quedaron "Programado" / postergadas)
-  const lastPlayedIdx = partidos.reduce((acc, p, i) => p.jugado ? i : acc, -1);
-  const proximo = partidos.find((p, i) => !p.jugado && i > lastPlayedIdx);
+  const proximo = partidos.find(p => p.fecha && p.fecha >= todayStr) || partidos.find(p => !p.jugado);
 
   const $teams = document.getElementById("next-match-teams");
   const $meta = document.getElementById("next-match-meta");
