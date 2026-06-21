@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T14:17:12.167297Z",
+  "actualizado": "2026-06-21T17:41:21.887664Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,12 +16,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "CENTRO ASTURIANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
-    },
-    {
       "nombre": "17 DE AGOSTO",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
+    },
+    {
+      "nombre": "CENTRO ASTURIANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
       "nombre": "ASTRA MACKIE",
@@ -56,20 +56,20 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
     },
     {
-      "nombre": "ESTRELLA FEDERAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
-    },
-    {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
     {
-      "nombre": "SACA DEL MEDIO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen%20de%20WhatsApp%202025-03-27%20a%20las%2011.33.21_a338c7ed-Photoroom.png"
+      "nombre": "ESTRELLA FEDERAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
     {
       "nombre": "ZIZOU FUTSAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
+    },
+    {
+      "nombre": "SACA DEL MEDIO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen%20de%20WhatsApp%202025-03-27%20a%20las%2011.33.21_a338c7ed-Photoroom.png"
     },
     {
       "nombre": "BROWN DE ADROGUE",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "17 DE AGOSTO",
+        "pj": 13,
+        "g": 10,
+        "e": 1,
+        "p": 2,
+        "gf": 49,
+        "gc": 12,
+        "pts": 31
+      },
+      {
+        "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
         "pj": 12,
         "g": 9,
@@ -107,17 +118,6 @@
         "gf": 43,
         "gc": 9,
         "pts": 29
-      },
-      {
-        "posicion": 3,
-        "equipo": "17 DE AGOSTO",
-        "pj": 12,
-        "g": 9,
-        "e": 1,
-        "p": 2,
-        "gf": 46,
-        "gc": 11,
-        "pts": 28
       },
       {
         "posicion": 4,
@@ -199,27 +199,16 @@
       {
         "posicion": 11,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 5,
-        "p": 4,
-        "gf": 26,
-        "gc": 25,
+        "p": 5,
+        "gf": 27,
+        "gc": 28,
         "pts": 14
       },
       {
         "posicion": 12,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 12,
-        "g": 3,
-        "e": 4,
-        "p": 5,
-        "gf": 13,
-        "gc": 21,
-        "pts": 13
-      },
-      {
-        "posicion": 13,
         "equipo": "PURA SUELA",
         "pj": 13,
         "g": 3,
@@ -230,7 +219,29 @@
         "pts": 13
       },
       {
+        "posicion": 13,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 13,
+        "g": 3,
+        "e": 4,
+        "p": 6,
+        "gf": 15,
+        "gc": 25,
+        "pts": 13
+      },
+      {
         "posicion": 14,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 13,
+        "g": 3,
+        "e": 1,
+        "p": 9,
+        "gf": 24,
+        "gc": 40,
+        "pts": 10
+      },
+      {
+        "posicion": 15,
         "equipo": "SACA DEL MEDIO",
         "pj": 12,
         "g": 2,
@@ -239,17 +250,6 @@
         "gf": 13,
         "gc": 31,
         "pts": 10
-      },
-      {
-        "posicion": 15,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 12,
-        "g": 2,
-        "e": 1,
-        "p": 9,
-        "gf": 20,
-        "gc": 38,
-        "pts": 7
       },
       {
         "posicion": 16,
@@ -289,13 +289,13 @@
       {
         "posicion": 1,
         "equipo": "17 DE AGOSTO",
-        "pj": 12,
-        "g": 10,
+        "pj": 13,
+        "g": 11,
         "e": 1,
         "p": 1,
-        "gf": 38,
+        "gf": 43,
         "gc": 9,
-        "pts": 31
+        "pts": 34
       },
       {
         "posicion": 2,
@@ -376,6 +376,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 13,
+        "g": 6,
+        "e": 1,
+        "p": 6,
+        "gf": 18,
+        "gc": 23,
+        "pts": 19
+      },
+      {
+        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 12,
         "g": 5,
@@ -384,17 +395,6 @@
         "gf": 20,
         "gc": 17,
         "pts": 18
-      },
-      {
-        "posicion": 10,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 12,
-        "g": 5,
-        "e": 1,
-        "p": 6,
-        "gf": 17,
-        "gc": 23,
-        "pts": 16
       },
       {
         "posicion": 11,
@@ -432,12 +432,12 @@
       {
         "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 13,
-        "gc": 19,
+        "gc": 24,
         "pts": 10
       },
       {
@@ -454,12 +454,12 @@
       {
         "posicion": 16,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 2,
-        "p": 8,
+        "p": 9,
         "gf": 13,
-        "gc": 26,
+        "gc": 27,
         "pts": 8
       },
       {
@@ -555,13 +555,13 @@
       {
         "posicion": 7,
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 12,
-        "g": 7,
+        "pj": 13,
+        "g": 8,
         "e": 1,
         "p": 4,
-        "gf": 25,
+        "gf": 26,
         "gc": 16,
-        "pts": 22
+        "pts": 25
       },
       {
         "posicion": 8,
@@ -599,12 +599,12 @@
       {
         "posicion": 11,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
         "e": 3,
-        "p": 5,
+        "p": 6,
         "gf": 23,
-        "gc": 27,
+        "gc": 28,
         "pts": 15
       },
       {
@@ -688,13 +688,13 @@
     "general": [
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 37,
-        "g": 29,
+        "pj": 39,
+        "g": 31,
         "e": 3,
         "p": 5,
-        "gf": 125,
-        "gc": 29,
-        "pts": 90,
+        "gf": 133,
+        "gc": 30,
+        "pts": 96,
         "posicion": 1
       },
       {
@@ -764,6 +764,17 @@
         "posicion": 7
       },
       {
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 39,
+        "g": 17,
+        "e": 6,
+        "p": 16,
+        "gf": 59,
+        "gc": 64,
+        "pts": 57,
+        "posicion": 8
+      },
+      {
         "equipo": "MAVIA FC",
         "pj": 36,
         "g": 16,
@@ -772,7 +783,7 @@
         "gf": 75,
         "gc": 64,
         "pts": 55,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -783,17 +794,6 @@
         "gf": 77,
         "gc": 85,
         "pts": 53,
-        "posicion": 9
-      },
-      {
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 36,
-        "g": 15,
-        "e": 6,
-        "p": 15,
-        "gf": 55,
-        "gc": 60,
-        "pts": 51,
         "posicion": 10
       },
       {
@@ -820,12 +820,12 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 37,
+        "pj": 39,
         "g": 10,
         "e": 8,
-        "p": 19,
-        "gf": 58,
-        "gc": 68,
+        "p": 21,
+        "gf": 59,
+        "gc": 76,
         "pts": 38,
         "posicion": 13
       },
@@ -842,13 +842,13 @@
       },
       {
         "equipo": "ZIZOU FUTSAL",
-        "pj": 36,
-        "g": 8,
+        "pj": 39,
+        "g": 9,
         "e": 6,
-        "p": 22,
-        "gf": 56,
-        "gc": 91,
-        "pts": 30,
+        "p": 24,
+        "gf": 60,
+        "gc": 95,
+        "pts": 33,
         "posicion": 15
       },
       {
@@ -6253,39 +6253,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152229,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 10:00",
               "sede": "Parque Chacabuco",
               "direccion": "Asamblea 1213 (dentro del parque)",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-142620-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-142143-image.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152382,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 11:15",
               "sede": "Parque Chacabuco",
               "direccion": "Asamblea 1213 (dentro del parque)",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-152955-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-152942-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152535,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 12:30",
               "sede": "Parque Chacabuco",
               "direccion": "Asamblea 1213 (dentro del parque)",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-164502-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260621-164454-image.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SACA DEL MEDIO",
@@ -6428,39 +6437,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152233,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 12:30",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-163843-34233.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-163848-34232.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152386,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 11:15",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-152244-34175.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-152247-34174.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152539,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 10:00",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-140820-34154.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260621-140824-34153.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO ASTURIANO",

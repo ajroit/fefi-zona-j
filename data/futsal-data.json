@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T14:17:04.040013Z",
+  "actualizado": "2026-06-21T17:41:10.513359Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1455,6 +1455,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "ATENEO HAEDO",
+        "pj": 13,
+        "g": 3,
+        "e": 1,
+        "p": 9,
+        "gf": 23,
+        "gc": 50,
+        "pts": 10
+      },
+      {
+        "posicion": 13,
         "equipo": "BPNA",
         "pj": 11,
         "g": 3,
@@ -1465,7 +1476,7 @@
         "pts": 9
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 3,
@@ -1476,25 +1487,14 @@
         "pts": 9
       },
       {
-        "posicion": 14,
-        "equipo": "ATENEO HAEDO",
-        "pj": 12,
-        "g": 2,
-        "e": 1,
-        "p": 9,
-        "gf": 20,
-        "gc": 49,
-        "pts": 7
-      },
-      {
         "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 0,
-        "p": 11,
-        "gf": 14,
-        "gc": 69,
+        "p": 12,
+        "gf": 15,
+        "gc": 72,
         "pts": 3
       },
       {
@@ -1612,13 +1612,13 @@
       {
         "posicion": 10,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 12,
-        "g": 4,
+        "pj": 13,
+        "g": 5,
         "e": 2,
         "p": 6,
-        "gf": 24,
-        "gc": 48,
-        "pts": 14
+        "gf": 30,
+        "gc": 49,
+        "pts": 17
       },
       {
         "posicion": 11,
@@ -1645,12 +1645,12 @@
       {
         "posicion": 13,
         "equipo": "ATENEO HAEDO",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 0,
-        "p": 9,
-        "gf": 24,
-        "gc": 67,
+        "p": 10,
+        "gf": 25,
+        "gc": 73,
         "pts": 9
       },
       {
@@ -2111,6 +2111,17 @@
         "posicion": 6
       },
       {
+        "equipo": "ATENEO HAEDO",
+        "pj": 128,
+        "g": 61,
+        "e": 5,
+        "p": 62,
+        "gf": 460,
+        "gc": 455,
+        "pts": 188,
+        "posicion": 7
+      },
+      {
         "equipo": "LUNA DE MATANZA",
         "pj": 120,
         "g": 59,
@@ -2119,7 +2130,7 @@
         "gf": 464,
         "gc": 404,
         "pts": 186,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "RIVADAVIA 87",
@@ -2129,17 +2140,6 @@
         "p": 48,
         "gf": 439,
         "gc": 425,
-        "pts": 185,
-        "posicion": 8
-      },
-      {
-        "equipo": "ATENEO HAEDO",
-        "pj": 126,
-        "g": 60,
-        "e": 5,
-        "p": 61,
-        "gf": 456,
-        "gc": 448,
         "pts": 185,
         "posicion": 9
       },
@@ -2200,13 +2200,13 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 127,
-        "g": 27,
+        "pj": 129,
+        "g": 28,
         "e": 9,
-        "p": 91,
-        "gf": 290,
-        "gc": 606,
-        "pts": 90,
+        "p": 92,
+        "gf": 297,
+        "gc": 610,
+        "pts": 93,
         "posicion": 15
       },
       {
@@ -17190,38 +17190,33 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-0dqwr2didudd6jraccqb3vcizq13/20260620-182721-inbound4536759247976365041.jpg"
               ]
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149026,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 12:00",
-              "sede": "Club ateneo ",
-              "direccion": "Las bases 221",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149146,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 11:00",
               "sede": "Club ateneo ",
               "direccion": "Las bases 221",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-145741-1001001061.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-145735-1001001060.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149266,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 10:00",
               "sede": "Club ateneo ",
               "direccion": "Las bases 221",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-135940-1001000939.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-135912-1001000940.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149386,
@@ -17246,6 +17241,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260621-002544-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qeincubzkpzslen6us8lghfutth2/20260621-002558-image.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149026,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-21 12:00",
+              "sede": "Club ateneo ",
+              "direccion": "Las bases 221",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-160501-1001001158.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260621-160457-1001001157.jpg"
               ]
             }
           },
