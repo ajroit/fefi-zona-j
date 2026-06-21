@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T17:41:10.513359Z",
+  "actualizado": "2026-06-21T19:45:11.857975Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1157,13 +1157,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 12,
-        "g": 11,
+        "pj": 13,
+        "g": 12,
         "e": 0,
         "p": 1,
-        "gf": 101,
-        "gc": 20,
-        "pts": 33
+        "gf": 107,
+        "gc": 21,
+        "pts": 36
       },
       {
         "posicion": 2,
@@ -1234,12 +1234,12 @@
       {
         "posicion": 8,
         "equipo": "PEDRO LOZANO",
-        "pj": 12,
+        "pj": 13,
         "g": 6,
         "e": 2,
-        "p": 4,
-        "gf": 47,
-        "gc": 20,
+        "p": 5,
+        "gf": 48,
+        "gc": 26,
         "pts": 20
       },
       {
@@ -1345,6 +1345,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ROTONDA",
+        "pj": 12,
+        "g": 10,
+        "e": 1,
+        "p": 1,
+        "gf": 49,
+        "gc": 17,
+        "pts": 31
+      },
+      {
+        "posicion": 3,
         "equipo": "MARCHIGIANA",
         "pj": 12,
         "g": 10,
@@ -1353,17 +1364,6 @@
         "gf": 68,
         "gc": 14,
         "pts": 30
-      },
-      {
-        "posicion": 3,
-        "equipo": "ROTONDA",
-        "pj": 11,
-        "g": 9,
-        "e": 1,
-        "p": 1,
-        "gf": 42,
-        "gc": 15,
-        "pts": 28
       },
       {
         "posicion": 4,
@@ -1500,12 +1500,12 @@
       {
         "posicion": 16,
         "equipo": "LUNA DE MATANZA",
-        "pj": 12,
+        "pj": 13,
         "g": 0,
         "e": 1,
-        "p": 11,
-        "gf": 8,
-        "gc": 58,
+        "p": 12,
+        "gf": 10,
+        "gc": 65,
         "pts": 1
       }
     ],
@@ -2057,13 +2057,13 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 122,
-        "g": 80,
+        "pj": 123,
+        "g": 81,
         "e": 6,
         "p": 36,
-        "gf": 716,
-        "gc": 413,
-        "pts": 246,
+        "gf": 722,
+        "gc": 414,
+        "pts": 249,
         "posicion": 2
       },
       {
@@ -2089,6 +2089,17 @@
         "posicion": 4
       },
       {
+        "equipo": "ROTONDA",
+        "pj": 116,
+        "g": 63,
+        "e": 13,
+        "p": 40,
+        "gf": 479,
+        "gc": 389,
+        "pts": 202,
+        "posicion": 5
+      },
+      {
         "equipo": "ESTRADA FUTSAL",
         "pj": 124,
         "g": 65,
@@ -2097,17 +2108,6 @@
         "gf": 455,
         "gc": 396,
         "pts": 202,
-        "posicion": 5
-      },
-      {
-        "equipo": "ROTONDA",
-        "pj": 115,
-        "g": 62,
-        "e": 13,
-        "p": 40,
-        "gf": 472,
-        "gc": 387,
-        "pts": 199,
         "posicion": 6
       },
       {
@@ -2123,12 +2123,12 @@
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 120,
+        "pj": 121,
         "g": 59,
         "e": 9,
-        "p": 52,
-        "gf": 464,
-        "gc": 404,
+        "p": 53,
+        "gf": 466,
+        "gc": 411,
         "pts": 186,
         "posicion": 8
       },
@@ -2145,12 +2145,12 @@
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 122,
+        "pj": 123,
         "g": 55,
         "e": 16,
-        "p": 51,
-        "gf": 418,
-        "gc": 362,
+        "p": 52,
+        "gf": 419,
+        "gc": 368,
         "pts": 181,
         "posicion": 10
       },
@@ -17608,17 +17608,6 @@
               "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 148909,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 15:00",
-              "sede": "Inmaculada Concepción ",
-              "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
-            },
             "2016 PROMOCIONALES": {
               "match_id": 149029,
               "goles_local": 4,
@@ -17678,6 +17667,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-btyrqykfpqe0jintbp4ixn6epdv2/20260620-143720-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-btyrqykfpqe0jintbp4ixn6epdv2/20260620-143731-image.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 148909,
+              "goles_local": 6,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-21 15:00",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260621-190624-1000010107.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260621-190624-1000010106.jpg"
               ]
             }
           },
@@ -17921,14 +17924,17 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149031,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 15:30",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260621-192740-1000271223.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260621-192742-1000271224.jpg"
+              ]
             },
             "2017 PROMOCIONALES": {
               "match_id": 149151,
@@ -17964,7 +17970,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ARGENTINO DE CASTELAR",
