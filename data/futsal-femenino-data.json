@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T08:38:29.473689Z",
+  "actualizado": "2026-06-21T14:17:12.167297Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -499,6 +499,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "17 DE AGOSTO",
+        "pj": 13,
+        "g": 10,
+        "e": 1,
+        "p": 2,
+        "gf": 41,
+        "gc": 9,
+        "pts": 31
+      },
+      {
+        "posicion": 3,
         "equipo": "ALLENDE",
         "pj": 11,
         "g": 10,
@@ -509,7 +520,7 @@
         "pts": 30
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 13,
         "g": 9,
@@ -518,17 +529,6 @@
         "gf": 38,
         "gc": 13,
         "pts": 29
-      },
-      {
-        "posicion": 4,
-        "equipo": "17 DE AGOSTO",
-        "pj": 12,
-        "g": 9,
-        "e": 1,
-        "p": 2,
-        "gf": 36,
-        "gc": 9,
-        "pts": 28
       },
       {
         "posicion": 5,
@@ -610,12 +610,12 @@
       {
         "posicion": 12,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
         "e": 2,
-        "p": 6,
+        "p": 7,
         "gf": 19,
-        "gc": 19,
+        "gc": 24,
         "pts": 14
       },
       {
@@ -687,6 +687,17 @@
     ],
     "general": [
       {
+        "equipo": "17 DE AGOSTO",
+        "pj": 37,
+        "g": 29,
+        "e": 3,
+        "p": 5,
+        "gf": 125,
+        "gc": 29,
+        "pts": 90,
+        "posicion": 1
+      },
+      {
         "equipo": "SOCIAL OESTE",
         "pj": 37,
         "g": 28,
@@ -695,17 +706,6 @@
         "gf": 125,
         "gc": 31,
         "pts": 88,
-        "posicion": 1
-      },
-      {
-        "equipo": "17 DE AGOSTO",
-        "pj": 36,
-        "g": 28,
-        "e": 3,
-        "p": 5,
-        "gf": 120,
-        "gc": 29,
-        "pts": 87,
         "posicion": 2
       },
       {
@@ -820,12 +820,12 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 36,
+        "pj": 37,
         "g": 10,
         "e": 8,
-        "p": 18,
+        "p": 19,
         "gf": 58,
-        "gc": 63,
+        "gc": 68,
         "pts": 38,
         "posicion": 13
       },

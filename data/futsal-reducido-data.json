@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T08:38:27.121257Z",
+  "actualizado": "2026-06-21T14:17:08.333885Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1446,17 +1446,28 @@
       },
       {
         "posicion": 15,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 12,
+        "equipo": "RESPLANDOR",
+        "pj": 13,
         "g": 2,
         "e": 0,
-        "p": 10,
-        "gf": 12,
-        "gc": 63,
+        "p": 11,
+        "gf": 33,
+        "gc": 76,
         "pts": 6
       },
       {
         "posicion": 16,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 13,
+        "g": 2,
+        "e": 0,
+        "p": 11,
+        "gf": 13,
+        "gc": 67,
+        "pts": 6
+      },
+      {
+        "posicion": 17,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 1,
@@ -1465,17 +1476,6 @@
         "gf": 18,
         "gc": 71,
         "pts": 4
-      },
-      {
-        "posicion": 17,
-        "equipo": "RESPLANDOR",
-        "pj": 12,
-        "g": 1,
-        "e": 0,
-        "p": 11,
-        "gf": 29,
-        "gc": 75,
-        "pts": 3
       },
       {
         "posicion": 18,
@@ -1613,13 +1613,13 @@
       },
       {
         "equipo": "RESPLANDOR",
-        "pj": 84,
-        "g": 33,
+        "pj": 85,
+        "g": 34,
         "e": 7,
         "p": 44,
-        "gf": 409,
-        "gc": 414,
-        "pts": 106,
+        "gf": 413,
+        "gc": 415,
+        "pts": 109,
         "posicion": 12
       },
       {
@@ -1679,12 +1679,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 83,
+        "pj": 84,
         "g": 13,
         "e": 5,
-        "p": 65,
-        "gf": 143,
-        "gc": 435,
+        "p": 66,
+        "gf": 144,
+        "gc": 439,
         "pts": 44,
         "posicion": 18
       }

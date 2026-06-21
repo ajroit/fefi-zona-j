@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T08:38:20.217995Z",
+  "actualizado": "2026-06-21T14:17:04.040013Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1767,6 +1767,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ATENEO HAEDO",
+        "pj": 12,
+        "g": 5,
+        "e": 0,
+        "p": 7,
+        "gf": 32,
+        "gc": 38,
+        "pts": 15
+      },
+      {
+        "posicion": 9,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 13,
         "g": 5,
@@ -1777,7 +1788,7 @@
         "pts": 15
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ESTRADA FUTSAL",
         "pj": 12,
         "g": 4,
@@ -1788,25 +1799,14 @@
         "pts": 13
       },
       {
-        "posicion": 10,
-        "equipo": "ATENEO HAEDO",
-        "pj": 11,
-        "g": 4,
-        "e": 0,
-        "p": 7,
-        "gf": 25,
-        "gc": 38,
-        "pts": 12
-      },
-      {
         "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 11,
+        "pj": 12,
         "g": 3,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 20,
-        "gc": 54,
+        "gc": 61,
         "pts": 10
       },
       {
@@ -2134,13 +2134,13 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 125,
-        "g": 59,
+        "pj": 126,
+        "g": 60,
         "e": 5,
         "p": 61,
-        "gf": 449,
+        "gf": 456,
         "gc": 448,
-        "pts": 182,
+        "pts": 185,
         "posicion": 9
       },
       {
@@ -2200,12 +2200,12 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 126,
+        "pj": 127,
         "g": 27,
         "e": 9,
-        "p": 90,
+        "p": 91,
         "gf": 290,
-        "gc": 599,
+        "gc": 606,
         "pts": 90,
         "posicion": 15
       },
@@ -17255,17 +17255,6 @@
           "local": "RIVADAVIA 87",
           "visitante": "MARCHIGIANA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148187,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-20 22:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148307,
               "goles_local": 2,
@@ -17378,6 +17367,20 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148187,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-20 22:00",
+              "sede": "San Jose",
+              "direccion": "Casullo 355",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260621-110921-inbound7958264342819834892.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260621-110937-inbound2590827415813489696.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
