@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T21:18:05.487846Z",
+  "actualizado": "2026-06-21T23:16:02.939155Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -133,13 +133,13 @@
       {
         "posicion": 5,
         "equipo": "ALLENDE",
-        "pj": 11,
-        "g": 6,
+        "pj": 12,
+        "g": 7,
         "e": 4,
         "p": 1,
-        "gf": 33,
+        "gf": 44,
         "gc": 13,
-        "pts": 22
+        "pts": 25
       },
       {
         "posicion": 6,
@@ -276,12 +276,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 6,
-        "gc": 50,
+        "gc": 61,
         "pts": 3
       }
     ],
@@ -310,6 +310,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "ALLENDE",
+        "pj": 12,
+        "g": 9,
+        "e": 1,
+        "p": 2,
+        "gf": 33,
+        "gc": 6,
+        "pts": 28
+      },
+      {
+        "posicion": 4,
         "equipo": "BROWN DE ADROGUE",
         "pj": 12,
         "g": 8,
@@ -318,17 +329,6 @@
         "gf": 28,
         "gc": 15,
         "pts": 27
-      },
-      {
-        "posicion": 4,
-        "equipo": "ALLENDE",
-        "pj": 11,
-        "g": 8,
-        "e": 1,
-        "p": 2,
-        "gf": 29,
-        "gc": 5,
-        "pts": 25
       },
       {
         "posicion": 5,
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 12,
+        "pj": 13,
         "g": 0,
         "e": 2,
-        "p": 10,
-        "gf": 9,
-        "gc": 47,
+        "p": 11,
+        "gf": 10,
+        "gc": 51,
         "pts": 2
       }
     ],
@@ -709,6 +709,17 @@
         "posicion": 2
       },
       {
+        "equipo": "ALLENDE",
+        "pj": 35,
+        "g": 26,
+        "e": 5,
+        "p": 4,
+        "gf": 107,
+        "gc": 27,
+        "pts": 83,
+        "posicion": 3
+      },
+      {
         "equipo": "CENTRO ASTURIANO",
         "pj": 38,
         "g": 25,
@@ -717,17 +728,6 @@
         "gf": 109,
         "gc": 38,
         "pts": 80,
-        "posicion": 3
-      },
-      {
-        "equipo": "ALLENDE",
-        "pj": 33,
-        "g": 24,
-        "e": 5,
-        "p": 4,
-        "gf": 92,
-        "gc": 26,
-        "pts": 77,
         "posicion": 4
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 35,
+        "pj": 37,
         "g": 1,
         "e": 2,
-        "p": 32,
-        "gf": 15,
-        "gc": 152,
+        "p": 34,
+        "gf": 16,
+        "gc": 167,
         "pts": 5,
         "posicion": 18
       }
@@ -6357,17 +6357,6 @@
               "direccion": "Bolivar 1257",
               "planillas": null
             },
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152384,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 18:00",
-              "sede": "Club San Telmo",
-              "direccion": "Bolivar 1257",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152537,
               "goles_local": null,
@@ -6378,9 +6367,23 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152384,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-21 18:00",
+              "sede": "Club San Telmo",
+              "direccion": "Bolivar 1257",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260621-220511-151305.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260621-220512-151306.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "MAVIA FC",
