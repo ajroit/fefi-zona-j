@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T23:16:02.939155Z",
+  "actualizado": "2026-06-22T09:52:03.519339Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -32,12 +32,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
-    },
-    {
       "nombre": "EL GALPON",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
+    },
+    {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
     },
     {
       "nombre": "MAVIA FC",
@@ -143,6 +143,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "EL GALPON",
+        "pj": 12,
+        "g": 7,
+        "e": 2,
+        "p": 3,
+        "gf": 23,
+        "gc": 15,
+        "pts": 23
+      },
+      {
+        "posicion": 7,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 7,
@@ -150,17 +161,6 @@
         "p": 4,
         "gf": 34,
         "gc": 21,
-        "pts": 22
-      },
-      {
-        "posicion": 7,
-        "equipo": "EL GALPON",
-        "pj": 11,
-        "g": 7,
-        "e": 1,
-        "p": 3,
-        "gf": 21,
-        "gc": 13,
         "pts": 22
       },
       {
@@ -254,13 +254,13 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
-        "e": 2,
+        "e": 3,
         "p": 9,
-        "gf": 20,
-        "gc": 44,
-        "pts": 5
+        "gf": 22,
+        "gc": 46,
+        "pts": 6
       },
       {
         "posicion": 17,
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 13,
+        "g": 9,
+        "e": 3,
+        "p": 1,
+        "gf": 31,
+        "gc": 17,
+        "pts": 30
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA SAHORES",
         "pj": 13,
         "g": 9,
@@ -309,7 +320,7 @@
         "pts": 29
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "ALLENDE",
         "pj": 12,
         "g": 9,
@@ -318,17 +329,6 @@
         "gf": 33,
         "gc": 6,
         "pts": 28
-      },
-      {
-        "posicion": 4,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 12,
-        "g": 8,
-        "e": 3,
-        "p": 1,
-        "gf": 28,
-        "gc": 15,
-        "pts": 27
       },
       {
         "posicion": 5,
@@ -465,12 +465,12 @@
       {
         "posicion": 17,
         "equipo": "EL GALPON",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 4,
-        "p": 6,
-        "gf": 12,
-        "gc": 27,
+        "p": 7,
+        "gf": 14,
+        "gc": 30,
         "pts": 7
       },
       {
@@ -809,14 +809,25 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 32,
+        "pj": 34,
         "g": 12,
-        "e": 5,
-        "p": 15,
-        "gf": 46,
-        "gc": 55,
-        "pts": 41,
+        "e": 6,
+        "p": 16,
+        "gf": 50,
+        "gc": 60,
+        "pts": 42,
         "posicion": 12
+      },
+      {
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 38,
+        "g": 12,
+        "e": 6,
+        "p": 20,
+        "gf": 63,
+        "gc": 104,
+        "pts": 42,
+        "posicion": 13
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
@@ -826,17 +837,6 @@
         "p": 21,
         "gf": 59,
         "gc": 76,
-        "pts": 38,
-        "posicion": 13
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 36,
-        "g": 11,
-        "e": 5,
-        "p": 20,
-        "gf": 58,
-        "gc": 100,
         "pts": 38,
         "posicion": 14
       },
@@ -6213,25 +6213,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152228,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 21:45",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260622-015817-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260622-015805-image.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152381,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 20:30",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260622-011233-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ih0q6d6c1htrvjnlbtmtfajdyt32/20260622-011222-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152534,
@@ -6245,7 +6251,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ZIZOU FUTSAL",
@@ -6348,14 +6354,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152231,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 11,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 19:15",
               "sede": "Club San Telmo",
               "direccion": "Bolivar 1257",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260621-231328-151378.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cysntgpxbzfgfevledpbpvn9hb3/20260621-231326-151377.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152537,
