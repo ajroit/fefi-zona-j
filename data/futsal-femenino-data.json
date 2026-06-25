@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-24T07:49:52.986324Z",
+  "actualizado": "2026-06-25T07:51:25.974233Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 12,
-        "g": 11,
+        "pj": 13,
+        "g": 12,
         "e": 0,
         "p": 1,
-        "gf": 60,
+        "gf": 63,
         "gc": 13,
-        "pts": 33
+        "pts": 36
       },
       {
         "posicion": 2,
@@ -111,12 +111,12 @@
       {
         "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 12,
+        "pj": 13,
         "g": 9,
         "e": 2,
-        "p": 1,
+        "p": 2,
         "gf": 43,
-        "gc": 9,
+        "gc": 12,
         "pts": 29
       },
       {
@@ -699,13 +699,13 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 37,
-        "g": 28,
+        "pj": 38,
+        "g": 29,
         "e": 4,
         "p": 5,
-        "gf": 125,
+        "gf": 128,
         "gc": 31,
-        "pts": 88,
+        "pts": 91,
         "posicion": 2
       },
       {
@@ -721,12 +721,12 @@
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 38,
+        "pj": 39,
         "g": 25,
         "e": 5,
-        "p": 8,
+        "p": 9,
         "gf": 109,
-        "gc": 38,
+        "gc": 41,
         "pts": 80,
         "posicion": 4
       },
@@ -5700,15 +5700,15 @@
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152217,
               "goles_local": 0,
-              "goles_visitante": 1,
+              "goles_visitante": 3,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-24 21:30",
               "sede": "Campo de deportes Asturias",
               "direccion": "Av Del Libertador 981, Vicente Lopez",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220802-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hmglz87puhgnzd9auuuux2ht5nl1/20260609-220752-image.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260625-022949-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ynoccsrm9lvtap25ihqljjtvpn82/20260625-023004-image.jpg"
               ]
             }
           },
@@ -6308,9 +6308,9 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152230,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 22:30",
               "sede": "Sede Dock Sud",
@@ -6591,7 +6591,7 @@
     },
     {
       "numero": 14,
-      "fecha_partido": null,
+      "fecha_partido": "2026-06-28",
       "encuentros": [
         {
           "local": "CENTRO VK",
@@ -6603,9 +6603,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 12:30",
+              "sede": "Parque Chacabuco",
+              "direccion": "Avenida Asamblea 1213",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6614,9 +6614,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 11:15",
+              "sede": "Parque Chacabuco",
+              "direccion": "Avenida Asamblea 1213",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6625,9 +6625,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 10:00",
+              "sede": "Parque Chacabuco",
+              "direccion": "Avenida Asamblea 1213",
               "planillas": null
             }
           },
@@ -6643,9 +6643,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-27 16:45",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6654,9 +6654,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-27 15:30",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6665,9 +6665,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-27 14:15",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             }
           },
@@ -6683,9 +6683,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 13:00",
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6694,9 +6694,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 11:45",
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6705,9 +6705,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 10:30",
+              "sede": "Juventud de Tapiales",
+              "direccion": "Curapaligue 1250, Tapiales",
               "planillas": null
             }
           },
@@ -6723,9 +6723,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 13:15",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
@@ -6734,9 +6734,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 15:45",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6745,9 +6745,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 14:30",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             }
           },
@@ -6763,9 +6763,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-25 21:15",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6774,9 +6774,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-25 20:00",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
@@ -6785,9 +6785,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-25 22:30",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             }
           },
@@ -6803,9 +6803,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-27 21:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6814,9 +6814,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-27 19:45",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6883,9 +6883,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 12:30",
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6894,9 +6894,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 11:15",
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -6905,9 +6905,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 10:00",
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
               "planillas": null
             }
           },
@@ -6923,9 +6923,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 12:30",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -6934,9 +6934,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-06-28 11:15",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
