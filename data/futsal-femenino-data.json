@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-25T07:51:25.974233Z",
+  "actualizado": "2026-06-26T07:59:08.716558Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -24,12 +24,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
-      "nombre": "ASTRA MACKIE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
-    },
-    {
       "nombre": "ALLENDE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
+    },
+    {
+      "nombre": "ASTRA MACKIE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
       "nombre": "EL GALPON",
@@ -121,6 +121,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ALLENDE",
+        "pj": 13,
+        "g": 8,
+        "e": 4,
+        "p": 1,
+        "gf": 47,
+        "gc": 13,
+        "pts": 28
+      },
+      {
+        "posicion": 5,
         "equipo": "ASTRA MACKIE",
         "pj": 13,
         "g": 8,
@@ -129,17 +140,6 @@
         "gf": 26,
         "gc": 13,
         "pts": 26
-      },
-      {
-        "posicion": 5,
-        "equipo": "ALLENDE",
-        "pj": 12,
-        "g": 7,
-        "e": 4,
-        "p": 1,
-        "gf": 44,
-        "gc": 13,
-        "pts": 25
       },
       {
         "posicion": 6,
@@ -166,12 +166,12 @@
       {
         "posicion": 8,
         "equipo": "MAVIA FC",
-        "pj": 12,
+        "pj": 13,
         "g": 6,
         "e": 2,
-        "p": 4,
+        "p": 5,
         "gf": 28,
-        "gc": 26,
+        "gc": 29,
         "pts": 20
       },
       {
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ALLENDE",
+        "pj": 13,
+        "g": 10,
+        "e": 1,
+        "p": 2,
+        "gf": 35,
+        "gc": 7,
+        "pts": 31
+      },
+      {
+        "posicion": 3,
         "equipo": "BROWN DE ADROGUE",
         "pj": 13,
         "g": 9,
@@ -309,7 +320,7 @@
         "pts": 30
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "VILLA SAHORES",
         "pj": 13,
         "g": 9,
@@ -318,17 +329,6 @@
         "gf": 22,
         "gc": 13,
         "pts": 29
-      },
-      {
-        "posicion": 4,
-        "equipo": "ALLENDE",
-        "pj": 12,
-        "g": 9,
-        "e": 1,
-        "p": 2,
-        "gf": 33,
-        "gc": 6,
-        "pts": 28
       },
       {
         "posicion": 5,
@@ -388,12 +388,12 @@
       {
         "posicion": 10,
         "equipo": "MAVIA FC",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
         "e": 3,
-        "p": 4,
-        "gf": 20,
-        "gc": 17,
+        "p": 5,
+        "gf": 21,
+        "gc": 19,
         "pts": 18
       },
       {
@@ -488,6 +488,17 @@
     "UNICA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
+        "equipo": "ALLENDE",
+        "pj": 12,
+        "g": 11,
+        "e": 0,
+        "p": 1,
+        "gf": 31,
+        "gc": 8,
+        "pts": 33
+      },
+      {
+        "posicion": 2,
         "equipo": "SOCIAL OESTE",
         "pj": 12,
         "g": 10,
@@ -498,7 +509,7 @@
         "pts": 32
       },
       {
-        "posicion": 2,
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 13,
         "g": 10,
@@ -507,17 +518,6 @@
         "gf": 41,
         "gc": 9,
         "pts": 31
-      },
-      {
-        "posicion": 3,
-        "equipo": "ALLENDE",
-        "pj": 11,
-        "g": 10,
-        "e": 0,
-        "p": 1,
-        "gf": 30,
-        "gc": 8,
-        "pts": 30
       },
       {
         "posicion": 4,
@@ -577,12 +577,12 @@
       {
         "posicion": 9,
         "equipo": "MAVIA FC",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
         "e": 2,
-        "p": 5,
+        "p": 6,
         "gf": 27,
-        "gc": 21,
+        "gc": 22,
         "pts": 17
       },
       {
@@ -698,6 +698,17 @@
         "posicion": 1
       },
       {
+        "equipo": "ALLENDE",
+        "pj": 38,
+        "g": 29,
+        "e": 5,
+        "p": 4,
+        "gf": 113,
+        "gc": 28,
+        "pts": 92,
+        "posicion": 2
+      },
+      {
         "equipo": "SOCIAL OESTE",
         "pj": 38,
         "g": 29,
@@ -706,17 +717,6 @@
         "gf": 128,
         "gc": 31,
         "pts": 91,
-        "posicion": 2
-      },
-      {
-        "equipo": "ALLENDE",
-        "pj": 35,
-        "g": 26,
-        "e": 5,
-        "p": 4,
-        "gf": 107,
-        "gc": 27,
-        "pts": 83,
         "posicion": 3
       },
       {
@@ -776,12 +776,12 @@
       },
       {
         "equipo": "MAVIA FC",
-        "pj": 36,
+        "pj": 39,
         "g": 16,
         "e": 7,
-        "p": 13,
-        "gf": 75,
-        "gc": 64,
+        "p": 16,
+        "gf": 76,
+        "gc": 70,
         "pts": 55,
         "posicion": 9
       },
@@ -6759,39 +6759,48 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152393,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-25 21:15",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-013338-17824375677472655144254934718345.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-013319-17824375762999073978004237515366.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152546,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-25 20:00",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-013110-17824374384779144057661511977990.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-013107-17824374551637130053682370855265.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152240,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-25 22:30",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-033227-17824447367882975384997411996678.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260626-033217-17824447079055137033163259375449.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VILLA SAHORES",
