@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-26T07:58:50.824700Z",
+  "actualizado": "2026-06-27T07:22:14.749339Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -76,12 +76,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
-      "nombre": "ESTRADA FUTSAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195807-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
-    },
-    {
       "nombre": "JUVENTUD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260227-160851-20260224-224609-Disen_o_sin_ti_tulo.PNG"
+    },
+    {
+      "nombre": "ESTRADA FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195807-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     }
   ],
   "tablas_posiciones": {
@@ -157,11 +157,11 @@
         "equipo": "VILLA SAHORES",
         "pj": 13,
         "g": 6,
-        "e": 1,
-        "p": 6,
-        "gf": 42,
-        "gc": 45,
-        "pts": 19
+        "e": 2,
+        "p": 5,
+        "gf": 45,
+        "gc": 47,
+        "pts": 20
       },
       {
         "posicion": 8,
@@ -242,17 +242,6 @@
       },
       {
         "posicion": 15,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 13,
-        "g": 2,
-        "e": 3,
-        "p": 8,
-        "gf": 41,
-        "gc": 50,
-        "pts": 9
-      },
-      {
-        "posicion": 16,
         "equipo": "JUVENTUD",
         "pj": 13,
         "g": 2,
@@ -261,6 +250,17 @@
         "gf": 36,
         "gc": 53,
         "pts": 9
+      },
+      {
+        "posicion": 16,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 13,
+        "g": 1,
+        "e": 4,
+        "p": 8,
+        "gf": 43,
+        "gc": 53,
+        "pts": 7
       }
     ],
     "TERCERA MASCULINO": [
@@ -2089,17 +2089,6 @@
         "posicion": 4
       },
       {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 127,
-        "g": 68,
-        "e": 7,
-        "p": 52,
-        "gf": 470,
-        "gc": 396,
-        "pts": 211,
-        "posicion": 5
-      },
-      {
         "equipo": "LUNA DE MATANZA",
         "pj": 130,
         "g": 67,
@@ -2108,6 +2097,17 @@
         "gf": 517,
         "gc": 429,
         "pts": 210,
+        "posicion": 5
+      },
+      {
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 127,
+        "g": 67,
+        "e": 8,
+        "p": 52,
+        "gf": 472,
+        "gc": 399,
+        "pts": 209,
         "posicion": 6
       },
       {
@@ -2191,11 +2191,11 @@
         "equipo": "VILLA SAHORES",
         "pj": 124,
         "g": 32,
-        "e": 6,
-        "p": 86,
-        "gf": 208,
-        "gc": 509,
-        "pts": 102,
+        "e": 7,
+        "p": 85,
+        "gf": 211,
+        "gc": 511,
+        "pts": 103,
         "posicion": 14
       },
       {
@@ -17400,8 +17400,8 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148188,
-              "goles_local": 2,
-              "goles_visitante": 1,
+              "goles_local": 4,
+              "goles_visitante": 4,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 20:00",
@@ -18754,24 +18754,13 @@
               "direccion": null,
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149037,
+            "TERCERA MASCULINO": {
+              "match_id": 148317,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-28 10:00",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 148677,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 15:00",
+              "fecha_hora": "2026-06-28 18:30",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
               "planillas": null
@@ -18787,13 +18776,24 @@
               "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
               "planillas": null
             },
-            "TERCERA MASCULINO": {
-              "match_id": 148317,
+            "SEXTA MASCULINO": {
+              "match_id": 148677,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-28 18:30",
+              "fecha_hora": "2026-06-28 15:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149037,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-06-28 10:00",
               "sede": "Sociedad de Fomento Villa Don Bosco",
               "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
               "planillas": null

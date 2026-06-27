@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-26T07:59:02.117406Z",
+  "actualizado": "2026-06-27T07:22:21.392540Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1336,24 +1336,24 @@
       },
       {
         "posicion": 5,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 12,
-        "g": 7,
+        "equipo": "PARQUE CHAS",
+        "pj": 13,
+        "g": 8,
         "e": 1,
         "p": 4,
-        "gf": 52,
-        "gc": 22,
-        "pts": 22
+        "gf": 65,
+        "gc": 39,
+        "pts": 25
       },
       {
         "posicion": 6,
-        "equipo": "PARQUE CHAS",
-        "pj": 12,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 13,
         "g": 7,
         "e": 1,
-        "p": 4,
-        "gf": 60,
-        "gc": 39,
+        "p": 5,
+        "gf": 52,
+        "gc": 27,
         "pts": 22
       },
       {
@@ -1503,12 +1503,12 @@
       },
       {
         "equipo": "CAPITAN ROSALES",
-        "pj": 89,
+        "pj": 90,
         "g": 63,
         "e": 6,
-        "p": 20,
+        "p": 21,
         "gf": 550,
-        "gc": 308,
+        "gc": 313,
         "pts": 195,
         "posicion": 2
       },
@@ -1569,13 +1569,13 @@
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 89,
-        "g": 45,
+        "pj": 90,
+        "g": 46,
         "e": 9,
         "p": 35,
-        "gf": 424,
+        "gf": 429,
         "gc": 348,
-        "pts": 144,
+        "pts": 147,
         "posicion": 8
       },
       {
@@ -12981,7 +12981,7 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150437,
-              "goles_local": 3,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
