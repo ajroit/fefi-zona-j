@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T21:05:41.698126Z",
+  "actualizado": "2026-06-27T23:04:03.689759Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -310,6 +310,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ROTONDA",
+        "pj": 14,
+        "g": 7,
+        "e": 2,
+        "p": 5,
+        "gf": 71,
+        "gc": 61,
+        "pts": 23
+      },
+      {
+        "posicion": 6,
         "equipo": "HAEDO JUNIOR",
         "pj": 13,
         "g": 7,
@@ -320,7 +331,7 @@
         "pts": 23
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ESTRADA FUTSAL",
         "pj": 13,
         "g": 7,
@@ -331,47 +342,36 @@
         "pts": 22
       },
       {
-        "posicion": 7,
-        "equipo": "ROTONDA",
-        "pj": 13,
-        "g": 6,
-        "e": 2,
-        "p": 5,
-        "gf": 69,
-        "gc": 60,
-        "pts": 20
-      },
-      {
         "posicion": 8,
-        "equipo": "BPNA",
-        "pj": 13,
-        "g": 6,
-        "e": 2,
-        "p": 5,
-        "gf": 66,
-        "gc": 75,
-        "pts": 20
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "gf": 67,
+        "gc": 73,
+        "pts": 22
       },
       {
         "posicion": 9,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
+        "equipo": "BPNA",
+        "pj": 14,
         "g": 6,
-        "e": 1,
-        "p": 5,
-        "gf": 52,
-        "gc": 41,
-        "pts": 19
+        "e": 2,
+        "p": 6,
+        "gf": 70,
+        "gc": 84,
+        "pts": 20
       },
       {
         "posicion": 10,
-        "equipo": "CIENCIA Y LABOR",
+        "equipo": "ARGENTINO DE CASTELAR",
         "pj": 13,
         "g": 6,
         "e": 1,
         "p": 6,
-        "gf": 58,
-        "gc": 69,
+        "gf": 53,
+        "gc": 43,
         "pts": 19
       },
       {
@@ -477,6 +477,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 13,
+        "g": 8,
+        "e": 1,
+        "p": 4,
+        "gf": 64,
+        "gc": 36,
+        "pts": 25
+      },
+      {
+        "posicion": 5,
         "equipo": "HAEDO JUNIOR",
         "pj": 13,
         "g": 8,
@@ -485,17 +496,6 @@
         "gf": 45,
         "gc": 36,
         "pts": 24
-      },
-      {
-        "posicion": 5,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
-        "g": 7,
-        "e": 1,
-        "p": 4,
-        "gf": 59,
-        "gc": 33,
-        "pts": 22
       },
       {
         "posicion": 6,
@@ -511,12 +511,12 @@
       {
         "posicion": 7,
         "equipo": "ROTONDA",
-        "pj": 12,
+        "pj": 13,
         "g": 7,
         "e": 1,
-        "p": 4,
-        "gf": 56,
-        "gc": 38,
+        "p": 5,
+        "gf": 59,
+        "gc": 43,
         "pts": 22
       },
       {
@@ -1167,25 +1167,25 @@
       },
       {
         "posicion": 2,
-        "equipo": "ROTONDA",
+        "equipo": "ARGENTINO DE CASTELAR",
         "pj": 13,
-        "g": 9,
-        "e": 2,
+        "g": 10,
+        "e": 1,
         "p": 2,
-        "gf": 68,
-        "gc": 32,
-        "pts": 29
+        "gf": 58,
+        "gc": 23,
+        "pts": 31
       },
       {
         "posicion": 3,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
+        "equipo": "ROTONDA",
+        "pj": 14,
         "g": 9,
-        "e": 1,
-        "p": 2,
-        "gf": 49,
-        "gc": 18,
-        "pts": 28
+        "e": 2,
+        "p": 3,
+        "gf": 73,
+        "gc": 41,
+        "pts": 29
       },
       {
         "posicion": 4,
@@ -2078,25 +2078,25 @@
         "posicion": 3
       },
       {
-        "equipo": "ROTONDA",
-        "pj": 130,
-        "g": 68,
-        "e": 13,
-        "p": 49,
-        "gf": 514,
-        "gc": 450,
-        "pts": 217,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 127,
+        "g": 69,
+        "e": 14,
+        "p": 44,
+        "gf": 450,
+        "gc": 338,
+        "pts": 221,
         "posicion": 4
       },
       {
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 124,
-        "g": 67,
-        "e": 14,
-        "p": 43,
-        "gf": 435,
-        "gc": 328,
-        "pts": 215,
+        "equipo": "ROTONDA",
+        "pj": 133,
+        "g": 69,
+        "e": 13,
+        "p": 51,
+        "gf": 524,
+        "gc": 465,
+        "pts": 220,
         "posicion": 5
       },
       {
@@ -2122,6 +2122,17 @@
         "posicion": 7
       },
       {
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 133,
+        "g": 60,
+        "e": 9,
+        "p": 64,
+        "gf": 433,
+        "gc": 449,
+        "pts": 189,
+        "posicion": 8
+      },
+      {
         "equipo": "ATENEO HAEDO",
         "pj": 128,
         "g": 61,
@@ -2130,17 +2141,6 @@
         "gf": 467,
         "gc": 455,
         "pts": 188,
-        "posicion": 8
-      },
-      {
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 132,
-        "g": 59,
-        "e": 9,
-        "p": 64,
-        "gf": 424,
-        "gc": 445,
-        "pts": 186,
         "posicion": 9
       },
       {
@@ -2211,12 +2211,12 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 131,
+        "pj": 132,
         "g": 28,
         "e": 4,
-        "p": 99,
-        "gf": 291,
-        "gc": 712,
+        "p": 100,
+        "gf": 295,
+        "gc": 721,
         "pts": 88,
         "posicion": 16
       }
@@ -18445,14 +18445,17 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 148315,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 17:30",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260627-214754-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-axbhuqubabgw53baemkgoez6qhg2/20260627-214807-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148435,
@@ -18588,25 +18591,17 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 148316,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 17:30",
               "sede": "San jose",
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 148436,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 16:15",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260627-220047-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260627-220052-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 148556,
@@ -18652,14 +18647,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148916,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 14:00",
               "sede": "San jose",
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-215946-289136.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-215949-289137.jpg"
+              ]
             },
             "2017 PROMOCIONALES": {
               "match_id": 149156,
@@ -18712,6 +18710,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-165902-288970.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-165905-288971.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 148436,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 16:15",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220718-289319.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220720-289362.jpg"
               ]
             }
           },

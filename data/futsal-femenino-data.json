@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T21:05:56.451656Z",
+  "actualizado": "2026-06-27T23:04:11.482232Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 13,
+        "pj": 14,
         "g": 12,
-        "e": 0,
+        "e": 1,
         "p": 1,
-        "gf": 63,
-        "gc": 13,
-        "pts": 36
+        "gf": 65,
+        "gc": 15,
+        "pts": 37
       },
       {
         "posicion": 2,
@@ -133,13 +133,13 @@
       {
         "posicion": 5,
         "equipo": "ASTRA MACKIE",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
-        "e": 2,
+        "e": 3,
         "p": 3,
-        "gf": 26,
-        "gc": 13,
-        "pts": 26
+        "gf": 28,
+        "gc": 15,
+        "pts": 27
       },
       {
         "posicion": 6,
@@ -699,13 +699,13 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 40,
+        "pj": 41,
         "g": 30,
-        "e": 4,
+        "e": 5,
         "p": 6,
-        "gf": 136,
-        "gc": 35,
-        "pts": 94,
+        "gf": 138,
+        "gc": 37,
+        "pts": 95,
         "posicion": 2
       },
       {
@@ -754,13 +754,13 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 41,
+        "pj": 42,
         "g": 20,
-        "e": 4,
+        "e": 5,
         "p": 17,
-        "gf": 87,
-        "gc": 56,
-        "pts": 64,
+        "gf": 89,
+        "gc": 58,
+        "pts": 65,
         "posicion": 7
       },
       {
@@ -6639,14 +6639,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152237,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 16:45",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-212510-1001527303.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-212520-1001527304.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152390,
