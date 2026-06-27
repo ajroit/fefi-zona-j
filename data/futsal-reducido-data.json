@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T15:17:05.763942Z",
+  "actualizado": "2026-06-27T17:12:31.698225Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -349,12 +349,12 @@
         "posicion": 6,
         "equipo": "MAYO FUTSAL",
         "pj": 12,
-        "g": 7,
+        "g": 8,
         "e": 1,
-        "p": 4,
-        "gf": 77,
-        "gc": 47,
-        "pts": 22
+        "p": 3,
+        "gf": 79,
+        "gc": 43,
+        "pts": 25
       },
       {
         "posicion": 7,
@@ -391,17 +391,6 @@
       },
       {
         "posicion": 10,
-        "equipo": "EL IDEAL",
-        "pj": 12,
-        "g": 5,
-        "e": 2,
-        "p": 5,
-        "gf": 61,
-        "gc": 69,
-        "pts": 17
-      },
-      {
-        "posicion": 11,
         "equipo": "PRIMERA JUNTA",
         "pj": 13,
         "g": 5,
@@ -412,7 +401,7 @@
         "pts": 17
       },
       {
-        "posicion": 12,
+        "posicion": 11,
         "equipo": "PARQUE CHAS",
         "pj": 13,
         "g": 5,
@@ -421,6 +410,17 @@
         "gf": 60,
         "gc": 86,
         "pts": 15
+      },
+      {
+        "posicion": 12,
+        "equipo": "EL IDEAL",
+        "pj": 12,
+        "g": 4,
+        "e": 2,
+        "p": 6,
+        "gf": 57,
+        "gc": 71,
+        "pts": 14
       },
       {
         "posicion": 13,
@@ -1535,15 +1535,26 @@
         "posicion": 4
       },
       {
+        "equipo": "MAYO FUTSAL",
+        "pj": 84,
+        "g": 52,
+        "e": 5,
+        "p": 27,
+        "gf": 454,
+        "gc": 256,
+        "pts": 161,
+        "posicion": 5
+      },
+      {
         "equipo": "EL IDEAL",
         "pj": 84,
-        "g": 50,
+        "g": 49,
         "e": 12,
-        "p": 22,
-        "gf": 440,
-        "gc": 265,
-        "pts": 162,
-        "posicion": 5
+        "p": 23,
+        "gf": 436,
+        "gc": 267,
+        "pts": 159,
+        "posicion": 6
       },
       {
         "equipo": "PACHECO SUR",
@@ -1554,17 +1565,6 @@
         "gf": 419,
         "gc": 331,
         "pts": 159,
-        "posicion": 6
-      },
-      {
-        "equipo": "MAYO FUTSAL",
-        "pj": 84,
-        "g": 51,
-        "e": 5,
-        "p": 28,
-        "gf": 452,
-        "gc": 260,
-        "pts": 158,
         "posicion": 7
       },
       {
@@ -13195,8 +13195,8 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149674,
-              "goles_local": 4,
-              "goles_visitante": 3,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 19:00",

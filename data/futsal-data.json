@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T15:16:56.295078Z",
+  "actualizado": "2026-06-27T17:12:25.376772Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -801,13 +801,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
-        "g": 13,
+        "pj": 14,
+        "g": 14,
         "e": 0,
         "p": 0,
-        "gf": 134,
+        "gf": 147,
         "gc": 20,
-        "pts": 39
+        "pts": 42
       },
       {
         "posicion": 2,
@@ -933,12 +933,12 @@
       {
         "posicion": 13,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 16,
-        "gc": 42,
+        "gc": 55,
         "pts": 12
       },
       {
@@ -979,13 +979,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
-        "g": 12,
+        "pj": 14,
+        "g": 13,
         "e": 0,
         "p": 1,
-        "gf": 120,
+        "gf": 132,
         "gc": 18,
-        "pts": 36
+        "pts": 39
       },
       {
         "posicion": 2,
@@ -1144,12 +1144,12 @@
       {
         "posicion": 16,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 6,
-        "gc": 77,
+        "gc": 89,
         "pts": 3
       }
     ],
@@ -1368,12 +1368,12 @@
       {
         "posicion": 4,
         "equipo": "ROTONDA",
-        "pj": 12,
+        "pj": 13,
         "g": 10,
         "e": 1,
-        "p": 1,
-        "gf": 49,
-        "gc": 17,
+        "p": 2,
+        "gf": 51,
+        "gc": 20,
         "pts": 31
       },
       {
@@ -1400,6 +1400,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 13,
+        "g": 7,
+        "e": 3,
+        "p": 3,
+        "gf": 46,
+        "gc": 35,
+        "pts": 24
+      },
+      {
+        "posicion": 8,
         "equipo": "VILLA RITA",
         "pj": 12,
         "g": 7,
@@ -1408,17 +1419,6 @@
         "gf": 54,
         "gc": 35,
         "pts": 22
-      },
-      {
-        "posicion": 8,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
-        "g": 6,
-        "e": 3,
-        "p": 3,
-        "gf": 43,
-        "gc": 33,
-        "pts": 21
       },
       {
         "posicion": 9,
@@ -1557,12 +1557,12 @@
       {
         "posicion": 5,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
+        "pj": 13,
         "g": 8,
         "e": 2,
-        "p": 2,
+        "p": 3,
         "gf": 51,
-        "gc": 16,
+        "gc": 19,
         "pts": 26
       },
       {
@@ -1589,6 +1589,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ROTONDA",
+        "pj": 13,
+        "g": 7,
+        "e": 0,
+        "p": 6,
+        "gf": 42,
+        "gc": 40,
+        "pts": 21
+      },
+      {
+        "posicion": 9,
         "equipo": "PEDRO LOZANO",
         "pj": 13,
         "g": 6,
@@ -1597,17 +1608,6 @@
         "gf": 32,
         "gc": 48,
         "pts": 20
-      },
-      {
-        "posicion": 9,
-        "equipo": "ROTONDA",
-        "pj": 12,
-        "g": 6,
-        "e": 0,
-        "p": 6,
-        "gf": 39,
-        "gc": 40,
-        "pts": 18
       },
       {
         "posicion": 10,
@@ -1691,13 +1691,13 @@
       {
         "posicion": 1,
         "equipo": "MARCHIGIANA",
-        "pj": 12,
-        "g": 12,
+        "pj": 13,
+        "g": 13,
         "e": 0,
         "p": 0,
-        "gf": 81,
+        "gf": 93,
         "gc": 13,
-        "pts": 36
+        "pts": 39
       },
       {
         "posicion": 2,
@@ -1768,12 +1768,12 @@
       {
         "posicion": 8,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 31,
-        "gc": 44,
+        "gc": 56,
         "pts": 16
       },
       {
@@ -2045,6 +2045,17 @@
     ],
     "general": [
       {
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 135,
+        "g": 92,
+        "e": 7,
+        "p": 36,
+        "gf": 814,
+        "gc": 441,
+        "pts": 283,
+        "posicion": 1
+      },
+      {
         "equipo": "HAEDO JUNIOR",
         "pj": 130,
         "g": 90,
@@ -2053,50 +2064,39 @@
         "gf": 599,
         "gc": 247,
         "pts": 282,
-        "posicion": 1
-      },
-      {
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 133,
-        "g": 90,
-        "e": 7,
-        "p": 36,
-        "gf": 789,
-        "gc": 441,
-        "pts": 277,
         "posicion": 2
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 122,
-        "g": 76,
+        "pj": 123,
+        "g": 77,
         "e": 16,
         "p": 30,
-        "gf": 550,
+        "gf": 562,
         "gc": 262,
-        "pts": 244,
+        "pts": 247,
         "posicion": 3
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 121,
-        "g": 66,
+        "pj": 123,
+        "g": 67,
         "e": 14,
-        "p": 41,
-        "gf": 429,
-        "gc": 319,
-        "pts": 212,
+        "p": 42,
+        "gf": 432,
+        "gc": 324,
+        "pts": 215,
         "posicion": 4
       },
       {
         "equipo": "ROTONDA",
-        "pj": 127,
-        "g": 66,
+        "pj": 129,
+        "g": 67,
         "e": 13,
-        "p": 48,
-        "gf": 505,
-        "gc": 444,
-        "pts": 211,
+        "p": 49,
+        "gf": 510,
+        "gc": 447,
+        "pts": 214,
         "posicion": 5
       },
       {
@@ -2112,12 +2112,12 @@
       },
       {
         "equipo": "ESTRADA FUTSAL",
-        "pj": 129,
+        "pj": 130,
         "g": 67,
         "e": 9,
-        "p": 53,
+        "p": 54,
         "gf": 476,
-        "gc": 406,
+        "gc": 418,
         "pts": 210,
         "posicion": 7
       },
@@ -2189,12 +2189,12 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 127,
+        "pj": 129,
         "g": 32,
         "e": 7,
-        "p": 88,
+        "p": 90,
         "gf": 215,
-        "gc": 530,
+        "gc": 555,
         "pts": 103,
         "posicion": 14
       },
@@ -18649,27 +18649,19 @@
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149036,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 11:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149156,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 12:00",
               "sede": "San jose",
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-161551-288960.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-161553-288961.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149276,
@@ -18692,6 +18684,20 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149036,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 11:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-152259-288898.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-152308-288899.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -19013,25 +19019,31 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148799,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 12,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 12:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-160457-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-160455-image.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 148919,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 11:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-151451-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-151440-image.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149039,
@@ -19181,17 +19193,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-140456-17825690843145937108485511151388.jpg"
               ]
             },
-            "2017 PROMOCIONALES": {
-              "match_id": 149160,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 11:00",
-              "sede": "parque chacabuco",
-              "direccion": "curapaligue 1107",
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "match_id": 149400,
               "goles_local": null,
@@ -19205,14 +19206,31 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149280,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 12,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 12:00",
               "sede": "parque chacabuco",
               "direccion": "curapaligue 1107",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-154804-17825752651574699635641962685759.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-154812-17825752778502378664013888877023.jpg"
+              ]
+            },
+            "2017 PROMOCIONALES": {
+              "match_id": 149160,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 11:00",
+              "sede": "parque chacabuco",
+              "direccion": "curapaligue 1107",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-145858-17825723061636196770314992872421.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-145909-17825723383894899741755367416977.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
