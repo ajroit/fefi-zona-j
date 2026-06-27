@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T19:23:19.555837Z",
+  "actualizado": "2026-06-27T21:05:41.698126Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -267,13 +267,13 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 1,
         "p": 1,
-        "gf": 100,
-        "gc": 58,
-        "pts": 34
+        "gf": 107,
+        "gc": 63,
+        "pts": 37
       },
       {
         "posicion": 2,
@@ -421,12 +421,12 @@
       {
         "posicion": 15,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 2,
-        "p": 9,
-        "gf": 28,
-        "gc": 60,
+        "p": 10,
+        "gf": 33,
+        "gc": 67,
         "pts": 8
       },
       {
@@ -543,6 +543,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 14,
+        "g": 5,
+        "e": 1,
+        "p": 8,
+        "gf": 47,
+        "gc": 63,
+        "pts": 16
+      },
+      {
+        "posicion": 11,
         "equipo": "PEDRO LOZANO",
         "pj": 13,
         "g": 4,
@@ -553,29 +564,29 @@
         "pts": 13
       },
       {
-        "posicion": 11,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
-        "g": 4,
-        "e": 1,
-        "p": 8,
-        "gf": 54,
-        "gc": 68,
-        "pts": 13
-      },
-      {
         "posicion": 12,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 14,
         "g": 4,
         "e": 1,
-        "p": 8,
-        "gf": 41,
-        "gc": 58,
+        "p": 9,
+        "gf": 55,
+        "gc": 73,
         "pts": 13
       },
       {
         "posicion": 13,
+        "equipo": "VILLA SAHORES",
+        "pj": 14,
+        "g": 4,
+        "e": 1,
+        "p": 9,
+        "gf": 29,
+        "gc": 61,
+        "pts": 13
+      },
+      {
+        "posicion": 14,
         "equipo": "MARCHIGIANA",
         "pj": 12,
         "g": 3,
@@ -584,17 +595,6 @@
         "gf": 36,
         "gc": 40,
         "pts": 12
-      },
-      {
-        "posicion": 14,
-        "equipo": "VILLA SAHORES",
-        "pj": 13,
-        "g": 3,
-        "e": 1,
-        "p": 9,
-        "gf": 24,
-        "gc": 60,
-        "pts": 10
       },
       {
         "posicion": 15,
@@ -610,12 +610,12 @@
       {
         "posicion": 16,
         "equipo": "BPNA",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 13,
-        "gf": 27,
-        "gc": 128,
+        "p": 14,
+        "gf": 32,
+        "gc": 134,
         "pts": 0
       }
     ],
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 136,
-        "g": 93,
+        "pj": 138,
+        "g": 94,
         "e": 7,
-        "p": 36,
-        "gf": 820,
-        "gc": 443,
-        "pts": 286,
+        "p": 37,
+        "gf": 828,
+        "gc": 453,
+        "pts": 289,
         "posicion": 1
       },
       {
@@ -2133,6 +2133,17 @@
         "posicion": 8
       },
       {
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 132,
+        "g": 59,
+        "e": 9,
+        "p": 64,
+        "gf": 424,
+        "gc": 445,
+        "pts": 186,
+        "posicion": 9
+      },
+      {
         "equipo": "RIVADAVIA 87",
         "pj": 117,
         "g": 58,
@@ -2141,17 +2152,6 @@
         "gf": 439,
         "gc": 425,
         "pts": 185,
-        "posicion": 9
-      },
-      {
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 131,
-        "g": 58,
-        "e": 9,
-        "p": 64,
-        "gf": 418,
-        "gc": 440,
-        "pts": 183,
         "posicion": 10
       },
       {
@@ -2189,13 +2189,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 130,
-        "g": 32,
+        "pj": 132,
+        "g": 33,
         "e": 7,
-        "p": 91,
-        "gf": 217,
-        "gc": 561,
-        "pts": 103,
+        "p": 92,
+        "gf": 227,
+        "gc": 569,
+        "pts": 106,
         "posicion": 14
       },
       {
@@ -2211,12 +2211,12 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 130,
+        "pj": 131,
         "g": 28,
         "e": 4,
-        "p": 98,
-        "gf": 286,
-        "gc": 706,
+        "p": 99,
+        "gf": 291,
+        "gc": 712,
         "pts": 88,
         "posicion": 16
       }
@@ -18456,25 +18456,31 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148435,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 16:15",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-201312-inbound5673964058526979688.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-201329-inbound4267640676642041384.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 148555,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 15:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-185821-inbound3495118223324082963.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-185837-inbound4971056472130721838.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148675,
@@ -18604,14 +18610,17 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 148556,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 15:00",
               "sede": "San jose",
               "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260627-190901-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260627-190913-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148676,
@@ -18981,25 +18990,31 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 148319,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 16:30",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260627-204324-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260627-204328-image.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148439,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 15:15",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260627-192622-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260627-192625-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 148559,

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T19:23:35.498717Z",
+  "actualizado": "2026-06-27T21:05:56.451656Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -333,23 +333,23 @@
       {
         "posicion": 5,
         "equipo": "ASTRA MACKIE",
-        "pj": 13,
-        "g": 8,
+        "pj": 14,
+        "g": 9,
         "e": 1,
         "p": 4,
-        "gf": 40,
-        "gc": 18,
-        "pts": 25
+        "gf": 43,
+        "gc": 19,
+        "pts": 28
       },
       {
         "posicion": 6,
         "equipo": "SOCIAL OESTE",
-        "pj": 13,
+        "pj": 14,
         "g": 7,
         "e": 2,
-        "p": 4,
-        "gf": 35,
-        "gc": 14,
+        "p": 5,
+        "gf": 36,
+        "gc": 17,
         "pts": 23
       },
       {
@@ -699,12 +699,12 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 39,
+        "pj": 40,
         "g": 30,
         "e": 4,
-        "p": 5,
-        "gf": 135,
-        "gc": 32,
+        "p": 6,
+        "gf": 136,
+        "gc": 35,
         "pts": 94,
         "posicion": 2
       },
@@ -754,13 +754,13 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 40,
-        "g": 19,
+        "pj": 41,
+        "g": 20,
         "e": 4,
         "p": 17,
-        "gf": 84,
-        "gc": 55,
-        "pts": 61,
+        "gf": 87,
+        "gc": 56,
+        "pts": 64,
         "posicion": 7
       },
       {
@@ -6650,14 +6650,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152390,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 15:30",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-194818-1001527195.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-194824-1001527196.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152543,
