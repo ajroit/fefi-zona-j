@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T17:12:25.376772Z",
+  "actualizado": "2026-06-27T19:23:19.555837Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -634,13 +634,13 @@
       {
         "posicion": 2,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 0,
         "p": 2,
-        "gf": 66,
-        "gc": 44,
-        "pts": 33
+        "gf": 72,
+        "gc": 46,
+        "pts": 36
       },
       {
         "posicion": 3,
@@ -689,12 +689,12 @@
       {
         "posicion": 7,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
+        "pj": 13,
         "g": 7,
         "e": 2,
-        "p": 3,
-        "gf": 37,
-        "gc": 25,
+        "p": 4,
+        "gf": 40,
+        "gc": 29,
         "pts": 23
       },
       {
@@ -711,16 +711,27 @@
       {
         "posicion": 9,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 2,
-        "p": 6,
-        "gf": 35,
-        "gc": 42,
+        "p": 7,
+        "gf": 37,
+        "gc": 48,
         "pts": 17
       },
       {
         "posicion": 10,
+        "equipo": "ROTONDA",
+        "pj": 13,
+        "g": 4,
+        "e": 3,
+        "p": 6,
+        "gf": 36,
+        "gc": 44,
+        "pts": 15
+      },
+      {
+        "posicion": 11,
         "equipo": "VILLA RITA",
         "pj": 12,
         "g": 4,
@@ -729,17 +740,6 @@
         "gf": 51,
         "gc": 52,
         "pts": 14
-      },
-      {
-        "posicion": 11,
-        "equipo": "ROTONDA",
-        "pj": 12,
-        "g": 3,
-        "e": 3,
-        "p": 6,
-        "gf": 32,
-        "gc": 41,
-        "pts": 12
       },
       {
         "posicion": 12,
@@ -765,6 +765,17 @@
       },
       {
         "posicion": 14,
+        "equipo": "BPNA",
+        "pj": 14,
+        "g": 2,
+        "e": 1,
+        "p": 11,
+        "gf": 27,
+        "gc": 70,
+        "pts": 7
+      },
+      {
+        "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 13,
         "g": 1,
@@ -775,26 +786,15 @@
         "pts": 5
       },
       {
-        "posicion": 15,
+        "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 2,
-        "p": 10,
-        "gf": 27,
-        "gc": 49,
-        "pts": 5
-      },
-      {
-        "posicion": 16,
-        "equipo": "BPNA",
-        "pj": 13,
-        "g": 1,
-        "e": 1,
         "p": 11,
-        "gf": 24,
-        "gc": 69,
-        "pts": 4
+        "gf": 28,
+        "gc": 52,
+        "pts": 5
       }
     ],
     "SEXTA MASCULINO": [
@@ -1702,13 +1702,13 @@
       {
         "posicion": 2,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 0,
         "p": 2,
-        "gf": 56,
+        "gf": 60,
         "gc": 15,
-        "pts": 33
+        "pts": 36
       },
       {
         "posicion": 3,
@@ -1823,12 +1823,12 @@
       {
         "posicion": 13,
         "equipo": "BPNA",
-        "pj": 11,
+        "pj": 12,
         "g": 3,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 17,
-        "gc": 45,
+        "gc": 49,
         "pts": 9
       },
       {
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 135,
-        "g": 92,
+        "pj": 136,
+        "g": 93,
         "e": 7,
         "p": 36,
-        "gf": 814,
-        "gc": 441,
-        "pts": 283,
+        "gf": 820,
+        "gc": 443,
+        "pts": 286,
         "posicion": 1
       },
       {
@@ -2078,25 +2078,25 @@
         "posicion": 3
       },
       {
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 123,
-        "g": 67,
-        "e": 14,
-        "p": 42,
-        "gf": 432,
-        "gc": 324,
-        "pts": 215,
+        "equipo": "ROTONDA",
+        "pj": 130,
+        "g": 68,
+        "e": 13,
+        "p": 49,
+        "gf": 514,
+        "gc": 450,
+        "pts": 217,
         "posicion": 4
       },
       {
-        "equipo": "ROTONDA",
-        "pj": 129,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 124,
         "g": 67,
-        "e": 13,
-        "p": 49,
-        "gf": 510,
-        "gc": 447,
-        "pts": 214,
+        "e": 14,
+        "p": 43,
+        "gf": 435,
+        "gc": 328,
+        "pts": 215,
         "posicion": 5
       },
       {
@@ -2144,6 +2144,17 @@
         "posicion": 9
       },
       {
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 131,
+        "g": 58,
+        "e": 9,
+        "p": 64,
+        "gf": 418,
+        "gc": 440,
+        "pts": 183,
+        "posicion": 10
+      },
+      {
         "equipo": "PEDRO LOZANO",
         "pj": 130,
         "g": 55,
@@ -2152,17 +2163,6 @@
         "gf": 442,
         "gc": 416,
         "pts": 182,
-        "posicion": 10
-      },
-      {
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 129,
-        "g": 57,
-        "e": 9,
-        "p": 63,
-        "gf": 413,
-        "gc": 437,
-        "pts": 180,
         "posicion": 11
       },
       {
@@ -2189,12 +2189,12 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 129,
+        "pj": 130,
         "g": 32,
         "e": 7,
-        "p": 90,
-        "gf": 215,
-        "gc": 555,
+        "p": 91,
+        "gf": 217,
+        "gc": 561,
         "pts": 103,
         "posicion": 14
       },
@@ -2211,13 +2211,13 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 128,
-        "g": 27,
+        "pj": 130,
+        "g": 28,
         "e": 4,
-        "p": 97,
-        "gf": 283,
-        "gc": 701,
-        "pts": 85,
+        "p": 98,
+        "gf": 286,
+        "gc": 706,
+        "pts": 88,
         "posicion": 16
       }
     ]
@@ -18539,14 +18539,17 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149275,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 11:00",
               "sede": "B.P.N.A.",
               "direccion": "Isleta 1951",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-171403-inbound7926008223505239936.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260627-171415-inbound2466516757466856539.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149395,
@@ -18663,17 +18666,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-161553-288961.jpg"
               ]
             },
-            "2018 PROMOCIONALES": {
-              "match_id": 149276,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 13:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "match_id": 149396,
               "goles_local": null,
@@ -18697,6 +18689,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-152259-288898.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-152308-288899.jpg"
+              ]
+            },
+            "2018 PROMOCIONALES": {
+              "match_id": 149276,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 13:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-165902-288970.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-165905-288971.jpg"
               ]
             }
           },
@@ -18997,25 +19003,31 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 148559,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 14:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-182524-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-182517-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148679,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 13,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 13:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-165927-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-165921-image.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148799,

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T17:12:33.934720Z",
+  "actualizado": "2026-06-27T19:23:35.498717Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -488,6 +488,17 @@
     "UNICA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
+        "equipo": "SOCIAL OESTE",
+        "pj": 13,
+        "g": 11,
+        "e": 2,
+        "p": 0,
+        "gf": 37,
+        "gc": 5,
+        "pts": 35
+      },
+      {
+        "posicion": 2,
         "equipo": "ALLENDE",
         "pj": 12,
         "g": 11,
@@ -496,17 +507,6 @@
         "gf": 31,
         "gc": 8,
         "pts": 33
-      },
-      {
-        "posicion": 2,
-        "equipo": "SOCIAL OESTE",
-        "pj": 12,
-        "g": 10,
-        "e": 2,
-        "p": 0,
-        "gf": 30,
-        "gc": 4,
-        "pts": 32
       },
       {
         "posicion": 3,
@@ -632,12 +632,12 @@
       {
         "posicion": 14,
         "equipo": "ASTRA MACKIE",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 1,
-        "p": 9,
-        "gf": 17,
-        "gc": 17,
+        "p": 10,
+        "gf": 18,
+        "gc": 24,
         "pts": 10
       },
       {
@@ -698,6 +698,17 @@
         "posicion": 1
       },
       {
+        "equipo": "SOCIAL OESTE",
+        "pj": 39,
+        "g": 30,
+        "e": 4,
+        "p": 5,
+        "gf": 135,
+        "gc": 32,
+        "pts": 94,
+        "posicion": 2
+      },
+      {
         "equipo": "ALLENDE",
         "pj": 38,
         "g": 29,
@@ -706,17 +717,6 @@
         "gf": 113,
         "gc": 28,
         "pts": 92,
-        "posicion": 2
-      },
-      {
-        "equipo": "SOCIAL OESTE",
-        "pj": 38,
-        "g": 29,
-        "e": 4,
-        "p": 5,
-        "gf": 128,
-        "gc": 31,
-        "pts": 91,
         "posicion": 3
       },
       {
@@ -754,12 +754,12 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 39,
+        "pj": 40,
         "g": 19,
         "e": 4,
-        "p": 16,
-        "gf": 83,
-        "gc": 48,
+        "p": 17,
+        "gf": 84,
+        "gc": 55,
         "pts": 61,
         "posicion": 7
       },
@@ -6661,17 +6661,20 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152543,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 14:15",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-182933-1001527104.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qqzeexstggbcw0ovl2gceztm4hs2/20260627-182939-1001527105.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CULTURAL DE TAPIALES",
