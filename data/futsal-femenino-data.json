@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T17:14:55.546396Z",
+  "actualizado": "2026-06-28T19:23:14.407279Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -289,13 +289,13 @@
       {
         "posicion": 1,
         "equipo": "17 DE AGOSTO",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 1,
         "p": 1,
-        "gf": 43,
+        "gf": 45,
         "gc": 9,
-        "pts": 34
+        "pts": 37
       },
       {
         "posicion": 2,
@@ -366,12 +366,12 @@
       {
         "posicion": 8,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 5,
-        "p": 3,
+        "p": 4,
         "gf": 15,
-        "gc": 13,
+        "gc": 15,
         "pts": 20
       },
       {
@@ -511,24 +511,24 @@
       {
         "posicion": 3,
         "equipo": "17 DE AGOSTO",
-        "pj": 13,
+        "pj": 14,
         "g": 10,
-        "e": 1,
+        "e": 2,
         "p": 2,
-        "gf": 41,
-        "gc": 9,
-        "pts": 31
+        "gf": 43,
+        "gc": 11,
+        "pts": 32
       },
       {
         "posicion": 4,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 9,
-        "e": 2,
+        "e": 3,
         "p": 2,
-        "gf": 38,
-        "gc": 13,
-        "pts": 29
+        "gf": 40,
+        "gc": 15,
+        "pts": 30
       },
       {
         "posicion": 5,
@@ -688,13 +688,13 @@
     "general": [
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 39,
-        "g": 31,
-        "e": 3,
+        "pj": 41,
+        "g": 32,
+        "e": 4,
         "p": 5,
-        "gf": 133,
-        "gc": 30,
-        "pts": 96,
+        "gf": 137,
+        "gc": 32,
+        "pts": 100,
         "posicion": 1
       },
       {
@@ -743,13 +743,13 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 39,
+        "pj": 41,
         "g": 18,
-        "e": 12,
-        "p": 9,
-        "gf": 68,
-        "gc": 49,
-        "pts": 66,
+        "e": 13,
+        "p": 10,
+        "gf": 70,
+        "gc": 53,
+        "pts": 67,
         "posicion": 6
       },
       {
@@ -6697,14 +6697,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152238,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 13:00",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-171128-1000365922.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-171130-1000365923.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152391,
@@ -6743,14 +6746,17 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152545,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 13:15",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-173323-17826679807811113093390485959324.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-173335-17826680031656912314546088756885.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152239,
@@ -6765,17 +6771,20 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152392,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 14:30",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-184452-17826722704055985564196210711782.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-184501-17826722888335509473645751407011.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ALLENDE",
@@ -6967,14 +6976,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152244,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 12:30",
               "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
               "direccion": "Av. Juan B Justo 8900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260628-170606-1000423232.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260628-170608-1000423231.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152397,
