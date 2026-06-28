@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T23:04:11.482232Z",
+  "actualizado": "2026-06-28T04:03:08.225099Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -32,12 +32,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
-      "nombre": "EL GALPON",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
-    },
-    {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
+    },
+    {
+      "nombre": "EL GALPON",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
     },
     {
       "nombre": "MAVIA FC",
@@ -143,6 +143,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "VILLA SAHORES",
+        "pj": 13,
+        "g": 8,
+        "e": 1,
+        "p": 4,
+        "gf": 43,
+        "gc": 22,
+        "pts": 25
+      },
+      {
+        "posicion": 7,
         "equipo": "EL GALPON",
         "pj": 12,
         "g": 7,
@@ -151,17 +162,6 @@
         "gf": 23,
         "gc": 15,
         "pts": 23
-      },
-      {
-        "posicion": 7,
-        "equipo": "VILLA SAHORES",
-        "pj": 12,
-        "g": 7,
-        "e": 1,
-        "p": 4,
-        "gf": 34,
-        "gc": 21,
-        "pts": 22
       },
       {
         "posicion": 8,
@@ -276,12 +276,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "gf": 6,
-        "gc": 61,
+        "p": 13,
+        "gf": 7,
+        "gc": 70,
         "pts": 3
       }
     ],
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "VILLA SAHORES",
+        "pj": 14,
+        "g": 10,
+        "e": 2,
+        "p": 2,
+        "gf": 28,
+        "gc": 13,
+        "pts": 32
+      },
+      {
+        "posicion": 3,
         "equipo": "ALLENDE",
         "pj": 13,
         "g": 10,
@@ -309,7 +320,7 @@
         "pts": 31
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "BROWN DE ADROGUE",
         "pj": 13,
         "g": 9,
@@ -318,17 +329,6 @@
         "gf": 31,
         "gc": 17,
         "pts": 30
-      },
-      {
-        "posicion": 4,
-        "equipo": "VILLA SAHORES",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "gf": 22,
-        "gc": 13,
-        "pts": 29
       },
       {
         "posicion": 5,
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 2,
-        "p": 11,
+        "p": 12,
         "gf": 10,
-        "gc": 51,
+        "gc": 57,
         "pts": 2
       }
     ],
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 40,
+        "g": 26,
+        "e": 5,
+        "p": 9,
+        "gf": 98,
+        "gc": 52,
+        "pts": 83,
+        "posicion": 4
+      },
+      {
         "equipo": "CENTRO ASTURIANO",
         "pj": 39,
         "g": 25,
@@ -728,17 +739,6 @@
         "gf": 109,
         "gc": 41,
         "pts": 80,
-        "posicion": 4
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 38,
-        "g": 24,
-        "e": 5,
-        "p": 9,
-        "gf": 83,
-        "gc": 51,
-        "pts": 77,
         "posicion": 5
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 37,
+        "pj": 39,
         "g": 1,
         "e": 2,
-        "p": 34,
-        "gf": 16,
-        "gc": 167,
+        "p": 36,
+        "gf": 17,
+        "gc": 182,
         "pts": 5,
         "posicion": 18
       }
@@ -6817,25 +6817,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152241,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 9,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 21:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260628-024233-1000130512.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260628-024238-1000130511.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152394,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-27 19:45",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260628-024432-1000130514.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260628-024438-1000130513.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152547,
@@ -6849,7 +6855,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ESTRELLA FEDERAL",

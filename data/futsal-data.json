@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-27T23:04:03.689759Z",
+  "actualizado": "2026-06-28T04:02:58.666122Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -52,12 +52,12 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/e44d5de5-f8cd-4f3d-b338-82789228a757.png"
     },
     {
-      "nombre": "VILLA RITA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201009-Captura%20de%20pantalla%202025-04-09%20170817.png"
-    },
-    {
       "nombre": "CIENCIA Y LABOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-010549-ciencia_y_labor.png"
+    },
+    {
+      "nombre": "VILLA RITA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201009-Captura%20de%20pantalla%202025-04-09%20170817.png"
     },
     {
       "nombre": "DEPORTIVO ABBAS",
@@ -122,24 +122,24 @@
       {
         "posicion": 4,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
-        "e": 1,
+        "e": 2,
         "p": 4,
-        "gf": 83,
-        "gc": 70,
-        "pts": 25
+        "gf": 87,
+        "gc": 74,
+        "pts": 26
       },
       {
         "posicion": 5,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 12,
-        "g": 7,
+        "pj": 13,
+        "g": 8,
         "e": 1,
         "p": 4,
-        "gf": 43,
-        "gc": 35,
-        "pts": 22
+        "gf": 55,
+        "gc": 37,
+        "pts": 25
       },
       {
         "posicion": 6,
@@ -155,13 +155,13 @@
       {
         "posicion": 7,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
-        "e": 2,
+        "e": 3,
         "p": 5,
-        "gf": 45,
-        "gc": 47,
-        "pts": 20
+        "gf": 49,
+        "gc": 51,
+        "pts": 21
       },
       {
         "posicion": 8,
@@ -176,6 +176,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 14,
+        "g": 5,
+        "e": 3,
+        "p": 6,
+        "gf": 53,
+        "gc": 73,
+        "pts": 18
+      },
+      {
+        "posicion": 10,
         "equipo": "VILLA RITA",
         "pj": 12,
         "g": 4,
@@ -183,17 +194,6 @@
         "p": 5,
         "gf": 58,
         "gc": 56,
-        "pts": 15
-      },
-      {
-        "posicion": 10,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
-        "g": 4,
-        "e": 3,
-        "p": 6,
-        "gf": 49,
-        "gc": 70,
         "pts": 15
       },
       {
@@ -210,12 +210,12 @@
       {
         "posicion": 12,
         "equipo": "ROTONDA",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 1,
-        "p": 8,
-        "gf": 54,
-        "gc": 97,
+        "p": 9,
+        "gf": 56,
+        "gc": 109,
         "pts": 13
       },
       {
@@ -232,12 +232,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 1,
-        "p": 9,
-        "gf": 40,
-        "gc": 64,
+        "p": 10,
+        "gf": 43,
+        "gc": 68,
         "pts": 10
       },
       {
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 138,
+        "pj": 139,
         "g": 94,
-        "e": 7,
+        "e": 8,
         "p": 37,
-        "gf": 828,
-        "gc": 453,
-        "pts": 289,
+        "gf": 832,
+        "gc": 457,
+        "pts": 290,
         "posicion": 1
       },
       {
@@ -2079,23 +2079,23 @@
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 127,
-        "g": 69,
+        "pj": 128,
+        "g": 70,
         "e": 14,
         "p": 44,
-        "gf": 450,
-        "gc": 338,
-        "pts": 221,
+        "gf": 462,
+        "gc": 340,
+        "pts": 224,
         "posicion": 4
       },
       {
         "equipo": "ROTONDA",
-        "pj": 133,
+        "pj": 134,
         "g": 69,
         "e": 13,
-        "p": 51,
-        "gf": 524,
-        "gc": 465,
+        "p": 52,
+        "gf": 526,
+        "gc": 477,
         "pts": 220,
         "posicion": 5
       },
@@ -2123,13 +2123,13 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 133,
-        "g": 60,
+        "pj": 134,
+        "g": 61,
         "e": 9,
         "p": 64,
-        "gf": 433,
-        "gc": 449,
-        "pts": 189,
+        "gf": 437,
+        "gc": 452,
+        "pts": 192,
         "posicion": 8
       },
       {
@@ -2189,13 +2189,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 132,
+        "pj": 133,
         "g": 33,
-        "e": 7,
+        "e": 8,
         "p": 92,
-        "gf": 227,
-        "gc": 569,
-        "pts": 106,
+        "gf": 231,
+        "gc": 573,
+        "pts": 107,
         "posicion": 14
       },
       {
@@ -2211,12 +2211,12 @@
       },
       {
         "equipo": "BPNA",
-        "pj": 132,
+        "pj": 133,
         "g": 28,
         "e": 4,
-        "p": 100,
-        "gf": 295,
-        "gc": 721,
+        "p": 101,
+        "gf": 298,
+        "gc": 725,
         "pts": 88,
         "posicion": 16
       }
@@ -18432,17 +18432,6 @@
           "local": "BPNA",
           "visitante": "CIENCIA Y LABOR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148195,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 19:00",
-              "sede": "B.P.N.A.",
-              "direccion": "Isleta 1951",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148315,
               "goles_local": 4,
@@ -18570,6 +18559,20 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148195,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 19:00",
+              "sede": "B.P.N.A.",
+              "direccion": "Isleta 1951",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260628-005209-inbound123094862754087551.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260628-005213-inbound6341590831175415350.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -18578,17 +18581,6 @@
           "local": "ROTONDA",
           "visitante": "ARGENTINO DE CASTELAR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148196,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 19:00",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148316,
               "goles_local": 2,
@@ -18724,6 +18716,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220718-289319.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220720-289362.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148196,
+              "goles_local": 2,
+              "goles_visitante": 12,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 19:00",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260628-003039-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260628-003046-image.jpg"
               ]
             }
           },
@@ -18989,17 +18995,6 @@
           "local": "VILLA SAHORES",
           "visitante": "INDEPENDIENTE DE BECCAR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148199,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-27 18:00",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148319,
               "goles_local": 5,
@@ -19132,6 +19127,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-141009-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260627-141011-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148199,
+              "goles_local": 4,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 18:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260628-003129-17826066564685152946289517015103.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260628-003144-17826066924685388988280890441055.jpg"
               ]
             }
           },
