@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T15:19:43.558983Z",
+  "actualizado": "2026-06-28T17:14:55.546396Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,12 +16,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "17 DE AGOSTO",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
-    },
-    {
       "nombre": "CENTRO ASTURIANO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
+    },
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
       "nombre": "ALLENDE",
@@ -40,24 +40,24 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
     },
     {
-      "nombre": "MAVIA FC",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
-    },
-    {
       "nombre": "VELEZ SARSFIELD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
+    },
+    {
+      "nombre": "MAVIA FC",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
       "nombre": "INDEPENDIENTE (C)",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
     },
     {
-      "nombre": "CULTURAL DE TAPIALES",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
-    },
-    {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
+    },
+    {
+      "nombre": "CULTURAL DE TAPIALES",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
     },
     {
       "nombre": "ESTRELLA FEDERAL",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 14,
+        "g": 10,
+        "e": 2,
+        "p": 2,
+        "gf": 46,
+        "gc": 13,
+        "pts": 32
+      },
+      {
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 13,
         "g": 10,
@@ -107,17 +118,6 @@
         "gf": 49,
         "gc": 12,
         "pts": 31
-      },
-      {
-        "posicion": 3,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "gf": 43,
-        "gc": 12,
-        "pts": 29
       },
       {
         "posicion": 4,
@@ -155,16 +155,27 @@
       {
         "posicion": 7,
         "equipo": "EL GALPON",
-        "pj": 12,
+        "pj": 13,
         "g": 7,
         "e": 2,
-        "p": 3,
-        "gf": 23,
-        "gc": 15,
+        "p": 4,
+        "gf": 24,
+        "gc": 17,
         "pts": 23
       },
       {
         "posicion": 8,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 14,
+        "g": 7,
+        "e": 2,
+        "p": 5,
+        "gf": 41,
+        "gc": 43,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "MAVIA FC",
         "pj": 13,
         "g": 6,
@@ -172,17 +183,6 @@
         "p": 5,
         "gf": 28,
         "gc": 29,
-        "pts": 20
-      },
-      {
-        "posicion": 9,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 13,
-        "g": 6,
-        "e": 2,
-        "p": 5,
-        "gf": 36,
-        "gc": 40,
         "pts": 20
       },
       {
@@ -198,25 +198,25 @@
       },
       {
         "posicion": 11,
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 13,
-        "g": 3,
-        "e": 5,
-        "p": 5,
-        "gf": 27,
-        "gc": 28,
-        "pts": 14
+        "equipo": "PURA SUELA",
+        "pj": 14,
+        "g": 4,
+        "e": 4,
+        "p": 6,
+        "gf": 22,
+        "gc": 31,
+        "pts": 16
       },
       {
         "posicion": 12,
-        "equipo": "PURA SUELA",
-        "pj": 13,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 14,
         "g": 3,
-        "e": 4,
+        "e": 5,
         "p": 6,
-        "gf": 20,
-        "gc": 30,
-        "pts": 13
+        "gf": 28,
+        "gc": 31,
+        "pts": 14
       },
       {
         "posicion": 13,
@@ -232,13 +232,13 @@
       {
         "posicion": 14,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 13,
-        "g": 3,
+        "pj": 14,
+        "g": 4,
         "e": 1,
         "p": 9,
-        "gf": 24,
-        "gc": 40,
-        "pts": 10
+        "gf": 26,
+        "gc": 41,
+        "pts": 13
       },
       {
         "posicion": 15,
@@ -254,23 +254,23 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 3,
-        "p": 9,
-        "gf": 22,
-        "gc": 46,
+        "p": 10,
+        "gf": 25,
+        "gc": 51,
         "pts": 6
       },
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 0,
-        "p": 11,
-        "gf": 12,
-        "gc": 51,
+        "p": 12,
+        "gf": 13,
+        "gc": 53,
         "pts": 3
       },
       {
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 14,
+        "g": 10,
+        "e": 3,
+        "p": 1,
+        "gf": 37,
+        "gc": 17,
+        "pts": 33
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA SAHORES",
         "pj": 14,
         "g": 10,
@@ -309,7 +320,7 @@
         "pts": 32
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "ALLENDE",
         "pj": 13,
         "g": 10,
@@ -318,17 +329,6 @@
         "gf": 35,
         "gc": 7,
         "pts": 31
-      },
-      {
-        "posicion": 4,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 13,
-        "g": 9,
-        "e": 3,
-        "p": 1,
-        "gf": 31,
-        "gc": 17,
-        "pts": 30
       },
       {
         "posicion": 5,
@@ -343,6 +343,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 14,
+        "g": 8,
+        "e": 2,
+        "p": 4,
+        "gf": 33,
+        "gc": 18,
+        "pts": 26
+      },
+      {
+        "posicion": 7,
         "equipo": "SOCIAL OESTE",
         "pj": 14,
         "g": 7,
@@ -350,17 +361,6 @@
         "p": 5,
         "gf": 36,
         "gc": 17,
-        "pts": 23
-      },
-      {
-        "posicion": 7,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 13,
-        "g": 7,
-        "e": 2,
-        "p": 4,
-        "gf": 30,
-        "gc": 16,
         "pts": 23
       },
       {
@@ -399,12 +399,12 @@
       {
         "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 18,
-        "gc": 27,
+        "gc": 33,
         "pts": 16
       },
       {
@@ -420,58 +420,58 @@
       },
       {
         "posicion": 13,
-        "equipo": "CENTRO VK",
-        "pj": 12,
+        "equipo": "PURA SUELA",
+        "pj": 14,
         "g": 3,
-        "e": 2,
+        "e": 4,
         "p": 7,
-        "gf": 10,
-        "gc": 19,
-        "pts": 11
+        "gf": 12,
+        "gc": 32,
+        "pts": 13
       },
       {
         "posicion": 14,
-        "equipo": "CULTURAL DE TAPIALES",
+        "equipo": "CENTRO VK",
         "pj": 13,
         "g": 3,
-        "e": 1,
-        "p": 9,
-        "gf": 13,
-        "gc": 24,
-        "pts": 10
+        "e": 2,
+        "p": 8,
+        "gf": 11,
+        "gc": 21,
+        "pts": 11
       },
       {
         "posicion": 15,
-        "equipo": "PURA SUELA",
-        "pj": 13,
-        "g": 2,
-        "e": 4,
-        "p": 7,
-        "gf": 10,
-        "gc": 31,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 14,
+        "g": 3,
+        "e": 1,
+        "p": 10,
+        "gf": 15,
+        "gc": 27,
         "pts": 10
       },
       {
         "posicion": 16,
-        "equipo": "ZIZOU FUTSAL",
+        "equipo": "EL GALPON",
         "pj": 13,
         "g": 2,
-        "e": 2,
-        "p": 9,
-        "gf": 13,
-        "gc": 27,
-        "pts": 8
+        "e": 4,
+        "p": 7,
+        "gf": 16,
+        "gc": 31,
+        "pts": 10
       },
       {
         "posicion": 17,
-        "equipo": "EL GALPON",
-        "pj": 12,
-        "g": 1,
-        "e": 4,
-        "p": 7,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 14,
+        "g": 2,
+        "e": 2,
+        "p": 10,
         "gf": 14,
-        "gc": 30,
-        "pts": 7
+        "gc": 29,
+        "pts": 8
       },
       {
         "posicion": 18,
@@ -533,13 +533,13 @@
       {
         "posicion": 5,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 13,
+        "pj": 14,
         "g": 9,
-        "e": 1,
+        "e": 2,
         "p": 3,
         "gf": 36,
         "gc": 13,
-        "pts": 28
+        "pts": 29
       },
       {
         "posicion": 6,
@@ -610,13 +610,13 @@
       {
         "posicion": 12,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
-        "e": 2,
+        "e": 3,
         "p": 7,
         "gf": 19,
         "gc": 24,
-        "pts": 14
+        "pts": 15
       },
       {
         "posicion": 13,
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 42,
+        "g": 27,
+        "e": 6,
+        "p": 9,
+        "gf": 115,
+        "gc": 44,
+        "pts": 87,
+        "posicion": 4
+      },
+      {
         "equipo": "VILLA SAHORES",
         "pj": 40,
         "g": 26,
@@ -728,17 +739,6 @@
         "gf": 98,
         "gc": 52,
         "pts": 83,
-        "posicion": 4
-      },
-      {
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 39,
-        "g": 25,
-        "e": 5,
-        "p": 9,
-        "gf": 109,
-        "gc": 41,
-        "pts": 80,
         "posicion": 5
       },
       {
@@ -775,6 +775,17 @@
         "posicion": 8
       },
       {
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 40,
+        "g": 17,
+        "e": 5,
+        "p": 18,
+        "gf": 82,
+        "gc": 94,
+        "pts": 56,
+        "posicion": 9
+      },
+      {
         "equipo": "MAVIA FC",
         "pj": 39,
         "g": 16,
@@ -783,18 +794,29 @@
         "gf": 76,
         "gc": 70,
         "pts": 55,
-        "posicion": 9
+        "posicion": 10
       },
       {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 38,
-        "g": 16,
-        "e": 5,
-        "p": 17,
-        "gf": 77,
-        "gc": 85,
-        "pts": 53,
-        "posicion": 10
+        "equipo": "EL GALPON",
+        "pj": 37,
+        "g": 13,
+        "e": 6,
+        "p": 18,
+        "gf": 53,
+        "gc": 64,
+        "pts": 45,
+        "posicion": 11
+      },
+      {
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 40,
+        "g": 13,
+        "e": 6,
+        "p": 21,
+        "gf": 72,
+        "gc": 109,
+        "pts": 45,
+        "posicion": 12
       },
       {
         "equipo": "SACA DEL MEDIO",
@@ -805,71 +827,49 @@
         "gf": 52,
         "gc": 78,
         "pts": 43,
-        "posicion": 11
-      },
-      {
-        "equipo": "EL GALPON",
-        "pj": 35,
-        "g": 12,
-        "e": 6,
-        "p": 17,
-        "gf": 50,
-        "gc": 61,
-        "pts": 42,
-        "posicion": 12
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 38,
-        "g": 12,
-        "e": 6,
-        "p": 20,
-        "gf": 63,
-        "gc": 104,
-        "pts": 42,
         "posicion": 13
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 39,
+        "pj": 42,
         "g": 10,
-        "e": 8,
-        "p": 21,
-        "gf": 59,
-        "gc": 76,
-        "pts": 38,
+        "e": 9,
+        "p": 23,
+        "gf": 62,
+        "gc": 82,
+        "pts": 39,
         "posicion": 14
       },
       {
         "equipo": "ZIZOU FUTSAL",
-        "pj": 40,
-        "g": 10,
+        "pj": 42,
+        "g": 11,
         "e": 6,
-        "p": 24,
-        "gf": 61,
-        "gc": 95,
-        "pts": 36,
+        "p": 25,
+        "gf": 64,
+        "gc": 98,
+        "pts": 39,
         "posicion": 15
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 40,
-        "g": 7,
+        "pj": 42,
+        "g": 9,
         "e": 8,
         "p": 25,
-        "gf": 42,
-        "gc": 101,
-        "pts": 29,
+        "gf": 46,
+        "gc": 103,
+        "pts": 35,
         "posicion": 16
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 35,
+        "pj": 37,
         "g": 5,
         "e": 2,
-        "p": 28,
-        "gf": 25,
-        "gc": 118,
+        "p": 30,
+        "gf": 27,
+        "gc": 122,
         "pts": 17,
         "posicion": 17
       },
@@ -6599,25 +6599,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152236,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 12:30",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-164236-1000204139.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-164238-1000204138.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152389,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:15",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-153119-1000204130.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-153121-1000204129.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152542,
@@ -6702,28 +6708,34 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152391,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:45",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-163859-1000365907.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-163900-1000365908.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152544,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 10:30",
               "sede": "Juventud de Tapiales",
               "direccion": "Curapaligue 1250, Tapiales",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-163540-1000365903.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f8lyzfrwokddpeejssiiejhs0da2/20260628-163545-1000365902.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "INDEPENDIENTE (C)",
@@ -6906,25 +6918,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152243,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 12:30",
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-164638-IMG_0433.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-164643-IMG_0432.jpeg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152396,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:15",
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-153250-IMG_0431.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-153254-IMG_0430.jpeg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152549,
@@ -6960,14 +6978,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152397,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:15",
               "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
               "direccion": "Av. Juan B Justo 8900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260628-152314-1000423144.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-t4rv0hx5pnff03vthwdtbuuakdi1/20260628-152329-1000423143.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152550,
@@ -6981,7 +7002,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },

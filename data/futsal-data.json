@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T15:19:27.224330Z",
+  "actualizado": "2026-06-28T17:14:43.159738Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1190,13 +1190,13 @@
       {
         "posicion": 4,
         "equipo": "HAEDO JUNIOR",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
-        "e": 2,
+        "e": 3,
         "p": 3,
-        "gf": 50,
-        "gc": 24,
-        "pts": 26
+        "gf": 51,
+        "gc": 25,
+        "pts": 27
       },
       {
         "posicion": 5,
@@ -1244,6 +1244,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "RIVADAVIA 87",
+        "pj": 13,
+        "g": 6,
+        "e": 1,
+        "p": 6,
+        "gf": 43,
+        "gc": 26,
+        "pts": 19
+      },
+      {
+        "posicion": 10,
         "equipo": "CIENCIA Y LABOR",
         "pj": 12,
         "g": 6,
@@ -1252,17 +1263,6 @@
         "gf": 33,
         "gc": 32,
         "pts": 18
-      },
-      {
-        "posicion": 10,
-        "equipo": "RIVADAVIA 87",
-        "pj": 12,
-        "g": 5,
-        "e": 1,
-        "p": 6,
-        "gf": 36,
-        "gc": 25,
-        "pts": 16
       },
       {
         "posicion": 11,
@@ -1278,13 +1278,13 @@
       {
         "posicion": 12,
         "equipo": "LUNA DE MATANZA",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
-        "e": 1,
+        "e": 2,
         "p": 8,
-        "gf": 45,
-        "gc": 52,
-        "pts": 13
+        "gf": 46,
+        "gc": 53,
+        "pts": 14
       },
       {
         "posicion": 13,
@@ -1311,12 +1311,12 @@
       {
         "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
-        "gf": 19,
-        "gc": 77,
+        "p": 12,
+        "gf": 20,
+        "gc": 84,
         "pts": 6
       },
       {
@@ -1712,6 +1712,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "PEDRO LOZANO",
+        "pj": 14,
+        "g": 10,
+        "e": 1,
+        "p": 3,
+        "gf": 66,
+        "gc": 18,
+        "pts": 31
+      },
+      {
+        "posicion": 4,
         "equipo": "HAEDO JUNIOR",
         "pj": 13,
         "g": 9,
@@ -1720,17 +1731,6 @@
         "gf": 52,
         "gc": 17,
         "pts": 29
-      },
-      {
-        "posicion": 4,
-        "equipo": "PEDRO LOZANO",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
-        "p": 3,
-        "gf": 57,
-        "gc": 17,
-        "pts": 28
       },
       {
         "posicion": 5,
@@ -1845,12 +1845,12 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 3,
-        "p": 10,
-        "gf": 10,
-        "gc": 56,
+        "p": 11,
+        "gf": 11,
+        "gc": 65,
         "pts": 3
       },
       {
@@ -2057,13 +2057,13 @@
       },
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 131,
+        "pj": 132,
         "g": 91,
-        "e": 12,
+        "e": 13,
         "p": 28,
-        "gf": 605,
-        "gc": 247,
-        "pts": 285,
+        "gf": 606,
+        "gc": 248,
+        "pts": 286,
         "posicion": 2
       },
       {
@@ -2101,13 +2101,13 @@
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 131,
+        "pj": 132,
         "g": 67,
-        "e": 9,
+        "e": 10,
         "p": 55,
-        "gf": 517,
-        "gc": 435,
-        "pts": 210,
+        "gf": 518,
+        "gc": 436,
+        "pts": 211,
         "posicion": 6
       },
       {
@@ -2133,6 +2133,17 @@
         "posicion": 8
       },
       {
+        "equipo": "RIVADAVIA 87",
+        "pj": 120,
+        "g": 59,
+        "e": 11,
+        "p": 50,
+        "gf": 449,
+        "gc": 433,
+        "pts": 188,
+        "posicion": 9
+      },
+      {
         "equipo": "ATENEO HAEDO",
         "pj": 128,
         "g": 61,
@@ -2141,28 +2152,17 @@
         "gf": 467,
         "gc": 455,
         "pts": 188,
-        "posicion": 9
-      },
-      {
-        "equipo": "RIVADAVIA 87",
-        "pj": 119,
-        "g": 58,
-        "e": 11,
-        "p": 50,
-        "gf": 442,
-        "gc": 432,
-        "pts": 185,
         "posicion": 10
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 132,
-        "g": 55,
+        "pj": 133,
+        "g": 56,
         "e": 17,
         "p": 60,
-        "gf": 442,
-        "gc": 434,
-        "pts": 182,
+        "gf": 451,
+        "gc": 435,
+        "pts": 185,
         "posicion": 11
       },
       {
@@ -2178,12 +2178,12 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 130,
+        "pj": 131,
         "g": 38,
         "e": 17,
-        "p": 75,
-        "gf": 349,
-        "gc": 653,
+        "p": 76,
+        "gf": 350,
+        "gc": 662,
         "pts": 131,
         "posicion": 13
       },
@@ -2200,12 +2200,12 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 131,
+        "pj": 132,
         "g": 30,
         "e": 9,
-        "p": 92,
-        "gf": 304,
-        "gc": 620,
+        "p": 93,
+        "gf": 305,
+        "gc": 627,
         "pts": 99,
         "posicion": 15
       },
@@ -18949,25 +18949,31 @@
             },
             "2017 PROMOCIONALES": {
               "match_id": 149158,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 13,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:00",
               "sede": "El Ferroviario ",
               "direccion": "Reservistas Argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-145644-17826585897384780245527250924246.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-145654-17826586012123301838084113109028.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149278,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 9,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 12:00",
               "sede": "El Ferroviario ",
               "direccion": "Reservistas Argentinos 219",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-160723-17826628300378884756391369466528.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-160737-17826628443802770966534607079250.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149398,
@@ -19361,14 +19367,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148921,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 11:30",
               "sede": "Instituto Brown Haedo",
               "direccion": "Las Bases 151 Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260628-153559-inbound1371136468827763343.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260628-153618-inbound2227022141392356136.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149041,
@@ -19395,17 +19404,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2018 PROMOCIONALES": {
-              "match_id": 149281,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 10:30",
-              "sede": "Instituto Brown Haedo",
-              "direccion": "Las Bases 151 Haedo",
-              "planillas": null
-            },
             "2019 PROMOCIONALES": {
               "match_id": 149401,
               "goles_local": null,
@@ -19416,6 +19414,20 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "2018 PROMOCIONALES": {
+              "match_id": 149281,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 10:30",
+              "sede": "Instituto Brown Haedo",
+              "direccion": "Las Bases 151 Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260628-143242-inbound825400993484130917.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260628-143303-inbound5515394316587972826.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
