@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T13:50:06.264185Z",
+  "actualizado": "2026-06-28T15:19:43.558983Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -576,6 +576,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 14,
+        "g": 5,
+        "e": 3,
+        "p": 6,
+        "gf": 24,
+        "gc": 28,
+        "pts": 18
+      },
+      {
+        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 13,
         "g": 5,
@@ -586,7 +597,7 @@
         "pts": 17
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
         "pj": 12,
         "g": 5,
@@ -595,17 +606,6 @@
         "gf": 23,
         "gc": 18,
         "pts": 17
-      },
-      {
-        "posicion": 11,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 13,
-        "g": 4,
-        "e": 3,
-        "p": 6,
-        "gf": 23,
-        "gc": 28,
-        "pts": 15
       },
       {
         "posicion": 12,
@@ -621,12 +621,12 @@
       {
         "posicion": 13,
         "equipo": "EL GALPON",
-        "pj": 10,
+        "pj": 11,
         "g": 4,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 13,
-        "gc": 15,
+        "gc": 16,
         "pts": 12
       },
       {
@@ -643,12 +643,12 @@
       {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 12,
-        "gc": 38,
+        "gc": 40,
         "pts": 6
       },
       {
@@ -665,13 +665,13 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 10,
-        "g": 0,
+        "pj": 11,
+        "g": 1,
         "e": 0,
         "p": 10,
-        "gf": 1,
+        "gf": 3,
         "gc": 48,
-        "pts": 0
+        "pts": 3
       },
       {
         "posicion": 18,
@@ -809,12 +809,12 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 34,
+        "pj": 35,
         "g": 12,
         "e": 6,
-        "p": 16,
+        "p": 17,
         "gf": 50,
-        "gc": 60,
+        "gc": 61,
         "pts": 42,
         "posicion": 12
       },
@@ -842,35 +842,35 @@
       },
       {
         "equipo": "ZIZOU FUTSAL",
-        "pj": 39,
-        "g": 9,
+        "pj": 40,
+        "g": 10,
         "e": 6,
         "p": 24,
-        "gf": 60,
+        "gf": 61,
         "gc": 95,
-        "pts": 33,
+        "pts": 36,
         "posicion": 15
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 39,
+        "pj": 40,
         "g": 7,
         "e": 8,
-        "p": 24,
+        "p": 25,
         "gf": 42,
-        "gc": 99,
+        "gc": 101,
         "pts": 29,
         "posicion": 16
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 34,
-        "g": 4,
+        "pj": 35,
+        "g": 5,
         "e": 2,
         "p": 28,
-        "gf": 23,
+        "gf": 25,
         "gc": 118,
-        "pts": 14,
+        "pts": 17,
         "posicion": 17
       },
       {
@@ -6621,17 +6621,20 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152542,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 10:00",
               "sede": "Parque Chacabuco",
               "direccion": "Avenida Asamblea 1213",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-141556-1000204119.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260628-141555-1000204118.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ASTRA MACKIE",
@@ -6925,17 +6928,20 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152549,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 10:00",
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-141439-IMG_0429.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-iqtsqvcfsozlrzwvfi5jhs6jysh1/20260628-141444-IMG_0428.jpeg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VELEZ SARSFIELD",

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T13:50:01.012647Z",
+  "actualizado": "2026-06-28T15:19:36.685036Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1046,6 +1046,17 @@
       },
       {
         "posicion": 15,
+        "equipo": "RESPLANDOR",
+        "pj": 14,
+        "g": 3,
+        "e": 2,
+        "p": 9,
+        "gf": 50,
+        "gc": 73,
+        "pts": 11
+      },
+      {
+        "posicion": 16,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 3,
@@ -1053,17 +1064,6 @@
         "p": 7,
         "gf": 36,
         "gc": 43,
-        "pts": 10
-      },
-      {
-        "posicion": 16,
-        "equipo": "RESPLANDOR",
-        "pj": 13,
-        "g": 3,
-        "e": 1,
-        "p": 9,
-        "gf": 50,
-        "gc": 73,
         "pts": 10
       },
       {
@@ -1080,13 +1080,13 @@
       {
         "posicion": 18,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
-        "e": 0,
+        "e": 1,
         "p": 13,
         "gf": 10,
         "gc": 73,
-        "pts": 0
+        "pts": 1
       }
     ],
     "SEPTIMA MASCULINO": [
@@ -1104,12 +1104,12 @@
       {
         "posicion": 2,
         "equipo": "RESPLANDOR",
-        "pj": 13,
+        "pj": 14,
         "g": 10,
         "e": 1,
-        "p": 2,
-        "gf": 96,
-        "gc": 40,
+        "p": 3,
+        "gf": 98,
+        "gc": 43,
         "pts": 31
       },
       {
@@ -1213,17 +1213,28 @@
       },
       {
         "posicion": 12,
-        "equipo": "VICTORIA",
-        "pj": 13,
+        "equipo": "CRISOL JUVENTUD",
+        "pj": 14,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 9,
-        "gf": 21,
-        "gc": 62,
-        "pts": 12
+        "gf": 30,
+        "gc": 66,
+        "pts": 13
       },
       {
         "posicion": 13,
+        "equipo": "VICTORIA",
+        "pj": 14,
+        "g": 4,
+        "e": 1,
+        "p": 9,
+        "gf": 24,
+        "gc": 65,
+        "pts": 13
+      },
+      {
+        "posicion": 14,
         "equipo": "ALTO PASTO",
         "pj": 11,
         "g": 3,
@@ -1234,26 +1245,15 @@
         "pts": 11
       },
       {
-        "posicion": 14,
-        "equipo": "CRISOL JUVENTUD",
-        "pj": 13,
-        "g": 3,
-        "e": 1,
-        "p": 9,
-        "gf": 27,
-        "gc": 64,
-        "pts": 10
-      },
-      {
         "posicion": 15,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
-        "e": 1,
+        "e": 2,
         "p": 10,
-        "gf": 33,
-        "gc": 66,
-        "pts": 7
+        "gf": 36,
+        "gc": 69,
+        "pts": 8
       },
       {
         "posicion": 16,
@@ -1303,6 +1303,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "VICTORIA",
+        "pj": 14,
+        "g": 12,
+        "e": 0,
+        "p": 2,
+        "gf": 77,
+        "gc": 32,
+        "pts": 36
+      },
+      {
+        "posicion": 3,
         "equipo": "ALL BOYS SAAVEDRA",
         "pj": 13,
         "g": 11,
@@ -1310,17 +1321,6 @@
         "p": 2,
         "gf": 62,
         "gc": 12,
-        "pts": 33
-      },
-      {
-        "posicion": 3,
-        "equipo": "VICTORIA",
-        "pj": 13,
-        "g": 11,
-        "e": 0,
-        "p": 2,
-        "gf": 67,
-        "gc": 29,
         "pts": 33
       },
       {
@@ -1458,12 +1458,12 @@
       {
         "posicion": 16,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
-        "gf": 13,
-        "gc": 67,
+        "p": 12,
+        "gf": 16,
+        "gc": 77,
         "pts": 6
       },
       {
@@ -1525,13 +1525,13 @@
       },
       {
         "equipo": "VICTORIA",
-        "pj": 90,
-        "g": 59,
-        "e": 6,
+        "pj": 92,
+        "g": 60,
+        "e": 7,
         "p": 25,
-        "gf": 506,
-        "gc": 332,
-        "pts": 183,
+        "gf": 519,
+        "gc": 338,
+        "pts": 187,
         "posicion": 4
       },
       {
@@ -1602,13 +1602,13 @@
       },
       {
         "equipo": "RESPLANDOR",
-        "pj": 92,
+        "pj": 94,
         "g": 39,
-        "e": 8,
-        "p": 45,
-        "gf": 448,
-        "gc": 435,
-        "pts": 125,
+        "e": 9,
+        "p": 46,
+        "gf": 450,
+        "gc": 438,
+        "pts": 126,
         "posicion": 11
       },
       {
@@ -1668,24 +1668,24 @@
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 91,
-        "g": 15,
-        "e": 4,
+        "pj": 93,
+        "g": 16,
+        "e": 5,
         "p": 72,
-        "gf": 214,
-        "gc": 526,
-        "pts": 49,
+        "gf": 217,
+        "gc": 528,
+        "pts": 53,
         "posicion": 17
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 90,
+        "pj": 92,
         "g": 13,
-        "e": 6,
-        "p": 71,
-        "gf": 158,
-        "gc": 471,
-        "pts": 45,
+        "e": 7,
+        "p": 72,
+        "gf": 164,
+        "gc": 484,
+        "pts": 46,
         "posicion": 18
       }
     ]
@@ -13881,17 +13881,6 @@
               "direccion": "BOYACA 470",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 150447,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 10:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "match_id": 149529,
               "goles_local": null,
@@ -13935,9 +13924,23 @@
               "sede": "INDEPENDIENTE SEDE CAPITAL",
               "direccion": "BOYACA 470",
               "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 150447,
+              "goles_local": 3,
+              "goles_visitante": 10,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 10:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wzgu7bdxkyaz9grpcstdqtezpy53/20260628-141137-1000124193.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wzgu7bdxkyaz9grpcstdqtezpy53/20260628-141142-1000124191.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CRISOL JUVENTUD",
@@ -13956,14 +13959,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150295,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 10:00",
               "sede": "Crisol",
               "direccion": "Colon 849, Ramos Mejía",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7djhnvz1mufvpptgechin4v1bh63/20260628-144341-17826578045521841934537594157061.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7djhnvz1mufvpptgechin4v1bh63/20260628-144356-17826578258204964236458401655134.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150448,
