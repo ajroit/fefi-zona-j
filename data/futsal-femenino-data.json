@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T19:23:14.407279Z",
+  "actualizado": "2026-06-28T21:03:39.215249Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,12 +16,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "CENTRO ASTURIANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
-    },
-    {
       "nombre": "17 DE AGOSTO",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
+    },
+    {
+      "nombre": "CENTRO ASTURIANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
       "nombre": "ALLENDE",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "17 DE AGOSTO",
+        "pj": 14,
+        "g": 11,
+        "e": 1,
+        "p": 2,
+        "gf": 53,
+        "gc": 13,
+        "pts": 34
+      },
+      {
+        "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
         "pj": 14,
         "g": 10,
@@ -107,17 +118,6 @@
         "gf": 46,
         "gc": 13,
         "pts": 32
-      },
-      {
-        "posicion": 3,
-        "equipo": "17 DE AGOSTO",
-        "pj": 13,
-        "g": 10,
-        "e": 1,
-        "p": 2,
-        "gf": 49,
-        "gc": 12,
-        "pts": 31
       },
       {
         "posicion": 4,
@@ -188,12 +188,12 @@
       {
         "posicion": 10,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 5,
-        "p": 4,
-        "gf": 15,
-        "gc": 23,
+        "p": 5,
+        "gf": 16,
+        "gc": 27,
         "pts": 17
       },
       {
@@ -688,13 +688,13 @@
     "general": [
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 41,
-        "g": 32,
+        "pj": 42,
+        "g": 33,
         "e": 4,
         "p": 5,
-        "gf": 137,
-        "gc": 32,
-        "pts": 100,
+        "gf": 141,
+        "gc": 33,
+        "pts": 103,
         "posicion": 1
       },
       {
@@ -743,12 +743,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 41,
+        "pj": 42,
         "g": 18,
         "e": 13,
-        "p": 10,
-        "gf": 70,
-        "gc": 53,
+        "p": 11,
+        "gf": 71,
+        "gc": 57,
         "pts": 67,
         "posicion": 6
       },
@@ -6760,14 +6760,17 @@
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152239,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 15:45",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-200146-17826768877726163055158424797933.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260628-200154-1782676903231872077782617013604.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152392,
