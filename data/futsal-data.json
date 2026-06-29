@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T23:04:33.596975Z",
+  "actualizado": "2026-06-29T04:09:51.772135Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -64,12 +64,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-005256-download-removebg-preview__1_.png"
     },
     {
-      "nombre": "ROTONDA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
-    },
-    {
       "nombre": "LUNA DE MATANZA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
+    },
+    {
+      "nombre": "ROTONDA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
     },
     {
       "nombre": "ESTRADA FUTSAL",
@@ -100,24 +100,24 @@
       {
         "posicion": 2,
         "equipo": "HAEDO JUNIOR",
-        "pj": 13,
+        "pj": 14,
         "g": 9,
         "e": 2,
-        "p": 2,
-        "gf": 64,
-        "gc": 45,
+        "p": 3,
+        "gf": 70,
+        "gc": 52,
         "pts": 29
       },
       {
         "posicion": 3,
         "equipo": "RIVADAVIA 87",
-        "pj": 12,
+        "pj": 13,
         "g": 8,
-        "e": 2,
+        "e": 3,
         "p": 2,
-        "gf": 68,
-        "gc": 45,
-        "pts": 26
+        "gf": 73,
+        "gc": 50,
+        "pts": 27
       },
       {
         "posicion": 4,
@@ -144,13 +144,13 @@
       {
         "posicion": 6,
         "equipo": "PEDRO LOZANO",
-        "pj": 13,
-        "g": 6,
+        "pj": 14,
+        "g": 7,
         "e": 3,
         "p": 4,
-        "gf": 50,
+        "gf": 55,
         "gc": 41,
-        "pts": 21
+        "pts": 24
       },
       {
         "posicion": 7,
@@ -199,16 +199,27 @@
       {
         "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
-        "e": 1,
+        "e": 2,
         "p": 8,
-        "gf": 54,
-        "gc": 56,
-        "pts": 13
+        "gf": 59,
+        "gc": 61,
+        "pts": 14
       },
       {
         "posicion": 12,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 14,
+        "g": 4,
+        "e": 2,
+        "p": 8,
+        "gf": 50,
+        "gc": 58,
+        "pts": 14
+      },
+      {
+        "posicion": 13,
         "equipo": "ROTONDA",
         "pj": 14,
         "g": 4,
@@ -217,17 +228,6 @@
         "gf": 56,
         "gc": 109,
         "pts": 13
-      },
-      {
-        "posicion": 13,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 13,
-        "g": 3,
-        "e": 2,
-        "p": 8,
-        "gf": 43,
-        "gc": 52,
-        "pts": 11
       },
       {
         "posicion": 14,
@@ -254,12 +254,12 @@
       {
         "posicion": 16,
         "equipo": "JUVENTUD",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 3,
-        "p": 8,
+        "p": 9,
         "gf": 36,
-        "gc": 53,
+        "gc": 58,
         "pts": 9
       }
     ],
@@ -288,17 +288,28 @@
       },
       {
         "posicion": 3,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 13,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 14,
         "g": 8,
-        "e": 1,
+        "e": 2,
         "p": 4,
-        "gf": 71,
-        "gc": 60,
-        "pts": 25
+        "gf": 64,
+        "gc": 51,
+        "pts": 26
       },
       {
         "posicion": 4,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 14,
+        "g": 8,
+        "e": 1,
+        "p": 5,
+        "gf": 73,
+        "gc": 65,
+        "pts": 25
+      },
+      {
+        "posicion": 5,
         "equipo": "ATENEO HAEDO",
         "pj": 13,
         "g": 7,
@@ -309,7 +320,7 @@
         "pts": 23
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ROTONDA",
         "pj": 14,
         "g": 7,
@@ -317,17 +328,6 @@
         "p": 5,
         "gf": 71,
         "gc": 61,
-        "pts": 23
-      },
-      {
-        "posicion": 6,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 13,
-        "g": 7,
-        "e": 2,
-        "p": 4,
-        "gf": 59,
-        "gc": 49,
         "pts": 23
       },
       {
@@ -444,6 +444,17 @@
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 14,
+        "g": 13,
+        "e": 0,
+        "p": 1,
+        "gf": 90,
+        "gc": 20,
+        "pts": 39
+      },
+      {
+        "posicion": 2,
         "equipo": "RIVADAVIA 87",
         "pj": 13,
         "g": 13,
@@ -452,17 +463,6 @@
         "gf": 79,
         "gc": 34,
         "pts": 39
-      },
-      {
-        "posicion": 2,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 13,
-        "g": 12,
-        "e": 0,
-        "p": 1,
-        "gf": 80,
-        "gc": 18,
-        "pts": 36
       },
       {
         "posicion": 3,
@@ -489,12 +489,12 @@
       {
         "posicion": 5,
         "equipo": "HAEDO JUNIOR",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 0,
-        "p": 5,
-        "gf": 45,
-        "gc": 36,
+        "p": 6,
+        "gf": 47,
+        "gc": 46,
         "pts": 24
       },
       {
@@ -2045,6 +2045,17 @@
     ],
     "general": [
       {
+        "equipo": "HAEDO JUNIOR",
+        "pj": 137,
+        "g": 93,
+        "e": 13,
+        "p": 31,
+        "gf": 621,
+        "gc": 269,
+        "pts": 292,
+        "posicion": 1
+      },
+      {
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 139,
         "g": 94,
@@ -2053,17 +2064,6 @@
         "gf": 832,
         "gc": 457,
         "pts": 290,
-        "posicion": 1
-      },
-      {
-        "equipo": "HAEDO JUNIOR",
-        "pj": 134,
-        "g": 92,
-        "e": 13,
-        "p": 29,
-        "gf": 608,
-        "gc": 250,
-        "pts": 289,
         "posicion": 2
       },
       {
@@ -2089,6 +2089,17 @@
         "posicion": 4
       },
       {
+        "equipo": "LUNA DE MATANZA",
+        "pj": 137,
+        "g": 70,
+        "e": 10,
+        "p": 57,
+        "gf": 539,
+        "gc": 451,
+        "pts": 220,
+        "posicion": 5
+      },
+      {
         "equipo": "ROTONDA",
         "pj": 134,
         "g": 69,
@@ -2097,7 +2108,7 @@
         "gf": 526,
         "gc": 477,
         "pts": 220,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2108,39 +2119,28 @@
         "gf": 499,
         "gc": 435,
         "pts": 219,
-        "posicion": 6
-      },
-      {
-        "equipo": "LUNA DE MATANZA",
-        "pj": 134,
-        "g": 68,
-        "e": 10,
-        "p": 56,
-        "gf": 520,
-        "gc": 438,
-        "pts": 214,
         "posicion": 7
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 139,
-        "g": 62,
+        "pj": 140,
+        "g": 63,
         "e": 17,
         "p": 60,
-        "gf": 489,
+        "gf": 494,
         "gc": 446,
-        "pts": 203,
+        "pts": 206,
         "posicion": 8
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 124,
+        "pj": 125,
         "g": 63,
-        "e": 11,
+        "e": 12,
         "p": 50,
-        "gf": 475,
-        "gc": 438,
-        "pts": 200,
+        "gf": 480,
+        "gc": 443,
+        "pts": 201,
         "posicion": 9
       },
       {
@@ -2178,12 +2178,12 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 137,
+        "pj": 138,
         "g": 38,
         "e": 17,
-        "p": 82,
+        "p": 83,
         "gf": 361,
-        "gc": 700,
+        "gc": 705,
         "pts": 131,
         "posicion": 13
       },
@@ -2200,13 +2200,13 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 136,
+        "pj": 137,
         "g": 30,
-        "e": 9,
+        "e": 10,
         "p": 97,
-        "gf": 310,
-        "gc": 653,
-        "pts": 99,
+        "gf": 315,
+        "gc": 658,
+        "pts": 100,
         "posicion": 15
       },
       {
@@ -18739,17 +18739,6 @@
           "local": "HAEDO JUNIOR",
           "visitante": "LUNA DE MATANZA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148197,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 20:00",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "match_id": 148557,
               "goles_local": null,
@@ -18781,28 +18770,6 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 148317,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 18:30",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 148437,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 17:15",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
               "planillas": null
             },
             "2017 PROMOCIONALES": {
@@ -18871,6 +18838,52 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-193701-1000551959.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-193710-1000551958.jpg"
               ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 148437,
+              "goles_local": 2,
+              "goles_visitante": 10,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 17:15",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234147-1000552150.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234153-1000552150.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234156-1000552155.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234202-1000552149.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 148317,
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 18:30",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234631-1000552157.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234648-1000552156.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234640-1000552164.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148197,
+              "goles_local": 6,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 20:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-035537-1000552522.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-035539-1000552521.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-035543-1000552520.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -18879,28 +18892,6 @@
           "local": "PEDRO LOZANO",
           "visitante": "JUVENTUD",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148198,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 20:00",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 148318,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 18:30",
-              "sede": "El Ferroviario ",
-              "direccion": "Reservistas Argentinos 219",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 148438,
               "goles_local": 7,
@@ -19022,6 +19013,34 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260628-201254-17826775505024259804529450646514.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260628-201315-1782677577197235809964080612217.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148198,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 20:00",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260629-013553-17826969387228464980624565212372.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qa92xbix3zgxbfgvjps9goa9e972/20260629-013608-1782696956164667848614383375873.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 148318,
+              "goles_local": 10,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 18:30",
+              "sede": "El Ferroviario ",
+              "direccion": "Reservistas Argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-230205-17826876985771000822275539222403.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-y1d2wldfpfy9zq2dhxob95hfhy32/20260628-230216-17826877223814967463520788874852.jpg"
               ]
             }
           },
@@ -19337,14 +19356,17 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148201,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:30",
               "sede": "Instituto Brown Haedo",
               "direccion": "Las Bases 151 Haedo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260629-000327-inbound5816662035631002739.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3rqqqchi6peosepgtz28ra7gbsw2/20260629-000341-inbound2254992690997013453.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148321,

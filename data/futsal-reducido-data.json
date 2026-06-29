@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T23:04:42.874832Z",
+  "actualizado": "2026-06-29T04:09:58.940007Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -20,6 +20,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213218-images%20(3).png"
     },
     {
+      "nombre": "CAPITAN ROSALES",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
+    },
+    {
       "nombre": "RESPLANDOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
     },
@@ -28,20 +32,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
     },
     {
-      "nombre": "CAPITAN ROSALES",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
-    },
-    {
       "nombre": "PACHECO SUR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-w8bhsookahaqvaoibk6ljbaysnl1%2F1000312734.png"
     },
     {
-      "nombre": "BRISAS DE HAEDO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205513-20260327-174248-WhatsApp_Image_2026-03-27_at_2.41.30_PM.png"
-    },
-    {
       "nombre": "EL IDEAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260310-193421-images-Photoroom__5_.png"
+    },
+    {
+      "nombre": "BRISAS DE HAEDO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205513-20260327-174248-WhatsApp_Image_2026-03-27_at_2.41.30_PM.png"
     },
     {
       "nombre": "UGAB",
@@ -60,16 +60,16 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
     },
     {
+      "nombre": "PARQUE CHAS",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5c72d796-936e-4537-a87a-9a4e5ddbc1b8.png"
+    },
+    {
       "nombre": "VILLA SAHORES",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
     },
     {
       "nombre": "CRISOL JUVENTUD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205804-images__1_.png"
-    },
-    {
-      "nombre": "PARQUE CHAS",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5c72d796-936e-4537-a87a-9a4e5ddbc1b8.png"
     },
     {
       "nombre": "ALTO PASTO",
@@ -93,16 +93,27 @@
       {
         "posicion": 1,
         "equipo": "MAYO FUTSAL",
-        "pj": 12,
-        "g": 11,
+        "pj": 13,
+        "g": 12,
         "e": 0,
         "p": 1,
-        "gf": 96,
+        "gf": 107,
         "gc": 28,
-        "pts": 33
+        "pts": 36
       },
       {
         "posicion": 2,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 13,
+        "g": 10,
+        "e": 1,
+        "p": 2,
+        "gf": 99,
+        "gc": 69,
+        "pts": 31
+      },
+      {
+        "posicion": 3,
         "equipo": "RESPLANDOR",
         "pj": 14,
         "g": 9,
@@ -113,7 +124,7 @@
         "pts": 30
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 13,
         "g": 9,
@@ -124,29 +135,29 @@
         "pts": 30
       },
       {
-        "posicion": 4,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 12,
+        "posicion": 5,
+        "equipo": "PACHECO SUR",
+        "pj": 14,
         "g": 9,
         "e": 1,
-        "p": 2,
-        "gf": 84,
-        "gc": 64,
+        "p": 4,
+        "gf": 77,
+        "gc": 56,
         "pts": 28
       },
       {
-        "posicion": 5,
-        "equipo": "PACHECO SUR",
+        "posicion": 6,
+        "equipo": "EL IDEAL",
         "pj": 13,
-        "g": 8,
-        "e": 1,
-        "p": 4,
-        "gf": 67,
-        "gc": 48,
+        "g": 7,
+        "e": 4,
+        "p": 2,
+        "gf": 78,
+        "gc": 57,
         "pts": 25
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "BRISAS DE HAEDO",
         "pj": 13,
         "g": 8,
@@ -155,17 +166,6 @@
         "gf": 82,
         "gc": 77,
         "pts": 24
-      },
-      {
-        "posicion": 7,
-        "equipo": "EL IDEAL",
-        "pj": 12,
-        "g": 6,
-        "e": 4,
-        "p": 2,
-        "gf": 65,
-        "gc": 53,
-        "pts": 22
       },
       {
         "posicion": 8,
@@ -192,38 +192,49 @@
       {
         "posicion": 10,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 1,
-        "p": 7,
-        "gf": 81,
-        "gc": 79,
+        "p": 8,
+        "gf": 89,
+        "gc": 89,
         "pts": 16
       },
       {
         "posicion": 11,
         "equipo": "SUD AMERICA",
-        "pj": 11,
+        "pj": 12,
         "g": 4,
         "e": 3,
-        "p": 4,
+        "p": 5,
         "gf": 50,
-        "gc": 54,
+        "gc": 65,
         "pts": 15
       },
       {
         "posicion": 12,
-        "equipo": "VILLA SAHORES",
-        "pj": 11,
+        "equipo": "PARQUE CHAS",
+        "pj": 14,
         "g": 4,
-        "e": 1,
-        "p": 6,
-        "gf": 57,
-        "gc": 66,
-        "pts": 13
+        "e": 2,
+        "p": 8,
+        "gf": 49,
+        "gc": 84,
+        "pts": 14
       },
       {
         "posicion": 13,
+        "equipo": "VILLA SAHORES",
+        "pj": 12,
+        "g": 4,
+        "e": 1,
+        "p": 7,
+        "gf": 62,
+        "gc": 81,
+        "pts": 13
+      },
+      {
+        "posicion": 14,
         "equipo": "CRISOL JUVENTUD",
         "pj": 13,
         "g": 3,
@@ -231,17 +242,6 @@
         "p": 8,
         "gf": 46,
         "gc": 69,
-        "pts": 11
-      },
-      {
-        "posicion": 14,
-        "equipo": "PARQUE CHAS",
-        "pj": 13,
-        "g": 3,
-        "e": 2,
-        "p": 8,
-        "gf": 45,
-        "gc": 81,
         "pts": 11
       },
       {
@@ -258,23 +258,23 @@
       {
         "posicion": 16,
         "equipo": "PRIMERA JUNTA",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 2,
-        "p": 9,
-        "gf": 45,
-        "gc": 66,
+        "p": 10,
+        "gf": 48,
+        "gc": 70,
         "pts": 8
       },
       {
         "posicion": 17,
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 2,
-        "p": 8,
-        "gf": 58,
-        "gc": 84,
+        "p": 9,
+        "gf": 62,
+        "gc": 97,
         "pts": 8
       },
       {
@@ -293,13 +293,13 @@
       {
         "posicion": 1,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 1,
         "p": 1,
-        "gf": 75,
-        "gc": 38,
-        "pts": 34
+        "gf": 78,
+        "gc": 39,
+        "pts": 37
       },
       {
         "posicion": 2,
@@ -314,6 +314,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 13,
+        "g": 9,
+        "e": 3,
+        "p": 1,
+        "gf": 88,
+        "gc": 43,
+        "pts": 30
+      },
+      {
+        "posicion": 4,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 13,
         "g": 9,
@@ -324,51 +335,51 @@
         "pts": 29
       },
       {
-        "posicion": 4,
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 12,
-        "g": 8,
-        "e": 3,
-        "p": 1,
-        "gf": 83,
-        "gc": 40,
-        "pts": 27
-      },
-      {
         "posicion": 5,
-        "equipo": "PACHECO SUR",
+        "equipo": "MAYO FUTSAL",
         "pj": 13,
-        "g": 8,
-        "e": 3,
-        "p": 2,
-        "gf": 77,
-        "gc": 57,
-        "pts": 27
+        "g": 9,
+        "e": 1,
+        "p": 3,
+        "gf": 91,
+        "gc": 43,
+        "pts": 28
       },
       {
         "posicion": 6,
-        "equipo": "MAYO FUTSAL",
-        "pj": 12,
+        "equipo": "PACHECO SUR",
+        "pj": 14,
         "g": 8,
-        "e": 1,
+        "e": 3,
         "p": 3,
-        "gf": 79,
-        "gc": 43,
-        "pts": 25
+        "gf": 78,
+        "gc": 60,
+        "pts": 27
       },
       {
         "posicion": 7,
-        "equipo": "VILLA SAHORES",
-        "pj": 11,
-        "g": 6,
-        "e": 2,
-        "p": 3,
-        "gf": 55,
-        "gc": 37,
-        "pts": 20
+        "equipo": "CAPITAN ROSALES",
+        "pj": 14,
+        "g": 7,
+        "e": 0,
+        "p": 7,
+        "gf": 67,
+        "gc": 67,
+        "pts": 21
       },
       {
         "posicion": 8,
+        "equipo": "VILLA SAHORES",
+        "pj": 12,
+        "g": 6,
+        "e": 2,
+        "p": 4,
+        "gf": 59,
+        "gc": 42,
+        "pts": 20
+      },
+      {
+        "posicion": 9,
         "equipo": "PRIMERA JUNTA",
         "pj": 14,
         "g": 6,
@@ -379,7 +390,7 @@
         "pts": 20
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "UGAB",
         "pj": 13,
         "g": 6,
@@ -388,17 +399,6 @@
         "gf": 83,
         "gc": 70,
         "pts": 19
-      },
-      {
-        "posicion": 10,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 13,
-        "g": 6,
-        "e": 0,
-        "p": 7,
-        "gf": 62,
-        "gc": 63,
-        "pts": 18
       },
       {
         "posicion": 11,
@@ -414,12 +414,12 @@
       {
         "posicion": 12,
         "equipo": "EL IDEAL",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
         "e": 2,
-        "p": 6,
-        "gf": 57,
-        "gc": 71,
+        "p": 7,
+        "gf": 60,
+        "gc": 76,
         "pts": 14
       },
       {
@@ -458,12 +458,12 @@
       {
         "posicion": 16,
         "equipo": "SUD AMERICA",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
         "e": 0,
-        "p": 8,
+        "p": 9,
         "gf": 48,
-        "gc": 89,
+        "gc": 101,
         "pts": 12
       },
       {
@@ -570,24 +570,24 @@
       {
         "posicion": 8,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
-        "e": 3,
+        "e": 4,
         "p": 5,
-        "gf": 38,
-        "gc": 48,
-        "pts": 18
+        "gf": 41,
+        "gc": 51,
+        "pts": 19
       },
       {
         "posicion": 9,
         "equipo": "EL IDEAL",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
-        "e": 2,
+        "e": 3,
         "p": 5,
-        "gf": 44,
-        "gc": 37,
-        "pts": 17
+        "gf": 47,
+        "gc": 40,
+        "pts": 18
       },
       {
         "posicion": 10,
@@ -614,24 +614,24 @@
       {
         "posicion": 12,
         "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 12,
+        "pj": 13,
         "g": 4,
-        "e": 2,
+        "e": 3,
         "p": 6,
-        "gf": 47,
-        "gc": 48,
-        "pts": 14
+        "gf": 50,
+        "gc": 51,
+        "pts": 15
       },
       {
         "posicion": 13,
         "equipo": "UGAB",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 9,
-        "gf": 30,
-        "gc": 44,
-        "pts": 12
+        "gf": 33,
+        "gc": 47,
+        "pts": 13
       },
       {
         "posicion": 14,
@@ -1503,24 +1503,24 @@
       },
       {
         "equipo": "CAPITAN ROSALES",
-        "pj": 95,
-        "g": 68,
+        "pj": 97,
+        "g": 70,
         "e": 6,
         "p": 21,
-        "gf": 593,
-        "gc": 327,
-        "pts": 210,
+        "gf": 613,
+        "gc": 336,
+        "pts": 216,
         "posicion": 2
       },
       {
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 96,
-        "g": 68,
+        "pj": 98,
+        "g": 69,
         "e": 6,
-        "p": 22,
-        "gf": 486,
-        "gc": 281,
-        "pts": 210,
+        "p": 23,
+        "gf": 497,
+        "gc": 292,
+        "pts": 213,
         "posicion": 3
       },
       {
@@ -1536,47 +1536,58 @@
       },
       {
         "equipo": "MAYO FUTSAL",
-        "pj": 89,
-        "g": 57,
+        "pj": 91,
+        "g": 59,
         "e": 5,
         "p": 27,
-        "gf": 493,
+        "gf": 516,
         "gc": 261,
-        "pts": 176,
+        "pts": 182,
         "posicion": 5
       },
       {
         "equipo": "EL IDEAL",
-        "pj": 88,
-        "g": 52,
-        "e": 12,
-        "p": 24,
-        "gf": 458,
-        "gc": 282,
-        "pts": 168,
+        "pj": 91,
+        "g": 53,
+        "e": 13,
+        "p": 25,
+        "gf": 477,
+        "gc": 294,
+        "pts": 172,
         "posicion": 6
       },
       {
         "equipo": "PACHECO SUR",
-        "pj": 96,
-        "g": 48,
+        "pj": 98,
+        "g": 49,
         "e": 15,
-        "p": 33,
-        "gf": 431,
-        "gc": 358,
-        "pts": 159,
+        "p": 34,
+        "gf": 442,
+        "gc": 369,
+        "pts": 162,
         "posicion": 7
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 95,
-        "g": 48,
+        "pj": 96,
+        "g": 49,
         "e": 10,
         "p": 37,
-        "gf": 449,
-        "gc": 363,
-        "pts": 154,
+        "gf": 453,
+        "gc": 366,
+        "pts": 157,
         "posicion": 8
+      },
+      {
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 91,
+        "g": 43,
+        "e": 9,
+        "p": 39,
+        "gf": 385,
+        "gc": 365,
+        "pts": 138,
+        "posicion": 9
       },
       {
         "equipo": "RESPLANDOR",
@@ -1587,71 +1598,60 @@
         "gf": 481,
         "gc": 457,
         "pts": 136,
-        "posicion": 9
-      },
-      {
-        "equipo": "ARGENTINO DE MATADEROS",
-        "pj": 88,
-        "g": 42,
-        "e": 8,
-        "p": 38,
-        "gf": 373,
-        "gc": 346,
-        "pts": 134,
         "posicion": 10
       },
       {
         "equipo": "PRIMERA JUNTA",
-        "pj": 96,
+        "pj": 97,
         "g": 40,
         "e": 12,
-        "p": 44,
-        "gf": 325,
-        "gc": 357,
+        "p": 45,
+        "gf": 328,
+        "gc": 361,
         "pts": 132,
         "posicion": 11
       },
       {
         "equipo": "BRISAS DE HAEDO",
-        "pj": 91,
+        "pj": 92,
         "g": 40,
-        "e": 9,
+        "e": 10,
         "p": 42,
-        "gf": 358,
-        "gc": 373,
-        "pts": 129,
+        "gf": 361,
+        "gc": 376,
+        "pts": 130,
         "posicion": 12
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 82,
+        "pj": 84,
         "g": 26,
         "e": 5,
-        "p": 51,
-        "gf": 278,
-        "gc": 366,
+        "p": 53,
+        "gf": 287,
+        "gc": 386,
         "pts": 83,
         "posicion": 13
       },
       {
         "equipo": "UGAB",
-        "pj": 90,
+        "pj": 91,
         "g": 24,
-        "e": 3,
+        "e": 4,
         "p": 63,
-        "gf": 268,
-        "gc": 509,
-        "pts": 75,
+        "gf": 271,
+        "gc": 512,
+        "pts": 76,
         "posicion": 14
       },
       {
         "equipo": "SUD AMERICA",
-        "pj": 88,
+        "pj": 90,
         "g": 22,
         "e": 8,
-        "p": 58,
+        "p": 60,
         "gf": 254,
-        "gc": 513,
+        "gc": 536,
         "pts": 74,
         "posicion": 15
       },
@@ -13707,36 +13707,31 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149527,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 10,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 20:15",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 149680,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 19:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260629-015054-inbound5529759604337394749.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260629-015056-inbound5115692327195553756.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 149833,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260628-222422-inbound811045320600035971.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260628-222425-inbound2313088150069185766.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150292,
@@ -13778,6 +13773,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tngxekf46zg0ckkosh4xmzxxrhs1/20260628-212013-17826815891682275481945104392864.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tngxekf46zg0ckkosh4xmzxxrhs1/20260628-211947-17826815731788978762554516633016.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149680,
+              "goles_local": 3,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 19:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260628-234710-inbound157829573973949839.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260628-234700-inbound7066505097898798055.jpg"
               ]
             }
           },
@@ -13844,14 +13853,17 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149834,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:00",
               "sede": "Malvinas",
               "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260628-234048-inbound5175135281428465976.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260628-234051-inbound3758768343862224876.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149987,
@@ -13865,7 +13877,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "INDEPENDIENTE (C)",
@@ -14202,38 +14214,33 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-185925-inbound2828682050295765375.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149532,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 20:15",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149685,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 12,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 19:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-231035-inbound5117490387387740739.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-231042-inbound5418571684278737430.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 149838,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-220415-inbound4112823822988786743.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-220420-inbound8016276528079629076.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149991,
@@ -14261,6 +14268,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-175712-inbound3183746960540247849.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260628-175716-inbound144976878906595392.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149532,
+              "goles_local": 11,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 20:15",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260629-012439-1000665370.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260629-012443-1000665371.jpg"
               ]
             }
           },
@@ -14300,47 +14321,45 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149533,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 13,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 21:15",
               "sede": "C.s.y.d argentino ",
               "direccion": "Albariño 2253",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260629-030245-262110.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260629-030233-262112.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 149686,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 20:00",
               "sede": "C.s.y.d argentino ",
               "direccion": "Albariño 2253",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 149839,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 19:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260629-030532-262113.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260629-030535-262114.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149992,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:00",
               "sede": "C.s.y.d argentino ",
               "direccion": "Albariño 2253",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-221704-261604.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-221708-261605.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150451,
@@ -14354,6 +14373,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-191002-261202.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-191004-261203.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149839,
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 19:00",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-232638-261631.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260628-232641-261632.jpg"
               ]
             }
           },
@@ -14405,28 +14438,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260628-164537-17826651239906676565226017308261.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149534,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 18:45",
-              "sede": "Capitan rosales ",
-              "direccion": "Maria b cazon 1210",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 149687,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 17:30",
-              "sede": "Capitan rosales ",
-              "direccion": "Maria b cazon 1210",
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "match_id": 149993,
               "goles_local": 12,
@@ -14453,6 +14464,34 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260628-210614-1001228919.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260628-210616-1001228920.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149687,
+              "goles_local": 5,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 17:30",
+              "sede": "Capitan rosales ",
+              "direccion": "Maria b cazon 1210",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-al9qkjteyrnsdd7iqiys2fmvypa3/20260629-002303-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-al9qkjteyrnsdd7iqiys2fmvypa3/20260629-002308-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149534,
+              "goles_local": 15,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 18:45",
+              "sede": "Capitan rosales ",
+              "direccion": "Maria b cazon 1210",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260629-012846-1001229387.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-6caq6dh3e4vltwzgcdopyu9m7m73/20260629-012902-1001229397.jpg"
               ]
             }
           },
@@ -14492,36 +14531,31 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149535,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 19:15",
               "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
               "direccion": "Zuviria 250,CABA ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-233432-1000226862.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-233434-1000226861.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 149688,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:00",
               "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
               "direccion": "Zuviria 250,CABA ",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 149841,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 17:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-221646-1000226856.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-221655-1000226855.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149994,
@@ -14549,6 +14583,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-185410-1000226762.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-185413-1000226761.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149841,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 17:00",
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-222648-1000226862.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-lpggb8zcsbpxd9msifvwe0lz1fo2/20260628-222650-1000226861.jpg"
               ]
             }
           },
