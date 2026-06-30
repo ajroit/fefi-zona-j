@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-29T09:03:09.647833Z",
+  "actualizado": "2026-06-30T07:58:11.936251Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -278,12 +278,12 @@
       {
         "posicion": 2,
         "equipo": "MARCHIGIANA",
-        "pj": 13,
+        "pj": 14,
         "g": 9,
         "e": 2,
-        "p": 2,
-        "gf": 65,
-        "gc": 25,
+        "p": 3,
+        "gf": 66,
+        "gc": 30,
         "pts": 29
       },
       {
@@ -310,6 +310,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 14,
+        "g": 8,
+        "e": 1,
+        "p": 5,
+        "gf": 67,
+        "gc": 59,
+        "pts": 25
+      },
+      {
+        "posicion": 6,
         "equipo": "ATENEO HAEDO",
         "pj": 13,
         "g": 7,
@@ -320,7 +331,7 @@
         "pts": 23
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ROTONDA",
         "pj": 14,
         "g": 7,
@@ -329,17 +340,6 @@
         "gf": 71,
         "gc": 61,
         "pts": 23
-      },
-      {
-        "posicion": 7,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 13,
-        "g": 7,
-        "e": 1,
-        "p": 5,
-        "gf": 62,
-        "gc": 58,
-        "pts": 22
       },
       {
         "posicion": 8,
@@ -1111,24 +1111,24 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 21,
-        "gc": 58,
+        "gc": 60,
         "pts": 9
       },
       {
         "posicion": 14,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 13,
-        "g": 2,
+        "pj": 14,
+        "g": 3,
         "e": 0,
         "p": 11,
-        "gf": 22,
+        "gf": 24,
         "gc": 79,
-        "pts": 6
+        "pts": 9
       },
       {
         "posicion": 15,
@@ -2068,12 +2068,12 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 127,
+        "pj": 128,
         "g": 78,
         "e": 16,
-        "p": 33,
-        "gf": 579,
-        "gc": 285,
+        "p": 34,
+        "gf": 580,
+        "gc": 290,
         "pts": 250,
         "posicion": 3
       },
@@ -2089,6 +2089,17 @@
         "posicion": 4
       },
       {
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 135,
+        "g": 71,
+        "e": 9,
+        "p": 55,
+        "gf": 504,
+        "gc": 436,
+        "pts": 222,
+        "posicion": 5
+      },
+      {
         "equipo": "LUNA DE MATANZA",
         "pj": 137,
         "g": 70,
@@ -2097,7 +2108,7 @@
         "gf": 539,
         "gc": 451,
         "pts": 220,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "ROTONDA",
@@ -2108,17 +2119,6 @@
         "gf": 526,
         "gc": 477,
         "pts": 220,
-        "posicion": 6
-      },
-      {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 134,
-        "g": 70,
-        "e": 9,
-        "p": 55,
-        "gf": 499,
-        "gc": 435,
-        "pts": 219,
         "posicion": 7
       },
       {
@@ -2134,12 +2134,12 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 125,
+        "pj": 126,
         "g": 63,
         "e": 12,
-        "p": 50,
+        "p": 51,
         "gf": 480,
-        "gc": 443,
+        "gc": 445,
         "pts": 201,
         "posicion": 9
       },
@@ -2200,13 +2200,13 @@
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 137,
-        "g": 30,
+        "pj": 138,
+        "g": 31,
         "e": 10,
         "p": 97,
-        "gf": 315,
+        "gf": 317,
         "gc": 658,
-        "pts": 100,
+        "pts": 103,
         "posicion": 15
       },
       {
@@ -18704,20 +18704,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-165905-288971.jpg"
               ]
             },
-            "CUARTA MASCULINO": {
-              "match_id": 148436,
-              "goles_local": 3,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-27 16:15",
-              "sede": "San jose",
-              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220718-289319.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220720-289362.jpg"
-              ]
-            },
             "PRIMERA MASCULINO": {
               "match_id": 148196,
               "goles_local": 2,
@@ -18730,6 +18716,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260628-003039-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260628-003046-image.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 148436,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-27 16:15",
+              "sede": "San jose",
+              "direccion": "Campo de deportes Colegio san José  - Martin Coronado ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220718-289319.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260627-220720-289362.jpg"
               ]
             }
           },
@@ -18837,6 +18837,34 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260628-234640-1000552164.jpg"
               ]
             },
+            "2018 PROMOCIONALES": {
+              "match_id": 149277,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 12:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040019-1000552529.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040021-1000552528.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148557,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 16:00",
+              "sede": "Sociedad de Fomento Villa Don Bosco",
+              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-043309-1000552542.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-043337-1000552541.jpg"
+              ]
+            },
             "PRIMERA MASCULINO": {
               "match_id": 148197,
               "goles_local": 6,
@@ -18852,20 +18880,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-035543-1000552520.jpg"
               ]
             },
-            "2018 PROMOCIONALES": {
-              "match_id": 149277,
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-28 12:00",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040019-1000552529.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040021-1000552528.jpg"
-              ]
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149157,
               "goles_local": 0,
@@ -18878,20 +18892,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040448-1000552537.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-040450-1000552538.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 148557,
-              "goles_local": 0,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-06-28 16:00",
-              "sede": "Sociedad de Fomento Villa Don Bosco",
-              "direccion": "José Nicolás de Arriola 1857,Ramos Mejía",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-043309-1000552542.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260629-043337-1000552541.jpg"
               ]
             }
           },
@@ -19216,14 +19216,17 @@
           "partidos": {
             "TERCERA MASCULINO": {
               "match_id": 148320,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 19:00",
               "sede": "Club deportivo Riestra ",
               "direccion": "Ana María janer 2601",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260629-144348-17827442212919181023533591677363.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260629-144340-1782744210958459160566615243723.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148440,
@@ -19407,9 +19410,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148801,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 12:30",
               "sede": "Instituto Brown Haedo",

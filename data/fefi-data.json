@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-29T09:03:04.274428+00:00",
+  "actualizado": "2026-06-30T07:58:05.375305+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -5221,60 +5221,60 @@
           "visitante": "A DOS TOQUES F. C.",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 9,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 7,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -5473,60 +5473,60 @@
           "visitante": "CLUB SAAVEDRA",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 10,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 6,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 9,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 4,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 6,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7767,11 +7767,11 @@
     "general": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 69,
-        "g": 49,
+        "pj": 76,
+        "g": 53,
         "e": 2,
-        "p": 18,
-        "pts": 169,
+        "p": 21,
+        "pts": 184,
         "posicion": 1
       },
       {
@@ -7793,13 +7793,22 @@
         "posicion": 3
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 77,
+        "g": 34,
+        "e": 9,
+        "p": 29,
+        "pts": 149,
+        "posicion": 4
+      },
+      {
         "equipo": "PACIFICO MAR PLAST",
         "pj": 70,
         "g": 37,
         "e": 4,
         "p": 29,
         "pts": 148,
-        "posicion": 4
+        "posicion": 5
       },
       {
         "equipo": "FERRO C. O.",
@@ -7808,7 +7817,7 @@
         "e": 4,
         "p": 31,
         "pts": 144,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "ESTRELLA",
@@ -7817,7 +7826,16 @@
         "e": 6,
         "p": 30,
         "pts": 144,
-        "posicion": 6
+        "posicion": 7
+      },
+      {
+        "equipo": "SOL DE AMERICA",
+        "pj": 70,
+        "g": 33,
+        "e": 7,
+        "p": 30,
+        "pts": 143,
+        "posicion": 8
       },
       {
         "equipo": "HOMERO",
@@ -7826,7 +7844,7 @@
         "e": 8,
         "p": 21,
         "pts": 139,
-        "posicion": 7
+        "posicion": 9
       },
       {
         "equipo": "MENDEVILLE",
@@ -7835,16 +7853,7 @@
         "e": 3,
         "p": 35,
         "pts": 137,
-        "posicion": 8
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 70,
-        "g": 30,
-        "e": 8,
-        "p": 27,
-        "pts": 133,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -7853,7 +7862,7 @@
         "e": 9,
         "p": 35,
         "pts": 131,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "TORINO",
@@ -7862,16 +7871,16 @@
         "e": 3,
         "p": 38,
         "pts": 131,
-        "posicion": 11
+        "posicion": 12
       },
       {
-        "equipo": "SOL DE AMERICA",
-        "pj": 63,
-        "g": 30,
-        "e": 7,
-        "p": 26,
-        "pts": 130,
-        "posicion": 12
+        "equipo": "LIBERAL",
+        "pj": 75,
+        "g": 24,
+        "e": 5,
+        "p": 46,
+        "pts": 128,
+        "posicion": 13
       },
       {
         "equipo": "EL ATALAYA",
@@ -7880,15 +7889,6 @@
         "e": 6,
         "p": 21,
         "pts": 126,
-        "posicion": 13
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 68,
-        "g": 22,
-        "e": 4,
-        "p": 42,
-        "pts": 116,
         "posicion": 14
       },
       {
@@ -7913,20 +7913,20 @@
     "2019": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
-        "g": 10,
+        "pj": 11,
+        "g": 11,
         "e": 0,
         "p": 0,
-        "pts": 30,
+        "pts": 33,
         "posicion": 1
       },
       {
         "equipo": "SOL DE AMERICA",
-        "pj": 9,
+        "pj": 10,
         "g": 9,
         "e": 0,
-        "p": 0,
-        "pts": 27,
+        "p": 1,
+        "pts": 28,
         "posicion": 2
       },
       {
@@ -8020,21 +8020,21 @@
         "posicion": 12
       },
       {
-        "equipo": "LIBERAL",
-        "pj": 9,
-        "g": 1,
-        "e": 1,
-        "p": 7,
-        "pts": 12,
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
+        "g": 4,
+        "e": 0,
+        "p": 2,
+        "pts": 14,
         "posicion": 13
       },
       {
-        "equipo": "A DOS TOQUES F. C.",
+        "equipo": "LIBERAL",
         "pj": 10,
-        "g": 3,
-        "e": 0,
-        "p": 2,
-        "pts": 11,
+        "g": 1,
+        "e": 1,
+        "p": 8,
+        "pts": 13,
         "posicion": 14
       },
       {
@@ -8068,11 +8068,11 @@
       },
       {
         "equipo": "A DOS TOQUES F. C.",
-        "pj": 10,
+        "pj": 11,
         "g": 8,
         "e": 2,
-        "p": 0,
-        "pts": 28,
+        "p": 1,
+        "pts": 29,
         "posicion": 2
       },
       {
@@ -8094,25 +8094,25 @@
         "posicion": 4
       },
       {
+        "equipo": "LIBERAL",
+        "pj": 11,
+        "g": 6,
+        "e": 0,
+        "p": 5,
+        "pts": 23,
+        "posicion": 5
+      },
+      {
         "equipo": "ESTRELLA",
         "pj": 10,
         "g": 5,
         "e": 1,
         "p": 4,
         "pts": 21,
-        "posicion": 5
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 10,
-        "g": 5,
-        "e": 0,
-        "p": 5,
-        "pts": 20,
         "posicion": 6
       },
       {
-        "equipo": "LIBERAL",
+        "equipo": "FERRO C. O.",
         "pj": 10,
         "g": 5,
         "e": 0,
@@ -8139,16 +8139,16 @@
         "posicion": 9
       },
       {
-        "equipo": "TORINO",
+        "equipo": "SOL DE AMERICA",
         "pj": 10,
         "g": 4,
-        "e": 0,
-        "p": 6,
-        "pts": 18,
+        "e": 1,
+        "p": 5,
+        "pts": 19,
         "posicion": 10
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "TORINO",
         "pj": 10,
         "g": 4,
         "e": 0,
@@ -8157,30 +8157,30 @@
         "posicion": 11
       },
       {
+        "equipo": "MENDEVILLE",
+        "pj": 10,
+        "g": 4,
+        "e": 0,
+        "p": 6,
+        "pts": 18,
+        "posicion": 12
+      },
+      {
         "equipo": "30 DE OCTUBRE",
         "pj": 10,
         "g": 3,
         "e": 0,
         "p": 7,
         "pts": 16,
-        "posicion": 12
-      },
-      {
-        "equipo": "SOL DE AMERICA",
-        "pj": 9,
-        "g": 3,
-        "e": 1,
-        "p": 5,
-        "pts": 16,
         "posicion": 13
       },
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
+        "pj": 11,
         "g": 2,
         "e": 0,
-        "p": 8,
-        "pts": 14,
+        "p": 9,
+        "pts": 15,
         "posicion": 14
       },
       {
@@ -8205,11 +8205,11 @@
     "2018": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
-        "g": 9,
+        "pj": 11,
+        "g": 10,
         "e": 1,
         "p": 0,
-        "pts": 29,
+        "pts": 32,
         "posicion": 1
       },
       {
@@ -8258,16 +8258,16 @@
         "posicion": 6
       },
       {
-        "equipo": "TORINO",
-        "pj": 10,
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 5,
-        "pts": 20,
+        "pts": 22,
         "posicion": 7
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "TORINO",
         "pj": 10,
         "g": 5,
         "e": 0,
@@ -8276,16 +8276,16 @@
         "posicion": 8
       },
       {
-        "equipo": "LOMAS DE LUGANO",
+        "equipo": "MENDEVILLE",
         "pj": 10,
-        "g": 4,
-        "e": 1,
+        "g": 5,
+        "e": 0,
         "p": 5,
-        "pts": 19,
+        "pts": 20,
         "posicion": 9
       },
       {
-        "equipo": "A DOS TOQUES F. C.",
+        "equipo": "LOMAS DE LUGANO",
         "pj": 10,
         "g": 4,
         "e": 1,
@@ -8322,20 +8322,20 @@
       },
       {
         "equipo": "SOL DE AMERICA",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 2,
-        "p": 6,
-        "pts": 13,
+        "p": 7,
+        "pts": 14,
         "posicion": 14
       },
       {
         "equipo": "LIBERAL",
-        "pj": 10,
+        "pj": 11,
         "g": 1,
         "e": 0,
-        "p": 9,
-        "pts": 12,
+        "p": 10,
+        "pts": 13,
         "posicion": 15
       },
       {
@@ -8359,13 +8359,22 @@
         "posicion": 1
       },
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 11,
+        "g": 7,
+        "e": 0,
+        "p": 4,
+        "pts": 25,
+        "posicion": 2
+      },
+      {
         "equipo": "CLUB SAHORES",
         "pj": 10,
         "g": 7,
         "e": 1,
         "p": 2,
         "pts": 25,
-        "posicion": 2
+        "posicion": 3
       },
       {
         "equipo": "30 DE OCTUBRE",
@@ -8374,24 +8383,15 @@
         "e": 4,
         "p": 1,
         "pts": 24,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
-        "g": 6,
-        "e": 0,
-        "p": 4,
-        "pts": 22,
         "posicion": 4
       },
       {
         "equipo": "SOL DE AMERICA",
-        "pj": 9,
+        "pj": 10,
         "g": 6,
         "e": 1,
-        "p": 2,
-        "pts": 22,
+        "p": 3,
+        "pts": 23,
         "posicion": 5
       },
       {
@@ -8404,22 +8404,31 @@
         "posicion": 6
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
+        "g": 4,
+        "e": 3,
+        "p": 4,
+        "pts": 22,
+        "posicion": 7
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 11,
+        "g": 4,
+        "e": 1,
+        "p": 6,
+        "pts": 20,
+        "posicion": 8
+      },
+      {
         "equipo": "TORINO",
         "pj": 10,
         "g": 4,
         "e": 2,
         "p": 4,
         "pts": 20,
-        "posicion": 7
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 10,
-        "g": 4,
-        "e": 2,
-        "p": 4,
-        "pts": 20,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8428,7 +8437,7 @@
         "e": 3,
         "p": 4,
         "pts": 19,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "HOMERO",
@@ -8437,15 +8446,6 @@
         "e": 2,
         "p": 3,
         "pts": 19,
-        "posicion": 10
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 10,
-        "g": 4,
-        "e": 0,
-        "p": 6,
-        "pts": 18,
         "posicion": 11
       },
       {
@@ -8497,11 +8497,11 @@
     "2017": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
-        "g": 9,
+        "pj": 11,
+        "g": 10,
         "e": 0,
         "p": 1,
-        "pts": 28,
+        "pts": 31,
         "posicion": 1
       },
       {
@@ -8523,16 +8523,16 @@
         "posicion": 3
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 10,
+        "equipo": "LIBERAL",
+        "pj": 11,
         "g": 7,
-        "e": 0,
+        "e": 1,
         "p": 3,
-        "pts": 24,
+        "pts": 26,
         "posicion": 4
       },
       {
-        "equipo": "CLUB SAHORES",
+        "equipo": "FERRO C. O.",
         "pj": 10,
         "g": 7,
         "e": 0,
@@ -8541,12 +8541,12 @@
         "posicion": 5
       },
       {
-        "equipo": "LIBERAL",
+        "equipo": "CLUB SAHORES",
         "pj": 10,
-        "g": 6,
-        "e": 1,
+        "g": 7,
+        "e": 0,
         "p": 3,
-        "pts": 23,
+        "pts": 24,
         "posicion": 6
       },
       {
@@ -8586,22 +8586,31 @@
         "posicion": 10
       },
       {
+        "equipo": "SOL DE AMERICA",
+        "pj": 10,
+        "g": 3,
+        "e": 0,
+        "p": 7,
+        "pts": 16,
+        "posicion": 11
+      },
+      {
         "equipo": "EL ATALAYA",
         "pj": 10,
         "g": 2,
         "e": 2,
         "p": 6,
         "pts": 16,
-        "posicion": 11
+        "posicion": 12
       },
       {
-        "equipo": "SOL DE AMERICA",
-        "pj": 9,
-        "g": 3,
-        "e": 0,
-        "p": 6,
-        "pts": 15,
-        "posicion": 12
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
+        "g": 1,
+        "e": 3,
+        "p": 7,
+        "pts": 16,
+        "posicion": 13
       },
       {
         "equipo": "HOMERO",
@@ -8609,15 +8618,6 @@
         "g": 2,
         "e": 2,
         "p": 5,
-        "pts": 15,
-        "posicion": 13
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 10,
-        "g": 1,
-        "e": 3,
-        "p": 6,
         "pts": 15,
         "posicion": 14
       },
@@ -8660,21 +8660,21 @@
         "posicion": 2
       },
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 11,
+        "g": 7,
+        "e": 1,
+        "p": 3,
+        "pts": 26,
+        "posicion": 3
+      },
+      {
         "equipo": "ESTRELLA",
         "pj": 10,
         "g": 8,
         "e": 0,
         "p": 2,
         "pts": 26,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 10,
-        "g": 7,
-        "e": 1,
-        "p": 2,
-        "pts": 25,
         "posicion": 4
       },
       {
@@ -8687,13 +8687,40 @@
         "posicion": 5
       },
       {
+        "equipo": "SOL DE AMERICA",
+        "pj": 10,
+        "g": 5,
+        "e": 3,
+        "p": 2,
+        "pts": 23,
+        "posicion": 6
+      },
+      {
         "equipo": "CLUB COMUNICACIONES",
         "pj": 9,
         "g": 5,
         "e": 3,
         "p": 1,
         "pts": 22,
-        "posicion": 6
+        "posicion": 7
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 11,
+        "g": 4,
+        "e": 2,
+        "p": 5,
+        "pts": 21,
+        "posicion": 8
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
+        "g": 5,
+        "e": 0,
+        "p": 6,
+        "pts": 21,
+        "posicion": 9
       },
       {
         "equipo": "FERRO C. O.",
@@ -8702,33 +8729,6 @@
         "e": 0,
         "p": 5,
         "pts": 20,
-        "posicion": 7
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 10,
-        "g": 4,
-        "e": 2,
-        "p": 4,
-        "pts": 20,
-        "posicion": 8
-      },
-      {
-        "equipo": "SOL DE AMERICA",
-        "pj": 9,
-        "g": 4,
-        "e": 3,
-        "p": 2,
-        "pts": 20,
-        "posicion": 9
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 10,
-        "g": 4,
-        "e": 0,
-        "p": 6,
-        "pts": 18,
         "posicion": 10
       },
       {
@@ -8815,25 +8815,25 @@
         "posicion": 3
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 11,
+        "g": 7,
+        "e": 0,
+        "p": 4,
+        "pts": 25,
+        "posicion": 4
+      },
+      {
         "equipo": "CLUB SAHORES",
         "pj": 10,
         "g": 7,
         "e": 0,
         "p": 3,
         "pts": 24,
-        "posicion": 4
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 10,
-        "g": 6,
-        "e": 0,
-        "p": 4,
-        "pts": 22,
         "posicion": 5
       },
       {
-        "equipo": "A DOS TOQUES F. C.",
+        "equipo": "CLUB SAAVEDRA",
         "pj": 10,
         "g": 6,
         "e": 0,
@@ -8842,20 +8842,20 @@
         "posicion": 6
       },
       {
+        "equipo": "ESTRELLA",
+        "pj": 10,
+        "g": 6,
+        "e": 0,
+        "p": 4,
+        "pts": 22,
+        "posicion": 7
+      },
+      {
         "equipo": "FERRO C. O.",
         "pj": 10,
         "g": 5,
         "e": 1,
         "p": 4,
-        "pts": 21,
-        "posicion": 7
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 9,
-        "g": 6,
-        "e": 0,
-        "p": 3,
         "pts": 21,
         "posicion": 8
       },
@@ -8879,11 +8879,11 @@
       },
       {
         "equipo": "SOL DE AMERICA",
-        "pj": 9,
-        "g": 4,
+        "pj": 10,
+        "g": 5,
         "e": 0,
         "p": 5,
-        "pts": 17,
+        "pts": 20,
         "posicion": 11
       },
       {
@@ -8906,11 +8906,11 @@
       },
       {
         "equipo": "LIBERAL",
-        "pj": 9,
+        "pj": 10,
         "g": 1,
         "e": 0,
-        "p": 8,
-        "pts": 11,
+        "p": 9,
+        "pts": 12,
         "posicion": 14
       },
       {

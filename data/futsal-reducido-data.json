@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-29T09:03:16.966628Z",
+  "actualizado": "2026-06-30T07:58:18.562146Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -20,16 +20,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213218-images%20(3).png"
     },
     {
+      "nombre": "PROGRESO SANTA RITA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
+    },
+    {
       "nombre": "CAPITAN ROSALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
     },
     {
       "nombre": "RESPLANDOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
-    },
-    {
-      "nombre": "PROGRESO SANTA RITA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
     },
     {
       "nombre": "PACHECO SUR",
@@ -103,6 +103,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 14,
+        "g": 10,
+        "e": 3,
+        "p": 1,
+        "gf": 75,
+        "gc": 41,
+        "pts": 33
+      },
+      {
+        "posicion": 3,
         "equipo": "CAPITAN ROSALES",
         "pj": 13,
         "g": 10,
@@ -113,7 +124,7 @@
         "pts": 31
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "RESPLANDOR",
         "pj": 14,
         "g": 9,
@@ -121,17 +132,6 @@
         "p": 2,
         "gf": 99,
         "gc": 56,
-        "pts": 30
-      },
-      {
-        "posicion": 4,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 13,
-        "g": 9,
-        "e": 3,
-        "p": 1,
-        "gf": 62,
-        "gc": 38,
         "pts": 30
       },
       {
@@ -159,24 +159,24 @@
       {
         "posicion": 7,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 0,
-        "p": 5,
-        "gf": 82,
-        "gc": 77,
+        "p": 6,
+        "gf": 84,
+        "gc": 82,
         "pts": 24
       },
       {
         "posicion": 8,
         "equipo": "UGAB",
-        "pj": 12,
-        "g": 6,
+        "pj": 13,
+        "g": 7,
         "e": 1,
         "p": 5,
-        "gf": 56,
-        "gc": 48,
-        "pts": 19
+        "gf": 61,
+        "gc": 50,
+        "pts": 22
       },
       {
         "posicion": 9,
@@ -247,12 +247,12 @@
       {
         "posicion": 15,
         "equipo": "ALTO PASTO",
-        "pj": 10,
+        "pj": 11,
         "g": 3,
         "e": 0,
-        "p": 7,
-        "gf": 45,
-        "gc": 70,
+        "p": 8,
+        "gf": 48,
+        "gc": 83,
         "pts": 9
       },
       {
@@ -314,6 +314,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 14,
+        "g": 10,
+        "e": 2,
+        "p": 2,
+        "gf": 80,
+        "gc": 38,
+        "pts": 32
+      },
+      {
+        "posicion": 4,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 13,
         "g": 9,
@@ -322,17 +333,6 @@
         "gf": 88,
         "gc": 43,
         "pts": 30
-      },
-      {
-        "posicion": 4,
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "gf": 74,
-        "gc": 37,
-        "pts": 29
       },
       {
         "posicion": 5,
@@ -358,6 +358,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "UGAB",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "gf": 96,
+        "gc": 74,
+        "pts": 22
+      },
+      {
+        "posicion": 8,
         "equipo": "CAPITAN ROSALES",
         "pj": 14,
         "g": 7,
@@ -368,7 +379,7 @@
         "pts": 21
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 6,
@@ -379,7 +390,7 @@
         "pts": 20
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "PRIMERA JUNTA",
         "pj": 14,
         "g": 6,
@@ -388,17 +399,6 @@
         "gf": 51,
         "gc": 66,
         "pts": 20
-      },
-      {
-        "posicion": 10,
-        "equipo": "UGAB",
-        "pj": 13,
-        "g": 6,
-        "e": 1,
-        "p": 6,
-        "gf": 83,
-        "gc": 70,
-        "pts": 19
       },
       {
         "posicion": 11,
@@ -436,23 +436,23 @@
       {
         "posicion": 14,
         "equipo": "ALTO PASTO",
-        "pj": 11,
+        "pj": 12,
         "g": 4,
         "e": 0,
-        "p": 7,
-        "gf": 43,
-        "gc": 54,
+        "p": 8,
+        "gf": 44,
+        "gc": 60,
         "pts": 12
       },
       {
         "posicion": 15,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 3,
-        "p": 7,
-        "gf": 65,
-        "gc": 84,
+        "p": 8,
+        "gf": 69,
+        "gc": 97,
         "pts": 12
       },
       {
@@ -1492,13 +1492,13 @@
     "general": [
       {
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 96,
-        "g": 71,
+        "pj": 98,
+        "g": 73,
         "e": 7,
         "p": 18,
-        "gf": 461,
-        "gc": 235,
-        "pts": 220,
+        "gf": 480,
+        "gc": 239,
+        "pts": 226,
         "posicion": 1
       },
       {
@@ -1613,12 +1613,12 @@
       },
       {
         "equipo": "BRISAS DE HAEDO",
-        "pj": 92,
+        "pj": 94,
         "g": 40,
         "e": 10,
-        "p": 42,
-        "gf": 361,
-        "gc": 376,
+        "p": 44,
+        "gf": 367,
+        "gc": 394,
         "pts": 130,
         "posicion": 12
       },
@@ -1635,13 +1635,13 @@
       },
       {
         "equipo": "UGAB",
-        "pj": 91,
-        "g": 24,
+        "pj": 93,
+        "g": 26,
         "e": 4,
         "p": 63,
-        "gf": 271,
-        "gc": 512,
-        "pts": 76,
+        "gf": 289,
+        "gc": 518,
+        "pts": 82,
         "posicion": 14
       },
       {
@@ -1657,12 +1657,12 @@
       },
       {
         "equipo": "ALTO PASTO",
-        "pj": 81,
+        "pj": 83,
         "g": 17,
         "e": 6,
-        "p": 58,
-        "gf": 216,
-        "gc": 434,
+        "p": 60,
+        "gf": 220,
+        "gc": 453,
         "pts": 57,
         "posicion": 16
       },
@@ -12440,7 +12440,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 12:00",
+              "fecha_hora": "2026-07-09 12:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12451,7 +12451,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 11:00",
+              "fecha_hora": "2026-07-09 11:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12462,7 +12462,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 10:00",
+              "fecha_hora": "2026-07-09 10:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12473,7 +12473,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 16:15",
+              "fecha_hora": "2026-07-09 16:15",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12484,7 +12484,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 15:00",
+              "fecha_hora": "2026-07-09 15:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12495,7 +12495,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 14:00",
+              "fecha_hora": "2026-07-09 14:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -12506,7 +12506,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-14 13:00",
+              "fecha_hora": "2026-07-09 13:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
@@ -13829,27 +13829,19 @@
               "direccion": null,
               "planillas": null
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149528,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 20:15",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149681,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 13,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 19:00",
               "sede": "Malvinas",
               "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260629-235525-WhatsApp_Image_2026-06-28_at_23.11.18.jpeg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260629-235529-WhatsApp_Image_2026-06-28_at_23.10.57.jpeg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 149834,
@@ -13875,6 +13867,20 @@
               "sede": "Malvinas",
               "direccion": "rivera indarte 339 Villa Luzuriaga",
               "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149528,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 20:15",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260630-001903-inbound5137532994638125670.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260630-001931-inbound8836613848858082456.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -14103,25 +14109,17 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149531,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 13,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 18:15",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 149684,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 17:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260629-140332-624428.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260629-140336-624426.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 149990,
@@ -14177,6 +14175,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260628-205417-623993.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260628-205421-623992.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149684,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 17:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260629-135833-624181.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zjmb0dp7umr6obsz40onegt22ms1/20260629-135843-624180.jpg"
               ]
             }
           },
