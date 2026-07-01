@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-30T07:58:18.562146Z",
+  "actualizado": "2026-07-01T08:18:10.590739Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -181,13 +181,13 @@
       {
         "posicion": 9,
         "equipo": "VICTORIA",
-        "pj": 12,
-        "g": 4,
+        "pj": 13,
+        "g": 5,
         "e": 4,
         "p": 4,
-        "gf": 80,
+        "gf": 85,
         "gc": 72,
-        "pts": 16
+        "pts": 19
       },
       {
         "posicion": 10,
@@ -280,12 +280,12 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 0,
-        "gc": 65,
+        "gc": 70,
         "pts": 0
       }
     ],
@@ -304,13 +304,13 @@
       {
         "posicion": 2,
         "equipo": "VICTORIA",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 0,
         "p": 2,
-        "gf": 110,
+        "gf": 115,
         "gc": 47,
-        "pts": 33
+        "pts": 36
       },
       {
         "posicion": 3,
@@ -480,12 +480,12 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 0,
-        "gc": 65,
+        "gc": 70,
         "pts": 0
       }
     ],
@@ -780,6 +780,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 14,
+        "g": 6,
+        "e": 0,
+        "p": 8,
+        "gf": 47,
+        "gc": 52,
+        "pts": 18
+      },
+      {
+        "posicion": 10,
         "equipo": "PACHECO SUR",
         "pj": 14,
         "g": 5,
@@ -790,7 +801,7 @@
         "pts": 17
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "PARQUE CHAS",
         "pj": 13,
         "g": 5,
@@ -801,7 +812,7 @@
         "pts": 15
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "VILLA SAHORES",
         "pj": 12,
         "g": 5,
@@ -809,17 +820,6 @@
         "p": 7,
         "gf": 45,
         "gc": 48,
-        "pts": 15
-      },
-      {
-        "posicion": 12,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
-        "g": 5,
-        "e": 0,
-        "p": 8,
-        "gf": 39,
-        "gc": 50,
         "pts": 15
       },
       {
@@ -869,12 +869,12 @@
       {
         "posicion": 17,
         "equipo": "UGAB",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
-        "gf": 20,
-        "gc": 76,
+        "p": 12,
+        "gf": 22,
+        "gc": 84,
         "pts": 6
       },
       {
@@ -959,12 +959,12 @@
       {
         "posicion": 7,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
+        "pj": 14,
         "g": 7,
         "e": 1,
-        "p": 5,
-        "gf": 49,
-        "gc": 42,
+        "p": 6,
+        "gf": 55,
+        "gc": 50,
         "pts": 22
       },
       {
@@ -1002,6 +1002,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "UGAB",
+        "pj": 14,
+        "g": 5,
+        "e": 1,
+        "p": 8,
+        "gf": 66,
+        "gc": 106,
+        "pts": 16
+      },
+      {
+        "posicion": 12,
         "equipo": "PRIMERA JUNTA",
         "pj": 14,
         "g": 4,
@@ -1009,17 +1020,6 @@
         "p": 9,
         "gf": 40,
         "gc": 58,
-        "pts": 13
-      },
-      {
-        "posicion": 12,
-        "equipo": "UGAB",
-        "pj": 13,
-        "g": 4,
-        "e": 1,
-        "p": 8,
-        "gf": 58,
-        "gc": 100,
         "pts": 13
       },
       {
@@ -1169,6 +1169,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 14,
+        "g": 7,
+        "e": 2,
+        "p": 5,
+        "gf": 52,
+        "gc": 27,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "EL IDEAL",
         "pj": 13,
         "g": 7,
@@ -1177,17 +1188,6 @@
         "gf": 54,
         "gc": 43,
         "pts": 21
-      },
-      {
-        "posicion": 9,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
-        "g": 6,
-        "e": 2,
-        "p": 5,
-        "gf": 41,
-        "gc": 26,
-        "pts": 20
       },
       {
         "posicion": 10,
@@ -1258,12 +1258,12 @@
       {
         "posicion": 16,
         "equipo": "UGAB",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
-        "gf": 21,
-        "gc": 106,
+        "p": 12,
+        "gf": 22,
+        "gc": 117,
         "pts": 6
       },
       {
@@ -1402,6 +1402,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 14,
+        "g": 7,
+        "e": 0,
+        "p": 7,
+        "gf": 49,
+        "gc": 46,
+        "pts": 21
+      },
+      {
+        "posicion": 12,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 14,
         "g": 7,
@@ -1410,17 +1421,6 @@
         "gf": 40,
         "gc": 50,
         "pts": 21
-      },
-      {
-        "posicion": 12,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 13,
-        "g": 6,
-        "e": 0,
-        "p": 7,
-        "gf": 44,
-        "gc": 46,
-        "pts": 18
       },
       {
         "posicion": 13,
@@ -1480,12 +1480,12 @@
       {
         "posicion": 18,
         "equipo": "UGAB",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 0,
-        "gc": 65,
+        "gc": 70,
         "pts": 0
       }
     ],
@@ -1525,13 +1525,13 @@
       },
       {
         "equipo": "VICTORIA",
-        "pj": 95,
-        "g": 63,
+        "pj": 97,
+        "g": 65,
         "e": 7,
         "p": 25,
-        "gf": 540,
+        "gf": 550,
         "gc": 347,
-        "pts": 196,
+        "pts": 202,
         "posicion": 4
       },
       {
@@ -1579,6 +1579,17 @@
         "posicion": 8
       },
       {
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 98,
+        "g": 43,
+        "e": 10,
+        "p": 45,
+        "gf": 397,
+        "gc": 405,
+        "pts": 139,
+        "posicion": 9
+      },
+      {
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 91,
         "g": 43,
@@ -1587,7 +1598,7 @@
         "gf": 385,
         "gc": 365,
         "pts": 138,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "RESPLANDOR",
@@ -1598,7 +1609,7 @@
         "gf": 481,
         "gc": 457,
         "pts": 136,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "PRIMERA JUNTA",
@@ -1609,18 +1620,18 @@
         "gf": 328,
         "gc": 361,
         "pts": 132,
-        "posicion": 11
+        "posicion": 12
       },
       {
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 94,
-        "g": 40,
-        "e": 10,
-        "p": 44,
-        "gf": 367,
-        "gc": 394,
-        "pts": 130,
-        "posicion": 12
+        "equipo": "UGAB",
+        "pj": 97,
+        "g": 27,
+        "e": 4,
+        "p": 66,
+        "gf": 300,
+        "gc": 548,
+        "pts": 85,
+        "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
@@ -1631,17 +1642,6 @@
         "gf": 287,
         "gc": 386,
         "pts": 83,
-        "posicion": 13
-      },
-      {
-        "equipo": "UGAB",
-        "pj": 93,
-        "g": 26,
-        "e": 4,
-        "p": 63,
-        "gf": 289,
-        "gc": 518,
-        "pts": 82,
         "posicion": 14
       },
       {
@@ -1679,12 +1679,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 95,
+        "pj": 97,
         "g": 13,
         "e": 7,
-        "p": 75,
+        "p": 77,
         "gf": 173,
-        "gc": 505,
+        "gc": 515,
         "pts": 46,
         "posicion": 18
       }
@@ -13034,9 +13034,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 12:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -13045,9 +13045,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 11:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -13056,9 +13056,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 10:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -13067,9 +13067,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 16:45",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -13078,9 +13078,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 15:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -13089,9 +13089,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 14:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -13100,9 +13100,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-09 13:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
               "planillas": null
             }
           },
@@ -13796,33 +13796,25 @@
           "local": "BRISAS DE HAEDO",
           "visitante": "UGAB",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "match_id": 150140,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 16:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 150293,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 11,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-28 15:00",
               "sede": "Malvinas",
               "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-011407-17828684244154705636654528983250.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-011439-17828684573744969694600668295863.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150446,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13857,17 +13849,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260628-234051-inbound3758768343862224876.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "match_id": 149987,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-28 17:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "match_id": 149528,
               "goles_local": 2,
@@ -13880,6 +13861,34 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260630-001903-inbound5137532994638125670.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wrwiggj6jcbduwhqvpi4ledkoox2/20260630-001931-inbound8836613848858082456.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 150140,
+              "goles_local": 6,
+              "goles_visitante": 8,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 16:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-012030-17828688057432513820296915661754.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-012053-1782868836877527854039692575060.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 149987,
+              "goles_local": 8,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-28 17:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-012629-17828691690334868060903205365927.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-nu5douqsrxzvazhnyeg89tc3r622/20260701-012658-17828691953323080693529452799312.jpg"
               ]
             }
           },
@@ -13919,9 +13928,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149529,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13930,9 +13939,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149682,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,

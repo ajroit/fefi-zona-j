@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-30T07:58:21.681008Z",
+  "actualizado": "2026-07-01T08:18:13.570974Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -28,12 +28,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
-      "nombre": "ASTRA MACKIE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
-    },
-    {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
+    },
+    {
+      "nombre": "ASTRA MACKIE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
       "nombre": "EL GALPON",
@@ -132,6 +132,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "VILLA SAHORES",
+        "pj": 14,
+        "g": 9,
+        "e": 1,
+        "p": 4,
+        "gf": 48,
+        "gc": 22,
+        "pts": 28
+      },
+      {
+        "posicion": 6,
         "equipo": "ASTRA MACKIE",
         "pj": 14,
         "g": 8,
@@ -140,17 +151,6 @@
         "gf": 28,
         "gc": 15,
         "pts": 27
-      },
-      {
-        "posicion": 6,
-        "equipo": "VILLA SAHORES",
-        "pj": 13,
-        "g": 8,
-        "e": 1,
-        "p": 4,
-        "gf": 43,
-        "gc": 22,
-        "pts": 25
       },
       {
         "posicion": 7,
@@ -243,12 +243,12 @@
       {
         "posicion": 15,
         "equipo": "SACA DEL MEDIO",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 4,
-        "p": 6,
+        "p": 7,
         "gf": 13,
-        "gc": 31,
+        "gc": 36,
         "pts": 10
       },
       {
@@ -489,24 +489,24 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 2,
         "p": 0,
-        "gf": 37,
+        "gf": 42,
         "gc": 5,
-        "pts": 35
+        "pts": 38
       },
       {
         "posicion": 2,
         "equipo": "ALLENDE",
-        "pj": 12,
-        "g": 11,
+        "pj": 13,
+        "g": 12,
         "e": 0,
         "p": 1,
-        "gf": 31,
+        "gf": 36,
         "gc": 8,
-        "pts": 33
+        "pts": 36
       },
       {
         "posicion": 3,
@@ -609,6 +609,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "EL GALPON",
+        "pj": 12,
+        "g": 5,
+        "e": 0,
+        "p": 7,
+        "gf": 18,
+        "gc": 16,
+        "pts": 15
+      },
+      {
+        "posicion": 13,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 14,
         "g": 4,
@@ -617,17 +628,6 @@
         "gf": 19,
         "gc": 24,
         "pts": 15
-      },
-      {
-        "posicion": 13,
-        "equipo": "EL GALPON",
-        "pj": 11,
-        "g": 4,
-        "e": 0,
-        "p": 7,
-        "gf": 13,
-        "gc": 16,
-        "pts": 12
       },
       {
         "posicion": 14,
@@ -654,34 +654,34 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 10,
-        "gc": 41,
+        "gc": 46,
         "pts": 6
       },
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 11,
+        "pj": 12,
         "g": 1,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 3,
-        "gc": 48,
+        "gc": 53,
         "pts": 3
       },
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 0,
-        "gc": 55,
+        "gc": 60,
         "pts": 0
       }
     ],
@@ -699,24 +699,24 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 41,
-        "g": 30,
+        "pj": 42,
+        "g": 31,
         "e": 5,
         "p": 6,
-        "gf": 138,
+        "gf": 143,
         "gc": 37,
-        "pts": 95,
+        "pts": 98,
         "posicion": 2
       },
       {
         "equipo": "ALLENDE",
-        "pj": 38,
-        "g": 29,
+        "pj": 39,
+        "g": 30,
         "e": 5,
         "p": 4,
-        "gf": 113,
+        "gf": 118,
         "gc": 28,
-        "pts": 92,
+        "pts": 95,
         "posicion": 3
       },
       {
@@ -732,13 +732,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 40,
-        "g": 26,
+        "pj": 41,
+        "g": 27,
         "e": 5,
         "p": 9,
-        "gf": 98,
+        "gf": 103,
         "gc": 52,
-        "pts": 83,
+        "pts": 86,
         "posicion": 5
       },
       {
@@ -798,34 +798,34 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 37,
-        "g": 13,
+        "pj": 38,
+        "g": 14,
         "e": 6,
         "p": 18,
-        "gf": 53,
+        "gf": 58,
         "gc": 64,
-        "pts": 45,
+        "pts": 48,
         "posicion": 11
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 40,
+        "pj": 41,
         "g": 13,
         "e": 6,
-        "p": 21,
+        "p": 22,
         "gf": 72,
-        "gc": 109,
+        "gc": 114,
         "pts": 45,
         "posicion": 12
       },
       {
         "equipo": "SACA DEL MEDIO",
-        "pj": 38,
+        "pj": 39,
         "g": 11,
         "e": 10,
-        "p": 17,
+        "p": 18,
         "gf": 52,
-        "gc": 78,
+        "gc": 83,
         "pts": 43,
         "posicion": 13
       },
@@ -864,23 +864,23 @@
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 37,
+        "pj": 38,
         "g": 5,
         "e": 2,
-        "p": 30,
+        "p": 31,
         "gf": 27,
-        "gc": 122,
+        "gc": 127,
         "pts": 17,
         "posicion": 17
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 39,
+        "pj": 40,
         "g": 1,
         "e": 2,
-        "p": 36,
+        "p": 37,
         "gf": 17,
-        "gc": 182,
+        "gc": 187,
         "pts": 5,
         "posicion": 18
       }
@@ -6213,9 +6213,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152534,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6309,7 +6309,7 @@
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152230,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-20 22:30",
@@ -6354,9 +6354,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152537,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6547,9 +6547,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152541,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
