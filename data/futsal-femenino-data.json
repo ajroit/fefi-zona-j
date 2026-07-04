@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T20:59:42.995951Z",
+  "actualizado": "2026-07-04T22:59:36.887301Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -355,13 +355,13 @@
       {
         "posicion": 7,
         "equipo": "SOCIAL OESTE",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
-        "e": 2,
+        "e": 3,
         "p": 5,
-        "gf": 36,
-        "gc": 17,
-        "pts": 23
+        "gf": 37,
+        "gc": 18,
+        "pts": 24
       },
       {
         "posicion": 8,
@@ -443,13 +443,13 @@
       {
         "posicion": 15,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
-        "e": 1,
+        "e": 2,
         "p": 10,
-        "gf": 15,
-        "gc": 27,
-        "pts": 10
+        "gf": 16,
+        "gc": 28,
+        "pts": 11
       },
       {
         "posicion": 16,
@@ -489,13 +489,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 14,
-        "g": 12,
+        "pj": 15,
+        "g": 13,
         "e": 2,
         "p": 0,
-        "gf": 42,
-        "gc": 5,
-        "pts": 38
+        "gf": 46,
+        "gc": 7,
+        "pts": 41
       },
       {
         "posicion": 2,
@@ -621,12 +621,12 @@
       {
         "posicion": 13,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 3,
-        "p": 7,
-        "gf": 19,
-        "gc": 24,
+        "p": 8,
+        "gf": 21,
+        "gc": 28,
         "pts": 15
       },
       {
@@ -699,13 +699,13 @@
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 42,
-        "g": 31,
-        "e": 5,
+        "pj": 44,
+        "g": 32,
+        "e": 6,
         "p": 6,
-        "gf": 143,
-        "gc": 37,
-        "pts": 98,
+        "gf": 148,
+        "gc": 40,
+        "pts": 102,
         "posicion": 2
       },
       {
@@ -831,13 +831,13 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 42,
+        "pj": 44,
         "g": 10,
-        "e": 9,
-        "p": 23,
-        "gf": 62,
-        "gc": 82,
-        "pts": 39,
+        "e": 10,
+        "p": 24,
+        "gf": 65,
+        "gc": 87,
+        "pts": 40,
         "posicion": 14
       },
       {
@@ -7342,17 +7342,20 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152558,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 17:30",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260704-214218-1000703603.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260704-214222-1000703602.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO VK",
