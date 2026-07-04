@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T17:08:07.928822Z",
+  "actualizado": "2026-07-04T19:16:25.959805Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -410,13 +410,13 @@
       {
         "posicion": 12,
         "equipo": "SACA DEL MEDIO",
-        "pj": 13,
-        "g": 4,
+        "pj": 14,
+        "g": 5,
         "e": 1,
         "p": 8,
-        "gf": 13,
-        "gc": 33,
-        "pts": 13
+        "gf": 15,
+        "gc": 34,
+        "pts": 16
       },
       {
         "posicion": 13,
@@ -454,12 +454,12 @@
       {
         "posicion": 16,
         "equipo": "EL GALPON",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 4,
-        "p": 7,
-        "gf": 16,
-        "gc": 31,
+        "p": 8,
+        "gf": 17,
+        "gc": 33,
         "pts": 10
       },
       {
@@ -798,14 +798,25 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 38,
+        "pj": 39,
         "g": 14,
         "e": 6,
-        "p": 18,
-        "gf": 58,
-        "gc": 64,
+        "p": 19,
+        "gf": 59,
+        "gc": 66,
         "pts": 48,
         "posicion": 11
+      },
+      {
+        "equipo": "SACA DEL MEDIO",
+        "pj": 40,
+        "g": 12,
+        "e": 10,
+        "p": 18,
+        "gf": 54,
+        "gc": 84,
+        "pts": 46,
+        "posicion": 12
       },
       {
         "equipo": "BROWN DE ADROGUE",
@@ -816,17 +827,6 @@
         "gf": 72,
         "gc": 114,
         "pts": 45,
-        "posicion": 12
-      },
-      {
-        "equipo": "SACA DEL MEDIO",
-        "pj": 39,
-        "g": 11,
-        "e": 10,
-        "p": 18,
-        "gf": 52,
-        "gc": 83,
-        "pts": 43,
         "posicion": 13
       },
       {
@@ -7122,14 +7122,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152400,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 14:00",
               "sede": "Sede Dock Sud",
               "direccion": "Alem 1255, Dock Sud",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260704-182049-inbound5305503128901408745.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260704-182057-inbound3564141218627322955.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152553,
@@ -7143,7 +7146,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SAN TELMO",
