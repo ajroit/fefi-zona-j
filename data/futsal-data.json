@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T13:36:36.885100Z",
+  "actualizado": "2026-07-04T15:06:35.393341Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1513,13 +1513,13 @@
       {
         "posicion": 1,
         "equipo": "HAEDO JUNIOR",
-        "pj": 14,
-        "g": 14,
+        "pj": 15,
+        "g": 15,
         "e": 0,
         "p": 0,
-        "gf": 107,
-        "gc": 5,
-        "pts": 42
+        "gf": 111,
+        "gc": 6,
+        "pts": 45
       },
       {
         "posicion": 2,
@@ -1546,12 +1546,12 @@
       {
         "posicion": 4,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 2,
-        "p": 3,
-        "gf": 56,
-        "gc": 19,
+        "p": 4,
+        "gf": 57,
+        "gc": 23,
         "pts": 29
       },
       {
@@ -2046,13 +2046,13 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 141,
-        "g": 95,
+        "pj": 142,
+        "g": 96,
         "e": 13,
         "p": 33,
-        "gf": 632,
-        "gc": 279,
-        "pts": 298,
+        "gf": 636,
+        "gc": 280,
+        "pts": 301,
         "posicion": 1
       },
       {
@@ -2079,12 +2079,12 @@
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 140,
+        "pj": 141,
         "g": 81,
         "e": 14,
-        "p": 45,
-        "gf": 517,
-        "gc": 346,
+        "p": 46,
+        "gf": 518,
+        "gc": 350,
         "pts": 257,
         "posicion": 4
       },
@@ -19601,17 +19601,6 @@
               "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149042,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-04 09:00",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149162,
               "goles_local": null,
@@ -19644,9 +19633,23 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149042,
+              "goles_local": 3,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 09:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260704-131827-1000560415.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260704-131836-1000560416.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ESTRADA FUTSAL",
@@ -19859,14 +19862,17 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149044,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 11,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 09:00",
               "sede": "INDEPENDIENTE DE BECCAR",
               "direccion": "Formosa 2057, Beccar",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260704-131316-1000001002.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260704-131326-1000001003.jpg"
+              ]
             },
             "2017 PROMOCIONALES": {
               "match_id": 149164,
@@ -19902,7 +19908,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "JUVENTUD",
@@ -20188,14 +20194,17 @@
             },
             "2017 PROMOCIONALES": {
               "match_id": 149167,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 10:00",
               "sede": "ARGENTINO DE CASTELAR",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-140451-1001028661.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-140448-1001028662.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149407,
