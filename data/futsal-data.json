@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T06:53:13.076668Z",
+  "actualizado": "2026-07-04T13:36:36.885100Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1334,6 +1334,17 @@
     "2016 PROMOCIONALES": [
       {
         "posicion": 1,
+        "equipo": "MARCHIGIANA",
+        "pj": 14,
+        "g": 11,
+        "e": 1,
+        "p": 2,
+        "gf": 82,
+        "gc": 18,
+        "pts": 34
+      },
+      {
+        "posicion": 2,
         "equipo": "ESTRADA FUTSAL",
         "pj": 14,
         "g": 11,
@@ -1342,17 +1353,6 @@
         "gf": 59,
         "gc": 26,
         "pts": 34
-      },
-      {
-        "posicion": 2,
-        "equipo": "MARCHIGIANA",
-        "pj": 13,
-        "g": 10,
-        "e": 1,
-        "p": 2,
-        "gf": 71,
-        "gc": 17,
-        "pts": 31
       },
       {
         "posicion": 3,
@@ -1378,6 +1378,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ARGENTINO DE CASTELAR",
+        "pj": 15,
+        "g": 9,
+        "e": 3,
+        "p": 3,
+        "gf": 56,
+        "gc": 36,
+        "pts": 30
+      },
+      {
+        "posicion": 6,
         "equipo": "JUVENTUD",
         "pj": 14,
         "g": 9,
@@ -1388,25 +1399,14 @@
         "pts": 30
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "HAEDO JUNIOR",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 0,
-        "p": 5,
-        "gf": 68,
-        "gc": 19,
-        "pts": 27
-      },
-      {
-        "posicion": 7,
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 14,
-        "g": 8,
-        "e": 3,
-        "p": 3,
-        "gf": 51,
-        "gc": 35,
+        "p": 6,
+        "gf": 69,
+        "gc": 24,
         "pts": 27
       },
       {
@@ -1423,12 +1423,12 @@
       {
         "posicion": 9,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 2,
-        "p": 6,
-        "gf": 42,
-        "gc": 53,
+        "p": 7,
+        "gf": 43,
+        "gc": 64,
         "pts": 20
       },
       {
@@ -1444,25 +1444,25 @@
       },
       {
         "posicion": 11,
-        "equipo": "ATENEO HAEDO",
-        "pj": 14,
+        "equipo": "RIVADAVIA 87",
+        "pj": 13,
         "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 28,
-        "gc": 50,
-        "pts": 13
+        "e": 2,
+        "p": 7,
+        "gf": 36,
+        "gc": 53,
+        "pts": 14
       },
       {
         "posicion": 12,
-        "equipo": "RIVADAVIA 87",
-        "pj": 12,
-        "g": 3,
-        "e": 2,
-        "p": 7,
-        "gf": 30,
-        "gc": 50,
-        "pts": 11
+        "equipo": "ATENEO HAEDO",
+        "pj": 15,
+        "g": 4,
+        "e": 1,
+        "p": 10,
+        "gf": 31,
+        "gc": 56,
+        "pts": 13
       },
       {
         "posicion": 13,
@@ -2046,46 +2046,46 @@
     "general": [
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 140,
+        "pj": 141,
         "g": 95,
         "e": 13,
-        "p": 32,
-        "gf": 631,
-        "gc": 274,
+        "p": 33,
+        "gf": 632,
+        "gc": 279,
         "pts": 298,
         "posicion": 1
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 140,
+        "pj": 141,
         "g": 95,
         "e": 8,
-        "p": 37,
-        "gf": 837,
-        "gc": 457,
+        "p": 38,
+        "gf": 838,
+        "gc": 468,
         "pts": 293,
         "posicion": 2
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 130,
-        "g": 80,
+        "pj": 131,
+        "g": 81,
         "e": 16,
         "p": 34,
-        "gf": 590,
-        "gc": 290,
-        "pts": 256,
+        "gf": 601,
+        "gc": 291,
+        "pts": 259,
         "posicion": 3
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 139,
-        "g": 80,
+        "pj": 140,
+        "g": 81,
         "e": 14,
         "p": 45,
-        "gf": 512,
-        "gc": 345,
-        "pts": 254,
+        "gf": 517,
+        "gc": 346,
+        "pts": 257,
         "posicion": 4
       },
       {
@@ -2123,12 +2123,12 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 138,
+        "pj": 139,
         "g": 71,
         "e": 5,
-        "p": 62,
-        "gf": 517,
-        "gc": 455,
+        "p": 63,
+        "gf": 520,
+        "gc": 461,
         "pts": 218,
         "posicion": 8
       },
@@ -2145,13 +2145,13 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 127,
-        "g": 63,
+        "pj": 128,
+        "g": 64,
         "e": 12,
         "p": 52,
-        "gf": 478,
-        "gc": 452,
-        "pts": 201,
+        "gf": 484,
+        "gc": 455,
+        "pts": 204,
         "posicion": 10
       },
       {
@@ -20263,17 +20263,6 @@
               "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149047,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-04 09:00",
-              "sede": "ARGENTINO DE CASTELAR",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
-            },
             "2018 PROMOCIONALES": {
               "match_id": 149287,
               "goles_local": null,
@@ -20284,9 +20273,23 @@
               "sede": "ARGENTINO DE CASTELAR",
               "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149047,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 09:00",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-130402-1001028580.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-130403-1001028579.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CIENCIA Y LABOR",
