@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T22:59:36.887301Z",
+  "actualizado": "2026-07-05T03:38:24.943310Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -24,12 +24,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
-      "nombre": "ALLENDE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
-    },
-    {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
+    },
+    {
+      "nombre": "ALLENDE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "ASTRA MACKIE",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 14,
-        "g": 12,
+        "pj": 15,
+        "g": 13,
         "e": 1,
         "p": 1,
-        "gf": 65,
-        "gc": 15,
-        "pts": 37
+        "gf": 72,
+        "gc": 16,
+        "pts": 40
       },
       {
         "posicion": 2,
@@ -121,6 +121,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "VILLA SAHORES",
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 50,
+        "gc": 22,
+        "pts": 31
+      },
+      {
+        "posicion": 5,
         "equipo": "ALLENDE",
         "pj": 13,
         "g": 8,
@@ -128,17 +139,6 @@
         "p": 1,
         "gf": 47,
         "gc": 13,
-        "pts": 28
-      },
-      {
-        "posicion": 5,
-        "equipo": "VILLA SAHORES",
-        "pj": 14,
-        "g": 9,
-        "e": 1,
-        "p": 4,
-        "gf": 48,
-        "gc": 22,
         "pts": 28
       },
       {
@@ -177,12 +177,12 @@
       {
         "posicion": 9,
         "equipo": "MAVIA FC",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 2,
-        "p": 5,
+        "p": 6,
         "gf": 28,
-        "gc": 29,
+        "gc": 31,
         "pts": 20
       },
       {
@@ -210,12 +210,12 @@
       {
         "posicion": 12,
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 5,
-        "p": 6,
-        "gf": 28,
-        "gc": 31,
+        "p": 7,
+        "gf": 29,
+        "gc": 38,
         "pts": 14
       },
       {
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "VILLA SAHORES",
+        "pj": 15,
+        "g": 11,
+        "e": 2,
+        "p": 2,
+        "gf": 30,
+        "gc": 13,
+        "pts": 35
+      },
+      {
+        "posicion": 3,
         "equipo": "BROWN DE ADROGUE",
         "pj": 14,
         "g": 10,
@@ -307,17 +318,6 @@
         "gf": 37,
         "gc": 17,
         "pts": 33
-      },
-      {
-        "posicion": 3,
-        "equipo": "VILLA SAHORES",
-        "pj": 14,
-        "g": 10,
-        "e": 2,
-        "p": 2,
-        "gf": 28,
-        "gc": 13,
-        "pts": 32
       },
       {
         "posicion": 4,
@@ -388,12 +388,12 @@
       {
         "posicion": 10,
         "equipo": "MAVIA FC",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 3,
-        "p": 5,
+        "p": 6,
         "gf": 21,
-        "gc": 19,
+        "gc": 21,
         "pts": 18
       },
       {
@@ -544,12 +544,12 @@
       {
         "posicion": 6,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 27,
-        "gc": 17,
+        "gc": 18,
         "pts": 26
       },
       {
@@ -576,6 +576,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "MAVIA FC",
+        "pj": 14,
+        "g": 6,
+        "e": 2,
+        "p": 6,
+        "gf": 28,
+        "gc": 22,
+        "pts": 20
+      },
+      {
+        "posicion": 10,
         "equipo": "EL GALPON",
         "pj": 13,
         "g": 6,
@@ -586,7 +597,7 @@
         "pts": 18
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "ZIZOU FUTSAL",
         "pj": 14,
         "g": 5,
@@ -595,17 +606,6 @@
         "gf": 24,
         "gc": 28,
         "pts": 18
-      },
-      {
-        "posicion": 11,
-        "equipo": "MAVIA FC",
-        "pj": 13,
-        "g": 5,
-        "e": 2,
-        "p": 6,
-        "gf": 27,
-        "gc": 22,
-        "pts": 17
       },
       {
         "posicion": 12,
@@ -687,6 +687,17 @@
     ],
     "general": [
       {
+        "equipo": "SOCIAL OESTE",
+        "pj": 45,
+        "g": 33,
+        "e": 6,
+        "p": 6,
+        "gf": 155,
+        "gc": 41,
+        "pts": 105,
+        "posicion": 1
+      },
+      {
         "equipo": "17 DE AGOSTO",
         "pj": 42,
         "g": 33,
@@ -695,17 +706,6 @@
         "gf": 141,
         "gc": 33,
         "pts": 103,
-        "posicion": 1
-      },
-      {
-        "equipo": "SOCIAL OESTE",
-        "pj": 44,
-        "g": 32,
-        "e": 6,
-        "p": 6,
-        "gf": 148,
-        "gc": 40,
-        "pts": 102,
         "posicion": 2
       },
       {
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 44,
+        "g": 29,
+        "e": 5,
+        "p": 10,
+        "gf": 107,
+        "gc": 53,
+        "pts": 92,
+        "posicion": 4
+      },
+      {
         "equipo": "CENTRO ASTURIANO",
         "pj": 42,
         "g": 27,
@@ -728,17 +739,6 @@
         "gf": 115,
         "gc": 44,
         "pts": 87,
-        "posicion": 4
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 41,
-        "g": 27,
-        "e": 5,
-        "p": 9,
-        "gf": 103,
-        "gc": 52,
-        "pts": 86,
         "posicion": 5
       },
       {
@@ -764,6 +764,17 @@
         "posicion": 7
       },
       {
+        "equipo": "MAVIA FC",
+        "pj": 42,
+        "g": 17,
+        "e": 7,
+        "p": 18,
+        "gf": 77,
+        "gc": 74,
+        "pts": 58,
+        "posicion": 8
+      },
+      {
         "equipo": "ESTRELLA FEDERAL",
         "pj": 39,
         "g": 17,
@@ -772,7 +783,7 @@
         "gf": 59,
         "gc": 64,
         "pts": 57,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -783,17 +794,6 @@
         "gf": 82,
         "gc": 94,
         "pts": 56,
-        "posicion": 9
-      },
-      {
-        "equipo": "MAVIA FC",
-        "pj": 39,
-        "g": 16,
-        "e": 7,
-        "p": 16,
-        "gf": 76,
-        "gc": 70,
-        "pts": 55,
         "posicion": 10
       },
       {
@@ -831,12 +831,12 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 44,
+        "pj": 45,
         "g": 10,
         "e": 10,
-        "p": 24,
-        "gf": 65,
-        "gc": 87,
+        "p": 25,
+        "gf": 66,
+        "gc": 94,
         "pts": 40,
         "posicion": 14
       },
@@ -7200,39 +7200,48 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152249,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 21:45",
               "sede": "Independiente de beccar",
               "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-022043-1000200949.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-022057-1000200948.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152402,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 20:30",
               "sede": "Independiente de beccar",
               "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-014333-1000200942.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-014354-1000200941.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152555,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 19:15",
               "sede": "Independiente de beccar",
               "direccion": "B1643BVI, Formosa 2057, Béccar, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-002755-1000200911.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-az3oqp7oqldsvjrthqmi9hu5xlh1/20260705-002803-1000200912.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "17 DE AGOSTO",
@@ -7320,25 +7329,31 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152252,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 20:00",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260705-001005-1000703875.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260705-001012-1000703874.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152405,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 18:45",
               "sede": "POLIDEVORTIVO UAI",
               "direccion": "Lavalle 1275, Ituzaingo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260704-225702-1000703709.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-zujbzi5urbz2uqwalxj4t13gllo1/20260704-225709-1000703708.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152558,
