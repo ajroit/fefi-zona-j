@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T17:13:22.890738Z",
+  "actualizado": "2026-07-05T19:19:55.676433Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -922,24 +922,24 @@
       {
         "posicion": 12,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 2,
-        "p": 8,
-        "gf": 40,
-        "gc": 65,
+        "p": 9,
+        "gf": 42,
+        "gc": 70,
         "pts": 14
       },
       {
         "posicion": 13,
         "equipo": "VILLA SAHORES",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 10,
-        "gf": 16,
-        "gc": 55,
-        "pts": 12
+        "gf": 18,
+        "gc": 57,
+        "pts": 13
       },
       {
         "posicion": 14,
@@ -955,24 +955,24 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
-        "e": 0,
+        "e": 1,
         "p": 12,
-        "gf": 18,
-        "gc": 91,
-        "pts": 6
+        "gf": 20,
+        "gc": 93,
+        "pts": 7
       },
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
-        "g": 1,
+        "pj": 14,
+        "g": 2,
         "e": 0,
         "p": 12,
-        "gf": 7,
-        "gc": 64,
-        "pts": 3
+        "gf": 12,
+        "gc": 66,
+        "pts": 6
       }
     ],
     "SEPTIMA MASCULINO": [
@@ -1045,12 +1045,12 @@
       {
         "posicion": 7,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 0,
-        "p": 5,
-        "gf": 49,
-        "gc": 33,
+        "p": 6,
+        "gf": 51,
+        "gc": 38,
         "pts": 27
       },
       {
@@ -1077,6 +1077,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 14,
+        "g": 5,
+        "e": 0,
+        "p": 9,
+        "gf": 27,
+        "gc": 56,
+        "pts": 15
+      },
+      {
+        "posicion": 11,
         "equipo": "JUVENTUD",
         "pj": 14,
         "g": 4,
@@ -1085,17 +1096,6 @@
         "gf": 24,
         "gc": 75,
         "pts": 13
-      },
-      {
-        "posicion": 11,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 13,
-        "g": 4,
-        "e": 0,
-        "p": 9,
-        "gf": 22,
-        "gc": 54,
-        "pts": 12
       },
       {
         "posicion": 12,
@@ -1222,6 +1222,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "VILLA SAHORES",
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 42,
+        "gc": 32,
+        "pts": 24
+      },
+      {
+        "posicion": 8,
         "equipo": "PEDRO LOZANO",
         "pj": 14,
         "g": 7,
@@ -1232,7 +1243,7 @@
         "pts": 23
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "CIENCIA Y LABOR",
         "pj": 14,
         "g": 7,
@@ -1240,17 +1251,6 @@
         "p": 7,
         "gf": 43,
         "gc": 38,
-        "pts": 21
-      },
-      {
-        "posicion": 9,
-        "equipo": "VILLA SAHORES",
-        "pj": 14,
-        "g": 7,
-        "e": 0,
-        "p": 7,
-        "gf": 31,
-        "gc": 31,
         "pts": 21
       },
       {
@@ -1267,12 +1267,12 @@
       {
         "posicion": 11,
         "equipo": "JUVENTUD",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 1,
-        "p": 8,
-        "gf": 46,
-        "gc": 100,
+        "p": 9,
+        "gf": 47,
+        "gc": 111,
         "pts": 16
       },
       {
@@ -1412,13 +1412,13 @@
       {
         "posicion": 8,
         "equipo": "VILLA RITA",
-        "pj": 14,
-        "g": 7,
+        "pj": 15,
+        "g": 8,
         "e": 1,
         "p": 6,
-        "gf": 54,
+        "gf": 63,
         "gc": 45,
-        "pts": 22
+        "pts": 25
       },
       {
         "posicion": 9,
@@ -1478,12 +1478,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 20,
-        "gc": 68,
+        "gc": 77,
         "pts": 9
       },
       {
@@ -1568,13 +1568,13 @@
       {
         "posicion": 6,
         "equipo": "VILLA RITA",
-        "pj": 14,
-        "g": 8,
+        "pj": 15,
+        "g": 9,
         "e": 0,
         "p": 6,
-        "gf": 45,
+        "gf": 46,
         "gc": 30,
-        "pts": 24
+        "pts": 27
       },
       {
         "posicion": 7,
@@ -1645,12 +1645,12 @@
       {
         "posicion": 13,
         "equipo": "BPNA",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 21,
-        "gc": 63,
+        "gc": 64,
         "pts": 9
       },
       {
@@ -1746,13 +1746,13 @@
       {
         "posicion": 6,
         "equipo": "VILLA RITA",
-        "pj": 14,
-        "g": 9,
+        "pj": 15,
+        "g": 10,
         "e": 0,
         "p": 5,
-        "gf": 68,
+        "gf": 72,
         "gc": 35,
-        "pts": 27
+        "pts": 30
       },
       {
         "posicion": 7,
@@ -1834,12 +1834,12 @@
       {
         "posicion": 14,
         "equipo": "BPNA",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 17,
-        "gc": 49,
+        "gc": 53,
         "pts": 9
       },
       {
@@ -2112,12 +2112,12 @@
       },
       {
         "equipo": "ROTONDA",
-        "pj": 138,
+        "pj": 140,
         "g": 72,
         "e": 13,
-        "p": 53,
-        "gf": 547,
-        "gc": 490,
+        "p": 55,
+        "gf": 551,
+        "gc": 500,
         "pts": 229,
         "posicion": 7
       },
@@ -2156,35 +2156,35 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 140,
-        "g": 62,
+        "pj": 142,
+        "g": 64,
         "e": 9,
         "p": 69,
-        "gf": 450,
-        "gc": 483,
-        "pts": 195,
+        "gf": 460,
+        "gc": 487,
+        "pts": 201,
         "posicion": 11
       },
       {
         "equipo": "VILLA RITA",
-        "pj": 140,
-        "g": 54,
+        "pj": 143,
+        "g": 57,
         "e": 9,
         "p": 77,
-        "gf": 481,
+        "gf": 495,
         "gc": 551,
-        "pts": 171,
+        "pts": 180,
         "posicion": 12
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 140,
+        "pj": 142,
         "g": 40,
-        "e": 17,
-        "p": 83,
-        "gf": 373,
-        "gc": 709,
-        "pts": 137,
+        "e": 18,
+        "p": 84,
+        "gf": 376,
+        "gc": 722,
+        "pts": 138,
         "posicion": 13
       },
       {
@@ -2200,23 +2200,23 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 136,
-        "g": 33,
-        "e": 8,
+        "pj": 138,
+        "g": 34,
+        "e": 9,
         "p": 95,
-        "gf": 235,
-        "gc": 590,
-        "pts": 107,
+        "gf": 248,
+        "gc": 593,
+        "pts": 111,
         "posicion": 15
       },
       {
         "equipo": "BPNA",
-        "pj": 136,
+        "pj": 139,
         "g": 31,
         "e": 4,
-        "p": 101,
+        "p": 104,
         "gf": 313,
-        "gc": 725,
+        "gc": 739,
         "pts": 97,
         "posicion": 16
       }
@@ -20022,25 +20022,31 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148805,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 14:00",
               "sede": "Microestadio almagro",
               "direccion": "Marcelo T de Alvear 2223",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260705-180113-1000676343.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260705-180117-1000676344.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 148925,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 11,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 13:00",
               "sede": "Microestadio almagro",
               "direccion": "Marcelo T de Alvear 2223",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260705-171615-1000676278.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260705-171621-1000676279.jpg"
+              ]
             },
             "2016 PROMOCIONALES": {
               "match_id": 149045,
@@ -20431,14 +20437,17 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 148688,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 15:00",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-181236-1000284677.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-181244-1000284678.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148808,
@@ -20453,14 +20462,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148928,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 10,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 13:00",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-170712-1000284653.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-170714-1000284654.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149288,
@@ -20579,14 +20591,17 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149049,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 9,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 13:30",
               "sede": "Villa Rita",
               "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-172715-1000525094.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-172717-1000525094.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149289,
@@ -20644,7 +20659,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     }

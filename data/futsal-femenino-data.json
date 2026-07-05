@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T17:13:37.203056Z",
+  "actualizado": "2026-07-05T19:20:06.881572Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -100,13 +100,13 @@
       {
         "posicion": 2,
         "equipo": "17 DE AGOSTO",
-        "pj": 14,
-        "g": 11,
+        "pj": 15,
+        "g": 12,
         "e": 1,
         "p": 2,
-        "gf": 53,
-        "gc": 13,
-        "pts": 34
+        "gf": 57,
+        "gc": 15,
+        "pts": 37
       },
       {
         "posicion": 3,
@@ -133,12 +133,12 @@
       {
         "posicion": 5,
         "equipo": "ALLENDE",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 4,
-        "p": 1,
-        "gf": 47,
-        "gc": 13,
+        "p": 2,
+        "gf": 49,
+        "gc": 17,
         "pts": 28
       },
       {
@@ -333,13 +333,13 @@
       {
         "posicion": 5,
         "equipo": "ASTRA MACKIE",
-        "pj": 14,
-        "g": 9,
+        "pj": 15,
+        "g": 10,
         "e": 1,
         "p": 4,
-        "gf": 43,
+        "gf": 45,
         "gc": 19,
-        "pts": 28
+        "pts": 31
       },
       {
         "posicion": 6,
@@ -431,17 +431,6 @@
       },
       {
         "posicion": 14,
-        "equipo": "CENTRO VK",
-        "pj": 13,
-        "g": 3,
-        "e": 2,
-        "p": 8,
-        "gf": 11,
-        "gc": 21,
-        "pts": 11
-      },
-      {
-        "posicion": 15,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 15,
         "g": 3,
@@ -449,6 +438,17 @@
         "p": 10,
         "gf": 16,
         "gc": 28,
+        "pts": 11
+      },
+      {
+        "posicion": 15,
+        "equipo": "CENTRO VK",
+        "pj": 14,
+        "g": 3,
+        "e": 2,
+        "p": 9,
+        "gf": 11,
+        "gc": 23,
         "pts": 11
       },
       {
@@ -632,13 +632,13 @@
       {
         "posicion": 14,
         "equipo": "ASTRA MACKIE",
-        "pj": 14,
-        "g": 3,
+        "pj": 15,
+        "g": 4,
         "e": 1,
         "p": 10,
-        "gf": 18,
-        "gc": 24,
-        "pts": 10
+        "gf": 21,
+        "gc": 25,
+        "pts": 13
       },
       {
         "posicion": 15,
@@ -665,12 +665,12 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 0,
-        "p": 11,
-        "gf": 3,
-        "gc": 53,
+        "p": 12,
+        "gf": 4,
+        "gc": 56,
         "pts": 3
       },
       {
@@ -687,6 +687,17 @@
     ],
     "general": [
       {
+        "equipo": "17 DE AGOSTO",
+        "pj": 45,
+        "g": 34,
+        "e": 5,
+        "p": 6,
+        "gf": 147,
+        "gc": 40,
+        "pts": 107,
+        "posicion": 1
+      },
+      {
         "equipo": "SOCIAL OESTE",
         "pj": 45,
         "g": 33,
@@ -695,27 +706,16 @@
         "gf": 155,
         "gc": 41,
         "pts": 105,
-        "posicion": 1
-      },
-      {
-        "equipo": "17 DE AGOSTO",
-        "pj": 44,
-        "g": 33,
-        "e": 5,
-        "p": 6,
-        "gf": 143,
-        "gc": 38,
-        "pts": 104,
         "posicion": 2
       },
       {
         "equipo": "ALLENDE",
-        "pj": 41,
+        "pj": 42,
         "g": 31,
         "e": 6,
-        "p": 4,
-        "gf": 123,
-        "gc": 30,
+        "p": 5,
+        "gf": 125,
+        "gc": 34,
         "pts": 99,
         "posicion": 3
       },
@@ -742,6 +742,17 @@
         "posicion": 5
       },
       {
+        "equipo": "ASTRA MACKIE",
+        "pj": 44,
+        "g": 22,
+        "e": 5,
+        "p": 17,
+        "gf": 94,
+        "gc": 59,
+        "pts": 71,
+        "posicion": 6
+      },
+      {
         "equipo": "INDEPENDIENTE (C)",
         "pj": 42,
         "g": 18,
@@ -750,17 +761,6 @@
         "gf": 71,
         "gc": 57,
         "pts": 67,
-        "posicion": 6
-      },
-      {
-        "equipo": "ASTRA MACKIE",
-        "pj": 42,
-        "g": 20,
-        "e": 5,
-        "p": 17,
-        "gf": 89,
-        "gc": 58,
-        "pts": 65,
         "posicion": 7
       },
       {
@@ -864,12 +864,12 @@
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 38,
+        "pj": 40,
         "g": 5,
         "e": 2,
-        "p": 31,
-        "gf": 27,
-        "gc": 127,
+        "p": 33,
+        "gf": 28,
+        "gc": 132,
         "pts": 17,
         "posicion": 17
       },
@@ -7258,14 +7258,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152250,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 11:30",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-180441-1000642638.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-180447-1000642637.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152403,
@@ -7404,28 +7407,34 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152406,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 14:15",
               "sede": "Nueva generacion rincón ",
               "direccion": "Rincon 1328, CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-184215-1783276919098795338235108170774.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-184225-17832769349455917056531691286123.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152559,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 13:00",
               "sede": "Nueva generacion rincón ",
               "direccion": "Rincon 1328, CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-172802-17832724685621914425443377049865.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-172813-17832724824421603198285475454264.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },
