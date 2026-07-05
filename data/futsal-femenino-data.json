@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T07:33:47.434348Z",
+  "actualizado": "2026-07-05T13:43:09.380306Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -500,23 +500,23 @@
       {
         "posicion": 2,
         "equipo": "ALLENDE",
-        "pj": 13,
-        "g": 12,
+        "pj": 14,
+        "g": 13,
         "e": 0,
         "p": 1,
-        "gf": 36,
-        "gc": 8,
-        "pts": 36
+        "gf": 41,
+        "gc": 10,
+        "pts": 39
       },
       {
         "posicion": 3,
         "equipo": "17 DE AGOSTO",
-        "pj": 14,
+        "pj": 15,
         "g": 10,
         "e": 2,
-        "p": 2,
-        "gf": 43,
-        "gc": 11,
+        "p": 3,
+        "gf": 45,
+        "gc": 16,
         "pts": 32
       },
       {
@@ -565,6 +565,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 15,
+        "g": 6,
+        "e": 3,
+        "p": 6,
+        "gf": 28,
+        "gc": 29,
+        "pts": 21
+      },
+      {
+        "posicion": 9,
         "equipo": "SACA DEL MEDIO",
         "pj": 14,
         "g": 5,
@@ -575,7 +586,7 @@
         "pts": 20
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 14,
         "g": 6,
@@ -586,7 +597,7 @@
         "pts": 20
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "EL GALPON",
         "pj": 13,
         "g": 6,
@@ -597,25 +608,14 @@
         "pts": 18
       },
       {
-        "posicion": 11,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 14,
-        "g": 5,
-        "e": 3,
-        "p": 6,
-        "gf": 24,
-        "gc": 28,
-        "pts": 18
-      },
-      {
         "posicion": 12,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 12,
+        "pj": 13,
         "g": 5,
         "e": 2,
-        "p": 5,
-        "gf": 23,
-        "gc": 18,
+        "p": 6,
+        "gf": 24,
+        "gc": 22,
         "pts": 17
       },
       {
@@ -699,24 +699,24 @@
       },
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 42,
+        "pj": 43,
         "g": 33,
         "e": 4,
-        "p": 5,
-        "gf": 141,
-        "gc": 33,
+        "p": 6,
+        "gf": 143,
+        "gc": 38,
         "pts": 103,
         "posicion": 2
       },
       {
         "equipo": "ALLENDE",
-        "pj": 39,
-        "g": 30,
+        "pj": 40,
+        "g": 31,
         "e": 5,
         "p": 4,
-        "gf": 118,
-        "gc": 28,
-        "pts": 95,
+        "gf": 123,
+        "gc": 30,
+        "pts": 98,
         "posicion": 3
       },
       {
@@ -787,12 +787,12 @@
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 40,
+        "pj": 41,
         "g": 17,
         "e": 5,
-        "p": 18,
-        "gf": 82,
-        "gc": 94,
+        "p": 19,
+        "gf": 83,
+        "gc": 98,
         "pts": 56,
         "posicion": 10
       },
@@ -830,6 +830,17 @@
         "posicion": 13
       },
       {
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 43,
+        "g": 12,
+        "e": 6,
+        "p": 25,
+        "gf": 68,
+        "gc": 99,
+        "pts": 42,
+        "posicion": 14
+      },
+      {
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 45,
         "g": 10,
@@ -838,17 +849,6 @@
         "gf": 66,
         "gc": 94,
         "pts": 40,
-        "posicion": 14
-      },
-      {
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 42,
-        "g": 11,
-        "e": 6,
-        "p": 25,
-        "gf": 64,
-        "gc": 98,
-        "pts": 39,
         "posicion": 15
       },
       {
