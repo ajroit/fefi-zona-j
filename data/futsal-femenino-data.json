@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T15:14:08.922193Z",
+  "actualizado": "2026-07-05T17:13:37.203056Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -56,16 +56,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
     {
+      "nombre": "ZIZOU FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
+    },
+    {
       "nombre": "CULTURAL DE TAPIALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
     },
     {
       "nombre": "ESTRELLA FEDERAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
-    },
-    {
-      "nombre": "ZIZOU FUTSAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -166,12 +166,12 @@
       {
         "posicion": 8,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 2,
-        "p": 5,
-        "gf": 41,
-        "gc": 43,
+        "p": 6,
+        "gf": 44,
+        "gc": 48,
         "pts": 23
       },
       {
@@ -209,6 +209,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 15,
+        "g": 5,
+        "e": 1,
+        "p": 9,
+        "gf": 31,
+        "gc": 44,
+        "pts": 16
+      },
+      {
+        "posicion": 13,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 15,
         "g": 3,
@@ -219,7 +230,7 @@
         "pts": 14
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 13,
         "g": 3,
@@ -227,17 +238,6 @@
         "p": 6,
         "gf": 15,
         "gc": 25,
-        "pts": 13
-      },
-      {
-        "posicion": 14,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 14,
-        "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 26,
-        "gc": 41,
         "pts": 13
       },
       {
@@ -765,12 +765,12 @@
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 42,
+        "pj": 43,
         "g": 18,
         "e": 5,
-        "p": 19,
-        "gf": 84,
-        "gc": 98,
+        "p": 20,
+        "gf": 87,
+        "gc": 103,
         "pts": 59,
         "posicion": 8
       },
@@ -819,6 +819,17 @@
         "posicion": 12
       },
       {
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 45,
+        "g": 13,
+        "e": 6,
+        "p": 26,
+        "gf": 73,
+        "gc": 103,
+        "pts": 45,
+        "posicion": 13
+      },
+      {
         "equipo": "BROWN DE ADROGUE",
         "pj": 41,
         "g": 13,
@@ -827,17 +838,6 @@
         "gf": 72,
         "gc": 114,
         "pts": 45,
-        "posicion": 13
-      },
-      {
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 44,
-        "g": 12,
-        "e": 6,
-        "p": 26,
-        "gf": 68,
-        "gc": 100,
-        "pts": 42,
         "posicion": 14
       },
       {
@@ -7071,14 +7071,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152246,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 11:30",
               "sede": "Rincon - Nueva Generacion",
               "direccion": "Rincon 1328",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-160009-17832671931522350997631151119584.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-160020-17832672086633950365718980578089.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152399,

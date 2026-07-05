@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T15:14:04.600967Z",
+  "actualizado": "2026-07-05T17:13:28.038172Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1304,13 +1304,13 @@
       {
         "posicion": 2,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 14,
-        "g": 12,
+        "pj": 15,
+        "g": 13,
         "e": 0,
         "p": 2,
-        "gf": 65,
-        "gc": 14,
-        "pts": 36
+        "gf": 70,
+        "gc": 15,
+        "pts": 39
       },
       {
         "posicion": 3,
@@ -1403,12 +1403,12 @@
       {
         "posicion": 11,
         "equipo": "BRISAS DE HAEDO",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 0,
-        "p": 7,
-        "gf": 49,
-        "gc": 46,
+        "p": 8,
+        "gf": 50,
+        "gc": 51,
         "pts": 21
       },
       {
@@ -1514,13 +1514,13 @@
       },
       {
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 98,
-        "g": 69,
+        "pj": 99,
+        "g": 70,
         "e": 6,
         "p": 23,
-        "gf": 497,
-        "gc": 292,
-        "pts": 213,
+        "gf": 502,
+        "gc": 293,
+        "pts": 216,
         "posicion": 3
       },
       {
@@ -1591,12 +1591,12 @@
       },
       {
         "equipo": "BRISAS DE HAEDO",
-        "pj": 98,
+        "pj": 99,
         "g": 43,
         "e": 10,
-        "p": 45,
-        "gf": 397,
-        "gc": 405,
+        "p": 46,
+        "gf": 398,
+        "gc": 410,
         "pts": 139,
         "posicion": 10
       },
@@ -15329,14 +15329,17 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150462,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 12:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260705-161238-inbound6653774301460656329.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-djfphtzip8h1hlgyfohcvqkxapo2/20260705-161241-inbound2158241794156385898.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 149544,
@@ -15383,7 +15386,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },
