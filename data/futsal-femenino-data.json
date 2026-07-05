@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T13:43:09.380306Z",
+  "actualizado": "2026-07-05T15:14:08.922193Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -289,13 +289,13 @@
       {
         "posicion": 1,
         "equipo": "17 DE AGOSTO",
-        "pj": 14,
+        "pj": 15,
         "g": 12,
-        "e": 1,
+        "e": 2,
         "p": 1,
         "gf": 45,
         "gc": 9,
-        "pts": 37
+        "pts": 38
       },
       {
         "posicion": 2,
@@ -322,13 +322,13 @@
       {
         "posicion": 4,
         "equipo": "ALLENDE",
-        "pj": 13,
+        "pj": 14,
         "g": 10,
-        "e": 1,
+        "e": 2,
         "p": 2,
         "gf": 35,
         "gc": 7,
-        "pts": 31
+        "pts": 32
       },
       {
         "posicion": 5,
@@ -387,6 +387,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 15,
+        "g": 6,
+        "e": 1,
+        "p": 8,
+        "gf": 19,
+        "gc": 33,
+        "pts": 19
+      },
+      {
+        "posicion": 11,
         "equipo": "MAVIA FC",
         "pj": 14,
         "g": 5,
@@ -395,17 +406,6 @@
         "gf": 21,
         "gc": 21,
         "pts": 18
-      },
-      {
-        "posicion": 11,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 14,
-        "g": 5,
-        "e": 1,
-        "p": 8,
-        "gf": 18,
-        "gc": 33,
-        "pts": 16
       },
       {
         "posicion": 12,
@@ -465,12 +465,12 @@
       {
         "posicion": 17,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 2,
-        "p": 10,
+        "p": 11,
         "gf": 14,
-        "gc": 29,
+        "gc": 30,
         "pts": 8
       },
       {
@@ -699,24 +699,24 @@
       },
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 43,
+        "pj": 44,
         "g": 33,
-        "e": 4,
+        "e": 5,
         "p": 6,
         "gf": 143,
         "gc": 38,
-        "pts": 103,
+        "pts": 104,
         "posicion": 2
       },
       {
         "equipo": "ALLENDE",
-        "pj": 40,
+        "pj": 41,
         "g": 31,
-        "e": 5,
+        "e": 6,
         "p": 4,
         "gf": 123,
         "gc": 30,
-        "pts": 98,
+        "pts": 99,
         "posicion": 3
       },
       {
@@ -764,6 +764,17 @@
         "posicion": 7
       },
       {
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 42,
+        "g": 18,
+        "e": 5,
+        "p": 19,
+        "gf": 84,
+        "gc": 98,
+        "pts": 59,
+        "posicion": 8
+      },
+      {
         "equipo": "MAVIA FC",
         "pj": 42,
         "g": 17,
@@ -772,7 +783,7 @@
         "gf": 77,
         "gc": 74,
         "pts": 58,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "ESTRELLA FEDERAL",
@@ -783,17 +794,6 @@
         "gf": 59,
         "gc": 64,
         "pts": 57,
-        "posicion": 9
-      },
-      {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 41,
-        "g": 17,
-        "e": 5,
-        "p": 19,
-        "gf": 83,
-        "gc": 98,
-        "pts": 56,
         "posicion": 10
       },
       {
@@ -831,12 +831,12 @@
       },
       {
         "equipo": "ZIZOU FUTSAL",
-        "pj": 43,
+        "pj": 44,
         "g": 12,
         "e": 6,
-        "p": 25,
+        "p": 26,
         "gf": 68,
-        "gc": 99,
+        "gc": 100,
         "pts": 42,
         "posicion": 14
       },
@@ -7082,28 +7082,34 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152399,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 10:15",
               "sede": "Rincon - Nueva Generacion",
               "direccion": "Rincon 1328",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-144600-17832627410978261332759434394652.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-144610-17832627601084240515957763729787.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152552,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 09:00",
               "sede": "Rincon - Nueva Generacion",
               "direccion": "Rincon 1328",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-132350-17832578143676308197304820947154.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-132408-17832578284644765071649230417449.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SACA DEL MEDIO",
@@ -7260,28 +7266,34 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152403,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 10:15",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-144429-1000642567.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-144440-1000642568.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152556,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 09:00",
               "sede": "Club 17 De Agosto",
               "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133019-1000642565.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133022-1000642566.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO ASTURIANO",

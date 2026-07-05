@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T13:42:55.384830Z",
+  "actualizado": "2026-07-05T15:13:55.556618Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1356,6 +1356,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "JUVENTUD",
+        "pj": 15,
+        "g": 10,
+        "e": 3,
+        "p": 2,
+        "gf": 56,
+        "gc": 31,
+        "pts": 33
+      },
+      {
+        "posicion": 4,
         "equipo": "CIENCIA Y LABOR",
         "pj": 14,
         "g": 10,
@@ -1366,7 +1377,7 @@
         "pts": 31
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "ROTONDA",
         "pj": 13,
         "g": 10,
@@ -1377,7 +1388,7 @@
         "pts": 31
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 15,
         "g": 9,
@@ -1385,17 +1396,6 @@
         "p": 3,
         "gf": 56,
         "gc": 36,
-        "pts": 30
-      },
-      {
-        "posicion": 6,
-        "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 9,
-        "e": 3,
-        "p": 2,
-        "gf": 49,
-        "gc": 30,
         "pts": 30
       },
       {
@@ -1467,12 +1467,12 @@
       {
         "posicion": 13,
         "equipo": "VILLA SAHORES",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 0,
-        "p": 10,
-        "gf": 24,
-        "gc": 64,
+        "p": 11,
+        "gf": 25,
+        "gc": 71,
         "pts": 9
       },
       {
@@ -1524,12 +1524,12 @@
       {
         "posicion": 2,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "pj": 15,
         "g": 10,
         "e": 1,
-        "p": 3,
-        "gf": 49,
-        "gc": 15,
+        "p": 4,
+        "gf": 51,
+        "gc": 21,
         "pts": 31
       },
       {
@@ -1578,6 +1578,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ROTONDA",
+        "pj": 14,
+        "g": 8,
+        "e": 0,
+        "p": 6,
+        "gf": 48,
+        "gc": 42,
+        "pts": 24
+      },
+      {
+        "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 14,
         "g": 7,
@@ -1588,7 +1599,7 @@
         "pts": 23
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 15,
         "g": 7,
@@ -1597,17 +1608,6 @@
         "gf": 38,
         "gc": 51,
         "pts": 23
-      },
-      {
-        "posicion": 9,
-        "equipo": "ROTONDA",
-        "pj": 13,
-        "g": 7,
-        "e": 0,
-        "p": 6,
-        "gf": 42,
-        "gc": 40,
-        "pts": 21
       },
       {
         "posicion": 10,
@@ -2111,6 +2111,17 @@
         "posicion": 6
       },
       {
+        "equipo": "ROTONDA",
+        "pj": 136,
+        "g": 71,
+        "e": 13,
+        "p": 52,
+        "gf": 537,
+        "gc": 479,
+        "pts": 226,
+        "posicion": 7
+      },
+      {
         "equipo": "LUNA DE MATANZA",
         "pj": 140,
         "g": 71,
@@ -2118,17 +2129,6 @@
         "p": 59,
         "gf": 544,
         "gc": 461,
-        "pts": 223,
-        "posicion": 7
-      },
-      {
-        "equipo": "ROTONDA",
-        "pj": 135,
-        "g": 70,
-        "e": 13,
-        "p": 52,
-        "gf": 531,
-        "gc": 477,
         "pts": 223,
         "posicion": 8
       },
@@ -2156,12 +2156,12 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 137,
+        "pj": 138,
         "g": 61,
         "e": 9,
-        "p": 67,
-        "gf": 437,
-        "gc": 467,
+        "p": 68,
+        "gf": 439,
+        "gc": 473,
         "pts": 192,
         "posicion": 11
       },
@@ -2178,13 +2178,13 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 138,
-        "g": 38,
+        "pj": 139,
+        "g": 39,
         "e": 17,
         "p": 83,
-        "gf": 361,
-        "gc": 705,
-        "pts": 131,
+        "gf": 368,
+        "gc": 706,
+        "pts": 134,
         "posicion": 13
       },
       {
@@ -2200,12 +2200,12 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 134,
+        "pj": 135,
         "g": 33,
         "e": 8,
-        "p": 93,
-        "gf": 231,
-        "gc": 578,
+        "p": 94,
+        "gf": 232,
+        "gc": 585,
         "pts": 107,
         "posicion": 15
       },
@@ -20456,17 +20456,6 @@
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149048,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 10:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149168,
               "goles_local": null,
@@ -20499,9 +20488,23 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149048,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 10:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141417-1000284514.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141419-1000284515.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VILLA RITA",
