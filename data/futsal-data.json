@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T03:38:13.004335Z",
+  "actualizado": "2026-07-05T07:33:34.154957Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "ATENEO HAEDO",
-        "pj": 14,
-        "g": 13,
+        "pj": 15,
+        "g": 14,
         "e": 0,
         "p": 1,
-        "gf": 69,
-        "gc": 18,
-        "pts": 39
+        "gf": 73,
+        "gc": 20,
+        "pts": 42
       },
       {
         "posicion": 2,
@@ -122,12 +122,12 @@
       {
         "posicion": 4,
         "equipo": "RIVADAVIA 87",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 3,
-        "p": 2,
-        "gf": 73,
-        "gc": 50,
+        "p": 3,
+        "gf": 75,
+        "gc": 54,
         "pts": 27
       },
       {
@@ -2101,13 +2101,13 @@
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 145,
-        "g": 74,
+        "pj": 146,
+        "g": 75,
         "e": 6,
         "p": 65,
-        "gf": 547,
-        "gc": 479,
-        "pts": 228,
+        "gf": 551,
+        "gc": 481,
+        "pts": 231,
         "posicion": 6
       },
       {
@@ -2134,12 +2134,12 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 134,
+        "pj": 135,
         "g": 66,
         "e": 13,
-        "p": 55,
-        "gf": 502,
-        "gc": 482,
+        "p": 56,
+        "gf": 504,
+        "gc": 486,
         "pts": 211,
         "posicion": 9
       },
@@ -19524,17 +19524,6 @@
           "local": "ATENEO HAEDO",
           "visitante": "RIVADAVIA 87",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148202,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-04 18:00",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148322,
               "goles_local": 3,
@@ -19572,17 +19561,6 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
-            },
-            "2018 PROMOCIONALES": {
-              "match_id": 149282,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-04 10:00",
-              "sede": "COLEGIO BROWN",
-              "direccion": "Las Bases 205, Haedo",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -19665,6 +19643,34 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260704-182901-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260704-182858-image.jpg"
               ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148202,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 18:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260705-053424-1000561491.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260705-053425-1000561490.jpg"
+              ]
+            },
+            "2018 PROMOCIONALES": {
+              "match_id": 149282,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 10:00",
+              "sede": "COLEGIO BROWN",
+              "direccion": "Las Bases 205, Haedo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260705-053832-1000561495.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260705-053832-1000561496.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -19673,17 +19679,6 @@
           "local": "ESTRADA FUTSAL",
           "visitante": "DEPORTIVO ABBAS",
           "partidos": {
-            "TERCERA MASCULINO": {
-              "match_id": 148323,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-04 21:30",
-              "sede": "Complejo San José ",
-              "direccion": "Perón 7100, Martin Coronado",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 148443,
               "goles_local": 1,
@@ -19810,6 +19805,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260705-005619-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260705-005633-image.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 148323,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 21:30",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260705-030808-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260705-030815-image.jpg"
               ]
             }
           },
