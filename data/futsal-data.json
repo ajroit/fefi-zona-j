@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T21:02:32.695447Z",
+  "actualizado": "2026-07-05T23:02:48.313608Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ROTONDA",
+        "pj": 15,
+        "g": 8,
+        "e": 2,
+        "p": 5,
+        "gf": 75,
+        "gc": 64,
+        "pts": 26
+      },
+      {
+        "posicion": 5,
         "equipo": "HAEDO JUNIOR",
         "pj": 15,
         "g": 8,
@@ -309,7 +320,7 @@
         "pts": 26
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 15,
         "g": 8,
@@ -320,7 +331,7 @@
         "pts": 25
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "LUNA DE MATANZA",
         "pj": 14,
         "g": 8,
@@ -331,7 +342,7 @@
         "pts": 25
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "ESTRADA FUTSAL",
         "pj": 14,
         "g": 8,
@@ -342,25 +353,14 @@
         "pts": 25
       },
       {
-        "posicion": 8,
-        "equipo": "ROTONDA",
-        "pj": 14,
-        "g": 7,
-        "e": 2,
-        "p": 5,
-        "gf": 71,
-        "gc": 61,
-        "pts": 23
-      },
-      {
         "posicion": 9,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 1,
-        "p": 6,
-        "gf": 67,
-        "gc": 73,
+        "p": 7,
+        "gf": 70,
+        "gc": 77,
         "pts": 22
       },
       {
@@ -409,25 +409,25 @@
       },
       {
         "posicion": 14,
-        "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 2,
-        "e": 3,
-        "p": 9,
-        "gf": 48,
-        "gc": 74,
-        "pts": 9
+        "equipo": "VILLA SAHORES",
+        "pj": 15,
+        "g": 3,
+        "e": 2,
+        "p": 10,
+        "gf": 37,
+        "gc": 69,
+        "pts": 11
       },
       {
         "posicion": 15,
-        "equipo": "VILLA SAHORES",
-        "pj": 14,
+        "equipo": "JUVENTUD",
+        "pj": 15,
         "g": 2,
-        "e": 2,
+        "e": 3,
         "p": 10,
-        "gf": 33,
-        "gc": 67,
-        "pts": 8
+        "gf": 50,
+        "gc": 78,
+        "pts": 9
       },
       {
         "posicion": 16,
@@ -522,13 +522,13 @@
       {
         "posicion": 8,
         "equipo": "ROTONDA",
-        "pj": 13,
+        "pj": 14,
         "g": 7,
-        "e": 1,
+        "e": 2,
         "p": 5,
-        "gf": 59,
-        "gc": 43,
-        "pts": 22
+        "gf": 61,
+        "gc": 45,
+        "pts": 23
       },
       {
         "posicion": 9,
@@ -543,6 +543,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 15,
+        "g": 5,
+        "e": 2,
+        "p": 8,
+        "gf": 49,
+        "gc": 65,
+        "pts": 17
+      },
+      {
+        "posicion": 11,
         "equipo": "PEDRO LOZANO",
         "pj": 14,
         "g": 5,
@@ -553,58 +564,47 @@
         "pts": 16
       },
       {
-        "posicion": 11,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "posicion": 12,
+        "equipo": "VILLA SAHORES",
+        "pj": 15,
         "g": 5,
         "e": 1,
-        "p": 8,
-        "gf": 47,
-        "gc": 63,
+        "p": 9,
+        "gf": 32,
+        "gc": 62,
         "pts": 16
       },
       {
-        "posicion": 12,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
-        "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 55,
-        "gc": 73,
-        "pts": 13
-      },
-      {
         "posicion": 13,
-        "equipo": "VILLA SAHORES",
-        "pj": 14,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 15,
         "g": 4,
-        "e": 1,
+        "e": 2,
         "p": 9,
-        "gf": 29,
-        "gc": 61,
-        "pts": 13
+        "gf": 62,
+        "gc": 80,
+        "pts": 14
       },
       {
         "posicion": 14,
         "equipo": "MARCHIGIANA",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
-        "e": 3,
+        "e": 4,
         "p": 7,
-        "gf": 39,
-        "gc": 48,
-        "pts": 12
+        "gf": 46,
+        "gc": 55,
+        "pts": 13
       },
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "gf": 20,
-        "gc": 106,
+        "p": 13,
+        "gf": 21,
+        "gc": 109,
         "pts": 3
       },
       {
@@ -634,16 +634,27 @@
       {
         "posicion": 2,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
+        "pj": 15,
         "g": 12,
         "e": 0,
-        "p": 2,
-        "gf": 72,
-        "gc": 46,
+        "p": 3,
+        "gf": 75,
+        "gc": 56,
         "pts": 36
       },
       {
         "posicion": 3,
+        "equipo": "MARCHIGIANA",
+        "pj": 14,
+        "g": 10,
+        "e": 2,
+        "p": 2,
+        "gf": 73,
+        "gc": 32,
+        "pts": 32
+      },
+      {
+        "posicion": 4,
         "equipo": "ESTRADA FUTSAL",
         "pj": 15,
         "g": 10,
@@ -652,17 +663,6 @@
         "gf": 54,
         "gc": 42,
         "pts": 30
-      },
-      {
-        "posicion": 4,
-        "equipo": "MARCHIGIANA",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "gf": 63,
-        "gc": 29,
-        "pts": 29
       },
       {
         "posicion": 5,
@@ -811,6 +811,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 15,
+        "g": 12,
+        "e": 0,
+        "p": 3,
+        "gf": 79,
+        "gc": 30,
+        "pts": 36
+      },
+      {
+        "posicion": 3,
         "equipo": "RIVADAVIA 87",
         "pj": 14,
         "g": 12,
@@ -819,17 +830,6 @@
         "gf": 61,
         "gc": 24,
         "pts": 36
-      },
-      {
-        "posicion": 3,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 14,
-        "g": 11,
-        "e": 0,
-        "p": 3,
-        "gf": 69,
-        "gc": 30,
-        "pts": 33
       },
       {
         "posicion": 4,
@@ -900,12 +900,12 @@
       {
         "posicion": 10,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 1,
-        "p": 7,
+        "p": 8,
         "gf": 33,
-        "gc": 52,
+        "gc": 62,
         "pts": 19
       },
       {
@@ -2057,13 +2057,13 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 144,
+        "pj": 146,
         "g": 97,
-        "e": 8,
-        "p": 39,
-        "gf": 860,
-        "gc": 478,
-        "pts": 299,
+        "e": 9,
+        "p": 40,
+        "gf": 870,
+        "gc": 495,
+        "pts": 300,
         "posicion": 2
       },
       {
@@ -2079,14 +2079,25 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 134,
-        "g": 82,
-        "e": 16,
+        "pj": 136,
+        "g": 83,
+        "e": 17,
         "p": 36,
-        "gf": 611,
-        "gc": 313,
-        "pts": 262,
+        "gf": 628,
+        "gc": 323,
+        "pts": 266,
         "posicion": 4
+      },
+      {
+        "equipo": "ROTONDA",
+        "pj": 143,
+        "g": 74,
+        "e": 14,
+        "p": 55,
+        "gf": 564,
+        "gc": 506,
+        "pts": 236,
+        "posicion": 5
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2096,17 +2107,6 @@
         "p": 59,
         "gf": 524,
         "gc": 459,
-        "pts": 232,
-        "posicion": 5
-      },
-      {
-        "equipo": "ROTONDA",
-        "pj": 141,
-        "g": 73,
-        "e": 13,
-        "p": 55,
-        "gf": 558,
-        "gc": 501,
         "pts": 232,
         "posicion": 6
       },
@@ -2123,23 +2123,23 @@
       },
       {
         "equipo": "LUNA DE MATANZA",
-        "pj": 144,
-        "g": 72,
+        "pj": 145,
+        "g": 73,
         "e": 10,
         "p": 62,
-        "gf": 548,
+        "gf": 558,
         "gc": 473,
-        "pts": 226,
+        "pts": 229,
         "posicion": 8
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 144,
+        "pj": 145,
         "g": 66,
         "e": 17,
-        "p": 61,
+        "p": 62,
         "gf": 506,
-        "gc": 450,
+        "gc": 460,
         "pts": 215,
         "posicion": 9
       },
@@ -2156,13 +2156,13 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 143,
+        "pj": 145,
         "g": 64,
-        "e": 9,
-        "p": 70,
-        "gf": 461,
-        "gc": 494,
-        "pts": 201,
+        "e": 10,
+        "p": 71,
+        "gf": 466,
+        "gc": 500,
+        "pts": 202,
         "posicion": 11
       },
       {
@@ -2178,24 +2178,24 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 143,
+        "pj": 145,
         "g": 40,
         "e": 18,
-        "p": 85,
-        "gf": 380,
-        "gc": 731,
+        "p": 87,
+        "gf": 383,
+        "gc": 738,
         "pts": 138,
         "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 139,
-        "g": 35,
+        "pj": 141,
+        "g": 37,
         "e": 9,
         "p": 95,
-        "gf": 257,
-        "gc": 597,
-        "pts": 114,
+        "gf": 264,
+        "gc": 600,
+        "pts": 120,
         "posicion": 14
       },
       {
@@ -19861,17 +19861,6 @@
               "direccion": "Santa Brígida 7100 - José leon Suárez ",
               "planillas": null
             },
-            "QUINTA MASCULINO": {
-              "match_id": 148564,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 17:30",
-              "sede": "Inmaculada Concepción ",
-              "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
-            },
             "SEXTA MASCULINO": {
               "match_id": 148684,
               "goles_local": 13,
@@ -19966,6 +19955,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-193726-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-193742-image.jpg"
               ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148564,
+              "goles_local": 3,
+              "goles_visitante": 10,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 17:30",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-213545-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-213536-image.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -19998,14 +20001,17 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148445,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 17:15",
               "sede": "Microestadio almagro",
               "direccion": "Marcelo T de Alvear 2223",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260705-213603-1000023657.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260705-213606-1000023656.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 148565,
@@ -20166,25 +20172,31 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 148686,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 10,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 17:30",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-220734-298250.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-220736-298253.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148806,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 16:30",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-205557-298216.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-205558-298217.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 148926,
@@ -20439,14 +20451,17 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148448,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 17:15",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260705-212833-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260705-212842-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148688,

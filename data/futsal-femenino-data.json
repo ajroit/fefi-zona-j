@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T21:02:42.846138Z",
+  "actualizado": "2026-07-05T23:02:56.298093Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -365,6 +365,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "gf": 26,
+        "gc": 23,
+        "pts": 22
+      },
+      {
+        "posicion": 9,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 14,
         "g": 5,
@@ -373,17 +384,6 @@
         "gf": 15,
         "gc": 15,
         "pts": 20
-      },
-      {
-        "posicion": 9,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 13,
-        "g": 6,
-        "e": 1,
-        "p": 6,
-        "gf": 18,
-        "gc": 23,
-        "pts": 19
       },
       {
         "posicion": 10,
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 14,
+        "pj": 15,
         "g": 0,
         "e": 2,
-        "p": 12,
+        "p": 13,
         "gf": 10,
-        "gc": 57,
+        "gc": 65,
         "pts": 2
       }
     ],
@@ -521,25 +521,25 @@
       },
       {
         "posicion": 4,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 14,
-        "g": 9,
-        "e": 3,
-        "p": 2,
-        "gf": 40,
-        "gc": 15,
-        "pts": 30
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 15,
+        "g": 10,
+        "e": 2,
+        "p": 3,
+        "gf": 38,
+        "gc": 14,
+        "pts": 32
       },
       {
         "posicion": 5,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 14,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 15,
         "g": 9,
-        "e": 2,
+        "e": 3,
         "p": 3,
-        "gf": 36,
-        "gc": 13,
-        "pts": 29
+        "gf": 41,
+        "gc": 17,
+        "pts": 30
       },
       {
         "posicion": 6,
@@ -732,13 +732,13 @@
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 42,
-        "g": 27,
+        "pj": 43,
+        "g": 28,
         "e": 6,
         "p": 9,
-        "gf": 115,
-        "gc": 44,
-        "pts": 87,
+        "gf": 117,
+        "gc": 45,
+        "pts": 90,
         "posicion": 5
       },
       {
@@ -754,14 +754,25 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 42,
+        "pj": 43,
         "g": 18,
         "e": 13,
-        "p": 11,
-        "gf": 71,
-        "gc": 57,
+        "p": 12,
+        "gf": 72,
+        "gc": 59,
         "pts": 67,
         "posicion": 7
+      },
+      {
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 40,
+        "g": 18,
+        "e": 6,
+        "p": 16,
+        "gf": 67,
+        "gc": 64,
+        "pts": 60,
+        "posicion": 8
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -772,7 +783,7 @@
         "gf": 87,
         "gc": 103,
         "pts": 59,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "MAVIA FC",
@@ -783,17 +794,6 @@
         "gf": 77,
         "gc": 74,
         "pts": 58,
-        "posicion": 9
-      },
-      {
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 39,
-        "g": 17,
-        "e": 6,
-        "p": 16,
-        "gf": 59,
-        "gc": 64,
-        "pts": 57,
         "posicion": 10
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 40,
+        "pj": 41,
         "g": 1,
         "e": 2,
-        "p": 37,
+        "p": 38,
         "gf": 17,
-        "gc": 187,
+        "gc": 195,
         "pts": 5,
         "posicion": 18
       }
@@ -7180,14 +7180,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152401,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 18:00",
               "sede": "Club San Telmo",
               "direccion": "Bolivar 1257",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-221335-inbound2375995350662939506.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-221347-inbound5112913831818448381.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152554,
@@ -7201,7 +7204,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "MAVIA FC",
@@ -7396,14 +7399,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152253,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 9,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 15:30",
               "sede": "Nueva generacion rincón ",
               "direccion": "Rincon 1328, CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-203049-1783283422974262229904487252894.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260705-203118-17832834485054220343684342253203.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152406,
