@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T19:20:06.881572Z",
+  "actualizado": "2026-07-05T21:02:42.846138Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -28,12 +28,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
     },
     {
-      "nombre": "ALLENDE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
-    },
-    {
       "nombre": "ASTRA MACKIE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
+    },
+    {
+      "nombre": "ALLENDE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "EL GALPON",
@@ -132,6 +132,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ASTRA MACKIE",
+        "pj": 15,
+        "g": 9,
+        "e": 3,
+        "p": 3,
+        "gf": 37,
+        "gc": 16,
+        "pts": 30
+      },
+      {
+        "posicion": 6,
         "equipo": "ALLENDE",
         "pj": 14,
         "g": 8,
@@ -140,17 +151,6 @@
         "gf": 49,
         "gc": 17,
         "pts": 28
-      },
-      {
-        "posicion": 6,
-        "equipo": "ASTRA MACKIE",
-        "pj": 14,
-        "g": 8,
-        "e": 3,
-        "p": 3,
-        "gf": 28,
-        "gc": 15,
-        "pts": 27
       },
       {
         "posicion": 7,
@@ -265,12 +265,12 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "gf": 13,
-        "gc": 53,
+        "p": 13,
+        "gf": 14,
+        "gc": 62,
         "pts": 3
       },
       {
@@ -743,13 +743,13 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 44,
-        "g": 22,
+        "pj": 45,
+        "g": 23,
         "e": 5,
         "p": 17,
-        "gf": 94,
-        "gc": 59,
-        "pts": 71,
+        "gf": 103,
+        "gc": 60,
+        "pts": 74,
         "posicion": 6
       },
       {
@@ -864,12 +864,12 @@
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 40,
+        "pj": 41,
         "g": 5,
         "e": 2,
-        "p": 33,
-        "gf": 28,
-        "gc": 132,
+        "p": 34,
+        "gf": 29,
+        "gc": 141,
         "pts": 17,
         "posicion": 17
       },
