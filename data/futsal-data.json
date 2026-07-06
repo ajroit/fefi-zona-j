@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T23:02:48.313608Z",
+  "actualizado": "2026-07-06T03:46:16.912403Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -56,6 +56,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-010549-ciencia_y_labor.png"
     },
     {
+      "nombre": "ROTONDA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
+    },
+    {
       "nombre": "DEPORTIVO ABBAS",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-005256-download-removebg-preview__1_.png"
     },
@@ -66,10 +70,6 @@
     {
       "nombre": "LUNA DE MATANZA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
-    },
-    {
-      "nombre": "ROTONDA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
     },
     {
       "nombre": "ESTRADA FUTSAL",
@@ -155,13 +155,13 @@
       {
         "posicion": 7,
         "equipo": "VILLA SAHORES",
-        "pj": 14,
-        "g": 6,
+        "pj": 15,
+        "g": 7,
         "e": 3,
         "p": 5,
-        "gf": 49,
-        "gc": 51,
-        "pts": 21
+        "gf": 51,
+        "gc": 52,
+        "pts": 24
       },
       {
         "posicion": 8,
@@ -177,16 +177,27 @@
       {
         "posicion": 9,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 3,
-        "p": 6,
-        "gf": 53,
-        "gc": 73,
+        "p": 7,
+        "gf": 56,
+        "gc": 77,
         "pts": 18
       },
       {
         "posicion": 10,
+        "equipo": "ROTONDA",
+        "pj": 15,
+        "g": 5,
+        "e": 1,
+        "p": 9,
+        "gf": 60,
+        "gc": 112,
+        "pts": 16
+      },
+      {
+        "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 15,
         "g": 4,
@@ -197,7 +208,7 @@
         "pts": 15
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "VILLA RITA",
         "pj": 14,
         "g": 4,
@@ -208,7 +219,7 @@
         "pts": 15
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "LUNA DE MATANZA",
         "pj": 14,
         "g": 4,
@@ -217,17 +228,6 @@
         "gf": 50,
         "gc": 58,
         "pts": 14
-      },
-      {
-        "posicion": 13,
-        "equipo": "ROTONDA",
-        "pj": 14,
-        "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 56,
-        "gc": 109,
-        "pts": 13
       },
       {
         "posicion": 14,
@@ -254,12 +254,12 @@
       {
         "posicion": 16,
         "equipo": "JUVENTUD",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 3,
-        "p": 9,
-        "gf": 36,
-        "gc": 58,
+        "p": 10,
+        "gf": 37,
+        "gc": 60,
         "pts": 9
       }
     ],
@@ -267,24 +267,24 @@
       {
         "posicion": 1,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
+        "pj": 15,
         "g": 12,
-        "e": 1,
+        "e": 2,
         "p": 1,
-        "gf": 107,
-        "gc": 63,
-        "pts": 37
+        "gf": 109,
+        "gc": 65,
+        "pts": 38
       },
       {
         "posicion": 2,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
-        "e": 2,
+        "e": 3,
         "p": 3,
-        "gf": 66,
-        "gc": 30,
-        "pts": 29
+        "gf": 68,
+        "gc": 32,
+        "pts": 30
       },
       {
         "posicion": 3,
@@ -2057,13 +2057,13 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 146,
+        "pj": 147,
         "g": 97,
-        "e": 9,
+        "e": 10,
         "p": 40,
-        "gf": 870,
-        "gc": 495,
-        "pts": 300,
+        "gf": 872,
+        "gc": 497,
+        "pts": 301,
         "posicion": 2
       },
       {
@@ -2079,24 +2079,24 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 136,
+        "pj": 137,
         "g": 83,
-        "e": 17,
+        "e": 18,
         "p": 36,
-        "gf": 628,
-        "gc": 323,
-        "pts": 266,
+        "gf": 630,
+        "gc": 325,
+        "pts": 267,
         "posicion": 4
       },
       {
         "equipo": "ROTONDA",
-        "pj": 143,
-        "g": 74,
+        "pj": 144,
+        "g": 75,
         "e": 14,
         "p": 55,
-        "gf": 564,
-        "gc": 506,
-        "pts": 236,
+        "gf": 568,
+        "gc": 509,
+        "pts": 239,
         "posicion": 5
       },
       {
@@ -2156,12 +2156,12 @@
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 145,
+        "pj": 146,
         "g": 64,
         "e": 10,
-        "p": 71,
-        "gf": 466,
-        "gc": 500,
+        "p": 72,
+        "gf": 469,
+        "gc": 504,
         "pts": 202,
         "posicion": 11
       },
@@ -2178,24 +2178,24 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 145,
+        "pj": 146,
         "g": 40,
         "e": 18,
-        "p": 87,
-        "gf": 383,
-        "gc": 738,
+        "p": 88,
+        "gf": 384,
+        "gc": 740,
         "pts": 138,
         "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 141,
-        "g": 37,
+        "pj": 142,
+        "g": 38,
         "e": 9,
         "p": 95,
-        "gf": 264,
-        "gc": 600,
-        "pts": 120,
+        "gf": 266,
+        "gc": 601,
+        "pts": 123,
         "posicion": 14
       },
       {
@@ -19852,14 +19852,17 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148444,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 18:45",
               "sede": "Inmaculada Concepción ",
               "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260705-224623-1001332452.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260705-224632-1001332451.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148684,
@@ -19979,25 +19982,31 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148205,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 20:00",
               "sede": "Microestadio almagro",
               "direccion": "Marcelo T de Alvear 2223",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260706-013723-1000023801.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260706-013758-1000023800.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148325,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 18:30",
               "sede": "Microestadio almagro",
               "direccion": "Marcelo T de Alvear 2223",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260705-225721-1000023696.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260705-225725-1000023695.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148445,
@@ -20427,27 +20436,19 @@
           "local": "CIENCIA Y LABOR",
           "visitante": "ROTONDA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148208,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 20:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148328,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 18:30",
               "sede": "Ciencia y labor ",
               "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-224124-1000284782.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-224127-1000284783.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148448,
@@ -20570,6 +20571,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260705-200846-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-7iehlir8iuydbndq1dedd8euduq1/20260705-200856-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148208,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 20:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260706-003555-1000284862.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260706-003600-1000284863.jpg"
               ]
             }
           },

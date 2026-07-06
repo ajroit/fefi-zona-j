@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-05T23:02:56.298093Z",
+  "actualizado": "2026-07-06T03:46:31.441895Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -52,6 +52,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
     },
     {
+      "nombre": "ESTRELLA FEDERAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
+    },
+    {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
@@ -62,10 +66,6 @@
     {
       "nombre": "CULTURAL DE TAPIALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
-    },
-    {
-      "nombre": "ESTRELLA FEDERAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -198,6 +198,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 14,
+        "g": 4,
+        "e": 4,
+        "p": 6,
+        "gf": 22,
+        "gc": 26,
+        "pts": 16
+      },
+      {
+        "posicion": 12,
         "equipo": "PURA SUELA",
         "pj": 14,
         "g": 4,
@@ -208,7 +219,7 @@
         "pts": 16
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "ZIZOU FUTSAL",
         "pj": 15,
         "g": 5,
@@ -219,7 +230,7 @@
         "pts": 16
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 15,
         "g": 3,
@@ -228,17 +239,6 @@
         "gf": 29,
         "gc": 38,
         "pts": 14
-      },
-      {
-        "posicion": 14,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 13,
-        "g": 3,
-        "e": 4,
-        "p": 6,
-        "gf": 15,
-        "gc": 25,
-        "pts": 13
       },
       {
         "posicion": 15,
@@ -276,12 +276,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 0,
-        "p": 13,
-        "gf": 7,
-        "gc": 70,
+        "p": 14,
+        "gf": 8,
+        "gc": 77,
         "pts": 3
       }
     ],
@@ -344,12 +344,12 @@
       {
         "posicion": 6,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 14,
+        "pj": 15,
         "g": 8,
         "e": 2,
-        "p": 4,
+        "p": 5,
         "gf": 33,
-        "gc": 18,
+        "gc": 19,
         "pts": 26
       },
       {
@@ -365,6 +365,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 15,
+        "g": 6,
+        "e": 5,
+        "p": 4,
+        "gf": 16,
+        "gc": 15,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 14,
         "g": 7,
@@ -373,17 +384,6 @@
         "gf": 26,
         "gc": 23,
         "pts": 22
-      },
-      {
-        "posicion": 9,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 14,
-        "g": 5,
-        "e": 5,
-        "p": 4,
-        "gf": 15,
-        "gc": 15,
-        "pts": 20
       },
       {
         "posicion": 10,
@@ -732,12 +732,12 @@
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 43,
+        "pj": 44,
         "g": 28,
         "e": 6,
-        "p": 9,
+        "p": 10,
         "gf": 117,
-        "gc": 45,
+        "gc": 46,
         "pts": 90,
         "posicion": 5
       },
@@ -754,24 +754,24 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 43,
-        "g": 18,
+        "pj": 44,
+        "g": 19,
         "e": 13,
         "p": 12,
-        "gf": 72,
+        "gf": 73,
         "gc": 59,
-        "pts": 67,
+        "pts": 70,
         "posicion": 7
       },
       {
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 40,
-        "g": 18,
+        "pj": 41,
+        "g": 19,
         "e": 6,
         "p": 16,
-        "gf": 67,
-        "gc": 64,
-        "pts": 60,
+        "gf": 74,
+        "gc": 65,
+        "pts": 63,
         "posicion": 8
       },
       {
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 41,
+        "pj": 42,
         "g": 1,
         "e": 2,
-        "p": 38,
-        "gf": 17,
-        "gc": 195,
+        "p": 39,
+        "gf": 18,
+        "gc": 202,
         "pts": 5,
         "posicion": 18
       }
@@ -7169,14 +7169,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152248,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 19:15",
               "sede": "Club San Telmo",
               "direccion": "Bolivar 1257",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-233509-inbound369774907363263072.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-233512-inbound1960379825516963123.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152401,
@@ -7308,17 +7311,6 @@
           "local": "CENTRO ASTURIANO",
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152557,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 18:30",
-              "sede": "Centro Asturiano Sede Deportiva Vicente López",
-              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152251,
               "goles_local": null,
@@ -7332,17 +7324,34 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152404,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 19:45",
               "sede": "Centro Asturiano Sede Deportiva Vicente López",
               "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235503-17832956880922943619058563174560.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235426-17832956555692081932301949455825.jpg"
+              ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152557,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 18:30",
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-223816-17832910750534210100717153755136.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-223840-17832910999987864254042860081190.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SOCIAL OESTE",
