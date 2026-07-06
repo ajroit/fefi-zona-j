@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T03:46:25.215259Z",
+  "actualizado": "2026-07-06T08:27:13.033651Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -15055,17 +15055,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260705-190733-1001624906.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149540,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 21:15",
-              "sede": "progreso santa rita",
-              "direccion": "pichincha 320 boulogne",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149693,
               "goles_local": 4,
@@ -15131,6 +15120,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260705-210604-1001625090.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260705-210610-1001625091.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149540,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 21:15",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260706-034246-1001625598.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xwc16ingfltm7e8d7ns76habcab2/20260706-034253-1001625597.jpg"
               ]
             }
           },

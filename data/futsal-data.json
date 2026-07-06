@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T03:46:16.912403Z",
+  "actualizado": "2026-07-06T08:27:06.693563Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -28,16 +28,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
     },
     {
+      "nombre": "INDEPENDIENTE DE BECCAR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
+    },
+    {
       "nombre": "HAEDO JUNIOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
     },
     {
       "nombre": "RIVADAVIA 87",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-201955-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740601962760%20(1).png"
-    },
-    {
-      "nombre": "INDEPENDIENTE DE BECCAR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
       "nombre": "PEDRO LOZANO",
@@ -56,6 +56,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-010549-ciencia_y_labor.png"
     },
     {
+      "nombre": "LUNA DE MATANZA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
+    },
+    {
       "nombre": "ROTONDA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-011411-images__1_.png"
     },
@@ -66,10 +70,6 @@
     {
       "nombre": "VILLA RITA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201009-Captura%20de%20pantalla%202025-04-09%20170817.png"
-    },
-    {
-      "nombre": "LUNA DE MATANZA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
     },
     {
       "nombre": "ESTRADA FUTSAL",
@@ -110,6 +110,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 15,
+        "g": 9,
+        "e": 2,
+        "p": 4,
+        "gf": 95,
+        "gc": 77,
+        "pts": 29
+      },
+      {
+        "posicion": 4,
         "equipo": "HAEDO JUNIOR",
         "pj": 15,
         "g": 9,
@@ -120,7 +131,7 @@
         "pts": 29
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "RIVADAVIA 87",
         "pj": 14,
         "g": 8,
@@ -131,25 +142,14 @@
         "pts": 27
       },
       {
-        "posicion": 5,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
-        "g": 8,
-        "e": 2,
-        "p": 4,
-        "gf": 87,
-        "gc": 74,
-        "pts": 26
-      },
-      {
         "posicion": 6,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 3,
-        "p": 4,
-        "gf": 55,
-        "gc": 41,
+        "p": 5,
+        "gf": 56,
+        "gc": 45,
         "pts": 24
       },
       {
@@ -166,12 +166,12 @@
       {
         "posicion": 8,
         "equipo": "MARCHIGIANA",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 3,
-        "p": 5,
-        "gf": 51,
-        "gc": 46,
+        "p": 6,
+        "gf": 54,
+        "gc": 54,
         "pts": 18
       },
       {
@@ -187,6 +187,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 15,
+        "g": 5,
+        "e": 2,
+        "p": 8,
+        "gf": 54,
+        "gc": 59,
+        "pts": 17
+      },
+      {
+        "posicion": 11,
         "equipo": "ROTONDA",
         "pj": 15,
         "g": 5,
@@ -197,7 +208,7 @@
         "pts": 16
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 15,
         "g": 4,
@@ -208,7 +219,7 @@
         "pts": 15
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "VILLA RITA",
         "pj": 14,
         "g": 4,
@@ -217,17 +228,6 @@
         "gf": 58,
         "gc": 66,
         "pts": 15
-      },
-      {
-        "posicion": 13,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 14,
-        "g": 4,
-        "e": 2,
-        "p": 8,
-        "gf": 50,
-        "gc": 58,
-        "pts": 14
       },
       {
         "posicion": 14,
@@ -288,6 +288,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 15,
+        "g": 9,
+        "e": 1,
+        "p": 5,
+        "gf": 78,
+        "gc": 65,
+        "pts": 28
+      },
+      {
+        "posicion": 4,
         "equipo": "ATENEO HAEDO",
         "pj": 15,
         "g": 8,
@@ -298,7 +309,7 @@
         "pts": 27
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "ROTONDA",
         "pj": 15,
         "g": 8,
@@ -309,7 +320,7 @@
         "pts": 26
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "HAEDO JUNIOR",
         "pj": 15,
         "g": 8,
@@ -320,7 +331,7 @@
         "pts": 26
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 15,
         "g": 8,
@@ -328,17 +339,6 @@
         "p": 6,
         "gf": 65,
         "gc": 44,
-        "pts": 25
-      },
-      {
-        "posicion": 7,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 14,
-        "g": 8,
-        "e": 1,
-        "p": 5,
-        "gf": 73,
-        "gc": 65,
         "pts": 25
       },
       {
@@ -388,12 +388,12 @@
       {
         "posicion": 12,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 52,
-        "gc": 72,
+        "gc": 77,
         "pts": 16
       },
       {
@@ -444,6 +444,17 @@
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 15,
+        "g": 14,
+        "e": 0,
+        "p": 1,
+        "gf": 97,
+        "gc": 20,
+        "pts": 42
+      },
+      {
+        "posicion": 2,
         "equipo": "RIVADAVIA 87",
         "pj": 14,
         "g": 14,
@@ -452,17 +463,6 @@
         "gf": 84,
         "gc": 37,
         "pts": 42
-      },
-      {
-        "posicion": 2,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 14,
-        "g": 13,
-        "e": 0,
-        "p": 1,
-        "gf": 90,
-        "gc": 20,
-        "pts": 39
       },
       {
         "posicion": 3,
@@ -555,12 +555,12 @@
       {
         "posicion": 11,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 53,
-        "gc": 53,
+        "gc": 60,
         "pts": 16
       },
       {
@@ -623,13 +623,13 @@
       {
         "posicion": 1,
         "equipo": "LUNA DE MATANZA",
-        "pj": 14,
-        "g": 13,
+        "pj": 15,
+        "g": 14,
         "e": 1,
         "p": 0,
-        "gf": 80,
-        "gc": 41,
-        "pts": 40
+        "gf": 89,
+        "gc": 42,
+        "pts": 43
       },
       {
         "posicion": 2,
@@ -755,12 +755,12 @@
       {
         "posicion": 13,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 4,
-        "p": 8,
-        "gf": 30,
-        "gc": 48,
+        "p": 9,
+        "gf": 31,
+        "gc": 57,
         "pts": 10
       },
       {
@@ -2057,13 +2057,13 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 147,
-        "g": 97,
+        "pj": 148,
+        "g": 98,
         "e": 10,
         "p": 40,
-        "gf": 872,
-        "gc": 497,
-        "pts": 301,
+        "gf": 880,
+        "gc": 500,
+        "pts": 304,
         "posicion": 2
       },
       {
@@ -2079,14 +2079,25 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 137,
+        "pj": 138,
         "g": 83,
         "e": 18,
-        "p": 36,
-        "gf": 630,
-        "gc": 325,
+        "p": 37,
+        "gf": 633,
+        "gc": 333,
         "pts": 267,
         "posicion": 4
+      },
+      {
+        "equipo": "LUNA DE MATANZA",
+        "pj": 149,
+        "g": 77,
+        "e": 10,
+        "p": 62,
+        "gf": 583,
+        "gc": 475,
+        "pts": 241,
+        "posicion": 5
       },
       {
         "equipo": "ROTONDA",
@@ -2097,7 +2108,7 @@
         "gf": 568,
         "gc": 509,
         "pts": 239,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -2108,7 +2119,7 @@
         "gf": 524,
         "gc": 459,
         "pts": 232,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "ATENEO HAEDO",
@@ -2119,27 +2130,16 @@
         "gf": 551,
         "gc": 481,
         "pts": 231,
-        "posicion": 7
-      },
-      {
-        "equipo": "LUNA DE MATANZA",
-        "pj": 145,
-        "g": 73,
-        "e": 10,
-        "p": 62,
-        "gf": 558,
-        "gc": 473,
-        "pts": 229,
         "posicion": 8
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 145,
+        "pj": 149,
         "g": 66,
         "e": 17,
-        "p": 62,
-        "gf": 506,
-        "gc": 460,
+        "p": 66,
+        "gf": 508,
+        "gc": 485,
         "pts": 215,
         "posicion": 9
       },
@@ -19828,27 +19828,19 @@
           "local": "INDEPENDIENTE DE BECCAR",
           "visitante": "MARCHIGIANA",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 148204,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 21:30",
-              "sede": "Inmaculada Concepción ",
-              "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148324,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 20:00",
               "sede": "Inmaculada Concepción ",
               "direccion": "Santa Brígida 7100 - José leon Suárez ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260706-031119-1001031543.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260706-031121-1001031542.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148444,
@@ -19971,6 +19963,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-213545-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260705-213536-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 148204,
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 21:30",
+              "sede": "Inmaculada Concepción ",
+              "direccion": "Santa Brígida 7100 - José leon Suárez ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260706-040651-1001333410.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260706-040652-1001333409.jpg"
               ]
             }
           },
@@ -20137,47 +20143,45 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148206,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 22:30",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043459-298477.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043500-298478.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148326,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 21:00",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043257-298385.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043300-298386.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 148446,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 19:45",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 148566,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 18:30",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043108-298353.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-043108-298354.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148686,
@@ -20269,6 +20273,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-195033-298101.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260705-195038-298102.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148566,
+              "goles_local": 9,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 18:30",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-042914-298351.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260706-042918-298352.jpg"
               ]
             }
           },
