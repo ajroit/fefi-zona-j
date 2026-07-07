@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T08:27:06.693563Z",
+  "actualizado": "2026-07-07T07:48:30.274719Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -844,6 +844,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 15,
+        "g": 8,
+        "e": 2,
+        "p": 5,
+        "gf": 59,
+        "gc": 40,
+        "pts": 26
+      },
+      {
+        "posicion": 6,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 15,
         "g": 8,
@@ -854,7 +865,7 @@
         "pts": 25
       },
       {
-        "posicion": 6,
+        "posicion": 7,
         "equipo": "ATENEO HAEDO",
         "pj": 15,
         "g": 8,
@@ -865,7 +876,7 @@
         "pts": 24
       },
       {
-        "posicion": 7,
+        "posicion": 8,
         "equipo": "BPNA",
         "pj": 14,
         "g": 8,
@@ -874,17 +885,6 @@
         "gf": 49,
         "gc": 47,
         "pts": 24
-      },
-      {
-        "posicion": 8,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 14,
-        "g": 7,
-        "e": 2,
-        "p": 5,
-        "gf": 54,
-        "gc": 40,
-        "pts": 23
       },
       {
         "posicion": 9,
@@ -966,18 +966,29 @@
       {
         "posicion": 16,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 12,
-        "gc": 66,
+        "gc": 71,
         "pts": 6
       }
     ],
     "SEPTIMA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 15,
+        "g": 14,
+        "e": 0,
+        "p": 1,
+        "gf": 137,
+        "gc": 18,
+        "pts": 42
+      },
+      {
+        "posicion": 2,
         "equipo": "HAEDO JUNIOR",
         "pj": 15,
         "g": 14,
@@ -986,17 +997,6 @@
         "gf": 65,
         "gc": 8,
         "pts": 42
-      },
-      {
-        "posicion": 2,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
-        "g": 13,
-        "e": 0,
-        "p": 1,
-        "gf": 132,
-        "gc": 18,
-        "pts": 39
       },
       {
         "posicion": 3,
@@ -1034,12 +1034,12 @@
       {
         "posicion": 6,
         "equipo": "MARCHIGIANA",
-        "pj": 13,
+        "pj": 14,
         "g": 9,
         "e": 1,
-        "p": 3,
+        "p": 4,
         "gf": 56,
-        "gc": 22,
+        "gc": 27,
         "pts": 28
       },
       {
@@ -1067,38 +1067,49 @@
       {
         "posicion": 9,
         "equipo": "ESTRADA FUTSAL",
-        "pj": 13,
-        "g": 5,
+        "pj": 15,
+        "g": 6,
         "e": 0,
-        "p": 8,
-        "gf": 29,
-        "gc": 48,
-        "pts": 15
+        "p": 9,
+        "gf": 34,
+        "gc": 53,
+        "pts": 18
       },
       {
         "posicion": 10,
-        "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "equipo": "JUVENTUD",
+        "pj": 15,
         "g": 5,
-        "e": 0,
+        "e": 1,
         "p": 9,
-        "gf": 27,
-        "gc": 56,
-        "pts": 15
+        "gf": 29,
+        "gc": 75,
+        "pts": 16
       },
       {
         "posicion": 11,
-        "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 24,
-        "gc": 75,
-        "pts": 13
+        "equipo": "CIENCIA Y LABOR",
+        "pj": 15,
+        "g": 5,
+        "e": 0,
+        "p": 10,
+        "gf": 27,
+        "gc": 61,
+        "pts": 15
       },
       {
         "posicion": 12,
+        "equipo": "DEPORTIVO ABBAS",
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 29,
+        "gc": 79,
+        "pts": 12
+      },
+      {
+        "posicion": 13,
         "equipo": "VILLA RITA",
         "pj": 14,
         "g": 3,
@@ -1109,7 +1120,7 @@
         "pts": 9
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "RIVADAVIA 87",
         "pj": 14,
         "g": 3,
@@ -1117,17 +1128,6 @@
         "p": 11,
         "gf": 22,
         "gc": 70,
-        "pts": 9
-      },
-      {
-        "posicion": 14,
-        "equipo": "DEPORTIVO ABBAS",
-        "pj": 14,
-        "g": 3,
-        "e": 0,
-        "p": 11,
-        "gf": 24,
-        "gc": 79,
         "pts": 9
       },
       {
@@ -1144,12 +1144,12 @@
       {
         "posicion": 16,
         "equipo": "VILLA SAHORES",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 6,
-        "gc": 89,
+        "gc": 94,
         "pts": 3
       }
     ],
@@ -1178,6 +1178,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 15,
+        "g": 10,
+        "e": 0,
+        "p": 5,
+        "gf": 55,
+        "gc": 31,
+        "pts": 30
+      },
+      {
+        "posicion": 4,
         "equipo": "ROTONDA",
         "pj": 15,
         "g": 9,
@@ -1188,7 +1199,7 @@
         "pts": 29
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "HAEDO JUNIOR",
         "pj": 15,
         "g": 8,
@@ -1199,7 +1210,7 @@
         "pts": 27
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "MARCHIGIANA",
         "pj": 13,
         "g": 8,
@@ -1207,17 +1218,6 @@
         "p": 2,
         "gf": 46,
         "gc": 26,
-        "pts": 27
-      },
-      {
-        "posicion": 6,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 14,
-        "g": 9,
-        "e": 0,
-        "p": 5,
-        "gf": 50,
-        "gc": 31,
         "pts": 27
       },
       {
@@ -1245,12 +1245,12 @@
       {
         "posicion": 9,
         "equipo": "CIENCIA Y LABOR",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 43,
-        "gc": 38,
+        "gc": 43,
         "pts": 21
       },
       {
@@ -1334,6 +1334,17 @@
     "2016 PROMOCIONALES": [
       {
         "posicion": 1,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 15,
+        "g": 12,
+        "e": 1,
+        "p": 2,
+        "gf": 64,
+        "gc": 26,
+        "pts": 37
+      },
+      {
+        "posicion": 2,
         "equipo": "MARCHIGIANA",
         "pj": 14,
         "g": 11,
@@ -1341,17 +1352,6 @@
         "p": 2,
         "gf": 82,
         "gc": 18,
-        "pts": 34
-      },
-      {
-        "posicion": 2,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 14,
-        "g": 11,
-        "e": 1,
-        "p": 2,
-        "gf": 59,
-        "gc": 26,
         "pts": 34
       },
       {
@@ -1489,12 +1489,12 @@
       {
         "posicion": 15,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 19,
-        "gc": 73,
+        "gc": 78,
         "pts": 6
       },
       {
@@ -1534,6 +1534,17 @@
       },
       {
         "posicion": 3,
+        "equipo": "MARCHIGIANA",
+        "pj": 14,
+        "g": 10,
+        "e": 1,
+        "p": 3,
+        "gf": 87,
+        "gc": 28,
+        "pts": 31
+      },
+      {
+        "posicion": 4,
         "equipo": "CIENCIA Y LABOR",
         "pj": 15,
         "g": 10,
@@ -1544,7 +1555,7 @@
         "pts": 31
       },
       {
-        "posicion": 4,
+        "posicion": 5,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 15,
         "g": 9,
@@ -1553,17 +1564,6 @@
         "gf": 57,
         "gc": 23,
         "pts": 29
-      },
-      {
-        "posicion": 5,
-        "equipo": "MARCHIGIANA",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
-        "p": 3,
-        "gf": 83,
-        "gc": 26,
-        "pts": 28
       },
       {
         "posicion": 6,
@@ -1590,12 +1590,12 @@
       {
         "posicion": 8,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 2,
-        "p": 5,
-        "gf": 39,
-        "gc": 41,
+        "p": 6,
+        "gf": 41,
+        "gc": 45,
         "pts": 23
       },
       {
@@ -1612,13 +1612,13 @@
       {
         "posicion": 10,
         "equipo": "PEDRO LOZANO",
-        "pj": 14,
-        "g": 6,
+        "pj": 15,
+        "g": 7,
         "e": 2,
         "p": 6,
-        "gf": 32,
+        "gf": 37,
         "gc": 61,
-        "pts": 20
+        "pts": 23
       },
       {
         "posicion": 11,
@@ -1634,16 +1634,27 @@
       {
         "posicion": 12,
         "equipo": "ATENEO HAEDO",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 30,
-        "gc": 73,
+        "gc": 78,
         "pts": 12
       },
       {
         "posicion": 13,
+        "equipo": "RIVADAVIA 87",
+        "pj": 12,
+        "g": 3,
+        "e": 0,
+        "p": 9,
+        "gf": 16,
+        "gc": 44,
+        "pts": 9
+      },
+      {
+        "posicion": 14,
         "equipo": "BPNA",
         "pj": 14,
         "g": 3,
@@ -1654,25 +1665,14 @@
         "pts": 9
       },
       {
-        "posicion": 14,
-        "equipo": "RIVADAVIA 87",
-        "pj": 11,
-        "g": 2,
-        "e": 0,
-        "p": 9,
-        "gf": 11,
-        "gc": 44,
-        "pts": 6
-      },
-      {
         "posicion": 15,
         "equipo": "LUNA DE MATANZA",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 13,
-        "gc": 71,
+        "gc": 76,
         "pts": 6
       },
       {
@@ -1768,16 +1768,27 @@
       {
         "posicion": 8,
         "equipo": "ATENEO HAEDO",
-        "pj": 13,
-        "g": 6,
+        "pj": 14,
+        "g": 7,
         "e": 0,
         "p": 7,
-        "gf": 37,
+        "gf": 42,
         "gc": 38,
-        "pts": 18
+        "pts": 21
       },
       {
         "posicion": 9,
+        "equipo": "ESTRADA FUTSAL",
+        "pj": 15,
+        "g": 6,
+        "e": 1,
+        "p": 8,
+        "gf": 36,
+        "gc": 56,
+        "pts": 19
+      },
+      {
+        "posicion": 10,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 15,
         "g": 6,
@@ -1788,25 +1799,14 @@
         "pts": 18
       },
       {
-        "posicion": 10,
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 14,
-        "g": 5,
-        "e": 1,
-        "p": 8,
-        "gf": 31,
-        "gc": 56,
-        "pts": 16
-      },
-      {
         "posicion": 11,
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 25,
-        "gc": 61,
+        "gc": 66,
         "pts": 13
       },
       {
@@ -1823,12 +1823,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 26,
-        "gc": 80,
+        "gc": 85,
         "pts": 10
       },
       {
@@ -1845,23 +1845,23 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 0,
+        "pj": 15,
+        "g": 1,
         "e": 3,
         "p": 11,
-        "gf": 11,
+        "gf": 16,
         "gc": 65,
-        "pts": 3
+        "pts": 6
       },
       {
         "posicion": 16,
         "equipo": "VILLA SAHORES",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 0,
-        "gc": 55,
+        "gc": 60,
         "pts": 0
       }
     ],
@@ -2057,14 +2057,25 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 148,
-        "g": 98,
+        "pj": 150,
+        "g": 99,
         "e": 10,
-        "p": 40,
-        "gf": 880,
-        "gc": 500,
-        "pts": 304,
+        "p": 41,
+        "gf": 887,
+        "gc": 504,
+        "pts": 307,
         "posicion": 2
+      },
+      {
+        "equipo": "MARCHIGIANA",
+        "pj": 140,
+        "g": 84,
+        "e": 18,
+        "p": 38,
+        "gf": 637,
+        "gc": 340,
+        "pts": 270,
+        "posicion": 3
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -2075,29 +2086,29 @@
         "gf": 545,
         "gc": 370,
         "pts": 270,
-        "posicion": 3
-      },
-      {
-        "equipo": "MARCHIGIANA",
-        "pj": 138,
-        "g": 83,
-        "e": 18,
-        "p": 37,
-        "gf": 633,
-        "gc": 333,
-        "pts": 267,
         "posicion": 4
       },
       {
-        "equipo": "LUNA DE MATANZA",
+        "equipo": "ESTRADA FUTSAL",
         "pj": 149,
+        "g": 79,
+        "e": 10,
+        "p": 60,
+        "gf": 549,
+        "gc": 464,
+        "pts": 247,
+        "posicion": 5
+      },
+      {
+        "equipo": "LUNA DE MATANZA",
+        "pj": 150,
         "g": 77,
         "e": 10,
-        "p": 62,
+        "p": 63,
         "gf": 583,
-        "gc": 475,
+        "gc": 480,
         "pts": 241,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "ROTONDA",
@@ -2108,60 +2119,49 @@
         "gf": 568,
         "gc": 509,
         "pts": 239,
-        "posicion": 6
-      },
-      {
-        "equipo": "ESTRADA FUTSAL",
-        "pj": 143,
-        "g": 74,
-        "e": 10,
-        "p": 59,
-        "gf": 524,
-        "gc": 459,
-        "pts": 232,
         "posicion": 7
       },
       {
         "equipo": "ATENEO HAEDO",
-        "pj": 146,
-        "g": 75,
+        "pj": 148,
+        "g": 76,
         "e": 6,
-        "p": 65,
-        "gf": 551,
-        "gc": 481,
-        "pts": 231,
+        "p": 66,
+        "gf": 556,
+        "gc": 486,
+        "pts": 234,
         "posicion": 8
       },
       {
         "equipo": "PEDRO LOZANO",
-        "pj": 149,
-        "g": 66,
+        "pj": 150,
+        "g": 67,
         "e": 17,
         "p": 66,
-        "gf": 508,
+        "gf": 513,
         "gc": 485,
-        "pts": 215,
+        "pts": 218,
         "posicion": 9
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 135,
-        "g": 66,
+        "pj": 137,
+        "g": 67,
         "e": 13,
-        "p": 56,
-        "gf": 504,
-        "gc": 486,
-        "pts": 211,
+        "p": 57,
+        "gf": 509,
+        "gc": 491,
+        "pts": 214,
         "posicion": 10
       },
       {
         "equipo": "CIENCIA Y LABOR",
-        "pj": 146,
+        "pj": 149,
         "g": 64,
         "e": 10,
-        "p": 72,
+        "p": 75,
         "gf": 469,
-        "gc": 504,
+        "gc": 519,
         "pts": 202,
         "posicion": 11
       },
@@ -2178,35 +2178,35 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 146,
-        "g": 40,
+        "pj": 148,
+        "g": 42,
         "e": 18,
         "p": 88,
-        "gf": 384,
+        "gf": 394,
         "gc": 740,
-        "pts": 138,
+        "pts": 144,
         "posicion": 13
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 142,
+        "pj": 144,
         "g": 38,
         "e": 9,
-        "p": 95,
+        "p": 97,
         "gf": 266,
-        "gc": 601,
+        "gc": 611,
         "pts": 123,
         "posicion": 14
       },
       {
         "equipo": "DEPORTIVO ABBAS",
-        "pj": 145,
-        "g": 34,
+        "pj": 148,
+        "g": 35,
         "e": 11,
-        "p": 100,
-        "gf": 337,
-        "gc": 676,
-        "pts": 113,
+        "p": 102,
+        "gf": 342,
+        "gc": 686,
+        "pts": 116,
         "posicion": 15
       },
       {
@@ -10452,9 +10452,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 148623,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-02 16:00",
               "sede": "CEDEM 3",
@@ -10463,9 +10463,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148743,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-02 15:00",
               "sede": "CEDEM 3",
@@ -10474,9 +10474,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 148863,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-05-02 14:00",
               "sede": "CEDEM 3",
@@ -19554,9 +19554,9 @@
             },
             "2017 PROMOCIONALES": {
               "match_id": 149162,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -19660,7 +19660,7 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149282,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -19737,7 +19737,7 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149043,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -19771,21 +19771,10 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260704-163517-image.jpg"
               ]
             },
-            "2018 PROMOCIONALES": {
-              "match_id": 149283,
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-04 11:30",
-              "sede": "Complejo San José ",
-              "direccion": "Perón 7100, Martin Coronado",
-              "planillas": null
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 148803,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-04 15:30",
@@ -19820,6 +19809,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260705-030808-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mkdwkhjwg5nyssotem0amedb9ms2/20260705-030815-image.jpg"
               ]
+            },
+            "2018 PROMOCIONALES": {
+              "match_id": 149283,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-04 11:30",
+              "sede": "Complejo San José ",
+              "direccion": "Perón 7100, Martin Coronado",
+              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -19939,7 +19939,7 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148804,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -20058,7 +20058,7 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148805,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -20114,9 +20114,9 @@
             },
             "2018 PROMOCIONALES": {
               "match_id": 149285,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -20252,9 +20252,9 @@
             },
             "2017 PROMOCIONALES": {
               "match_id": 149166,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -20549,20 +20549,6 @@
               "direccion": null,
               "planillas": null
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 149048,
-              "goles_local": 4,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-05 10:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141417-1000284514.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141419-1000284515.jpg"
-              ]
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149168,
               "goles_local": 2,
@@ -20575,6 +20561,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-150730-1000284530.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-150739-1000284531.jpg"
+              ]
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 149048,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 10:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141417-1000284514.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141419-1000284515.jpg"
               ]
             },
             "QUINTA MASCULINO": {

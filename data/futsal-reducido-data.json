@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T08:27:13.033651Z",
+  "actualizado": "2026-07-07T07:48:35.762584Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -56,20 +56,20 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen_de_WhatsApp_2025-03-17_a_las_13.21.52_cce7a3bd-removebg-preview%20(1).png"
     },
     {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
-    },
-    {
-      "nombre": "SUD AMERICA",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
-    },
-    {
       "nombre": "PARQUE CHAS",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5c72d796-936e-4537-a87a-9a4e5ddbc1b8.png"
     },
     {
       "nombre": "CRISOL JUVENTUD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205804-images__1_.png"
+    },
+    {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
+    },
+    {
+      "nombre": "SUD AMERICA",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
     },
     {
       "nombre": "ARGENTINO DE MATADEROS",
@@ -137,12 +137,12 @@
       {
         "posicion": 5,
         "equipo": "PACHECO SUR",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 1,
-        "p": 4,
-        "gf": 77,
-        "gc": 56,
+        "p": 5,
+        "gf": 81,
+        "gc": 63,
         "pts": 28
       },
       {
@@ -181,12 +181,12 @@
       {
         "posicion": 9,
         "equipo": "VICTORIA",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 4,
-        "p": 4,
-        "gf": 85,
-        "gc": 72,
+        "p": 5,
+        "gf": 89,
+        "gc": 78,
         "pts": 19
       },
       {
@@ -202,6 +202,28 @@
       },
       {
         "posicion": 11,
+        "equipo": "PARQUE CHAS",
+        "pj": 15,
+        "g": 5,
+        "e": 2,
+        "p": 8,
+        "gf": 56,
+        "gc": 88,
+        "pts": 17
+      },
+      {
+        "posicion": 12,
+        "equipo": "CRISOL JUVENTUD",
+        "pj": 15,
+        "g": 5,
+        "e": 1,
+        "p": 9,
+        "gf": 58,
+        "gc": 77,
+        "pts": 16
+      },
+      {
+        "posicion": 13,
         "equipo": "VILLA SAHORES",
         "pj": 14,
         "g": 5,
@@ -212,7 +234,7 @@
         "pts": 16
       },
       {
-        "posicion": 12,
+        "posicion": 14,
         "equipo": "SUD AMERICA",
         "pj": 14,
         "g": 4,
@@ -221,28 +243,6 @@
         "gf": 57,
         "gc": 83,
         "pts": 15
-      },
-      {
-        "posicion": 13,
-        "equipo": "PARQUE CHAS",
-        "pj": 14,
-        "g": 4,
-        "e": 2,
-        "p": 8,
-        "gf": 49,
-        "gc": 84,
-        "pts": 14
-      },
-      {
-        "posicion": 14,
-        "equipo": "CRISOL JUVENTUD",
-        "pj": 14,
-        "g": 4,
-        "e": 1,
-        "p": 9,
-        "gf": 52,
-        "gc": 73,
-        "pts": 13
       },
       {
         "posicion": 15,
@@ -525,6 +525,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "MAYO FUTSAL",
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 65,
+        "gc": 35,
+        "pts": 31
+      },
+      {
+        "posicion": 5,
         "equipo": "CAPITAN ROSALES",
         "pj": 15,
         "g": 9,
@@ -533,17 +544,6 @@
         "gf": 78,
         "gc": 62,
         "pts": 30
-      },
-      {
-        "posicion": 5,
-        "equipo": "MAYO FUTSAL",
-        "pj": 15,
-        "g": 9,
-        "e": 2,
-        "p": 4,
-        "gf": 62,
-        "gc": 37,
-        "pts": 29
       },
       {
         "posicion": 6,
@@ -572,11 +572,11 @@
         "equipo": "EL IDEAL",
         "pj": 14,
         "g": 6,
-        "e": 3,
-        "p": 5,
-        "gf": 54,
-        "gc": 43,
-        "pts": 21
+        "e": 2,
+        "p": 6,
+        "gf": 52,
+        "gc": 46,
+        "pts": 20
       },
       {
         "posicion": 9,
@@ -1525,57 +1525,57 @@
       },
       {
         "equipo": "VICTORIA",
-        "pj": 102,
+        "pj": 103,
         "g": 70,
         "e": 7,
-        "p": 25,
-        "gf": 592,
-        "gc": 359,
+        "p": 26,
+        "gf": 596,
+        "gc": 365,
         "pts": 217,
         "posicion": 4
       },
       {
         "equipo": "MAYO FUTSAL",
         "pj": 105,
-        "g": 68,
-        "e": 5,
+        "g": 69,
+        "e": 4,
         "p": 32,
-        "gf": 580,
-        "gc": 296,
-        "pts": 209,
+        "gf": 583,
+        "gc": 294,
+        "pts": 211,
         "posicion": 5
       },
       {
         "equipo": "EL IDEAL",
         "pj": 97,
         "g": 55,
-        "e": 13,
-        "p": 29,
-        "gf": 495,
-        "gc": 320,
-        "pts": 178,
+        "e": 12,
+        "p": 30,
+        "gf": 493,
+        "gc": 323,
+        "pts": 177,
         "posicion": 6
       },
       {
         "equipo": "PACHECO SUR",
-        "pj": 104,
+        "pj": 105,
         "g": 52,
         "e": 16,
-        "p": 36,
-        "gf": 477,
-        "gc": 396,
+        "p": 37,
+        "gf": 481,
+        "gc": 403,
         "pts": 172,
         "posicion": 7
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 102,
-        "g": 51,
+        "pj": 103,
+        "g": 52,
         "e": 11,
         "p": 40,
-        "gf": 480,
-        "gc": 401,
-        "pts": 164,
+        "gf": 487,
+        "gc": 405,
+        "pts": 167,
         "posicion": 8
       },
       {
@@ -1668,13 +1668,13 @@
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 103,
-        "g": 17,
+        "pj": 104,
+        "g": 18,
         "e": 4,
         "p": 82,
-        "gf": 254,
-        "gc": 610,
-        "pts": 55,
+        "gf": 260,
+        "gc": 614,
+        "pts": 58,
         "posicion": 17
       },
       {
@@ -13128,8 +13128,8 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149827,
-              "goles_local": 2,
-              "goles_visitante": 2,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-21 18:00",
@@ -14657,14 +14657,17 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149536,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 7,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 20:15",
               "sede": "Pacheco sur",
               "direccion": "Alberdi 823, Pacheco",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260706-145132-1001156181.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-khw3uaqwkfblnnadwgsioa1yy073/20260706-145138-1001156182.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 149689,
@@ -15287,17 +15290,6 @@
               "direccion": null,
               "planillas": null
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149542,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 19:15",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149695,
               "goles_local": 8,
@@ -15338,6 +15330,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260705-202253-inbound365706811444653438.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260705-202256-inbound5233025757022211679.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149542,
+              "goles_local": 4,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 19:15",
+              "sede": "Club Victoria",
+              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260706-160645-inbound3237784190251560761.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-idgxfrbblrs0imm4wl2sdnveuna2/20260706-160655-inbound3554554245240826393.jpg"
               ]
             }
           },

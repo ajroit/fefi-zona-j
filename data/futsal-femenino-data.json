@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T08:27:16.094213Z",
+  "actualizado": "2026-07-07T07:48:38.692428Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -111,13 +111,13 @@
       {
         "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 14,
-        "g": 10,
+        "pj": 15,
+        "g": 11,
         "e": 2,
         "p": 2,
-        "gf": 46,
-        "gc": 13,
-        "pts": 32
+        "gf": 51,
+        "gc": 15,
+        "pts": 35
       },
       {
         "posicion": 4,
@@ -188,12 +188,12 @@
       {
         "posicion": 10,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 5,
-        "p": 5,
-        "gf": 16,
-        "gc": 27,
+        "p": 6,
+        "gf": 18,
+        "gc": 32,
         "pts": 17
       },
       {
@@ -544,24 +544,24 @@
       {
         "posicion": 6,
         "equipo": "VILLA SAHORES",
-        "pj": 14,
-        "g": 8,
+        "pj": 15,
+        "g": 9,
         "e": 2,
         "p": 4,
-        "gf": 27,
+        "gf": 32,
         "gc": 18,
-        "pts": 26
+        "pts": 29
       },
       {
         "posicion": 7,
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 13,
-        "g": 8,
+        "pj": 14,
+        "g": 9,
         "e": 1,
         "p": 4,
-        "gf": 26,
+        "gf": 31,
         "gc": 16,
-        "pts": 25
+        "pts": 28
       },
       {
         "posicion": 8,
@@ -587,6 +587,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 14,
+        "g": 6,
+        "e": 2,
+        "p": 6,
+        "gf": 29,
+        "gc": 22,
+        "pts": 20
+      },
+      {
+        "posicion": 11,
         "equipo": "MAVIA FC",
         "pj": 14,
         "g": 6,
@@ -597,7 +608,7 @@
         "pts": 20
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "EL GALPON",
         "pj": 13,
         "g": 6,
@@ -606,17 +617,6 @@
         "gf": 20,
         "gc": 16,
         "pts": 18
-      },
-      {
-        "posicion": 12,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 13,
-        "g": 5,
-        "e": 2,
-        "p": 6,
-        "gf": 24,
-        "gc": 22,
-        "pts": 17
       },
       {
         "posicion": 13,
@@ -654,12 +654,12 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 10,
-        "gc": 46,
+        "gc": 51,
         "pts": 6
       },
       {
@@ -676,12 +676,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 12,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 12,
+        "p": 14,
         "gf": 0,
-        "gc": 60,
+        "gc": 70,
         "pts": 0
       }
     ],
@@ -721,24 +721,24 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 44,
-        "g": 29,
+        "pj": 45,
+        "g": 30,
         "e": 5,
         "p": 10,
-        "gf": 107,
+        "gf": 112,
         "gc": 53,
-        "pts": 92,
+        "pts": 95,
         "posicion": 4
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 44,
-        "g": 28,
+        "pj": 45,
+        "g": 29,
         "e": 6,
         "p": 10,
-        "gf": 117,
-        "gc": 46,
-        "pts": 90,
+        "gf": 122,
+        "gc": 48,
+        "pts": 93,
         "posicion": 5
       },
       {
@@ -754,35 +754,35 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 44,
+        "pj": 45,
         "g": 19,
         "e": 13,
-        "p": 12,
-        "gf": 73,
-        "gc": 59,
+        "p": 13,
+        "gf": 75,
+        "gc": 64,
         "pts": 70,
         "posicion": 7
       },
       {
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 41,
-        "g": 19,
+        "pj": 42,
+        "g": 20,
         "e": 6,
         "p": 16,
-        "gf": 74,
+        "gf": 79,
         "gc": 65,
-        "pts": 63,
+        "pts": 66,
         "posicion": 8
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 43,
-        "g": 18,
+        "pj": 44,
+        "g": 19,
         "e": 5,
         "p": 20,
-        "gf": 87,
+        "gf": 92,
         "gc": 103,
-        "pts": 59,
+        "pts": 62,
         "posicion": 9
       },
       {
@@ -831,12 +831,12 @@
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 41,
+        "pj": 42,
         "g": 13,
         "e": 6,
-        "p": 22,
+        "p": 23,
         "gf": 72,
-        "gc": 114,
+        "gc": 119,
         "pts": 45,
         "posicion": 14
       },
@@ -875,12 +875,12 @@
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 42,
+        "pj": 44,
         "g": 1,
         "e": 2,
-        "p": 39,
+        "p": 41,
         "gf": 18,
-        "gc": 202,
+        "gc": 212,
         "pts": 5,
         "posicion": 18
       }
@@ -6844,9 +6844,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152547,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6993,9 +6993,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152550,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7197,9 +7197,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152554,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7311,17 +7311,6 @@
           "local": "CENTRO ASTURIANO",
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152251,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 21:00",
-              "sede": "Centro Asturiano Sede Deportiva Vicente López",
-              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152404,
               "goles_local": 0,
@@ -7334,6 +7323,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235503-17832956880922943619058563174560.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235426-17832956555692081932301949455825.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152251,
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 21:00",
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260706-191944-17833655041523217121719344620289.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260706-192128-17833656266565565856782822328537.jpg"
               ]
             },
             "UNICA ADULTAS FEMENINO ": {
