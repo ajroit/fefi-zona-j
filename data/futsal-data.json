@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-08T06:34:18.672743Z",
+  "actualizado": "2026-07-08T21:39:43.772522Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -17264,37 +17264,15 @@
           "local": "RIVADAVIA 87",
           "visitante": "MARCHIGIANA",
           "partidos": {
-            "CUARTA MASCULINO": {
-              "match_id": 148427,
+            "2017 PROMOCIONALES": {
+              "match_id": 149147,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 21:15",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 148547,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 20:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 148667,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 19:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17303,20 +17281,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 18:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
-              "planillas": null
-            },
-            "OCTAVA MASCULINO": {
-              "match_id": 148907,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-21 17:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
+              "fecha_hora": null,
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": null
             },
             "2016 PROMOCIONALES": {
@@ -17325,13 +17292,46 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 15:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
+              "fecha_hora": null,
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": null
             },
-            "2017 PROMOCIONALES": {
-              "match_id": 149147,
+            "CUARTA MASCULINO": {
+              "match_id": 148427,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148547,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 148667,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 148907,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -17347,9 +17347,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 16:00",
-              "sede": "San Jose",
-              "direccion": "Casullo 355",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "2019 PROMOCIONALES": {

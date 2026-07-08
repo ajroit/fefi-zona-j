@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-08T06:34:29.432290Z",
+  "actualizado": "2026-07-08T21:39:53.950749Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -7458,7 +7458,7 @@
     },
     {
       "numero": 16,
-      "fecha_partido": null,
+      "fecha_partido": "2026-07-12",
       "encuentros": [
         {
           "local": "ASTRA MACKIE",
@@ -7504,17 +7504,6 @@
           "local": "CULTURAL DE TAPIALES",
           "visitante": "CENTRO VK",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152255,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152408,
               "goles_local": null,
@@ -7536,6 +7525,17 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152255,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             }
           },
           "estado": "Pendiente"
@@ -7544,26 +7544,26 @@
           "local": "INDEPENDIENTE (C)",
           "visitante": "SOCIAL OESTE",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152562,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152256,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 16:00",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152562,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 13:30",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7572,9 +7572,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 14:45",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
               "planillas": null
             }
           },
@@ -7584,26 +7584,15 @@
           "local": "ALLENDE",
           "visitante": "CENTRO ASTURIANO",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152257,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152410,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 11:15",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7612,9 +7601,20 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 10:00",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
+              "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152257,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 12:30",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             }
           },
@@ -7624,26 +7624,26 @@
           "local": "VILLA SAHORES",
           "visitante": "17 DE AGOSTO",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152411,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152564,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": null
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152411,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 15:15",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": null
             },
             "PRIMERA ADULTAS FEMENINO ": {
@@ -7652,9 +7652,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 16:30",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
               "planillas": null
             }
           },
@@ -7744,26 +7744,15 @@
           "local": "VELEZ SARSFIELD",
           "visitante": "SACA DEL MEDIO",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152261,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152414,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 11:15",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7772,9 +7761,20 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 10:00",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
+              "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152261,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 12:30",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
               "planillas": null
             }
           },
@@ -7790,9 +7790,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 21:15",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7801,9 +7801,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 20:00",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
