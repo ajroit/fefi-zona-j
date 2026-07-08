@@ -176,6 +176,10 @@ function futsalFemeninoRenderCategorySelector() {
     btn.addEventListener("click", () => {
       futsalFemeninoCategoriaActual = btn.dataset.cat;
       localStorage.setItem(FUTSAL_FEMENINO_STORAGE_KEY, futsalFemeninoCategoriaActual);
+
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_category", { category_id: futsalFemeninoCategoriaActual, sport_id: "futsal-femenino" });
+      }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === futsalFemeninoCategoriaActual;
         b.classList.toggle("active", active);

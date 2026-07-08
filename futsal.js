@@ -224,6 +224,11 @@ function futsalRenderCategorySelector() {
     btn.addEventListener("click", () => {
       futsalCategoriaActual = btn.dataset.cat;
       localStorage.setItem(FUTSAL_STORAGE_KEY, futsalCategoriaActual);
+
+      if (typeof window.trackEvent === "function") {
+        const activeSport = (futsalSubTorneoActual === "duelos") ? "futsal-duelos" : "futsal";
+        window.trackEvent("select_category", { category_id: futsalCategoriaActual, sport_id: activeSport });
+      }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === futsalCategoriaActual;
         b.classList.toggle("active", active);
@@ -528,6 +533,10 @@ function setupFutsalSubTournamentSelector() {
 
       futsalSubTorneoActual = sub;
       localStorage.setItem(FUTSAL_SUBTORNEO_STORAGE_KEY, sub);
+
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_sub_tournament", { sub_tournament: sub });
+      }
 
       // Re-initialize dataset reference
       FUTSAL_DATA = (sub === "duelos") ? FUTSAL_DUELOS_DATA : FUTSAL_REGULAR_DATA;

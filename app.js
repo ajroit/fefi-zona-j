@@ -47,6 +47,10 @@ function setupSportSelector() {
       deporteActual = sport;
       localStorage.setItem(SPORT_STORAGE_KEY, sport);
 
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_sport", { sport_id: sport });
+      }
+
       // Actualizar botones
       document.querySelectorAll(".sport-btn").forEach(b => {
         b.classList.toggle("active", b.dataset.sport === sport);
@@ -194,6 +198,10 @@ function renderCategorySelector() {
     btn.addEventListener("click", () => {
       categoriaActual = btn.dataset.cat;
       localStorage.setItem(STORAGE_KEY, categoriaActual);
+
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_category", { category_id: categoriaActual, sport_id: "babyfutbol" });
+      }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === categoriaActual;
         b.classList.toggle("active", active);

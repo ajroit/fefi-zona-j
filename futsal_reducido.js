@@ -184,6 +184,10 @@ function futsalRedRenderCategorySelector() {
     btn.addEventListener("click", () => {
       futsalRedCategoriaActual = btn.dataset.cat;
       localStorage.setItem(FUTSAL_RED_STORAGE_KEY, futsalRedCategoriaActual);
+
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_category", { category_id: futsalRedCategoriaActual, sport_id: "futsal-reducido" });
+      }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === futsalRedCategoriaActual;
         b.classList.toggle("active", active);
