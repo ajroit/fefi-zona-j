@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-07T07:48:38.692428Z",
+  "actualizado": "2026-07-08T06:34:29.432290Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -7167,6 +7167,17 @@
           "local": "SAN TELMO",
           "visitante": "ESTRELLA FEDERAL",
           "partidos": {
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152554,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152248,
               "goles_local": 1,
@@ -7194,17 +7205,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-221335-inbound2375995350662939506.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260705-221347-inbound5112913831818448381.jpg"
               ]
-            },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152554,
-              "goles_local": 0,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
             }
           },
           "estado": "Finalizado"
@@ -7262,6 +7262,20 @@
           "local": "17 DE AGOSTO",
           "visitante": "ALLENDE",
           "partidos": {
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152556,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 09:00",
+              "sede": "Club 17 De Agosto",
+              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133019-1000642565.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133022-1000642566.jpg"
+              ]
+            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152250,
               "goles_local": 4,
@@ -7289,20 +7303,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-144429-1000642567.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-144440-1000642568.jpg"
               ]
-            },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152556,
-              "goles_local": 2,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-05 09:00",
-              "sede": "Club 17 De Agosto",
-              "direccion": "Av. Albarellos 2935, C1419FSC Cdad. Autónoma de Buenos Aires.",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133019-1000642565.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-srheiwy3dmgms7s8tgaddqh3bic2/20260705-133022-1000642566.jpg"
-              ]
             }
           },
           "estado": "Finalizado"
@@ -7311,20 +7311,6 @@
           "local": "CENTRO ASTURIANO",
           "visitante": "INDEPENDIENTE (C)",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152404,
-              "goles_local": 0,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-05 19:45",
-              "sede": "Centro Asturiano Sede Deportiva Vicente López",
-              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235503-17832956880922943619058563174560.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235426-17832956555692081932301949455825.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152251,
               "goles_local": 5,
@@ -7351,6 +7337,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-223816-17832910750534210100717153755136.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-223840-17832910999987864254042860081190.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152404,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 19:45",
+              "sede": "Centro Asturiano Sede Deportiva Vicente López",
+              "direccion": "Av. del Libertador 1081, B1638 Vicente López, Provincia de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235503-17832956880922943619058563174560.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-k50rjgo2xkfmnlvrq0zjppef1bb2/20260705-235426-17832956555692081932301949455825.jpg"
               ]
             }
           },
