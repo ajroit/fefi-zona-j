@@ -55,6 +55,11 @@ TORNEOS = [
         "cat_labels": FUTSAL_CAT_LABELS,
     },
     {
+        "id": "futsal-duelos", "nombre": "Futsal Liga de Honor - Duelos",
+        "archivo": "futsal-duelos-data.json", "label_corto": "Duelos Futsal",
+        "cat_labels": FUTSAL_CAT_LABELS,
+    },
+    {
         "id": "futsal-reducido", "nombre": "Futsal Reducido Zona A",
         "archivo": "futsal-reducido-data.json", "label_corto": "Futsal Reducido",
         "cat_labels": FUTSAL_CAT_LABELS,

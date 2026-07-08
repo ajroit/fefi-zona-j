@@ -51,6 +51,7 @@ jobs:
           cp -r images/* dist/images/ 2>/dev/null || true
           cp data/fefi-data.json dist/data/
           cp data/futsal-data.json dist/data/
+          cp data/futsal-duelos-data.json dist/data/
           cp data/futsal-reducido-data.json dist/data/
           cp data/futsal-femenino-data.json dist/data/ 2>/dev/null || true
           cp data/futsal-stats.json dist/data/ 2>/dev/null || true

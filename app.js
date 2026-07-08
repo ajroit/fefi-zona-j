@@ -74,6 +74,9 @@ function setupSportSelector() {
 async function switchToBabyFutbol() {
   const statsCard = document.getElementById("futsal-stats-card");
   if (statsCard) statsCard.style.display = "none";
+  
+  const subContainer = document.getElementById("sub-tournament-container");
+  if (subContainer) subContainer.style.display = "none";
 
   // Actualizar hero
   document.getElementById("hero-subtitle").textContent = "Club Social y Deportivo - Desde 1931";
@@ -124,6 +127,9 @@ async function switchToFutsal() {
 
 // ---- Cambio a Futsal Reducido ----
 async function switchToFutsalReducido() {
+  const subContainer = document.getElementById("sub-tournament-container");
+  if (subContainer) subContainer.style.display = "none";
+
   // Actualizar hero
   document.getElementById("hero-subtitle").textContent = "Futsal - Reducido";
   document.getElementById("badge-label").textContent = "Torneo Joma 2026";
@@ -138,6 +144,9 @@ async function switchToFutsalReducido() {
 
 // ---- Cambio a Futsal Femenino ----
 async function switchToFutsalFemenino() {
+  const subContainer = document.getElementById("sub-tournament-container");
+  if (subContainer) subContainer.style.display = "none";
+
   // Actualizar hero
   document.getElementById("hero-subtitle").textContent = "Futsal Femenino - Elite 1";
   document.getElementById("badge-label").textContent = "Torneo Joma 2026";

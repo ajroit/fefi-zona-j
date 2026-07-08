@@ -63,6 +63,7 @@ jobs:
       - name: Backup old Futsal data
         run: |
           cp data/futsal-data.json /tmp/futsal-data-old.json || true
+          cp data/futsal-duelos-data.json /tmp/futsal-duelos-data-old.json || true
           cp data/futsal-femenino-data.json /tmp/futsal-femenino-data-old.json || true
 
       - name: Run FEFI scraper
@@ -70,6 +71,9 @@ jobs:
 
       - name: Run Futsal fetcher
         run: python scraper/scraper_futsal.py
+
+      - name: Run Futsal Duelos fetcher
+        run: python scraper/scraper_futsal_duelos.py
 
       - name: Run Futsal Reducido fetcher
         run: python scraper/scraper_futsal_reducido.py
@@ -133,6 +137,7 @@ jobs:
           rivales = {}
           for fname, tid, foco in [
               ('data/futsal-data.json', 'futsal', 'VILLA SAHORES'),
+              ('data/futsal-duelos-data.json', 'futsal-duelos', 'VILLA SAHORES'),
               ('data/futsal-reducido-data.json', 'futsal-reducido', 'VILLA SAHORES'),
               ('data/futsal-femenino-data.json', 'futsal-femenino', 'VILLA SAHORES'),
               ('data/fefi-data.json', 'babyfutbol', 'CLUB SAHORES'),
