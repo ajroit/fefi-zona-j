@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-08T21:39:50.381642Z",
+  "actualizado": "2026-07-09T07:55:31.915515Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -13050,17 +13050,6 @@
               "direccion": "Santo Tomé 2496",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 150438,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-09 10:30",
-              "sede": "Villa sahores",
-              "direccion": "Santo Tomé 2496",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "match_id": 149520,
               "goles_local": null,
@@ -13101,6 +13090,17 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-07-09 13:30",
+              "sede": "Villa sahores",
+              "direccion": "Santo Tomé 2496",
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 150438,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-09 10:30",
               "sede": "Villa sahores",
               "direccion": "Santo Tomé 2496",
               "planillas": null
@@ -15902,9 +15902,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 20:15",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -15913,7 +15913,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-12 19:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
@@ -15924,29 +15924,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 150161,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 150314,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-12 18:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
@@ -15957,7 +15935,29 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": null
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 150314,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 15:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": null
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 150161,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 16:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
@@ -15968,7 +15968,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-12 17:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null

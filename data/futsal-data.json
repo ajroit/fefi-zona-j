@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-08T21:39:43.772522Z",
+  "actualizado": "2026-07-09T07:55:23.955032Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -17281,7 +17281,7 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-09 11:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
               "planillas": null
@@ -17292,35 +17292,13 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
+              "fecha_hora": "2026-07-10 09:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
               "planillas": null
             },
-            "CUARTA MASCULINO": {
-              "match_id": 148427,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 148547,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 148667,
+            "2018 PROMOCIONALES": {
+              "match_id": 149267,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -17336,20 +17314,42 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-10 10:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": null
             },
-            "2018 PROMOCIONALES": {
-              "match_id": 149267,
+            "SEXTA MASCULINO": {
+              "match_id": 148667,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-10 11:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 148547,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-10 12:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": null
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 148427,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-10 13:15",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
