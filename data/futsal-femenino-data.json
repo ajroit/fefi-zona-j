@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-09T07:55:35.251510Z",
+  "actualizado": "2026-07-10T07:43:21.281665Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -24,16 +24,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
+      "nombre": "ALLENDE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
+    },
+    {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
     },
     {
       "nombre": "ASTRA MACKIE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
-    },
-    {
-      "nombre": "ALLENDE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "EL GALPON",
@@ -121,6 +121,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ALLENDE",
+        "pj": 15,
+        "g": 9,
+        "e": 4,
+        "p": 2,
+        "gf": 51,
+        "gc": 18,
+        "pts": 31
+      },
+      {
+        "posicion": 5,
         "equipo": "VILLA SAHORES",
         "pj": 15,
         "g": 10,
@@ -131,7 +142,7 @@
         "pts": 31
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "ASTRA MACKIE",
         "pj": 15,
         "g": 9,
@@ -142,25 +153,14 @@
         "pts": 30
       },
       {
-        "posicion": 6,
-        "equipo": "ALLENDE",
-        "pj": 14,
-        "g": 8,
-        "e": 4,
-        "p": 2,
-        "gf": 49,
-        "gc": 17,
-        "pts": 28
-      },
-      {
         "posicion": 7,
         "equipo": "EL GALPON",
-        "pj": 14,
+        "pj": 15,
         "g": 8,
         "e": 2,
-        "p": 4,
-        "gf": 29,
-        "gc": 19,
+        "p": 5,
+        "gf": 30,
+        "gc": 21,
         "pts": 26
       },
       {
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "ALLENDE",
+        "pj": 15,
+        "g": 11,
+        "e": 2,
+        "p": 2,
+        "gf": 37,
+        "gc": 8,
+        "pts": 35
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA SAHORES",
         "pj": 15,
         "g": 11,
@@ -309,7 +320,7 @@
         "pts": 35
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "BROWN DE ADROGUE",
         "pj": 14,
         "g": 10,
@@ -318,17 +329,6 @@
         "gf": 37,
         "gc": 17,
         "pts": 33
-      },
-      {
-        "posicion": 4,
-        "equipo": "ALLENDE",
-        "pj": 14,
-        "g": 10,
-        "e": 2,
-        "p": 2,
-        "gf": 35,
-        "gc": 7,
-        "pts": 32
       },
       {
         "posicion": 5,
@@ -454,12 +454,12 @@
       {
         "posicion": 16,
         "equipo": "EL GALPON",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 4,
-        "p": 8,
-        "gf": 17,
-        "gc": 33,
+        "p": 9,
+        "gf": 18,
+        "gc": 35,
         "pts": 10
       },
       {
@@ -488,6 +488,17 @@
     "UNICA ADULTAS FEMENINO ": [
       {
         "posicion": 1,
+        "equipo": "ALLENDE",
+        "pj": 15,
+        "g": 14,
+        "e": 0,
+        "p": 1,
+        "gf": 44,
+        "gc": 10,
+        "pts": 42
+      },
+      {
+        "posicion": 2,
         "equipo": "SOCIAL OESTE",
         "pj": 15,
         "g": 13,
@@ -496,17 +507,6 @@
         "gf": 46,
         "gc": 7,
         "pts": 41
-      },
-      {
-        "posicion": 2,
-        "equipo": "ALLENDE",
-        "pj": 14,
-        "g": 13,
-        "e": 0,
-        "p": 1,
-        "gf": 41,
-        "gc": 10,
-        "pts": 39
       },
       {
         "posicion": 3,
@@ -610,12 +610,12 @@
       {
         "posicion": 12,
         "equipo": "EL GALPON",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 0,
-        "p": 7,
+        "p": 8,
         "gf": 20,
-        "gc": 16,
+        "gc": 19,
         "pts": 18
       },
       {
@@ -687,6 +687,17 @@
     ],
     "general": [
       {
+        "equipo": "ALLENDE",
+        "pj": 45,
+        "g": 34,
+        "e": 6,
+        "p": 5,
+        "gf": 132,
+        "gc": 36,
+        "pts": 108,
+        "posicion": 1
+      },
+      {
         "equipo": "17 DE AGOSTO",
         "pj": 45,
         "g": 34,
@@ -695,7 +706,7 @@
         "gf": 147,
         "gc": 40,
         "pts": 107,
-        "posicion": 1
+        "posicion": 2
       },
       {
         "equipo": "SOCIAL OESTE",
@@ -706,17 +717,6 @@
         "gf": 155,
         "gc": 41,
         "pts": 105,
-        "posicion": 2
-      },
-      {
-        "equipo": "ALLENDE",
-        "pj": 42,
-        "g": 31,
-        "e": 6,
-        "p": 5,
-        "gf": 125,
-        "gc": 34,
-        "pts": 99,
         "posicion": 3
       },
       {
@@ -798,12 +798,12 @@
       },
       {
         "equipo": "EL GALPON",
-        "pj": 41,
+        "pj": 44,
         "g": 16,
         "e": 6,
-        "p": 19,
-        "gf": 66,
-        "gc": 68,
+        "p": 22,
+        "gf": 68,
+        "gc": 75,
         "pts": 54,
         "posicion": 11
       },
@@ -4309,31 +4309,37 @@
           "local": "ALLENDE",
           "visitante": "EL GALPON",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152189,
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-09 20:30",
-              "sede": "EL GALPON",
-              "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152342,
-              "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-09 19:15",
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260709-234113-inbound1709820690585234406.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260709-234119-inbound706114954118215824.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152189,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-09 20:30",
+              "sede": "EL GALPON",
+              "direccion": "Quirno 333, Bella Vista",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260710-015648-inbound7421295398869562592.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260710-015710-inbound8750059302796753388.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152495,
-              "goles_local": 0,
+              "goles_local": 3,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -4341,8 +4347,8 @@
               "sede": "EL GALPON",
               "direccion": "Quirno 333, Bella Vista",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260510-133733-1000181585.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260510-133735-1000181584.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260709-222632-inbound5337244621849765743.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260709-222710-inbound1544547959272223919.jpg"
               ]
             }
           },
@@ -7458,7 +7464,7 @@
     },
     {
       "numero": 16,
-      "fecha_partido": "2026-07-12",
+      "fecha_partido": "2026-07-11",
       "encuentros": [
         {
           "local": "ASTRA MACKIE",
@@ -7470,9 +7476,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-11 16:45",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7481,9 +7487,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-11 15:30",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7492,9 +7498,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-11 14:15",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             }
           },
@@ -7670,9 +7676,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-10 22:30",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7681,9 +7687,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-10 21:15",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7692,9 +7698,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-10 20:00",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
               "planillas": null
             }
           },

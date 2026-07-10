@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-09T07:55:25.112297Z",
+  "actualizado": "2026-07-10T07:43:09.102611Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -926,17 +926,6 @@
           "local": "LUNA DE MATANZA",
           "visitante": "DEPORTIVO MORON",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "match_id": 202902,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 16:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 203398,
               "goles_local": null,
@@ -1002,6 +991,17 @@
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
               "planillas": null
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 202902,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-10 16:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": null
             }
           },
           "estado": "Pendiente"
@@ -1054,17 +1054,6 @@
               "direccion": "Libertad 5052, Villa Ballester",
               "planillas": null
             },
-            "CUARTA MASCULINO": {
-              "match_id": 205383,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 13:00",
-              "sede": "Club Social y Deportivo Las Heras",
-              "direccion": "Libertad 5052, Villa Ballester",
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "match_id": 205879,
               "goles_local": null,
@@ -1086,6 +1075,17 @@
               "sede": "Club Social y Deportivo Las Heras",
               "direccion": "Libertad 5052, Villa Ballester",
               "planillas": null
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 205383,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 13:00",
+              "sede": "Club Social y Deportivo Las Heras",
+              "direccion": "Libertad 5052, Villa Ballester",
+              "planillas": null
             }
           },
           "estado": "Pendiente"
@@ -1100,9 +1100,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 15:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -1111,9 +1111,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 14:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -1122,9 +1122,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 13:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -1133,9 +1133,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 19:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -1144,9 +1144,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 18:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -1155,9 +1155,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 17:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -1166,9 +1166,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 16:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             }
           },
@@ -1180,28 +1180,6 @@
           "partidos": {
             "SEPTIMA MASCULINO": {
               "match_id": 203401,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "OCTAVA MASCULINO": {
-              "match_id": 203897,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "PRIMERA MASCULINO": {
-              "match_id": 204393,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -1233,6 +1211,17 @@
               "direccion": null,
               "planillas": null
             },
+            "TERCERA MASCULINO": {
+              "match_id": 204889,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
             "SEXTA MASCULINO": {
               "match_id": 202905,
               "goles_local": null,
@@ -1244,8 +1233,19 @@
               "direccion": null,
               "planillas": null
             },
-            "TERCERA MASCULINO": {
-              "match_id": 204889,
+            "OCTAVA MASCULINO": {
+              "match_id": 203897,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 204393,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -1436,9 +1436,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -1447,9 +1447,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 13:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -1458,20 +1458,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "PRIMERA MASCULINO": {
-              "match_id": 204396,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 12:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -1480,9 +1469,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 17:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -1491,9 +1480,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 16:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -1502,9 +1491,20 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 15:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
+              "planillas": null
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 204396,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 18:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
               "planillas": null
             }
           },

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-09T07:55:23.955032Z",
+  "actualizado": "2026-07-10T07:43:06.605739Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -17308,24 +17308,13 @@
               "direccion": null,
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 148907,
+            "CUARTA MASCULINO": {
+              "match_id": 148427,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-10 10:00",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 148667,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 11:00",
+              "fecha_hora": "2026-07-10 13:15",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
               "planillas": null
@@ -17341,13 +17330,24 @@
               "direccion": "Roma 3076",
               "planillas": null
             },
-            "CUARTA MASCULINO": {
-              "match_id": 148427,
+            "SEXTA MASCULINO": {
+              "match_id": 148667,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-10 13:15",
+              "fecha_hora": "2026-07-10 11:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 148907,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-10 10:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
               "planillas": null
