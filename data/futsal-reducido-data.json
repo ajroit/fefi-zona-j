@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-10T07:43:17.930494Z",
+  "actualizado": "2026-07-11T06:21:00.451326Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -15776,9 +15776,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 13:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -15787,9 +15787,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 12:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -15809,9 +15809,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 17:15",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -15820,9 +15820,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 16:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -15831,9 +15831,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 15:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -15842,9 +15842,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "Crisol",
+              "direccion": "Colon 849, Ramos Mejía",
               "planillas": null
             }
           },
@@ -15971,17 +15971,6 @@
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 150467,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 14:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": null
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 150314,
               "goles_local": null,
@@ -15989,6 +15978,17 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-07-12 15:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": null
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 150008,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
@@ -16004,13 +16004,13 @@
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null
             },
-            "QUINTA MASCULINO": {
-              "match_id": 150008,
+            "OCTAVA MASCULINO": {
+              "match_id": 150467,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-12 17:00",
+              "fecha_hora": "2026-07-12 14:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": null

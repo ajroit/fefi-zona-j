@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-10T07:43:21.281665Z",
+  "actualizado": "2026-07-11T06:21:04.955696Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -48,12 +48,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
-      "nombre": "INDEPENDIENTE (C)",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
-    },
-    {
       "nombre": "ESTRELLA FEDERAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
+    },
+    {
+      "nombre": "INDEPENDIENTE (C)",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
     },
     {
       "nombre": "PURA SUELA",
@@ -177,16 +177,27 @@
       {
         "posicion": 9,
         "equipo": "MAVIA FC",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
-        "e": 2,
+        "e": 3,
         "p": 6,
-        "gf": 28,
-        "gc": 31,
-        "pts": 20
+        "gf": 30,
+        "gc": 33,
+        "pts": 21
       },
       {
         "posicion": 10,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 15,
+        "g": 4,
+        "e": 5,
+        "p": 6,
+        "gf": 24,
+        "gc": 28,
+        "pts": 17
+      },
+      {
+        "posicion": 11,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 15,
         "g": 4,
@@ -195,17 +206,6 @@
         "gf": 18,
         "gc": 32,
         "pts": 17
-      },
-      {
-        "posicion": 11,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 14,
-        "g": 4,
-        "e": 4,
-        "p": 6,
-        "gf": 22,
-        "gc": 26,
-        "pts": 16
       },
       {
         "posicion": 12,
@@ -354,6 +354,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 15,
+        "g": 8,
+        "e": 1,
+        "p": 6,
+        "gf": 29,
+        "gc": 23,
+        "pts": 25
+      },
+      {
+        "posicion": 8,
         "equipo": "SOCIAL OESTE",
         "pj": 15,
         "g": 7,
@@ -364,7 +375,7 @@
         "pts": 24
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 15,
         "g": 6,
@@ -373,17 +384,6 @@
         "gf": 16,
         "gc": 15,
         "pts": 23
-      },
-      {
-        "posicion": 9,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 14,
-        "g": 7,
-        "e": 1,
-        "p": 6,
-        "gf": 26,
-        "gc": 23,
-        "pts": 22
       },
       {
         "posicion": 10,
@@ -399,12 +399,12 @@
       {
         "posicion": 11,
         "equipo": "MAVIA FC",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 3,
-        "p": 6,
+        "p": 7,
         "gf": 21,
-        "gc": 21,
+        "gc": 24,
         "pts": 18
       },
       {
@@ -555,16 +555,27 @@
       {
         "posicion": 7,
         "equipo": "ESTRELLA FEDERAL",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 31,
-        "gc": 16,
+        "gc": 17,
         "pts": 28
       },
       {
         "posicion": 8,
+        "equipo": "MAVIA FC",
+        "pj": 15,
+        "g": 7,
+        "e": 2,
+        "p": 6,
+        "gf": 29,
+        "gc": 22,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "ZIZOU FUTSAL",
         "pj": 15,
         "g": 6,
@@ -575,7 +586,7 @@
         "pts": 21
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "SACA DEL MEDIO",
         "pj": 14,
         "g": 5,
@@ -586,24 +597,13 @@
         "pts": 20
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
         "pj": 14,
         "g": 6,
         "e": 2,
         "p": 6,
         "gf": 29,
-        "gc": 22,
-        "pts": 20
-      },
-      {
-        "posicion": 11,
-        "equipo": "MAVIA FC",
-        "pj": 14,
-        "g": 6,
-        "e": 2,
-        "p": 6,
-        "gf": 28,
         "gc": 22,
         "pts": 20
       },
@@ -753,6 +753,17 @@
         "posicion": 6
       },
       {
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 45,
+        "g": 21,
+        "e": 7,
+        "p": 17,
+        "gf": 84,
+        "gc": 68,
+        "pts": 70,
+        "posicion": 7
+      },
+      {
         "equipo": "INDEPENDIENTE (C)",
         "pj": 45,
         "g": 19,
@@ -761,18 +772,18 @@
         "gf": 75,
         "gc": 64,
         "pts": 70,
-        "posicion": 7
+        "posicion": 8
       },
       {
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 42,
-        "g": 20,
-        "e": 6,
-        "p": 16,
-        "gf": 79,
-        "gc": 65,
-        "pts": 66,
-        "posicion": 8
+        "equipo": "MAVIA FC",
+        "pj": 45,
+        "g": 18,
+        "e": 8,
+        "p": 19,
+        "gf": 80,
+        "gc": 79,
+        "pts": 62,
+        "posicion": 9
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -783,17 +794,6 @@
         "gf": 92,
         "gc": 103,
         "pts": 62,
-        "posicion": 9
-      },
-      {
-        "equipo": "MAVIA FC",
-        "pj": 42,
-        "g": 17,
-        "e": 7,
-        "p": 18,
-        "gf": 77,
-        "gc": 74,
-        "pts": 58,
         "posicion": 10
       },
       {
@@ -7630,13 +7630,13 @@
           "local": "VILLA SAHORES",
           "visitante": "17 DE AGOSTO",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152564,
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152258,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-12 14:00",
+              "fecha_hora": "2026-07-12 16:30",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
               "planillas": null
@@ -7652,13 +7652,13 @@
               "direccion": "Reservistas argentinos 219",
               "planillas": null
             },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152258,
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152564,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-12 16:30",
+              "fecha_hora": "2026-07-12 14:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
               "planillas": null
@@ -7670,41 +7670,50 @@
           "local": "ESTRELLA FEDERAL",
           "visitante": "MAVIA FC",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152259,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 22:30",
-              "sede": "Estrella Federal",
-              "direccion": "Ayacucho 745 - Florida",
-              "planillas": null
-            },
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152412,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 21:15",
-              "sede": "Estrella Federal",
-              "direccion": "Ayacucho 745 - Florida",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152565,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 20:00",
               "sede": "Estrella Federal",
               "direccion": "Ayacucho 745 - Florida",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-001852-1000397204.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-001853-1000397205.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152412,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 21:15",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-013716-1000397218.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-013718-1000397219.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152259,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 22:30",
+              "sede": "Estrella Federal",
+              "direccion": "Ayacucho 745 - Florida",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-025545-1000397233.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xn06y3nsb2eayhatypvc34axvny2/20260711-025547-1000397234.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "EL GALPON",
@@ -7790,17 +7799,6 @@
           "local": "BROWN DE ADROGUE",
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152262,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 21:15",
-              "sede": "Gimnasio Nicolás Abud",
-              "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152415,
               "goles_local": null,
@@ -7821,6 +7819,17 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
+              "planillas": null
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152262,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-12 21:15",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
               "planillas": null
             }
           },

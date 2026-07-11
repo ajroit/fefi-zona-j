@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-10T07:43:09.102611Z",
+  "actualizado": "2026-07-11T06:20:53.549260Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -10,20 +10,20 @@
   ],
   "equipos": [
     {
-      "nombre": "INDEPENDIENTE DE BECCAR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
-    },
-    {
-      "nombre": "MUNICIPIO LOMAS DE ZAMORA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
-    },
-    {
       "nombre": "LUNA DE MATANZA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
     },
     {
       "nombre": "DEPORTIVO MORON",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
+    },
+    {
+      "nombre": "INDEPENDIENTE DE BECCAR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
+    },
+    {
+      "nombre": "MUNICIPIO LOMAS DE ZAMORA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
     },
     {
       "nombre": "LAS HERAS",
@@ -138,6 +138,28 @@
     "Clasificación General": [
       {
         "posicion": 1,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 7,
+        "g": 5,
+        "e": 0,
+        "p": 2,
+        "gf": 36,
+        "gc": 21,
+        "pts": 15
+      },
+      {
+        "posicion": 2,
+        "equipo": "DEPORTIVO MORON",
+        "pj": 7,
+        "g": 2,
+        "e": 0,
+        "p": 5,
+        "gf": 21,
+        "gc": 36,
+        "pts": 6
+      },
+      {
+        "posicion": 3,
         "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 0,
         "g": 0,
@@ -148,30 +170,8 @@
         "pts": 0
       },
       {
-        "posicion": 2,
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
-        "posicion": 3,
-        "equipo": "LUNA DE MATANZA",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
         "posicion": 4,
-        "equipo": "DEPORTIVO MORON",
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -491,29 +491,29 @@
     ],
     "general": [
       {
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 0,
-        "g": 0,
+        "equipo": "LUNA DE MATANZA",
+        "pj": 7,
+        "g": 5,
         "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
+        "p": 2,
+        "gf": 36,
+        "gc": 21,
+        "pts": 15,
         "posicion": 1
       },
       {
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 0,
-        "g": 0,
+        "equipo": "DEPORTIVO MORON",
+        "pj": 7,
+        "g": 2,
         "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
+        "p": 5,
+        "gf": 21,
+        "gc": 36,
+        "pts": 6,
         "posicion": 2
       },
       {
-        "equipo": "LUNA DE MATANZA",
+        "equipo": "INDEPENDIENTE DE BECCAR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -524,7 +524,7 @@
         "posicion": 3
       },
       {
-        "equipo": "DEPORTIVO MORON",
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -926,85 +926,107 @@
           "local": "LUNA DE MATANZA",
           "visitante": "DEPORTIVO MORON",
           "partidos": {
-            "SEPTIMA MASCULINO": {
-              "match_id": 203398,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 15:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
-            "PRIMERA MASCULINO": {
-              "match_id": 204390,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 20:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 205382,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 18:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 205878,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 17:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 204886,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 19:00",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
-            },
-            "OCTAVA MASCULINO": {
-              "match_id": 203894,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 14:00",
-              "sede": "Club Luna de Matanza",
-              "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-002209-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-002145-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 202902,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 16:00",
               "sede": "Club Luna de Matanza",
               "direccion": "Itaú 690 Rafael Castillo",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-002330-1000570641.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-002410-1000570556.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 203894,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 14:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260710-181855-1000570556.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260710-181902-1000570555.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 205382,
+              "goles_local": 8,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 18:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260710-224423-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260710-224434-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 205878,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 17:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-002806-1000570748.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-002810-1000570747.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 204390,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 20:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-033701-1000571150.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-033703-1000571149.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-033707-1000571153.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 203398,
+              "goles_local": 5,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 15:00",
+              "sede": "Club Luna de Matanza",
+              "direccion": "Itaú 690 Rafael Castillo",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-034833-1000571181.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wpfpzkiyjirsopav3mdre9jxvru1/20260711-034834-1000571182.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "LAS HERAS",
@@ -1777,17 +1799,6 @@
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 203904,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 12:00",
-              "sede": "Club Arquitectura",
-              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "match_id": 204400,
               "goles_local": null,
@@ -1839,6 +1850,17 @@
               "jugado": false,
               "estado": "",
               "fecha_hora": "2026-07-11 17:00",
+              "sede": "Club Arquitectura",
+              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 203904,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-11 12:00",
               "sede": "Club Arquitectura",
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
               "planillas": null

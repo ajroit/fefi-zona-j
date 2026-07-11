@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-10T07:43:06.605739Z",
+  "actualizado": "2026-07-11T06:20:52.299433Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -444,6 +444,17 @@
     "CUARTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "RIVADAVIA 87",
+        "pj": 15,
+        "g": 15,
+        "e": 0,
+        "p": 0,
+        "gf": 89,
+        "gc": 38,
+        "pts": 45
+      },
+      {
+        "posicion": 2,
         "equipo": "LUNA DE MATANZA",
         "pj": 15,
         "g": 14,
@@ -451,17 +462,6 @@
         "p": 1,
         "gf": 97,
         "gc": 20,
-        "pts": 42
-      },
-      {
-        "posicion": 2,
-        "equipo": "RIVADAVIA 87",
-        "pj": 14,
-        "g": 14,
-        "e": 0,
-        "p": 0,
-        "gf": 84,
-        "gc": 37,
         "pts": 42
       },
       {
@@ -588,12 +588,12 @@
       {
         "posicion": 14,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 4,
-        "p": 7,
-        "gf": 46,
-        "gc": 55,
+        "p": 8,
+        "gf": 47,
+        "gc": 60,
         "pts": 13
       },
       {
@@ -645,13 +645,13 @@
       {
         "posicion": 3,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
-        "g": 10,
+        "pj": 15,
+        "g": 11,
         "e": 2,
         "p": 2,
-        "gf": 73,
-        "gc": 32,
-        "pts": 32
+        "gf": 78,
+        "gc": 34,
+        "pts": 35
       },
       {
         "posicion": 4,
@@ -678,12 +678,12 @@
       {
         "posicion": 6,
         "equipo": "RIVADAVIA 87",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 1,
-        "p": 4,
-        "gf": 68,
-        "gc": 38,
+        "p": 5,
+        "gf": 70,
+        "gc": 43,
         "pts": 28
       },
       {
@@ -811,6 +811,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "RIVADAVIA 87",
+        "pj": 15,
+        "g": 13,
+        "e": 0,
+        "p": 2,
+        "gf": 65,
+        "gc": 24,
+        "pts": 39
+      },
+      {
+        "posicion": 3,
         "equipo": "LUNA DE MATANZA",
         "pj": 15,
         "g": 12,
@@ -818,17 +829,6 @@
         "p": 3,
         "gf": 79,
         "gc": 30,
-        "pts": 36
-      },
-      {
-        "posicion": 3,
-        "equipo": "RIVADAVIA 87",
-        "pj": 14,
-        "g": 12,
-        "e": 0,
-        "p": 2,
-        "gf": 61,
-        "gc": 24,
         "pts": 36
       },
       {
@@ -911,12 +911,12 @@
       {
         "posicion": 11,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 0,
-        "p": 9,
+        "p": 10,
         "gf": 23,
-        "gc": 54,
+        "gc": 58,
         "pts": 15
       },
       {
@@ -1179,13 +1179,13 @@
       {
         "posicion": 3,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
-        "g": 9,
+        "pj": 15,
+        "g": 10,
         "e": 3,
         "p": 2,
-        "gf": 51,
-        "gc": 26,
-        "pts": 30
+        "gf": 55,
+        "gc": 27,
+        "pts": 33
       },
       {
         "posicion": 4,
@@ -1256,12 +1256,12 @@
       {
         "posicion": 10,
         "equipo": "RIVADAVIA 87",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 1,
-        "p": 7,
-        "gf": 45,
-        "gc": 30,
+        "p": 8,
+        "gf": 46,
+        "gc": 34,
         "pts": 19
       },
       {
@@ -1334,6 +1334,17 @@
     "2016 PROMOCIONALES": [
       {
         "posicion": 1,
+        "equipo": "MARCHIGIANA",
+        "pj": 15,
+        "g": 12,
+        "e": 1,
+        "p": 2,
+        "gf": 86,
+        "gc": 20,
+        "pts": 37
+      },
+      {
+        "posicion": 2,
         "equipo": "ESTRADA FUTSAL",
         "pj": 15,
         "g": 12,
@@ -1342,17 +1353,6 @@
         "gf": 64,
         "gc": 26,
         "pts": 37
-      },
-      {
-        "posicion": 2,
-        "equipo": "MARCHIGIANA",
-        "pj": 14,
-        "g": 11,
-        "e": 1,
-        "p": 2,
-        "gf": 82,
-        "gc": 18,
-        "pts": 34
       },
       {
         "posicion": 3,
@@ -1445,12 +1445,12 @@
       {
         "posicion": 11,
         "equipo": "RIVADAVIA 87",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 2,
-        "p": 7,
-        "gf": 36,
-        "gc": 53,
+        "p": 8,
+        "gf": 38,
+        "gc": 57,
         "pts": 14
       },
       {
@@ -2068,13 +2068,13 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 142,
-        "g": 86,
+        "pj": 147,
+        "g": 89,
         "e": 18,
-        "p": 38,
-        "gf": 647,
-        "gc": 343,
-        "pts": 276,
+        "p": 40,
+        "gf": 661,
+        "gc": 357,
+        "pts": 285,
         "posicion": 3
       },
       {
@@ -2133,6 +2133,17 @@
         "posicion": 8
       },
       {
+        "equipo": "RIVADAVIA 87",
+        "pj": 143,
+        "g": 69,
+        "e": 13,
+        "p": 61,
+        "gf": 526,
+        "gc": 510,
+        "pts": 220,
+        "posicion": 9
+      },
+      {
         "equipo": "PEDRO LOZANO",
         "pj": 150,
         "g": 67,
@@ -2141,17 +2152,6 @@
         "gf": 513,
         "gc": 485,
         "pts": 218,
-        "posicion": 9
-      },
-      {
-        "equipo": "RIVADAVIA 87",
-        "pj": 138,
-        "g": 67,
-        "e": 13,
-        "p": 58,
-        "gf": 512,
-        "gc": 496,
-        "pts": 214,
         "posicion": 10
       },
       {
@@ -17288,14 +17288,17 @@
             },
             "2016 PROMOCIONALES": {
               "match_id": 149027,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 09:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-131347-1001348762.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-131348-1001348763.jpg"
+              ]
             },
             "2018 PROMOCIONALES": {
               "match_id": 149267,
@@ -17308,49 +17311,47 @@
               "direccion": null,
               "planillas": null
             },
-            "CUARTA MASCULINO": {
-              "match_id": 148427,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-10 13:15",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
-            },
             "QUINTA MASCULINO": {
               "match_id": 148547,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 12:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-163714-1001041504.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-163712-1001041503.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 148667,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-10 11:00",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164322-1001349230.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164319-1001349229.jpg"
+              ]
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 148907,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+            "CUARTA MASCULINO": {
+              "match_id": 148427,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-10 10:00",
+              "fecha_hora": "2026-07-10 13:15",
               "sede": "Club Casanova ",
               "direccion": "Roma 3076",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175256-1001041642.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175258-1001041641.jpg"
+              ]
             },
             "2019 PROMOCIONALES": {
               "match_id": 149387,
@@ -17362,6 +17363,20 @@
               "sede": null,
               "direccion": null,
               "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 148907,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 10:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164638-1001349241.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164640-1001349240.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 148307,
