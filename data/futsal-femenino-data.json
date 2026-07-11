@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T20:50:51.359248Z",
+  "actualizado": "2026-07-11T22:51:14.454643Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -7472,14 +7472,17 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152254,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 16:45",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-204716-284107.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-204738-284108.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152560,
