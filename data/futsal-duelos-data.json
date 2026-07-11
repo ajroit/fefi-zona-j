@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T19:05:36.203958Z",
+  "actualizado": "2026-07-11T20:50:41.930730Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -150,13 +150,13 @@
       {
         "posicion": 2,
         "equipo": "VILLA SAHORES",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "gf": 14,
+        "gf": 17,
         "gc": 7,
-        "pts": 9
+        "pts": 12
       },
       {
         "posicion": 3,
@@ -480,12 +480,12 @@
       {
         "posicion": 32,
         "equipo": "ARQUITECTURA",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
+        "p": 4,
         "gf": 7,
-        "gc": 14,
+        "gc": 17,
         "pts": 0
       }
     ],
@@ -503,13 +503,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "gf": 14,
+        "gf": 17,
         "gc": 7,
-        "pts": 9,
+        "pts": 12,
         "posicion": 2
       },
       {
@@ -822,12 +822,12 @@
       },
       {
         "equipo": "ARQUITECTURA",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
+        "p": 4,
         "gf": 7,
-        "gc": 14,
+        "gc": 17,
         "pts": 0,
         "posicion": 31
       }
@@ -878,17 +878,6 @@
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
               "planillas": null
             },
-            "SEXTA MASCULINO": {
-              "match_id": 202901,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 14:30",
-              "sede": "Club Alvear",
-              "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 205381,
               "goles_local": null,
@@ -924,6 +913,20 @@
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
               "planillas": null
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 202901,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 14:30",
+              "sede": "Club Alvear",
+              "direccion": "Av. Directorio 4147, Parque Avellaneda",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-181451-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-181506-image.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -1821,25 +1824,31 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 205392,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 16:00",
               "sede": "Club Arquitectura",
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-201304-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-201312-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 205888,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 15:00",
               "sede": "Club Arquitectura",
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-190143-1000148327.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-190142-1000148326.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 204896,

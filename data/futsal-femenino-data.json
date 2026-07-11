@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T19:05:45.581991Z",
+  "actualizado": "2026-07-11T20:50:51.359248Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -24,16 +24,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
+      "nombre": "ASTRA MACKIE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
+    },
+    {
       "nombre": "ALLENDE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
-    },
-    {
-      "nombre": "ASTRA MACKIE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
       "nombre": "EL GALPON",
@@ -121,6 +121,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ASTRA MACKIE",
+        "pj": 16,
+        "g": 10,
+        "e": 3,
+        "p": 3,
+        "gf": 40,
+        "gc": 16,
+        "pts": 33
+      },
+      {
+        "posicion": 5,
         "equipo": "ALLENDE",
         "pj": 15,
         "g": 9,
@@ -131,7 +142,7 @@
         "pts": 31
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "VILLA SAHORES",
         "pj": 15,
         "g": 10,
@@ -140,17 +151,6 @@
         "gf": 50,
         "gc": 22,
         "pts": 31
-      },
-      {
-        "posicion": 6,
-        "equipo": "ASTRA MACKIE",
-        "pj": 15,
-        "g": 9,
-        "e": 3,
-        "p": 3,
-        "gf": 37,
-        "gc": 16,
-        "pts": 30
       },
       {
         "posicion": 7,
@@ -210,12 +210,12 @@
       {
         "posicion": 12,
         "equipo": "PURA SUELA",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 4,
-        "p": 6,
+        "p": 7,
         "gf": 22,
-        "gc": 31,
+        "gc": 34,
         "pts": 16
       },
       {
@@ -333,13 +333,13 @@
       {
         "posicion": 5,
         "equipo": "ASTRA MACKIE",
-        "pj": 15,
+        "pj": 16,
         "g": 10,
-        "e": 1,
+        "e": 2,
         "p": 4,
         "gf": 45,
         "gc": 19,
-        "pts": 31
+        "pts": 32
       },
       {
         "posicion": 6,
@@ -421,13 +421,13 @@
       {
         "posicion": 13,
         "equipo": "PURA SUELA",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
-        "e": 4,
+        "e": 5,
         "p": 7,
         "gf": 12,
         "gc": 32,
-        "pts": 13
+        "pts": 14
       },
       {
         "posicion": 14,
@@ -620,6 +620,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "ASTRA MACKIE",
+        "pj": 16,
+        "g": 5,
+        "e": 1,
+        "p": 10,
+        "gf": 28,
+        "gc": 25,
+        "pts": 16
+      },
+      {
+        "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 15,
         "g": 4,
@@ -630,25 +641,14 @@
         "pts": 15
       },
       {
-        "posicion": 14,
-        "equipo": "ASTRA MACKIE",
-        "pj": 15,
-        "g": 4,
-        "e": 1,
-        "p": 10,
-        "gf": 21,
-        "gc": 25,
-        "pts": 13
-      },
-      {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 12,
-        "gc": 40,
+        "gc": 47,
         "pts": 6
       },
       {
@@ -743,13 +743,13 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 45,
-        "g": 23,
-        "e": 5,
+        "pj": 48,
+        "g": 25,
+        "e": 6,
         "p": 17,
-        "gf": 103,
+        "gf": 113,
         "gc": 60,
-        "pts": 74,
+        "pts": 81,
         "posicion": 6
       },
       {
@@ -853,13 +853,13 @@
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 42,
+        "pj": 45,
         "g": 9,
-        "e": 8,
-        "p": 25,
+        "e": 9,
+        "p": 27,
         "gf": 46,
-        "gc": 103,
-        "pts": 35,
+        "gc": 113,
+        "pts": 36,
         "posicion": 16
       },
       {
@@ -7481,30 +7481,36 @@
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
               "planillas": null
             },
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152407,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 15:30",
-              "sede": "parque chacabuco",
-              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152560,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 7,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 14:15",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-193520-283926.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-193521-283927.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152407,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 15:30",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-193240-283924.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260711-193241-283925.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CULTURAL DE TAPIALES",

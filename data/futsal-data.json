@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T19:05:35.543382Z",
+  "actualizado": "2026-07-11T20:50:40.838316Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -12648,37 +12648,15 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3x70wh61jjxdzf4s08ufvdgbcih2/20260516-184156-228790.jpg"
               ]
             },
-            "2016 PROMOCIONALES": {
-              "match_id": 148997,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-15 10:00",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": null
-            },
             "2017 PROMOCIONALES": {
               "match_id": 149117,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
-              "planillas": null
-            },
-            "2018 PROMOCIONALES": {
-              "match_id": 149237,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-06-15 11:00",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
               "planillas": null
             },
             "2019 PROMOCIONALES": {
@@ -12690,6 +12668,28 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
+              "planillas": null
+            },
+            "2018 PROMOCIONALES": {
+              "match_id": 149237,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-15 11:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": null
+            },
+            "2016 PROMOCIONALES": {
+              "match_id": 148997,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-06-15 10:00",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -20508,6 +20508,20 @@
               "direccion": null,
               "planillas": null
             },
+            "2016 PROMOCIONALES": {
+              "match_id": 149048,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 10:00",
+              "sede": "Ciencia y labor ",
+              "direccion": "Curapaligue 1107 (dentro del parque )   ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141417-1000284514.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141419-1000284515.jpg"
+              ]
+            },
             "2017 PROMOCIONALES": {
               "match_id": 149168,
               "goles_local": 2,
@@ -20520,20 +20534,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-150730-1000284530.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-150739-1000284531.jpg"
-              ]
-            },
-            "2016 PROMOCIONALES": {
-              "match_id": 149048,
-              "goles_local": 4,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-05 10:00",
-              "sede": "Ciencia y labor ",
-              "direccion": "Curapaligue 1107 (dentro del parque )   ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141417-1000284514.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cfnfhkjszjbfab9t3tbxkhspqlx1/20260705-141419-1000284515.jpg"
               ]
             },
             "QUINTA MASCULINO": {
@@ -20629,9 +20629,9 @@
           "partidos": {
             "PRIMERA MASCULINO": {
               "match_id": 148209,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 22:30",
               "sede": "Villa Rita",
@@ -20640,42 +20640,20 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148449,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 19:45",
               "sede": "Villa Rita",
               "direccion": "Parral 1872 entre Olivos y Las Tropas",
               "planillas": null
             },
-            "QUINTA MASCULINO": {
-              "match_id": 148569,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-05 18:30",
-              "sede": "Villa Rita",
-              "direccion": "Parral 1872 entre Olivos y Las Tropas",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 148809,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "OCTAVA MASCULINO": {
               "match_id": 148929,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 16:30",
               "sede": "Villa Rita",
@@ -20707,26 +20685,48 @@
               "direccion": null,
               "planillas": null
             },
+            "SEXTA MASCULINO": {
+              "match_id": 148689,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 17:30",
+              "sede": "Villa Rita",
+              "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": null
+            },
             "TERCERA MASCULINO": {
               "match_id": 148329,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-05 21:00",
               "sede": "Villa Rita",
               "direccion": "Parral 1872 entre Olivos y Las Tropas",
               "planillas": null
             },
-            "SEXTA MASCULINO": {
-              "match_id": 148689,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+            "QUINTA MASCULINO": {
+              "match_id": 148569,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-05 17:30",
+              "fecha_hora": "2026-07-05 18:30",
               "sede": "Villa Rita",
               "direccion": "Parral 1872 entre Olivos y Las Tropas",
+              "planillas": null
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 148809,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "2017 PROMOCIONALES": {
