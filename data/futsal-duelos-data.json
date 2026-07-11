@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T17:00:02.712430Z",
+  "actualizado": "2026-07-11T19:05:36.203958Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -14,20 +14,20 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
     },
     {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
+    },
+    {
+      "nombre": "INDEPENDIENTE DE BECCAR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
+    },
+    {
       "nombre": "DEPORTIVO MORON",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
     },
     {
       "nombre": "MUNICIPIO LOMAS DE ZAMORA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
-    },
-    {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
-    },
-    {
-      "nombre": "ARQUITECTURA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250727-153009-arquitectura.png"
     },
     {
       "nombre": "LAS HERAS",
@@ -130,8 +130,8 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
-      "nombre": "INDEPENDIENTE DE BECCAR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
+      "nombre": "ARQUITECTURA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250727-153009-arquitectura.png"
     }
   ],
   "tablas_posiciones": {
@@ -149,6 +149,28 @@
       },
       {
         "posicion": 2,
+        "equipo": "VILLA SAHORES",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "gf": 14,
+        "gc": 7,
+        "pts": 9
+      },
+      {
+        "posicion": 3,
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 14,
+        "gc": 4,
+        "pts": 6
+      },
+      {
+        "posicion": 4,
         "equipo": "DEPORTIVO MORON",
         "pj": 7,
         "g": 2,
@@ -159,37 +181,15 @@
         "pts": 6
       },
       {
-        "posicion": 3,
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 4,
-        "gc": 2,
-        "pts": 3
-      },
-      {
-        "posicion": 4,
-        "equipo": "VILLA SAHORES",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 3,
-        "gc": 3,
-        "pts": 3
-      },
-      {
         "posicion": 5,
-        "equipo": "ARQUITECTURA",
-        "pj": 1,
-        "g": 0,
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
+        "pj": 3,
+        "g": 1,
         "e": 0,
-        "p": 1,
-        "gf": 3,
-        "gc": 3,
-        "pts": 0
+        "p": 2,
+        "gf": 4,
+        "gc": 14,
+        "pts": 3
       },
       {
         "posicion": 6,
@@ -479,13 +479,13 @@
       },
       {
         "posicion": 32,
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 1,
+        "equipo": "ARQUITECTURA",
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 1,
-        "gf": 2,
-        "gc": 4,
+        "p": 3,
+        "gf": 7,
+        "gc": 14,
         "pts": 0
       }
     ],
@@ -502,6 +502,28 @@
         "posicion": 1
       },
       {
+        "equipo": "VILLA SAHORES",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "gf": 14,
+        "gc": 7,
+        "pts": 9,
+        "posicion": 2
+      },
+      {
+        "equipo": "INDEPENDIENTE DE BECCAR",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 14,
+        "gc": 4,
+        "pts": 6,
+        "posicion": 3
+      },
+      {
         "equipo": "DEPORTIVO MORON",
         "pj": 7,
         "g": 2,
@@ -510,39 +532,17 @@
         "gf": 21,
         "gc": 36,
         "pts": 6,
-        "posicion": 2
-      },
-      {
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 4,
-        "gc": 2,
-        "pts": 3,
-        "posicion": 3
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 3,
-        "gc": 3,
-        "pts": 3,
         "posicion": 4
       },
       {
-        "equipo": "ARQUITECTURA",
-        "pj": 1,
-        "g": 0,
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
+        "pj": 3,
+        "g": 1,
         "e": 0,
-        "p": 1,
-        "gf": 3,
-        "gc": 3,
-        "pts": 0,
+        "p": 2,
+        "gf": 4,
+        "gc": 14,
+        "pts": 3,
         "posicion": 5
       },
       {
@@ -821,13 +821,13 @@
         "posicion": 30
       },
       {
-        "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 1,
+        "equipo": "ARQUITECTURA",
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 1,
-        "gf": 2,
-        "gc": 4,
+        "p": 3,
+        "gf": 7,
+        "gc": 14,
         "pts": 0,
         "posicion": 31
       }
@@ -844,14 +844,17 @@
           "partidos": {
             "SEPTIMA MASCULINO": {
               "match_id": 203397,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 10,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 13:30",
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-173202-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-173210-image.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 204885,
@@ -1793,14 +1796,17 @@
           "partidos": {
             "SEPTIMA MASCULINO": {
               "match_id": 203408,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 13:00",
               "sede": "Club Arquitectura",
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170203-1000148272.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170200-1000148271.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 204400,
@@ -1835,17 +1841,6 @@
               "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
               "planillas": null
             },
-            "SEXTA MASCULINO": {
-              "match_id": 202912,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 14:00",
-              "sede": "Club Arquitectura",
-              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 204896,
               "goles_local": null,
@@ -1869,6 +1864,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-160711-1000148263.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-160709-1000148262.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 202912,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 14:00",
+              "sede": "Club Arquitectura",
+              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170605-1000148276.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170603-1000148275.jpg"
               ]
             }
           },
