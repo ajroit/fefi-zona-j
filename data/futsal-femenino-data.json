@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T14:58:47.749614Z",
+  "actualizado": "2026-07-12T17:00:04.414091Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,12 +16,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "17 DE AGOSTO",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
-    },
-    {
       "nombre": "CENTRO ASTURIANO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
+    },
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
     },
     {
       "nombre": "ASTRA MACKIE",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 16,
+        "g": 12,
+        "e": 2,
+        "p": 2,
+        "gf": 53,
+        "gc": 16,
+        "pts": 38
+      },
+      {
+        "posicion": 3,
         "equipo": "17 DE AGOSTO",
         "pj": 15,
         "g": 12,
@@ -107,17 +118,6 @@
         "gf": 57,
         "gc": 15,
         "pts": 37
-      },
-      {
-        "posicion": 3,
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 15,
-        "g": 11,
-        "e": 2,
-        "p": 2,
-        "gf": 51,
-        "gc": 15,
-        "pts": 35
       },
       {
         "posicion": 4,
@@ -133,12 +133,12 @@
       {
         "posicion": 5,
         "equipo": "ALLENDE",
-        "pj": 15,
+        "pj": 16,
         "g": 9,
         "e": 4,
-        "p": 2,
-        "gf": 51,
-        "gc": 18,
+        "p": 3,
+        "gf": 52,
+        "gc": 20,
         "pts": 31
       },
       {
@@ -300,12 +300,12 @@
       {
         "posicion": 2,
         "equipo": "ALLENDE",
-        "pj": 15,
+        "pj": 16,
         "g": 11,
         "e": 2,
-        "p": 2,
+        "p": 3,
         "gf": 37,
-        "gc": 8,
+        "gc": 9,
         "pts": 35
       },
       {
@@ -344,13 +344,13 @@
       {
         "posicion": 6,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 15,
-        "g": 8,
+        "pj": 16,
+        "g": 9,
         "e": 2,
         "p": 5,
-        "gf": 33,
+        "gf": 34,
         "gc": 19,
-        "pts": 26
+        "pts": 29
       },
       {
         "posicion": 7,
@@ -388,13 +388,13 @@
       {
         "posicion": 10,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 15,
-        "g": 6,
+        "pj": 16,
+        "g": 7,
         "e": 1,
         "p": 8,
-        "gf": 19,
-        "gc": 33,
-        "pts": 19
+        "gf": 24,
+        "gc": 36,
+        "pts": 22
       },
       {
         "posicion": 11,
@@ -410,12 +410,12 @@
       {
         "posicion": 12,
         "equipo": "SACA DEL MEDIO",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 1,
-        "p": 8,
-        "gf": 15,
-        "gc": 34,
+        "p": 9,
+        "gf": 18,
+        "gc": 39,
         "pts": 16
       },
       {
@@ -688,12 +688,12 @@
     "general": [
       {
         "equipo": "ALLENDE",
-        "pj": 46,
+        "pj": 48,
         "g": 35,
         "e": 6,
-        "p": 5,
-        "gf": 133,
-        "gc": 36,
+        "p": 7,
+        "gf": 134,
+        "gc": 39,
         "pts": 111,
         "posicion": 1
       },
@@ -720,6 +720,17 @@
         "posicion": 3
       },
       {
+        "equipo": "CENTRO ASTURIANO",
+        "pj": 48,
+        "g": 31,
+        "e": 6,
+        "p": 11,
+        "gf": 125,
+        "gc": 50,
+        "pts": 99,
+        "posicion": 4
+      },
+      {
         "equipo": "VILLA SAHORES",
         "pj": 45,
         "g": 30,
@@ -728,17 +739,6 @@
         "gf": 112,
         "gc": 53,
         "pts": 95,
-        "posicion": 4
-      },
-      {
-        "equipo": "CENTRO ASTURIANO",
-        "pj": 46,
-        "g": 29,
-        "e": 6,
-        "p": 11,
-        "gf": 122,
-        "gc": 49,
-        "pts": 93,
         "posicion": 5
       },
       {
@@ -775,6 +775,17 @@
         "posicion": 8
       },
       {
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 46,
+        "g": 20,
+        "e": 5,
+        "p": 21,
+        "gf": 100,
+        "gc": 110,
+        "pts": 65,
+        "posicion": 9
+      },
+      {
         "equipo": "MAVIA FC",
         "pj": 45,
         "g": 18,
@@ -782,17 +793,6 @@
         "p": 19,
         "gf": 80,
         "gc": 79,
-        "pts": 62,
-        "posicion": 9
-      },
-      {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 45,
-        "g": 19,
-        "e": 5,
-        "p": 21,
-        "gf": 95,
-        "gc": 107,
         "pts": 62,
         "posicion": 10
       },
@@ -809,12 +809,12 @@
       },
       {
         "equipo": "SACA DEL MEDIO",
-        "pj": 43,
+        "pj": 44,
         "g": 13,
         "e": 10,
-        "p": 20,
-        "gf": 60,
-        "gc": 94,
+        "p": 21,
+        "gf": 63,
+        "gc": 99,
         "pts": 49,
         "posicion": 12
       },
@@ -7601,25 +7601,31 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152410,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 11:15",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-153323-286021.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-153324-286022.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152257,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 12:30",
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-164958-286094.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-165013-286093.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152563,
@@ -7773,14 +7779,17 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152414,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 11:15",
               "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
               "direccion": "Av. Juan B Justo 8900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260712-160205-inbound8379587394356709641.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260712-160209-inbound3461978460677306768.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152261,

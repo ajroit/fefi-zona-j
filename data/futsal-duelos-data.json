@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T14:58:20.316260Z",
+  "actualizado": "2026-07-12T16:59:53.896338Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -34,6 +34,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
     },
     {
+      "nombre": "ESTUDIANTES LP",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740090325437.png"
+    },
+    {
       "nombre": "ARGENTINO DE CASTELAR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-195804-images%20(1).png"
     },
@@ -64,14 +68,6 @@
     {
       "nombre": "ISIDRO CASANOVA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250331-194812-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_images%20(2).png"
-    },
-    {
-      "nombre": "MARCHIGIANA",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/e44d5de5-f8cd-4f3d-b338-82789228a757.png"
-    },
-    {
-      "nombre": "ESTUDIANTES LP",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740090325437.png"
     },
     {
       "nombre": "ROTONDA",
@@ -124,6 +120,10 @@
     {
       "nombre": "BPNA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
+    },
+    {
+      "nombre": "MARCHIGIANA",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/e44d5de5-f8cd-4f3d-b338-82789228a757.png"
     },
     {
       "nombre": "LAS HERAS",
@@ -204,6 +204,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ESTUDIANTES LP",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "gf": 3,
+        "gc": 1,
+        "pts": 3
+      },
+      {
+        "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 0,
         "g": 0,
@@ -214,7 +225,7 @@
         "pts": 0
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "VELEZ SARSFIELD",
         "pj": 0,
         "g": 0,
@@ -225,7 +236,7 @@
         "pts": 0
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ATENEO HAEDO",
         "pj": 0,
         "g": 0,
@@ -236,7 +247,7 @@
         "pts": 0
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "SIGLO XX OESTE",
         "pj": 0,
         "g": 0,
@@ -247,7 +258,7 @@
         "pts": 0
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "RIVADAVIA 87",
         "pj": 0,
         "g": 0,
@@ -258,7 +269,7 @@
         "pts": 0
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "LIBERTADORES",
         "pj": 0,
         "g": 0,
@@ -269,7 +280,7 @@
         "pts": 0
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "ESTRADA FUTSAL",
         "pj": 0,
         "g": 0,
@@ -280,7 +291,7 @@
         "pts": 0
       },
       {
-        "posicion": 14,
+        "posicion": 15,
         "equipo": "ISIDRO CASANOVA",
         "pj": 0,
         "g": 0,
@@ -291,29 +302,7 @@
         "pts": 0
       },
       {
-        "posicion": 15,
-        "equipo": "MARCHIGIANA",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
         "posicion": 16,
-        "equipo": "ESTUDIANTES LP",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
-        "posicion": 17,
         "equipo": "ROTONDA",
         "pj": 0,
         "g": 0,
@@ -324,7 +313,7 @@
         "pts": 0
       },
       {
-        "posicion": 18,
+        "posicion": 17,
         "equipo": "JOSE HERNANDEZ",
         "pj": 0,
         "g": 0,
@@ -335,7 +324,7 @@
         "pts": 0
       },
       {
-        "posicion": 19,
+        "posicion": 18,
         "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
@@ -346,7 +335,7 @@
         "pts": 0
       },
       {
-        "posicion": 20,
+        "posicion": 19,
         "equipo": "VENCIENDO GIGANTES",
         "pj": 0,
         "g": 0,
@@ -357,7 +346,7 @@
         "pts": 0
       },
       {
-        "posicion": 21,
+        "posicion": 20,
         "equipo": "MIRIÑAQUE",
         "pj": 0,
         "g": 0,
@@ -368,7 +357,7 @@
         "pts": 0
       },
       {
-        "posicion": 22,
+        "posicion": 21,
         "equipo": "VILLA RITA",
         "pj": 0,
         "g": 0,
@@ -379,7 +368,7 @@
         "pts": 0
       },
       {
-        "posicion": 23,
+        "posicion": 22,
         "equipo": "JUVENTUD UNIDA (MC)",
         "pj": 0,
         "g": 0,
@@ -390,7 +379,7 @@
         "pts": 0
       },
       {
-        "posicion": 24,
+        "posicion": 23,
         "equipo": "CIENCIA Y LABOR",
         "pj": 0,
         "g": 0,
@@ -401,7 +390,7 @@
         "pts": 0
       },
       {
-        "posicion": 25,
+        "posicion": 24,
         "equipo": "VILLA LA ÑATA",
         "pj": 0,
         "g": 0,
@@ -412,7 +401,7 @@
         "pts": 0
       },
       {
-        "posicion": 26,
+        "posicion": 25,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 0,
         "g": 0,
@@ -423,7 +412,7 @@
         "pts": 0
       },
       {
-        "posicion": 27,
+        "posicion": 26,
         "equipo": "EL TALAR",
         "pj": 0,
         "g": 0,
@@ -434,7 +423,7 @@
         "pts": 0
       },
       {
-        "posicion": 28,
+        "posicion": 27,
         "equipo": "JUVENTUD",
         "pj": 0,
         "g": 0,
@@ -445,7 +434,7 @@
         "pts": 0
       },
       {
-        "posicion": 29,
+        "posicion": 28,
         "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
@@ -456,7 +445,7 @@
         "pts": 0
       },
       {
-        "posicion": 30,
+        "posicion": 29,
         "equipo": "BPNA",
         "pj": 0,
         "g": 0,
@@ -464,6 +453,17 @@
         "p": 0,
         "gf": 0,
         "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 30,
+        "equipo": "MARCHIGIANA",
+        "pj": 1,
+        "g": 0,
+        "e": 0,
+        "p": 1,
+        "gf": 1,
+        "gc": 3,
         "pts": 0
       },
       {
@@ -557,18 +557,18 @@
         "posicion": 6
       },
       {
-        "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 0,
-        "g": 0,
+        "equipo": "ESTUDIANTES LP",
+        "pj": 1,
+        "g": 1,
         "e": 0,
         "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
+        "gf": 3,
+        "gc": 1,
+        "pts": 3,
         "posicion": 7
       },
       {
-        "equipo": "VELEZ SARSFIELD",
+        "equipo": "ARGENTINO DE CASTELAR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -579,7 +579,7 @@
         "posicion": 8
       },
       {
-        "equipo": "ATENEO HAEDO",
+        "equipo": "VELEZ SARSFIELD",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -590,7 +590,7 @@
         "posicion": 9
       },
       {
-        "equipo": "SIGLO XX OESTE",
+        "equipo": "ATENEO HAEDO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -601,7 +601,7 @@
         "posicion": 10
       },
       {
-        "equipo": "RIVADAVIA 87",
+        "equipo": "SIGLO XX OESTE",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -612,7 +612,7 @@
         "posicion": 11
       },
       {
-        "equipo": "LIBERTADORES",
+        "equipo": "RIVADAVIA 87",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -623,7 +623,7 @@
         "posicion": 12
       },
       {
-        "equipo": "ESTRADA FUTSAL",
+        "equipo": "LIBERTADORES",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -634,7 +634,7 @@
         "posicion": 13
       },
       {
-        "equipo": "ISIDRO CASANOVA",
+        "equipo": "ESTRADA FUTSAL",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -645,7 +645,7 @@
         "posicion": 14
       },
       {
-        "equipo": "MARCHIGIANA",
+        "equipo": "ISIDRO CASANOVA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -656,7 +656,7 @@
         "posicion": 15
       },
       {
-        "equipo": "ESTUDIANTES LP",
+        "equipo": "ROTONDA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -667,7 +667,7 @@
         "posicion": 16
       },
       {
-        "equipo": "ROTONDA",
+        "equipo": "JOSE HERNANDEZ",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -678,7 +678,7 @@
         "posicion": 17
       },
       {
-        "equipo": "JOSE HERNANDEZ",
+        "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -689,7 +689,7 @@
         "posicion": 18
       },
       {
-        "equipo": "PEDRO LOZANO",
+        "equipo": "VENCIENDO GIGANTES",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -700,7 +700,7 @@
         "posicion": 19
       },
       {
-        "equipo": "VENCIENDO GIGANTES",
+        "equipo": "MIRIÑAQUE",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -711,7 +711,7 @@
         "posicion": 20
       },
       {
-        "equipo": "MIRIÑAQUE",
+        "equipo": "VILLA RITA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -722,7 +722,7 @@
         "posicion": 21
       },
       {
-        "equipo": "VILLA RITA",
+        "equipo": "JUVENTUD UNIDA (MC)",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -733,7 +733,7 @@
         "posicion": 22
       },
       {
-        "equipo": "JUVENTUD UNIDA (MC)",
+        "equipo": "CIENCIA Y LABOR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -744,7 +744,7 @@
         "posicion": 23
       },
       {
-        "equipo": "CIENCIA Y LABOR",
+        "equipo": "VILLA LA ÑATA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -755,7 +755,7 @@
         "posicion": 24
       },
       {
-        "equipo": "VILLA LA ÑATA",
+        "equipo": "DEPORTIVO ABBAS",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -766,7 +766,7 @@
         "posicion": 25
       },
       {
-        "equipo": "DEPORTIVO ABBAS",
+        "equipo": "EL TALAR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -777,7 +777,7 @@
         "posicion": 26
       },
       {
-        "equipo": "EL TALAR",
+        "equipo": "JUVENTUD",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -788,7 +788,7 @@
         "posicion": 27
       },
       {
-        "equipo": "JUVENTUD",
+        "equipo": "BPNA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -799,13 +799,13 @@
         "posicion": 28
       },
       {
-        "equipo": "BPNA",
-        "pj": 0,
+        "equipo": "MARCHIGIANA",
+        "pj": 1,
         "g": 0,
         "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
+        "p": 1,
+        "gf": 1,
+        "gc": 3,
         "pts": 0,
         "posicion": 29
       },
@@ -1501,17 +1501,6 @@
               "direccion": "Santa Brígida 7100",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 203900,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 12:00",
-              "sede": "Parroquia inmaculada concepción ",
-              "direccion": "Santa Brígida 7100",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 204892,
               "goles_local": null,
@@ -1545,6 +1534,20 @@
               "direccion": "Santa Brígida 7100",
               "planillas": null
             },
+            "OCTAVA MASCULINO": {
+              "match_id": 203900,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 12:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-161132-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-161140-image.jpg"
+              ]
+            },
             "PRIMERA MASCULINO": {
               "match_id": 204396,
               "goles_local": null,
@@ -1557,7 +1560,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ROTONDA",

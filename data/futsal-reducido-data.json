@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T14:58:43.442833Z",
+  "actualizado": "2026-07-12T17:00:00.930521Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -915,13 +915,13 @@
       {
         "posicion": 3,
         "equipo": "VICTORIA",
-        "pj": 15,
-        "g": 12,
+        "pj": 16,
+        "g": 13,
         "e": 1,
         "p": 2,
-        "gf": 92,
+        "gf": 104,
         "gc": 38,
-        "pts": 37
+        "pts": 40
       },
       {
         "posicion": 4,
@@ -947,6 +947,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "ALL BOYS SAAVEDRA",
+        "pj": 16,
+        "g": 8,
+        "e": 2,
+        "p": 6,
+        "gf": 65,
+        "gc": 60,
+        "pts": 26
+      },
+      {
+        "posicion": 7,
         "equipo": "MAYO FUTSAL",
         "pj": 15,
         "g": 8,
@@ -955,17 +966,6 @@
         "gf": 82,
         "gc": 59,
         "pts": 25
-      },
-      {
-        "posicion": 7,
-        "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 15,
-        "g": 7,
-        "e": 2,
-        "p": 6,
-        "gf": 61,
-        "gc": 58,
-        "pts": 23
       },
       {
         "posicion": 8,
@@ -1047,23 +1047,23 @@
       {
         "posicion": 15,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 16,
         "g": 4,
         "e": 0,
-        "p": 11,
-        "gf": 38,
-        "gc": 83,
+        "p": 12,
+        "gf": 40,
+        "gc": 87,
         "pts": 12
       },
       {
         "posicion": 16,
         "equipo": "ALTO PASTO",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 2,
-        "p": 9,
+        "p": 10,
         "gf": 43,
-        "gc": 56,
+        "gc": 68,
         "pts": 11
       },
       {
@@ -1093,13 +1093,13 @@
       {
         "posicion": 1,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 15,
-        "g": 14,
+        "pj": 16,
+        "g": 15,
         "e": 1,
         "p": 0,
-        "gf": 71,
+        "gf": 77,
         "gc": 15,
-        "pts": 43
+        "pts": 46
       },
       {
         "posicion": 2,
@@ -1213,57 +1213,57 @@
       },
       {
         "posicion": 12,
-        "equipo": "VICTORIA",
+        "equipo": "ALTO PASTO",
         "pj": 15,
         "g": 5,
-        "e": 1,
-        "p": 9,
-        "gf": 31,
-        "gc": 68,
-        "pts": 16
+        "e": 2,
+        "p": 8,
+        "gf": 28,
+        "gc": 55,
+        "pts": 17
       },
       {
         "posicion": 13,
-        "equipo": "ALTO PASTO",
-        "pj": 14,
-        "g": 4,
-        "e": 2,
-        "p": 8,
-        "gf": 24,
-        "gc": 54,
-        "pts": 14
+        "equipo": "CRISOL JUVENTUD",
+        "pj": 16,
+        "g": 5,
+        "e": 1,
+        "p": 10,
+        "gf": 39,
+        "gc": 73,
+        "pts": 16
       },
       {
         "posicion": 14,
-        "equipo": "CRISOL JUVENTUD",
-        "pj": 15,
-        "g": 4,
+        "equipo": "VICTORIA",
+        "pj": 16,
+        "g": 5,
         "e": 1,
         "p": 10,
-        "gf": 33,
-        "gc": 73,
-        "pts": 13
+        "gf": 32,
+        "gc": 72,
+        "pts": 16
       },
       {
         "posicion": 15,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 16,
         "g": 3,
         "e": 2,
-        "p": 10,
+        "p": 11,
         "gf": 42,
-        "gc": 73,
+        "gc": 79,
         "pts": 11
       },
       {
         "posicion": 16,
         "equipo": "UGAB",
-        "pj": 15,
+        "pj": 16,
         "g": 2,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 26,
-        "gc": 123,
+        "gc": 129,
         "pts": 6
       },
       {
@@ -1503,13 +1503,13 @@
       },
       {
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 106,
-        "g": 75,
+        "pj": 108,
+        "g": 77,
         "e": 8,
         "p": 23,
-        "gf": 536,
-        "gc": 305,
-        "pts": 233,
+        "gf": 546,
+        "gc": 307,
+        "pts": 239,
         "posicion": 2
       },
       {
@@ -1525,13 +1525,13 @@
       },
       {
         "equipo": "VICTORIA",
-        "pj": 105,
-        "g": 72,
+        "pj": 107,
+        "g": 73,
         "e": 7,
-        "p": 26,
-        "gf": 608,
-        "gc": 366,
-        "pts": 223,
+        "p": 27,
+        "gf": 621,
+        "gc": 370,
+        "pts": 226,
         "posicion": 4
       },
       {
@@ -1635,12 +1635,12 @@
       },
       {
         "equipo": "UGAB",
-        "pj": 104,
+        "pj": 105,
         "g": 32,
         "e": 4,
-        "p": 68,
+        "p": 69,
         "gf": 324,
-        "gc": 563,
+        "gc": 569,
         "pts": 100,
         "posicion": 14
       },
@@ -1657,34 +1657,34 @@
       },
       {
         "equipo": "ALTO PASTO",
-        "pj": 98,
-        "g": 19,
+        "pj": 100,
+        "g": 20,
         "e": 8,
-        "p": 71,
-        "gf": 260,
-        "gc": 547,
-        "pts": 65,
+        "p": 72,
+        "gf": 264,
+        "gc": 560,
+        "pts": 68,
         "posicion": 16
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 105,
-        "g": 18,
+        "pj": 106,
+        "g": 19,
         "e": 4,
         "p": 83,
-        "gf": 260,
+        "gf": 266,
         "gc": 619,
-        "pts": 58,
+        "pts": 61,
         "posicion": 17
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 105,
+        "pj": 107,
         "g": 15,
         "e": 7,
-        "p": 83,
-        "gf": 188,
-        "gc": 544,
+        "p": 85,
+        "gf": 190,
+        "gc": 554,
         "pts": 52,
         "posicion": 18
       }
@@ -15699,25 +15699,31 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150311,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 6,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 11:00",
               "sede": "INDEPENDIENTE SEDE CAPITAL",
               "direccion": "BOYACA 470",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-153947-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-153953-image.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150464,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 10:00",
               "sede": "INDEPENDIENTE SEDE CAPITAL",
               "direccion": "BOYACA 470",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-144047-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-144115-image.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 149546,
@@ -15764,7 +15770,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CRISOL JUVENTUD",
@@ -15783,14 +15789,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150312,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 12:00",
               "sede": "Crisol",
               "direccion": "Colon 849, Ramos Mejía",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260712-161554-inbound2674721459909193477.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gk1mpnwz3bvg5gafgpfxm6wyzjn1/20260712-161557-inbound1771795800713788528.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150465,
@@ -15848,7 +15857,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ALTO PASTO",
@@ -15856,25 +15865,31 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150160,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 12,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 12:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161514-inbound2784697107808916115.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161515-inbound5392736253368698399.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150313,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 11:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151837-inbound1870522499479325954.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151900-inbound6756879042840495344.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 149548,
