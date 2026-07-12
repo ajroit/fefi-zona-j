@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T19:08:09.041406Z",
+  "actualizado": "2026-07-12T20:52:12.274480Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 15,
-        "g": 13,
+        "pj": 16,
+        "g": 14,
         "e": 1,
         "p": 1,
-        "gf": 72,
+        "gf": 76,
         "gc": 16,
-        "pts": 40
+        "pts": 43
       },
       {
         "posicion": 2,
@@ -199,12 +199,12 @@
       {
         "posicion": 11,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 16,
         "g": 4,
         "e": 5,
-        "p": 6,
+        "p": 7,
         "gf": 18,
-        "gc": 32,
+        "gc": 36,
         "pts": 17
       },
       {
@@ -289,16 +289,27 @@
       {
         "posicion": 1,
         "equipo": "17 DE AGOSTO",
-        "pj": 15,
+        "pj": 16,
         "g": 12,
-        "e": 2,
+        "e": 3,
         "p": 1,
-        "gf": 45,
-        "gc": 9,
-        "pts": 38
+        "gf": 46,
+        "gc": 10,
+        "pts": 39
       },
       {
         "posicion": 2,
+        "equipo": "VILLA SAHORES",
+        "pj": 16,
+        "g": 11,
+        "e": 3,
+        "p": 2,
+        "gf": 31,
+        "gc": 14,
+        "pts": 36
+      },
+      {
+        "posicion": 3,
         "equipo": "ALLENDE",
         "pj": 16,
         "g": 11,
@@ -306,17 +317,6 @@
         "p": 3,
         "gf": 37,
         "gc": 9,
-        "pts": 35
-      },
-      {
-        "posicion": 3,
-        "equipo": "VILLA SAHORES",
-        "pj": 15,
-        "g": 11,
-        "e": 2,
-        "p": 2,
-        "gf": 30,
-        "gc": 13,
         "pts": 35
       },
       {
@@ -687,6 +687,17 @@
     ],
     "general": [
       {
+        "equipo": "17 DE AGOSTO",
+        "pj": 47,
+        "g": 35,
+        "e": 6,
+        "p": 6,
+        "gf": 152,
+        "gc": 41,
+        "pts": 111,
+        "posicion": 1
+      },
+      {
         "equipo": "ALLENDE",
         "pj": 48,
         "g": 35,
@@ -695,28 +706,17 @@
         "gf": 134,
         "gc": 39,
         "pts": 111,
-        "posicion": 1
-      },
-      {
-        "equipo": "17 DE AGOSTO",
-        "pj": 46,
-        "g": 35,
-        "e": 5,
-        "p": 6,
-        "gf": 151,
-        "gc": 40,
-        "pts": 110,
         "posicion": 2
       },
       {
         "equipo": "SOCIAL OESTE",
-        "pj": 47,
-        "g": 33,
+        "pj": 48,
+        "g": 34,
         "e": 6,
         "p": 8,
-        "gf": 155,
+        "gf": 159,
         "gc": 44,
-        "pts": 105,
+        "pts": 108,
         "posicion": 3
       },
       {
@@ -732,13 +732,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 46,
+        "pj": 47,
         "g": 30,
-        "e": 5,
+        "e": 6,
         "p": 11,
-        "gf": 112,
-        "gc": 57,
-        "pts": 95,
+        "gf": 113,
+        "gc": 58,
+        "pts": 96,
         "posicion": 5
       },
       {
@@ -754,12 +754,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 47,
+        "pj": 48,
         "g": 21,
         "e": 13,
-        "p": 13,
+        "p": 14,
         "gf": 78,
-        "gc": 64,
+        "gc": 68,
         "pts": 76,
         "posicion": 7
       },
@@ -7586,14 +7586,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152409,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 14:45",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-185850-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-185856-image.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -7662,17 +7665,6 @@
               "direccion": "Reservistas argentinos 219",
               "planillas": null
             },
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152411,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 15:15",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152564,
               "goles_local": 0,
@@ -7685,6 +7677,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182054-1000211368.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182100-1000211367.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152411,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 15:15",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-194316-1000211378.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-194319-1000211377.jpg"
               ]
             }
           },
