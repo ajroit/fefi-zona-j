@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T22:50:57.882090Z",
+  "actualizado": "2026-07-12T02:56:38.030313Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -10,12 +10,12 @@
   ],
   "equipos": [
     {
-      "nombre": "LUNA DE MATANZA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
-    },
-    {
       "nombre": "VILLA SAHORES",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
+    },
+    {
+      "nombre": "LUNA DE MATANZA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-015210-images__3_.png"
     },
     {
       "nombre": "INDEPENDIENTE DE BECCAR",
@@ -138,6 +138,17 @@
     "Clasificación General": [
       {
         "posicion": 1,
+        "equipo": "VILLA SAHORES",
+        "pj": 6,
+        "g": 6,
+        "e": 0,
+        "p": 0,
+        "gf": 20,
+        "gc": 8,
+        "pts": 18
+      },
+      {
+        "posicion": 2,
         "equipo": "LUNA DE MATANZA",
         "pj": 7,
         "g": 5,
@@ -148,26 +159,15 @@
         "pts": 15
       },
       {
-        "posicion": 2,
-        "equipo": "VILLA SAHORES",
-        "pj": 4,
-        "g": 4,
-        "e": 0,
-        "p": 0,
-        "gf": 17,
-        "gc": 7,
-        "pts": 12
-      },
-      {
         "posicion": 3,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 3,
-        "g": 2,
+        "pj": 5,
+        "g": 4,
         "e": 0,
         "p": 1,
-        "gf": 14,
-        "gc": 4,
-        "pts": 6
+        "gf": 21,
+        "gc": 7,
+        "pts": 12
       },
       {
         "posicion": 4,
@@ -183,12 +183,12 @@
       {
         "posicion": 5,
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 3,
+        "pj": 5,
         "g": 1,
         "e": 0,
-        "p": 2,
-        "gf": 4,
-        "gc": 14,
+        "p": 4,
+        "gf": 7,
+        "gc": 21,
         "pts": 3
       },
       {
@@ -480,16 +480,27 @@
       {
         "posicion": 32,
         "equipo": "ARQUITECTURA",
-        "pj": 4,
+        "pj": 6,
         "g": 0,
         "e": 0,
-        "p": 4,
-        "gf": 7,
-        "gc": 17,
+        "p": 6,
+        "gf": 8,
+        "gc": 20,
         "pts": 0
       }
     ],
     "general": [
+      {
+        "equipo": "VILLA SAHORES",
+        "pj": 6,
+        "g": 6,
+        "e": 0,
+        "p": 0,
+        "gf": 20,
+        "gc": 8,
+        "pts": 18,
+        "posicion": 1
+      },
       {
         "equipo": "LUNA DE MATANZA",
         "pj": 7,
@@ -499,28 +510,17 @@
         "gf": 36,
         "gc": 21,
         "pts": 15,
-        "posicion": 1
-      },
-      {
-        "equipo": "VILLA SAHORES",
-        "pj": 4,
-        "g": 4,
-        "e": 0,
-        "p": 0,
-        "gf": 17,
-        "gc": 7,
-        "pts": 12,
         "posicion": 2
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 3,
-        "g": 2,
+        "pj": 5,
+        "g": 4,
         "e": 0,
         "p": 1,
-        "gf": 14,
-        "gc": 4,
-        "pts": 6,
+        "gf": 21,
+        "gc": 7,
+        "pts": 12,
         "posicion": 3
       },
       {
@@ -536,12 +536,12 @@
       },
       {
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 3,
+        "pj": 5,
         "g": 1,
         "e": 0,
-        "p": 2,
-        "gf": 4,
-        "gc": 14,
+        "p": 4,
+        "gf": 7,
+        "gc": 21,
         "pts": 3,
         "posicion": 5
       },
@@ -822,12 +822,12 @@
       },
       {
         "equipo": "ARQUITECTURA",
-        "pj": 4,
+        "pj": 6,
         "g": 0,
         "e": 0,
-        "p": 4,
-        "gf": 7,
-        "gc": 17,
+        "p": 6,
+        "gf": 8,
+        "gc": 20,
         "pts": 0,
         "posicion": 31
       }
@@ -867,17 +867,6 @@
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
               "planillas": null
             },
-            "QUINTA MASCULINO": {
-              "match_id": 205877,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 15:30",
-              "sede": "Club Alvear",
-              "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 205381,
               "goles_local": null,
@@ -905,14 +894,17 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 204389,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 19:30",
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260712-003621-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260712-003629-image.jpg"
+              ]
             },
             "SEXTA MASCULINO": {
               "match_id": 202901,
@@ -926,6 +918,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-181451-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260711-181506-image.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 205877,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 15:30",
+              "sede": "Club Alvear",
+              "direccion": "Av. Directorio 4147, Parque Avellaneda",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260712-003327-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3cgyxyinwffx1cgwgqilsjdvmeg1/20260712-003335-image.jpg"
               ]
             }
           },
@@ -1811,17 +1817,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170200-1000148271.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 204400,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 18:00",
-              "sede": "Club Arquitectura",
-              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 205392,
               "goles_local": 0,
@@ -1850,17 +1845,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-190142-1000148326.jpg"
               ]
             },
-            "TERCERA MASCULINO": {
-              "match_id": 204896,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-11 17:00",
-              "sede": "Club Arquitectura",
-              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": null
-            },
             "OCTAVA MASCULINO": {
               "match_id": 203904,
               "goles_local": 3,
@@ -1887,6 +1871,34 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170605-1000148276.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170603-1000148275.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 204896,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 17:00",
+              "sede": "Club Arquitectura",
+              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-230442-1000148373.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-230441-1000148372.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 204400,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 18:00",
+              "sede": "Club Arquitectura",
+              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260712-004806-1000029096.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260712-004811-1000029095.jpg"
               ]
             }
           },
