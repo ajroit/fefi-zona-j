@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T06:42:43.679995Z",
+  "actualizado": "2026-07-12T14:58:47.749614Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -489,13 +489,13 @@
       {
         "posicion": 1,
         "equipo": "ALLENDE",
-        "pj": 15,
-        "g": 14,
+        "pj": 16,
+        "g": 15,
         "e": 0,
         "p": 1,
-        "gf": 44,
+        "gf": 45,
         "gc": 10,
-        "pts": 42
+        "pts": 45
       },
       {
         "posicion": 2,
@@ -522,12 +522,12 @@
       {
         "posicion": 4,
         "equipo": "CENTRO ASTURIANO",
-        "pj": 15,
+        "pj": 16,
         "g": 10,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 38,
-        "gc": 14,
+        "gc": 15,
         "pts": 32
       },
       {
@@ -565,6 +565,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 15,
+        "g": 6,
+        "e": 5,
+        "p": 4,
+        "gf": 30,
+        "gc": 19,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "MAVIA FC",
         "pj": 15,
         "g": 7,
@@ -575,7 +586,7 @@
         "pts": 23
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "ZIZOU FUTSAL",
         "pj": 15,
         "g": 6,
@@ -586,25 +597,14 @@
         "pts": 21
       },
       {
-        "posicion": 10,
-        "equipo": "SACA DEL MEDIO",
-        "pj": 14,
-        "g": 5,
-        "e": 5,
-        "p": 4,
-        "gf": 26,
-        "gc": 16,
-        "pts": 20
-      },
-      {
         "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 2,
-        "p": 6,
-        "gf": 29,
-        "gc": 22,
+        "p": 7,
+        "gf": 32,
+        "gc": 26,
         "pts": 20
       },
       {
@@ -688,13 +688,13 @@
     "general": [
       {
         "equipo": "ALLENDE",
-        "pj": 45,
-        "g": 34,
+        "pj": 46,
+        "g": 35,
         "e": 6,
         "p": 5,
-        "gf": 132,
+        "gf": 133,
         "gc": 36,
-        "pts": 108,
+        "pts": 111,
         "posicion": 1
       },
       {
@@ -732,12 +732,12 @@
       },
       {
         "equipo": "CENTRO ASTURIANO",
-        "pj": 45,
+        "pj": 46,
         "g": 29,
         "e": 6,
-        "p": 10,
+        "p": 11,
         "gf": 122,
-        "gc": 48,
+        "gc": 49,
         "pts": 93,
         "posicion": 5
       },
@@ -787,12 +787,12 @@
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 44,
+        "pj": 45,
         "g": 19,
         "e": 5,
-        "p": 20,
-        "gf": 92,
-        "gc": 103,
+        "p": 21,
+        "gf": 95,
+        "gc": 107,
         "pts": 62,
         "posicion": 10
       },
@@ -809,13 +809,13 @@
       },
       {
         "equipo": "SACA DEL MEDIO",
-        "pj": 42,
-        "g": 12,
+        "pj": 43,
+        "g": 13,
         "e": 10,
         "p": 20,
-        "gf": 56,
-        "gc": 91,
-        "pts": 46,
+        "gf": 60,
+        "gc": 94,
+        "pts": 49,
         "posicion": 12
       },
       {
@@ -7610,17 +7610,6 @@
               "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152563,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 10:00",
-              "sede": "El Ferroviario",
-              "direccion": "Av. Reservistas Argentinos 219, Caba",
-              "planillas": null
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152257,
               "goles_local": null,
@@ -7631,9 +7620,23 @@
               "sede": "El Ferroviario",
               "direccion": "Av. Reservistas Argentinos 219, Caba",
               "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152563,
+              "goles_local": 1,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 10:00",
+              "sede": "El Ferroviario",
+              "direccion": "Av. Reservistas Argentinos 219, Caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-142026-285929.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-wn5blxnvp4utm3on1i0zhcb0vlg2/20260712-142028-285930.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VILLA SAHORES",
@@ -7779,17 +7782,6 @@
               "direccion": "Av. Juan B Justo 8900",
               "planillas": null
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152567,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 10:00",
-              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
-              "direccion": "Av. Juan B Justo 8900",
-              "planillas": null
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152261,
               "goles_local": null,
@@ -7800,9 +7792,23 @@
               "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
               "direccion": "Av. Juan B Justo 8900",
               "planillas": null
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152567,
+              "goles_local": 3,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 10:00",
+              "sede": "Polideportivo Vélez Sarsfield - Patios Deportivos ",
+              "direccion": "Av. Juan B Justo 8900",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260712-141653-inbound4316426150346192359.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260712-141656-inbound2490326743472463264.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "BROWN DE ADROGUE",

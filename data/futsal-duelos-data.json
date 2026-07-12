@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T06:42:36.200910Z",
+  "actualizado": "2026-07-12T14:58:20.316260Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -22,20 +22,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
+      "nombre": "HAEDO JUNIOR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
+    },
+    {
       "nombre": "MUNICIPIO LOMAS DE ZAMORA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
     },
     {
       "nombre": "DEPORTIVO MORON",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
-    },
-    {
-      "nombre": "LAS HERAS",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250429-154044-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090404619.png"
-    },
-    {
-      "nombre": "HAEDO JUNIOR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-013358-475307705_2090520528060520_7939099250978577019_n-remove-background.com.png"
     },
     {
       "nombre": "ARGENTINO DE CASTELAR",
@@ -130,6 +126,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
     },
     {
+      "nombre": "LAS HERAS",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250429-154044-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090404619.png"
+    },
+    {
       "nombre": "ARQUITECTURA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250727-153009-arquitectura.png"
     }
@@ -171,6 +171,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "HAEDO JUNIOR",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "gf": 4,
+        "gc": 1,
+        "pts": 6
+      },
+      {
+        "posicion": 5,
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
         "pj": 6,
         "g": 2,
@@ -181,7 +192,7 @@
         "pts": 6
       },
       {
-        "posicion": 5,
+        "posicion": 6,
         "equipo": "DEPORTIVO MORON",
         "pj": 7,
         "g": 2,
@@ -192,29 +203,7 @@
         "pts": 6
       },
       {
-        "posicion": 6,
-        "equipo": "LAS HERAS",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
         "posicion": 7,
-        "equipo": "HAEDO JUNIOR",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
-        "posicion": 8,
         "equipo": "ARGENTINO DE CASTELAR",
         "pj": 0,
         "g": 0,
@@ -225,7 +214,7 @@
         "pts": 0
       },
       {
-        "posicion": 9,
+        "posicion": 8,
         "equipo": "VELEZ SARSFIELD",
         "pj": 0,
         "g": 0,
@@ -236,7 +225,7 @@
         "pts": 0
       },
       {
-        "posicion": 10,
+        "posicion": 9,
         "equipo": "ATENEO HAEDO",
         "pj": 0,
         "g": 0,
@@ -247,7 +236,7 @@
         "pts": 0
       },
       {
-        "posicion": 11,
+        "posicion": 10,
         "equipo": "SIGLO XX OESTE",
         "pj": 0,
         "g": 0,
@@ -258,7 +247,7 @@
         "pts": 0
       },
       {
-        "posicion": 12,
+        "posicion": 11,
         "equipo": "RIVADAVIA 87",
         "pj": 0,
         "g": 0,
@@ -269,7 +258,7 @@
         "pts": 0
       },
       {
-        "posicion": 13,
+        "posicion": 12,
         "equipo": "LIBERTADORES",
         "pj": 0,
         "g": 0,
@@ -280,7 +269,7 @@
         "pts": 0
       },
       {
-        "posicion": 14,
+        "posicion": 13,
         "equipo": "ESTRADA FUTSAL",
         "pj": 0,
         "g": 0,
@@ -291,7 +280,7 @@
         "pts": 0
       },
       {
-        "posicion": 15,
+        "posicion": 14,
         "equipo": "ISIDRO CASANOVA",
         "pj": 0,
         "g": 0,
@@ -302,7 +291,7 @@
         "pts": 0
       },
       {
-        "posicion": 16,
+        "posicion": 15,
         "equipo": "MARCHIGIANA",
         "pj": 0,
         "g": 0,
@@ -313,7 +302,7 @@
         "pts": 0
       },
       {
-        "posicion": 17,
+        "posicion": 16,
         "equipo": "ESTUDIANTES LP",
         "pj": 0,
         "g": 0,
@@ -324,7 +313,7 @@
         "pts": 0
       },
       {
-        "posicion": 18,
+        "posicion": 17,
         "equipo": "ROTONDA",
         "pj": 0,
         "g": 0,
@@ -335,7 +324,7 @@
         "pts": 0
       },
       {
-        "posicion": 19,
+        "posicion": 18,
         "equipo": "JOSE HERNANDEZ",
         "pj": 0,
         "g": 0,
@@ -346,7 +335,7 @@
         "pts": 0
       },
       {
-        "posicion": 20,
+        "posicion": 19,
         "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
@@ -357,7 +346,7 @@
         "pts": 0
       },
       {
-        "posicion": 21,
+        "posicion": 20,
         "equipo": "VENCIENDO GIGANTES",
         "pj": 0,
         "g": 0,
@@ -368,7 +357,7 @@
         "pts": 0
       },
       {
-        "posicion": 22,
+        "posicion": 21,
         "equipo": "MIRIÑAQUE",
         "pj": 0,
         "g": 0,
@@ -379,7 +368,7 @@
         "pts": 0
       },
       {
-        "posicion": 23,
+        "posicion": 22,
         "equipo": "VILLA RITA",
         "pj": 0,
         "g": 0,
@@ -390,7 +379,7 @@
         "pts": 0
       },
       {
-        "posicion": 24,
+        "posicion": 23,
         "equipo": "JUVENTUD UNIDA (MC)",
         "pj": 0,
         "g": 0,
@@ -401,7 +390,7 @@
         "pts": 0
       },
       {
-        "posicion": 25,
+        "posicion": 24,
         "equipo": "CIENCIA Y LABOR",
         "pj": 0,
         "g": 0,
@@ -412,7 +401,7 @@
         "pts": 0
       },
       {
-        "posicion": 26,
+        "posicion": 25,
         "equipo": "VILLA LA ÑATA",
         "pj": 0,
         "g": 0,
@@ -423,7 +412,7 @@
         "pts": 0
       },
       {
-        "posicion": 27,
+        "posicion": 26,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 0,
         "g": 0,
@@ -434,7 +423,7 @@
         "pts": 0
       },
       {
-        "posicion": 28,
+        "posicion": 27,
         "equipo": "EL TALAR",
         "pj": 0,
         "g": 0,
@@ -445,7 +434,7 @@
         "pts": 0
       },
       {
-        "posicion": 29,
+        "posicion": 28,
         "equipo": "JUVENTUD",
         "pj": 0,
         "g": 0,
@@ -456,7 +445,7 @@
         "pts": 0
       },
       {
-        "posicion": 30,
+        "posicion": 29,
         "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
@@ -467,7 +456,7 @@
         "pts": 0
       },
       {
-        "posicion": 31,
+        "posicion": 30,
         "equipo": "BPNA",
         "pj": 0,
         "g": 0,
@@ -475,6 +464,17 @@
         "p": 0,
         "gf": 0,
         "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 31,
+        "equipo": "LAS HERAS",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "gf": 1,
+        "gc": 4,
         "pts": 0
       },
       {
@@ -524,6 +524,17 @@
         "posicion": 3
       },
       {
+        "equipo": "HAEDO JUNIOR",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "gf": 4,
+        "gc": 1,
+        "pts": 6,
+        "posicion": 4
+      },
+      {
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
         "pj": 6,
         "g": 2,
@@ -532,7 +543,7 @@
         "gf": 12,
         "gc": 23,
         "pts": 6,
-        "posicion": 4
+        "posicion": 5
       },
       {
         "equipo": "DEPORTIVO MORON",
@@ -543,29 +554,7 @@
         "gf": 21,
         "gc": 36,
         "pts": 6,
-        "posicion": 5
-      },
-      {
-        "equipo": "LAS HERAS",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
         "posicion": 6
-      },
-      {
-        "equipo": "HAEDO JUNIOR",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
-        "posicion": 7
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
@@ -576,7 +565,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 8
+        "posicion": 7
       },
       {
         "equipo": "VELEZ SARSFIELD",
@@ -587,7 +576,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 9
+        "posicion": 8
       },
       {
         "equipo": "ATENEO HAEDO",
@@ -598,7 +587,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 10
+        "posicion": 9
       },
       {
         "equipo": "SIGLO XX OESTE",
@@ -609,7 +598,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 11
+        "posicion": 10
       },
       {
         "equipo": "RIVADAVIA 87",
@@ -620,7 +609,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 12
+        "posicion": 11
       },
       {
         "equipo": "LIBERTADORES",
@@ -631,7 +620,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 13
+        "posicion": 12
       },
       {
         "equipo": "ESTRADA FUTSAL",
@@ -642,7 +631,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 14
+        "posicion": 13
       },
       {
         "equipo": "ISIDRO CASANOVA",
@@ -653,7 +642,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 15
+        "posicion": 14
       },
       {
         "equipo": "MARCHIGIANA",
@@ -664,7 +653,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 16
+        "posicion": 15
       },
       {
         "equipo": "ESTUDIANTES LP",
@@ -675,7 +664,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 17
+        "posicion": 16
       },
       {
         "equipo": "ROTONDA",
@@ -686,7 +675,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 18
+        "posicion": 17
       },
       {
         "equipo": "JOSE HERNANDEZ",
@@ -697,7 +686,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 19
+        "posicion": 18
       },
       {
         "equipo": "PEDRO LOZANO",
@@ -708,7 +697,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 20
+        "posicion": 19
       },
       {
         "equipo": "VENCIENDO GIGANTES",
@@ -719,7 +708,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 21
+        "posicion": 20
       },
       {
         "equipo": "MIRIÑAQUE",
@@ -730,7 +719,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 22
+        "posicion": 21
       },
       {
         "equipo": "VILLA RITA",
@@ -741,7 +730,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 23
+        "posicion": 22
       },
       {
         "equipo": "JUVENTUD UNIDA (MC)",
@@ -752,7 +741,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 24
+        "posicion": 23
       },
       {
         "equipo": "CIENCIA Y LABOR",
@@ -763,7 +752,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 25
+        "posicion": 24
       },
       {
         "equipo": "VILLA LA ÑATA",
@@ -774,7 +763,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 26
+        "posicion": 25
       },
       {
         "equipo": "DEPORTIVO ABBAS",
@@ -785,7 +774,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 27
+        "posicion": 26
       },
       {
         "equipo": "EL TALAR",
@@ -796,7 +785,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 28
+        "posicion": 27
       },
       {
         "equipo": "JUVENTUD",
@@ -807,7 +796,7 @@
         "gf": 0,
         "gc": 0,
         "pts": 0,
-        "posicion": 29
+        "posicion": 28
       },
       {
         "equipo": "BPNA",
@@ -817,6 +806,17 @@
         "p": 0,
         "gf": 0,
         "gc": 0,
+        "pts": 0,
+        "posicion": 29
+      },
+      {
+        "equipo": "LAS HERAS",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "gf": 1,
+        "gc": 4,
         "pts": 0,
         "posicion": 30
       },
@@ -1066,14 +1066,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 203399,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 10:00",
               "sede": "Club Social y Deportivo Las Heras",
               "direccion": "Libertad 5052, Villa Ballester",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260712-142828-1000001556.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260712-142841-1000001558.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 204391,
@@ -1108,17 +1111,6 @@
               "direccion": "Libertad 5052, Villa Ballester",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 203895,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 09:00",
-              "sede": "Club Social y Deportivo Las Heras",
-              "direccion": "Libertad 5052, Villa Ballester",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 205383,
               "goles_local": null,
@@ -1129,9 +1121,23 @@
               "sede": "Club Social y Deportivo Las Heras",
               "direccion": "Libertad 5052, Villa Ballester",
               "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 203895,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 09:00",
+              "sede": "Club Social y Deportivo Las Heras",
+              "direccion": "Libertad 5052, Villa Ballester",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260712-131950-1000001554.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260712-131958-1000001555.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ARGENTINO DE CASTELAR",

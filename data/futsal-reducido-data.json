@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T06:42:40.954518Z",
+  "actualizado": "2026-07-12T14:58:43.442833Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -1304,24 +1304,24 @@
       {
         "posicion": 2,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 15,
-        "g": 13,
+        "pj": 16,
+        "g": 14,
         "e": 0,
         "p": 2,
-        "gf": 70,
+        "gf": 75,
         "gc": 15,
-        "pts": 39
+        "pts": 42
       },
       {
         "posicion": 3,
         "equipo": "VICTORIA",
-        "pj": 15,
-        "g": 13,
+        "pj": 16,
+        "g": 14,
         "e": 0,
         "p": 2,
-        "gf": 82,
-        "gc": 32,
-        "pts": 39
+        "gf": 89,
+        "gc": 33,
+        "pts": 42
       },
       {
         "posicion": 4,
@@ -1458,23 +1458,23 @@
       {
         "posicion": 16,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 16,
         "g": 3,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 21,
-        "gc": 77,
+        "gc": 82,
         "pts": 9
       },
       {
         "posicion": 17,
         "equipo": "ALTO PASTO",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 1,
-        "p": 12,
-        "gf": 22,
-        "gc": 92,
+        "p": 13,
+        "gf": 23,
+        "gc": 99,
         "pts": 4
       },
       {
@@ -1503,13 +1503,13 @@
       },
       {
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 105,
-        "g": 74,
+        "pj": 106,
+        "g": 75,
         "e": 8,
         "p": 23,
-        "gf": 531,
+        "gf": 536,
         "gc": 305,
-        "pts": 230,
+        "pts": 233,
         "posicion": 2
       },
       {
@@ -1525,13 +1525,13 @@
       },
       {
         "equipo": "VICTORIA",
-        "pj": 104,
-        "g": 71,
+        "pj": 105,
+        "g": 72,
         "e": 7,
         "p": 26,
-        "gf": 601,
-        "gc": 365,
-        "pts": 220,
+        "gf": 608,
+        "gc": 366,
+        "pts": 223,
         "posicion": 4
       },
       {
@@ -1657,12 +1657,12 @@
       },
       {
         "equipo": "ALTO PASTO",
-        "pj": 97,
+        "pj": 98,
         "g": 19,
         "e": 8,
-        "p": 70,
-        "gf": 259,
-        "gc": 540,
+        "p": 71,
+        "gf": 260,
+        "gc": 547,
         "pts": 65,
         "posicion": 16
       },
@@ -1679,12 +1679,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 104,
+        "pj": 105,
         "g": 15,
         "e": 7,
-        "p": 82,
+        "p": 83,
         "gf": 188,
-        "gc": 539,
+        "gc": 544,
         "pts": 52,
         "posicion": 18
       }
@@ -15876,17 +15876,6 @@
               "direccion": "4 de marzo 1146",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 150466,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 10:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": null
-            },
             "PRIMERA MASCULINO": {
               "match_id": 149548,
               "goles_local": null,
@@ -15930,9 +15919,23 @@
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 150466,
+              "goles_local": 1,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 10:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-142021-inbound7320495543214753709.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-142016-inbound8252319317907193275.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "MAYO FUTSAL",
