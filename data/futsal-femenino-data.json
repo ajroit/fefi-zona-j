@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T20:52:12.274480Z",
+  "actualizado": "2026-07-12T22:51:49.895249Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -16,24 +16,24 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-160332-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-3rllhsurfoxynskxxwcmgt9s7rc2_1741787790390.png"
     },
     {
-      "nombre": "CENTRO ASTURIANO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
-    },
-    {
       "nombre": "17 DE AGOSTO",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/07a63c5f-f4c6-42c7-a1f9-8a7e3d5db901.png"
+    },
+    {
+      "nombre": "CENTRO ASTURIANO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250423-162323-20.png"
     },
     {
       "nombre": "ASTRA MACKIE",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-190745-transparent-Photoroom__5_.png"
     },
     {
-      "nombre": "ALLENDE",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
-    },
-    {
       "nombre": "VILLA SAHORES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260319-222211-images-Photoroom__7_.png"
+    },
+    {
+      "nombre": "ALLENDE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
       "nombre": "EL GALPON",
@@ -99,6 +99,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "17 DE AGOSTO",
+        "pj": 16,
+        "g": 12,
+        "e": 2,
+        "p": 2,
+        "gf": 58,
+        "gc": 16,
+        "pts": 38
+      },
+      {
+        "posicion": 3,
         "equipo": "CENTRO ASTURIANO",
         "pj": 16,
         "g": 12,
@@ -107,17 +118,6 @@
         "gf": 53,
         "gc": 16,
         "pts": 38
-      },
-      {
-        "posicion": 3,
-        "equipo": "17 DE AGOSTO",
-        "pj": 15,
-        "g": 12,
-        "e": 1,
-        "p": 2,
-        "gf": 57,
-        "gc": 15,
-        "pts": 37
       },
       {
         "posicion": 4,
@@ -132,6 +132,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "VILLA SAHORES",
+        "pj": 16,
+        "g": 10,
+        "e": 2,
+        "p": 4,
+        "gf": 51,
+        "gc": 23,
+        "pts": 32
+      },
+      {
+        "posicion": 6,
         "equipo": "ALLENDE",
         "pj": 16,
         "g": 9,
@@ -139,17 +150,6 @@
         "p": 3,
         "gf": 52,
         "gc": 20,
-        "pts": 31
-      },
-      {
-        "posicion": 6,
-        "equipo": "VILLA SAHORES",
-        "pj": 15,
-        "g": 10,
-        "e": 1,
-        "p": 4,
-        "gf": 50,
-        "gc": 22,
         "pts": 31
       },
       {
@@ -688,13 +688,13 @@
     "general": [
       {
         "equipo": "17 DE AGOSTO",
-        "pj": 47,
+        "pj": 48,
         "g": 35,
-        "e": 6,
+        "e": 7,
         "p": 6,
-        "gf": 152,
-        "gc": 41,
-        "pts": 111,
+        "gf": 153,
+        "gc": 42,
+        "pts": 112,
         "posicion": 1
       },
       {
@@ -732,13 +732,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 47,
+        "pj": 48,
         "g": 30,
-        "e": 6,
+        "e": 7,
         "p": 11,
-        "gf": 113,
-        "gc": 58,
-        "pts": 96,
+        "gf": 114,
+        "gc": 59,
+        "pts": 97,
         "posicion": 5
       },
       {
@@ -7575,14 +7575,17 @@
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152256,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 16:00",
               "sede": "El Poli",
               "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-201747-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-201803-image.jpg"
+              ]
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152409,
@@ -7654,17 +7657,6 @@
           "local": "VILLA SAHORES",
           "visitante": "17 DE AGOSTO",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152258,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 16:30",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152564,
               "goles_local": 0,
@@ -7691,6 +7683,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-194316-1000211378.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-194319-1000211377.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152258,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 16:30",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212518-1000211413.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212521-1000211412.jpg"
               ]
             }
           },

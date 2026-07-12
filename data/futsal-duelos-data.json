@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T20:52:04.917850Z",
+  "actualizado": "2026-07-12T22:51:38.265966Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -38,16 +38,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740090325437.png"
     },
     {
+      "nombre": "VELEZ SARSFIELD",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
+    },
+    {
       "nombre": "MUNICIPIO LOMAS DE ZAMORA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
     },
     {
       "nombre": "DEPORTIVO MORON",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
-    },
-    {
-      "nombre": "VELEZ SARSFIELD",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
     },
     {
       "nombre": "ATENEO HAEDO",
@@ -172,49 +172,60 @@
       {
         "posicion": 4,
         "equipo": "HAEDO JUNIOR",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "gf": 10,
-        "gc": 3,
-        "pts": 9
+        "gf": 15,
+        "gc": 4,
+        "pts": 12
       },
       {
         "posicion": 5,
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 4,
+        "pj": 5,
         "g": 3,
         "e": 0,
-        "p": 1,
-        "gf": 9,
-        "gc": 3,
+        "p": 2,
+        "gf": 10,
+        "gc": 5,
         "pts": 9
       },
       {
         "posicion": 6,
         "equipo": "MARCHIGIANA",
-        "pj": 5,
+        "pj": 6,
         "g": 3,
         "e": 0,
-        "p": 2,
-        "gf": 15,
-        "gc": 13,
+        "p": 3,
+        "gf": 17,
+        "gc": 16,
         "pts": 9
       },
       {
         "posicion": 7,
         "equipo": "ESTUDIANTES LP",
+        "pj": 6,
+        "g": 3,
+        "e": 0,
+        "p": 3,
+        "gf": 16,
+        "gc": 17,
+        "pts": 9
+      },
+      {
+        "posicion": 8,
+        "equipo": "VELEZ SARSFIELD",
         "pj": 5,
         "g": 2,
         "e": 0,
         "p": 3,
-        "gf": 13,
-        "gc": 15,
+        "gf": 5,
+        "gc": 10,
         "pts": 6
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
         "pj": 6,
         "g": 2,
@@ -225,7 +236,7 @@
         "pts": 6
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "DEPORTIVO MORON",
         "pj": 7,
         "g": 2,
@@ -234,17 +245,6 @@
         "gf": 21,
         "gc": 36,
         "pts": 6
-      },
-      {
-        "posicion": 10,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 4,
-        "g": 1,
-        "e": 0,
-        "p": 3,
-        "gf": 3,
-        "gc": 9,
-        "pts": 3
       },
       {
         "posicion": 11,
@@ -469,12 +469,12 @@
       {
         "posicion": 31,
         "equipo": "LAS HERAS",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
-        "gf": 3,
-        "gc": 10,
+        "p": 4,
+        "gf": 4,
+        "gc": 15,
         "pts": 0
       },
       {
@@ -525,47 +525,58 @@
       },
       {
         "equipo": "HAEDO JUNIOR",
-        "pj": 3,
-        "g": 3,
+        "pj": 4,
+        "g": 4,
         "e": 0,
         "p": 0,
-        "gf": 10,
-        "gc": 3,
-        "pts": 9,
+        "gf": 15,
+        "gc": 4,
+        "pts": 12,
         "posicion": 4
       },
       {
         "equipo": "ARGENTINO DE CASTELAR",
-        "pj": 4,
+        "pj": 5,
         "g": 3,
         "e": 0,
-        "p": 1,
-        "gf": 9,
-        "gc": 3,
+        "p": 2,
+        "gf": 10,
+        "gc": 5,
         "pts": 9,
         "posicion": 5
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 5,
+        "pj": 6,
         "g": 3,
         "e": 0,
-        "p": 2,
-        "gf": 15,
-        "gc": 13,
+        "p": 3,
+        "gf": 17,
+        "gc": 16,
         "pts": 9,
         "posicion": 6
       },
       {
         "equipo": "ESTUDIANTES LP",
+        "pj": 6,
+        "g": 3,
+        "e": 0,
+        "p": 3,
+        "gf": 16,
+        "gc": 17,
+        "pts": 9,
+        "posicion": 7
+      },
+      {
+        "equipo": "VELEZ SARSFIELD",
         "pj": 5,
         "g": 2,
         "e": 0,
         "p": 3,
-        "gf": 13,
-        "gc": 15,
+        "gf": 5,
+        "gc": 10,
         "pts": 6,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
@@ -576,7 +587,7 @@
         "gf": 12,
         "gc": 23,
         "pts": 6,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "DEPORTIVO MORON",
@@ -587,17 +598,6 @@
         "gf": 21,
         "gc": 36,
         "pts": 6,
-        "posicion": 9
-      },
-      {
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 4,
-        "g": 1,
-        "e": 0,
-        "p": 3,
-        "gf": 3,
-        "gc": 9,
-        "pts": 3,
         "posicion": 10
       },
       {
@@ -811,12 +811,12 @@
       },
       {
         "equipo": "LAS HERAS",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
-        "gf": 3,
-        "gc": 10,
+        "p": 4,
+        "gf": 4,
+        "gc": 15,
         "pts": 0,
         "posicion": 30
       },
@@ -1080,14 +1080,17 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 204391,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 15:00",
               "sede": "Club Social y Deportivo Las Heras",
               "direccion": "Libertad 5052, Villa Ballester",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-znzly7omq5n4thvmm1wbtav5npb3/20260712-211011-1002280811.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-znzly7omq5n4thvmm1wbtav5npb3/20260712-211015-1002280810.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 205879,
@@ -1182,17 +1185,6 @@
               "direccion": "MONTES DE OCA 2242, CASTELAR",
               "planillas": null
             },
-            "CUARTA MASCULINO": {
-              "match_id": 205384,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 17:10",
-              "sede": "ARGENTINO DE CASTELAR",
-              "direccion": "MONTES DE OCA 2242, CASTELAR",
-              "planillas": null
-            },
             "OCTAVA MASCULINO": {
               "match_id": 203896,
               "goles_local": 2,
@@ -1233,6 +1225,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260712-200803-1001184461.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260712-200809-1001184462.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 205384,
+              "goles_local": 1,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:10",
+              "sede": "ARGENTINO DE CASTELAR",
+              "direccion": "MONTES DE OCA 2242, CASTELAR",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260712-212418-1001184567.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-vvibdrz5ppbpotuhhw2acbem9zy2/20260712-212421-1001184566.jpg"
               ]
             }
           },
@@ -1508,27 +1514,19 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-171458-image.jpg"
               ]
             },
-            "TERCERA MASCULINO": {
-              "match_id": 204892,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 17:00",
-              "sede": "Parroquia inmaculada concepción ",
-              "direccion": "Santa Brígida 7100",
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 205388,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 16:00",
               "sede": "Parroquia inmaculada concepción ",
               "direccion": "Santa Brígida 7100",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-202609-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-202511-image.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 205884,
@@ -1570,6 +1568,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-181259-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-181317-image.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 204892,
+              "goles_local": 2,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-214923-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-215033-image.jpg"
               ]
             },
             "PRIMERA MASCULINO": {
