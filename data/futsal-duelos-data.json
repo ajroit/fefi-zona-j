@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T02:56:38.030313Z",
+  "actualizado": "2026-07-12T06:42:36.200910Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -22,12 +22,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-201336-345879289_220903473992324_9103075235370989506_n.png"
     },
     {
-      "nombre": "DEPORTIVO MORON",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
-    },
-    {
       "nombre": "MUNICIPIO LOMAS DE ZAMORA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250425-160043-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740090662423%20(1).png"
+    },
+    {
+      "nombre": "DEPORTIVO MORON",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
     },
     {
       "nombre": "LAS HERAS",
@@ -161,16 +161,27 @@
       {
         "posicion": 3,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 5,
+        "pj": 6,
         "g": 4,
         "e": 0,
-        "p": 1,
-        "gf": 21,
-        "gc": 7,
+        "p": 2,
+        "gf": 23,
+        "gc": 12,
         "pts": 12
       },
       {
         "posicion": 4,
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
+        "pj": 6,
+        "g": 2,
+        "e": 0,
+        "p": 4,
+        "gf": 12,
+        "gc": 23,
+        "pts": 6
+      },
+      {
+        "posicion": 5,
         "equipo": "DEPORTIVO MORON",
         "pj": 7,
         "g": 2,
@@ -179,17 +190,6 @@
         "gf": 21,
         "gc": 36,
         "pts": 6
-      },
-      {
-        "posicion": 5,
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 5,
-        "g": 1,
-        "e": 0,
-        "p": 4,
-        "gf": 7,
-        "gc": 21,
-        "pts": 3
       },
       {
         "posicion": 6,
@@ -514,14 +514,25 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 5,
+        "pj": 6,
         "g": 4,
         "e": 0,
-        "p": 1,
-        "gf": 21,
-        "gc": 7,
+        "p": 2,
+        "gf": 23,
+        "gc": 12,
         "pts": 12,
         "posicion": 3
+      },
+      {
+        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
+        "pj": 6,
+        "g": 2,
+        "e": 0,
+        "p": 4,
+        "gf": 12,
+        "gc": 23,
+        "pts": 6,
+        "posicion": 4
       },
       {
         "equipo": "DEPORTIVO MORON",
@@ -532,17 +543,6 @@
         "gf": 21,
         "gc": 36,
         "pts": 6,
-        "posicion": 4
-      },
-      {
-        "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 5,
-        "g": 1,
-        "e": 0,
-        "p": 4,
-        "gf": 7,
-        "gc": 21,
-        "pts": 3,
         "posicion": 5
       },
       {
@@ -858,25 +858,31 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 204885,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 18:00",
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260712-030653-1001354449.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260712-030657-1001354446.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 205381,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 16:45",
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260712-030538-1001354443.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260712-030541-1001354442.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 203893,
