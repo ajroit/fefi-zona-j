@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-12T22:51:49.895249Z",
+  "actualizado": "2026-07-13T02:58:16.089330Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -48,6 +48,10 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
+      "nombre": "ZIZOU FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
+    },
+    {
       "nombre": "ESTRELLA FEDERAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
@@ -58,10 +62,6 @@
     {
       "nombre": "PURA SUELA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
-    },
-    {
-      "nombre": "ZIZOU FUTSAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
       "nombre": "CULTURAL DE TAPIALES",
@@ -187,6 +187,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 16,
+        "g": 6,
+        "e": 1,
+        "p": 9,
+        "gf": 33,
+        "gc": 44,
+        "pts": 19
+      },
+      {
+        "posicion": 11,
         "equipo": "ESTRELLA FEDERAL",
         "pj": 15,
         "g": 4,
@@ -197,7 +208,7 @@
         "pts": 17
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 16,
         "g": 4,
@@ -208,7 +219,7 @@
         "pts": 17
       },
       {
-        "posicion": 12,
+        "posicion": 13,
         "equipo": "PURA SUELA",
         "pj": 15,
         "g": 4,
@@ -216,17 +227,6 @@
         "p": 7,
         "gf": 22,
         "gc": 34,
-        "pts": 16
-      },
-      {
-        "posicion": 13,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 15,
-        "g": 5,
-        "e": 1,
-        "p": 9,
-        "gf": 31,
-        "gc": 44,
         "pts": 16
       },
       {
@@ -254,12 +254,12 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 3,
-        "p": 10,
+        "p": 11,
         "gf": 25,
-        "gc": 51,
+        "gc": 53,
         "pts": 6
       },
       {
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 15,
+        "g": 11,
+        "e": 3,
+        "p": 1,
+        "gf": 41,
+        "gc": 17,
+        "pts": 36
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA SAHORES",
         "pj": 16,
         "g": 11,
@@ -309,7 +320,7 @@
         "pts": 36
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "ALLENDE",
         "pj": 16,
         "g": 11,
@@ -318,17 +329,6 @@
         "gf": 37,
         "gc": 9,
         "pts": 35
-      },
-      {
-        "posicion": 4,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 14,
-        "g": 10,
-        "e": 3,
-        "p": 1,
-        "gf": 37,
-        "gc": 17,
-        "pts": 33
       },
       {
         "posicion": 5,
@@ -465,12 +465,12 @@
       {
         "posicion": 17,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 15,
+        "pj": 16,
         "g": 2,
         "e": 2,
-        "p": 11,
+        "p": 12,
         "gf": 14,
-        "gc": 30,
+        "gc": 34,
         "pts": 8
       },
       {
@@ -820,24 +820,24 @@
       },
       {
         "equipo": "ZIZOU FUTSAL",
-        "pj": 45,
-        "g": 13,
+        "pj": 47,
+        "g": 14,
         "e": 6,
-        "p": 26,
-        "gf": 73,
-        "gc": 103,
-        "pts": 45,
+        "p": 27,
+        "gf": 75,
+        "gc": 107,
+        "pts": 48,
         "posicion": 13
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 42,
-        "g": 13,
+        "pj": 44,
+        "g": 14,
         "e": 6,
-        "p": 23,
-        "gf": 72,
-        "gc": 119,
-        "pts": 45,
+        "p": 24,
+        "gf": 76,
+        "gc": 121,
+        "pts": 48,
         "posicion": 14
       },
       {
@@ -7846,14 +7846,17 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152415,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 20:00",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001724-inbound2532608554865589048.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001731-inbound1869376897196668930.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152568,
@@ -7868,17 +7871,20 @@
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152262,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-12 21:15",
               "sede": "Gimnasio Nicolás Abud",
               "direccion": "Cerretti 868, Adrogue ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-014817-inbound2200232851813634903.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-014824-inbound677032710865628831.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     },
