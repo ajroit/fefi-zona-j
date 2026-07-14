@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-13T07:29:14.176489Z",
+  "actualizado": "2026-07-14T06:18:11.990031Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -1515,20 +1515,6 @@
           "local": "MARCHIGIANA",
           "visitante": "ESTUDIANTES LP",
           "partidos": {
-            "SEPTIMA MASCULINO": {
-              "match_id": 203404,
-              "goles_local": 3,
-              "goles_visitante": 2,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 13:00",
-              "sede": "Parroquia inmaculada concepción ",
-              "direccion": "Santa Brígida 7100",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-171436-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-171458-image.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "match_id": 205388,
               "goles_local": 4,
@@ -1541,20 +1527,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-202609-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-202511-image.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 205884,
-              "goles_local": 6,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 15:00",
-              "sede": "Parroquia inmaculada concepción ",
-              "direccion": "Santa Brígida 7100",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-192557-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-191918-image.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -1571,6 +1543,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-161140-image.jpg"
               ]
             },
+            "PRIMERA MASCULINO": {
+              "match_id": 204396,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 18:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-232905-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-232924-image.jpg"
+              ]
+            },
             "SEXTA MASCULINO": {
               "match_id": 202908,
               "goles_local": 1,
@@ -1583,6 +1569,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-181259-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-181317-image.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 203404,
+              "goles_local": 3,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 13:00",
+              "sede": "Parroquia inmaculada concepción ",
+              "direccion": "Santa Brígida 7100",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-171436-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-171458-image.jpg"
               ]
             },
             "TERCERA MASCULINO": {
@@ -1599,18 +1599,18 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-215033-image.jpg"
               ]
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 204396,
-              "goles_local": 0,
-              "goles_visitante": 1,
+            "QUINTA MASCULINO": {
+              "match_id": 205884,
+              "goles_local": 6,
+              "goles_visitante": 0,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 18:00",
+              "fecha_hora": "2026-07-12 15:00",
               "sede": "Parroquia inmaculada concepción ",
               "direccion": "Santa Brígida 7100",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-232905-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-232924-image.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-192557-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jr0dwka9whprvwnay6gapm1p9a23/20260712-191918-image.jpg"
               ]
             }
           },
@@ -1872,20 +1872,6 @@
           "local": "ARQUITECTURA",
           "visitante": "VILLA SAHORES",
           "partidos": {
-            "SEPTIMA MASCULINO": {
-              "match_id": 203408,
-              "goles_local": 1,
-              "goles_visitante": 6,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-11 13:00",
-              "sede": "Club Arquitectura",
-              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170203-1000148272.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170200-1000148271.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "match_id": 205392,
               "goles_local": 0,
@@ -1898,6 +1884,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-201304-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-qe5v2ze8rwbhgzx0foebvkyx9pn2/20260711-201312-image.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 203408,
+              "goles_local": 1,
+              "goles_visitante": 6,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-11 13:00",
+              "sede": "Club Arquitectura",
+              "direccion": "Avenida Francisco Beiro 2116, Agronomia. CABA",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170203-1000148272.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mue0ceusdio5cufpvaffo4qbgnf2/20260711-170200-1000148271.jpg"
               ]
             },
             "QUINTA MASCULINO": {

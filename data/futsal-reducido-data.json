@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-13T07:29:19.860391Z",
+  "actualizado": "2026-07-14T06:18:18.268301Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -52,16 +52,16 @@
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/050c3f9f-82f1-42f4-95e1-576ce55a0259.png"
     },
     {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
+    },
+    {
       "nombre": "ALL BOYS SAAVEDRA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen_de_WhatsApp_2025-03-17_a_las_13.21.52_cce7a3bd-removebg-preview%20(1).png"
     },
     {
       "nombre": "CRISOL JUVENTUD",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205804-images__1_.png"
-    },
-    {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
     },
     {
       "nombre": "PARQUE CHAS",
@@ -191,6 +191,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "VILLA SAHORES",
+        "pj": 16,
+        "g": 6,
+        "e": 2,
+        "p": 8,
+        "gf": 78,
+        "gc": 98,
+        "pts": 20
+      },
+      {
+        "posicion": 11,
         "equipo": "ALL BOYS SAAVEDRA",
         "pj": 15,
         "g": 6,
@@ -201,7 +212,7 @@
         "pts": 19
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "CRISOL JUVENTUD",
         "pj": 16,
         "g": 6,
@@ -212,25 +223,14 @@
         "pts": 19
       },
       {
-        "posicion": 12,
-        "equipo": "VILLA SAHORES",
-        "pj": 15,
-        "g": 5,
-        "e": 2,
-        "p": 8,
-        "gf": 73,
-        "gc": 95,
-        "pts": 17
-      },
-      {
         "posicion": 13,
         "equipo": "PARQUE CHAS",
-        "pj": 15,
+        "pj": 16,
         "g": 5,
         "e": 2,
-        "p": 8,
-        "gf": 56,
-        "gc": 88,
+        "p": 9,
+        "gf": 59,
+        "gc": 93,
         "pts": 17
       },
       {
@@ -1569,12 +1569,12 @@
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 109,
+        "pj": 110,
         "g": 55,
         "e": 14,
-        "p": 40,
-        "gf": 519,
-        "gc": 422,
+        "p": 41,
+        "gf": 522,
+        "gc": 427,
         "pts": 179,
         "posicion": 8
       },
@@ -1624,13 +1624,13 @@
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 111,
-        "g": 33,
+        "pj": 112,
+        "g": 34,
         "e": 9,
         "p": 69,
-        "gf": 357,
-        "gc": 505,
-        "pts": 108,
+        "gf": 362,
+        "gc": 508,
+        "pts": 111,
         "posicion": 13
       },
       {
@@ -15630,20 +15630,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260713-015631-1000160368.jpg"
               ]
             },
-            "TERCERA MASCULINO": {
-              "match_id": 149698,
-              "goles_local": 4,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 19:00",
-              "sede": "Malvinas",
-              "direccion": "rivera indarte 339 Villa Luzuriaga",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-233801-1000160294.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-233806-1000160291.jpg"
-              ]
-            },
             "CUARTA MASCULINO": {
               "match_id": 149851,
               "goles_local": 3,
@@ -15699,6 +15685,20 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-181855-1000160226.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-181906-1000160227.jpg"
               ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149698,
+              "goles_local": 4,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 19:00",
+              "sede": "Malvinas",
+              "direccion": "rivera indarte 339 Villa Luzuriaga",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-233801-1000160294.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mvdejml4bmgrultrn06jgjcuqn63/20260712-233806-1000160291.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -15707,20 +15707,6 @@
           "local": "INDEPENDIENTE (C)",
           "visitante": "ALL BOYS SAAVEDRA",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "match_id": 150158,
-              "goles_local": 2,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 12:00",
-              "sede": "INDEPENDIENTE SEDE CAPITAL",
-              "direccion": "BOYACA 470",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-164842-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-164850-image.jpg"
-              ]
-            },
             "SEPTIMA MASCULINO": {
               "match_id": 150311,
               "goles_local": 0,
@@ -15797,6 +15783,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-175252-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-175252-image.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 150158,
+              "goles_local": 2,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 12:00",
+              "sede": "INDEPENDIENTE SEDE CAPITAL",
+              "direccion": "BOYACA 470",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-164842-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-olyhlx0fzpc5qoimqbdg9kk222s2/20260712-164850-image.jpg"
               ]
             }
           },
@@ -15908,34 +15908,6 @@
           "local": "ALTO PASTO",
           "visitante": "VICTORIA",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "match_id": 150160,
-              "goles_local": 0,
-              "goles_visitante": 12,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 12:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161514-inbound2784697107808916115.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161515-inbound5392736253368698399.jpg"
-              ]
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 150313,
-              "goles_local": 4,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 11:00",
-              "sede": "Alto pasto",
-              "direccion": "4 de marzo 1146",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151837-inbound1870522499479325954.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151900-inbound6756879042840495344.jpg"
-              ]
-            },
             "PRIMERA MASCULINO": {
               "match_id": 149548,
               "goles_local": 2,
@@ -15948,6 +15920,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-213334-inbound1075244405284851051.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-213342-inbound6611955927550101894.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149854,
+              "goles_local": 2,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-212138-inbound698646300534199052.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-212144-inbound649326491252884699.jpg"
               ]
             },
             "TERCERA MASCULINO": {
@@ -15978,18 +15964,32 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-172152-inbound5014851796032920588.jpg"
               ]
             },
-            "CUARTA MASCULINO": {
-              "match_id": 149854,
-              "goles_local": 2,
-              "goles_visitante": 5,
+            "SEXTA MASCULINO": {
+              "match_id": 150160,
+              "goles_local": 0,
+              "goles_visitante": 12,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 14:00",
+              "fecha_hora": "2026-07-12 12:00",
               "sede": "Alto pasto",
               "direccion": "4 de marzo 1146",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-212138-inbound698646300534199052.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-212144-inbound649326491252884699.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161514-inbound2784697107808916115.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-161515-inbound5392736253368698399.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 150313,
+              "goles_local": 4,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 11:00",
+              "sede": "Alto pasto",
+              "direccion": "4 de marzo 1146",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151837-inbound1870522499479325954.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-f3xel4wf1wou1jlcmthncrnzox13/20260712-151900-inbound6756879042840495344.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -16013,18 +16013,32 @@
           "local": "MAYO FUTSAL",
           "visitante": "RESPLANDOR",
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "match_id": 149549,
-              "goles_local": 6,
-              "goles_visitante": 4,
+            "SEXTA MASCULINO": {
+              "match_id": 150161,
+              "goles_local": 7,
+              "goles_visitante": 6,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 20:15",
+              "fecha_hora": "2026-07-12 16:00",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260713-003123-inbound5394284216547512168.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260713-003117-inbound409911039266731295.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-195011-inbound6237455939056915902.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-195021-inbound2939201626214780177.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 150008,
+              "goles_local": 10,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:00",
+              "sede": "CLUB MAYO ",
+              "direccion": "Almafuerte 51 Luis Guillon",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-205619-37369.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-205620-37368.jpg"
               ]
             },
             "TERCERA MASCULINO": {
@@ -16069,32 +16083,18 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-184910-inbound2716534735173004852.jpg"
               ]
             },
-            "SEXTA MASCULINO": {
-              "match_id": 150161,
-              "goles_local": 7,
-              "goles_visitante": 6,
+            "PRIMERA MASCULINO": {
+              "match_id": 149549,
+              "goles_local": 6,
+              "goles_visitante": 4,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 16:00",
+              "fecha_hora": "2026-07-12 20:15",
               "sede": "CLUB MAYO ",
               "direccion": "Almafuerte 51 Luis Guillon",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-195011-inbound6237455939056915902.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-195021-inbound2939201626214780177.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 150008,
-              "goles_local": 10,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 17:00",
-              "sede": "CLUB MAYO ",
-              "direccion": "Almafuerte 51 Luis Guillon",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-205619-37369.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260712-205620-37368.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260713-003123-inbound5394284216547512168.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-xh0i6amvepf86aayzjo8zcypdzo2/20260713-003117-inbound409911039266731295.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -16130,48 +16130,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-193445-inbound452567056785974940.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-193447-inbound8584344407305507555.jpg"
-              ]
-            },
-            "PRIMERA MASCULINO": {
-              "match_id": 149550,
-              "goles_local": 5,
-              "goles_visitante": 9,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 20:45",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260713-012136-inbound756871290714583003.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260713-012137-inbound7883113530352458999.jpg"
-              ]
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 149856,
-              "goles_local": 4,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 18:30",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-225019-inbound552412261424158284.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-225021-inbound1318522998532097650.jpg"
-              ]
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 150009,
-              "goles_local": 0,
-              "goles_visitante": 5,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 17:30",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albariño 2253",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260712-214234-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260712-214242-image.jpg"
               ]
             },
             "OCTAVA MASCULINO": {
@@ -16214,6 +16172,48 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260713-001322-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260713-001301-image.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149550,
+              "goles_local": 5,
+              "goles_visitante": 9,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 20:45",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260713-012136-inbound756871290714583003.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260713-012137-inbound7883113530352458999.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 150009,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:30",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260712-214234-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-mgvjj4ep1tgntpnr2qzdv3vpq7u2/20260712-214242-image.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149856,
+              "goles_local": 4,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 18:30",
+              "sede": "C.s.y.d argentino ",
+              "direccion": "Albariño 2253",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-225019-inbound552412261424158284.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bdl0a0neuurpkykm36untoaeejb3/20260712-225021-inbound1318522998532097650.jpg"
               ]
             }
           },
@@ -16307,20 +16307,6 @@
           "local": "PRIMERA JUNTA",
           "visitante": "EL IDEAL",
           "partidos": {
-            "SEXTA MASCULINO": {
-              "match_id": 150164,
-              "goles_local": 3,
-              "goles_visitante": 7,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 15:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-190922-1000687000.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-190925-1000687015.jpg"
-              ]
-            },
             "OCTAVA MASCULINO": {
               "match_id": 150470,
               "goles_local": 7,
@@ -16347,34 +16333,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-181110-1000686903.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-181116-1000686904.jpg"
-              ]
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 149705,
-              "goles_local": 3,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 18:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260712-223438-17838956604634757143809004670826.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260712-223452-17838956786587284915040769503018.jpg"
-              ]
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 149858,
-              "goles_local": 1,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 17:00",
-              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
-              "direccion": "Zuviria 250,CABA ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-201919-1000687091.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-201923-1000687092.jpg"
               ]
             },
             "QUINTA MASCULINO": {
@@ -16404,6 +16362,48 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260713-004529-17839035142032236697595661453025.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260713-004539-17839035285777408545828629270701.jpg"
               ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149705,
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 18:00",
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260712-223438-17838956604634757143809004670826.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260712-223452-17838956786587284915040769503018.jpg"
+              ]
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 150164,
+              "goles_local": 3,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 15:00",
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-190922-1000687000.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-190925-1000687015.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149858,
+              "goles_local": 1,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 17:00",
+              "sede": "ASOCIACION ATLETICO PRIMERA JUNTA",
+              "direccion": "Zuviria 250,CABA ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-201919-1000687091.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-s0rkozac4nf1gjmkddzpcnssxyp2/20260712-201923-1000687092.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
@@ -16412,45 +16412,6 @@
           "local": "PARQUE CHAS",
           "visitante": "VILLA SAHORES",
           "partidos": {
-            "SEPTIMA MASCULINO": {
-              "match_id": 150318,
-              "goles_local": 6,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 15:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-191045-38265.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-191122-38266.jpg"
-              ]
-            },
-            "OCTAVA MASCULINO": {
-              "match_id": 150471,
-              "goles_local": 3,
-              "goles_visitante": 3,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 14:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-180845-38263.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-180844-38264.jpg"
-              ]
-            },
-            "PRIMERA MASCULINO": {
-              "match_id": 149553,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-12 20:15",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 149706,
               "goles_local": 5,
@@ -16463,20 +16424,6 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-231707-38273.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-231753-38274.jpg"
-              ]
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 149859,
-              "goles_local": 9,
-              "goles_visitante": 4,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 18:00",
-              "sede": "Parque chas",
-              "direccion": "Bauness 1486 caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260712-220317-inbound8320404455429723637.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260712-220319-inbound8561660385443778649.jpg"
               ]
             },
             "SEXTA MASCULINO": {
@@ -16506,6 +16453,62 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-215728-38269.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-215733-38270.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-215734-38272.jpg"
+              ]
+            },
+            "PRIMERA MASCULINO": {
+              "match_id": 149553,
+              "goles_local": 3,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 20:15",
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260713-163718-38384.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260713-163719-38385.jpg"
+              ]
+            },
+            "CUARTA MASCULINO": {
+              "match_id": 149859,
+              "goles_local": 9,
+              "goles_visitante": 4,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 18:00",
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260712-220317-inbound8320404455429723637.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jjnqxbphioqaplykjhiezxvbawu1/20260712-220319-inbound8561660385443778649.jpg"
+              ]
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 150318,
+              "goles_local": 6,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 15:00",
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-191045-38265.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-191122-38266.jpg"
+              ]
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 150471,
+              "goles_local": 3,
+              "goles_visitante": 3,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 14:00",
+              "sede": "Parque chas",
+              "direccion": "Bauness 1486 caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-180845-38263.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260712-180844-38264.jpg"
               ]
             }
           },

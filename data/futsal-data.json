@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-13T07:29:12.688494Z",
+  "actualizado": "2026-07-14T06:18:10.413091Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -1034,12 +1034,12 @@
       {
         "posicion": 6,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
+        "pj": 15,
         "g": 9,
         "e": 1,
-        "p": 4,
+        "p": 5,
         "gf": 56,
-        "gc": 27,
+        "gc": 32,
         "pts": 28
       },
       {
@@ -1110,6 +1110,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "RIVADAVIA 87",
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 27,
+        "gc": 70,
+        "pts": 12
+      },
+      {
+        "posicion": 14,
         "equipo": "DEPORTIVO ABBAS",
         "pj": 15,
         "g": 4,
@@ -1118,17 +1129,6 @@
         "gf": 29,
         "gc": 79,
         "pts": 12
-      },
-      {
-        "posicion": 14,
-        "equipo": "RIVADAVIA 87",
-        "pj": 14,
-        "g": 3,
-        "e": 0,
-        "p": 11,
-        "gf": 22,
-        "gc": 70,
-        "pts": 9
       },
       {
         "posicion": 15,
@@ -1523,6 +1523,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "MARCHIGIANA",
+        "pj": 15,
+        "g": 11,
+        "e": 1,
+        "p": 3,
+        "gf": 92,
+        "gc": 28,
+        "pts": 34
+      },
+      {
+        "posicion": 3,
         "equipo": "JUVENTUD",
         "pj": 15,
         "g": 11,
@@ -1531,17 +1542,6 @@
         "gf": 82,
         "gc": 37,
         "pts": 33
-      },
-      {
-        "posicion": 3,
-        "equipo": "MARCHIGIANA",
-        "pj": 14,
-        "g": 10,
-        "e": 1,
-        "p": 3,
-        "gf": 87,
-        "gc": 28,
-        "pts": 31
       },
       {
         "posicion": 4,
@@ -1645,12 +1645,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 16,
-        "gc": 49,
+        "gc": 54,
         "pts": 9
       },
       {
@@ -1691,13 +1691,13 @@
       {
         "posicion": 1,
         "equipo": "MARCHIGIANA",
-        "pj": 14,
-        "g": 14,
+        "pj": 15,
+        "g": 15,
         "e": 0,
         "p": 0,
-        "gf": 102,
+        "gf": 107,
         "gc": 14,
-        "pts": 42
+        "pts": 45
       },
       {
         "posicion": 2,
@@ -1823,12 +1823,12 @@
       {
         "posicion": 13,
         "equipo": "RIVADAVIA 87",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 1,
-        "p": 10,
+        "p": 11,
         "gf": 26,
-        "gc": 90,
+        "gc": 95,
         "pts": 10
       },
       {
@@ -2068,13 +2068,13 @@
       },
       {
         "equipo": "MARCHIGIANA",
-        "pj": 147,
-        "g": 89,
+        "pj": 150,
+        "g": 91,
         "e": 18,
-        "p": 40,
-        "gf": 661,
-        "gc": 357,
-        "pts": 285,
+        "p": 41,
+        "gf": 671,
+        "gc": 362,
+        "pts": 291,
         "posicion": 3
       },
       {
@@ -2134,13 +2134,13 @@
       },
       {
         "equipo": "RIVADAVIA 87",
-        "pj": 146,
-        "g": 69,
+        "pj": 149,
+        "g": 70,
         "e": 13,
-        "p": 64,
-        "gf": 526,
-        "gc": 525,
-        "pts": 220,
+        "p": 66,
+        "gf": 531,
+        "gc": 535,
+        "pts": 223,
         "posicion": 9
       },
       {
@@ -17266,9 +17266,9 @@
           "partidos": {
             "2017 PROMOCIONALES": {
               "match_id": 149147,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -17277,9 +17277,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 148787,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-09 11:00",
               "sede": "Club Casanova ",
@@ -17300,8 +17300,33 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-131348-1001348763.jpg"
               ]
             },
+            "CUARTA MASCULINO": {
+              "match_id": 148427,
+              "goles_local": 5,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-10 13:15",
+              "sede": "Club Casanova ",
+              "direccion": "Roma 3076",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175256-1001041642.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175258-1001041641.jpg"
+              ]
+            },
             "2018 PROMOCIONALES": {
               "match_id": 149267,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149387,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
@@ -17338,31 +17363,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164322-1001349230.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hssdvvrrhjyc12axnabwcbhktaq1/20260710-164319-1001349229.jpg"
               ]
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 148427,
-              "goles_local": 5,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-10 13:15",
-              "sede": "Club Casanova ",
-              "direccion": "Roma 3076",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175256-1001041642.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260710-175258-1001041641.jpg"
-              ]
-            },
-            "2019 PROMOCIONALES": {
-              "match_id": 149387,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
             },
             "OCTAVA MASCULINO": {
               "match_id": 148907,

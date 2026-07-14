@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-13T07:29:23.194276Z",
+  "actualizado": "2026-07-14T06:18:21.305990Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -565,6 +565,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 16,
+        "g": 7,
+        "e": 3,
+        "p": 6,
+        "gf": 33,
+        "gc": 29,
+        "pts": 24
+      },
+      {
+        "posicion": 9,
         "equipo": "SACA DEL MEDIO",
         "pj": 15,
         "g": 6,
@@ -575,7 +586,7 @@
         "pts": 23
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 15,
         "g": 7,
@@ -584,17 +595,6 @@
         "gf": 29,
         "gc": 22,
         "pts": 23
-      },
-      {
-        "posicion": 10,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 15,
-        "g": 6,
-        "e": 3,
-        "p": 6,
-        "gf": 28,
-        "gc": 29,
-        "pts": 21
       },
       {
         "posicion": 11,
@@ -654,12 +654,12 @@
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 13,
         "gf": 10,
-        "gc": 51,
+        "gc": 56,
         "pts": 6
       },
       {
@@ -808,6 +808,17 @@
         "posicion": 11
       },
       {
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 48,
+        "g": 15,
+        "e": 6,
+        "p": 27,
+        "gf": 80,
+        "gc": 107,
+        "pts": 51,
+        "posicion": 12
+      },
+      {
         "equipo": "SACA DEL MEDIO",
         "pj": 45,
         "g": 13,
@@ -816,27 +827,16 @@
         "gf": 63,
         "gc": 103,
         "pts": 49,
-        "posicion": 12
-      },
-      {
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 47,
-        "g": 14,
-        "e": 6,
-        "p": 27,
-        "gf": 75,
-        "gc": 107,
-        "pts": 48,
         "posicion": 13
       },
       {
         "equipo": "BROWN DE ADROGUE",
-        "pj": 44,
+        "pj": 45,
         "g": 14,
         "e": 6,
-        "p": 24,
+        "p": 25,
         "gf": 76,
-        "gc": 121,
+        "gc": 126,
         "pts": 48,
         "posicion": 14
       },
@@ -7029,7 +7029,7 @@
     },
     {
       "numero": 15,
-      "fecha_partido": "2026-07-04",
+      "fecha_partido": "2026-07-05",
       "encuentros": [
         {
           "local": "PURA SUELA",
@@ -7041,9 +7041,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-04 16:30",
-              "sede": "Arena Futsala",
-              "direccion": "Rio Cuarto 1900",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7052,9 +7052,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-04 15:15",
-              "sede": "Arena Futsala",
-              "direccion": "Rio Cuarto 1900",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7559,20 +7559,6 @@
           "local": "INDEPENDIENTE (C)",
           "visitante": "SOCIAL OESTE",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152562,
-              "goles_local": 2,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 13:30",
-              "sede": "El Poli",
-              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-173702-image.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-173709-image.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152256,
               "goles_local": 0,
@@ -7585,6 +7571,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-201747-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-201803-image.jpg"
+              ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152562,
+              "goles_local": 2,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 13:30",
+              "sede": "El Poli",
+              "direccion": "Av. Coronel Esteban Bonorino 897, Caba",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-173702-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-pmrinwbbonueljn36xmibhjgj6k2/20260712-173709-image.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7657,18 +7657,18 @@
           "local": "VILLA SAHORES",
           "visitante": "17 DE AGOSTO",
           "partidos": {
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152564,
-              "goles_local": 0,
-              "goles_visitante": 4,
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152258,
+              "goles_local": 1,
+              "goles_visitante": 1,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 14:00",
+              "fecha_hora": "2026-07-12 16:30",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182054-1000211368.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182100-1000211367.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212518-1000211413.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212521-1000211412.jpg"
               ]
             },
             "RESERVA ADULTAS FEMENINO ": {
@@ -7685,18 +7685,18 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-194319-1000211377.jpg"
               ]
             },
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152258,
-              "goles_local": 1,
-              "goles_visitante": 1,
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152564,
+              "goles_local": 0,
+              "goles_visitante": 4,
               "jugado": true,
               "estado": "",
-              "fecha_hora": "2026-07-12 16:30",
+              "fecha_hora": "2026-07-12 14:00",
               "sede": "Ferroviario",
               "direccion": "Reservistas argentinos 219",
               "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212518-1000211413.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-212521-1000211412.jpg"
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182054-1000211368.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-skiirp9u4zwcremy7n3mjckscyv2/20260712-182100-1000211367.jpg"
               ]
             }
           },
@@ -7844,25 +7844,11 @@
           "local": "BROWN DE ADROGUE",
           "visitante": "ZIZOU FUTSAL",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152415,
-              "goles_local": 4,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-12 20:00",
-              "sede": "Gimnasio Nicolás Abud",
-              "direccion": "Cerretti 868, Adrogue ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001724-inbound2532608554865589048.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001731-inbound1869376897196668930.jpg"
-              ]
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152568,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7881,6 +7867,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-014817-inbound2200232851813634903.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-014824-inbound677032710865628831.jpg"
+              ]
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152415,
+              "goles_local": 4,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-12 20:00",
+              "sede": "Gimnasio Nicolás Abud",
+              "direccion": "Cerretti 868, Adrogue ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001724-inbound2532608554865589048.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9v1b4qyxcubph1mgvvelqra0cue2/20260713-001731-inbound1869376897196668930.jpg"
               ]
             }
           },
