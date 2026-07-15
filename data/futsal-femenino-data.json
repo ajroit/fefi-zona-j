@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-14T06:18:21.305990Z",
+  "actualizado": "2026-07-15T06:21:52.838016Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -48,12 +48,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260309-191401-630109783_18433543138114963_3389456270676942754_n-Photoroom.png"
     },
     {
-      "nombre": "ZIZOU FUTSAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
-    },
-    {
       "nombre": "ESTRELLA FEDERAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
+    },
+    {
+      "nombre": "ZIZOU FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
       "nombre": "INDEPENDIENTE (C)",
@@ -187,6 +187,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 16,
+        "g": 5,
+        "e": 5,
+        "p": 6,
+        "gf": 29,
+        "gc": 28,
+        "pts": 20
+      },
+      {
+        "posicion": 11,
         "equipo": "ZIZOU FUTSAL",
         "pj": 16,
         "g": 6,
@@ -195,17 +206,6 @@
         "gf": 33,
         "gc": 44,
         "pts": 19
-      },
-      {
-        "posicion": 11,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 15,
-        "g": 4,
-        "e": 5,
-        "p": 6,
-        "gf": 24,
-        "gc": 28,
-        "pts": 17
       },
       {
         "posicion": 12,
@@ -243,12 +243,12 @@
       {
         "posicion": 15,
         "equipo": "SACA DEL MEDIO",
-        "pj": 15,
+        "pj": 16,
         "g": 2,
         "e": 4,
-        "p": 9,
+        "p": 10,
         "gf": 15,
-        "gc": 45,
+        "gc": 50,
         "pts": 10
       },
       {
@@ -354,6 +354,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 16,
+        "g": 9,
+        "e": 1,
+        "p": 6,
+        "gf": 34,
+        "gc": 23,
+        "pts": 28
+      },
+      {
+        "posicion": 8,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 16,
         "g": 7,
@@ -362,17 +373,6 @@
         "gf": 17,
         "gc": 15,
         "pts": 26
-      },
-      {
-        "posicion": 8,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 15,
-        "g": 8,
-        "e": 1,
-        "p": 6,
-        "gf": 29,
-        "gc": 23,
-        "pts": 25
       },
       {
         "posicion": 9,
@@ -410,12 +410,12 @@
       {
         "posicion": 12,
         "equipo": "SACA DEL MEDIO",
-        "pj": 15,
+        "pj": 16,
         "g": 5,
         "e": 1,
-        "p": 9,
+        "p": 10,
         "gf": 18,
-        "gc": 39,
+        "gc": 44,
         "pts": 16
       },
       {
@@ -543,6 +543,17 @@
       },
       {
         "posicion": 6,
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 16,
+        "g": 10,
+        "e": 1,
+        "p": 5,
+        "gf": 36,
+        "gc": 17,
+        "pts": 31
+      },
+      {
+        "posicion": 7,
         "equipo": "VILLA SAHORES",
         "pj": 16,
         "g": 9,
@@ -551,17 +562,6 @@
         "gf": 32,
         "gc": 22,
         "pts": 29
-      },
-      {
-        "posicion": 7,
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 15,
-        "g": 9,
-        "e": 1,
-        "p": 5,
-        "gf": 31,
-        "gc": 17,
-        "pts": 28
       },
       {
         "posicion": 8,
@@ -576,17 +576,6 @@
       },
       {
         "posicion": 9,
-        "equipo": "SACA DEL MEDIO",
-        "pj": 15,
-        "g": 6,
-        "e": 5,
-        "p": 4,
-        "gf": 30,
-        "gc": 19,
-        "pts": 23
-      },
-      {
-        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 15,
         "g": 7,
@@ -594,6 +583,17 @@
         "p": 6,
         "gf": 29,
         "gc": 22,
+        "pts": 23
+      },
+      {
+        "posicion": 10,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 16,
+        "g": 6,
+        "e": 5,
+        "p": 5,
+        "gf": 30,
+        "gc": 24,
         "pts": 23
       },
       {
@@ -753,6 +753,17 @@
         "posicion": 6
       },
       {
+        "equipo": "ESTRELLA FEDERAL",
+        "pj": 48,
+        "g": 24,
+        "e": 7,
+        "p": 17,
+        "gf": 99,
+        "gc": 68,
+        "pts": 79,
+        "posicion": 7
+      },
+      {
         "equipo": "INDEPENDIENTE (C)",
         "pj": 48,
         "g": 21,
@@ -761,17 +772,6 @@
         "gf": 78,
         "gc": 68,
         "pts": 76,
-        "posicion": 7
-      },
-      {
-        "equipo": "ESTRELLA FEDERAL",
-        "pj": 45,
-        "g": 21,
-        "e": 7,
-        "p": 17,
-        "gf": 84,
-        "gc": 68,
-        "pts": 70,
         "posicion": 8
       },
       {
@@ -820,12 +820,12 @@
       },
       {
         "equipo": "SACA DEL MEDIO",
-        "pj": 45,
+        "pj": 48,
         "g": 13,
         "e": 10,
-        "p": 22,
+        "p": 25,
         "gf": 63,
-        "gc": 103,
+        "gc": 118,
         "pts": 49,
         "posicion": 13
       },
@@ -6896,9 +6896,9 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152242,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6907,9 +6907,9 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152395,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6918,9 +6918,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152548,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -6928,7 +6928,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "EL GALPON",
