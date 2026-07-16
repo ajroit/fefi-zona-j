@@ -13,9 +13,13 @@ on:
       - 'futsal_stats.js'
       - 'match.html'
       - 'match.js'
+      - 'share.js'
+      - 'weather.js'
       - 'predictions.html'
       - 'predictions.js'
       - 'styles.css'
+      - 'manifest.json'
+      - 'sw.js'
       - 'images/**'
       - 'data/**'
       - '.github/workflows/deploy.yml'
@@ -48,6 +52,7 @@ jobs:
           mkdir -p dist/data dist/images
           cp index.html app.js futsal.js futsal_reducido.js futsal_femenino.js futsal_stats.js match.html match.js styles.css dist/
           cp predictions.html predictions.js dist/
+          cp manifest.json sw.js dist/
           cp -r images/* dist/images/ 2>/dev/null || true
           cp data/fefi-data.json dist/data/
           cp data/futsal-data.json dist/data/
