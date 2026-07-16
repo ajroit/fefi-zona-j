@@ -395,6 +395,11 @@ function renderProximoPartido() {
   }
   $meta.innerHTML = metaHTML;
 
+  // Cargar el clima para el día del partido (después de asignar metaHTML)
+  if (typeof loadWeather === 'function') {
+    loadWeather(proximo.fecha || "");
+  }
+
   // Comparativa entre los dos equipos
   const tabla = obtenerTabla(categoriaActual);
   if (tabla) {

@@ -326,9 +326,8 @@ function renderizarBotonCompartir(deporte, numeroFecha, rival) {
     }
   }
 
-  if (typeof loadWeather === 'function') {
-    loadWeather(fechaMatchIso);
-  }
+  // El clima se carga desde cada módulo (app.js, futsal.js, etc.) directamente
+  // para evitar condición de carrera con el innerHTML del meta container.
 
   container.innerHTML = `
     <div class="share-actions-wrapper">
