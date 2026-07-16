@@ -12,7 +12,7 @@
 
   <!-- iOS PWA (Apple) -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Sahores">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -230,20 +230,20 @@
     </div>
   </footer>
 
-  <script src="weather.js?v=4"></script>
-  <script src="share.js?v=4"></script>
-  <script src="futsal_stats.js?v=4"></script>
-  <script src="futsal.js?v=4"></script>
-  <script src="futsal_reducido.js?v=4"></script>
-  <script src="futsal_femenino.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="weather.js?v=5"></script>
+  <script src="share.js?v=5"></script>
+  <script src="futsal_stats.js?v=5"></script>
+  <script src="futsal.js?v=5"></script>
+  <script src="futsal_reducido.js?v=5"></script>
+  <script src="futsal_femenino.js?v=5"></script>
+  <script src="app.js?v=5"></script>
 
   <!-- Service Worker para PWA -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         // Register sw.js with a cache buster parameter to force the browser to check for changes
-        navigator.serviceWorker.register('/sw.js?v=4').then(function(reg) {
+        navigator.serviceWorker.register('/sw.js?v=5').then(function(reg) {
           console.log('✅ Service Worker registrado:', reg.scope);
         }).catch(function(err) {
           console.log('⚠️ Service Worker error:', err);
