@@ -2,25 +2,65 @@
 <html lang="es-AR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0a0a0a">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a8c4a">
   <meta name="description" content="Dashboard del torneo FEFI 2026 - Club Social y Deportivo Villa Sahores, Zona J">
   <title>Villa Sahores - Dashboard Deportivo</title>
-  <link rel="icon" type="image/jpeg" href="images/logo-sahores.jpeg">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS PWA (Apple) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sahores">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="images/icon-512.png">
+
+  <!-- Android / General -->
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icon-512.png">
+  <link rel="shortcut icon" href="images/icon-192.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBW05P5Q7M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KBW05P5Q7M');
+
+    // Helper global para trackear eventos personalizados
+    window.trackEvent = function(eventName, eventParams) {
+      if (typeof gtag === "function") {
+        gtag("event", eventName, eventParams);
+      } else {
+        console.log("Analytics event:", eventName, eventParams);
+      }
+    };
+  </script>
 </head>
 <body>
   <!-- Sport Selector -->
   <nav class="sport-selector" id="sport-selector">
     <div class="container sport-selector-row">
       <button class="sport-btn active" data-sport="babyfutbol" id="sport-btn-babyfutbol">
-        ⚽ Baby Fútbol 
+        ⚽ Baby Fútbol
       </button>
       <button class="sport-btn" data-sport="futsal" id="sport-btn-futsal">
-        🏟️ Futsal
+        🏟️ Futsal - Liga de Honor
+      </button>
+      <button class="sport-btn" data-sport="futsal-reducido" id="sport-btn-futsal-reducido">
+        🏟️ Futsal - Reducido
+      </button>
+      <button class="sport-btn" data-sport="futsal-femenino" id="sport-btn-futsal-femenino">
+        🏟️ Futsal - Femenino
       </button>
     </div>
   </nav>
@@ -45,6 +85,16 @@
       </div>
     </div>
   </header>
+
+  <!-- Sub Tournament Selector for Futsal Liga de Honor -->
+  <div id="sub-tournament-container" class="sub-tournament-container" style="display: none;">
+    <div class="container">
+      <div class="sub-tournament-selector" id="sub-tournament-selector">
+        <button class="sub-tab-btn active" data-sub="duelos">🏆 Torneo de Duelos</button>
+        <button class="sub-tab-btn" data-sub="regular">📊 Fase Regular</button>
+      </div>
+    </div>
+  </div>
 
   <!-- Navigation Tabs -->
   <nav class="nav-bar">
@@ -79,6 +129,8 @@
             <div class="match-teams" id="next-match-teams"></div>
             <div class="match-meta" id="next-match-meta"></div>
             <div class="match-prediction" id="next-match-prediction"></div>
+            <div class="match-scouting" id="next-match-scouting"></div>
+            <div class="match-actions" id="next-match-actions"></div>
           </div>
         </section>
 
@@ -96,6 +148,23 @@
           </div>
           <div class="table-wrapper">
             <table class="standings" id="standings"></table>
+          </div>
+        </section>
+
+        <!-- Estadísticas de Goleadores y Tarjetas -->
+        <section class="card" id="futsal-stats-card" style="display: none;">
+          <div class="card-header">
+            <div class="card-title">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <path d="M5.5 21l3-8 7 8"></path>
+              </svg>
+              <span>Estadísticas de Jugadores</span>
+            </div>
+            <span class="card-tag" id="futsal-stats-cat-tag"></span>
+          </div>
+          <div class="table-wrapper">
+            <table class="standings" id="futsal-stats-table"></table>
           </div>
         </section>
       </div>
@@ -155,14 +224,32 @@
       <div class="footer-content">
         <img src="images/logo-sahores.jpeg" alt="Villa Sahores" class="footer-logo">
         <div class="footer-text">
-          <p> Club Social y Deportivo Villa Sahores - Fundado en 1931</p>
+          <p>Club Social y Deportivo Villa Sahores - Fundado en 1931</p>
           <p class="footer-credits" id="footer-credits">Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a></p>
         </div>
       </div>
     </div>
   </footer>
 
+  <script src="weather.js"></script>
+  <script src="share.js"></script>
+  <script src="futsal_stats.js"></script>
   <script src="futsal.js"></script>
+  <script src="futsal_reducido.js"></script>
+  <script src="futsal_femenino.js"></script>
   <script src="app.js"></script>
+
+  <!-- Service Worker para PWA -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(function(reg) {
+          console.log('✅ Service Worker registrado:', reg.scope);
+        }).catch(function(err) {
+          console.log('⚠️ Service Worker error:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
