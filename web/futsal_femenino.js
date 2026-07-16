@@ -1,119 +1,74 @@
 // ==========================================
-// Futsal Liga de Honor B - Dashboard Villa Sahores
+// FutsalFemenino Liga de Honor B - Dashboard Villa Sahores
 // Matches the root index.html design system
 // ==========================================
 
-const FUTSAL_REGULAR_DATA_URL = "data/futsal-data.json";
-const FUTSAL_DUELOS_DATA_URL = "data/futsal-duelos-data.json";
-const FUTSAL_STORAGE_KEY = "futsal-cat-preferida";
-const FUTSAL_SUBTORNEO_STORAGE_KEY = "futsal-subtorneo-preferido";
+const FUTSAL_FEMENINO_DATA_URL = "data/futsal-femenino-data.json";
+const FUTSAL_FEMENINO_STORAGE_KEY = "futsalFemenino-cat-preferida";
 
-let FUTSAL_DATA = null;
-let FUTSAL_REGULAR_DATA = null;
-let FUTSAL_DUELOS_DATA = null;
-let futsalSubTorneoActual = "duelos";
-let futsalCategoriaActual = "general";
+let FUTSAL_FEMENINO_DATA = null;
+let futsalFemeninoCategoriaActual = "general";
 
 // Orden de prioridad de categorías para mostrar
-const FUTSAL_CAT_PRIORIDAD = [
-  "PRIMERA MASCULINO",
-  "TERCERA MASCULINO",
-  "CUARTA MASCULINO",
-  "QUINTA MASCULINO",
-  "SEXTA MASCULINO",
-  "SEPTIMA MASCULINO",
-  "OCTAVA MASCULINO",
-  "2016 PROMOCIONALES",
-  "2017 PROMOCIONALES",
-  "2018 PROMOCIONALES",
-  "2019 PROMOCIONALES",
+const FUTSAL_FEMENINO_CAT_PRIORIDAD = [
+  "PRIMERA ADULTAS FEMENINO ",
+  "RESERVA ADULTAS FEMENINO ",
+  "UNICA ADULTAS FEMENINO "
 ];
 
 // Labels cortos para los botones de categoría
-const FUTSAL_CAT_LABELS = {
-  "PRIMERA MASCULINO": "1ra",
-  "TERCERA MASCULINO": "3ra",
-  "CUARTA MASCULINO": "4ta",
-  "QUINTA MASCULINO": "5ta",
-  "SEXTA MASCULINO": "6ta",
-  "SEPTIMA MASCULINO": "7ma",
-  "OCTAVA MASCULINO": "8va",
-  "2016 PROMOCIONALES": "2016",
-  "2017 PROMOCIONALES": "2017",
-  "2018 PROMOCIONALES": "2018",
-  "2019 PROMOCIONALES": "2019",
+const FUTSAL_FEMENINO_CAT_LABELS = {
+  "PRIMERA ADULTAS FEMENINO ": "1ra",
+  "RESERVA ADULTAS FEMENINO ": "Reserva",
+  "UNICA ADULTAS FEMENINO ": "Unica"
 };
 
 // ---- Carga de datos ----
-async function initFutsal() {
-  const savedSub = localStorage.getItem(FUTSAL_SUBTORNEO_STORAGE_KEY);
-  if (savedSub && (savedSub === "duelos" || savedSub === "regular")) {
-    futsalSubTorneoActual = savedSub;
-  }
+async function initFutsalFemenino() {
+  if (FUTSAL_FEMENINO_DATA) return FUTSAL_FEMENINO_DATA;
 
   try {
     const cacheBust = "?v=" + new Date().getTime();
-    if (!FUTSAL_REGULAR_DATA) {
-      let res = await fetch(FUTSAL_REGULAR_DATA_URL + cacheBust);
-      if (!res.ok) res = await fetch("../" + FUTSAL_REGULAR_DATA_URL + cacheBust);
-      FUTSAL_REGULAR_DATA = await res.json();
-    }
-    if (!FUTSAL_DUELOS_DATA) {
-      let res = await fetch(FUTSAL_DUELOS_DATA_URL + cacheBust);
-      if (!res.ok) res = await fetch("../" + FUTSAL_DUELOS_DATA_URL + cacheBust);
-      FUTSAL_DUELOS_DATA = await res.json();
-    }
+    let res = await fetch(FUTSAL_FEMENINO_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-femenino-data.json" + cacheBust);
+    FUTSAL_FEMENINO_DATA = await res.json();
   } catch (err) {
-    console.error("Error cargando datos Futsal:", err);
+    console.error("Error cargando datos FutsalFemenino:", err);
     return null;
   }
 
-  FUTSAL_DATA = (futsalSubTorneoActual === "duelos") ? FUTSAL_DUELOS_DATA : FUTSAL_REGULAR_DATA;
-
-  const guardada = localStorage.getItem(FUTSAL_STORAGE_KEY);
-  const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-    ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-    : FUTSAL_DATA.categorias;
-
-  if (guardada && (guardada === "general" || categoriesToCheck.includes(guardada))) {
-    futsalCategoriaActual = guardada;
-  } else {
-    futsalCategoriaActual = "general";
+  const guardada = localStorage.getItem(FUTSAL_FEMENINO_STORAGE_KEY);
+  if (guardada && (guardada === "general" || FUTSAL_FEMENINO_DATA.categorias.includes(guardada))) {
+    futsalFemeninoCategoriaActual = guardada;
   }
 
-  return FUTSAL_DATA;
+  return FUTSAL_FEMENINO_DATA;
 }
 
 // ---- Helpers ----
-const FUTSAL_ES_FOCO = (eq) => eq === FUTSAL_DATA.equipo_foco;
+const FUTSAL_FEMENINO_ES_FOCO = (eq) => eq === FUTSAL_FEMENINO_DATA.equipo_foco;
 
-function futsalObtenerTabla(cat) {
-  if (!FUTSAL_DATA || !FUTSAL_DATA.tablas_posiciones) return null;
-  if (futsalSubTorneoActual === "duelos") {
-    return FUTSAL_DATA.tablas_posiciones["Clasificación General"] || FUTSAL_DATA.tablas_posiciones.general || null;
-  }
+function futsalFemeninoObtenerTabla(cat) {
+  if (!FUTSAL_FEMENINO_DATA || !FUTSAL_FEMENINO_DATA.tablas_posiciones) return null;
   if (cat === "general") {
-    return FUTSAL_DATA.tablas_posiciones.general || null;
+    return FUTSAL_FEMENINO_DATA.tablas_posiciones.general || null;
   }
-  return FUTSAL_DATA.tablas_posiciones[cat] || null;
+  return FUTSAL_FEMENINO_DATA.tablas_posiciones[cat] || null;
 }
 
-function futsalPartidosDelFoco(categoria) {
+function futsalFemeninoPartidosDelFoco(categoria) {
   const out = [];
-  for (const fecha of FUTSAL_DATA.fechas) {
+  for (const fecha of FUTSAL_FEMENINO_DATA.fechas) {
     for (const enc of fecha.encuentros) {
-      if (!FUTSAL_ES_FOCO(enc.local) && !FUTSAL_ES_FOCO(enc.visitante)) continue;
+      if (!FUTSAL_FEMENINO_ES_FOCO(enc.local) && !FUTSAL_FEMENINO_ES_FOCO(enc.visitante)) continue;
 
-      const esLocal = FUTSAL_ES_FOCO(enc.local);
+      const esLocal = FUTSAL_FEMENINO_ES_FOCO(enc.local);
       const rival = esLocal ? enc.visitante : enc.local;
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
         let out_sede = null, out_dir = null, out_hora = null, out_fecha = null, out_match_id = null;
-        const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-          ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-          : FUTSAL_DATA.categorias;
-        for (const cat of categoriesToCheck) {
+        for (const cat of FUTSAL_FEMENINO_DATA.categorias) {
           const p = enc.partidos[cat];
           if (p) {
             if (p.jugado) {
@@ -182,7 +137,7 @@ function futsalPartidosDelFoco(categoria) {
   return out;
 }
 
-function futsalResultadoLetra(p) {
+function futsalFemeninoResultadoLetra(p) {
   if (!p.jugado || p.gf == null) return null;
   if (p.gf > p.gc) return "W";
   if (p.gf < p.gc) return "L";
@@ -190,82 +145,75 @@ function futsalResultadoLetra(p) {
 }
 
 // ---- Render header ----
-function futsalRenderHeader() {
+function futsalFemeninoRenderHeader() {
   document.getElementById("updated").textContent =
     "Actualizado: " + new Intl.DateTimeFormat("es-AR", {
       day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit",
       timeZone: "America/Argentina/Buenos_Aires"
-    }).format(new Date(FUTSAL_DATA.actualizado));
+    }).format(new Date(FUTSAL_FEMENINO_DATA.actualizado));
 }
 
 // ---- Render selector de categorías ----
-function futsalRenderCategorySelector() {
+function futsalFemeninoRenderCategorySelector() {
   const wrap = document.getElementById("cat-selector");
   const opts = [{ key: "general", label: "General" }];
-  const categoriesToShow = (futsalSubTorneoActual === "duelos")
-    ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-    : FUTSAL_DATA.categorias;
-  FUTSAL_CAT_PRIORIDAD.forEach(c => {
-    if (categoriesToShow.includes(c)) {
-      opts.push({ key: c, label: FUTSAL_CAT_LABELS[c] || c });
+  FUTSAL_FEMENINO_CAT_PRIORIDAD.forEach(c => {
+    if (FUTSAL_FEMENINO_DATA.categorias.includes(c)) {
+      opts.push({ key: c, label: FUTSAL_FEMENINO_CAT_LABELS[c] || c });
     }
   });
 
   wrap.innerHTML = opts.map(o =>
-    `<button class="cat-btn ${o.key === futsalCategoriaActual ? "active" : ""}"
+    `<button class="cat-btn ${o.key === futsalFemeninoCategoriaActual ? "active" : ""}"
              data-cat="${o.key}"
              role="tab"
-             aria-selected="${o.key === futsalCategoriaActual}">
+             aria-selected="${o.key === futsalFemeninoCategoriaActual}">
        ${o.label}
      </button>`
   ).join("");
 
   wrap.querySelectorAll(".cat-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      futsalCategoriaActual = btn.dataset.cat;
-      localStorage.setItem(FUTSAL_STORAGE_KEY, futsalCategoriaActual);
+      futsalFemeninoCategoriaActual = btn.dataset.cat;
+      localStorage.setItem(FUTSAL_FEMENINO_STORAGE_KEY, futsalFemeninoCategoriaActual);
 
       if (typeof window.trackEvent === "function") {
-        const activeSport = (futsalSubTorneoActual === "duelos") ? "futsal-duelos" : "futsal";
-        window.trackEvent("select_category", { category_id: futsalCategoriaActual, sport_id: activeSport });
+        window.trackEvent("select_category", { category_id: futsalFemeninoCategoriaActual, sport_id: "futsal-femenino" });
       }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
-        const active = b.dataset.cat === futsalCategoriaActual;
+        const active = b.dataset.cat === futsalFemeninoCategoriaActual;
         b.classList.toggle("active", active);
         b.setAttribute("aria-selected", active);
       });
-      futsalRender();
+      futsalFemeninoRender();
     });
   });
 }
 
 // ---- Render principal ----
-function futsalRender() {
-  futsalRenderProximoPartido();
-  futsalRenderMetrics();
-  futsalRenderForma();
-  futsalRenderTabla();
-  futsalRenderHistorial();
-  futsalRenderCalendario();
+function futsalFemeninoRender() {
+  futsalFemeninoRenderProximoPartido();
+  futsalFemeninoRenderMetrics();
+  futsalFemeninoRenderForma();
+  futsalFemeninoRenderTabla();
+  futsalFemeninoRenderHistorial();
+  futsalFemeninoRenderCalendario();
 
   // Actualizar estadísticas de goleadores y tarjetas e historial expandible
-  actualizarStatsYTablas("Futsal Liga de Honor", futsalCategoriaActual, "VILLA SAHORES (LDH)");
+  actualizarStatsYTablas("Futsal Femenino", futsalFemeninoCategoriaActual, "VILLA SAHORES (FEM)");
 
-  const tag = futsalCategoriaActual === "general"
+  const tag = futsalFemeninoCategoriaActual === "general"
     ? "Acumulado"
-    : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
-  const tableTag = (futsalSubTorneoActual === "duelos" && futsalCategoriaActual !== "general")
-    ? `General (Cat. ${FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual})`
-    : tag;
+    : FUTSAL_FEMENINO_CAT_LABELS[futsalFemeninoCategoriaActual] || futsalFemeninoCategoriaActual;
   document.getElementById("form-cat-tag").textContent = tag;
-  document.getElementById("table-cat-tag").textContent = tableTag;
+  document.getElementById("table-cat-tag").textContent = tag;
   document.getElementById("history-cat-tag").textContent = tag;
 }
 
 // ---- Próximo partido ----
-function futsalRenderProximoPartido() {
+function futsalFemeninoRenderProximoPartido() {
   const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
+  const partidos = futsalFemeninoPartidosDelFoco(futsalFemeninoCategoriaActual);
   const proximo = partidos.find(p => p.fecha && p.fecha >= todayStr) || partidos.find(p => !p.jugado);
 
   const $teams = document.getElementById("next-match-teams");
@@ -289,17 +237,17 @@ function futsalRenderProximoPartido() {
   const fechaStr = proximo.fecha ? fechaCorta(proximo.fecha) : "Pendiente";
   $date.textContent = "Fecha " + proximo.numero + " - " + fechaStr + horaStr;
 
-  const local = proximo.esLocal ? FUTSAL_DATA.equipo_foco : proximo.rival;
-  const visit = proximo.esLocal ? proximo.rival : FUTSAL_DATA.equipo_foco;
+  const local = proximo.esLocal ? FUTSAL_FEMENINO_DATA.equipo_foco : proximo.rival;
+  const visit = proximo.esLocal ? proximo.rival : FUTSAL_FEMENINO_DATA.equipo_foco;
 
   $teams.innerHTML = `
     <div class="team-block">
-      <div class="team-name ${local === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(local)}</div>
+      <div class="team-name ${local === FUTSAL_FEMENINO_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(local)}</div>
       <div class="team-condition">Local</div>
     </div>
     <div class="vs-badge">VS</div>
     <div class="team-block">
-      <div class="team-name ${visit === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(visit)}</div>
+      <div class="team-name ${visit === FUTSAL_FEMENINO_DATA.equipo_foco ? 'highlight' : ''}">${nombreEquipo(visit)}</div>
       <div class="team-condition">Visitante</div>
     </div>
   `;
@@ -319,13 +267,13 @@ function futsalRenderProximoPartido() {
   }
 
   // Comparativa
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+  const tabla = futsalFemeninoObtenerTabla(futsalFemeninoCategoriaActual);
   if (tabla) {
-    const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_DATA.equipo_foco);
+    const focoEnTabla = tabla.find(t => t.equipo === FUTSAL_FEMENINO_DATA.equipo_foco);
     const rivalEnTabla = tabla.find(t => t.equipo === proximo.rival);
     if (focoEnTabla && rivalEnTabla) {
-      const tipo = futsalCategoriaActual === "general" ? "general" : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
-      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
+      const tipo = futsalFemeninoCategoriaActual === "general" ? "general" : FUTSAL_FEMENINO_CAT_LABELS[futsalFemeninoCategoriaActual] || futsalFemeninoCategoriaActual;
+      $pred.innerHTML = `<strong>Comparativa ${tipo}:</strong> ${nombreEquipo(FUTSAL_FEMENINO_DATA.equipo_foco)} ${focoEnTabla.posicion}° (${focoEnTabla.pts} pts) vs ${nombreEquipo(proximo.rival)} ${rivalEnTabla.posicion}° (${rivalEnTabla.pts} pts)`;
     } else {
       $pred.innerHTML = "";
     }
@@ -334,20 +282,20 @@ function futsalRenderProximoPartido() {
   }
 
   // Scouting del rival
-  renderScoutingSection($scouting, "futsal", proximo.rival, futsalCategoriaActual);
+  renderScoutingSection($scouting, "futsal-femenino", proximo.rival, futsalFemeninoCategoriaActual);
 
   // Botón para compartir partido
-  renderizarBotonCompartir("futsal", proximo.numero, proximo.rival);
+  renderizarBotonCompartir("futsal-femenino", proximo.numero, proximo.rival);
 }
 
 // ---- Métricas ----
-function futsalRenderMetrics() {
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+function futsalFemeninoRenderMetrics() {
+  const tabla = futsalFemeninoObtenerTabla(futsalFemeninoCategoriaActual);
   const $m = document.getElementById("metrics");
 
   if (!tabla) { $m.innerHTML = ""; return; }
 
-  const foco = tabla.find(t => t.equipo === FUTSAL_DATA.equipo_foco);
+  const foco = tabla.find(t => t.equipo === FUTSAL_FEMENINO_DATA.equipo_foco);
   if (!foco) { $m.innerHTML = ""; return; }
 
   const efectividad = foco.pj > 0 ? Math.round(100 * foco.g / foco.pj) : 0;
@@ -376,8 +324,8 @@ function futsalRenderMetrics() {
 }
 
 // ---- Forma reciente ----
-function futsalRenderForma() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual)
+function futsalFemeninoRenderForma() {
+  const partidos = futsalFemeninoPartidosDelFoco(futsalFemeninoCategoriaActual)
     .filter(p => p.jugado)
     .slice(-5);
 
@@ -388,7 +336,7 @@ function futsalRenderForma() {
   }
 
   $row.innerHTML = partidos.map(p => {
-    const r = futsalResultadoLetra(p);
+    const r = futsalFemeninoResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
     return `<span class="form-pill ${r}" title="vs ${nombreEquipo(p.rival)}: ${p.gf}-${p.gc}">${label}</span>`;
@@ -396,8 +344,8 @@ function futsalRenderForma() {
 }
 
 // ---- Tabla de posiciones ----
-function futsalRenderTabla() {
-  const tabla = futsalObtenerTabla(futsalCategoriaActual);
+function futsalFemeninoRenderTabla() {
+  const tabla = futsalFemeninoObtenerTabla(futsalFemeninoCategoriaActual);
   const $t = document.getElementById("standings");
   if (!tabla) { $t.innerHTML = ""; return; }
 
@@ -417,7 +365,7 @@ function futsalRenderTabla() {
     </thead>
     <tbody>
       ${tabla.map(t => `
-        <tr class="${t.equipo === FUTSAL_DATA.equipo_foco ? 'highlight' : ''}">
+        <tr class="${t.equipo === FUTSAL_FEMENINO_DATA.equipo_foco ? 'highlight' : ''}">
           <td class="pos">${t.posicion}</td>
           <td><span class="team-col">${nombreEquipo(t.equipo)}</span></td>
           <td class="center">${t.pj}</td>
@@ -434,8 +382,8 @@ function futsalRenderTabla() {
 }
 
 // ---- Historial ----
-function futsalRenderHistorial() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual).filter(p => p.jugado);
+function futsalFemeninoRenderHistorial() {
+  const partidos = futsalFemeninoPartidosDelFoco(futsalFemeninoCategoriaActual).filter(p => p.jugado);
   const $list = document.getElementById("history-list");
 
   if (partidos.length === 0) {
@@ -456,7 +404,7 @@ function futsalRenderHistorial() {
         </div>
       `;
     }
-    const r = futsalResultadoLetra(p);
+    const r = futsalFemeninoResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
 
@@ -483,8 +431,8 @@ function futsalRenderHistorial() {
 }
 
 // ---- Calendario ----
-function futsalRenderCalendario() {
-  const partidos = futsalPartidosDelFoco(futsalCategoriaActual);
+function futsalFemeninoRenderCalendario() {
+  const partidos = futsalFemeninoPartidosDelFoco(futsalFemeninoCategoriaActual);
   const $list = document.getElementById("schedule");
 
   $list.innerHTML = partidos.map(p => {
@@ -511,68 +459,16 @@ function futsalRenderCalendario() {
   }).join('');
 }
 
-// ---- Selector de Sub-torneos ----
-function setupFutsalSubTournamentSelector() {
-  const container = document.getElementById("sub-tournament-container");
-  if (!container) return;
-
-  container.style.display = "block";
-
-  const selector = document.getElementById("sub-tournament-selector");
-  if (!selector) return;
-
-  selector.innerHTML = `
-    <button class="sub-tab-btn ${futsalSubTorneoActual === "duelos" ? "active" : ""}" data-sub="duelos">🏆 Torneo de Duelos</button>
-    <button class="sub-tab-btn ${futsalSubTorneoActual === "regular" ? "active" : ""}" data-sub="regular">📊 Fase Regular</button>
-  `;
-
-  selector.querySelectorAll(".sub-tab-btn").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const sub = btn.dataset.sub;
-      if (sub === futsalSubTorneoActual) return;
-
-      futsalSubTorneoActual = sub;
-      localStorage.setItem(FUTSAL_SUBTORNEO_STORAGE_KEY, sub);
-
-      if (typeof window.trackEvent === "function") {
-        window.trackEvent("select_sub_tournament", { sub_tournament: sub });
-      }
-
-      // Re-initialize dataset reference
-      FUTSAL_DATA = (sub === "duelos") ? FUTSAL_DUELOS_DATA : FUTSAL_REGULAR_DATA;
-      
-      // Fallback category if needed
-      const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-        ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-        : FUTSAL_DATA.categorias;
-
-      if (futsalCategoriaActual !== "general" && !categoriesToCheck.includes(futsalCategoriaActual)) {
-        futsalCategoriaActual = "general";
-      }
-
-      // Update active class
-      selector.querySelectorAll(".sub-tab-btn").forEach(b => {
-        b.classList.toggle("active", b.dataset.sub === sub);
-      });
-
-      futsalRenderHeader();
-      futsalRenderCategorySelector();
-      futsalRender();
-    });
-  });
-}
-
-// ---- Activar futsal ----
-async function activarFutsal() {
-  const data = await initFutsal();
+// ---- Activar futsalFemenino ----
+async function activarFutsalFemenino() {
+  const data = await initFutsalFemenino();
   if (!data) {
     document.querySelector("main").innerHTML =
-      `<div class="loading">No se pudieron cargar los datos de Futsal. Reintenta en unos minutos.</div>`;
+      `<div class="loading">No se pudieron cargar los datos de FutsalFemenino. Reintenta en unos minutos.</div>`;
     return;
   }
-  setupFutsalSubTournamentSelector();
   await cargarFutsalStats(); // Cargar estadísticas en segundo plano (o localmente)
-  futsalRenderHeader();
-  futsalRenderCategorySelector();
-  futsalRender();
+  futsalFemeninoRenderHeader();
+  futsalFemeninoRenderCategorySelector();
+  futsalFemeninoRender();
 }
