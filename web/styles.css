@@ -114,6 +114,14 @@ a:hover {
   background: var(--brand-black);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 0;
+  padding-top: calc(10px + env(safe-area-inset-top, 0px));
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.sport-selector::-webkit-scrollbar {
+  display: none;
 }
 
 .sport-selector-row {
@@ -122,11 +130,13 @@ a:hover {
   background: rgba(255, 255, 255, 0.06);
   border-radius: var(--radius-full);
   padding: 4px;
-  max-width: 360px;
+  max-width: 600px;
+  width: fit-content;
+  min-width: 0;
 }
 
 .sport-btn {
-  flex: 1;
+  flex: 1 0 auto;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
@@ -148,6 +158,32 @@ a:hover {
   background: var(--brand-green);
   color: white;
   box-shadow: 0 2px 8px rgba(26, 140, 74, 0.4);
+}
+
+@media (max-width: 600px) {
+  .sport-selector {
+    padding: 12px 0;
+  }
+
+  .sport-selector-row {
+    max-width: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: var(--radius-md);
+    gap: 6px;
+  }
+
+  .sport-btn {
+    padding: 10px 8px;
+    font-size: 11px;
+    white-space: normal;
+    text-align: center;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Utility: hide on mobile */
@@ -255,6 +291,7 @@ a:hover {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   padding: 12px 0;
+  padding-top: calc(12px + env(safe-area-inset-top, 0px));
   backdrop-filter: blur(12px);
 }
 
@@ -532,6 +569,106 @@ a:hover {
   color: var(--brand-green);
 }
 
+/* Scouting Section */
+.match-scouting {
+  margin-top: 16px;
+}
+
+.match-scouting:empty {
+  display: none;
+}
+
+.scouting-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(168, 85, 247, 0.08) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6366f1;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+@media (prefers-color-scheme: light) {
+  .scouting-header {
+    color: #4f46e5;
+  }
+}
+
+.scouting-header:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(168, 85, 247, 0.12) 100%);
+}
+
+.scouting-header .scouting-icon {
+  font-size: 16px;
+}
+
+.scouting-header .scouting-toggle {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.scouting-list {
+  border: 1px solid rgba(99, 102, 241, 0.15);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  overflow: hidden;
+  max-height: 2000px;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+.scouting-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.08);
+  transition: background var(--transition-fast);
+}
+
+.scouting-item:last-child {
+  border-bottom: none;
+}
+
+.scouting-item:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.scouting-cat-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.1);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  margin-bottom: 6px;
+}
+
+.scouting-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.scouting-empty {
+  padding: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.scouting-list.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+
 /* Form Row */
 .form-row {
   display: flex;
@@ -666,7 +803,7 @@ a:hover {
 
 .history-item {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr auto auto;
   align-items: center;
   gap: 12px;
   padding: 14px 20px;
@@ -977,3 +1114,297 @@ footer {
   color: var(--text-muted);
   margin-top: 2px;
 }
+
+/* Match actions / Compartir */
+.match-actions {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: center;
+}
+.share-actions-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.btn-share-main {
+  background: var(--brand-green);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all var(--transition-fast);
+  box-shadow: 0 2px 6px rgba(26, 140, 74, 0.2);
+}
+.btn-share-main:hover {
+  background: #15733c;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 140, 74, 0.3);
+}
+.btn-share-social {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  color: white;
+  text-decoration: none;
+}
+.btn-share-social.whatsapp {
+  background: #25D366;
+  box-shadow: 0 2px 6px rgba(37, 211, 102, 0.2);
+}
+.btn-share-social.whatsapp:hover {
+  background: #128C7E;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+.btn-share-social.telegram {
+  background: #0088cc;
+  box-shadow: 0 2px 6px rgba(0, 136, 204, 0.2);
+}
+.btn-share-social.telegram:hover {
+  background: #006699;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+}
+.icon-share { width: 16px; height: 16px; }
+.icon-social { width: 18px; height: 18px; }
+.share-toast {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: var(--brand-black);
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+}
+.share-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.btn-share-social.google-calendar {
+  background: #4285F4;
+  box-shadow: 0 2px 6px rgba(66, 133, 244, 0.2);
+}
+.btn-share-social.google-calendar:hover {
+  background: #357ae8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
+}
+
+.btn-share-social.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0 2px 6px rgba(214, 36, 159, 0.2);
+  border: none;
+  cursor: pointer;
+}
+.btn-share-social.instagram:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(214, 36, 159, 0.3);
+  filter: brightness(1.1);
+}
+
+/* Futsal Statistics & Leaderboard Styles */
+#futsal-stats-card {
+  margin-top: 24px;
+}
+
+#futsal-stats-table th.center,
+#futsal-stats-table td.center {
+  text-align: center;
+}
+
+#futsal-stats-table tr:hover {
+  background: var(--bg-alt);
+}
+
+/* Ver Ficha button in history sidebar */
+.history-ficha-btns {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-left: 8px;
+}
+
+.btn-ver-ficha {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(26, 140, 74, 0.12);
+  color: var(--brand-green-light);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  border: 1px solid rgba(26, 140, 74, 0.25);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-ver-ficha:hover {
+  background: rgba(26, 140, 74, 0.25);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(26, 140, 74, 0.15);
+}
+
+.details-empty-msg,
+.details-empty {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 4px 0;
+}
+
+/* Scouting Recent Matches */
+.scouting-matches-title {
+  padding: 12px 16px 6px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  border-top: 1px dashed rgba(99, 102, 241, 0.15);
+  background: rgba(99, 102, 241, 0.02);
+}
+
+.scouting-match-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.05);
+  background: rgba(99, 102, 241, 0.02);
+  font-size: 13px;
+}
+
+.scouting-match-item:last-child {
+  border-bottom: none;
+}
+
+.scouting-match-item:hover {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.scouting-match-badge {
+  padding: 4px 8px;
+  min-width: 58px;
+  border-radius: var(--radius-sm);
+  font-size: 10px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.scouting-match-badge.W {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+.scouting-match-badge.D {
+  background: var(--warning-bg);
+  color: var(--warning);
+}
+
+.scouting-match-badge.L {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.scouting-match-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.scouting-match-rival {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scouting-match-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.scouting-match-score {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  background: var(--bg-alt);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 12px;
+}
+
+/* Sub Tournament Selector for Futsal */
+.sub-tournament-container {
+  background: var(--brand-black);
+  border-bottom: 1px solid var(--border-light);
+  padding: 12px 0;
+  transition: all var(--transition-normal);
+}
+
+.sub-tournament-selector {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.sub-tab-btn {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+}
+
+.sub-tab-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.sub-tab-btn.active {
+  background: rgba(26, 140, 74, 0.15);
+  border-color: var(--brand-green);
+  color: var(--brand-green-light);
+  box-shadow: 0 0 12px rgba(26, 140, 74, 0.15);
+}
+
+
