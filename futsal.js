@@ -318,6 +318,11 @@ function futsalRenderProximoPartido() {
     $meta.innerHTML = `<div class="match-location" style="color: var(--text-muted);"><span class="location-icon">⏳</span> Sede pendiente</div>`;
   }
 
+  // Cargar el clima para el día del partido
+  if (typeof loadWeather === 'function') {
+    loadWeather(proximo.fecha || "");
+  }
+
   // Comparativa
   const tabla = futsalObtenerTabla(futsalCategoriaActual);
   if (tabla) {

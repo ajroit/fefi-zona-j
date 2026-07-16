@@ -36,8 +36,9 @@ async function initFutsalRed() {
   if (FUTSAL_RED_DATA) return FUTSAL_RED_DATA;
 
   try {
-    let res = await fetch(FUTSAL_RED_DATA_URL);
-    if (!res.ok) res = await fetch("../data/futsal-reducido-data.json");
+    const cacheBust = "?v=" + new Date().getTime();
+    let res = await fetch(FUTSAL_RED_DATA_URL + cacheBust);
+    if (!res.ok) res = await fetch("../data/futsal-reducido-data.json" + cacheBust);
     FUTSAL_RED_DATA = await res.json();
   } catch (err) {
     console.error("Error cargando datos Futsal Reducido:", err);
@@ -74,27 +75,40 @@ function futsalRedPartidosDelFoco(categoria) {
 
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
-        let out_sede = null, out_dir = null, out_hora = null;
+        let out_sede = null, out_dir = null, out_hora = null, out_fecha = null, out_match_id = null;
         for (const cat of FUTSAL_RED_DATA.categorias) {
           const p = enc.partidos[cat];
-          if (p && p.jugado) {
-            jugado = true;
-            gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
-            gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
-            // Para general, tomamos la sede/hora del primer partido encontrado
-            if (!out_sede) {
+          if (p) {
+            if (p.jugado) {
+              jugado = true;
+              gf += (esLocal ? p.goles_local : p.goles_visitante) || 0;
+              gc += (esLocal ? p.goles_visitante : p.goles_local) || 0;
+            }
+            if (!out_match_id && p.match_id) {
+              out_match_id = p.match_id;
+            }
+            // Para general, tomamos la sede/hora/fecha del primer partido encontrado, sea jugado o no
+            if (!out_sede && p.sede) {
               out_sede = p.sede;
               out_dir = p.direccion;
-              out_hora = p.fecha_hora ? p.fecha_hora.split(" ")[1] : null;
+            }
+            if (!out_hora && p.fecha_hora) {
+              const fh = p.fecha_hora;
+              out_hora = fh.includes(" ") ? fh.split(" ")[1].substring(0, 5) : (fh.includes("T") ? fh.split("T")[1].substring(0, 5) : null);
+            }
+            if (!out_fecha && p.fecha_hora) {
+              const fh = p.fecha_hora;
+              out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
             }
           }
         }
         out.push({
-          numero: fecha.numero, fecha: fecha.fecha_partido,
+          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
           rival, esLocal,
           gf: jugado ? gf : null, gc: jugado ? gc : null,
           jugado, estado: enc.estado,
-          sede: out_sede, direccion: out_dir, hora: out_hora
+          sede: out_sede, direccion: out_dir, hora: out_hora,
+          match_id: out_match_id
         });
       } else {
         const p = enc.partidos[categoria];
@@ -105,8 +119,14 @@ function futsalRedPartidosDelFoco(categoria) {
         const encuentroFinalizado = enc.estado === "Finalizado";
         const tieneScores = p.jugado;
 
+        let out_fecha = null;
+        if (p.fecha_hora) {
+          const fh = p.fecha_hora;
+          out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
+        }
+
         out.push({
-          numero: fecha.numero, fecha: fecha.fecha_partido,
+          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
           rival, esLocal,
           gf: esLocal ? p.goles_local : p.goles_visitante,
           gc: esLocal ? p.goles_visitante : p.goles_local,
@@ -115,8 +135,9 @@ function futsalRedPartidosDelFoco(categoria) {
           estado: enc.estado,
           sede: p.sede,
           direccion: p.direccion,
-          hora: p.fecha_hora ? p.fecha_hora.split(" ")[1] : null,
-          planillas: p.planillas || []
+          hora: p.fecha_hora ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
+          planillas: p.planillas || [] ,
+          match_id: p.match_id
         });
       }
     }
@@ -163,6 +184,10 @@ function futsalRedRenderCategorySelector() {
     btn.addEventListener("click", () => {
       futsalRedCategoriaActual = btn.dataset.cat;
       localStorage.setItem(FUTSAL_RED_STORAGE_KEY, futsalRedCategoriaActual);
+
+      if (typeof window.trackEvent === "function") {
+        window.trackEvent("select_category", { category_id: futsalRedCategoriaActual, sport_id: "futsal-reducido" });
+      }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === futsalRedCategoriaActual;
         b.classList.toggle("active", active);
@@ -182,6 +207,9 @@ function futsalRedRender() {
   futsalRedRenderHistorial();
   futsalRedRenderCalendario();
 
+  // Actualizar estadísticas de goleadores y tarjetas e historial expandible
+  actualizarStatsYTablas("Futsal Reducido", futsalRedCategoriaActual, "VILLA SAHORES B (MASC)");
+
   const tag = futsalRedCategoriaActual === "general"
     ? "Acumulado"
     : FUTSAL_RED_CAT_LABELS[futsalRedCategoriaActual] || futsalRedCategoriaActual;
@@ -193,26 +221,29 @@ function futsalRedRender() {
 // ---- Próximo partido ----
 function futsalRedRenderProximoPartido() {
   const partidos = futsalRedPartidosDelFoco(futsalRedCategoriaActual);
-  // Buscar el próximo partido real: el primer no-jugado DESPUÉS del último jugado
-  // (evita mostrar fechas pasadas que quedaron "Programado" / postergadas)
-  const lastPlayedIdx = partidos.reduce((acc, p, i) => p.jugado ? i : acc, -1);
-  const proximo = partidos.find((p, i) => !p.jugado && i > lastPlayedIdx);
+  const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
+  const proximo = partidos.find(p => p.fecha && p.fecha >= todayStr) || partidos.find(p => !p.jugado);
 
   const $teams = document.getElementById("next-match-teams");
   const $meta = document.getElementById("next-match-meta");
   const $date = document.getElementById("next-match-date");
   const $pred = document.getElementById("next-match-prediction");
+  const $scouting = document.getElementById("next-match-scouting");
 
   if (!proximo) {
     $date.textContent = "";
     $teams.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">No hay proximos partidos en esta categoria</div>`;
     $meta.innerHTML = "";
     $pred.innerHTML = "";
+    if ($scouting) $scouting.innerHTML = "";
+    const $actions = document.getElementById("next-match-actions");
+    if ($actions) $actions.innerHTML = "";
     return;
   }
 
   const horaStr = proximo.hora ? ` - ${proximo.hora} hs` : "";
-  $date.textContent = "Fecha " + proximo.numero + " - " + fechaCorta(proximo.fecha) + horaStr;
+  const fechaStr = proximo.fecha ? fechaCorta(proximo.fecha) : "Pendiente";
+  $date.textContent = "Fecha " + proximo.numero + " - " + fechaStr + horaStr;
 
   const local = proximo.esLocal ? FUTSAL_RED_DATA.equipo_foco : proximo.rival;
   const visit = proximo.esLocal ? proximo.rival : FUTSAL_RED_DATA.equipo_foco;
@@ -240,7 +271,12 @@ function futsalRedRenderProximoPartido() {
       </div>
     `;
   } else {
-    $meta.innerHTML = "";
+    $meta.innerHTML = `<div class="match-location" style="color: var(--text-muted);"><span class="location-icon">⏳</span> Sede pendiente</div>`;
+  }
+
+  // Cargar el clima para el día del partido
+  if (typeof loadWeather === 'function') {
+    loadWeather(proximo.fecha || "");
   }
 
   // Comparativa
@@ -257,6 +293,12 @@ function futsalRedRenderProximoPartido() {
   } else {
     $pred.innerHTML = "";
   }
+
+  // Scouting del rival
+  renderScoutingSection($scouting, "futsal-reducido", proximo.rival, futsalRedCategoriaActual);
+
+  // Botón para compartir partido
+  renderizarBotonCompartir("futsal-reducido", proximo.numero, proximo.rival);
 }
 
 // ---- Métricas ----
@@ -378,17 +420,14 @@ function futsalRedRenderHistorial() {
     const r = futsalRedResultadoLetra(p);
     if (!r) return "";
     const label = r === "W" ? "G" : (r === "L" ? "P" : "E");
-    
-    let planillaHtml = "";
-    if (p.planillas && p.planillas.length > 0) {
-      planillaHtml = `
-        <div class="history-actions">
-          <a href="${p.planillas[0]}" target="_blank" class="btn-planilla" title="Ver foto de la planilla">
-            📷 Planilla
-          </a>
-        </div>
-      `;
-    }
+
+    const fichaHtml = p.match_id ? `
+      <div class="history-ficha-btns">
+        <a href="match.html?id=${p.match_id}" class="btn-ver-ficha" title="Ver ficha completa">
+          📋 Ficha
+        </a>
+      </div>
+    ` : "";
 
     return `
       <div class="history-item">
@@ -397,10 +436,8 @@ function futsalRedRenderHistorial() {
           <span class="history-rival-name">${nombreEquipo(p.rival)}</span>
           <span class="history-rival-meta">F${p.numero} - ${p.esLocal ? 'Local' : 'Visitante'}</span>
         </div>
-        <div class="history-score-wrap">
-          <span class="history-score">${p.gf} - ${p.gc}</span>
-          ${planillaHtml}
-        </div>
+        <span class="history-score">${p.gf} - ${p.gc}</span>
+        ${fichaHtml}
       </div>
     `;
   }).join('');
@@ -413,7 +450,11 @@ function futsalRedRenderCalendario() {
 
   $list.innerHTML = partidos.map(p => {
     const horaStr = p.hora ? ` @ ${p.hora}` : "";
-    const sedeStr = p.sede ? `<div class="schedule-venue">${p.sede}</div>` : "";
+    let sedeStr = p.sede ? `<div class="schedule-venue">${p.sede}</div>` : "";
+    
+    if (!p.jugado && !p.sede && !p.hora) {
+      sedeStr = `<div class="schedule-venue" style="color: var(--text-muted);">Pendiente</div>`;
+    }
     
     return `
       <div class="schedule-item ${p.jugado ? 'played' : ''}">
@@ -439,6 +480,7 @@ async function activarFutsalReducido() {
       `<div class="loading">No se pudieron cargar los datos de Futsal Reducido. Reintenta en unos minutos.</div>`;
     return;
   }
+  await cargarFutsalStats(); // Cargar estadísticas en segundo plano (o localmente)
   futsalRedRenderHeader();
   futsalRedRenderCategorySelector();
   futsalRedRender();

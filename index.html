@@ -230,19 +230,20 @@
     </div>
   </footer>
 
-  <script src="weather.js"></script>
-  <script src="share.js"></script>
-  <script src="futsal_stats.js"></script>
-  <script src="futsal.js"></script>
-  <script src="futsal_reducido.js"></script>
-  <script src="futsal_femenino.js"></script>
-  <script src="app.js"></script>
+  <script src="weather.js?v=4"></script>
+  <script src="share.js?v=4"></script>
+  <script src="futsal_stats.js?v=4"></script>
+  <script src="futsal.js?v=4"></script>
+  <script src="futsal_reducido.js?v=4"></script>
+  <script src="futsal_femenino.js?v=4"></script>
+  <script src="app.js?v=4"></script>
 
   <!-- Service Worker para PWA -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').then(function(reg) {
+        // Register sw.js with a cache buster parameter to force the browser to check for changes
+        navigator.serviceWorker.register('/sw.js?v=4').then(function(reg) {
           console.log('✅ Service Worker registrado:', reg.scope);
         }).catch(function(err) {
           console.log('⚠️ Service Worker error:', err);
