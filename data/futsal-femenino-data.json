@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-18T19:07:10.740463Z",
+  "actualizado": "2026-07-18T20:51:25.665930Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -321,6 +321,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "ASTRA MACKIE",
+        "pj": 17,
+        "g": 11,
+        "e": 2,
+        "p": 4,
+        "gf": 51,
+        "gc": 23,
+        "pts": 35
+      },
+      {
+        "posicion": 5,
         "equipo": "ALLENDE",
         "pj": 16,
         "g": 11,
@@ -329,17 +340,6 @@
         "gf": 37,
         "gc": 9,
         "pts": 35
-      },
-      {
-        "posicion": 5,
-        "equipo": "ASTRA MACKIE",
-        "pj": 16,
-        "g": 10,
-        "e": 2,
-        "p": 4,
-        "gf": 45,
-        "gc": 19,
-        "pts": 32
       },
       {
         "posicion": 6,
@@ -431,17 +431,6 @@
       },
       {
         "posicion": 14,
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 15,
-        "g": 3,
-        "e": 2,
-        "p": 10,
-        "gf": 16,
-        "gc": 28,
-        "pts": 11
-      },
-      {
-        "posicion": 15,
         "equipo": "CENTRO VK",
         "pj": 14,
         "g": 3,
@@ -449,6 +438,17 @@
         "p": 9,
         "gf": 11,
         "gc": 23,
+        "pts": 11
+      },
+      {
+        "posicion": 15,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 16,
+        "g": 3,
+        "e": 2,
+        "p": 11,
+        "gf": 20,
+        "gc": 34,
         "pts": 11
       },
       {
@@ -743,13 +743,13 @@
       },
       {
         "equipo": "ASTRA MACKIE",
-        "pj": 49,
-        "g": 25,
+        "pj": 50,
+        "g": 26,
         "e": 7,
         "p": 17,
-        "gf": 114,
-        "gc": 61,
-        "pts": 82,
+        "gf": 120,
+        "gc": 65,
+        "pts": 85,
         "posicion": 6
       },
       {
@@ -842,12 +842,12 @@
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
-        "pj": 46,
+        "pj": 47,
         "g": 10,
         "e": 11,
-        "p": 25,
-        "gf": 67,
-        "gc": 95,
+        "p": 26,
+        "gf": 71,
+        "gc": 101,
         "pts": 41,
         "posicion": 15
       },
@@ -8229,14 +8229,17 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152424,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-18 15:30",
               "sede": "parque chacabuco",
               "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-192435-inbound5881621650657530186.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-192438-inbound6987269317226460933.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152577,
