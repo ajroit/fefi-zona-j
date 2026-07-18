@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-16T06:25:44.013460Z",
+  "actualizado": "2026-07-18T06:10:49.689776Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -20,16 +20,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213218-images%20(3).png"
     },
     {
+      "nombre": "CAPITAN ROSALES",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
+    },
+    {
       "nombre": "PROGRESO SANTA RITA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-202804-dd60285b-2cf9-48e5-99ac-e9f00813ef06.png"
     },
     {
       "nombre": "RESPLANDOR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
-    },
-    {
-      "nombre": "CAPITAN ROSALES",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
     },
     {
       "nombre": "EL IDEAL",
@@ -103,6 +103,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 15,
+        "g": 12,
+        "e": 1,
+        "p": 2,
+        "gf": 114,
+        "gc": 75,
+        "pts": 37
+      },
+      {
+        "posicion": 3,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 16,
         "g": 11,
@@ -113,7 +124,7 @@
         "pts": 36
       },
       {
-        "posicion": 3,
+        "posicion": 4,
         "equipo": "RESPLANDOR",
         "pj": 16,
         "g": 11,
@@ -122,17 +133,6 @@
         "gf": 113,
         "gc": 65,
         "pts": 35
-      },
-      {
-        "posicion": 4,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 14,
-        "g": 11,
-        "e": 1,
-        "p": 2,
-        "gf": 109,
-        "gc": 75,
-        "pts": 34
       },
       {
         "posicion": 5,
@@ -236,12 +236,12 @@
       {
         "posicion": 14,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 3,
-        "p": 7,
+        "p": 8,
         "gf": 57,
-        "gc": 83,
+        "gc": 88,
         "pts": 15
       },
       {
@@ -358,6 +358,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 16,
+        "g": 9,
+        "e": 0,
+        "p": 7,
+        "gf": 77,
+        "gc": 67,
+        "pts": 27
+      },
+      {
+        "posicion": 8,
         "equipo": "UGAB",
         "pj": 16,
         "g": 8,
@@ -368,7 +379,7 @@
         "pts": 26
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "VILLA SAHORES",
         "pj": 16,
         "g": 7,
@@ -376,17 +387,6 @@
         "p": 6,
         "gf": 75,
         "gc": 62,
-        "pts": 24
-      },
-      {
-        "posicion": 9,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 8,
-        "e": 0,
-        "p": 7,
-        "gf": 72,
-        "gc": 67,
         "pts": 24
       },
       {
@@ -458,12 +458,12 @@
       {
         "posicion": 16,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 0,
-        "p": 10,
+        "p": 11,
         "gf": 50,
-        "gc": 119,
+        "gc": 124,
         "pts": 12
       },
       {
@@ -537,13 +537,13 @@
       {
         "posicion": 5,
         "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 9,
+        "pj": 16,
+        "g": 10,
         "e": 3,
         "p": 3,
-        "gf": 78,
+        "gf": 83,
         "gc": 62,
-        "pts": 30
+        "pts": 33
       },
       {
         "posicion": 6,
@@ -658,12 +658,12 @@
       {
         "posicion": 16,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 31,
-        "gc": 60,
+        "gc": 65,
         "pts": 9
       },
       {
@@ -692,6 +692,17 @@
     "QUINTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 15,
+        "g": 15,
+        "e": 0,
+        "p": 0,
+        "gf": 136,
+        "gc": 46,
+        "pts": 45
+      },
+      {
+        "posicion": 2,
         "equipo": "EL IDEAL",
         "pj": 15,
         "g": 14,
@@ -702,7 +713,7 @@
         "pts": 43
       },
       {
-        "posicion": 2,
+        "posicion": 3,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 16,
         "g": 14,
@@ -711,17 +722,6 @@
         "gf": 82,
         "gc": 26,
         "pts": 43
-      },
-      {
-        "posicion": 3,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 14,
-        "g": 14,
-        "e": 0,
-        "p": 0,
-        "gf": 131,
-        "gc": 46,
-        "pts": 42
       },
       {
         "posicion": 4,
@@ -869,12 +869,12 @@
       {
         "posicion": 17,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 2,
-        "p": 10,
+        "p": 11,
         "gf": 37,
-        "gc": 98,
+        "gc": 103,
         "pts": 8
       },
       {
@@ -925,6 +925,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 16,
+        "g": 13,
+        "e": 0,
+        "p": 3,
+        "gf": 109,
+        "gc": 38,
+        "pts": 39
+      },
+      {
+        "posicion": 5,
         "equipo": "PROGRESO SANTA RITA",
         "pj": 16,
         "g": 13,
@@ -933,17 +944,6 @@
         "gf": 78,
         "gc": 36,
         "pts": 39
-      },
-      {
-        "posicion": 5,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 12,
-        "e": 0,
-        "p": 3,
-        "gf": 104,
-        "gc": 38,
-        "pts": 36
       },
       {
         "posicion": 6,
@@ -1069,12 +1069,12 @@
       {
         "posicion": 17,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 19,
-        "gc": 128,
+        "gc": 133,
         "pts": 9
       },
       {
@@ -1125,6 +1125,17 @@
       },
       {
         "posicion": 4,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 16,
+        "g": 12,
+        "e": 1,
+        "p": 3,
+        "gf": 87,
+        "gc": 36,
+        "pts": 37
+      },
+      {
+        "posicion": 5,
         "equipo": "RESPLANDOR",
         "pj": 16,
         "g": 11,
@@ -1132,17 +1143,6 @@
         "p": 4,
         "gf": 106,
         "gc": 60,
-        "pts": 34
-      },
-      {
-        "posicion": 5,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 11,
-        "e": 1,
-        "p": 3,
-        "gf": 82,
-        "gc": 36,
         "pts": 34
       },
       {
@@ -1280,12 +1280,12 @@
       {
         "posicion": 18,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 21,
-        "gc": 87,
+        "gc": 92,
         "pts": 3
       }
     ],
@@ -1337,13 +1337,13 @@
       {
         "posicion": 5,
         "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 9,
+        "pj": 16,
+        "g": 10,
         "e": 1,
         "p": 5,
-        "gf": 63,
+        "gf": 68,
         "gc": 30,
-        "pts": 28
+        "pts": 31
       },
       {
         "posicion": 6,
@@ -1392,12 +1392,12 @@
       {
         "posicion": 10,
         "equipo": "SUD AMERICA",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 3,
-        "p": 4,
+        "p": 5,
         "gf": 62,
-        "gc": 31,
+        "gc": 36,
         "pts": 24
       },
       {
@@ -1502,6 +1502,17 @@
         "posicion": 1
       },
       {
+        "equipo": "CAPITAN ROSALES",
+        "pj": 110,
+        "g": 81,
+        "e": 6,
+        "p": 23,
+        "gf": 674,
+        "gc": 354,
+        "pts": 249,
+        "posicion": 2
+      },
+      {
         "equipo": "ALL BOYS SAAVEDRA",
         "pj": 110,
         "g": 79,
@@ -1510,7 +1521,7 @@
         "gf": 562,
         "gc": 309,
         "pts": 245,
-        "posicion": 2
+        "posicion": 3
       },
       {
         "equipo": "VICTORIA",
@@ -1521,7 +1532,7 @@
         "gf": 652,
         "gc": 382,
         "pts": 235,
-        "posicion": 3
+        "posicion": 4
       },
       {
         "equipo": "MAYO FUTSAL",
@@ -1532,17 +1543,6 @@
         "gf": 647,
         "gc": 311,
         "pts": 232,
-        "posicion": 4
-      },
-      {
-        "equipo": "CAPITAN ROSALES",
-        "pj": 103,
-        "g": 74,
-        "e": 6,
-        "p": 23,
-        "gf": 639,
-        "gc": 354,
-        "pts": 228,
         "posicion": 5
       },
       {
@@ -1646,12 +1646,12 @@
       },
       {
         "equipo": "SUD AMERICA",
-        "pj": 98,
+        "pj": 105,
         "g": 24,
         "e": 8,
-        "p": 66,
+        "p": 73,
         "gf": 277,
-        "gc": 606,
+        "gc": 641,
         "pts": 80,
         "posicion": 15
       },
@@ -16225,9 +16225,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150163,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16236,9 +16236,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150316,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16247,9 +16247,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149551,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16258,9 +16258,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149704,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16269,9 +16269,9 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149857,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16280,9 +16280,9 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 150010,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16291,9 +16291,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150469,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16301,7 +16301,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "PRIMERA JUNTA",
@@ -16518,7 +16518,7 @@
     },
     {
       "numero": 17,
-      "fecha_partido": null,
+      "fecha_partido": "2026-07-26",
       "encuentros": [
         {
           "local": "PACHECO SUR",
@@ -17118,9 +17118,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 12:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17129,9 +17129,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 11:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17140,9 +17140,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 10:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -17151,9 +17151,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 16:15",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17162,9 +17162,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 15:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17173,9 +17173,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 14:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17184,9 +17184,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 13:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142",
               "planillas": null
             }
           },
@@ -17202,9 +17202,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 16:00",
+              "sede": "Club Brisas",
+              "direccion": "Constitucion 318 Haedo",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17213,9 +17213,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 15:00",
+              "sede": "Club Brisas",
+              "direccion": "Constitucion 318 Haedo",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17224,9 +17224,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 14:00",
+              "sede": "Club Brisas",
+              "direccion": "Constitucion 318 Haedo",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -17257,9 +17257,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 18:00",
+              "sede": "Club Brisas",
+              "direccion": "Constitucion 318 Haedo",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17268,9 +17268,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 17:00",
+              "sede": "Club Brisas",
+              "direccion": "Constitucion 318 Haedo",
               "planillas": null
             }
           },
