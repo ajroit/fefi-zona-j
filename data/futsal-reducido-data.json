@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-20T06:54:46.178112Z",
+  "actualizado": "2026-07-21T06:36:04.491320Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -40,24 +40,24 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-w8bhsookahaqvaoibk6ljbaysnl1%2F1000312734.png"
     },
     {
-      "nombre": "UGAB",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-215321-T6lzlzqK_400x400.png"
-    },
-    {
       "nombre": "BRISAS DE HAEDO",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205513-20260327-174248-WhatsApp_Image_2026-03-27_at_2.41.30_PM.png"
+    },
+    {
+      "nombre": "UGAB",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-215321-T6lzlzqK_400x400.png"
     },
     {
       "nombre": "VICTORIA",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/050c3f9f-82f1-42f4-95e1-576ce55a0259.png"
     },
     {
-      "nombre": "VILLA SAHORES",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
-    },
-    {
       "nombre": "ALL BOYS SAAVEDRA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FImagen_de_WhatsApp_2025-03-17_a_las_13.21.52_cce7a3bd-removebg-preview%20(1).png"
+    },
+    {
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
     },
     {
       "nombre": "CRISOL JUVENTUD",
@@ -158,6 +158,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 17,
+        "g": 9,
+        "e": 0,
+        "p": 8,
+        "gf": 96,
+        "gc": 94,
+        "pts": 27
+      },
+      {
+        "posicion": 8,
         "equipo": "UGAB",
         "pj": 15,
         "g": 8,
@@ -166,17 +177,6 @@
         "gf": 69,
         "gc": 57,
         "pts": 25
-      },
-      {
-        "posicion": 8,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 16,
-        "g": 8,
-        "e": 0,
-        "p": 8,
-        "gf": 91,
-        "gc": 94,
-        "pts": 24
       },
       {
         "posicion": 9,
@@ -191,6 +191,17 @@
       },
       {
         "posicion": 10,
+        "equipo": "ALL BOYS SAAVEDRA",
+        "pj": 16,
+        "g": 7,
+        "e": 1,
+        "p": 8,
+        "gf": 101,
+        "gc": 93,
+        "pts": 22
+      },
+      {
+        "posicion": 11,
         "equipo": "VILLA SAHORES",
         "pj": 16,
         "g": 6,
@@ -199,17 +210,6 @@
         "gf": 78,
         "gc": 98,
         "pts": 20
-      },
-      {
-        "posicion": 11,
-        "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 15,
-        "g": 6,
-        "e": 1,
-        "p": 8,
-        "gf": 96,
-        "gc": 93,
-        "pts": 19
       },
       {
         "posicion": 12,
@@ -280,12 +280,12 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 17,
         "g": 0,
         "e": 0,
-        "p": 15,
+        "p": 17,
         "gf": 0,
-        "gc": 75,
+        "gc": 85,
         "pts": 0
       }
     ],
@@ -293,13 +293,13 @@
       {
         "posicion": 1,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 15,
-        "g": 13,
+        "pj": 16,
+        "g": 14,
         "e": 1,
         "p": 1,
-        "gf": 88,
+        "gf": 93,
         "gc": 39,
-        "pts": 40
+        "pts": 43
       },
       {
         "posicion": 2,
@@ -435,6 +435,17 @@
       },
       {
         "posicion": 14,
+        "equipo": "BRISAS DE HAEDO",
+        "pj": 17,
+        "g": 4,
+        "e": 3,
+        "p": 10,
+        "gf": 78,
+        "gc": 114,
+        "pts": 15
+      },
+      {
+        "posicion": 15,
         "equipo": "RESPLANDOR",
         "pj": 16,
         "g": 4,
@@ -443,17 +454,6 @@
         "gf": 80,
         "gc": 94,
         "pts": 14
-      },
-      {
-        "posicion": 15,
-        "equipo": "BRISAS DE HAEDO",
-        "pj": 16,
-        "g": 3,
-        "e": 3,
-        "p": 10,
-        "gf": 73,
-        "gc": 114,
-        "pts": 12
       },
       {
         "posicion": 16,
@@ -480,12 +480,12 @@
       {
         "posicion": 18,
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
+        "pj": 17,
         "g": 0,
         "e": 0,
-        "p": 15,
+        "p": 17,
         "gf": 0,
-        "gc": 75,
+        "gc": 85,
         "pts": 0
       }
     ],
@@ -547,24 +547,24 @@
       },
       {
         "posicion": 6,
-        "equipo": "PRIMERA JUNTA",
-        "pj": 15,
-        "g": 8,
+        "equipo": "PARQUE CHAS",
+        "pj": 16,
+        "g": 9,
         "e": 3,
         "p": 4,
-        "gf": 54,
-        "gc": 29,
-        "pts": 27
+        "gf": 74,
+        "gc": 49,
+        "pts": 30
       },
       {
         "posicion": 7,
-        "equipo": "PARQUE CHAS",
-        "pj": 15,
+        "equipo": "PRIMERA JUNTA",
+        "pj": 16,
         "g": 8,
         "e": 3,
-        "p": 4,
-        "gf": 69,
-        "gc": 46,
+        "p": 5,
+        "gf": 57,
+        "gc": 34,
         "pts": 27
       },
       {
@@ -1436,13 +1436,13 @@
       {
         "posicion": 14,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 15,
-        "g": 3,
+        "pj": 16,
+        "g": 4,
         "e": 1,
         "p": 11,
-        "gf": 25,
+        "gf": 30,
         "gc": 78,
-        "pts": 10
+        "pts": 13
       },
       {
         "posicion": 15,
@@ -1480,12 +1480,12 @@
       {
         "posicion": 18,
         "equipo": "UGAB",
-        "pj": 15,
+        "pj": 16,
         "g": 0,
         "e": 0,
-        "p": 15,
+        "p": 16,
         "gf": 0,
-        "gc": 75,
+        "gc": 80,
         "pts": 0
       }
     ],
@@ -1502,6 +1502,17 @@
         "posicion": 1
       },
       {
+        "equipo": "ALL BOYS SAAVEDRA",
+        "pj": 112,
+        "g": 81,
+        "e": 8,
+        "p": 23,
+        "gf": 572,
+        "gc": 309,
+        "pts": 251,
+        "posicion": 2
+      },
+      {
         "equipo": "CAPITAN ROSALES",
         "pj": 110,
         "g": 81,
@@ -1510,17 +1521,6 @@
         "gf": 674,
         "gc": 354,
         "pts": 249,
-        "posicion": 2
-      },
-      {
-        "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 110,
-        "g": 79,
-        "e": 8,
-        "p": 23,
-        "gf": 562,
-        "gc": 309,
-        "pts": 245,
         "posicion": 3
       },
       {
@@ -1569,13 +1569,13 @@
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 110,
-        "g": 55,
+        "pj": 111,
+        "g": 56,
         "e": 14,
         "p": 41,
-        "gf": 522,
-        "gc": 427,
-        "pts": 179,
+        "gf": 527,
+        "gc": 430,
+        "pts": 182,
         "posicion": 8
       },
       {
@@ -1602,23 +1602,23 @@
       },
       {
         "equipo": "BRISAS DE HAEDO",
-        "pj": 112,
-        "g": 45,
+        "pj": 114,
+        "g": 47,
         "e": 12,
         "p": 55,
-        "gf": 436,
+        "gf": 446,
         "gc": 466,
-        "pts": 147,
+        "pts": 153,
         "posicion": 11
       },
       {
         "equipo": "PRIMERA JUNTA",
-        "pj": 111,
+        "pj": 112,
         "g": 43,
         "e": 13,
-        "p": 55,
-        "gf": 371,
-        "gc": 419,
+        "p": 56,
+        "gf": 374,
+        "gc": 424,
         "pts": 142,
         "posicion": 12
       },
@@ -1635,12 +1635,12 @@
       },
       {
         "equipo": "UGAB",
-        "pj": 110,
+        "pj": 111,
         "g": 32,
         "e": 6,
-        "p": 72,
+        "p": 73,
         "gf": 340,
-        "gc": 596,
+        "gc": 601,
         "pts": 102,
         "posicion": 14
       },
@@ -1657,13 +1657,13 @@
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 111,
-        "g": 22,
+        "pj": 112,
+        "g": 23,
         "e": 6,
         "p": 83,
-        "gf": 293,
+        "gf": 298,
         "gc": 635,
-        "pts": 72,
+        "pts": 75,
         "posicion": 16
       },
       {
@@ -1679,12 +1679,12 @@
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 109,
+        "pj": 113,
         "g": 15,
         "e": 7,
-        "p": 87,
+        "p": 91,
         "gf": 192,
-        "gc": 570,
+        "gc": 590,
         "pts": 52,
         "posicion": 18
       }
@@ -11854,13 +11854,13 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149508,
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-18 22:00",
-              "sede": "Club Victoria",
-              "direccion": "Garicoits 805, esquina Esteban Echeverria",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260608-005619-inbound1591237889390099174.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-1spx8kfabte8svyfcy0p6wrggjb2/20260608-005606-inbound3894204799742999128.jpg"
@@ -13262,9 +13262,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 15:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -13273,9 +13273,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 14:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -13284,9 +13284,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 13:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -13295,9 +13295,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 19:15",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -13306,9 +13306,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 18:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -13317,9 +13317,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 17:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -13328,9 +13328,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-06-21 16:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
               "planillas": null
             }
           },
@@ -15737,9 +15737,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149546,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -15748,9 +15748,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149699,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -15822,9 +15822,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150465,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16782,9 +16782,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 17:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -16793,9 +16793,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 16:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -16804,9 +16804,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 15:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -16815,9 +16815,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 21:15",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -16826,9 +16826,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 20:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -16837,9 +16837,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 19:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -16848,9 +16848,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 18:00",
+              "sede": "progreso santa rita",
+              "direccion": "pichincha 320 boulogne",
               "planillas": null
             }
           },
@@ -17231,9 +17231,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149562,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -17242,9 +17242,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149715,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -17274,7 +17274,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         }
       ]
     }

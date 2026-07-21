@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-20T06:54:52.712294Z",
+  "actualizado": "2026-07-21T06:36:12.609206Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -52,12 +52,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-du8dyogglftwonb7zzdoalgtaqz1/20260213-164542-ESCUDO_SIN_FONDO.png"
     },
     {
-      "nombre": "ZIZOU FUTSAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
-    },
-    {
       "nombre": "INDEPENDIENTE (C)",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
+    },
+    {
+      "nombre": "ZIZOU FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
       "nombre": "PURA SUELA",
@@ -198,6 +198,17 @@
       },
       {
         "posicion": 11,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 17,
+        "g": 5,
+        "e": 5,
+        "p": 7,
+        "gf": 23,
+        "gc": 36,
+        "pts": 20
+      },
+      {
+        "posicion": 12,
         "equipo": "ZIZOU FUTSAL",
         "pj": 16,
         "g": 6,
@@ -206,17 +217,6 @@
         "gf": 33,
         "gc": 44,
         "pts": 19
-      },
-      {
-        "posicion": 12,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 16,
-        "g": 4,
-        "e": 5,
-        "p": 7,
-        "gf": 18,
-        "gc": 36,
-        "pts": 17
       },
       {
         "posicion": 13,
@@ -265,12 +265,12 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 0,
-        "p": 13,
+        "p": 14,
         "gf": 14,
-        "gc": 62,
+        "gc": 67,
         "pts": 3
       },
       {
@@ -576,6 +576,17 @@
       },
       {
         "posicion": 9,
+        "equipo": "VELEZ SARSFIELD",
+        "pj": 16,
+        "g": 7,
+        "e": 2,
+        "p": 7,
+        "gf": 37,
+        "gc": 26,
+        "pts": 23
+      },
+      {
+        "posicion": 10,
         "equipo": "SACA DEL MEDIO",
         "pj": 16,
         "g": 6,
@@ -586,7 +597,7 @@
         "pts": 23
       },
       {
-        "posicion": 10,
+        "posicion": 11,
         "equipo": "MAVIA FC",
         "pj": 16,
         "g": 7,
@@ -597,7 +608,7 @@
         "pts": 23
       },
       {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "EL GALPON",
         "pj": 15,
         "g": 7,
@@ -606,17 +617,6 @@
         "gf": 22,
         "gc": 19,
         "pts": 21
-      },
-      {
-        "posicion": 12,
-        "equipo": "VELEZ SARSFIELD",
-        "pj": 15,
-        "g": 6,
-        "e": 2,
-        "p": 7,
-        "gf": 32,
-        "gc": 26,
-        "pts": 20
       },
       {
         "posicion": 13,
@@ -676,12 +676,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 14,
+        "pj": 15,
         "g": 0,
         "e": 0,
-        "p": 14,
+        "p": 15,
         "gf": 0,
-        "gc": 70,
+        "gc": 75,
         "pts": 0
       }
     ],
@@ -753,6 +753,17 @@
         "posicion": 6
       },
       {
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 51,
+        "g": 22,
+        "e": 14,
+        "p": 15,
+        "gf": 84,
+        "gc": 70,
+        "pts": 80,
+        "posicion": 7
+      },
+      {
         "equipo": "ESTRELLA FEDERAL",
         "pj": 51,
         "g": 24,
@@ -761,28 +772,17 @@
         "gf": 101,
         "gc": 78,
         "pts": 79,
-        "posicion": 7
-      },
-      {
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 50,
-        "g": 21,
-        "e": 14,
-        "p": 15,
-        "gf": 79,
-        "gc": 70,
-        "pts": 77,
         "posicion": 8
       },
       {
         "equipo": "VELEZ SARSFIELD",
-        "pj": 49,
-        "g": 23,
+        "pj": 50,
+        "g": 24,
         "e": 5,
         "p": 21,
-        "gf": 110,
+        "gf": 115,
         "gc": 111,
-        "pts": 74,
+        "pts": 77,
         "posicion": 9
       },
       {
@@ -864,23 +864,23 @@
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 43,
+        "pj": 44,
         "g": 6,
         "e": 3,
-        "p": 34,
+        "p": 35,
         "gf": 31,
-        "gc": 142,
+        "gc": 147,
         "pts": 21,
         "posicion": 17
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 46,
+        "pj": 47,
         "g": 1,
         "e": 2,
-        "p": 43,
+        "p": 44,
         "gf": 19,
-        "gc": 218,
+        "gc": 223,
         "pts": 5,
         "posicion": 18
       }
@@ -7890,7 +7890,7 @@
     },
     {
       "numero": 17,
-      "fecha_partido": "2026-07-18",
+      "fecha_partido": "2026-07-25",
       "encuentros": [
         {
           "local": "PURA SUELA",
@@ -7942,9 +7942,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 19:00",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": null
             },
             "UNICA ADULTAS FEMENINO ": {
@@ -7964,9 +7964,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 20:15",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
               "planillas": null
             }
           },
@@ -7978,9 +7978,9 @@
           "partidos": {
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152571,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -8120,20 +8120,6 @@
           "local": "CENTRO ASTURIANO",
           "visitante": "VILLA SAHORES",
           "partidos": {
-            "PRIMERA ADULTAS FEMENINO ": {
-              "match_id": 152268,
-              "goles_local": 3,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-18 20:30",
-              "sede": "Campo de deportes Asturias",
-              "direccion": "Av Del Libertador 981, Vicente Lopez",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260719-003032-1000474098.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260719-003034-1000474097.jpg"
-              ]
-            },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152421,
               "goles_local": 0,
@@ -8160,6 +8146,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260718-232135-1000474085.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260718-232137-1000474084.jpg"
+              ]
+            },
+            "PRIMERA ADULTAS FEMENINO ": {
+              "match_id": 152268,
+              "goles_local": 3,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-18 20:30",
+              "sede": "Campo de deportes Asturias",
+              "direccion": "Av Del Libertador 981, Vicente Lopez",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260719-003032-1000474098.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-ea85nlfg13skoqd7kktpun7m1so2/20260719-003034-1000474097.jpg"
               ]
             }
           },
@@ -8211,9 +8211,9 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152270,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -8269,20 +8269,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-192438-inbound6987269317226460933.jpg"
               ]
             },
-            "UNICA ADULTAS FEMENINO ": {
-              "match_id": 152577,
-              "goles_local": 1,
-              "goles_visitante": 1,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-18 14:15",
-              "sede": "parque chacabuco",
-              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-181549-inbound783426960674895216.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-181552-inbound664542390456031769.jpg"
-              ]
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152271,
               "goles_local": 5,
@@ -8295,6 +8281,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-215451-inbound7249082687344286931.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-215452-inbound5820034898333860911.jpg"
+              ]
+            },
+            "UNICA ADULTAS FEMENINO ": {
+              "match_id": 152577,
+              "goles_local": 1,
+              "goles_visitante": 1,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-18 14:15",
+              "sede": "parque chacabuco",
+              "direccion": "Avenida Asamblea 1213, C1406 Cdad. Autónoma de Buenos Aires",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-181549-inbound783426960674895216.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260718-181552-inbound664542390456031769.jpg"
               ]
             }
           },

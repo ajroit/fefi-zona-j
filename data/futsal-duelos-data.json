@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-20T06:54:35.348282Z",
+  "actualizado": "2026-07-21T06:35:43.885631Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Fecha de duelos",
@@ -52,6 +52,10 @@
     {
       "nombre": "DEPORTIVO MORON",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F1740089519854.png"
+    },
+    {
+      "nombre": "ARQUITECTURA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250727-153009-arquitectura.png"
     },
     {
       "nombre": "ATENEO HAEDO",
@@ -128,10 +132,6 @@
     {
       "nombre": "BPNA",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260224-195013-primera-d-programaci_n-de-la-fecha-3-vs-bpna-destacada-Photoroom.png"
-    },
-    {
-      "nombre": "ARQUITECTURA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250727-153009-arquitectura.png"
     }
   ],
   "tablas_posiciones": {
@@ -139,12 +139,12 @@
       {
         "posicion": 1,
         "equipo": "VILLA SAHORES",
-        "pj": 6,
+        "pj": 7,
         "g": 6,
         "e": 0,
-        "p": 0,
+        "p": 1,
         "gf": 20,
-        "gc": 8,
+        "gc": 13,
         "pts": 18
       },
       {
@@ -172,12 +172,12 @@
       {
         "posicion": 4,
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 6,
+        "pj": 7,
         "g": 4,
         "e": 0,
-        "p": 2,
-        "gf": 23,
-        "gc": 12,
+        "p": 3,
+        "gf": 26,
+        "gc": 17,
         "pts": 12
       },
       {
@@ -227,13 +227,13 @@
       {
         "posicion": 9,
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 6,
-        "g": 2,
+        "pj": 7,
+        "g": 3,
         "e": 0,
         "p": 4,
-        "gf": 12,
-        "gc": 23,
-        "pts": 6
+        "gf": 17,
+        "gc": 26,
+        "pts": 9
       },
       {
         "posicion": 10,
@@ -259,6 +259,17 @@
       },
       {
         "posicion": 12,
+        "equipo": "ARQUITECTURA",
+        "pj": 7,
+        "g": 1,
+        "e": 0,
+        "p": 6,
+        "gf": 13,
+        "gc": 20,
+        "pts": 3
+      },
+      {
+        "posicion": 13,
         "equipo": "ATENEO HAEDO",
         "pj": 0,
         "g": 0,
@@ -269,7 +280,7 @@
         "pts": 0
       },
       {
-        "posicion": 13,
+        "posicion": 14,
         "equipo": "SIGLO XX OESTE",
         "pj": 0,
         "g": 0,
@@ -280,7 +291,7 @@
         "pts": 0
       },
       {
-        "posicion": 14,
+        "posicion": 15,
         "equipo": "RIVADAVIA 87",
         "pj": 0,
         "g": 0,
@@ -291,7 +302,7 @@
         "pts": 0
       },
       {
-        "posicion": 15,
+        "posicion": 16,
         "equipo": "LIBERTADORES",
         "pj": 0,
         "g": 0,
@@ -302,7 +313,7 @@
         "pts": 0
       },
       {
-        "posicion": 16,
+        "posicion": 17,
         "equipo": "ESTRADA FUTSAL",
         "pj": 0,
         "g": 0,
@@ -313,7 +324,7 @@
         "pts": 0
       },
       {
-        "posicion": 17,
+        "posicion": 18,
         "equipo": "ISIDRO CASANOVA",
         "pj": 0,
         "g": 0,
@@ -324,7 +335,7 @@
         "pts": 0
       },
       {
-        "posicion": 18,
+        "posicion": 19,
         "equipo": "ROTONDA",
         "pj": 0,
         "g": 0,
@@ -335,7 +346,7 @@
         "pts": 0
       },
       {
-        "posicion": 19,
+        "posicion": 20,
         "equipo": "JOSE HERNANDEZ",
         "pj": 0,
         "g": 0,
@@ -346,19 +357,8 @@
         "pts": 0
       },
       {
-        "posicion": 20,
-        "equipo": "PEDRO LOZANO",
-        "pj": 0,
-        "g": 0,
-        "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0
-      },
-      {
         "posicion": 21,
-        "equipo": "VENCIENDO GIGANTES",
+        "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -369,7 +369,7 @@
       },
       {
         "posicion": 22,
-        "equipo": "MIRIÑAQUE",
+        "equipo": "VENCIENDO GIGANTES",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -380,7 +380,7 @@
       },
       {
         "posicion": 23,
-        "equipo": "VILLA RITA",
+        "equipo": "MIRIÑAQUE",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -391,7 +391,7 @@
       },
       {
         "posicion": 24,
-        "equipo": "JUVENTUD UNIDA (MC)",
+        "equipo": "VILLA RITA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -402,7 +402,7 @@
       },
       {
         "posicion": 25,
-        "equipo": "CIENCIA Y LABOR",
+        "equipo": "JUVENTUD UNIDA (MC)",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -413,7 +413,7 @@
       },
       {
         "posicion": 26,
-        "equipo": "VILLA LA ÑATA",
+        "equipo": "CIENCIA Y LABOR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -424,7 +424,7 @@
       },
       {
         "posicion": 27,
-        "equipo": "DEPORTIVO ABBAS",
+        "equipo": "VILLA LA ÑATA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -435,7 +435,7 @@
       },
       {
         "posicion": 28,
-        "equipo": "EL TALAR",
+        "equipo": "DEPORTIVO ABBAS",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -446,7 +446,7 @@
       },
       {
         "posicion": 29,
-        "equipo": "JUVENTUD",
+        "equipo": "EL TALAR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -457,7 +457,7 @@
       },
       {
         "posicion": 30,
-        "equipo": "PEDRO LOZANO",
+        "equipo": "JUVENTUD",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -468,7 +468,7 @@
       },
       {
         "posicion": 31,
-        "equipo": "BPNA",
+        "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -479,25 +479,25 @@
       },
       {
         "posicion": 32,
-        "equipo": "ARQUITECTURA",
-        "pj": 6,
+        "equipo": "BPNA",
+        "pj": 0,
         "g": 0,
         "e": 0,
-        "p": 6,
-        "gf": 8,
-        "gc": 20,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
         "pts": 0
       }
     ],
     "general": [
       {
         "equipo": "VILLA SAHORES",
-        "pj": 6,
+        "pj": 7,
         "g": 6,
         "e": 0,
-        "p": 0,
+        "p": 1,
         "gf": 20,
-        "gc": 8,
+        "gc": 13,
         "pts": 18,
         "posicion": 1
       },
@@ -525,12 +525,12 @@
       },
       {
         "equipo": "INDEPENDIENTE DE BECCAR",
-        "pj": 6,
+        "pj": 7,
         "g": 4,
         "e": 0,
-        "p": 2,
-        "gf": 23,
-        "gc": 12,
+        "p": 3,
+        "gf": 26,
+        "gc": 17,
         "pts": 12,
         "posicion": 4
       },
@@ -580,13 +580,13 @@
       },
       {
         "equipo": "MUNICIPIO LOMAS DE ZAMORA",
-        "pj": 6,
-        "g": 2,
+        "pj": 7,
+        "g": 3,
         "e": 0,
         "p": 4,
-        "gf": 12,
-        "gc": 23,
-        "pts": 6,
+        "gf": 17,
+        "gc": 26,
+        "pts": 9,
         "posicion": 9
       },
       {
@@ -612,18 +612,18 @@
         "posicion": 11
       },
       {
-        "equipo": "ATENEO HAEDO",
-        "pj": 0,
-        "g": 0,
+        "equipo": "ARQUITECTURA",
+        "pj": 7,
+        "g": 1,
         "e": 0,
-        "p": 0,
-        "gf": 0,
-        "gc": 0,
-        "pts": 0,
+        "p": 6,
+        "gf": 13,
+        "gc": 20,
+        "pts": 3,
         "posicion": 12
       },
       {
-        "equipo": "SIGLO XX OESTE",
+        "equipo": "ATENEO HAEDO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -634,7 +634,7 @@
         "posicion": 13
       },
       {
-        "equipo": "RIVADAVIA 87",
+        "equipo": "SIGLO XX OESTE",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -645,7 +645,7 @@
         "posicion": 14
       },
       {
-        "equipo": "LIBERTADORES",
+        "equipo": "RIVADAVIA 87",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -656,7 +656,7 @@
         "posicion": 15
       },
       {
-        "equipo": "ESTRADA FUTSAL",
+        "equipo": "LIBERTADORES",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -667,7 +667,7 @@
         "posicion": 16
       },
       {
-        "equipo": "ISIDRO CASANOVA",
+        "equipo": "ESTRADA FUTSAL",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -678,7 +678,7 @@
         "posicion": 17
       },
       {
-        "equipo": "ROTONDA",
+        "equipo": "ISIDRO CASANOVA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -689,7 +689,7 @@
         "posicion": 18
       },
       {
-        "equipo": "JOSE HERNANDEZ",
+        "equipo": "ROTONDA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -700,7 +700,7 @@
         "posicion": 19
       },
       {
-        "equipo": "PEDRO LOZANO",
+        "equipo": "JOSE HERNANDEZ",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -711,7 +711,7 @@
         "posicion": 20
       },
       {
-        "equipo": "VENCIENDO GIGANTES",
+        "equipo": "PEDRO LOZANO",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -722,7 +722,7 @@
         "posicion": 21
       },
       {
-        "equipo": "MIRIÑAQUE",
+        "equipo": "VENCIENDO GIGANTES",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -733,7 +733,7 @@
         "posicion": 22
       },
       {
-        "equipo": "VILLA RITA",
+        "equipo": "MIRIÑAQUE",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -744,7 +744,7 @@
         "posicion": 23
       },
       {
-        "equipo": "JUVENTUD UNIDA (MC)",
+        "equipo": "VILLA RITA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -755,7 +755,7 @@
         "posicion": 24
       },
       {
-        "equipo": "CIENCIA Y LABOR",
+        "equipo": "JUVENTUD UNIDA (MC)",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -766,7 +766,7 @@
         "posicion": 25
       },
       {
-        "equipo": "VILLA LA ÑATA",
+        "equipo": "CIENCIA Y LABOR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -777,7 +777,7 @@
         "posicion": 26
       },
       {
-        "equipo": "DEPORTIVO ABBAS",
+        "equipo": "VILLA LA ÑATA",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -788,7 +788,7 @@
         "posicion": 27
       },
       {
-        "equipo": "EL TALAR",
+        "equipo": "DEPORTIVO ABBAS",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -799,7 +799,7 @@
         "posicion": 28
       },
       {
-        "equipo": "JUVENTUD",
+        "equipo": "EL TALAR",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -810,7 +810,7 @@
         "posicion": 29
       },
       {
-        "equipo": "BPNA",
+        "equipo": "JUVENTUD",
         "pj": 0,
         "g": 0,
         "e": 0,
@@ -821,13 +821,13 @@
         "posicion": 30
       },
       {
-        "equipo": "ARQUITECTURA",
-        "pj": 6,
+        "equipo": "BPNA",
+        "pj": 0,
         "g": 0,
         "e": 0,
-        "p": 6,
-        "gf": 8,
-        "gc": 20,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
         "pts": 0,
         "posicion": 31
       }
@@ -859,7 +859,7 @@
             "TERCERA MASCULINO": {
               "match_id": 204885,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-11 18:00",
@@ -914,7 +914,7 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 202901,
-              "goles_local": 2,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -1930,7 +1930,7 @@
             },
             "SEXTA MASCULINO": {
               "match_id": 202912,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
