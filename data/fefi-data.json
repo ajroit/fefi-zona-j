@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-21T06:35:17.764726+00:00",
+  "actualizado": "2026-07-22T06:36:11.143430+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -3355,12 +3355,12 @@
               "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7767,11 +7767,11 @@
     "general": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 97,
-        "g": 66,
+        "pj": 98,
+        "g": 67,
         "e": 4,
         "p": 27,
-        "pts": 233,
+        "pts": 236,
         "posicion": 1
       },
       {
@@ -7884,11 +7884,11 @@
       },
       {
         "equipo": "LIBERAL",
-        "pj": 89,
+        "pj": 90,
         "g": 31,
         "e": 5,
-        "p": 53,
-        "pts": 156,
+        "p": 54,
+        "pts": 157,
         "posicion": 14
       },
       {
@@ -8797,16 +8797,16 @@
         "posicion": 1
       },
       {
-        "equipo": "CLUB SAHORES",
-        "pj": 13,
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 14,
         "g": 9,
-        "e": 0,
+        "e": 1,
         "p": 4,
-        "pts": 31,
+        "pts": 33,
         "posicion": 2
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "CLUB SAHORES",
         "pj": 13,
         "g": 9,
         "e": 0,
@@ -8815,25 +8815,25 @@
         "posicion": 3
       },
       {
+        "equipo": "MENDEVILLE",
+        "pj": 13,
+        "g": 9,
+        "e": 0,
+        "p": 4,
+        "pts": 31,
+        "posicion": 4
+      },
+      {
         "equipo": "HOMERO",
         "pj": 12,
         "g": 9,
         "e": 1,
         "p": 2,
         "pts": 31,
-        "posicion": 4
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 13,
-        "g": 8,
-        "e": 1,
-        "p": 4,
-        "pts": 30,
         "posicion": 5
       },
       {
-        "equipo": "CLUB SAAVEDRA",
+        "equipo": "FERRO C. O.",
         "pj": 13,
         "g": 8,
         "e": 1,
@@ -8906,11 +8906,11 @@
       },
       {
         "equipo": "LIBERAL",
-        "pj": 12,
+        "pj": 13,
         "g": 2,
         "e": 0,
-        "p": 10,
-        "pts": 16,
+        "p": 11,
+        "pts": 17,
         "posicion": 14
       },
       {
