@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-22T06:36:27.067276Z",
+  "actualizado": "2026-07-23T06:35:54.283774Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -16518,7 +16518,7 @@
     },
     {
       "numero": 17,
-      "fecha_partido": "2026-07-26",
+      "fecha_partido": "2026-07-25",
       "encuentros": [
         {
           "local": "PACHECO SUR",
@@ -16614,9 +16614,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 15:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -16625,9 +16625,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 14:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -16636,9 +16636,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 13:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -16647,9 +16647,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 19:15",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -16658,9 +16658,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 18:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -16669,9 +16669,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 17:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -16680,9 +16680,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-25 16:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
               "planillas": null
             }
           },
@@ -16866,9 +16866,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 19:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -16877,9 +16877,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 18:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -16888,31 +16888,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 150170,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 150323,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 17:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -16921,9 +16899,31 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 14:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
+              "planillas": null
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 150323,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-26 15:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
+              "planillas": null
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 150170,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-26 16:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
             "PRIMERA MASCULINO": {
@@ -16932,9 +16932,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 20:45",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             }
           },
@@ -17034,9 +17034,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 15:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "SEPTIMA MASCULINO": {
@@ -17045,9 +17045,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 14:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "OCTAVA MASCULINO": {
@@ -17067,9 +17067,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 19:15",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "CUARTA MASCULINO": {
@@ -17078,9 +17078,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 17:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "QUINTA MASCULINO": {
@@ -17089,9 +17089,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 16:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             },
             "TERCERA MASCULINO": {
@@ -17100,9 +17100,9 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
+              "fecha_hora": "2026-07-26 18:00",
+              "sede": "Armenia",
+              "direccion": "1352",
               "planillas": null
             }
           },
