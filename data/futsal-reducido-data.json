@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-24T06:32:52.985727Z",
+  "actualizado": "2026-07-25T06:24:34.756593Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -16893,24 +16893,13 @@
               "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
-            "OCTAVA MASCULINO": {
-              "match_id": 150476,
+            "PRIMERA MASCULINO": {
+              "match_id": 149558,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-26 14:30",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero ",
-              "planillas": null
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 150323,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-26 15:30",
+              "fecha_hora": "2026-07-26 20:45",
               "sede": "Club Social y Deportivo Resplandor",
               "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
@@ -16926,13 +16915,24 @@
               "direccion": "Pintos 57, Villa Madero ",
               "planillas": null
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 149558,
+            "SEPTIMA MASCULINO": {
+              "match_id": 150323,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-26 20:45",
+              "fecha_hora": "2026-07-26 15:30",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero ",
+              "planillas": null
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 150476,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": "2026-07-26 14:30",
               "sede": "Club Social y Deportivo Resplandor",
               "direccion": "Pintos 57, Villa Madero ",
               "planillas": null

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-24T06:32:56.970353Z",
+  "actualizado": "2026-07-25T06:24:38.309727Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -36,12 +36,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-142135-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_1740521105315.png"
     },
     {
-      "nombre": "VELEZ SARSFIELD",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
-    },
-    {
       "nombre": "EL GALPON",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/75703350-f934-43d0-84e0-59fbe1164a5b.png"
+    },
+    {
+      "nombre": "VELEZ SARSFIELD",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-212744-Escudo_del_Club_Atl_tico_V_lez_Sarsfield.svg.png"
     },
     {
       "nombre": "MAVIA FC",
@@ -60,12 +60,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
-      "nombre": "PURA SUELA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
-    },
-    {
       "nombre": "CULTURAL DE TAPIALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
+    },
+    {
+      "nombre": "PURA SUELA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -89,13 +89,13 @@
       {
         "posicion": 1,
         "equipo": "SOCIAL OESTE",
-        "pj": 16,
-        "g": 14,
+        "pj": 17,
+        "g": 15,
         "e": 1,
         "p": 1,
-        "gf": 76,
+        "gf": 81,
         "gc": 16,
-        "pts": 43
+        "pts": 46
       },
       {
         "posicion": 2,
@@ -144,16 +144,27 @@
       {
         "posicion": 6,
         "equipo": "ALLENDE",
-        "pj": 16,
+        "pj": 17,
         "g": 9,
         "e": 4,
-        "p": 3,
+        "p": 4,
         "gf": 52,
-        "gc": 20,
+        "gc": 25,
         "pts": 31
       },
       {
         "posicion": 7,
+        "equipo": "EL GALPON",
+        "pj": 17,
+        "g": 9,
+        "e": 2,
+        "p": 6,
+        "gf": 35,
+        "gc": 23,
+        "pts": 29
+      },
+      {
+        "posicion": 8,
         "equipo": "VELEZ SARSFIELD",
         "pj": 17,
         "g": 9,
@@ -164,26 +175,15 @@
         "pts": 29
       },
       {
-        "posicion": 8,
-        "equipo": "EL GALPON",
-        "pj": 16,
-        "g": 8,
-        "e": 2,
-        "p": 6,
-        "gf": 30,
-        "gc": 23,
-        "pts": 26
-      },
-      {
         "posicion": 9,
         "equipo": "MAVIA FC",
-        "pj": 16,
-        "g": 7,
+        "pj": 17,
+        "g": 8,
         "e": 3,
         "p": 6,
-        "gf": 32,
+        "gf": 37,
         "gc": 33,
-        "pts": 24
+        "pts": 27
       },
       {
         "posicion": 10,
@@ -220,6 +220,17 @@
       },
       {
         "posicion": 13,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 17,
+        "g": 4,
+        "e": 5,
+        "p": 8,
+        "gf": 34,
+        "gc": 43,
+        "pts": 17
+      },
+      {
+        "posicion": 14,
         "equipo": "PURA SUELA",
         "pj": 15,
         "g": 4,
@@ -228,17 +239,6 @@
         "gf": 22,
         "gc": 34,
         "pts": 16
-      },
-      {
-        "posicion": 14,
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 16,
-        "g": 3,
-        "e": 5,
-        "p": 8,
-        "gf": 29,
-        "gc": 43,
-        "pts": 14
       },
       {
         "posicion": 15,
@@ -265,23 +265,23 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 15,
+        "pj": 17,
         "g": 1,
         "e": 0,
-        "p": 14,
+        "p": 16,
         "gf": 14,
-        "gc": 67,
+        "gc": 77,
         "pts": 3
       },
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 16,
+        "pj": 17,
         "g": 1,
         "e": 0,
-        "p": 15,
+        "p": 16,
         "gf": 8,
-        "gc": 81,
+        "gc": 86,
         "pts": 3
       }
     ],
@@ -299,6 +299,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 16,
+        "g": 12,
+        "e": 3,
+        "p": 1,
+        "gf": 45,
+        "gc": 17,
+        "pts": 39
+      },
+      {
+        "posicion": 3,
         "equipo": "VILLA SAHORES",
         "pj": 17,
         "g": 12,
@@ -307,17 +318,6 @@
         "gf": 33,
         "gc": 14,
         "pts": 39
-      },
-      {
-        "posicion": 3,
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 15,
-        "g": 11,
-        "e": 3,
-        "p": 1,
-        "gf": 41,
-        "gc": 17,
-        "pts": 36
       },
       {
         "posicion": 4,
@@ -333,12 +333,12 @@
       {
         "posicion": 5,
         "equipo": "ALLENDE",
-        "pj": 16,
+        "pj": 17,
         "g": 11,
         "e": 2,
-        "p": 3,
+        "p": 4,
         "gf": 37,
-        "gc": 9,
+        "gc": 14,
         "pts": 35
       },
       {
@@ -365,6 +365,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "SOCIAL OESTE",
+        "pj": 17,
+        "g": 8,
+        "e": 3,
+        "p": 6,
+        "gf": 42,
+        "gc": 19,
+        "pts": 27
+      },
+      {
+        "posicion": 9,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 17,
         "g": 7,
@@ -375,7 +386,7 @@
         "pts": 27
       },
       {
-        "posicion": 9,
+        "posicion": 10,
         "equipo": "VELEZ SARSFIELD",
         "pj": 17,
         "g": 8,
@@ -386,26 +397,15 @@
         "pts": 25
       },
       {
-        "posicion": 10,
-        "equipo": "SOCIAL OESTE",
-        "pj": 16,
-        "g": 7,
-        "e": 3,
-        "p": 6,
-        "gf": 37,
-        "gc": 19,
-        "pts": 24
-      },
-      {
         "posicion": 11,
         "equipo": "MAVIA FC",
-        "pj": 16,
-        "g": 5,
+        "pj": 17,
+        "g": 6,
         "e": 4,
         "p": 7,
-        "gf": 23,
+        "gf": 28,
         "gc": 26,
-        "pts": 19
+        "pts": 22
       },
       {
         "posicion": 12,
@@ -420,47 +420,47 @@
       },
       {
         "posicion": 13,
-        "equipo": "PURA SUELA",
-        "pj": 15,
-        "g": 3,
-        "e": 5,
-        "p": 7,
-        "gf": 12,
-        "gc": 32,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 17,
+        "g": 4,
+        "e": 2,
+        "p": 11,
+        "gf": 25,
+        "gc": 34,
         "pts": 14
       },
       {
         "posicion": 14,
-        "equipo": "CENTRO VK",
-        "pj": 15,
+        "equipo": "EL GALPON",
+        "pj": 17,
         "g": 3,
-        "e": 3,
+        "e": 5,
         "p": 9,
-        "gf": 11,
-        "gc": 23,
-        "pts": 12
+        "gf": 25,
+        "gc": 37,
+        "pts": 14
       },
       {
         "posicion": 15,
-        "equipo": "CULTURAL DE TAPIALES",
+        "equipo": "PURA SUELA",
         "pj": 16,
         "g": 3,
-        "e": 2,
-        "p": 11,
-        "gf": 20,
-        "gc": 34,
-        "pts": 11
+        "e": 5,
+        "p": 8,
+        "gf": 12,
+        "gc": 36,
+        "pts": 14
       },
       {
         "posicion": 16,
-        "equipo": "EL GALPON",
-        "pj": 16,
-        "g": 2,
-        "e": 5,
-        "p": 9,
-        "gf": 20,
-        "gc": 37,
-        "pts": 11
+        "equipo": "CENTRO VK",
+        "pj": 17,
+        "g": 3,
+        "e": 3,
+        "p": 11,
+        "gf": 11,
+        "gc": 33,
+        "pts": 12
       },
       {
         "posicion": 17,
@@ -476,12 +476,12 @@
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 16,
+        "pj": 17,
         "g": 0,
         "e": 2,
-        "p": 14,
+        "p": 15,
         "gf": 11,
-        "gc": 67,
+        "gc": 72,
         "pts": 2
       }
     ],
@@ -489,24 +489,24 @@
       {
         "posicion": 1,
         "equipo": "ALLENDE",
-        "pj": 16,
+        "pj": 17,
         "g": 15,
         "e": 0,
-        "p": 1,
+        "p": 2,
         "gf": 45,
-        "gc": 10,
+        "gc": 15,
         "pts": 45
       },
       {
         "posicion": 2,
         "equipo": "SOCIAL OESTE",
-        "pj": 16,
-        "g": 13,
+        "pj": 17,
+        "g": 14,
         "e": 2,
         "p": 1,
-        "gf": 46,
+        "gf": 51,
         "gc": 9,
-        "pts": 41
+        "pts": 44
       },
       {
         "posicion": 3,
@@ -565,6 +565,28 @@
       },
       {
         "posicion": 8,
+        "equipo": "MAVIA FC",
+        "pj": 17,
+        "g": 8,
+        "e": 2,
+        "p": 7,
+        "gf": 34,
+        "gc": 24,
+        "pts": 26
+      },
+      {
+        "posicion": 9,
+        "equipo": "EL GALPON",
+        "pj": 16,
+        "g": 8,
+        "e": 0,
+        "p": 8,
+        "gf": 27,
+        "gc": 19,
+        "pts": 24
+      },
+      {
+        "posicion": 10,
         "equipo": "ZIZOU FUTSAL",
         "pj": 16,
         "g": 7,
@@ -575,7 +597,7 @@
         "pts": 24
       },
       {
-        "posicion": 9,
+        "posicion": 11,
         "equipo": "VELEZ SARSFIELD",
         "pj": 16,
         "g": 7,
@@ -586,7 +608,7 @@
         "pts": 23
       },
       {
-        "posicion": 10,
+        "posicion": 12,
         "equipo": "SACA DEL MEDIO",
         "pj": 16,
         "g": 6,
@@ -597,29 +619,18 @@
         "pts": 23
       },
       {
-        "posicion": 11,
-        "equipo": "MAVIA FC",
-        "pj": 16,
-        "g": 7,
-        "e": 2,
-        "p": 7,
-        "gf": 29,
-        "gc": 24,
-        "pts": 23
-      },
-      {
-        "posicion": 12,
-        "equipo": "EL GALPON",
-        "pj": 15,
-        "g": 7,
-        "e": 0,
-        "p": 8,
-        "gf": 22,
-        "gc": 19,
-        "pts": 21
-      },
-      {
         "posicion": 13,
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 17,
+        "g": 5,
+        "e": 4,
+        "p": 8,
+        "gf": 27,
+        "gc": 29,
+        "pts": 19
+      },
+      {
+        "posicion": 14,
         "equipo": "ASTRA MACKIE",
         "pj": 17,
         "g": 5,
@@ -628,17 +639,6 @@
         "gf": 29,
         "gc": 26,
         "pts": 17
-      },
-      {
-        "posicion": 14,
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 16,
-        "g": 4,
-        "e": 4,
-        "p": 8,
-        "gf": 22,
-        "gc": 29,
-        "pts": 16
       },
       {
         "posicion": 15,
@@ -665,23 +665,23 @@
       {
         "posicion": 17,
         "equipo": "CENTRO VK",
-        "pj": 14,
+        "pj": 16,
         "g": 2,
         "e": 0,
-        "p": 12,
+        "p": 14,
         "gf": 6,
-        "gc": 57,
+        "gc": 67,
         "pts": 6
       },
       {
         "posicion": 18,
         "equipo": "SAN TELMO",
-        "pj": 15,
+        "pj": 16,
         "g": 0,
         "e": 0,
-        "p": 15,
+        "p": 16,
         "gf": 0,
-        "gc": 75,
+        "gc": 80,
         "pts": 0
       }
     ],
@@ -698,25 +698,25 @@
         "posicion": 1
       },
       {
-        "equipo": "ALLENDE",
-        "pj": 48,
-        "g": 35,
+        "equipo": "SOCIAL OESTE",
+        "pj": 51,
+        "g": 37,
         "e": 6,
-        "p": 7,
-        "gf": 134,
-        "gc": 39,
-        "pts": 111,
+        "p": 8,
+        "gf": 174,
+        "gc": 44,
+        "pts": 117,
         "posicion": 2
       },
       {
-        "equipo": "SOCIAL OESTE",
-        "pj": 48,
-        "g": 34,
+        "equipo": "ALLENDE",
+        "pj": 51,
+        "g": 35,
         "e": 6,
-        "p": 8,
-        "gf": 159,
-        "gc": 44,
-        "pts": 108,
+        "p": 10,
+        "gf": 134,
+        "gc": 54,
+        "pts": 111,
         "posicion": 3
       },
       {
@@ -787,24 +787,24 @@
       },
       {
         "equipo": "MAVIA FC",
-        "pj": 48,
-        "g": 19,
+        "pj": 51,
+        "g": 22,
         "e": 9,
         "p": 20,
-        "gf": 84,
+        "gf": 99,
         "gc": 83,
-        "pts": 66,
+        "pts": 75,
         "posicion": 10
       },
       {
         "equipo": "EL GALPON",
-        "pj": 47,
-        "g": 17,
+        "pj": 50,
+        "g": 20,
         "e": 7,
         "p": 23,
-        "gf": 72,
+        "gf": 87,
         "gc": 79,
-        "pts": 58,
+        "pts": 67,
         "posicion": 11
       },
       {
@@ -819,6 +819,28 @@
         "posicion": 12
       },
       {
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 46,
+        "g": 15,
+        "e": 6,
+        "p": 25,
+        "gf": 80,
+        "gc": 126,
+        "pts": 51,
+        "posicion": 13
+      },
+      {
+        "equipo": "CULTURAL DE TAPIALES",
+        "pj": 51,
+        "g": 13,
+        "e": 11,
+        "p": 27,
+        "gf": 86,
+        "gc": 106,
+        "pts": 50,
+        "posicion": 14
+      },
+      {
         "equipo": "SACA DEL MEDIO",
         "pj": 48,
         "g": 13,
@@ -827,60 +849,38 @@
         "gf": 63,
         "gc": 118,
         "pts": 49,
-        "posicion": 13
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 45,
-        "g": 14,
-        "e": 6,
-        "p": 25,
-        "gf": 76,
-        "gc": 126,
-        "pts": 48,
-        "posicion": 14
-      },
-      {
-        "equipo": "CULTURAL DE TAPIALES",
-        "pj": 48,
-        "g": 10,
-        "e": 11,
-        "p": 27,
-        "gf": 71,
-        "gc": 106,
-        "pts": 41,
         "posicion": 15
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 45,
+        "pj": 46,
         "g": 9,
         "e": 9,
-        "p": 27,
+        "p": 28,
         "gf": 46,
-        "gc": 113,
+        "gc": 117,
         "pts": 36,
         "posicion": 16
       },
       {
         "equipo": "CENTRO VK",
-        "pj": 44,
+        "pj": 50,
         "g": 6,
         "e": 3,
-        "p": 35,
+        "p": 41,
         "gf": 31,
-        "gc": 147,
+        "gc": 177,
         "pts": 21,
         "posicion": 17
       },
       {
         "equipo": "SAN TELMO",
-        "pj": 47,
+        "pj": 50,
         "g": 1,
         "e": 2,
-        "p": 44,
+        "p": 47,
         "gf": 19,
-        "gc": 223,
+        "gc": 238,
         "pts": 5,
         "posicion": 18
       }
@@ -4956,9 +4956,9 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152202,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -4967,9 +4967,9 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152355,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -4978,9 +4978,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152508,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -4988,7 +4988,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ASTRA MACKIE",
@@ -7041,21 +7041,24 @@
               "goles_visitante": null,
               "jugado": false,
               "estado": "",
-              "fecha_hora": "2026-07-24 03:00",
+              "fecha_hora": null,
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
               "planillas": null
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152398,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-24 21:00",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260725-024833-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fhczo89axzz806e5pbbxruakavs2/20260725-024850-image.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152551,
@@ -7069,7 +7072,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ZIZOU FUTSAL",
@@ -7521,9 +7524,9 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152408,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7532,9 +7535,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152561,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7543,9 +7546,9 @@
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152255,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7553,7 +7556,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "INDEPENDIENTE (C)",
@@ -7757,9 +7760,9 @@
           "partidos": {
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152260,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7768,9 +7771,9 @@
             },
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152413,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7779,9 +7782,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152566,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7789,7 +7792,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "VELEZ SARSFIELD",
@@ -8171,9 +8174,9 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152422,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-18 19:45",
               "sede": "POLIDEVORTIVO UAI",
@@ -8182,9 +8185,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152575,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-18 18:30",
               "sede": "POLIDEVORTIVO UAI",
@@ -8193,9 +8196,9 @@
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152269,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-18 21:00",
               "sede": "POLIDEVORTIVO UAI",
@@ -8203,7 +8206,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "CENTRO VK",
