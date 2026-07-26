@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-25T06:24:29.257777Z",
+  "actualizado": "2026-07-26T13:25:21.814748Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -522,12 +522,12 @@
       {
         "posicion": 8,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 2,
-        "p": 5,
+        "p": 6,
         "gf": 61,
-        "gc": 45,
+        "gc": 50,
         "pts": 23
       },
       {
@@ -599,13 +599,13 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 1,
+        "pj": 15,
+        "g": 2,
         "e": 0,
         "p": 13,
-        "gf": 21,
+        "gf": 26,
         "gc": 109,
-        "pts": 3
+        "pts": 6
       },
       {
         "posicion": 16,
@@ -722,12 +722,12 @@
       {
         "posicion": 10,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 3,
-        "p": 6,
+        "p": 7,
         "gf": 43,
-        "gc": 45,
+        "gc": 50,
         "pts": 18
       },
       {
@@ -744,13 +744,13 @@
       {
         "posicion": 12,
         "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 3,
+        "pj": 15,
+        "g": 4,
         "e": 3,
         "p": 8,
-        "gf": 36,
+        "gf": 41,
         "gc": 81,
-        "pts": 12
+        "pts": 15
       },
       {
         "posicion": 13,
@@ -2090,12 +2090,12 @@
       },
       {
         "equipo": "ROTONDA",
-        "pj": 148,
+        "pj": 150,
         "g": 79,
         "e": 14,
-        "p": 55,
+        "p": 57,
         "gf": 588,
-        "gc": 509,
+        "gc": 519,
         "pts": 251,
         "posicion": 5
       },
@@ -2178,13 +2178,13 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 148,
-        "g": 42,
+        "pj": 150,
+        "g": 44,
         "e": 18,
         "p": 88,
-        "gf": 394,
+        "gf": 404,
         "gc": 740,
-        "pts": 144,
+        "pts": 150,
         "posicion": 13
       },
       {
@@ -16370,8 +16370,8 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148421,
-              "goles_local": 1,
-              "goles_visitante": 1,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 15:00",
@@ -16413,7 +16413,7 @@
             "QUINTA MASCULINO": {
               "match_id": 148541,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 16:15",

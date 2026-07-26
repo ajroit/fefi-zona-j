@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-25T06:24:38.309727Z",
+  "actualizado": "2026-07-26T13:25:37.016584Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -56,16 +56,16 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-qy391u4qe7ywn8kken6npsoor9l2%2F20250728-004822-independiente.png"
     },
     {
+      "nombre": "PURA SUELA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
+    },
+    {
       "nombre": "ZIZOU FUTSAL",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2FIMG_0681.PNG"
     },
     {
       "nombre": "CULTURAL DE TAPIALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250812-175648-images.png"
-    },
-    {
-      "nombre": "PURA SUELA",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260311-174006-WhatsApp_Image_2026-03-11_at_14.38.48-Photoroom.png"
     },
     {
       "nombre": "SACA DEL MEDIO",
@@ -81,7 +81,7 @@
     },
     {
       "nombre": "SAN TELMO",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-tnlrjgd9qwp1uywan0zz912mwp62%2F20250708-180614-fa012df2-b15a-4ffa-9e97-fad616d45a95.jpg"
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260725-171406-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-tnlrjgd9qwp1uywan0zz912mwp62_20250708-180614-fa012df2-b15a-4ffa-9e97-fad616d45a95.png"
     }
   ],
   "tablas_posiciones": {
@@ -209,17 +209,28 @@
       },
       {
         "posicion": 12,
-        "equipo": "ZIZOU FUTSAL",
+        "equipo": "PURA SUELA",
         "pj": 16,
-        "g": 6,
-        "e": 1,
-        "p": 9,
-        "gf": 33,
-        "gc": 44,
+        "g": 5,
+        "e": 4,
+        "p": 7,
+        "gf": 24,
+        "gc": 35,
         "pts": 19
       },
       {
         "posicion": 13,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 17,
+        "g": 6,
+        "e": 1,
+        "p": 10,
+        "gf": 34,
+        "gc": 46,
+        "pts": 19
+      },
+      {
+        "posicion": 14,
         "equipo": "CULTURAL DE TAPIALES",
         "pj": 17,
         "g": 4,
@@ -228,17 +239,6 @@
         "gf": 34,
         "gc": 43,
         "pts": 17
-      },
-      {
-        "posicion": 14,
-        "equipo": "PURA SUELA",
-        "pj": 15,
-        "g": 4,
-        "e": 4,
-        "p": 7,
-        "gf": 22,
-        "gc": 34,
-        "pts": 16
       },
       {
         "posicion": 15,
@@ -443,12 +443,12 @@
       {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 16,
+        "pj": 17,
         "g": 3,
         "e": 5,
-        "p": 8,
+        "p": 9,
         "gf": 12,
-        "gc": 36,
+        "gc": 37,
         "pts": 14
       },
       {
@@ -465,13 +465,13 @@
       {
         "posicion": 17,
         "equipo": "ZIZOU FUTSAL",
-        "pj": 16,
-        "g": 2,
+        "pj": 17,
+        "g": 3,
         "e": 2,
         "p": 12,
-        "gf": 14,
+        "gf": 15,
         "gc": 34,
-        "pts": 8
+        "pts": 11
       },
       {
         "posicion": 18,
@@ -565,6 +565,28 @@
       },
       {
         "posicion": 8,
+        "equipo": "ZIZOU FUTSAL",
+        "pj": 17,
+        "g": 8,
+        "e": 3,
+        "p": 6,
+        "gf": 37,
+        "gc": 30,
+        "pts": 27
+      },
+      {
+        "posicion": 9,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 17,
+        "g": 7,
+        "e": 5,
+        "p": 5,
+        "gf": 35,
+        "gc": 24,
+        "pts": 26
+      },
+      {
+        "posicion": 10,
         "equipo": "MAVIA FC",
         "pj": 17,
         "g": 8,
@@ -575,7 +597,7 @@
         "pts": 26
       },
       {
-        "posicion": 9,
+        "posicion": 11,
         "equipo": "EL GALPON",
         "pj": 16,
         "g": 8,
@@ -586,18 +608,7 @@
         "pts": 24
       },
       {
-        "posicion": 10,
-        "equipo": "ZIZOU FUTSAL",
-        "pj": 16,
-        "g": 7,
-        "e": 3,
-        "p": 6,
-        "gf": 33,
-        "gc": 29,
-        "pts": 24
-      },
-      {
-        "posicion": 11,
+        "posicion": 12,
         "equipo": "VELEZ SARSFIELD",
         "pj": 16,
         "g": 7,
@@ -605,17 +616,6 @@
         "p": 7,
         "gf": 37,
         "gc": 26,
-        "pts": 23
-      },
-      {
-        "posicion": 12,
-        "equipo": "SACA DEL MEDIO",
-        "pj": 16,
-        "g": 6,
-        "e": 5,
-        "p": 5,
-        "gf": 30,
-        "gc": 24,
         "pts": 23
       },
       {
@@ -643,23 +643,23 @@
       {
         "posicion": 15,
         "equipo": "PURA SUELA",
-        "pj": 15,
-        "g": 2,
+        "pj": 17,
+        "g": 3,
         "e": 0,
-        "p": 13,
-        "gf": 12,
-        "gc": 47,
-        "pts": 6
+        "p": 14,
+        "gf": 18,
+        "gc": 51,
+        "pts": 9
       },
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 15,
+        "pj": 17,
         "g": 2,
         "e": 0,
-        "p": 13,
+        "p": 15,
         "gf": 10,
-        "gc": 56,
+        "gc": 66,
         "pts": 6
       },
       {
@@ -809,25 +809,36 @@
       },
       {
         "equipo": "ZIZOU FUTSAL",
+        "pj": 51,
+        "g": 17,
+        "e": 6,
+        "p": 28,
+        "gf": 86,
+        "gc": 110,
+        "pts": 57,
+        "posicion": 12
+      },
+      {
+        "equipo": "SACA DEL MEDIO",
+        "pj": 49,
+        "g": 14,
+        "e": 10,
+        "p": 25,
+        "gf": 68,
+        "gc": 118,
+        "pts": 52,
+        "posicion": 13
+      },
+      {
+        "equipo": "BROWN DE ADROGUE",
         "pj": 48,
         "g": 15,
         "e": 6,
         "p": 27,
         "gf": 80,
-        "gc": 107,
+        "gc": 136,
         "pts": 51,
-        "posicion": 12
-      },
-      {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 46,
-        "g": 15,
-        "e": 6,
-        "p": 25,
-        "gf": 80,
-        "gc": 126,
-        "pts": 51,
-        "posicion": 13
+        "posicion": 14
       },
       {
         "equipo": "CULTURAL DE TAPIALES",
@@ -838,28 +849,17 @@
         "gf": 86,
         "gc": 106,
         "pts": 50,
-        "posicion": 14
-      },
-      {
-        "equipo": "SACA DEL MEDIO",
-        "pj": 48,
-        "g": 13,
-        "e": 10,
-        "p": 25,
-        "gf": 63,
-        "gc": 118,
-        "pts": 49,
         "posicion": 15
       },
       {
         "equipo": "PURA SUELA",
-        "pj": 46,
-        "g": 9,
+        "pj": 50,
+        "g": 11,
         "e": 9,
-        "p": 28,
-        "gf": 46,
-        "gc": 117,
-        "pts": 36,
+        "p": 30,
+        "gf": 54,
+        "gc": 123,
+        "pts": 42,
         "posicion": 16
       },
       {
@@ -7062,9 +7062,9 @@
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152551,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -7901,79 +7901,94 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152416,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 21:15",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-012009-inbound5454312205843339515.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-012011-inbound3140615284502671690.jpg"
+              ]
             },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152569,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 1,
+              "goles_visitante": 4,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 20:00",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-001307-inbound9206056686527808896.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-001314-inbound524292154431388933.jpg"
+              ]
             },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152263,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 1,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 22:30",
               "sede": "Arena Futsala",
               "direccion": "Rio Cuarto 1900",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-023153-inbound4645406320074490416.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-tlwop0g5fjalsj7hrlxhnudqtuo1/20260726-023155-inbound9084896268512447156.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SACA DEL MEDIO",
           "visitante": "BROWN DE ADROGUE",
           "partidos": {
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 152417,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-25 19:00",
-              "sede": "Sede Dock Sud",
-              "direccion": "Alem 1255, Dock Sud",
-              "planillas": null
-            },
             "UNICA ADULTAS FEMENINO ": {
               "match_id": 152570,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
               "direccion": null,
               "planillas": null
             },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 152417,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-25 19:00",
+              "sede": "Sede Dock Sud",
+              "direccion": "Alem 1255, Dock Sud",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260725-230358-inbound8878526664233276212.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260725-230407-inbound5064776439713542197.jpg"
+              ]
+            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152264,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 20:15",
               "sede": "Sede Dock Sud",
               "direccion": "Alem 1255, Dock Sud",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260726-000411-inbound1121758934652975681.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o70aiunzwlssed7kt1wgmlwqt303/20260726-000417-inbound919605020840881573.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SAN TELMO",

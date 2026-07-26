@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-25T06:24:34.756593Z",
+  "actualizado": "2026-07-26T13:25:32.080322Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -32,12 +32,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
     },
     {
-      "nombre": "EL IDEAL",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260310-193421-images-Photoroom__5_.png"
-    },
-    {
       "nombre": "PACHECO SUR",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-w8bhsookahaqvaoibk6ljbaysnl1%2F1000312734.png"
+    },
+    {
+      "nombre": "EL IDEAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260310-193421-images-Photoroom__5_.png"
     },
     {
       "nombre": "BRISAS DE HAEDO",
@@ -64,12 +64,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260522-205804-images__1_.png"
     },
     {
-      "nombre": "PARQUE CHAS",
-      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5c72d796-936e-4537-a87a-9a4e5ddbc1b8.png"
-    },
-    {
       "nombre": "SUD AMERICA",
       "logo": "https://d1tjx1ch4fbgc.cloudfront.net/ab27ab91-c0e8-4e47-9d58-e82845d7ad6b.png"
+    },
+    {
+      "nombre": "PARQUE CHAS",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5c72d796-936e-4537-a87a-9a4e5ddbc1b8.png"
     },
     {
       "nombre": "ARGENTINO DE MATADEROS",
@@ -136,25 +136,25 @@
       },
       {
         "posicion": 5,
-        "equipo": "EL IDEAL",
-        "pj": 16,
-        "g": 9,
-        "e": 4,
-        "p": 3,
-        "gf": 97,
-        "gc": 75,
-        "pts": 31
+        "equipo": "PACHECO SUR",
+        "pj": 17,
+        "g": 11,
+        "e": 1,
+        "p": 5,
+        "gf": 91,
+        "gc": 66,
+        "pts": 34
       },
       {
         "posicion": 6,
-        "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 10,
-        "e": 1,
-        "p": 5,
-        "gf": 86,
-        "gc": 66,
-        "pts": 31
+        "equipo": "EL IDEAL",
+        "pj": 17,
+        "g": 9,
+        "e": 5,
+        "p": 3,
+        "gf": 105,
+        "gc": 83,
+        "pts": 32
       },
       {
         "posicion": 7,
@@ -203,12 +203,12 @@
       {
         "posicion": 11,
         "equipo": "VILLA SAHORES",
-        "pj": 16,
+        "pj": 17,
         "g": 6,
         "e": 2,
-        "p": 8,
+        "p": 9,
         "gf": 78,
-        "gc": 98,
+        "gc": 103,
         "pts": 20
       },
       {
@@ -224,25 +224,25 @@
       },
       {
         "posicion": 13,
-        "equipo": "PARQUE CHAS",
+        "equipo": "SUD AMERICA",
         "pj": 16,
         "g": 5,
-        "e": 2,
-        "p": 9,
-        "gf": 59,
-        "gc": 93,
-        "pts": 17
+        "e": 3,
+        "p": 8,
+        "gf": 62,
+        "gc": 88,
+        "pts": 18
       },
       {
         "posicion": 14,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 4,
+        "equipo": "PARQUE CHAS",
+        "pj": 17,
+        "g": 5,
         "e": 3,
-        "p": 8,
-        "gf": 57,
-        "gc": 88,
-        "pts": 15
+        "p": 9,
+        "gf": 67,
+        "gc": 101,
+        "pts": 18
       },
       {
         "posicion": 15,
@@ -258,12 +258,12 @@
       {
         "posicion": 16,
         "equipo": "ALTO PASTO",
-        "pj": 14,
+        "pj": 15,
         "g": 3,
         "e": 0,
-        "p": 11,
+        "p": 12,
         "gf": 57,
-        "gc": 110,
+        "gc": 115,
         "pts": 9
       },
       {
@@ -336,6 +336,17 @@
       },
       {
         "posicion": 5,
+        "equipo": "PACHECO SUR",
+        "pj": 17,
+        "g": 11,
+        "e": 3,
+        "p": 3,
+        "gf": 103,
+        "gc": 67,
+        "pts": 36
+      },
+      {
+        "posicion": 6,
         "equipo": "MAYO FUTSAL",
         "pj": 16,
         "g": 11,
@@ -344,17 +355,6 @@
         "gf": 105,
         "gc": 52,
         "pts": 34
-      },
-      {
-        "posicion": 6,
-        "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 10,
-        "e": 3,
-        "p": 3,
-        "gf": 98,
-        "gc": 67,
-        "pts": 33
       },
       {
         "posicion": 7,
@@ -381,12 +381,12 @@
       {
         "posicion": 9,
         "equipo": "VILLA SAHORES",
-        "pj": 16,
+        "pj": 17,
         "g": 7,
         "e": 3,
-        "p": 6,
+        "p": 7,
         "gf": 75,
-        "gc": 62,
+        "gc": 67,
         "pts": 24
       },
       {
@@ -403,34 +403,34 @@
       {
         "posicion": 11,
         "equipo": "ALTO PASTO",
-        "pj": 15,
+        "pj": 16,
         "g": 6,
         "e": 1,
-        "p": 8,
+        "p": 9,
         "gf": 64,
-        "gc": 72,
+        "gc": 77,
         "pts": 19
       },
       {
         "posicion": 12,
         "equipo": "PARQUE CHAS",
-        "pj": 16,
-        "g": 5,
+        "pj": 17,
+        "g": 6,
         "e": 1,
         "p": 10,
-        "gf": 69,
-        "gc": 106,
-        "pts": 16
+        "gf": 74,
+        "gc": 110,
+        "pts": 19
       },
       {
         "posicion": 13,
         "equipo": "EL IDEAL",
-        "pj": 16,
+        "pj": 17,
         "g": 4,
         "e": 3,
-        "p": 9,
-        "gf": 64,
-        "gc": 92,
+        "p": 10,
+        "gf": 68,
+        "gc": 97,
         "pts": 15
       },
       {
@@ -446,6 +446,17 @@
       },
       {
         "posicion": 15,
+        "equipo": "SUD AMERICA",
+        "pj": 16,
+        "g": 5,
+        "e": 0,
+        "p": 11,
+        "gf": 55,
+        "gc": 124,
+        "pts": 15
+      },
+      {
+        "posicion": 16,
         "equipo": "RESPLANDOR",
         "pj": 16,
         "g": 4,
@@ -454,17 +465,6 @@
         "gf": 80,
         "gc": 94,
         "pts": 14
-      },
-      {
-        "posicion": 16,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 4,
-        "e": 0,
-        "p": 11,
-        "gf": 50,
-        "gc": 124,
-        "pts": 12
       },
       {
         "posicion": 17,
@@ -548,16 +548,27 @@
       {
         "posicion": 6,
         "equipo": "PARQUE CHAS",
-        "pj": 16,
+        "pj": 17,
         "g": 9,
         "e": 3,
-        "p": 4,
-        "gf": 74,
-        "gc": 49,
+        "p": 5,
+        "gf": 77,
+        "gc": 53,
         "pts": 30
       },
       {
         "posicion": 7,
+        "equipo": "EL IDEAL",
+        "pj": 17,
+        "g": 9,
+        "e": 2,
+        "p": 6,
+        "gf": 63,
+        "gc": 53,
+        "pts": 29
+      },
+      {
+        "posicion": 8,
         "equipo": "PRIMERA JUNTA",
         "pj": 16,
         "g": 8,
@@ -568,26 +579,15 @@
         "pts": 27
       },
       {
-        "posicion": 8,
-        "equipo": "EL IDEAL",
-        "pj": 16,
-        "g": 8,
-        "e": 2,
-        "p": 6,
-        "gf": 59,
-        "gc": 50,
-        "pts": 26
-      },
-      {
         "posicion": 9,
         "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 7,
+        "pj": 17,
+        "g": 8,
         "e": 2,
         "p": 7,
-        "gf": 64,
+        "gf": 69,
         "gc": 87,
-        "pts": 23
+        "pts": 26
       },
       {
         "posicion": 10,
@@ -646,35 +646,35 @@
       },
       {
         "posicion": 15,
-        "equipo": "ALTO PASTO",
-        "pj": 15,
-        "g": 3,
-        "e": 2,
-        "p": 10,
+        "equipo": "SUD AMERICA",
+        "pj": 16,
+        "g": 4,
+        "e": 0,
+        "p": 12,
         "gf": 36,
-        "gc": 68,
-        "pts": 11
+        "gc": 65,
+        "pts": 12
       },
       {
         "posicion": 16,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
+        "equipo": "ALTO PASTO",
+        "pj": 16,
         "g": 3,
-        "e": 0,
-        "p": 12,
-        "gf": 31,
-        "gc": 65,
-        "pts": 9
+        "e": 2,
+        "p": 11,
+        "gf": 36,
+        "gc": 73,
+        "pts": 11
       },
       {
         "posicion": 17,
         "equipo": "VILLA SAHORES",
-        "pj": 16,
+        "pj": 17,
         "g": 2,
         "e": 1,
-        "p": 13,
+        "p": 14,
         "gf": 39,
-        "gc": 88,
+        "gc": 93,
         "pts": 7
       },
       {
@@ -692,6 +692,17 @@
     "QUINTA MASCULINO": [
       {
         "posicion": 1,
+        "equipo": "EL IDEAL",
+        "pj": 16,
+        "g": 15,
+        "e": 1,
+        "p": 0,
+        "gf": 116,
+        "gc": 22,
+        "pts": 46
+      },
+      {
+        "posicion": 2,
         "equipo": "CAPITAN ROSALES",
         "pj": 15,
         "g": 15,
@@ -700,17 +711,6 @@
         "gf": 136,
         "gc": 46,
         "pts": 45
-      },
-      {
-        "posicion": 2,
-        "equipo": "EL IDEAL",
-        "pj": 15,
-        "g": 14,
-        "e": 1,
-        "p": 0,
-        "gf": 112,
-        "gc": 20,
-        "pts": 43
       },
       {
         "posicion": 3,
@@ -769,6 +769,17 @@
       },
       {
         "posicion": 8,
+        "equipo": "PACHECO SUR",
+        "pj": 17,
+        "g": 7,
+        "e": 2,
+        "p": 8,
+        "gf": 69,
+        "gc": 75,
+        "pts": 23
+      },
+      {
+        "posicion": 9,
         "equipo": "PRIMERA JUNTA",
         "pj": 16,
         "g": 7,
@@ -779,40 +790,18 @@
         "pts": 22
       },
       {
-        "posicion": 9,
-        "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 6,
-        "e": 2,
-        "p": 8,
-        "gf": 64,
-        "gc": 75,
-        "pts": 20
-      },
-      {
         "posicion": 10,
         "equipo": "PARQUE CHAS",
-        "pj": 15,
+        "pj": 17,
         "g": 6,
         "e": 1,
-        "p": 8,
-        "gf": 60,
-        "gc": 55,
+        "p": 10,
+        "gf": 62,
+        "gc": 64,
         "pts": 19
       },
       {
         "posicion": 11,
-        "equipo": "VILLA SAHORES",
-        "pj": 16,
-        "g": 6,
-        "e": 1,
-        "p": 9,
-        "gf": 58,
-        "gc": 63,
-        "pts": 19
-      },
-      {
-        "posicion": 12,
         "equipo": "BRISAS DE HAEDO",
         "pj": 16,
         "g": 6,
@@ -820,6 +809,17 @@
         "p": 9,
         "gf": 52,
         "gc": 58,
+        "pts": 19
+      },
+      {
+        "posicion": 12,
+        "equipo": "VILLA SAHORES",
+        "pj": 17,
+        "g": 6,
+        "e": 1,
+        "p": 10,
+        "gf": 58,
+        "gc": 68,
         "pts": 19
       },
       {
@@ -846,6 +846,28 @@
       },
       {
         "posicion": 15,
+        "equipo": "INDEPENDIENTE (C)",
+        "pj": 16,
+        "g": 3,
+        "e": 2,
+        "p": 11,
+        "gf": 28,
+        "gc": 78,
+        "pts": 11
+      },
+      {
+        "posicion": 16,
+        "equipo": "SUD AMERICA",
+        "pj": 16,
+        "g": 3,
+        "e": 2,
+        "p": 11,
+        "gf": 42,
+        "gc": 103,
+        "pts": 11
+      },
+      {
+        "posicion": 17,
         "equipo": "UGAB",
         "pj": 16,
         "g": 3,
@@ -856,36 +878,14 @@
         "pts": 9
       },
       {
-        "posicion": 16,
-        "equipo": "INDEPENDIENTE (C)",
-        "pj": 15,
-        "g": 2,
-        "e": 2,
-        "p": 11,
-        "gf": 23,
-        "gc": 78,
-        "pts": 8
-      },
-      {
-        "posicion": 17,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 2,
-        "e": 2,
-        "p": 11,
-        "gf": 37,
-        "gc": 103,
-        "pts": 8
-      },
-      {
         "posicion": 18,
         "equipo": "ALTO PASTO",
-        "pj": 15,
+        "pj": 16,
         "g": 0,
         "e": 0,
-        "p": 15,
+        "p": 16,
         "gf": 25,
-        "gc": 119,
+        "gc": 124,
         "pts": 0
       }
     ],
@@ -893,24 +893,24 @@
       {
         "posicion": 1,
         "equipo": "PARQUE CHAS",
-        "pj": 16,
+        "pj": 17,
         "g": 15,
-        "e": 0,
+        "e": 1,
         "p": 1,
-        "gf": 128,
-        "gc": 41,
-        "pts": 45
+        "gf": 130,
+        "gc": 43,
+        "pts": 46
       },
       {
         "posicion": 2,
         "equipo": "EL IDEAL",
-        "pj": 16,
+        "pj": 17,
         "g": 14,
-        "e": 2,
+        "e": 3,
         "p": 0,
-        "gf": 109,
-        "gc": 32,
-        "pts": 44
+        "gf": 111,
+        "gc": 34,
+        "pts": 45
       },
       {
         "posicion": 3,
@@ -980,17 +980,28 @@
       },
       {
         "posicion": 9,
-        "equipo": "VILLA SAHORES",
-        "pj": 16,
-        "g": 7,
-        "e": 0,
-        "p": 9,
-        "gf": 47,
-        "gc": 59,
+        "equipo": "PACHECO SUR",
+        "pj": 17,
+        "g": 6,
+        "e": 3,
+        "p": 8,
+        "gf": 61,
+        "gc": 63,
         "pts": 21
       },
       {
         "posicion": 10,
+        "equipo": "VILLA SAHORES",
+        "pj": 17,
+        "g": 7,
+        "e": 0,
+        "p": 10,
+        "gf": 47,
+        "gc": 64,
+        "pts": 21
+      },
+      {
+        "posicion": 11,
         "equipo": "UGAB",
         "pj": 16,
         "g": 6,
@@ -1001,29 +1012,29 @@
         "pts": 19
       },
       {
-        "posicion": 11,
-        "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 5,
-        "e": 3,
-        "p": 8,
-        "gf": 56,
-        "gc": 63,
-        "pts": 18
-      },
-      {
         "posicion": 12,
         "equipo": "PRIMERA JUNTA",
-        "pj": 16,
+        "pj": 17,
         "g": 5,
         "e": 1,
-        "p": 10,
+        "p": 11,
         "gf": 46,
-        "gc": 66,
+        "gc": 71,
         "pts": 16
       },
       {
         "posicion": 13,
+        "equipo": "SUD AMERICA",
+        "pj": 17,
+        "g": 5,
+        "e": 0,
+        "p": 12,
+        "gf": 29,
+        "gc": 133,
+        "pts": 15
+      },
+      {
+        "posicion": 14,
         "equipo": "RESPLANDOR",
         "pj": 16,
         "g": 4,
@@ -1034,7 +1045,7 @@
         "pts": 14
       },
       {
-        "posicion": 14,
+        "posicion": 15,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 16,
         "g": 4,
@@ -1045,7 +1056,7 @@
         "pts": 12
       },
       {
-        "posicion": 15,
+        "posicion": 16,
         "equipo": "INDEPENDIENTE (C)",
         "pj": 16,
         "g": 4,
@@ -1056,26 +1067,15 @@
         "pts": 12
       },
       {
-        "posicion": 16,
+        "posicion": 17,
         "equipo": "ALTO PASTO",
-        "pj": 15,
+        "pj": 16,
         "g": 3,
         "e": 2,
-        "p": 10,
+        "p": 11,
         "gf": 43,
-        "gc": 68,
+        "gc": 73,
         "pts": 11
-      },
-      {
-        "posicion": 17,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 3,
-        "e": 0,
-        "p": 12,
-        "gf": 19,
-        "gc": 133,
-        "pts": 9
       },
       {
         "posicion": 18,
@@ -1147,25 +1147,25 @@
       },
       {
         "posicion": 6,
-        "equipo": "PARQUE CHAS",
-        "pj": 16,
-        "g": 8,
-        "e": 4,
-        "p": 4,
-        "gf": 64,
-        "gc": 34,
-        "pts": 28
+        "equipo": "PACHECO SUR",
+        "pj": 17,
+        "g": 9,
+        "e": 3,
+        "p": 5,
+        "gf": 80,
+        "gc": 43,
+        "pts": 30
       },
       {
         "posicion": 7,
-        "equipo": "PACHECO SUR",
-        "pj": 16,
+        "equipo": "PARQUE CHAS",
+        "pj": 17,
         "g": 8,
-        "e": 3,
+        "e": 4,
         "p": 5,
-        "gf": 75,
-        "gc": 43,
-        "pts": 27
+        "gf": 66,
+        "gc": 38,
+        "pts": 28
       },
       {
         "posicion": 8,
@@ -1191,35 +1191,35 @@
       },
       {
         "posicion": 10,
-        "equipo": "PRIMERA JUNTA",
-        "pj": 16,
-        "g": 7,
-        "e": 1,
-        "p": 8,
-        "gf": 46,
-        "gc": 59,
-        "pts": 22
+        "equipo": "EL IDEAL",
+        "pj": 17,
+        "g": 8,
+        "e": 0,
+        "p": 9,
+        "gf": 61,
+        "gc": 54,
+        "pts": 24
       },
       {
         "posicion": 11,
-        "equipo": "EL IDEAL",
-        "pj": 16,
+        "equipo": "PRIMERA JUNTA",
+        "pj": 17,
         "g": 7,
-        "e": 0,
+        "e": 1,
         "p": 9,
-        "gf": 57,
-        "gc": 52,
-        "pts": 21
+        "gf": 46,
+        "gc": 64,
+        "pts": 22
       },
       {
         "posicion": 12,
         "equipo": "ALTO PASTO",
-        "pj": 15,
+        "pj": 16,
         "g": 5,
         "e": 2,
-        "p": 8,
+        "p": 9,
         "gf": 28,
-        "gc": 55,
+        "gc": 60,
         "pts": 17
       },
       {
@@ -1257,6 +1257,17 @@
       },
       {
         "posicion": 16,
+        "equipo": "SUD AMERICA",
+        "pj": 17,
+        "g": 3,
+        "e": 0,
+        "p": 14,
+        "gf": 31,
+        "gc": 92,
+        "pts": 9
+      },
+      {
+        "posicion": 17,
         "equipo": "UGAB",
         "pj": 16,
         "g": 2,
@@ -1267,26 +1278,15 @@
         "pts": 6
       },
       {
-        "posicion": 17,
+        "posicion": 18,
         "equipo": "VILLA SAHORES",
-        "pj": 16,
+        "pj": 17,
         "g": 1,
         "e": 1,
-        "p": 14,
+        "p": 15,
         "gf": 15,
-        "gc": 76,
+        "gc": 81,
         "pts": 4
-      },
-      {
-        "posicion": 18,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 1,
-        "e": 0,
-        "p": 14,
-        "gf": 21,
-        "gc": 92,
-        "pts": 3
       }
     ],
     "OCTAVA MASCULINO": [
@@ -1326,13 +1326,13 @@
       {
         "posicion": 4,
         "equipo": "PACHECO SUR",
-        "pj": 16,
-        "g": 11,
+        "pj": 17,
+        "g": 12,
         "e": 2,
         "p": 3,
-        "gf": 65,
+        "gf": 70,
         "gc": 28,
-        "pts": 35
+        "pts": 38
       },
       {
         "posicion": 5,
@@ -1347,6 +1347,28 @@
       },
       {
         "posicion": 6,
+        "equipo": "SUD AMERICA",
+        "pj": 17,
+        "g": 9,
+        "e": 3,
+        "p": 5,
+        "gf": 72,
+        "gc": 36,
+        "pts": 30
+      },
+      {
+        "posicion": 7,
+        "equipo": "EL IDEAL",
+        "pj": 17,
+        "g": 9,
+        "e": 1,
+        "p": 7,
+        "gf": 73,
+        "gc": 51,
+        "pts": 28
+      },
+      {
+        "posicion": 8,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 16,
         "g": 9,
@@ -1357,48 +1379,26 @@
         "pts": 28
       },
       {
-        "posicion": 7,
+        "posicion": 9,
         "equipo": "PARQUE CHAS",
-        "pj": 16,
+        "pj": 17,
         "g": 8,
         "e": 3,
-        "p": 5,
-        "gf": 73,
-        "gc": 52,
+        "p": 6,
+        "gf": 76,
+        "gc": 63,
         "pts": 27
       },
       {
-        "posicion": 8,
+        "posicion": 10,
         "equipo": "PRIMERA JUNTA",
-        "pj": 16,
+        "pj": 17,
         "g": 8,
         "e": 2,
-        "p": 6,
-        "gf": 56,
-        "gc": 52,
-        "pts": 26
-      },
-      {
-        "posicion": 9,
-        "equipo": "EL IDEAL",
-        "pj": 16,
-        "g": 8,
-        "e": 1,
         "p": 7,
-        "gf": 62,
-        "gc": 48,
-        "pts": 25
-      },
-      {
-        "posicion": 10,
-        "equipo": "SUD AMERICA",
-        "pj": 15,
-        "g": 7,
-        "e": 3,
-        "p": 5,
-        "gf": 62,
-        "gc": 36,
-        "pts": 24
+        "gf": 56,
+        "gc": 57,
+        "pts": 26
       },
       {
         "posicion": 11,
@@ -1425,12 +1425,12 @@
       {
         "posicion": 13,
         "equipo": "VILLA SAHORES",
-        "pj": 16,
+        "pj": 17,
         "g": 5,
         "e": 1,
-        "p": 10,
+        "p": 11,
         "gf": 50,
-        "gc": 62,
+        "gc": 67,
         "pts": 16
       },
       {
@@ -1469,23 +1469,23 @@
       {
         "posicion": 17,
         "equipo": "ALTO PASTO",
-        "pj": 15,
-        "g": 1,
+        "pj": 17,
+        "g": 2,
         "e": 1,
-        "p": 13,
-        "gf": 23,
-        "gc": 99,
-        "pts": 4
+        "p": 14,
+        "gf": 28,
+        "gc": 104,
+        "pts": 7
       },
       {
         "posicion": 18,
         "equipo": "UGAB",
-        "pj": 16,
+        "pj": 17,
         "g": 0,
         "e": 0,
-        "p": 16,
+        "p": 17,
         "gf": 0,
-        "gc": 80,
+        "gc": 85,
         "pts": 0
       }
     ],
@@ -1547,35 +1547,35 @@
       },
       {
         "equipo": "EL IDEAL",
-        "pj": 111,
-        "g": 64,
-        "e": 13,
-        "p": 34,
-        "gf": 560,
-        "gc": 369,
-        "pts": 205,
+        "pj": 118,
+        "g": 68,
+        "e": 15,
+        "p": 35,
+        "gf": 597,
+        "gc": 394,
+        "pts": 219,
         "posicion": 6
       },
       {
         "equipo": "PACHECO SUR",
-        "pj": 112,
-        "g": 57,
+        "pj": 119,
+        "g": 64,
         "e": 16,
         "p": 39,
-        "gf": 508,
+        "gf": 543,
         "gc": 429,
-        "pts": 187,
+        "pts": 208,
         "posicion": 7
       },
       {
         "equipo": "PARQUE CHAS",
-        "pj": 111,
-        "g": 56,
-        "e": 14,
-        "p": 41,
-        "gf": 527,
-        "gc": 430,
-        "pts": 182,
+        "pj": 119,
+        "g": 57,
+        "e": 16,
+        "p": 46,
+        "gf": 552,
+        "gc": 472,
+        "pts": 187,
         "posicion": 8
       },
       {
@@ -1613,46 +1613,46 @@
       },
       {
         "equipo": "PRIMERA JUNTA",
-        "pj": 112,
+        "pj": 115,
         "g": 43,
         "e": 13,
-        "p": 56,
+        "p": 59,
         "gf": 374,
-        "gc": 424,
+        "gc": 439,
         "pts": 142,
         "posicion": 12
       },
       {
         "equipo": "VILLA SAHORES",
-        "pj": 112,
+        "pj": 119,
         "g": 34,
         "e": 9,
-        "p": 69,
+        "p": 76,
         "gf": 362,
-        "gc": 508,
+        "gc": 543,
         "pts": 111,
         "posicion": 13
       },
       {
-        "equipo": "UGAB",
-        "pj": 111,
-        "g": 32,
-        "e": 6,
+        "equipo": "SUD AMERICA",
+        "pj": 115,
+        "g": 34,
+        "e": 8,
         "p": 73,
-        "gf": 340,
-        "gc": 601,
-        "pts": 102,
+        "gf": 327,
+        "gc": 641,
+        "pts": 110,
         "posicion": 14
       },
       {
-        "equipo": "SUD AMERICA",
-        "pj": 105,
-        "g": 24,
-        "e": 8,
-        "p": 73,
-        "gf": 277,
-        "gc": 641,
-        "pts": 80,
+        "equipo": "UGAB",
+        "pj": 112,
+        "g": 32,
+        "e": 6,
+        "p": 74,
+        "gf": 340,
+        "gc": 606,
+        "pts": 102,
         "posicion": 15
       },
       {
@@ -1668,24 +1668,24 @@
       },
       {
         "equipo": "ALTO PASTO",
-        "pj": 104,
-        "g": 21,
+        "pj": 112,
+        "g": 22,
         "e": 8,
-        "p": 75,
-        "gf": 276,
-        "gc": 591,
-        "pts": 71,
+        "p": 82,
+        "gf": 281,
+        "gc": 626,
+        "pts": 74,
         "posicion": 17
       },
       {
         "equipo": "INDEPENDIENTE (C)",
-        "pj": 113,
-        "g": 15,
+        "pj": 114,
+        "g": 16,
         "e": 7,
         "p": 91,
-        "gf": 192,
+        "gf": 197,
         "gc": 590,
-        "pts": 52,
+        "pts": 55,
         "posicion": 18
       }
     ]
@@ -8766,7 +8766,7 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 149937,
-              "goles_local": 0,
+              "goles_local": 5,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
@@ -13258,9 +13258,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150134,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13269,9 +13269,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150287,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13280,9 +13280,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150440,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13291,9 +13291,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149522,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13302,9 +13302,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149675,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13313,9 +13313,9 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149828,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13324,9 +13324,9 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 149981,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -13334,7 +13334,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "PROGRESO SANTA RITA",
@@ -16526,9 +16526,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150166,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16537,9 +16537,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150319,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16548,9 +16548,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150472,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16559,9 +16559,9 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149554,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16570,9 +16570,9 @@
             },
             "TERCERA MASCULINO": {
               "match_id": 149707,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16581,9 +16581,9 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 149860,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16592,9 +16592,9 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 150013,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -16602,7 +16602,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "EL IDEAL",
@@ -16610,83 +16610,104 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150167,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 2,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 15:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-191153-17850066860941159036704462066820.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-191241-178500671769522413445257450556.jpg"
+              ]
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150320,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 14:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-180346-17850026009126485347935467723229.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-180413-17850026349697365626529683156536.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150473,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 11,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 13:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-170819-17849992834141645199102630308283.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-170846-17849993059976842904746136016148.jpg"
+              ]
             },
             "PRIMERA MASCULINO": {
               "match_id": 149555,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 8,
+              "goles_visitante": 8,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 19:15",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
-            },
-            "TERCERA MASCULINO": {
-              "match_id": 149708,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": "2026-07-25 18:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260726-003803-17850262593523739494145700385642.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260726-003849-17850262899928080123058179627784.jpg"
+              ]
             },
             "CUARTA MASCULINO": {
               "match_id": 149861,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 3,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 17:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260725-211639-1001076872.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260725-211628-1001076873.jpg"
+              ]
             },
             "QUINTA MASCULINO": {
               "match_id": 150014,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 16:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano ",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-201823-17850106800687524326016533307285.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-201849-17850107068682423603575796646263.jpg"
+              ]
+            },
+            "TERCERA MASCULINO": {
+              "match_id": 149708,
+              "goles_local": 4,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-25 18:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-223501-1785018883247372482751880313384.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bhoqpstxvyrru0tmeek1i6qijaa2/20260725-223522-17850189042676852187899194216917.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "SUD AMERICA",
@@ -16694,9 +16715,9 @@
           "partidos": {
             "SEXTA MASCULINO": {
               "match_id": 150168,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 15:00",
               "sede": "Club Sudamérica ",
@@ -16705,9 +16726,9 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150321,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 14:00",
               "sede": "Club Sudamérica ",
@@ -16716,9 +16737,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150474,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 5,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 13:00",
               "sede": "Club Sudamérica ",
@@ -16770,7 +16791,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "PROGRESO SANTA RITA",
@@ -17052,9 +17073,9 @@
             },
             "OCTAVA MASCULINO": {
               "match_id": 150478,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": null,
               "sede": null,
@@ -17106,7 +17127,7 @@
               "planillas": null
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "ALL BOYS SAAVEDRA",
