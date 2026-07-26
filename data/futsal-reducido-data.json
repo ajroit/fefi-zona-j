@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-26T13:25:32.080322Z",
+  "actualizado": "2026-07-26T17:03:13.407947Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -726,13 +726,13 @@
       {
         "posicion": 4,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 16,
-        "g": 12,
+        "pj": 17,
+        "g": 13,
         "e": 1,
         "p": 3,
-        "gf": 77,
-        "gc": 49,
-        "pts": 37
+        "gf": 83,
+        "gc": 51,
+        "pts": 40
       },
       {
         "posicion": 5,
@@ -758,6 +758,17 @@
       },
       {
         "posicion": 7,
+        "equipo": "PRIMERA JUNTA",
+        "pj": 17,
+        "g": 8,
+        "e": 1,
+        "p": 8,
+        "gf": 64,
+        "gc": 64,
+        "pts": 25
+      },
+      {
+        "posicion": 8,
         "equipo": "ARGENTINO DE MATADEROS",
         "pj": 16,
         "g": 8,
@@ -768,7 +779,7 @@
         "pts": 24
       },
       {
-        "posicion": 8,
+        "posicion": 9,
         "equipo": "PACHECO SUR",
         "pj": 17,
         "g": 7,
@@ -777,17 +788,6 @@
         "gf": 69,
         "gc": 75,
         "pts": 23
-      },
-      {
-        "posicion": 9,
-        "equipo": "PRIMERA JUNTA",
-        "pj": 16,
-        "g": 7,
-        "e": 1,
-        "p": 8,
-        "gf": 58,
-        "gc": 60,
-        "pts": 22
       },
       {
         "posicion": 10,
@@ -836,12 +836,12 @@
       {
         "posicion": 14,
         "equipo": "CRISOL JUVENTUD",
-        "pj": 16,
+        "pj": 17,
         "g": 6,
         "e": 0,
-        "p": 10,
-        "gf": 55,
-        "gc": 86,
+        "p": 11,
+        "gf": 57,
+        "gc": 92,
         "pts": 18
       },
       {
@@ -858,12 +858,12 @@
       {
         "posicion": 16,
         "equipo": "SUD AMERICA",
-        "pj": 16,
+        "pj": 17,
         "g": 3,
         "e": 2,
-        "p": 11,
-        "gf": 42,
-        "gc": 103,
+        "p": 12,
+        "gf": 46,
+        "gc": 109,
         "pts": 11
       },
       {
@@ -1093,13 +1093,13 @@
       {
         "posicion": 1,
         "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 16,
-        "g": 15,
+        "pj": 17,
+        "g": 16,
         "e": 1,
         "p": 0,
-        "gf": 77,
+        "gf": 88,
         "gc": 15,
-        "pts": 46
+        "pts": 49
       },
       {
         "posicion": 2,
@@ -1224,17 +1224,6 @@
       },
       {
         "posicion": 13,
-        "equipo": "CRISOL JUVENTUD",
-        "pj": 16,
-        "g": 5,
-        "e": 1,
-        "p": 10,
-        "gf": 39,
-        "gc": 73,
-        "pts": 16
-      },
-      {
-        "posicion": 14,
         "equipo": "VICTORIA",
         "pj": 16,
         "g": 5,
@@ -1242,6 +1231,17 @@
         "p": 10,
         "gf": 32,
         "gc": 72,
+        "pts": 16
+      },
+      {
+        "posicion": 14,
+        "equipo": "CRISOL JUVENTUD",
+        "pj": 17,
+        "g": 5,
+        "e": 1,
+        "p": 11,
+        "gf": 39,
+        "gc": 84,
         "pts": 16
       },
       {
@@ -1491,6 +1491,17 @@
     ],
     "general": [
       {
+        "equipo": "ALL BOYS SAAVEDRA",
+        "pj": 114,
+        "g": 83,
+        "e": 8,
+        "p": 23,
+        "gf": 589,
+        "gc": 311,
+        "pts": 257,
+        "posicion": 1
+      },
+      {
         "equipo": "PROGRESO SANTA RITA",
         "pj": 112,
         "g": 83,
@@ -1499,17 +1510,6 @@
         "gf": 543,
         "gc": 286,
         "pts": 257,
-        "posicion": 1
-      },
-      {
-        "equipo": "ALL BOYS SAAVEDRA",
-        "pj": 112,
-        "g": 81,
-        "e": 8,
-        "p": 23,
-        "gf": 572,
-        "gc": 309,
-        "pts": 251,
         "posicion": 2
       },
       {
@@ -1613,13 +1613,13 @@
       },
       {
         "equipo": "PRIMERA JUNTA",
-        "pj": 115,
-        "g": 43,
+        "pj": 116,
+        "g": 44,
         "e": 13,
         "p": 59,
-        "gf": 374,
-        "gc": 439,
-        "pts": 142,
+        "gf": 380,
+        "gc": 443,
+        "pts": 145,
         "posicion": 12
       },
       {
@@ -1635,12 +1635,12 @@
       },
       {
         "equipo": "SUD AMERICA",
-        "pj": 115,
+        "pj": 116,
         "g": 34,
         "e": 8,
-        "p": 73,
-        "gf": 327,
-        "gc": 641,
+        "p": 74,
+        "gf": 331,
+        "gc": 647,
         "pts": 110,
         "posicion": 14
       },
@@ -1657,12 +1657,12 @@
       },
       {
         "equipo": "CRISOL JUVENTUD",
-        "pj": 112,
+        "pj": 114,
         "g": 23,
         "e": 6,
-        "p": 83,
-        "gf": 298,
-        "gc": 635,
+        "p": 85,
+        "gf": 300,
+        "gc": 652,
         "pts": 75,
         "posicion": 16
       },
@@ -17146,14 +17146,17 @@
             },
             "SEPTIMA MASCULINO": {
               "match_id": 150326,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 11,
+              "goles_visitante": 0,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 11:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260726-150021-1000171260.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260726-150023-1000171261.jpg"
+              ]
             },
             "OCTAVA MASCULINO": {
               "match_id": 150479,
@@ -17201,17 +17204,20 @@
             },
             "QUINTA MASCULINO": {
               "match_id": 150020,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 6,
+              "goles_visitante": 2,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 12:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260726-160057-1000171342.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3vmxxcvaclygkpumtnnpoacatfa2/20260726-160057-1000171343.jpg"
+              ]
             }
           },
-          "estado": "Pendiente"
+          "estado": "Finalizado"
         },
         {
           "local": "BRISAS DE HAEDO",
