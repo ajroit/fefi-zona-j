@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-27T03:22:29.113936Z",
+  "actualizado": "2026-07-27T07:39:36.036063Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -20,12 +20,12 @@
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213218-images%20(3).png"
     },
     {
-      "nombre": "RESPLANDOR",
-      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
-    },
-    {
       "nombre": "CAPITAN ROSALES",
       "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250603-173208-images.png"
+    },
+    {
+      "nombre": "RESPLANDOR",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260303-161944-20260302-223730-1000379375.png"
     },
     {
       "nombre": "PROGRESO SANTA RITA",
@@ -103,6 +103,17 @@
       },
       {
         "posicion": 2,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 16,
+        "g": 13,
+        "e": 1,
+        "p": 2,
+        "gf": 119,
+        "gc": 79,
+        "pts": 40
+      },
+      {
+        "posicion": 3,
         "equipo": "RESPLANDOR",
         "pj": 17,
         "g": 12,
@@ -113,25 +124,14 @@
         "pts": 38
       },
       {
-        "posicion": 3,
-        "equipo": "CAPITAN ROSALES",
-        "pj": 15,
-        "g": 12,
-        "e": 1,
-        "p": 2,
-        "gf": 114,
-        "gc": 75,
-        "pts": 37
-      },
-      {
         "posicion": 4,
         "equipo": "PROGRESO SANTA RITA",
-        "pj": 16,
+        "pj": 17,
         "g": 11,
         "e": 3,
-        "p": 2,
-        "gf": 86,
-        "gc": 49,
+        "p": 3,
+        "gf": 90,
+        "gc": 54,
         "pts": 36
       },
       {
@@ -1502,25 +1502,25 @@
         "posicion": 1
       },
       {
-        "equipo": "PROGRESO SANTA RITA",
-        "pj": 118,
-        "g": 84,
-        "e": 10,
+        "equipo": "CAPITAN ROSALES",
+        "pj": 117,
+        "g": 85,
+        "e": 8,
         "p": 24,
-        "gf": 567,
-        "gc": 311,
-        "pts": 262,
+        "gf": 704,
+        "gc": 382,
+        "pts": 263,
         "posicion": 2
       },
       {
-        "equipo": "CAPITAN ROSALES",
-        "pj": 116,
+        "equipo": "PROGRESO SANTA RITA",
+        "pj": 119,
         "g": 84,
-        "e": 8,
-        "p": 24,
-        "gf": 699,
-        "gc": 378,
-        "pts": 260,
+        "e": 10,
+        "p": 25,
+        "gf": 571,
+        "gc": 316,
+        "pts": 262,
         "posicion": 3
       },
       {
@@ -16853,14 +16853,17 @@
             },
             "PRIMERA MASCULINO": {
               "match_id": 149557,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
+              "goles_local": 4,
+              "goles_visitante": 5,
+              "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-26 21:15",
               "sede": "progreso santa rita",
               "direccion": "pichincha 320 boulogne",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260727-033649-1000042992.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260727-033650-1000042991.jpg"
+              ]
             },
             "TERCERA MASCULINO": {
               "match_id": 149710,
