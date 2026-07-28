@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-27T07:39:39.489293Z",
+  "actualizado": "2026-07-28T06:34:06.090997Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -243,24 +243,24 @@
       {
         "posicion": 15,
         "equipo": "SACA DEL MEDIO",
-        "pj": 16,
+        "pj": 17,
         "g": 2,
         "e": 4,
-        "p": 10,
+        "p": 11,
         "gf": 15,
-        "gc": 50,
+        "gc": 55,
         "pts": 10
       },
       {
         "posicion": 16,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 15,
-        "g": 1,
+        "pj": 16,
+        "g": 2,
         "e": 3,
         "p": 11,
-        "gf": 25,
+        "gf": 30,
         "gc": 53,
-        "pts": 6
+        "pts": 9
       },
       {
         "posicion": 17,
@@ -300,13 +300,13 @@
       {
         "posicion": 2,
         "equipo": "BROWN DE ADROGUE",
-        "pj": 16,
-        "g": 12,
+        "pj": 17,
+        "g": 13,
         "e": 3,
         "p": 1,
-        "gf": 45,
+        "gf": 50,
         "gc": 17,
-        "pts": 39
+        "pts": 42
       },
       {
         "posicion": 3,
@@ -410,12 +410,12 @@
       {
         "posicion": 12,
         "equipo": "SACA DEL MEDIO",
-        "pj": 16,
+        "pj": 17,
         "g": 5,
         "e": 1,
-        "p": 10,
+        "p": 11,
         "gf": 18,
-        "gc": 44,
+        "gc": 49,
         "pts": 16
       },
       {
@@ -819,25 +819,25 @@
         "posicion": 12
       },
       {
-        "equipo": "SACA DEL MEDIO",
-        "pj": 49,
-        "g": 14,
-        "e": 10,
-        "p": 25,
-        "gf": 68,
-        "gc": 118,
-        "pts": 52,
+        "equipo": "BROWN DE ADROGUE",
+        "pj": 50,
+        "g": 17,
+        "e": 6,
+        "p": 27,
+        "gf": 90,
+        "gc": 136,
+        "pts": 57,
         "posicion": 13
       },
       {
-        "equipo": "BROWN DE ADROGUE",
-        "pj": 48,
-        "g": 15,
-        "e": 6,
+        "equipo": "SACA DEL MEDIO",
+        "pj": 51,
+        "g": 14,
+        "e": 10,
         "p": 27,
-        "gf": 80,
-        "gc": 136,
-        "pts": 51,
+        "gf": 68,
+        "gc": 128,
+        "pts": 52,
         "posicion": 14
       },
       {
@@ -7962,7 +7962,7 @@
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 152417,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 19:00",
@@ -7976,7 +7976,7 @@
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 152264,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-07-25 20:15",
