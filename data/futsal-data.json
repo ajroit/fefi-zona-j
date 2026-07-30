@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-28T06:33:44.772550Z",
+  "actualizado": "2026-07-30T06:33:48.237991Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -20756,6 +20756,84 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-190308-1000525175.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-190310-1000525175.jpg"
               ]
+            }
+          },
+          "estado": "Finalizado"
+        }
+      ]
+    },
+    {
+      "numero": 0,
+      "fecha_partido": "2026-08-01",
+      "encuentros": [
+        {
+          "local": "ROTONDA",
+          "visitante": "ESTRADA FUTSAL",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215179,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 12:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "ESTRADA FUTSAL",
+          "visitante": "MARCHIGIANA",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215178,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 11:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "MARCHIGIANA",
+          "visitante": "ROTONDA",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215177,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 10:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "INDEPENDIENTE DE BECCAR",
+          "visitante": "HAEDO JUNIOR",
+          "partidos": {
+            "SEPTIMA MASCULINO": {
+              "match_id": 215169,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 09:00",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
             }
           },
           "estado": "Finalizado"

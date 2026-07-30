@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-28T06:33:29.657167+00:00",
+  "actualizado": "2026-07-30T06:33:42.996355+00:00",
   "zona": "J",
   "torneo": "apertura",
   "anio": 2026,
@@ -63,6 +63,12 @@
       "tiene_cancha": true
     },
     {
+      "nombre": "ASOC. MARIANO ACOSTA",
+      "direccion": "AV MARIANO ACOSTA 1544",
+      "localidad": "PARQUE AVELLANEDA",
+      "tiene_cancha": true
+    },
+    {
       "nombre": "MENDEVILLE",
       "direccion": "CAMPION 1801",
       "localidad": "ALDO BONZI",
@@ -99,16 +105,16 @@
       "tiene_cancha": true
     },
     {
-      "nombre": "SANELI F.C.",
-      "direccion": "EVITA 279",
-      "localidad": "VILLA MADERO",
-      "tiene_cancha": false
-    },
-    {
       "nombre": "LIBERAL",
       "direccion": "CARHUE 2855",
       "localidad": "CABA MATADEROS",
       "tiene_cancha": true
+    },
+    {
+      "nombre": "SANELI F.C.",
+      "direccion": null,
+      "localidad": null,
+      "tiene_cancha": false
     }
   ],
   "fechas": [
@@ -6814,60 +6820,60 @@
           "visitante": "HOMERO",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 6,
+              "goles_visitante": 5,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -6940,60 +6946,60 @@
           "visitante": "PACIFICO MAR PLAST",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 8,
+              "goles_visitante": 4,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7129,60 +7135,60 @@
           "visitante": "MENDEVILLE",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 1,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 6,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 1,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 5,
+              "goles_visitante": 10,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -7776,12 +7782,39 @@
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 91,
-        "g": 59,
-        "e": 5,
-        "p": 27,
-        "pts": 214,
+        "pj": 98,
+        "g": 62,
+        "e": 7,
+        "p": 29,
+        "pts": 229,
         "posicion": 2
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 98,
+        "g": 51,
+        "e": 8,
+        "p": 39,
+        "pts": 208,
+        "posicion": 3
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 98,
+        "g": 51,
+        "e": 7,
+        "p": 40,
+        "pts": 207,
+        "posicion": 4
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 96,
+        "g": 49,
+        "e": 11,
+        "p": 36,
+        "pts": 205,
+        "posicion": 5
       },
       {
         "equipo": "CLUB SAHORES",
@@ -7790,33 +7823,6 @@
         "e": 5,
         "p": 33,
         "pts": 202,
-        "posicion": 3
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 91,
-        "g": 49,
-        "e": 6,
-        "p": 36,
-        "pts": 195,
-        "posicion": 4
-      },
-      {
-        "equipo": "HOMERO",
-        "pj": 89,
-        "g": 47,
-        "e": 11,
-        "p": 31,
-        "pts": 194,
-        "posicion": 5
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 91,
-        "g": 46,
-        "e": 7,
-        "p": 38,
-        "pts": 190,
         "posicion": 6
       },
       {
@@ -7829,13 +7835,22 @@
         "posicion": 7
       },
       {
+        "equipo": "MENDEVILLE",
+        "pj": 98,
+        "g": 39,
+        "e": 6,
+        "p": 52,
+        "pts": 181,
+        "posicion": 8
+      },
+      {
         "equipo": "EL ATALAYA",
         "pj": 98,
         "g": 44,
         "e": 7,
         "p": 32,
         "pts": 178,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -7844,7 +7859,7 @@
         "e": 10,
         "p": 35,
         "pts": 178,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -7853,7 +7868,16 @@
         "e": 7,
         "p": 38,
         "pts": 175,
-        "posicion": 10
+        "posicion": 11
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 97,
+        "g": 34,
+        "e": 6,
+        "p": 57,
+        "pts": 171,
+        "posicion": 12
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -7862,7 +7886,7 @@
         "e": 10,
         "p": 46,
         "pts": 171,
-        "posicion": 11
+        "posicion": 13
       },
       {
         "equipo": "TORINO",
@@ -7871,24 +7895,6 @@
         "e": 4,
         "p": 50,
         "pts": 169,
-        "posicion": 12
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 91,
-        "g": 36,
-        "e": 5,
-        "p": 49,
-        "pts": 167,
-        "posicion": 13
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 90,
-        "g": 31,
-        "e": 5,
-        "p": 54,
-        "pts": 157,
         "posicion": 14
       },
       {
@@ -7931,11 +7937,11 @@
       },
       {
         "equipo": "FERRO C. O.",
-        "pj": 13,
-        "g": 10,
+        "pj": 14,
+        "g": 11,
         "e": 0,
         "p": 3,
-        "pts": 33,
+        "pts": 36,
         "posicion": 3
       },
       {
@@ -7967,29 +7973,29 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 13,
+        "pj": 14,
         "g": 8,
         "e": 0,
-        "p": 5,
-        "pts": 29,
+        "p": 6,
+        "pts": 30,
         "posicion": 7
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 13,
-        "g": 6,
+        "pj": 14,
+        "g": 7,
         "e": 0,
         "p": 7,
-        "pts": 25,
+        "pts": 28,
         "posicion": 8
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 0,
-        "p": 7,
-        "pts": 25,
+        "p": 8,
+        "pts": 26,
         "posicion": 9
       },
       {
@@ -8003,11 +8009,11 @@
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 8,
-        "pts": 20,
+        "pts": 22,
         "posicion": 11
       },
       {
@@ -8020,21 +8026,21 @@
         "posicion": 12
       },
       {
+        "equipo": "LIBERAL",
+        "pj": 13,
+        "g": 1,
+        "e": 2,
+        "p": 10,
+        "pts": 17,
+        "posicion": 13
+      },
+      {
         "equipo": "A DOS TOQUES F. C.",
         "pj": 13,
         "g": 4,
         "e": 0,
         "p": 4,
         "pts": 16,
-        "posicion": 13
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 12,
-        "g": 1,
-        "e": 1,
-        "p": 10,
-        "pts": 15,
         "posicion": 14
       },
       {
@@ -8068,11 +8074,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 13,
-        "g": 10,
+        "pj": 14,
+        "g": 11,
         "e": 2,
         "p": 1,
-        "pts": 35,
+        "pts": 38,
         "posicion": 2
       },
       {
@@ -8103,22 +8109,31 @@
         "posicion": 5
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 14,
+        "g": 6,
+        "e": 4,
+        "p": 4,
+        "pts": 30,
+        "posicion": 6
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 14,
+        "g": 7,
+        "e": 0,
+        "p": 7,
+        "pts": 28,
+        "posicion": 7
+      },
+      {
         "equipo": "SOL DE AMERICA",
         "pj": 13,
         "g": 7,
         "e": 1,
         "p": 5,
         "pts": 28,
-        "posicion": 6
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
-        "g": 6,
-        "e": 3,
-        "p": 4,
-        "pts": 28,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "ESTRELLA",
@@ -8127,7 +8142,7 @@
         "e": 1,
         "p": 6,
         "pts": 26,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "TORINO",
@@ -8136,42 +8151,33 @@
         "e": 1,
         "p": 6,
         "pts": 26,
-        "posicion": 9
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 13,
-        "g": 6,
-        "e": 0,
-        "p": 7,
-        "pts": 25,
         "posicion": 10
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 0,
-        "p": 7,
-        "pts": 25,
+        "p": 8,
+        "pts": 26,
         "posicion": 11
       },
       {
         "equipo": "FERRO C. O.",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 1,
-        "p": 7,
-        "pts": 24,
+        "p": 8,
+        "pts": 25,
         "posicion": 12
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
-        "e": 0,
+        "e": 1,
         "p": 10,
-        "pts": 19,
+        "pts": 21,
         "posicion": 13
       },
       {
@@ -8223,11 +8229,11 @@
       },
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 13,
+        "pj": 14,
         "g": 10,
         "e": 0,
-        "p": 3,
-        "pts": 33,
+        "p": 4,
+        "pts": 34,
         "posicion": 3
       },
       {
@@ -8250,12 +8256,21 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 13,
+        "pj": 14,
         "g": 7,
         "e": 1,
-        "p": 5,
-        "pts": 28,
+        "p": 6,
+        "pts": 29,
         "posicion": 6
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 14,
+        "g": 7,
+        "e": 0,
+        "p": 7,
+        "pts": 28,
+        "posicion": 7
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8264,16 +8279,16 @@
         "e": 1,
         "p": 5,
         "pts": 28,
-        "posicion": 7
+        "posicion": 8
       },
       {
-        "equipo": "FERRO C. O.",
-        "pj": 13,
+        "equipo": "MENDEVILLE",
+        "pj": 14,
         "g": 6,
         "e": 0,
-        "p": 7,
-        "pts": 25,
-        "posicion": 8
+        "p": 8,
+        "pts": 26,
+        "posicion": 9
       },
       {
         "equipo": "TORINO",
@@ -8282,7 +8297,7 @@
         "e": 0,
         "p": 7,
         "pts": 25,
-        "posicion": 9
+        "posicion": 10
       },
       {
         "equipo": "SANELI F.C.",
@@ -8291,7 +8306,7 @@
         "e": 0,
         "p": 7,
         "pts": 25,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "LOMAS DE LUGANO",
@@ -8300,24 +8315,15 @@
         "e": 1,
         "p": 7,
         "pts": 24,
-        "posicion": 11
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 13,
-        "g": 5,
-        "e": 0,
-        "p": 8,
-        "pts": 23,
         "posicion": 12
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
-        "g": 3,
+        "pj": 14,
+        "g": 4,
         "e": 0,
         "p": 10,
-        "pts": 19,
+        "pts": 22,
         "posicion": 13
       },
       {
@@ -8331,11 +8337,11 @@
       },
       {
         "equipo": "LIBERAL",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "pts": 15,
+        "p": 13,
+        "pts": 16,
         "posicion": 15
       },
       {
@@ -8368,31 +8374,49 @@
         "posicion": 2
       },
       {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 14,
+        "g": 7,
+        "e": 5,
+        "p": 2,
+        "pts": 33,
+        "posicion": 3
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 14,
+        "g": 9,
+        "e": 1,
+        "p": 4,
+        "pts": 33,
+        "posicion": 4
+      },
+      {
         "equipo": "CLUB SAAVEDRA",
         "pj": 14,
         "g": 9,
         "e": 0,
         "p": 5,
         "pts": 32,
-        "posicion": 3
-      },
-      {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 13,
-        "g": 7,
-        "e": 4,
-        "p": 2,
-        "pts": 31,
-        "posicion": 4
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
-        "g": 9,
-        "e": 0,
-        "p": 4,
-        "pts": 31,
         "posicion": 5
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "pts": 29,
+        "posicion": 6
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 14,
+        "g": 6,
+        "e": 2,
+        "p": 6,
+        "pts": 28,
+        "posicion": 7
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8401,7 +8425,7 @@
         "e": 3,
         "p": 4,
         "pts": 28,
-        "posicion": 6
+        "posicion": 8
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8410,7 +8434,7 @@
         "e": 1,
         "p": 4,
         "pts": 27,
-        "posicion": 7
+        "posicion": 9
       },
       {
         "equipo": "CLUB COMUNICACIONES",
@@ -8419,28 +8443,10 @@
         "e": 0,
         "p": 6,
         "pts": 27,
-        "posicion": 8
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 13,
-        "g": 6,
-        "e": 1,
-        "p": 6,
-        "pts": 26,
-        "posicion": 9
-      },
-      {
-        "equipo": "TORINO",
-        "pj": 13,
-        "g": 5,
-        "e": 2,
-        "p": 6,
-        "pts": 25,
         "posicion": 10
       },
       {
-        "equipo": "HOMERO",
+        "equipo": "TORINO",
         "pj": 13,
         "g": 5,
         "e": 2,
@@ -8459,11 +8465,11 @@
       },
       {
         "equipo": "FERRO C. O.",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 3,
-        "p": 8,
-        "pts": 20,
+        "p": 9,
+        "pts": 21,
         "posicion": 13
       },
       {
@@ -8477,11 +8483,11 @@
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "pts": 15,
+        "p": 13,
+        "pts": 16,
         "posicion": 15
       },
       {
@@ -8506,21 +8512,39 @@
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
-        "g": 10,
+        "pj": 14,
+        "g": 11,
         "e": 2,
         "p": 1,
-        "pts": 35,
+        "pts": 38,
         "posicion": 2
       },
       {
-        "equipo": "30 DE OCTUBRE",
-        "pj": 13,
+        "equipo": "FERRO C. O.",
+        "pj": 14,
         "g": 10,
         "e": 1,
-        "p": 2,
-        "pts": 34,
+        "p": 3,
+        "pts": 35,
         "posicion": 3
+      },
+      {
+        "equipo": "30 DE OCTUBRE",
+        "pj": 14,
+        "g": 10,
+        "e": 1,
+        "p": 3,
+        "pts": 35,
+        "posicion": 4
+      },
+      {
+        "equipo": "LIBERAL",
+        "pj": 14,
+        "g": 10,
+        "e": 1,
+        "p": 3,
+        "pts": 35,
+        "posicion": 5
       },
       {
         "equipo": "CLUB SAHORES",
@@ -8529,24 +8553,6 @@
         "e": 0,
         "p": 3,
         "pts": 33,
-        "posicion": 4
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
-        "p": 3,
-        "pts": 32,
-        "posicion": 5
-      },
-      {
-        "equipo": "LIBERAL",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
-        "p": 3,
-        "pts": 32,
         "posicion": 6
       },
       {
@@ -8560,11 +8566,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 3,
-        "p": 5,
-        "pts": 26,
+        "p": 6,
+        "pts": 27,
         "posicion": 8
       },
       {
@@ -8578,11 +8584,11 @@
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 13,
+        "pj": 14,
         "g": 5,
         "e": 1,
-        "p": 7,
-        "pts": 24,
+        "p": 8,
+        "pts": 25,
         "posicion": 10
       },
       {
@@ -8643,20 +8649,20 @@
     "2016": [
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 13,
-        "g": 12,
+        "pj": 14,
+        "g": 13,
         "e": 0,
         "p": 1,
-        "pts": 37,
+        "pts": 40,
         "posicion": 1
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
+        "pj": 14,
         "g": 12,
         "e": 0,
-        "p": 1,
-        "pts": 37,
+        "p": 2,
+        "pts": 38,
         "posicion": 2
       },
       {
@@ -8678,31 +8684,40 @@
         "posicion": 4
       },
       {
+        "equipo": "MENDEVILLE",
+        "pj": 14,
+        "g": 7,
+        "e": 4,
+        "p": 3,
+        "pts": 32,
+        "posicion": 5
+      },
+      {
         "equipo": "CLUB COMUNICACIONES",
         "pj": 13,
         "g": 7,
         "e": 4,
         "p": 2,
         "pts": 31,
-        "posicion": 5
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 13,
-        "g": 6,
-        "e": 4,
-        "p": 3,
-        "pts": 29,
         "posicion": 6
       },
       {
+        "equipo": "FERRO C. O.",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "pts": 29,
+        "posicion": 7
+      },
+      {
         "equipo": "LIBERAL",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 2,
-        "p": 5,
-        "pts": 27,
-        "posicion": 7
+        "p": 6,
+        "pts": 28,
+        "posicion": 8
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8711,15 +8726,6 @@
         "e": 3,
         "p": 3,
         "pts": 27,
-        "posicion": 8
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 13,
-        "g": 6,
-        "e": 1,
-        "p": 6,
-        "pts": 26,
         "posicion": 9
       },
       {
@@ -8751,11 +8757,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 12,
+        "pj": 13,
         "g": 3,
         "e": 2,
-        "p": 7,
-        "pts": 20,
+        "p": 8,
+        "pts": 21,
         "posicion": 13
       },
       {
@@ -8789,12 +8795,30 @@
     "2015": [
       {
         "equipo": "30 DE OCTUBRE",
-        "pj": 13,
-        "g": 11,
+        "pj": 14,
+        "g": 12,
         "e": 0,
         "p": 2,
-        "pts": 35,
+        "pts": 38,
         "posicion": 1
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 14,
+        "g": 10,
+        "e": 0,
+        "p": 4,
+        "pts": 34,
+        "posicion": 2
+      },
+      {
+        "equipo": "FERRO C. O.",
+        "pj": 14,
+        "g": 9,
+        "e": 1,
+        "p": 4,
+        "pts": 33,
+        "posicion": 3
       },
       {
         "equipo": "CLUB SAAVEDRA",
@@ -8803,7 +8827,16 @@
         "e": 1,
         "p": 4,
         "pts": 33,
-        "posicion": 2
+        "posicion": 4
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 13,
+        "g": 9,
+        "e": 1,
+        "p": 3,
+        "pts": 32,
+        "posicion": 5
       },
       {
         "equipo": "CLUB SAHORES",
@@ -8812,33 +8845,6 @@
         "e": 0,
         "p": 4,
         "pts": 31,
-        "posicion": 3
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 13,
-        "g": 9,
-        "e": 0,
-        "p": 4,
-        "pts": 31,
-        "posicion": 4
-      },
-      {
-        "equipo": "HOMERO",
-        "pj": 12,
-        "g": 9,
-        "e": 1,
-        "p": 2,
-        "pts": 31,
-        "posicion": 5
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 13,
-        "g": 8,
-        "e": 1,
-        "p": 4,
-        "pts": 30,
         "posicion": 6
       },
       {
@@ -8897,20 +8903,20 @@
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 1,
-        "p": 9,
-        "pts": 20,
+        "p": 10,
+        "pts": 21,
         "posicion": 13
       },
       {
         "equipo": "LIBERAL",
-        "pj": 13,
+        "pj": 14,
         "g": 2,
         "e": 0,
-        "p": 11,
-        "pts": 17,
+        "p": 12,
+        "pts": 18,
         "posicion": 14
       },
       {

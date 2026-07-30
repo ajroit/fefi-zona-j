@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-28T06:33:59.303367Z",
+  "actualizado": "2026-07-30T06:33:55.073032Z",
   "torneo": "Reducido",
   "zona": "Zona A",
   "fase": "Apertura",
@@ -14890,20 +14890,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260705-201948-IMG_20260705_171814115.jpg"
               ]
             },
-            "QUINTA MASCULINO": {
-              "match_id": 149997,
-              "goles_local": 0,
-              "goles_visitante": 0,
-              "jugado": true,
-              "estado": "",
-              "fecha_hora": "2026-07-05 17:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano ",
-              "planillas": [
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260705-210153-IMG_20260705_180057267.jpg",
-                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260705-210156-IMG_20260705_180108472.jpg"
-              ]
-            },
             "TERCERA MASCULINO": {
               "match_id": 149691,
               "goles_local": 0,
@@ -14972,6 +14958,20 @@
               "planillas": [
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260706-010730-IMG_20260705_220359824.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260706-010733-IMG_20260705_220403942.jpg"
+              ]
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 149997,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-07-05 17:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano ",
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260705-210153-IMG_20260705_180057267.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-hrnme7dftwdqk3hl1blsp3koqu12/20260705-210156-IMG_20260705_180108472.jpg"
               ]
             }
           },
@@ -17416,6 +17416,48 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260726-180048-41556.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-os7fxwccwkspkmh7fnl9e9ve3nz2/20260726-180050-41557.jpg"
               ]
+            }
+          },
+          "estado": "Finalizado"
+        }
+      ]
+    },
+    {
+      "numero": 0,
+      "fecha_partido": "2026-08-01",
+      "encuentros": [
+        {
+          "local": "VICTORIA",
+          "visitante": "PROGRESO SANTA RITA",
+          "partidos": {
+            "CUARTA MASCULINO": {
+              "match_id": 215166,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 16:30",
+              "sede": "Club Alvear",
+              "direccion": "Av. Directorio 4147, Parque Avellaneda",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "EL IDEAL",
+          "visitante": "CAPITAN ROSALES",
+          "partidos": {
+            "QUINTA MASCULINO": {
+              "match_id": 215165,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 15:00",
+              "sede": "Club Alvear",
+              "direccion": "Av. Directorio 4147, Parque Avellaneda",
+              "planillas": null
             }
           },
           "estado": "Finalizado"
