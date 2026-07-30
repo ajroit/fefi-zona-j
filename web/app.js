@@ -274,15 +274,14 @@ function partidosDelFoco(categoria) {
         });
       } else {
         const p = enc.partidos[String(categoria)];
-        if (!p) continue;
         out.push({
           numero: fecha.numero,
           fecha: fecha.fecha_partido,
           rival, esLocal,
-          gf: esLocal ? p.goles_local : p.goles_visitante,
-          gc: esLocal ? p.goles_visitante : p.goles_local,
-          jugado: p.jugado,
-          observacion: p.observacion,
+          gf: (p && p.jugado && p.goles_local != null) ? (esLocal ? p.goles_local : p.goles_visitante) : null,
+          gc: (p && p.jugado && p.goles_visitante != null) ? (esLocal ? p.goles_visitante : p.goles_local) : null,
+          jugado: p ? p.jugado : false,
+          observacion: p ? p.observacion : null,
           estado: enc.estado,
         });
       }

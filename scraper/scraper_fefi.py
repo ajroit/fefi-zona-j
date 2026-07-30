@@ -187,9 +187,21 @@ def scrape():
             ):
                 local = celdas[0].get_text(strip=True).upper()
                 visit = celdas[2].get_text(strip=True).upper()
-                fecha_actual["encuentros"].append(
-                    {"local": local, "visitante": visit, "partidos": {}}
-                )
+                fecha_actual["encuentros"].append({
+                    "local": local,
+                    "visitante": visit,
+                    "partidos": {
+                        str(cat): {
+                            "goles_local": None,
+                            "goles_visitante": None,
+                            "observacion_local": None,
+                            "observacion_visitante": None,
+                            "observacion": None,
+                            "jugado": False,
+                        }
+                        for cat in CATEGORIAS
+                    },
+                })
                 for nombre in (local, visit):
                     equipos.setdefault(nombre, {
                         "nombre": nombre, "direccion": None,
