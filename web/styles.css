@@ -1407,15 +1407,15 @@ footer {
   box-shadow: 0 0 12px rgba(26, 140, 74, 0.15);
 }
 
-/* FEFI Clausura Announcement Banner */
-.clausura-banner {
+/* FEFI & Futsal Announcement Banner */
+.announcement-banner, .clausura-banner {
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
   border-bottom: 1px solid rgba(99, 102, 241, 0.25);
   padding: 10px 0;
   animation: fadeIn 0.3s ease-out;
 }
 
-.clausura-banner-content {
+.announcement-banner-content, .clausura-banner-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1425,16 +1425,16 @@ footer {
   color: var(--text, #f8fafc);
 }
 
-.clausura-banner-icon {
+.announcement-banner-icon, .clausura-banner-icon {
   font-size: 16px;
   flex-shrink: 0;
 }
 
-.clausura-banner-text {
+.announcement-banner-text, .clausura-banner-text {
   line-height: 1.4;
 }
 
-.clausura-banner-close {
+.announcement-banner-close, .clausura-banner-close {
   background: transparent;
   border: none;
   color: var(--text-muted, #94a3b8);
@@ -1446,7 +1446,7 @@ footer {
   flex-shrink: 0;
 }
 
-.clausura-banner-close:hover {
+.announcement-banner-close:hover, .clausura-banner-close:hover {
   background: rgba(255, 255, 255, 0.15);
   color: #fff;
 }
