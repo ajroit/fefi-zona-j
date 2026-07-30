@@ -113,11 +113,31 @@ async function switchToBabyFutbol() {
 
   renderHeader();
   renderCategorySelector();
+  checkClausuraBanner();
   render();
 }
 
+// ---- Banner de Clausura FEFI ----
+function checkClausuraBanner() {
+  const $banner = document.getElementById("fefi-clausura-banner");
+  if (!$banner) return;
+  if (deporteActual === "babyfutbol" && !localStorage.getItem("fefi-clausura-banner-dismissed")) {
+    $banner.style.display = "block";
+  } else {
+    $banner.style.display = "none";
+  }
+}
+
+function closeClausuraBanner() {
+  const $banner = document.getElementById("fefi-clausura-banner");
+  if ($banner) $banner.style.display = "none";
+  localStorage.setItem("fefi-clausura-banner-dismissed", "true");
+}
+window.closeClausuraBanner = closeClausuraBanner;
+
 // ---- Cambio a Futsal ----
 async function switchToFutsal() {
+  checkClausuraBanner();
   // Actualizar hero
   document.getElementById("hero-subtitle").textContent = "Futsal - Liga de Honor B";
   document.getElementById("badge-label").textContent = "Torneo Joma 2026";
@@ -132,6 +152,7 @@ async function switchToFutsal() {
 
 // ---- Cambio a Futsal Reducido ----
 async function switchToFutsalReducido() {
+  checkClausuraBanner();
   const subContainer = document.getElementById("sub-tournament-container");
   if (subContainer) subContainer.style.display = "none";
 
@@ -149,6 +170,7 @@ async function switchToFutsalReducido() {
 
 // ---- Cambio a Futsal Femenino ----
 async function switchToFutsalFemenino() {
+  checkClausuraBanner();
   const subContainer = document.getElementById("sub-tournament-container");
   if (subContainer) subContainer.style.display = "none";
 
