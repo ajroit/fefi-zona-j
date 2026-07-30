@@ -522,12 +522,12 @@
       {
         "posicion": 8,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 2,
-        "p": 5,
+        "p": 6,
         "gf": 61,
-        "gc": 45,
+        "gc": 50,
         "pts": 23
       },
       {
@@ -599,13 +599,13 @@
       {
         "posicion": 15,
         "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 1,
+        "pj": 15,
+        "g": 2,
         "e": 0,
         "p": 13,
-        "gf": 21,
+        "gf": 26,
         "gc": 109,
-        "pts": 3
+        "pts": 6
       },
       {
         "posicion": 16,
@@ -722,12 +722,12 @@
       {
         "posicion": 10,
         "equipo": "ROTONDA",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 3,
-        "p": 6,
+        "p": 7,
         "gf": 43,
-        "gc": 45,
+        "gc": 50,
         "pts": 18
       },
       {
@@ -744,13 +744,13 @@
       {
         "posicion": 12,
         "equipo": "JUVENTUD",
-        "pj": 14,
-        "g": 3,
+        "pj": 15,
+        "g": 4,
         "e": 3,
         "p": 8,
-        "gf": 36,
+        "gf": 41,
         "gc": 81,
-        "pts": 12
+        "pts": 15
       },
       {
         "posicion": 13,
@@ -2178,13 +2178,13 @@
       },
       {
         "equipo": "JUVENTUD",
-        "pj": 148,
-        "g": 42,
+        "pj": 150,
+        "g": 44,
         "e": 18,
         "p": 88,
-        "gf": 394,
+        "gf": 404,
         "gc": 740,
-        "pts": 144,
+        "pts": 150,
         "posicion": 13
       },
       {
@@ -16370,8 +16370,8 @@
             },
             "CUARTA MASCULINO": {
               "match_id": 148421,
-              "goles_local": 1,
-              "goles_visitante": 1,
+              "goles_local": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 15:00",
@@ -16413,7 +16413,7 @@
             "QUINTA MASCULINO": {
               "match_id": 148541,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-06-13 16:15",
@@ -16501,17 +16501,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260614-163622-1000987815.jpg"
               ]
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149382,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "CUARTA MASCULINO": {
               "match_id": 148422,
               "goles_local": 4,
@@ -16525,6 +16514,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260614-223417-1000003289.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gkxwntz0xvmebbr30mnq8crby4t2/20260614-223423-1000003288.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149382,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "PRIMERA MASCULINO": {
               "match_id": 148182,
@@ -16659,17 +16659,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-203234-17814691424106716814714310541915.jpg"
               ]
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149383,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2016 PROMOCIONALES": {
               "match_id": 149023,
               "goles_local": 1,
@@ -16683,6 +16672,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-150719-1781449627100270817566647909785.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fxsyjs9wattjfy0mvpxfcautufh2/20260614-150724-17814496367702651748190672745073.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149383,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "SEXTA MASCULINO": {
               "match_id": 148663,
@@ -17567,17 +17567,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-btyrqykfpqe0jintbp4ixn6epdv2/20260620-164051-image.jpg"
               ]
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149389,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148309,
               "goles_local": 7,
@@ -17591,6 +17580,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260622-023617-174217.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-3b7a85cxa2csu5ubkfwcdfmkuwq2/20260622-023618-174216.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149389,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "2018 PROMOCIONALES": {
               "match_id": 149269,
@@ -17736,17 +17736,6 @@
               "direccion": "José Nicolás de Arriola 1857",
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149390,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "TERCERA MASCULINO": {
               "match_id": 148310,
               "goles_local": 8,
@@ -17760,6 +17749,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260621-010815-image.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-fntdxsw9vtd6mu9ohfj5kqkavgj2/20260621-010828-image.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149390,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "QUINTA MASCULINO": {
               "match_id": 148550,
@@ -19264,17 +19264,6 @@
               "direccion": "Ana María janer 2601",
               "planillas": null
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149400,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2018 PROMOCIONALES": {
               "match_id": 149280,
               "goles_local": 12,
@@ -19288,6 +19277,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-154804-17825752651574699635641962685759.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-jwz3oljxokdwboa61yrwxcregwh2/20260627-154812-17825752778502378664013888877023.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149400,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "2017 PROMOCIONALES": {
               "match_id": 149160,
@@ -20324,17 +20324,6 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-140448-1001028662.jpg"
               ]
             },
-            "2019 PROMOCIONALES": {
-              "match_id": 149407,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "",
-              "fecha_hora": null,
-              "sede": null,
-              "direccion": null,
-              "planillas": null
-            },
             "2018 PROMOCIONALES": {
               "match_id": 149287,
               "goles_local": 2,
@@ -20376,6 +20365,17 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-130402-1001028580.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-bxjpdtsxr5olimy6iyduqd5khng2/20260704-130403-1001028579.jpg"
               ]
+            },
+            "2019 PROMOCIONALES": {
+              "match_id": 149407,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "",
+              "fecha_hora": null,
+              "sede": null,
+              "direccion": null,
+              "planillas": null
             },
             "CUARTA MASCULINO": {
               "match_id": 148447,
@@ -20741,6 +20741,84 @@
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-190308-1000525175.jpg",
                 "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-cv2bxtj0u5th7oznfokwpao6qlm1/20260705-190310-1000525175.jpg"
               ]
+            }
+          },
+          "estado": "Finalizado"
+        }
+      ]
+    },
+    {
+      "numero": 0,
+      "fecha_partido": "2026-08-01",
+      "encuentros": [
+        {
+          "local": "ROTONDA",
+          "visitante": "ESTRADA FUTSAL",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215179,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 12:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "ESTRADA FUTSAL",
+          "visitante": "MARCHIGIANA",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215178,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 11:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "MARCHIGIANA",
+          "visitante": "ROTONDA",
+          "partidos": {
+            "2016 PROMOCIONALES": {
+              "match_id": 215177,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 10:30",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
+            }
+          },
+          "estado": "Finalizado"
+        },
+        {
+          "local": "INDEPENDIENTE DE BECCAR",
+          "visitante": "HAEDO JUNIOR",
+          "partidos": {
+            "SEPTIMA MASCULINO": {
+              "match_id": 215169,
+              "goles_local": 0,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "",
+              "fecha_hora": "2026-08-01 09:00",
+              "sede": "Miriñaque",
+              "direccion": "Cachi 781, CABA",
+              "planillas": null
             }
           },
           "estado": "Finalizado"
