@@ -1,3 +1,4 @@
+// v3 - fix clima + cancha + PWA
 // share.js - Componente para compartir detalles de partidos de Villa Sahores
 
 function formatFechaDia(isoString) {
