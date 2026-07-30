@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 
 URL = "https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/"
 ZONA = "J"
-TORNEO_ACTUAL = "apertura"  # cambiar a 'clausura' cuando arranque la 2da rueda
+TORNEO_ACTUAL = "anual"  # apertura (F1-F15) + clausura (F16-F30)
 ANIO_TORNEO = 2026
 
 # Orden de columnas en la web de FEFI (por año de nacimiento)
@@ -112,9 +112,36 @@ def scrape():
     tablas = soup.find_all("table")
 
     # Identificar tablas por su contenido
-    fixture_tabla = next(t for t in tablas if "Fecha 1" in t.get_text())
+    # Puede haber 2 fixture tables: apertura (cont1) y clausura (cont2)
+    fixture_tablas = [t for t in tablas if t.get_text().strip().startswith("LOCAL") or "Fecha 1" in t.get_text()[:200]]
+    # Fallback: buscar tabla con LOCAL/VISITANTE en encabezado
+    if not fixture_tablas:
+        fixture_tablas = [t for t in tablas if t.find("th") and "LOCAL" in t.find("th").get_text()]
+    # Separar apertura (tiene Fecha 1 - en Abril/Mayo) y clausura (Fecha 1 - en Agosto)
+    fixture_apertura = None
+    fixture_clausura = None
+    for t in fixture_tablas:
+        txt = t.get_text()
+        if "Agosto" in txt or "Septiembre" in txt or "Octubre" in txt or "Noviembre" in txt:
+            # Tiene fechas del clausura
+            if "Abril" in txt or "Mayo" in txt or "Junio" in txt or "Julio" in txt:
+                # Tiene ambos => es solo apertura mezclada, improbable
+                # Chequear si la primera fecha es de apertura
+                if "18 de Abril" in txt or "25 de Abril" in txt:
+                    fixture_apertura = t
+                else:
+                    fixture_clausura = t
+            else:
+                fixture_clausura = t
+        else:
+            fixture_apertura = t
+    # Si solo hay una tabla con todo:
+    if fixture_apertura is None and fixture_clausura is None and fixture_tablas:
+        fixture_apertura = fixture_tablas[0]
+    
+    # Tablas de resultados: puede haber 2 (apertura y clausura)
+    resultados_tablas = [t for t in tablas if "F.T." in t.get_text()]
     direcciones_tabla = next(t for t in tablas if "Dirección" in t.get_text())
-    resultados_tabla = next(t for t in tablas if "F.T." in t.get_text())
     posiciones_tabla = next(
         t for t in tablas if "Pts." in t.get_text() and "F.T." not in t.get_text()
     )
@@ -133,76 +160,102 @@ def scrape():
             }
 
     # ========== FIXTURE (cruces por fecha) ==========
-    fechas = []
-    fecha_actual = None
-    for row in fixture_tabla.find_all("tr"):
-        celdas = row.find_all("td")
-        texto = row.get_text(" ", strip=True)
-        m = re.match(r"Fecha\s+(\d+)\s*-\s*(.+)", texto)
-        if m:
-            fecha_actual = {
-                "numero": int(m.group(1)),
-                "fecha_partido": parsear_fecha_es(m.group(2)),
-                "encuentros": [],
-            }
-            fechas.append(fecha_actual)
-            continue
-        if (
-            fecha_actual
-            and len(celdas) == 3
-            and celdas[1].get_text(strip=True).lower() == "vs"
-        ):
-            local = celdas[0].get_text(strip=True).upper()
-            visit = celdas[2].get_text(strip=True).upper()
-            fecha_actual["encuentros"].append(
-                {"local": local, "visitante": visit, "partidos": {}}
-            )
-            for nombre in (local, visit):
-                equipos.setdefault(nombre, {
-                    "nombre": nombre, "direccion": None,
-                    "localidad": None, "tiene_cancha": False,
-                })
+    def parsear_fixture(tabla, numero_offset=0):
+        """Parsea una tabla de fixture. numero_offset suma al numero de fecha (p.ej. 15 para clausura)"""
+        fechas_local = []
+        fecha_actual = None
+        if tabla is None:
+            return fechas_local
+        for row in tabla.find_all("tr"):
+            celdas = row.find_all("td")
+            texto = row.get_text(" ", strip=True)
+            m = re.match(r"Fecha\s+(\d+)\s*-\s*(.+)", texto)
+            if m:
+                fecha_actual = {
+                    "numero": int(m.group(1)) + numero_offset,
+                    "numero_torneo": int(m.group(1)),
+                    "fecha_partido": parsear_fecha_es(m.group(2)),
+                    "torneo": "apertura" if numero_offset == 0 else "clausura",
+                    "encuentros": [],
+                }
+                fechas_local.append(fecha_actual)
+                continue
+            if (
+                fecha_actual
+                and len(celdas) == 3
+                and celdas[1].get_text(strip=True).lower() == "vs"
+            ):
+                local = celdas[0].get_text(strip=True).upper()
+                visit = celdas[2].get_text(strip=True).upper()
+                fecha_actual["encuentros"].append(
+                    {"local": local, "visitante": visit, "partidos": {}}
+                )
+                for nombre in (local, visit):
+                    equipos.setdefault(nombre, {
+                        "nombre": nombre, "direccion": None,
+                        "localidad": None, "tiene_cancha": False,
+                    })
+        return fechas_local
+
+    fechas_apertura = parsear_fixture(fixture_apertura, numero_offset=0)
+    # El offset del clausura es la cantidad de fechas del apertura
+    offset_clausura = len(fechas_apertura)
+    fechas_clausura = parsear_fixture(fixture_clausura, numero_offset=offset_clausura)
+    fechas = fechas_apertura + fechas_clausura
+    print(f"Fixture: {len(fechas_apertura)} fechas apertura + {len(fechas_clausura)} fechas clausura = {len(fechas)} total")
 
     # ========== RESULTADOS POR CATEGORÍA ==========
-    rows = resultados_tabla.find_all("tr")[1:]
-    i = 0
-    while i < len(rows) - 1:
-        cl = [c.get_text(strip=True) for c in rows[i].find_all("td")]
-        cv = [c.get_text(strip=True) for c in rows[i + 1].find_all("td")]
-        if len(cl) >= 11 and cl[0].startswith("F") and cl[0][1:].isdigit():
-            num_fecha = int(cl[0][1:])
-            local = cl[1].upper()
-            
-            offset_v = 0 if len(cv) < 11 else 1
-            visitante = cv[offset_v].upper()
-            
-            estado_raw = cl[10].lower() if len(cl) > 10 else ""
-            estado = estado_raw if estado_raw in ("verificado", "previo") else None
+    def parsear_resultados(tabla_res, fechas_ref, numero_offset=0):
+        """Parsea la tabla de resultados. numero_offset: offset para mapear Fn -> numero global"""
+        if tabla_res is None:
+            return
+        rows = tabla_res.find_all("tr")[1:]
+        i = 0
+        while i < len(rows) - 1:
+            cl = [c.get_text(strip=True) for c in rows[i].find_all("td")]
+            cv = [c.get_text(strip=True) for c in rows[i + 1].find_all("td")]
+            if len(cl) >= 11 and cl[0].startswith("F") and cl[0][1:].isdigit():
+                num_fecha_local = int(cl[0][1:])
+                num_fecha_global = num_fecha_local + numero_offset
+                local = cl[1].upper()
 
-            # Buscar el encuentro en el fixture
-            fecha = next((f for f in fechas if f["numero"] == num_fecha), None)
-            if fecha:
-                enc = next(
-                    (e for e in fecha["encuentros"]
-                     if e["local"] == local and e["visitante"] == visitante),
-                    None,
-                )
-                if enc:
-                    enc["estado"] = estado
-                    for idx, cat in enumerate(CATEGORIAS):
-                        gl, obs_l = parsear_gol(cl[2 + idx])
-                        gv, obs_v = parsear_gol(cv[1 + offset_v + idx])
-                        enc["partidos"][str(cat)] = {
-                            "goles_local": gl,
-                            "goles_visitante": gv,
-                            "observacion_local": obs_l,
-                            "observacion_visitante": obs_v,
-                            "observacion": obs_l or obs_v,
-                            "jugado": (gl is not None or obs_l is not None) and (gv is not None or obs_v is not None),
-                        }
-            i += 2
-        else:
-            i += 1
+                offset_v = 0 if len(cv) < 11 else 1
+                visitante = cv[offset_v].upper()
+
+                estado_raw = cl[10].lower() if len(cl) > 10 else ""
+                estado = estado_raw if estado_raw in ("verificado", "previo") else None
+
+                # Buscar el encuentro en el fixture por número global
+                fecha = next((f for f in fechas_ref if f["numero"] == num_fecha_global), None)
+                if fecha:
+                    enc = next(
+                        (e for e in fecha["encuentros"]
+                         if e["local"] == local and e["visitante"] == visitante),
+                        None,
+                    )
+                    if enc:
+                        enc["estado"] = estado
+                        for idx, cat in enumerate(CATEGORIAS):
+                            gl, obs_l = parsear_gol(cl[2 + idx])
+                            gv, obs_v = parsear_gol(cv[1 + offset_v + idx])
+                            enc["partidos"][str(cat)] = {
+                                "goles_local": gl,
+                                "goles_visitante": gv,
+                                "observacion_local": obs_l,
+                                "observacion_visitante": obs_v,
+                                "observacion": obs_l or obs_v,
+                                "jugado": (gl is not None or obs_l is not None) and (gv is not None or obs_v is not None),
+                            }
+                i += 2
+            else:
+                i += 1
+
+    # Parsear resultados de apertura (tabla índice 0) y clausura (tabla índice 1 si existe)
+    if resultados_tablas:
+        parsear_resultados(resultados_tablas[0], fechas, numero_offset=0)
+    if len(resultados_tablas) > 1:
+        parsear_resultados(resultados_tablas[1], fechas, numero_offset=offset_clausura)
+        print(f"Resultados clausura también parseados")
 
     # ========== TABLAS DE POSICIONES ==========
     tablas_pos = {}
