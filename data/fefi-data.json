@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-30T21:57:18.842359+00:00",
+  "actualizado": "2026-07-31T06:50:17.985527+00:00",
   "zona": "J",
   "torneo": "anual",
   "anio": 2026,
@@ -6785,60 +6785,60 @@
           "visitante": "SANELI F.C.",
           "partidos": {
             "2019": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2013": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 2,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2018": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2014": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 6,
+              "goles_visitante": 4,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2017": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 3,
+              "goles_visitante": 2,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2016": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 0,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             },
             "2015": {
-              "goles_local": null,
-              "goles_visitante": null,
+              "goles_local": 7,
+              "goles_visitante": 3,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
-              "jugado": false
+              "jugado": true
             }
           },
           "estado": null
@@ -15416,13 +15416,22 @@
         "posicion": 6
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 98,
+        "g": 47,
+        "e": 11,
+        "p": 35,
+        "pts": 198,
+        "posicion": 7
+      },
+      {
         "equipo": "ESTRELLA",
         "pj": 90,
         "g": 43,
         "e": 7,
         "p": 40,
         "pts": 183,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "MENDEVILLE",
@@ -15431,7 +15440,7 @@
         "e": 6,
         "p": 52,
         "pts": 181,
-        "posicion": 8
+        "posicion": 9
       },
       {
         "equipo": "EL ATALAYA",
@@ -15439,15 +15448,6 @@
         "g": 44,
         "e": 7,
         "p": 32,
-        "pts": 178,
-        "posicion": 9
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 91,
-        "g": 41,
-        "e": 10,
-        "p": 35,
         "pts": 178,
         "posicion": 10
       },
@@ -15498,11 +15498,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 85,
+        "pj": 92,
         "g": 13,
-        "e": 1,
-        "p": 69,
-        "pts": 110,
+        "e": 2,
+        "p": 75,
+        "pts": 118,
         "posicion": 16
       }
     ],
@@ -15608,12 +15608,21 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 13,
+        "pj": 14,
         "g": 4,
         "e": 0,
-        "p": 8,
-        "pts": 20,
+        "p": 9,
+        "pts": 21,
         "posicion": 12
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 5,
+        "e": 0,
+        "p": 4,
+        "pts": 19,
+        "posicion": 13
       },
       {
         "equipo": "LIBERAL",
@@ -15622,15 +15631,6 @@
         "e": 2,
         "p": 10,
         "pts": 17,
-        "posicion": 13
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
-        "g": 4,
-        "e": 0,
-        "p": 4,
-        "pts": 16,
         "posicion": 14
       },
       {
@@ -15672,25 +15672,25 @@
         "posicion": 2
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 9,
+        "e": 2,
+        "p": 3,
+        "pts": 34,
+        "posicion": 3
+      },
+      {
         "equipo": "LOMAS DE LUGANO",
         "pj": 13,
         "g": 9,
         "e": 2,
         "p": 2,
         "pts": 33,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB COMUNICACIONES",
-        "pj": 13,
-        "g": 8,
-        "e": 2,
-        "p": 3,
-        "pts": 31,
         "posicion": 4
       },
       {
-        "equipo": "A DOS TOQUES F. C.",
+        "equipo": "CLUB COMUNICACIONES",
         "pj": 13,
         "g": 8,
         "e": 2,
@@ -15790,11 +15790,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 13,
+        "pj": 14,
         "g": 0,
         "e": 0,
-        "p": 12,
-        "pts": 12,
+        "p": 13,
+        "pts": 13,
         "posicion": 16
       }
     ],
@@ -15845,13 +15845,22 @@
         "posicion": 5
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 8,
+        "e": 1,
+        "p": 5,
+        "pts": 31,
+        "posicion": 6
+      },
+      {
         "equipo": "HOMERO",
         "pj": 14,
         "g": 7,
         "e": 1,
         "p": 6,
         "pts": 29,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "FERRO C. O.",
@@ -15859,15 +15868,6 @@
         "g": 7,
         "e": 0,
         "p": 7,
-        "pts": 28,
-        "posicion": 7
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
-        "g": 7,
-        "e": 1,
-        "p": 5,
         "pts": 28,
         "posicion": 8
       },
@@ -15881,16 +15881,16 @@
         "posicion": 9
       },
       {
-        "equipo": "TORINO",
-        "pj": 13,
+        "equipo": "SANELI F.C.",
+        "pj": 14,
         "g": 6,
         "e": 0,
-        "p": 7,
-        "pts": 25,
+        "p": 8,
+        "pts": 26,
         "posicion": 10
       },
       {
-        "equipo": "SANELI F.C.",
+        "equipo": "TORINO",
         "pj": 13,
         "g": 6,
         "e": 0,
@@ -15991,13 +15991,22 @@
         "posicion": 5
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 7,
+        "e": 3,
+        "p": 4,
+        "pts": 31,
+        "posicion": 6
+      },
+      {
         "equipo": "LIBERAL",
         "pj": 14,
         "g": 7,
         "e": 1,
         "p": 6,
         "pts": 29,
-        "posicion": 6
+        "posicion": 7
       },
       {
         "equipo": "HOMERO",
@@ -16005,15 +16014,6 @@
         "g": 6,
         "e": 2,
         "p": 6,
-        "pts": 28,
-        "posicion": 7
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
-        "g": 6,
-        "e": 3,
-        "p": 4,
         "pts": 28,
         "posicion": 8
       },
@@ -16082,11 +16082,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 12,
+        "pj": 13,
         "g": 1,
         "e": 0,
-        "p": 11,
-        "pts": 14,
+        "p": 12,
+        "pts": 15,
         "posicion": 16
       }
     ],
@@ -16182,13 +16182,22 @@
         "posicion": 10
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 3,
+        "e": 3,
+        "p": 8,
+        "pts": 23,
+        "posicion": 11
+      },
+      {
         "equipo": "CLUB COMUNICACIONES",
         "pj": 13,
         "g": 3,
         "e": 3,
         "p": 7,
         "pts": 22,
-        "posicion": 11
+        "posicion": 12
       },
       {
         "equipo": "EL ATALAYA",
@@ -16197,15 +16206,6 @@
         "e": 2,
         "p": 9,
         "pts": 22,
-        "posicion": 12
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
-        "g": 2,
-        "e": 3,
-        "p": 8,
-        "pts": 20,
         "posicion": 13
       },
       {
@@ -16228,11 +16228,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 12,
+        "pj": 13,
         "g": 0,
         "e": 1,
-        "p": 11,
-        "pts": 13,
+        "p": 12,
+        "pts": 14,
         "posicion": 16
       }
     ],
@@ -16320,11 +16320,11 @@
       },
       {
         "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
-        "e": 0,
+        "e": 1,
         "p": 7,
-        "pts": 25,
+        "pts": 27,
         "posicion": 10
       },
       {
@@ -16374,11 +16374,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 11,
+        "pj": 12,
         "g": 0,
-        "e": 0,
+        "e": 1,
         "p": 11,
-        "pts": 11,
+        "pts": 13,
         "posicion": 16
       }
     ],
@@ -16420,13 +16420,22 @@
         "posicion": 4
       },
       {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 9,
+        "e": 1,
+        "p": 4,
+        "pts": 33,
+        "posicion": 5
+      },
+      {
         "equipo": "HOMERO",
         "pj": 13,
         "g": 9,
         "e": 1,
         "p": 3,
         "pts": 32,
-        "posicion": 5
+        "posicion": 6
       },
       {
         "equipo": "CLUB SAHORES",
@@ -16435,15 +16444,6 @@
         "e": 0,
         "p": 4,
         "pts": 31,
-        "posicion": 6
-      },
-      {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 13,
-        "g": 8,
-        "e": 1,
-        "p": 4,
-        "pts": 30,
         "posicion": 7
       },
       {
@@ -16511,11 +16511,11 @@
       },
       {
         "equipo": "SANELI F.C.",
-        "pj": 11,
+        "pj": 12,
         "g": 2,
         "e": 0,
-        "p": 9,
-        "pts": 15,
+        "p": 10,
+        "pts": 16,
         "posicion": 15
       },
       {
