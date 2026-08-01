@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-31T06:50:17.985527+00:00",
+  "actualizado": "2026-08-01T06:35:49.778245+00:00",
   "zona": "J",
   "torneo": "anual",
   "anio": 2026,
@@ -129,8 +129,8 @@
           "visitante": "A DOS TOQUES F. C.",
           "partidos": {
             "2019": {
-              "goles_local": 0,
-              "goles_visitante": 2,
+              "goles_local": 2,
+              "goles_visitante": 0,
               "observacion_local": null,
               "observacion_visitante": null,
               "observacion": null,
@@ -15380,21 +15380,21 @@
         "posicion": 2
       },
       {
+        "equipo": "FERRO C. O.",
+        "pj": 98,
+        "g": 52,
+        "e": 7,
+        "p": 39,
+        "pts": 209,
+        "posicion": 3
+      },
+      {
         "equipo": "PACIFICO MAR PLAST",
         "pj": 98,
         "g": 51,
         "e": 8,
         "p": 39,
         "pts": 208,
-        "posicion": 3
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 98,
-        "g": 51,
-        "e": 7,
-        "p": 40,
-        "pts": 207,
         "posicion": 4
       },
       {
@@ -15418,10 +15418,10 @@
       {
         "equipo": "A DOS TOQUES F. C.",
         "pj": 98,
-        "g": 47,
+        "g": 46,
         "e": 11,
-        "p": 35,
-        "pts": 198,
+        "p": 36,
+        "pts": 196,
         "posicion": 7
       },
       {
@@ -15517,21 +15517,21 @@
         "posicion": 1
       },
       {
+        "equipo": "FERRO C. O.",
+        "pj": 14,
+        "g": 12,
+        "e": 0,
+        "p": 2,
+        "pts": 38,
+        "posicion": 2
+      },
+      {
         "equipo": "SOL DE AMERICA",
         "pj": 13,
         "g": 12,
         "e": 0,
         "p": 1,
         "pts": 37,
-        "posicion": 2
-      },
-      {
-        "equipo": "FERRO C. O.",
-        "pj": 14,
-        "g": 11,
-        "e": 0,
-        "p": 3,
-        "pts": 36,
         "posicion": 3
       },
       {
@@ -15616,20 +15616,20 @@
         "posicion": 12
       },
       {
-        "equipo": "A DOS TOQUES F. C.",
-        "pj": 14,
-        "g": 5,
-        "e": 0,
-        "p": 4,
-        "pts": 19,
-        "posicion": 13
-      },
-      {
         "equipo": "LIBERAL",
         "pj": 13,
         "g": 1,
         "e": 2,
         "p": 10,
+        "pts": 17,
+        "posicion": 13
+      },
+      {
+        "equipo": "A DOS TOQUES F. C.",
+        "pj": 14,
+        "g": 4,
+        "e": 0,
+        "p": 5,
         "pts": 17,
         "posicion": 14
       },
