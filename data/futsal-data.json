@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-01T17:02:52.752625Z",
+  "actualizado": "2026-08-01T20:54:28.723841Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
@@ -20773,13 +20773,16 @@
             "2016 PROMOCIONALES": {
               "match_id": 215179,
               "goles_local": 0,
-              "goles_visitante": 0,
+              "goles_visitante": 5,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-08-01 12:30",
               "sede": "Miriñaque",
               "direccion": "Cachi 781, CABA",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260801-171540-image.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-9ubkl7lgnbxuns6urernoovkdb72/20260801-171545-image.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
