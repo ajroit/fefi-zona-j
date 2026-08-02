@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-01T22:57:15.511350Z",
+  "actualizado": "2026-08-02T02:56:30.168337Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Apertura",
@@ -8330,14 +8330,17 @@
           "partidos": {
             "RESERVA ADULTAS FEMENINO ": {
               "match_id": 215176,
-              "goles_local": 0,
+              "goles_local": 1,
               "goles_visitante": 0,
               "jugado": true,
               "estado": "",
               "fecha_hora": "2026-08-01 19:45",
               "sede": "Club Alvear",
               "direccion": "Av. Directorio 4147, Parque Avellaneda",
-              "planillas": null
+              "planillas": [
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260802-000515-1000634786.jpg",
+                "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-o9yftbzghqq4ikubylfz4yglpuj1/20260802-000517-1000634785.jpg"
+              ]
             }
           },
           "estado": "Finalizado"
