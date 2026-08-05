@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-03T02:57:25.058520+00:00",
+  "actualizado": "2026-08-05T12:16:56.077488+00:00",
   "zona": "J",
   "torneo": "anual",
   "anio": 2026,
@@ -7797,11 +7797,11 @@
     "general": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 98,
-        "g": 67,
-        "e": 4,
-        "p": 27,
-        "pts": 236,
+        "pj": 105,
+        "g": 72,
+        "e": 5,
+        "p": 28,
+        "pts": 254,
         "posicion": 1
       },
       {
@@ -7814,30 +7814,30 @@
         "posicion": 2
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 105,
+        "g": 54,
+        "e": 9,
+        "p": 42,
+        "pts": 222,
+        "posicion": 3
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 103,
+        "g": 50,
+        "e": 12,
+        "p": 41,
+        "pts": 215,
+        "posicion": 4
+      },
+      {
         "equipo": "FERRO C. O.",
         "pj": 98,
         "g": 52,
         "e": 7,
         "p": 39,
         "pts": 209,
-        "posicion": 3
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 98,
-        "g": 51,
-        "e": 8,
-        "p": 39,
-        "pts": 208,
-        "posicion": 4
-      },
-      {
-        "equipo": "HOMERO",
-        "pj": 96,
-        "g": 49,
-        "e": 11,
-        "p": 36,
-        "pts": 205,
         "posicion": 5
       },
       {
@@ -7850,31 +7850,40 @@
         "posicion": 6
       },
       {
+        "equipo": "ESTRELLA",
+        "pj": 97,
+        "g": 46,
+        "e": 8,
+        "p": 43,
+        "pts": 197,
+        "posicion": 7
+      },
+      {
         "equipo": "A DOS TOQUES F. C.",
         "pj": 98,
         "g": 46,
         "e": 11,
         "p": 36,
         "pts": 196,
-        "posicion": 7
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 90,
-        "g": 43,
-        "e": 7,
-        "p": 40,
-        "pts": 183,
         "posicion": 8
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 98,
-        "g": 39,
+        "pj": 105,
+        "g": 41,
         "e": 6,
-        "p": 52,
-        "pts": 181,
+        "p": 57,
+        "pts": 192,
         "posicion": 9
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 98,
+        "g": 40,
+        "e": 10,
+        "p": 48,
+        "pts": 188,
+        "posicion": 10
       },
       {
         "equipo": "EL ATALAYA",
@@ -7883,7 +7892,7 @@
         "e": 7,
         "p": 32,
         "pts": 178,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -7892,7 +7901,7 @@
         "e": 7,
         "p": 38,
         "pts": 175,
-        "posicion": 11
+        "posicion": 12
       },
       {
         "equipo": "LIBERAL",
@@ -7900,15 +7909,6 @@
         "g": 34,
         "e": 6,
         "p": 57,
-        "pts": 171,
-        "posicion": 12
-      },
-      {
-        "equipo": "LOMAS DE LUGANO",
-        "pj": 91,
-        "g": 35,
-        "e": 10,
-        "p": 46,
         "pts": 171,
         "posicion": 13
       },
@@ -7943,11 +7943,11 @@
     "2019": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 14,
+        "pj": 15,
+        "g": 15,
         "e": 0,
         "p": 0,
-        "pts": 42,
+        "pts": 45,
         "posicion": 1
       },
       {
@@ -7969,16 +7969,16 @@
         "posicion": 3
       },
       {
-        "equipo": "CLUB SAHORES",
-        "pj": 13,
-        "g": 10,
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 14,
+        "g": 11,
         "e": 0,
         "p": 3,
-        "pts": 33,
+        "pts": 36,
         "posicion": 4
       },
       {
-        "equipo": "LOMAS DE LUGANO",
+        "equipo": "CLUB SAHORES",
         "pj": 13,
         "g": 10,
         "e": 0,
@@ -7997,11 +7997,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 14,
+        "pj": 15,
         "g": 8,
         "e": 0,
-        "p": 6,
-        "pts": 30,
+        "p": 7,
+        "pts": 31,
         "posicion": 7
       },
       {
@@ -8015,29 +8015,29 @@
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 0,
-        "p": 8,
-        "pts": 26,
+        "p": 9,
+        "pts": 27,
         "posicion": 9
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 13,
-        "g": 4,
+        "pj": 14,
+        "g": 5,
         "e": 1,
         "p": 8,
-        "pts": 22,
+        "pts": 25,
         "posicion": 10
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
         "e": 1,
-        "p": 8,
-        "pts": 22,
+        "p": 9,
+        "pts": 23,
         "posicion": 11
       },
       {
@@ -8098,12 +8098,21 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 14,
-        "g": 11,
+        "pj": 15,
+        "g": 12,
         "e": 2,
         "p": 1,
-        "pts": 38,
+        "pts": 41,
         "posicion": 2
+      },
+      {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 14,
+        "g": 10,
+        "e": 2,
+        "p": 2,
+        "pts": 36,
+        "posicion": 3
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8112,15 +8121,6 @@
         "e": 2,
         "p": 3,
         "pts": 34,
-        "posicion": 3
-      },
-      {
-        "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "pts": 33,
         "posicion": 4
       },
       {
@@ -8134,12 +8134,21 @@
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 4,
-        "p": 4,
-        "pts": 30,
+        "p": 5,
+        "pts": 31,
         "posicion": 6
+      },
+      {
+        "equipo": "ESTRELLA",
+        "pj": 14,
+        "g": 7,
+        "e": 1,
+        "p": 6,
+        "pts": 29,
+        "posicion": 7
       },
       {
         "equipo": "LIBERAL",
@@ -8148,7 +8157,7 @@
         "e": 0,
         "p": 7,
         "pts": 28,
-        "posicion": 7
+        "posicion": 8
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8157,16 +8166,16 @@
         "e": 1,
         "p": 5,
         "pts": 28,
-        "posicion": 8
+        "posicion": 9
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 13,
+        "equipo": "MENDEVILLE",
+        "pj": 15,
         "g": 6,
-        "e": 1,
-        "p": 6,
-        "pts": 26,
-        "posicion": 9
+        "e": 0,
+        "p": 9,
+        "pts": 27,
+        "posicion": 10
       },
       {
         "equipo": "TORINO",
@@ -8174,15 +8183,6 @@
         "g": 6,
         "e": 1,
         "p": 6,
-        "pts": 26,
-        "posicion": 10
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 14,
-        "g": 6,
-        "e": 0,
-        "p": 8,
         "pts": 26,
         "posicion": 11
       },
@@ -8206,11 +8206,11 @@
       },
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
+        "pj": 15,
         "g": 2,
         "e": 0,
-        "p": 12,
-        "pts": 18,
+        "p": 13,
+        "pts": 19,
         "posicion": 14
       },
       {
@@ -8235,11 +8235,11 @@
     "2018": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 13,
+        "pj": 15,
+        "g": 14,
         "e": 1,
         "p": 0,
-        "pts": 41,
+        "pts": 44,
         "posicion": 1
       },
       {
@@ -8252,21 +8252,21 @@
         "posicion": 2
       },
       {
+        "equipo": "ESTRELLA",
+        "pj": 14,
+        "g": 9,
+        "e": 3,
+        "p": 2,
+        "pts": 35,
+        "posicion": 3
+      },
+      {
         "equipo": "30 DE OCTUBRE",
         "pj": 14,
         "g": 10,
         "e": 0,
         "p": 4,
         "pts": 34,
-        "posicion": 3
-      },
-      {
-        "equipo": "ESTRELLA",
-        "pj": 13,
-        "g": 9,
-        "e": 2,
-        "p": 2,
-        "pts": 33,
         "posicion": 4
       },
       {
@@ -8289,11 +8289,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 14,
+        "pj": 15,
         "g": 7,
         "e": 1,
-        "p": 6,
-        "pts": 29,
+        "p": 7,
+        "pts": 30,
         "posicion": 7
       },
       {
@@ -8306,13 +8306,22 @@
         "posicion": 8
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "LOMAS DE LUGANO",
         "pj": 14,
         "g": 6,
-        "e": 0,
-        "p": 8,
-        "pts": 26,
+        "e": 1,
+        "p": 7,
+        "pts": 27,
         "posicion": 9
+      },
+      {
+        "equipo": "MENDEVILLE",
+        "pj": 15,
+        "g": 6,
+        "e": 0,
+        "p": 9,
+        "pts": 27,
+        "posicion": 10
       },
       {
         "equipo": "SANELI F.C.",
@@ -8321,7 +8330,7 @@
         "e": 0,
         "p": 8,
         "pts": 26,
-        "posicion": 10
+        "posicion": 11
       },
       {
         "equipo": "TORINO",
@@ -8330,24 +8339,15 @@
         "e": 0,
         "p": 7,
         "pts": 25,
-        "posicion": 11
-      },
-      {
-        "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
-        "g": 5,
-        "e": 1,
-        "p": 7,
-        "pts": 24,
         "posicion": 12
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
+        "pj": 15,
         "g": 4,
-        "e": 0,
+        "e": 1,
         "p": 10,
-        "pts": 22,
+        "pts": 24,
         "posicion": 13
       },
       {
@@ -8389,13 +8389,31 @@
         "posicion": 1
       },
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "pts": 36,
+        "posicion": 2
+      },
+      {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 15,
+        "g": 10,
+        "e": 0,
+        "p": 5,
+        "pts": 35,
+        "posicion": 3
+      },
+      {
         "equipo": "CLUB SAHORES",
         "pj": 13,
         "g": 10,
         "e": 1,
         "p": 2,
         "pts": 34,
-        "posicion": 2
+        "posicion": 4
       },
       {
         "equipo": "30 DE OCTUBRE",
@@ -8404,24 +8422,6 @@
         "e": 5,
         "p": 2,
         "pts": 33,
-        "posicion": 3
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
-        "g": 9,
-        "e": 1,
-        "p": 4,
-        "pts": 33,
-        "posicion": 4
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 9,
-        "e": 0,
-        "p": 5,
-        "pts": 32,
         "posicion": 5
       },
       {
@@ -8444,11 +8444,11 @@
       },
       {
         "equipo": "HOMERO",
-        "pj": 14,
+        "pj": 15,
         "g": 6,
         "e": 2,
-        "p": 6,
-        "pts": 28,
+        "p": 7,
+        "pts": 29,
         "posicion": 8
       },
       {
@@ -8470,21 +8470,21 @@
         "posicion": 10
       },
       {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 14,
+        "g": 4,
+        "e": 3,
+        "p": 7,
+        "pts": 25,
+        "posicion": 11
+      },
+      {
         "equipo": "TORINO",
         "pj": 13,
         "g": 5,
         "e": 2,
         "p": 6,
         "pts": 25,
-        "posicion": 11
-      },
-      {
-        "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
-        "g": 3,
-        "e": 3,
-        "p": 7,
-        "pts": 22,
         "posicion": 12
       },
       {
@@ -8498,20 +8498,20 @@
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 13,
+        "pj": 14,
         "g": 3,
         "e": 0,
-        "p": 10,
-        "pts": 19,
+        "p": 11,
+        "pts": 20,
         "posicion": 14
       },
       {
         "equipo": "MENDEVILLE",
-        "pj": 14,
+        "pj": 15,
         "g": 1,
         "e": 0,
-        "p": 13,
-        "pts": 16,
+        "p": 14,
+        "pts": 17,
         "posicion": 15
       },
       {
@@ -8527,20 +8527,20 @@
     "2017": [
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 12,
+        "pj": 15,
+        "g": 13,
         "e": 0,
         "p": 2,
-        "pts": 38,
+        "pts": 41,
         "posicion": 1
       },
       {
         "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
-        "g": 11,
+        "pj": 15,
+        "g": 12,
         "e": 2,
         "p": 1,
-        "pts": 38,
+        "pts": 41,
         "posicion": 2
       },
       {
@@ -8581,21 +8581,30 @@
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 13,
+        "pj": 14,
         "g": 6,
         "e": 2,
-        "p": 5,
-        "pts": 27,
+        "p": 6,
+        "pts": 28,
         "posicion": 7
       },
       {
+        "equipo": "MENDEVILLE",
+        "pj": 15,
+        "g": 6,
+        "e": 1,
+        "p": 8,
+        "pts": 28,
+        "posicion": 8
+      },
+      {
         "equipo": "HOMERO",
-        "pj": 14,
+        "pj": 15,
         "g": 5,
         "e": 3,
-        "p": 6,
-        "pts": 27,
-        "posicion": 8
+        "p": 7,
+        "pts": 28,
+        "posicion": 9
       },
       {
         "equipo": "TORINO",
@@ -8603,15 +8612,6 @@
         "g": 6,
         "e": 0,
         "p": 7,
-        "pts": 25,
-        "posicion": 9
-      },
-      {
-        "equipo": "MENDEVILLE",
-        "pj": 14,
-        "g": 5,
-        "e": 1,
-        "p": 8,
         "pts": 25,
         "posicion": 10
       },
@@ -8653,11 +8653,11 @@
       },
       {
         "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 0,
-        "p": 12,
-        "pts": 15,
+        "p": 13,
+        "pts": 16,
         "posicion": 15
       },
       {
@@ -8672,48 +8672,48 @@
     ],
     "2016": [
       {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 15,
+        "g": 13,
+        "e": 0,
+        "p": 2,
+        "pts": 41,
+        "posicion": 1
+      },
+      {
         "equipo": "30 DE OCTUBRE",
         "pj": 14,
         "g": 13,
         "e": 0,
         "p": 1,
         "pts": 40,
-        "posicion": 1
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
-        "g": 12,
-        "e": 0,
-        "p": 2,
-        "pts": 38,
         "posicion": 2
       },
       {
         "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 8,
+        "pj": 15,
+        "g": 9,
         "e": 2,
         "p": 4,
-        "pts": 32,
+        "pts": 35,
         "posicion": 3
       },
       {
-        "equipo": "ESTRELLA",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
+        "equipo": "MENDEVILLE",
+        "pj": 15,
+        "g": 8,
+        "e": 4,
         "p": 3,
-        "pts": 32,
+        "pts": 35,
         "posicion": 4
       },
       {
-        "equipo": "MENDEVILLE",
+        "equipo": "ESTRELLA",
         "pj": 14,
-        "g": 7,
-        "e": 4,
-        "p": 3,
-        "pts": 32,
+        "g": 9,
+        "e": 1,
+        "p": 4,
+        "pts": 33,
         "posicion": 5
       },
       {
@@ -8771,16 +8771,16 @@
         "posicion": 11
       },
       {
-        "equipo": "CLUB SAHORES",
-        "pj": 13,
+        "equipo": "HOMERO",
+        "pj": 14,
         "g": 3,
         "e": 2,
-        "p": 8,
-        "pts": 21,
+        "p": 9,
+        "pts": 22,
         "posicion": 12
       },
       {
-        "equipo": "HOMERO",
+        "equipo": "CLUB SAHORES",
         "pj": 13,
         "g": 3,
         "e": 2,
@@ -8790,11 +8790,11 @@
       },
       {
         "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
+        "pj": 14,
         "g": 1,
         "e": 2,
-        "p": 10,
-        "pts": 17,
+        "p": 11,
+        "pts": 18,
         "posicion": 14
       },
       {
@@ -8827,13 +8827,31 @@
         "posicion": 1
       },
       {
+        "equipo": "CLUB SAAVEDRA",
+        "pj": 15,
+        "g": 9,
+        "e": 2,
+        "p": 4,
+        "pts": 35,
+        "posicion": 2
+      },
+      {
         "equipo": "MENDEVILLE",
-        "pj": 14,
+        "pj": 15,
         "g": 10,
         "e": 0,
-        "p": 4,
+        "p": 5,
+        "pts": 35,
+        "posicion": 3
+      },
+      {
+        "equipo": "HOMERO",
+        "pj": 14,
+        "g": 9,
+        "e": 2,
+        "p": 3,
         "pts": 34,
-        "posicion": 2
+        "posicion": 4
       },
       {
         "equipo": "FERRO C. O.",
@@ -8842,16 +8860,7 @@
         "e": 1,
         "p": 4,
         "pts": 33,
-        "posicion": 3
-      },
-      {
-        "equipo": "CLUB SAAVEDRA",
-        "pj": 14,
-        "g": 9,
-        "e": 1,
-        "p": 4,
-        "pts": 33,
-        "posicion": 4
+        "posicion": 5
       },
       {
         "equipo": "A DOS TOQUES F. C.",
@@ -8860,15 +8869,6 @@
         "e": 1,
         "p": 4,
         "pts": 33,
-        "posicion": 5
-      },
-      {
-        "equipo": "HOMERO",
-        "pj": 13,
-        "g": 9,
-        "e": 1,
-        "p": 3,
-        "pts": 32,
         "posicion": 6
       },
       {
@@ -8881,31 +8881,40 @@
         "posicion": 7
       },
       {
+        "equipo": "LOMAS DE LUGANO",
+        "pj": 14,
+        "g": 7,
+        "e": 2,
+        "p": 5,
+        "pts": 30,
+        "posicion": 8
+      },
+      {
         "equipo": "CLUB COMUNICACIONES",
         "pj": 13,
         "g": 7,
         "e": 1,
         "p": 5,
         "pts": 28,
-        "posicion": 8
-      },
-      {
-        "equipo": "LOMAS DE LUGANO",
-        "pj": 13,
-        "g": 6,
-        "e": 2,
-        "p": 5,
-        "pts": 27,
         "posicion": 9
       },
       {
         "equipo": "ESTRELLA",
-        "pj": 12,
-        "g": 6,
+        "pj": 13,
+        "g": 7,
         "e": 0,
         "p": 6,
-        "pts": 24,
+        "pts": 27,
         "posicion": 10
+      },
+      {
+        "equipo": "PACIFICO MAR PLAST",
+        "pj": 15,
+        "g": 3,
+        "e": 1,
+        "p": 11,
+        "pts": 22,
+        "posicion": 11
       },
       {
         "equipo": "TORINO",
@@ -8914,7 +8923,7 @@
         "e": 0,
         "p": 9,
         "pts": 21,
-        "posicion": 11
+        "posicion": 12
       },
       {
         "equipo": "SOL DE AMERICA",
@@ -8922,15 +8931,6 @@
         "g": 5,
         "e": 0,
         "p": 6,
-        "pts": 21,
-        "posicion": 12
-      },
-      {
-        "equipo": "PACIFICO MAR PLAST",
-        "pj": 14,
-        "g": 3,
-        "e": 1,
-        "p": 10,
         "pts": 21,
         "posicion": 13
       },
