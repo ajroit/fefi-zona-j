@@ -1,0 +1,602 @@
+{
+  "actualizado": "2026-08-04T22:39:44.027879",
+  "torneo": "Torneo Joma 2026 - Promocionales Zona C (Clausura)",
+  "torneo_id": "futsal-promo",
+  "equipo_foco": "VILLA SAHORES",
+  "categorias": [
+    "2016 PROMOCIONALES",
+    "2017 PROMOCIONALES",
+    "2018 PROMOCIONALES",
+    "2019 PROMOCIONALES"
+  ],
+  "equipos": [
+    {
+      "nombre": "ARGENTINO DE MATADEROS"
+    },
+    {
+      "nombre": "DEPORTIVO EL TIO"
+    },
+    {
+      "nombre": "COPELLO FUTSAL"
+    },
+    {
+      "nombre": "SOCIAL PARQUE"
+    },
+    {
+      "nombre": "JOSE MARIA BOSCH"
+    },
+    {
+      "nombre": "SAN TELMO"
+    },
+    {
+      "nombre": "CABALLITO JUNIORS"
+    },
+    {
+      "nombre": "CAFAYATE FC"
+    },
+    {
+      "nombre": "25 DE MAYO (LAFERRERE)"
+    },
+    {
+      "nombre": "SUELA DORADA"
+    },
+    {
+      "nombre": "VILLA SAHORES"
+    },
+    {
+      "nombre": "HURACAN"
+    },
+    {
+      "nombre": "EXCURSIONISTAS B (PROMO)"
+    }
+  ],
+  "fechas": [
+    {
+      "numero": 1,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "SOCIAL PARQUE",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "JOSE MARIA BOSCH",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "CAFAYATE FC",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "25 DE MAYO (LAFERRERE)",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "HURACAN",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "HURACAN",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SAN TELMO",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "DEPORTIVO EL TIO",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "JOSE MARIA BOSCH",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "SOCIAL PARQUE",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "25 DE MAYO (LAFERRERE)",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "CAFAYATE FC",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS B (PROMO)",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "HURACAN",
+          "visitante": "ARGENTINO DE MATADEROS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SAN TELMO",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "DEPORTIVO EL TIO",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "25 DE MAYO (LAFERRERE)",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "SOCIAL PARQUE",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS B (PROMO)",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "HURACAN",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SUELA DORADA",
+          "visitante": "ARGENTINO DE MATADEROS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "HURACAN",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "DEPORTIVO EL TIO",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "JOSE MARIA BOSCH",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "25 DE MAYO (LAFERRERE)",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS B (PROMO)",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "HURACAN",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "CAFAYATE FC",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "ARGENTINO DE MATADEROS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SAN TELMO",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "HURACAN",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "JOSE MARIA BOSCH",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS B (PROMO)",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "HURACAN",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "SOCIAL PARQUE",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SAN TELMO",
+          "visitante": "ARGENTINO DE MATADEROS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "CAFAYATE FC",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "DEPORTIVO EL TIO",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "HURACAN",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "25 DE MAYO (LAFERRERE)",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS B (PROMO)",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "HURACAN",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SAN TELMO",
+          "visitante": "SOCIAL PARQUE",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "ARGENTINO DE MATADEROS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "DEPORTIVO EL TIO",
+          "visitante": "SAN TELMO",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "CAFAYATE FC",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "JOSE MARIA BOSCH",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CABALLITO JUNIORS",
+          "visitante": "HURACAN",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "ARGENTINO DE MATADEROS",
+          "visitante": "EXCURSIONISTAS B (PROMO)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "HURACAN",
+          "visitante": "25 DE MAYO (LAFERRERE)",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "CABALLITO JUNIORS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CAFAYATE FC",
+          "visitante": "JOSE MARIA BOSCH",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SAN TELMO",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SOCIAL PARQUE",
+          "visitante": "DEPORTIVO EL TIO",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    }
+  ],
+  "tablas_posiciones": {}
+}

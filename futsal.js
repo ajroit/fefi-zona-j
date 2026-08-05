@@ -4,15 +4,20 @@
 // ==========================================
 
 const FUTSAL_REGULAR_DATA_URL = "data/futsal-data.json";
+const FUTSAL_ELITE_DATA_URL = "data/futsal-elite-data.json";
+const FUTSAL_PROMO_DATA_URL = "data/futsal-promo-data.json";
 const FUTSAL_DUELOS_DATA_URL = "data/futsal-duelos-data.json";
 const FUTSAL_STORAGE_KEY = "futsal-cat-preferida";
 const FUTSAL_SUBTORNEO_STORAGE_KEY = "futsal-subtorneo-preferido";
 
 let FUTSAL_DATA = null;
 let FUTSAL_REGULAR_DATA = null;
+let FUTSAL_ELITE_DATA = null;
+let FUTSAL_PROMO_DATA = null;
 let FUTSAL_DUELOS_DATA = null;
-let futsalSubTorneoActual = "duelos";
+let futsalSubTorneoActual = "elite";
 let futsalCategoriaActual = "general";
+let futsalIsPromoMode = false;
 
 // Orden de prioridad de categorías para mostrar
 const FUTSAL_CAT_PRIORIDAD = [
@@ -47,8 +52,10 @@ const FUTSAL_CAT_LABELS = {
 // ---- Carga de datos ----
 async function initFutsal() {
   const savedSub = localStorage.getItem(FUTSAL_SUBTORNEO_STORAGE_KEY);
-  if (savedSub && (savedSub === "duelos" || savedSub === "regular")) {
+  if (savedSub && (savedSub === "elite" || savedSub === "antecedentes")) {
     futsalSubTorneoActual = savedSub;
+  } else {
+    futsalSubTorneoActual = "elite";
   }
 
   try {
@@ -58,22 +65,38 @@ async function initFutsal() {
       if (!res.ok) res = await fetch("../" + FUTSAL_REGULAR_DATA_URL + cacheBust);
       FUTSAL_REGULAR_DATA = await res.json();
     }
-    if (!FUTSAL_DUELOS_DATA) {
-      let res = await fetch(FUTSAL_DUELOS_DATA_URL + cacheBust);
-      if (!res.ok) res = await fetch("../" + FUTSAL_DUELOS_DATA_URL + cacheBust);
-      FUTSAL_DUELOS_DATA = await res.json();
+    if (!FUTSAL_ELITE_DATA) {
+      try {
+        let res = await fetch(FUTSAL_ELITE_DATA_URL + cacheBust);
+        if (!res.ok) res = await fetch("../" + FUTSAL_ELITE_DATA_URL + cacheBust);
+        FUTSAL_ELITE_DATA = await res.json();
+      } catch (e) {
+        console.warn("Could not fetch futsal-elite-data.json:", e);
+      }
     }
   } catch (err) {
     console.error("Error cargando datos Futsal:", err);
     return null;
   }
 
-  FUTSAL_DATA = (futsalSubTorneoActual === "duelos") ? FUTSAL_DUELOS_DATA : FUTSAL_REGULAR_DATA;
+  // Si es elite (Clausura 2026), usamos las tablas de Elite A
+  if (futsalSubTorneoActual === "elite") {
+    FUTSAL_DATA = FUTSAL_ELITE_DATA || {
+      actualizado: FUTSAL_REGULAR_DATA.actualizado || new Date().toISOString(),
+      torneo: "Torneo Joma 2026 - Elite A",
+      equipo_foco: "VILLA SAHORES",
+      categorias: FUTSAL_REGULAR_DATA.categorias || [],
+      equipos: [],
+      fechas: [],
+      tablas_posiciones: {}
+    };
+  } else {
+    // antecedentes (Apertura Liga de Honor B)
+    FUTSAL_DATA = FUTSAL_REGULAR_DATA;
+  }
 
   const guardada = localStorage.getItem(FUTSAL_STORAGE_KEY);
-  const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-    ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-    : FUTSAL_DATA.categorias;
+  const categoriesToCheck = FUTSAL_DATA.categorias || [];
 
   if (guardada && (guardada === "general" || categoriesToCheck.includes(guardada))) {
     futsalCategoriaActual = guardada;
@@ -110,9 +133,8 @@ function futsalPartidosDelFoco(categoria) {
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
         let out_sede = null, out_dir = null, out_hora = null, out_fecha = null, out_match_id = null;
-        const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-          ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-          : FUTSAL_DATA.categorias;
+        const allowed = futsalObtenerCategoriasPermitidas();
+        const categoriesToCheck = (FUTSAL_DATA.categorias || []).filter(c => allowed.includes(c));
         for (const cat of categoriesToCheck) {
           const p = enc.partidos[cat];
           if (p) {
@@ -148,33 +170,32 @@ function futsalPartidosDelFoco(categoria) {
           match_id: out_match_id
         });
       } else {
-        const p = enc.partidos[categoria];
-        if (!p) continue;
+        const p = (enc.partidos && enc.partidos[categoria]) ? enc.partidos[categoria] : null;
 
-        // Si el encuentro ya finalizó pero esta categoría no tiene scores,
-        // significa que no participó (NP/walkover) — se marca como jugado
         const encuentroFinalizado = enc.estado === "Finalizado";
-        const tieneScores = p.jugado;
+        const tieneScores = p ? p.jugado : false;
 
         let out_fecha = null;
-        if (p.fecha_hora) {
+        if (p && p.fecha_hora) {
           const fh = p.fecha_hora;
           out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
         }
 
         out.push({
-          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
-          rival, esLocal,
-          gf: esLocal ? p.goles_local : p.goles_visitante,
-          gc: esLocal ? p.goles_visitante : p.goles_local,
-          jugado: tieneScores || encuentroFinalizado,
+          numero: fecha.numero,
+          fecha: out_fecha || fecha.fecha_partido,
+          rival,
+          esLocal,
+          gf: p ? (esLocal ? p.goles_local : p.goles_visitante) : null,
+          gc: p ? (esLocal ? p.goles_visitante : p.goles_local) : null,
+          jugado: tieneScores || (encuentroFinalizado && p != null),
           noParticipo: encuentroFinalizado && !tieneScores,
           estado: enc.estado,
-          sede: p.sede,
-          direccion: p.direccion,
-          hora: p.fecha_hora ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
-          planillas: p.planillas || [] ,
-          match_id: p.match_id
+          sede: p ? p.sede : null,
+          direccion: p ? p.direccion : null,
+          hora: (p && p.fecha_hora) ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
+          planillas: (p && p.planillas) || [],
+          match_id: p ? p.match_id : null
         });
       }
     }
@@ -198,13 +219,21 @@ function futsalRenderHeader() {
     }).format(new Date(FUTSAL_DATA.actualizado));
 }
 
+const PROMO_CATS = ["2016 PROMOCIONALES", "2017 PROMOCIONALES", "2018 PROMOCIONALES", "2019 PROMOCIONALES"];
+const MAYORES_CATS = ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"];
+
+function futsalObtenerCategoriasPermitidas() {
+  if (futsalIsPromoMode) return PROMO_CATS;
+  return MAYORES_CATS;
+}
+
 // ---- Render selector de categorías ----
 function futsalRenderCategorySelector() {
   const wrap = document.getElementById("cat-selector");
   const opts = [{ key: "general", label: "General" }];
-  const categoriesToShow = (futsalSubTorneoActual === "duelos")
-    ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-    : FUTSAL_DATA.categorias;
+  const allowedCats = futsalObtenerCategoriasPermitidas();
+  const categoriesToShow = (FUTSAL_DATA.categorias || []).filter(c => allowedCats.includes(c));
+  
   FUTSAL_CAT_PRIORIDAD.forEach(c => {
     if (categoriesToShow.includes(c)) {
       opts.push({ key: c, label: FUTSAL_CAT_LABELS[c] || c });
@@ -527,8 +556,8 @@ function setupFutsalSubTournamentSelector() {
   if (!selector) return;
 
   selector.innerHTML = `
-    <button class="sub-tab-btn ${futsalSubTorneoActual === "duelos" ? "active" : ""}" data-sub="duelos">🏆 Torneo de Duelos</button>
-    <button class="sub-tab-btn ${futsalSubTorneoActual === "regular" ? "active" : ""}" data-sub="regular">📊 Fase Regular</button>
+    <button class="sub-tab-btn ${futsalSubTorneoActual === "elite" ? "active" : ""}" data-sub="elite">🏆 Elite A (Clausura)</button>
+    <button class="sub-tab-btn ${futsalSubTorneoActual === "antecedentes" ? "active" : ""}" data-sub="antecedentes">📜 Antecedentes (Apertura Honor B)</button>
   `;
 
   selector.querySelectorAll(".sub-tab-btn").forEach(btn => {
@@ -544,13 +573,21 @@ function setupFutsalSubTournamentSelector() {
       }
 
       // Re-initialize dataset reference
-      FUTSAL_DATA = (sub === "duelos") ? FUTSAL_DUELOS_DATA : FUTSAL_REGULAR_DATA;
-      
-      // Fallback category if needed
-      const categoriesToCheck = (futsalSubTorneoActual === "duelos")
-        ? ["PRIMERA MASCULINO", "TERCERA MASCULINO", "CUARTA MASCULINO", "QUINTA MASCULINO", "SEXTA MASCULINO", "SEPTIMA MASCULINO", "OCTAVA MASCULINO"]
-        : FUTSAL_DATA.categorias;
+      if (sub === "elite") {
+        FUTSAL_DATA = FUTSAL_ELITE_DATA || {
+          actualizado: FUTSAL_REGULAR_DATA.actualizado || new Date().toISOString(),
+          torneo: "Torneo Joma 2026 - Elite A",
+          equipo_foco: "VILLA SAHORES",
+          categorias: FUTSAL_REGULAR_DATA.categorias || [],
+          equipos: [],
+          fechas: [],
+          tablas_posiciones: {}
+        };
+      } else {
+        FUTSAL_DATA = FUTSAL_REGULAR_DATA;
+      }
 
+      const categoriesToCheck = FUTSAL_DATA.categorias || [];
       if (futsalCategoriaActual !== "general" && !categoriesToCheck.includes(futsalCategoriaActual)) {
         futsalCategoriaActual = "general";
       }
@@ -567,8 +604,9 @@ function setupFutsalSubTournamentSelector() {
   });
 }
 
-// ---- Activar futsal ----
+// ---- Activar futsal Elite A ----
 async function activarFutsal() {
+  futsalIsPromoMode = false;
   const data = await initFutsal();
   if (!data) {
     document.querySelector("main").innerHTML =
@@ -580,4 +618,70 @@ async function activarFutsal() {
   futsalRenderHeader();
   futsalRenderCategorySelector();
   futsalRender();
+}
+
+// ---- Activar futsal Promocionales ----
+async function activarFutsalPromo() {
+  futsalIsPromoMode = true;
+  const cacheBust = "?v=" + new Date().getTime();
+  if (!FUTSAL_PROMO_DATA) {
+    try {
+      let res = await fetch(FUTSAL_PROMO_DATA_URL + cacheBust);
+      if (!res.ok) res = await fetch("../" + FUTSAL_PROMO_DATA_URL + cacheBust);
+      FUTSAL_PROMO_DATA = await res.json();
+    } catch (e) {
+      console.warn("Could not fetch futsal-promo-data.json:", e);
+    }
+  }
+  if (!FUTSAL_REGULAR_DATA) {
+    try {
+      let res = await fetch(FUTSAL_REGULAR_DATA_URL + cacheBust);
+      if (!res.ok) res = await fetch("../" + FUTSAL_REGULAR_DATA_URL + cacheBust);
+      FUTSAL_REGULAR_DATA = await res.json();
+    } catch (e) {}
+  }
+  
+  const savedSub = localStorage.getItem("futsal-promo-subtorneo-preferido") || "promo";
+  futsalSubTorneoActual = savedSub;
+  FUTSAL_DATA = (futsalSubTorneoActual === "antecedentes") ? FUTSAL_REGULAR_DATA : (FUTSAL_PROMO_DATA || FUTSAL_REGULAR_DATA);
+
+  setupFutsalPromoSubTournamentSelector();
+  futsalRenderHeader();
+  futsalRenderCategorySelector();
+  futsalRender();
+}
+
+function setupFutsalPromoSubTournamentSelector() {
+  const container = document.getElementById("sub-tournament-container");
+  if (!container) return;
+  container.style.display = "block";
+
+  const selector = document.getElementById("sub-tournament-selector");
+  if (!selector) return;
+
+  selector.innerHTML = `
+    <button class="sub-tab-btn ${futsalSubTorneoActual === "promo" ? "active" : ""}" data-sub="promo">🏆 Zona C (Clausura)</button>
+    <button class="sub-tab-btn ${futsalSubTorneoActual === "antecedentes" ? "active" : ""}" data-sub="antecedentes">📜 Antecedentes (Apertura Honor B)</button>
+  `;
+
+  selector.querySelectorAll(".sub-tab-btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const sub = btn.dataset.sub;
+      if (sub === futsalSubTorneoActual) return;
+
+      futsalSubTorneoActual = sub;
+      localStorage.setItem("futsal-promo-subtorneo-preferido", sub);
+
+      FUTSAL_DATA = (sub === "promo") ? (FUTSAL_PROMO_DATA || FUTSAL_REGULAR_DATA) : FUTSAL_REGULAR_DATA;
+      futsalCategoriaActual = "general";
+
+      selector.querySelectorAll(".sub-tab-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.sub === sub);
+      });
+
+      futsalRenderHeader();
+      futsalRenderCategorySelector();
+      futsalRender();
+    });
+  });
 }

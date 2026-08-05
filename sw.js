@@ -1,5 +1,5 @@
 // sw.js - Service Worker para Villa Sahores Dashboard
-const CACHE_NAME = "sahores-v7";
+const CACHE_NAME = "sahores-v12";
 const STATIC_ASSETS = [
   "/",
   "/index.html",

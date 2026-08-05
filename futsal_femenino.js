@@ -103,33 +103,32 @@ function futsalFemeninoPartidosDelFoco(categoria) {
           match_id: out_match_id
         });
       } else {
-        const p = enc.partidos[categoria];
-        if (!p) continue;
+        const p = (enc.partidos && enc.partidos[categoria]) ? enc.partidos[categoria] : null;
 
-        // Si el encuentro ya finalizó pero esta categoría no tiene scores,
-        // significa que no participó (NP/walkover) — se marca como jugado
         const encuentroFinalizado = enc.estado === "Finalizado";
-        const tieneScores = p.jugado;
+        const tieneScores = p ? p.jugado : false;
 
         let out_fecha = null;
-        if (p.fecha_hora) {
+        if (p && p.fecha_hora) {
           const fh = p.fecha_hora;
           out_fecha = fh.includes(" ") ? fh.split(" ")[0] : (fh.includes("T") ? fh.split("T")[0] : null);
         }
 
         out.push({
-          numero: fecha.numero, fecha: out_fecha || fecha.fecha_partido,
-          rival, esLocal,
-          gf: esLocal ? p.goles_local : p.goles_visitante,
-          gc: esLocal ? p.goles_visitante : p.goles_local,
-          jugado: tieneScores || encuentroFinalizado,
+          numero: fecha.numero,
+          fecha: out_fecha || fecha.fecha_partido,
+          rival,
+          esLocal,
+          gf: p ? (esLocal ? p.goles_local : p.goles_visitante) : null,
+          gc: p ? (esLocal ? p.goles_visitante : p.goles_local) : null,
+          jugado: tieneScores || (encuentroFinalizado && p != null),
           noParticipo: encuentroFinalizado && !tieneScores,
           estado: enc.estado,
-          sede: p.sede,
-          direccion: p.direccion,
-          hora: p.fecha_hora ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
-          planillas: p.planillas || [] ,
-          match_id: p.match_id
+          sede: p ? p.sede : null,
+          direccion: p ? p.direccion : null,
+          hora: (p && p.fecha_hora) ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
+          planillas: (p && p.planillas) || [],
+          match_id: p ? p.match_id : null
         });
       }
     }

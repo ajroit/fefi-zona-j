@@ -57,9 +57,14 @@ function actualizarStatsYTablas(torneoNombre, categoriaActual, focusTeamName) {
   let players = [];
 
   if (categoriaActual === "general") {
-    // Agrupar y sumar goleadores de todas las categorías correspondientes a este equipo (focusTeamName)
+    // Agrupar y sumar goleadores de las categorías permitidas correspondientes a este equipo
+    const allowedCats = (typeof futsalObtenerCategoriasPermitidas === "function")
+      ? futsalObtenerCategoriasPermitidas()
+      : null;
+
     const aggregated = {};
     for (const cat in FUTSAL_STATS.goleadores) {
+      if (allowedCats && !allowedCats.includes(cat)) continue;
       const catPlayers = FUTSAL_STATS.goleadores[cat];
       for (const p of catPlayers) {
         if (p.equipo === focusTeamName) {

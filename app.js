@@ -19,7 +19,7 @@ let PREDICTIONS_CACHE = null;
 async function init() {
   // Recuperar deporte preferido
   const savedSport = localStorage.getItem(SPORT_STORAGE_KEY);
-  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal" || savedSport === "futsal-reducido" || savedSport === "futsal-femenino")) {
+  if (savedSport && (savedSport === "babyfutbol" || savedSport === "futsal" || savedSport === "futsal-promo" || savedSport === "futsal-reducido" || savedSport === "futsal-femenino")) {
     deporteActual = savedSport;
   }
 
@@ -29,6 +29,8 @@ async function init() {
   // Cargar el deporte actual
   if (deporteActual === "futsal") {
     await switchToFutsal();
+  } else if (deporteActual === "futsal-promo") {
+    await switchToFutsalPromo();
   } else if (deporteActual === "futsal-reducido") {
     await switchToFutsalReducido();
   } else if (deporteActual === "futsal-femenino") {
@@ -59,6 +61,8 @@ function setupSportSelector() {
 
       if (sport === "futsal") {
         await switchToFutsal();
+      } else if (sport === "futsal-promo") {
+        await switchToFutsalPromo();
       } else if (sport === "futsal-reducido") {
         await switchToFutsalReducido();
       } else if (sport === "futsal-femenino") {
@@ -132,10 +136,10 @@ function checkAnnouncementBanner() {
     } else {
       $banner.style.display = "none";
     }
-  } else if (deporteActual === "futsal" || deporteActual === "futsal-reducido" || deporteActual === "futsal-femenino") {
+  } else if (deporteActual === "futsal" || deporteActual === "futsal-promo" || deporteActual === "futsal-reducido" || deporteActual === "futsal-femenino") {
     if (!localStorage.getItem("futsal-announcement-banner-dismissed")) {
       if ($icon) $icon.textContent = "⏳";
-      $text.innerHTML = 'Todavía no se publicaron los próximos partidos. Pronto vas a volver a encontrarlos en esta sección. <strong>¡Vamos Sahores!</strong>';
+      $text.innerHTML = 'Está por empezar el torneo, y se están actualizando los datos. Pronto van a aparecer todas las estadísticas y la información de los partidos. <strong>¡Vamos Sahores!</strong>';
       $banner.style.display = "block";
     } else {
       $banner.style.display = "none";
@@ -163,15 +167,30 @@ window.checkAnnouncementBanner = checkAnnouncementBanner;
 async function switchToFutsal() {
   checkAnnouncementBanner();
   // Actualizar hero
-  document.getElementById("hero-subtitle").textContent = "Futsal - Liga de Honor B";
+  document.getElementById("hero-subtitle").textContent = "Futsal - Elite A";
   document.getElementById("badge-label").textContent = "Torneo Joma 2026";
-  document.getElementById("badge-zona").textContent = "Zona 1";
+  document.getElementById("badge-zona").textContent = "Elite A";
 
   // Actualizar footer
   document.getElementById("footer-credits").innerHTML =
     'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
 
   await activarFutsal();
+}
+
+// ---- Cambio a Futsal Promocionales ----
+async function switchToFutsalPromo() {
+  checkAnnouncementBanner();
+  // Actualizar hero
+  document.getElementById("hero-subtitle").textContent = "Futsal - Promocionales";
+  document.getElementById("badge-label").textContent = "Torneo Joma 2026";
+  document.getElementById("badge-zona").textContent = "Zona C";
+
+  // Actualizar footer
+  document.getElementById("footer-credits").innerHTML =
+    'Datos de <a href="https://futsala.ar" target="_blank" rel="noopener">futsala.ar</a>';
+
+  await activarFutsalPromo();
 }
 
 // ---- Cambio a Futsal Reducido ----
@@ -722,6 +741,63 @@ function getRivalLastMatches(torneoId, rival, categoriaFilter) {
   return playedMatches.slice(0, 3);
 }
 
+function obtenerAntecedenteDirectoFEFI(rival, cat) {
+  if (!DATA || !DATA.fechas) return null;
+  const foco = DATA.equipo_foco;
+  
+  for (const fecha of DATA.fechas) {
+    for (const enc of fecha.encuentros) {
+      const loc = enc.local ? enc.local.trim() : "";
+      const vis = enc.visitante ? enc.visitante.trim() : "";
+      
+      if ((loc === foco && vis === rival) || (loc === rival && vis === foco)) {
+        if (cat === "general") {
+          let vicFoco = 0, vicRival = 0, empates = 0, ptsFoco = 0;
+          let huboPartidos = false;
+          for (const c in enc.partidos) {
+            const p = enc.partidos[c];
+            if (p && p.jugado) {
+              huboPartidos = true;
+              const esLocalFoco = (loc === foco);
+              const gf = (esLocalFoco ? p.goles_local : p.goles_visitante) || 0;
+              const gc = (esLocalFoco ? p.goles_visitante : p.goles_local) || 0;
+              if (gf > gc) { vicFoco++; ptsFoco += 2; }
+              else if (gc > gf) { vicRival++; }
+              else { empates++; ptsFoco += 1; }
+            }
+          }
+          if (huboPartidos) {
+            return {
+              tipo: "general",
+              fechaNum: fecha.numero,
+              ptsFoco: ptsFoco,
+              vicFoco: vicFoco,
+              vicRival: vicRival,
+              empates: empates,
+              esLocal: loc === foco
+            };
+          }
+        } else {
+          const p = enc.partidos && enc.partidos[cat];
+          if (p && p.jugado) {
+            const esLocalFoco = (loc === foco);
+            const gf = (esLocalFoco ? p.goles_local : p.goles_visitante) || 0;
+            const gc = (esLocalFoco ? p.goles_visitante : p.goles_local) || 0;
+            return {
+              tipo: "cat",
+              fechaNum: fecha.numero,
+              gf: gf,
+              gc: gc,
+              esLocal: esLocalFoco
+            };
+          }
+        }
+      }
+    }
+  }
+  return null;
+}
+
 function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
   console.log("Rendering scouting for:", torneoId, rival, categoriaFilter);
   if (!$container) return;
@@ -740,30 +816,40 @@ function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
     
     // Obtener los últimos 3 partidos del rival
     const lastMatches = getRivalLastMatches(torneoId, rival, categoriaFilter);
-    console.log("Scouting items found:", items.length, "Recent matches found:", lastMatches.length);
-
-    // Si no hay datos de scouting ni partidos del rival, ocultar el contenedor
-    if (items.length === 0 && lastMatches.length === 0) {
-      $container.innerHTML = "";
-      return;
-    }
-
     const rivalNombre = nombreEquipo(rival);
     
-    let scoutingHtml = "";
+    // Búsqueda de antecedente directo (ej. 1ra rueda de FEFI)
+    const antFefi = (torneoId === "babyfutbol") ? obtenerAntecedenteDirectoFEFI(rival, categoriaFilter) : null;
+    let antHtml = "";
+    if (antFefi) {
+      const condStr = antFefi.esLocal ? "Local" : "Visitante";
+      if (antFefi.tipo === "general") {
+        antHtml = `
+          <div class="scouting-item" style="background: rgba(26, 140, 74, 0.08); border-left: 3px solid var(--brand-green); margin-bottom: 8px;">
+            <span class="scouting-cat-label" style="color: var(--brand-green-light);">📜 Antecedente 1ra Rueda (Fecha ${antFefi.fechaNum})</span>
+            <div class="scouting-text">En el partido de ida jugando de ${condStr}, Sahores sumó <strong>${antFefi.ptsFoco} pts</strong> (${antFefi.vicFoco}V, ${antFefi.empates}E, ${antFefi.vicRival}D).</div>
+          </div>
+        `;
+      } else {
+        const resLetra = antFefi.gf > antFefi.gc ? "venció" : (antFefi.gf < antFefi.gc ? "cayó" : "empató");
+        const scoreStr = antFefi.gf > antFefi.gc ? `${antFefi.gf} - ${antFefi.gc}` : `${antFefi.gc} - ${antFefi.gf}`;
+        antHtml = `
+          <div class="scouting-item" style="background: rgba(26, 140, 74, 0.08); border-left: 3px solid var(--brand-green); margin-bottom: 8px;">
+            <span class="scouting-cat-label" style="color: var(--brand-green-light);">📜 Antecedente 1ra Rueda (Fecha ${antFefi.fechaNum})</span>
+            <div class="scouting-text">En el choque del Apertura jugando de ${condStr}, Sahores <strong>${resLetra} ${scoreStr}</strong> ante ${rivalNombre}.</div>
+          </div>
+        `;
+      }
+    }
+    
+    let scoutingHtml = antHtml;
     if (items.length > 0) {
-      scoutingHtml = items.map(item => `
+      scoutingHtml += items.map(item => `
         <div class="scouting-item">
           <span class="scouting-cat-label">${item.categoria_label || item.categoria}</span>
           <div class="scouting-text">${item.scouting_rival}</div>
         </div>
       `).join("");
-    } else {
-      scoutingHtml = `
-        <div class="scouting-item">
-          <div class="scouting-text" style="font-style: italic; color: var(--text-muted); font-size: 13px;">No hay análisis de scouting registrado para esta categoría.</div>
-        </div>
-      `;
     }
 
     let matchesHtml = "";
@@ -805,6 +891,11 @@ function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
           }).join("")}
         </div>
       `;
+    }
+
+    if (items.length === 0 && lastMatches.length === 0 && !antHtml) {
+      $container.innerHTML = "";
+      return;
     }
 
     $container.innerHTML = `

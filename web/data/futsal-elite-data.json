@@ -1,0 +1,2431 @@
+{
+  "actualizado": "2026-08-04T22:39:42.106283",
+  "torneo": "Torneo Joma 2026 - Elite A (Clausura)",
+  "torneo_id": "futsal-elite",
+  "equipo_foco": "VILLA SAHORES",
+  "categorias": [
+    "PRIMERA MASCULINO",
+    "TERCERA MASCULINO",
+    "CUARTA MASCULINO",
+    "QUINTA MASCULINO",
+    "SEXTA MASCULINO",
+    "SEPTIMA MASCULINO",
+    "OCTAVA MASCULINO"
+  ],
+  "equipos": [
+    {
+      "nombre": "PRIMERA JUNTA"
+    },
+    {
+      "nombre": "SOL DEL PLATA"
+    },
+    {
+      "nombre": "SUNDERLAND"
+    },
+    {
+      "nombre": "EXCURSIONISTAS"
+    },
+    {
+      "nombre": "VILLA SAHORES"
+    },
+    {
+      "nombre": "SARMIENTO VILLA SOLDATI"
+    },
+    {
+      "nombre": "SUELA DORADA"
+    },
+    {
+      "nombre": "AMIGOS DE BECCAR"
+    },
+    {
+      "nombre": "CENTRO VK"
+    },
+    {
+      "nombre": "STELLA D' ITALIA"
+    },
+    {
+      "nombre": "BRISAS DE LINIERS"
+    },
+    {
+      "nombre": "PADILLA"
+    },
+    {
+      "nombre": "ROTONDA"
+    },
+    {
+      "nombre": "CENTRO FUTBOL GOL"
+    },
+    {
+      "nombre": "COPELLO FUTSAL"
+    },
+    {
+      "nombre": "CIRCULO TRICOLOR"
+    }
+  ],
+  "fechas": [
+    {
+      "numero": 1,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "PADILLA",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "CIRCULO TRICOLOR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUNDERLAND",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "SOL DEL PLATA",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "VILLA SAHORES",
+          "visitante": "PRIMERA JUNTA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SUELA DORADA",
+          "visitante": "EXCURSIONISTAS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO VK",
+          "visitante": "SARMIENTO VILLA SOLDATI",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "BRISAS DE LINIERS",
+          "visitante": "AMIGOS DE BECCAR",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "ROTONDA",
+          "visitante": "STELLA D' ITALIA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "COPELLO FUTSAL",
+          "visitante": "PADILLA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "CENTRO FUTBOL GOL",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "fecha_partido": null,
+      "encuentros": [
+        {
+          "local": "CIRCULO TRICOLOR",
+          "visitante": "SOL DEL PLATA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "CENTRO FUTBOL GOL",
+          "visitante": "COPELLO FUTSAL",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PADILLA",
+          "visitante": "ROTONDA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "STELLA D' ITALIA",
+          "visitante": "BRISAS DE LINIERS",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "AMIGOS DE BECCAR",
+          "visitante": "CENTRO VK",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "SARMIENTO VILLA SOLDATI",
+          "visitante": "SUELA DORADA",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "EXCURSIONISTAS",
+          "visitante": "VILLA SAHORES",
+          "estado": null,
+          "partidos": {}
+        },
+        {
+          "local": "PRIMERA JUNTA",
+          "visitante": "SUNDERLAND",
+          "estado": null,
+          "partidos": {}
+        }
+      ]
+    }
+  ],
+  "tablas_posiciones": {
+    "PRIMERA MASCULINO": [
+      {
+        "equipo": "CENTRO VK",
+        "pts": 41,
+        "pj": 15,
+        "g": 13,
+        "e": 2,
+        "p": 0,
+        "gf": 102,
+        "gc": 33,
+        "dg": 69,
+        "posicion": 1
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 36,
+        "pj": 15,
+        "g": 12,
+        "e": 0,
+        "p": 3,
+        "gf": 94,
+        "gc": 53,
+        "dg": 41,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 34,
+        "pj": 15,
+        "g": 11,
+        "e": 1,
+        "p": 3,
+        "gf": 72,
+        "gc": 29,
+        "dg": 43,
+        "posicion": 3
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 34,
+        "pj": 15,
+        "g": 11,
+        "e": 1,
+        "p": 3,
+        "gf": 76,
+        "gc": 41,
+        "dg": 35,
+        "posicion": 4
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 31,
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 66,
+        "gc": 41,
+        "dg": 25,
+        "posicion": 5
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 29,
+        "pj": 15,
+        "g": 9,
+        "e": 2,
+        "p": 4,
+        "gf": 66,
+        "gc": 51,
+        "dg": 15,
+        "posicion": 6
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 28,
+        "pj": 15,
+        "g": 9,
+        "e": 1,
+        "p": 5,
+        "gf": 66,
+        "gc": 53,
+        "dg": 13,
+        "posicion": 7
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 26,
+        "pj": 15,
+        "g": 8,
+        "e": 2,
+        "p": 5,
+        "gf": 65,
+        "gc": 62,
+        "dg": 3,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 21,
+        "pj": 15,
+        "g": 7,
+        "e": 0,
+        "p": 8,
+        "gf": 70,
+        "gc": 64,
+        "dg": 6,
+        "posicion": 9
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 19,
+        "pj": 15,
+        "g": 6,
+        "e": 1,
+        "p": 8,
+        "gf": 58,
+        "gc": 43,
+        "dg": 15,
+        "posicion": 10
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 18,
+        "pj": 15,
+        "g": 6,
+        "e": 0,
+        "p": 9,
+        "gf": 61,
+        "gc": 71,
+        "dg": -10,
+        "posicion": 11
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 15,
+        "pj": 15,
+        "g": 4,
+        "e": 3,
+        "p": 8,
+        "gf": 54,
+        "gc": 66,
+        "dg": -12,
+        "posicion": 12
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 12,
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 33,
+        "gc": 70,
+        "dg": -37,
+        "posicion": 13
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 31,
+        "gc": 78,
+        "dg": -47,
+        "posicion": 14
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 3,
+        "pj": 15,
+        "g": 1,
+        "e": 0,
+        "p": 14,
+        "gf": 20,
+        "gc": 104,
+        "dg": -84,
+        "posicion": 15
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 0,
+        "pj": 15,
+        "g": 0,
+        "e": 0,
+        "p": 15,
+        "gf": 18,
+        "gc": 93,
+        "dg": -75,
+        "posicion": 16
+      }
+    ],
+    "TERCERA MASCULINO": [
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 40,
+        "pj": 15,
+        "g": 13,
+        "e": 1,
+        "p": 1,
+        "gf": 88,
+        "gc": 34,
+        "dg": 54,
+        "posicion": 1
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 38,
+        "pj": 15,
+        "g": 12,
+        "e": 2,
+        "p": 1,
+        "gf": 87,
+        "gc": 29,
+        "dg": 58,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 37,
+        "pj": 15,
+        "g": 12,
+        "e": 1,
+        "p": 2,
+        "gf": 66,
+        "gc": 25,
+        "dg": 41,
+        "posicion": 3
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 34,
+        "pj": 15,
+        "g": 11,
+        "e": 1,
+        "p": 3,
+        "gf": 58,
+        "gc": 32,
+        "dg": 26,
+        "posicion": 4
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 29,
+        "pj": 15,
+        "g": 9,
+        "e": 2,
+        "p": 4,
+        "gf": 60,
+        "gc": 49,
+        "dg": 11,
+        "posicion": 5
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 26,
+        "pj": 15,
+        "g": 8,
+        "e": 2,
+        "p": 5,
+        "gf": 79,
+        "gc": 56,
+        "dg": 23,
+        "posicion": 6
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 68,
+        "gc": 54,
+        "dg": 14,
+        "posicion": 7
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 23,
+        "pj": 15,
+        "g": 7,
+        "e": 2,
+        "p": 6,
+        "gf": 51,
+        "gc": 61,
+        "dg": -10,
+        "posicion": 8
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 22,
+        "pj": 15,
+        "g": 7,
+        "e": 1,
+        "p": 7,
+        "gf": 55,
+        "gc": 58,
+        "dg": -3,
+        "posicion": 9
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 21,
+        "pj": 15,
+        "g": 7,
+        "e": 0,
+        "p": 8,
+        "gf": 58,
+        "gc": 66,
+        "dg": -8,
+        "posicion": 10
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 15,
+        "pj": 15,
+        "g": 4,
+        "e": 3,
+        "p": 8,
+        "gf": 47,
+        "gc": 56,
+        "dg": -9,
+        "posicion": 11
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 14,
+        "pj": 15,
+        "g": 4,
+        "e": 2,
+        "p": 9,
+        "gf": 43,
+        "gc": 57,
+        "dg": -14,
+        "posicion": 12
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 11,
+        "pj": 15,
+        "g": 3,
+        "e": 2,
+        "p": 10,
+        "gf": 45,
+        "gc": 67,
+        "dg": -22,
+        "posicion": 13
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 7,
+        "pj": 15,
+        "g": 2,
+        "e": 1,
+        "p": 12,
+        "gf": 30,
+        "gc": 74,
+        "dg": -44,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 18,
+        "gc": 73,
+        "dg": -55,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 3,
+        "pj": 15,
+        "g": 1,
+        "e": 0,
+        "p": 14,
+        "gf": 21,
+        "gc": 83,
+        "dg": -62,
+        "posicion": 16
+      }
+    ],
+    "SEXTA MASCULINO": [
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 42,
+        "pj": 15,
+        "g": 14,
+        "e": 0,
+        "p": 1,
+        "gf": 98,
+        "gc": 31,
+        "dg": 67,
+        "posicion": 1
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 40,
+        "pj": 15,
+        "g": 13,
+        "e": 1,
+        "p": 1,
+        "gf": 66,
+        "gc": 24,
+        "dg": 42,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 39,
+        "pj": 15,
+        "g": 13,
+        "e": 0,
+        "p": 2,
+        "gf": 81,
+        "gc": 19,
+        "dg": 62,
+        "posicion": 3
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 33,
+        "pj": 15,
+        "g": 11,
+        "e": 0,
+        "p": 4,
+        "gf": 60,
+        "gc": 24,
+        "dg": 36,
+        "posicion": 4
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 30,
+        "pj": 15,
+        "g": 10,
+        "e": 0,
+        "p": 5,
+        "gf": 61,
+        "gc": 36,
+        "dg": 25,
+        "posicion": 5
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 28,
+        "pj": 15,
+        "g": 9,
+        "e": 1,
+        "p": 5,
+        "gf": 72,
+        "gc": 52,
+        "dg": 20,
+        "posicion": 6
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 27,
+        "pj": 15,
+        "g": 9,
+        "e": 0,
+        "p": 6,
+        "gf": 49,
+        "gc": 29,
+        "dg": 20,
+        "posicion": 7
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 49,
+        "gc": 43,
+        "dg": 6,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 22,
+        "pj": 15,
+        "g": 7,
+        "e": 1,
+        "p": 7,
+        "gf": 57,
+        "gc": 48,
+        "dg": 9,
+        "posicion": 9
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 18,
+        "pj": 15,
+        "g": 6,
+        "e": 0,
+        "p": 9,
+        "gf": 41,
+        "gc": 56,
+        "dg": -15,
+        "posicion": 10
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 13,
+        "pj": 15,
+        "g": 4,
+        "e": 1,
+        "p": 10,
+        "gf": 29,
+        "gc": 58,
+        "dg": -29,
+        "posicion": 11
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 13,
+        "pj": 15,
+        "g": 4,
+        "e": 1,
+        "p": 10,
+        "gf": 32,
+        "gc": 72,
+        "dg": -40,
+        "posicion": 12
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 10,
+        "pj": 15,
+        "g": 3,
+        "e": 1,
+        "p": 11,
+        "gf": 15,
+        "gc": 55,
+        "dg": -40,
+        "posicion": 13
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 10,
+        "pj": 15,
+        "g": 3,
+        "e": 1,
+        "p": 11,
+        "gf": 15,
+        "gc": 55,
+        "dg": -40,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 10,
+        "gc": 65,
+        "dg": -55,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 1,
+        "pj": 15,
+        "g": 0,
+        "e": 1,
+        "p": 14,
+        "gf": 5,
+        "gc": 73,
+        "dg": -68,
+        "posicion": 16
+      }
+    ],
+    "SEPTIMA MASCULINO": [
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 42,
+        "pj": 15,
+        "g": 14,
+        "e": 0,
+        "p": 1,
+        "gf": 90,
+        "gc": 23,
+        "dg": 67,
+        "posicion": 1
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 39,
+        "pj": 15,
+        "g": 13,
+        "e": 0,
+        "p": 2,
+        "gf": 70,
+        "gc": 25,
+        "dg": 45,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 38,
+        "pj": 15,
+        "g": 12,
+        "e": 2,
+        "p": 1,
+        "gf": 66,
+        "gc": 21,
+        "dg": 45,
+        "posicion": 3
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 33,
+        "pj": 15,
+        "g": 11,
+        "e": 0,
+        "p": 4,
+        "gf": 63,
+        "gc": 30,
+        "dg": 33,
+        "posicion": 4
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 31,
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 67,
+        "gc": 36,
+        "dg": 31,
+        "posicion": 5
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 30,
+        "pj": 15,
+        "g": 10,
+        "e": 0,
+        "p": 5,
+        "gf": 62,
+        "gc": 34,
+        "dg": 28,
+        "posicion": 6
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 28,
+        "pj": 15,
+        "g": 9,
+        "e": 1,
+        "p": 5,
+        "gf": 56,
+        "gc": 32,
+        "dg": 24,
+        "posicion": 7
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 56,
+        "gc": 45,
+        "dg": 11,
+        "posicion": 8
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 52,
+        "gc": 41,
+        "dg": 11,
+        "posicion": 9
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 21,
+        "pj": 15,
+        "g": 7,
+        "e": 0,
+        "p": 8,
+        "gf": 36,
+        "gc": 40,
+        "dg": -4,
+        "posicion": 10
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 13,
+        "pj": 15,
+        "g": 4,
+        "e": 1,
+        "p": 10,
+        "gf": 22,
+        "gc": 53,
+        "dg": -31,
+        "posicion": 11
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 9,
+        "pj": 15,
+        "g": 3,
+        "e": 0,
+        "p": 12,
+        "gf": 15,
+        "gc": 60,
+        "dg": -45,
+        "posicion": 12
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 9,
+        "pj": 15,
+        "g": 3,
+        "e": 0,
+        "p": 12,
+        "gf": 24,
+        "gc": 71,
+        "dg": -47,
+        "posicion": 13
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 7,
+        "pj": 15,
+        "g": 2,
+        "e": 1,
+        "p": 12,
+        "gf": 10,
+        "gc": 58,
+        "dg": -48,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 10,
+        "gc": 65,
+        "dg": -55,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 2,
+        "pj": 15,
+        "g": 0,
+        "e": 2,
+        "p": 13,
+        "gf": 0,
+        "gc": 65,
+        "dg": -65,
+        "posicion": 16
+      }
+    ],
+    "CUARTA MASCULINO": [
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 43,
+        "pj": 15,
+        "g": 14,
+        "e": 1,
+        "p": 0,
+        "gf": 88,
+        "gc": 17,
+        "dg": 71,
+        "posicion": 1
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 37,
+        "pj": 15,
+        "g": 12,
+        "e": 1,
+        "p": 2,
+        "gf": 74,
+        "gc": 37,
+        "dg": 37,
+        "posicion": 2
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 30,
+        "pj": 15,
+        "g": 10,
+        "e": 0,
+        "p": 5,
+        "gf": 85,
+        "gc": 47,
+        "dg": 38,
+        "posicion": 3
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 29,
+        "pj": 15,
+        "g": 8,
+        "e": 5,
+        "p": 2,
+        "gf": 54,
+        "gc": 29,
+        "dg": 25,
+        "posicion": 4
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 28,
+        "pj": 15,
+        "g": 9,
+        "e": 1,
+        "p": 5,
+        "gf": 77,
+        "gc": 59,
+        "dg": 18,
+        "posicion": 5
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 27,
+        "pj": 14,
+        "g": 9,
+        "e": 0,
+        "p": 5,
+        "gf": 66,
+        "gc": 37,
+        "dg": 29,
+        "posicion": 6
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 27,
+        "pj": 15,
+        "g": 8,
+        "e": 3,
+        "p": 4,
+        "gf": 52,
+        "gc": 40,
+        "dg": 12,
+        "posicion": 7
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 65,
+        "gc": 44,
+        "dg": 21,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 60,
+        "gc": 41,
+        "dg": 19,
+        "posicion": 9
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 24,
+        "pj": 15,
+        "g": 7,
+        "e": 3,
+        "p": 5,
+        "gf": 44,
+        "gc": 42,
+        "dg": 2,
+        "posicion": 10
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 17,
+        "pj": 15,
+        "g": 5,
+        "e": 2,
+        "p": 8,
+        "gf": 37,
+        "gc": 44,
+        "dg": -7,
+        "posicion": 11
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 15,
+        "pj": 15,
+        "g": 5,
+        "e": 0,
+        "p": 10,
+        "gf": 42,
+        "gc": 75,
+        "dg": -33,
+        "posicion": 12
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 12,
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 44,
+        "gc": 70,
+        "dg": -26,
+        "posicion": 13
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 26,
+        "gc": 80,
+        "dg": -54,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 14,
+        "gc": 98,
+        "dg": -84,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 0,
+        "pj": 14,
+        "g": 0,
+        "e": 0,
+        "p": 14,
+        "gf": 12,
+        "gc": 80,
+        "dg": -68,
+        "posicion": 16
+      }
+    ],
+    "QUINTA MASCULINO": [
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 35,
+        "pj": 15,
+        "g": 11,
+        "e": 2,
+        "p": 2,
+        "gf": 97,
+        "gc": 41,
+        "dg": 56,
+        "posicion": 1
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 31,
+        "pj": 15,
+        "g": 9,
+        "e": 4,
+        "p": 2,
+        "gf": 58,
+        "gc": 27,
+        "dg": 31,
+        "posicion": 2
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 31,
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 45,
+        "gc": 24,
+        "dg": 21,
+        "posicion": 3
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 30,
+        "pj": 15,
+        "g": 9,
+        "e": 3,
+        "p": 3,
+        "gf": 70,
+        "gc": 39,
+        "dg": 31,
+        "posicion": 4
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 28,
+        "pj": 15,
+        "g": 8,
+        "e": 4,
+        "p": 3,
+        "gf": 44,
+        "gc": 21,
+        "dg": 23,
+        "posicion": 5
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 27,
+        "pj": 15,
+        "g": 8,
+        "e": 3,
+        "p": 4,
+        "gf": 55,
+        "gc": 37,
+        "dg": 18,
+        "posicion": 6
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 26,
+        "pj": 15,
+        "g": 8,
+        "e": 2,
+        "p": 5,
+        "gf": 55,
+        "gc": 49,
+        "dg": 6,
+        "posicion": 7
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 25,
+        "pj": 15,
+        "g": 8,
+        "e": 1,
+        "p": 6,
+        "gf": 41,
+        "gc": 43,
+        "dg": -2,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 68,
+        "gc": 48,
+        "dg": 20,
+        "posicion": 9
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 23,
+        "pj": 15,
+        "g": 7,
+        "e": 2,
+        "p": 6,
+        "gf": 42,
+        "gc": 43,
+        "dg": -1,
+        "posicion": 10
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 20,
+        "pj": 15,
+        "g": 6,
+        "e": 2,
+        "p": 7,
+        "gf": 39,
+        "gc": 37,
+        "dg": 2,
+        "posicion": 11
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 18,
+        "pj": 15,
+        "g": 6,
+        "e": 0,
+        "p": 9,
+        "gf": 60,
+        "gc": 58,
+        "dg": 2,
+        "posicion": 12
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 12,
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 31,
+        "gc": 43,
+        "dg": -12,
+        "posicion": 13
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 7,
+        "pj": 15,
+        "g": 2,
+        "e": 1,
+        "p": 12,
+        "gf": 17,
+        "gc": 89,
+        "dg": -72,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 13,
+        "gc": 79,
+        "dg": -66,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 4,
+        "pj": 15,
+        "g": 1,
+        "e": 1,
+        "p": 13,
+        "gf": 29,
+        "gc": 86,
+        "dg": -57,
+        "posicion": 16
+      }
+    ],
+    "OCTAVA MASCULINO": [
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 40,
+        "pj": 15,
+        "g": 13,
+        "e": 1,
+        "p": 1,
+        "gf": 64,
+        "gc": 20,
+        "dg": 44,
+        "posicion": 1
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 38,
+        "pj": 15,
+        "g": 12,
+        "e": 2,
+        "p": 1,
+        "gf": 81,
+        "gc": 20,
+        "dg": 61,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 38,
+        "pj": 15,
+        "g": 12,
+        "e": 2,
+        "p": 1,
+        "gf": 57,
+        "gc": 12,
+        "dg": 45,
+        "posicion": 3
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 34,
+        "pj": 15,
+        "g": 11,
+        "e": 1,
+        "p": 3,
+        "gf": 67,
+        "gc": 27,
+        "dg": 40,
+        "posicion": 4
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 31,
+        "pj": 15,
+        "g": 10,
+        "e": 1,
+        "p": 4,
+        "gf": 57,
+        "gc": 31,
+        "dg": 26,
+        "posicion": 5
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 30,
+        "pj": 15,
+        "g": 9,
+        "e": 3,
+        "p": 3,
+        "gf": 62,
+        "gc": 27,
+        "dg": 35,
+        "posicion": 6
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 25,
+        "pj": 15,
+        "g": 8,
+        "e": 1,
+        "p": 6,
+        "gf": 53,
+        "gc": 41,
+        "dg": 12,
+        "posicion": 7
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 24,
+        "pj": 15,
+        "g": 8,
+        "e": 0,
+        "p": 7,
+        "gf": 43,
+        "gc": 42,
+        "dg": 1,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 22,
+        "pj": 15,
+        "g": 7,
+        "e": 1,
+        "p": 7,
+        "gf": 51,
+        "gc": 42,
+        "dg": 9,
+        "posicion": 9
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 20,
+        "pj": 15,
+        "g": 6,
+        "e": 2,
+        "p": 7,
+        "gf": 42,
+        "gc": 40,
+        "dg": 2,
+        "posicion": 10
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 12,
+        "pj": 15,
+        "g": 4,
+        "e": 0,
+        "p": 11,
+        "gf": 29,
+        "gc": 63,
+        "dg": -34,
+        "posicion": 11
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 11,
+        "pj": 15,
+        "g": 3,
+        "e": 2,
+        "p": 10,
+        "gf": 19,
+        "gc": 54,
+        "dg": -35,
+        "posicion": 12
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 9,
+        "pj": 15,
+        "g": 3,
+        "e": 0,
+        "p": 12,
+        "gf": 15,
+        "gc": 60,
+        "dg": -45,
+        "posicion": 13
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 8,
+        "pj": 15,
+        "g": 2,
+        "e": 2,
+        "p": 11,
+        "gf": 11,
+        "gc": 52,
+        "dg": -41,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 6,
+        "pj": 15,
+        "g": 2,
+        "e": 0,
+        "p": 13,
+        "gf": 10,
+        "gc": 65,
+        "dg": -55,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 2,
+        "pj": 15,
+        "g": 0,
+        "e": 2,
+        "p": 13,
+        "gf": 0,
+        "gc": 65,
+        "dg": -65,
+        "posicion": 16
+      }
+    ],
+    "general": [
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pts": 256,
+        "pj": 105,
+        "g": 82,
+        "e": 10,
+        "p": 13,
+        "gf": 485,
+        "gc": 160,
+        "dg": 325,
+        "posicion": 1
+      },
+      {
+        "equipo": "CIRCULO TRICOLOR",
+        "pts": 215,
+        "pj": 105,
+        "g": 70,
+        "e": 5,
+        "p": 30,
+        "gf": 532,
+        "gc": 303,
+        "dg": 229,
+        "posicion": 2
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pts": 213,
+        "pj": 105,
+        "g": 68,
+        "e": 9,
+        "p": 28,
+        "gf": 446,
+        "gc": 249,
+        "dg": 197,
+        "posicion": 3
+      },
+      {
+        "equipo": "SUNDERLAND",
+        "pts": 209,
+        "pj": 105,
+        "g": 68,
+        "e": 5,
+        "p": 32,
+        "gf": 426,
+        "gc": 268,
+        "dg": 158,
+        "posicion": 4
+      },
+      {
+        "equipo": "BRISAS DE LINIERS",
+        "pts": 191,
+        "pj": 105,
+        "g": 61,
+        "e": 8,
+        "p": 36,
+        "gf": 394,
+        "gc": 271,
+        "dg": 123,
+        "posicion": 5
+      },
+      {
+        "equipo": "BARRIO G\u00dcEMES",
+        "pts": 190,
+        "pj": 105,
+        "g": 59,
+        "e": 13,
+        "p": 33,
+        "gf": 422,
+        "gc": 282,
+        "dg": 140,
+        "posicion": 6
+      },
+      {
+        "equipo": "AMIGOS DE BECCAR",
+        "pts": 182,
+        "pj": 105,
+        "g": 59,
+        "e": 5,
+        "p": 41,
+        "gf": 388,
+        "gc": 334,
+        "dg": 54,
+        "posicion": 7
+      },
+      {
+        "equipo": "EXCURSIONISTAS",
+        "pts": 179,
+        "pj": 105,
+        "g": 57,
+        "e": 8,
+        "p": 40,
+        "gf": 389,
+        "gc": 319,
+        "dg": 70,
+        "posicion": 8
+      },
+      {
+        "equipo": "PADILLA",
+        "pts": 172,
+        "pj": 105,
+        "g": 56,
+        "e": 4,
+        "p": 45,
+        "gf": 448,
+        "gc": 329,
+        "dg": 119,
+        "posicion": 9
+      },
+      {
+        "equipo": "STELLA D' ITALIA",
+        "pts": 161,
+        "pj": 105,
+        "g": 51,
+        "e": 8,
+        "p": 46,
+        "gf": 370,
+        "gc": 359,
+        "dg": 11,
+        "posicion": 10
+      },
+      {
+        "equipo": "CENTRO FUTBOL GOL",
+        "pts": 147,
+        "pj": 104,
+        "g": 46,
+        "e": 9,
+        "p": 49,
+        "gf": 329,
+        "gc": 357,
+        "dg": -28,
+        "posicion": 11
+      },
+      {
+        "equipo": "CENTRO VK",
+        "pts": 128,
+        "pj": 105,
+        "g": 38,
+        "e": 14,
+        "p": 53,
+        "gf": 285,
+        "gc": 350,
+        "dg": -65,
+        "posicion": 12
+      },
+      {
+        "equipo": "NUEVA ESTRELLA",
+        "pts": 83,
+        "pj": 105,
+        "g": 26,
+        "e": 5,
+        "p": 74,
+        "gf": 189,
+        "gc": 389,
+        "dg": -200,
+        "posicion": 13
+      },
+      {
+        "equipo": "SOL DEL PLATA",
+        "pts": 78,
+        "pj": 105,
+        "g": 25,
+        "e": 3,
+        "p": 77,
+        "gf": 234,
+        "gc": 481,
+        "dg": -247,
+        "posicion": 14
+      },
+      {
+        "equipo": "JUVENTUD UNIDA (MC)",
+        "pts": 42,
+        "pj": 105,
+        "g": 14,
+        "e": 0,
+        "p": 91,
+        "gf": 106,
+        "gc": 523,
+        "dg": -417,
+        "posicion": 15
+      },
+      {
+        "equipo": "EL PROGRESO",
+        "pts": 15,
+        "pj": 104,
+        "g": 3,
+        "e": 6,
+        "p": 95,
+        "gf": 87,
+        "gc": 556,
+        "dg": -469,
+        "posicion": 16
+      }
+    ]
+  }
+}
