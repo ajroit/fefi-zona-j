@@ -98,8 +98,10 @@ def main():
                     n_fecha = int(match_num.group())
                 
                 for mp in child.get("matchesPlanning", []):
-                    home_insc = mp.get("clubHome", {}).get("clubInscription", {}) or {}
-                    away_insc = mp.get("clubAway", {}).get("clubInscription", {}) or {}
+                    home_club = mp.get("clubHome") or {}
+                    away_club = mp.get("clubAway") or {}
+                    home_insc = home_club.get("clubInscription") or {}
+                    away_insc = away_club.get("clubInscription") or {}
                     club_home = home_insc.get("tableName") or home_insc.get("name", "")
                     club_away = away_insc.get("tableName") or away_insc.get("name", "")
                     

@@ -199,8 +199,8 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
 
         encuentros = []
         for mp in child.get("matchesPlanning", []):
-            home_insc = mp.get("clubHome", {}).get("clubInscription", {})
-            away_insc = mp.get("clubAway", {}).get("clubInscription", {})
+            home_insc = (mp.get("clubHome") or {}).get("clubInscription", {}) or {}
+            away_insc = (mp.get("clubAway") or {}).get("clubInscription", {}) or {}
             local = home_insc.get("tableName") or home_insc.get("name", "?")
             visitante = away_insc.get("tableName") or away_insc.get("name", "?")
 

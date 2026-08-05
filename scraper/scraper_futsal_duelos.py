@@ -201,8 +201,8 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
 
         encuentros = []
         for mp in child.get("matchesPlanning", []):
-            home_insc = mp.get("clubHome", {}).get("clubInscription", {})
-            away_insc = mp.get("clubAway", {}).get("clubInscription", {})
+            home_insc = (mp.get("clubHome") or {}).get("clubInscription", {}) or {}
+            away_insc = (mp.get("clubAway") or {}).get("clubInscription", {}) or {}
             local = home_insc.get("tableName") or home_insc.get("name", "?")
             visitante = away_insc.get("tableName") or away_insc.get("name", "?")
 
@@ -292,8 +292,8 @@ def main():
     # 1. Obtener fases
     fases = obtener_fases()
     if not fases:
-        print("❌ No hay fases disponibles")
-        sys.exit(1)
+        print("⚠️ No hay fases disponibles para Torneo de Duelos. Finalizando sin error.")
+        sys.exit(0)
 
     # Usar la primera fase activa, o la primera disponible
     fase = fases[0]
