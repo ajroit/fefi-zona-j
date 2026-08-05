@@ -407,3 +407,5 @@ def registrar_tarjeta(goleadores, cat_name, player_obj, tipo_tarjeta, equipo):
 
 if __name__ == "__main__":
     main()
+
+# Trigger run: 2026-08-05 12:24:17.223927
