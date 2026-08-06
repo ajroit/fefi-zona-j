@@ -1,0 +1,194 @@
+{
+  "elite": {
+    "visualizer_status": 200,
+    "total_matches": 840,
+    "con_dateTime": 52,
+    "combos": 105,
+    "detalle_ok": 60,
+    "detalle_error": 0,
+    "venues_en_detalle": 44,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 180,
+          "createdAt": "2026-03-17T12:11:45.390Z",
+          "updatedAt": "2026-03-17T12:11:45.390Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "Villa sahores",
+          "address": "Santo Tomé 2496",
+          "googleMapsUrl": "https://share.google/XPjLmZ4px7bDUg04E",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-08-09 17:00"
+      }
+    ]
+  },
+  "promo": {
+    "visualizer_status": 200,
+    "total_matches": 364,
+    "con_dateTime": 10,
+    "combos": 52,
+    "detalle_ok": 52,
+    "detalle_error": 0,
+    "venues_en_detalle": 10,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 1005,
+          "createdAt": "2026-08-04T22:12:39.418Z",
+          "updatedAt": "2026-08-04T22:12:39.418Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "25 de Mayo",
+          "address": "Marcos Paz 4003",
+          "googleMapsUrl": "",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-08-09 09:00"
+      }
+    ]
+  },
+  "reducido": {
+    "visualizer_status": 200,
+    "total_matches": 1085,
+    "con_dateTime": 59,
+    "combos": 126,
+    "detalle_ok": 60,
+    "detalle_error": 0,
+    "venues_en_detalle": 42,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 352,
+          "createdAt": "2026-03-23T23:55:39.899Z",
+          "updatedAt": "2026-03-23T23:55:39.899Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "INDEPENDIENTE SEDE CAPITAL",
+          "address": "BOYACA 470",
+          "googleMapsUrl": "https://share.google/6n9SznYCSNzMD0g34",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-08-09 12:00"
+      }
+    ]
+  },
+  "femenino": {
+    "visualizer_status": 200,
+    "total_matches": 462,
+    "con_dateTime": 23,
+    "combos": 54,
+    "detalle_ok": 24,
+    "detalle_error": 30,
+    "venues_en_detalle": 15,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 328,
+          "createdAt": "2026-03-23T17:41:45.143Z",
+          "updatedAt": "2026-03-23T17:41:45.143Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "Juventud de Tapiales",
+          "address": "Curapaligue 1250, Tapiales",
+          "googleMapsUrl": "https://www.google.com/maps?q=Club+Juventud+de+Tapiales,+Curapalig%C3%BCe+1246,+B1770AFH+Buenos+Aires,+Provincia+de+Buenos+Aires&ftid=0x95bccf2a318ff627:0x60391837dd75e548&entry=gps&shh=CAE&lucs=,94297699,100794546,94284472,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjExLjEuODgxMDA1NjQ2MBgAINeCAypSLDk0Mjk3Njk5LDEwMDc5NDU0Niw5NDI4NDQ3Miw5NDIzMTE4OCw5NDI4MDU2OCw0NzA3MTcwNCw5NDIxODY0MSw5NDI4MjEzNCw5NDI4Njg2OUICQVI%3D&skid=e27d6f2a-e894-4ef3-ab63-b316f9b1c481&g_st=ic",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-08-09 11:30"
+      },
+      {
+        "status": 503,
+        "body": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Una"
+      }
+    ]
+  },
+  "femenino_apertura": {
+    "visualizer_status": 200,
+    "total_matches": 460,
+    "con_dateTime": 409,
+    "combos": 52,
+    "detalle_ok": 20,
+    "detalle_error": 32,
+    "venues_en_detalle": 158,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 459,
+          "createdAt": "2026-03-30T18:59:37.745Z",
+          "updatedAt": "2026-03-30T18:59:37.745Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "Gimnasio Nicolás Abud",
+          "address": "Cerretti 868, Adrogue ",
+          "googleMapsUrl": "https://maps.app.goo.gl/9sw7EmJuL3urYKhF8?g_st=ic",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-05-24 22:15"
+      },
+      {
+        "status": 503,
+        "body": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Una"
+      }
+    ]
+  },
+  "honorB": {
+    "visualizer_status": 200,
+    "total_matches": 1683,
+    "con_dateTime": 65,
+    "combos": 187,
+    "detalle_ok": 49,
+    "detalle_error": 11,
+    "venues_en_detalle": 20,
+    "ejemplos": [
+      {
+        "venue": {
+          "id": 408,
+          "createdAt": "2026-03-25T16:06:28.087Z",
+          "updatedAt": "2026-03-25T16:06:28.087Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "Villa Rita",
+          "address": "Parral 1872 entre Olivos y Las Tropas",
+          "googleMapsUrl": "https://share.google/DwoMOgOLKg8uxws64",
+          "postalCode": null,
+          "location": null,
+          "addressDescription": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb",
+          "audited": false,
+          "isShared": false
+        },
+        "matchInfo_dateTime": "2026-08-09 14:00"
+      },
+      {
+        "status": 503,
+        "body": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Una"
+      }
+    ]
+  }
+}
