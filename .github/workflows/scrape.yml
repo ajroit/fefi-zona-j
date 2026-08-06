@@ -36,6 +36,10 @@ jobs:
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      # futsal-data.json es el archivo de ANTECEDENTES del dashboard (la pestaña
+      # "Antecedentes (Apertura Honor B)"). NO debe seguir a la fase vigente:
+      # el Clausura lo cubren scraper_futsal_elite.py y scraper_futsal_promo.py.
+      FUTSAL_PHASE_ID: '930'
 
     steps:
       - name: Checkout
@@ -64,7 +68,7 @@ jobs:
       - name: Backup datos previos
         run: |
           mkdir -p /tmp/old
-          for f in futsal-data futsal-reducido-data futsal-femenino-data fefi-data; do
+          for f in futsal-data futsal-elite-data futsal-promo-data futsal-reducido-data futsal-femenino-data fefi-data; do
             cp "data/$f.json" "/tmp/old/$f.json" 2>/dev/null || true
           done
 
@@ -80,6 +84,16 @@ jobs:
         id: s_futsal
         continue-on-error: true
         run: python scraper/scraper_futsal.py
+
+      - name: Run Futsal Elite fetcher
+        id: s_elite
+        continue-on-error: true
+        run: python scraper/scraper_futsal_elite.py
+
+      - name: Run Futsal Promocionales fetcher
+        id: s_promo
+        continue-on-error: true
+        run: python scraper/scraper_futsal_promo.py
 
       - name: Run Futsal Reducido fetcher
         id: s_reducido
@@ -167,6 +181,8 @@ jobs:
           }
           check "FEFI"             "${{ steps.s_fefi.outcome }}"
           check "Futsal"           "${{ steps.s_futsal.outcome }}"
+          check "Elite"            "${{ steps.s_elite.outcome }}"
+          check "Promocionales"     "${{ steps.s_promo.outcome }}"
           check "Reducido"         "${{ steps.s_reducido.outcome }}"
           check "Femenino"         "${{ steps.s_femenino.outcome }}"
           check "Stats"            "${{ steps.s_stats.outcome }}"

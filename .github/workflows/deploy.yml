@@ -66,8 +66,8 @@ jobs:
 
           cp -r images/* dist/images/ 2>/dev/null || true
 
-          for f in fefi-data futsal-data futsal-reducido-data \
-                   futsal-femenino-data futsal-stats predictions; do
+          for f in fefi-data futsal-data futsal-elite-data futsal-promo-data \
+                   futsal-reducido-data futsal-femenino-data futsal-stats predictions; do
             if [[ -f "data/$f.json" ]]; then cp "data/$f.json" dist/data/; else echo "⚠️ falta data/$f.json"; fi
           done
 
