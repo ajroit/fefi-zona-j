@@ -147,14 +147,29 @@ jobs:
           fi
           echo "changed=true" >> $GITHUB_OUTPUT
 
+          if grep -rlE '^(<<<<<<< |>>>>>>> )' data/ 2>/dev/null | grep -q .; then
+            echo "❌ Hay marcadores de conflicto en data/ — no se commitea nada"
+            grep -rlE '^(<<<<<<< |>>>>>>> )' data/
+            exit 1
+          fi
+
           git add data/
           git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
 
           for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push origin HEAD:main && {
-              echo "✅ Datos actualizados"
-              exit 0
-            }
+            if git pull --rebase --autostash origin main; then
+              if git push origin HEAD:main; then
+                echo "✅ Datos actualizados"
+                exit 0
+              fi
+            else
+              # FIX: si el rebase queda a medias hay que abortarlo. Sin esto el
+              # arbol queda con marcadores <<<<<<< y un `git add data/` los
+              # commitea, dejando JSON corruptos en main (ya paso una vez).
+              echo "⚠️ Rebase conflictivo, abortando"
+              git rebase --abort || true
+              exit 1
+            fi
             echo "⚠️ Push falló (intento $i), reintentando en 5s..."
             sleep 5
           done
