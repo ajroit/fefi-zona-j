@@ -54,7 +54,9 @@ def fetch_promo_data():
                 equipos_dict.setdefault(eq, {"nombre": eq})
                 
             partidos_cat = {}
-            sub_matches = mp.get("matches") or []
+            # FIX: la API devuelve los partidos en "tournamentMatches", no "matches".
+            # La clave no existia, asi que este torneo nunca tuvo resultados.
+            sub_matches = mp.get("tournamentMatches") or mp.get("matches") or []
             for m in sub_matches:
                 cat_obj = m.get("category", {}).get("categoryInstance", {})
                 cat_name = cat_obj.get("name", "").upper().strip()
@@ -62,8 +64,9 @@ def fetch_promo_data():
                 
                 sh = m.get("scoreHome")
                 sa = m.get("scoreAway")
-                status = m.get("status")
-                match_id = m.get("id")
+                status = (m.get("matchStatus") or {}).get("label") or ""
+                match_id = (m.get("matchInfo") or {}).get("id")
+                _dt = (m.get("matchInfo") or {}).get("dateTime") or (m.get("matchInfo") or {}).get("dateTimeUTC")
                 
                 jugado = (sh is not None and sa is not None) or status == "Finalizado"
                 
@@ -72,7 +75,8 @@ def fetch_promo_data():
                     "goles_visitante": sa,
                     "jugado": jugado,
                     "estado": status,
-                    "match_id": match_id
+                    "match_id": match_id,
+                    "fecha_hora": _dt
                 }
                 
             encuentros.append({
@@ -84,7 +88,9 @@ def fetch_promo_data():
             
         fechas.append({
             "numero": num_fecha,
-            "fecha_partido": None,
+            "fecha_partido": next(
+                (p["fecha_hora"][:10] for e in encuentros
+                 for p in e["partidos"].values() if p.get("fecha_hora")), None),
             "encuentros": encuentros
         })
         
