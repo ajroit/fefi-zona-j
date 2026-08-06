@@ -23,6 +23,17 @@ const FUTSAL_FEMENINO_CAT_LABELS = {
   "UNICA ADULTAS FEMENINO ": "Unica"
 };
 
+
+// Estados "normales" de un partido. Cualquier otro (Suspendido, Postergado,
+// Pendiente de Tribunal...) merece mostrarse al usuario en vez de un generico
+// "Sede pendiente", porque explica POR QUE no hay sede ni horario.
+const FUTSAL_ESTADOS_NORMALES = ["", "pendiente", "programado", "finalizado"];
+function estadoDestacado(e) {
+  if (!e) return null;
+  const limpio = String(e).trim();
+  return FUTSAL_ESTADOS_NORMALES.includes(limpio.toLowerCase()) ? null : limpio;
+}
+
 // ---- Carga de datos ----
 async function initFutsalFemenino() {
   if (FUTSAL_FEMENINO_DATA) return FUTSAL_FEMENINO_DATA;
@@ -68,6 +79,7 @@ function futsalFemeninoPartidosDelFoco(categoria) {
       if (categoria === "general") {
         let gf = 0, gc = 0, jugado = false;
         let out_sede = null, out_dir = null, out_hora = null, out_fecha = null, out_match_id = null;
+        let out_estado = null, out_estado_raro = null;
         for (const cat of FUTSAL_FEMENINO_DATA.categorias) {
           const p = enc.partidos[cat];
           if (p) {
@@ -80,6 +92,8 @@ function futsalFemeninoPartidosDelFoco(categoria) {
               out_match_id = p.match_id;
             }
             // Para general, tomamos la sede/hora/fecha del primer partido encontrado, sea jugado o no
+            if (!out_estado && p.estado) out_estado = p.estado;
+            if (!out_estado_raro && estadoDestacado(p.estado)) out_estado_raro = p.estado;
             if (!out_sede && p.sede) {
               out_sede = p.sede;
               out_dir = p.direccion;
@@ -99,6 +113,7 @@ function futsalFemeninoPartidosDelFoco(categoria) {
           rival, esLocal,
           gf: jugado ? gf : null, gc: jugado ? gc : null,
           jugado, estado: enc.estado,
+          estadoPartido: out_estado_raro || out_estado,
           sede: out_sede, direccion: out_dir, hora: out_hora,
           match_id: out_match_id
         });
@@ -124,6 +139,7 @@ function futsalFemeninoPartidosDelFoco(categoria) {
           jugado: tieneScores || (encuentroFinalizado && p != null),
           noParticipo: encuentroFinalizado && !tieneScores,
           estado: enc.estado,
+          estadoPartido: p ? p.estado : null,
           sede: p ? p.sede : null,
           direccion: p ? p.direccion : null,
           hora: (p && p.fecha_hora) ? (p.fecha_hora.includes(" ") ? p.fecha_hora.split(" ")[1].substring(0, 5) : (p.fecha_hora.includes("T") ? p.fecha_hora.split("T")[1].substring(0, 5) : null)) : null,
@@ -262,7 +278,12 @@ function futsalFemeninoRenderProximoPartido() {
       </div>
     `;
   } else {
-    $meta.innerHTML = `<div class="match-location" style="color: var(--text-muted);"><span class="location-icon">⏳</span> Sede pendiente</div>`;
+    // Si el partido tiene un estado fuera de lo normal, mostrarlo: es mas
+    // informativo que "Sede pendiente", que sugiere que solo falta confirmar.
+    const destacado = estadoDestacado(proximo.estadoPartido);
+    $meta.innerHTML = destacado
+      ? `<div class="match-location" style="color: var(--danger, #d0021b); font-weight: 600;"><span class="location-icon">⚠️</span> ${destacado}</div>`
+      : `<div class="match-location" style="color: var(--text-muted);"><span class="location-icon">⏳</span> Sede pendiente</div>`;
   }
 
   // Cargar el clima para el día del partido
