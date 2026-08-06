@@ -1,0 +1,380 @@
+{
+  "visualizer_shape": {
+    "_status": "int",
+    "_body": {
+      "id": "int",
+      "createdAt": "str",
+      "updatedAt": "str",
+      "deletedAt": "NoneType",
+      "active": "bool",
+      "value": "str",
+      "internalId": "NoneType",
+      "children": [
+        "<lista de 13>",
+        {
+          "id": "int",
+          "createdAt": "str",
+          "updatedAt": "str",
+          "deletedAt": "NoneType",
+          "active": "bool",
+          "value": "str",
+          "internalId": "NoneType",
+          "children": [
+            "<lista de 0>"
+          ],
+          "categoryId": "NoneType",
+          "type": "str",
+          "allowChildren": "bool",
+          "containerReference": {
+            "id": "...",
+            "createdAt": "...",
+            "updatedAt": "...",
+            "deletedAt": "...",
+            "active": "...",
+            "value": "...",
+            "dateStart": "...",
+            "dateEnd": "...",
+            "completed": "..."
+          },
+          "orderIndex": "int",
+          "matchesPlanning": [
+            "<lista de 7>",
+            "..."
+          ],
+          "instanceUUID": "str"
+        }
+      ],
+      "categoryId": "NoneType",
+      "type": "str",
+      "allowChildren": "bool",
+      "containerReference": "NoneType",
+      "orderIndex": "NoneType",
+      "matchesPlanning": [
+        "<lista de 0>"
+      ],
+      "instanceUUID": "str"
+    }
+  },
+  "matchPlanning_keys": [
+    "active",
+    "clubAway",
+    "clubHome",
+    "createdAt",
+    "dateTime",
+    "dateTimeUTC",
+    "deletedAt",
+    "homeAway",
+    "id",
+    "instanceUUID",
+    "neutral",
+    "orderIndex",
+    "pointsForDraw",
+    "pointsForLoss",
+    "pointsForWin",
+    "rest",
+    "tournamentMatches",
+    "tournamentMatchesOrder",
+    "updatedAt",
+    "vacancyAway",
+    "vacancyHome",
+    "valueScoreAway",
+    "valueScoreHome"
+  ],
+  "primer_tournamentMatches": {
+    "id": 239656,
+    "createdAt": "2026-08-03T22:57:13.986Z",
+    "updatedAt": "2026-08-06T19:24:10.913Z",
+    "deletedAt": null,
+    "active": true,
+    "label": null,
+    "sport": "FUTSAL",
+    "scoreHome": null,
+    "scoreHomePenalty": null,
+    "scoreAway": null,
+    "scoreAwayPenalty": null,
+    "tribunalOutcomeOverride": null,
+    "matchInfo": {
+      "id": 239656,
+      "createdAt": "2026-08-03T22:57:13.986Z",
+      "updatedAt": "2026-08-06T16:35:22.491Z",
+      "deletedAt": null,
+      "active": true,
+      "dateTime": "2026-08-09 11:00",
+      "dateTimeUTC": "2026-08-09T14:00:00.000Z",
+      "pointsForWin": 3,
+      "pointsForDraw": 1,
+      "pointsForLoss": 0,
+      "customStatus": null,
+      "matchNotes": null,
+      "formUrl": null,
+      "vacancyHome": {
+        "id": 17727,
+        "createdAt": "2026-08-03T22:57:13.289Z",
+        "updatedAt": "2026-08-03T22:57:13.289Z",
+        "deletedAt": null,
+        "active": true,
+        "internalId": null,
+        "name": "Equipo 1",
+        "shortName": null,
+        "color": "#89953B",
+        "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+      },
+      "vacancyAway": {
+        "id": 17740,
+        "createdAt": "2026-08-03T22:57:13.289Z",
+        "updatedAt": "2026-08-03T22:57:13.289Z",
+        "deletedAt": null,
+        "active": true,
+        "internalId": null,
+        "name": "Equipo 14",
+        "shortName": null,
+        "color": "#B5BD21",
+        "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+      },
+      "homeAway": null,
+      "neutral": null,
+      "rest": false,
+      "refereeInformSent": null,
+      "refereeInformUrl": null,
+      "spreadsheetPhotos": null,
+      "refereeInformNotRequired": null
+    },
+    "category": {
+      "id": 2059,
+      "createdAt": "2026-08-03T22:56:55.734Z",
+      "updatedAt": "2026-08-03T22:56:55.740Z",
+      "deletedAt": null,
+      "active": true,
+      "tournamentMatchDuration": 60,
+      "tournamentMatchDurationOverride": false,
+      "categoryInstance": {
+        "id": 10,
+        "createdAt": "2025-01-27T17:26:28.673Z",
+        "updatedAt": "2026-03-17T18:58:38.952Z",
+        "deletedAt": null,
+        "active": true,
+        "name": "2016 PROMOCIONALES",
+        "internalName": "2016 PROMOCIONALES",
+        "refereeSheetName": "2016",
+        "description": "",
+        "dateStart": "2016-01-01T03:00:00.000Z",
+        "dateEnd": "2016-12-31T03:00:00.000Z",
+        "labels": [
+          "PROMOCIONALES",
+          "TROFEO"
+        ],
+        "type": "MASCULINO",
+        "showPersonLogo": false,
+        "tournamentMatchDuration": 60,
+        "programmationsName": null,
+        "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+      },
+      "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+    },
+    "refereeReport": null,
+    "internalReport": null,
+    "refereeReportReviewedAt": null,
+    "shouldApproveAdministrator": false,
+    "isNeutralVenue": false,
+    "alreadyRedApplied": false,
+    "demo": false,
+    "takenAt": null,
+    "locallyChanged": false,
+    "assignedRefereeGroupAdminId": 7,
+    "assignedToRefereeGroupAdminAt": "2026-08-06T19:24:10.911Z",
+    "notPresentedBy": null,
+    "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+  },
+  "clasification_groups": {
+    "_status": 200,
+    "_body": [
+      {
+        "id": 2008,
+        "createdAt": "2026-08-03T22:57:14.940Z",
+        "updatedAt": "2026-08-03T22:57:15.234Z",
+        "deletedAt": null,
+        "active": true,
+        "value": "Clasificación",
+        "fixtureClasificationsOrder": [
+          3864,
+          3865,
+          3866,
+          3867
+        ],
+        "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+      }
+    ]
+  },
+  "_group_id": 2008,
+  "clasification_shape": {
+    "_status": "int",
+    "_body": [
+      "<lista de 4>",
+      {
+        "id": "int",
+        "createdAt": "str",
+        "updatedAt": "str",
+        "deletedAt": "NoneType",
+        "active": "bool",
+        "value": "str",
+        "tablePosition": {
+          "id": "int",
+          "createdAt": "str",
+          "updatedAt": "str",
+          "deletedAt": "NoneType",
+          "active": "bool",
+          "name": "NoneType",
+          "description": "NoneType",
+          "instanceUUID": "str"
+        },
+        "customPoints": [
+          "<lista de 0>"
+        ],
+        "allowedTeams": [
+          "<lista de 0>"
+        ],
+        "promotions": [
+          "<lista de 0>"
+        ],
+        "instanceUUID": "str",
+        "positions": [
+          "<lista de 14>",
+          {
+            "club": "...",
+            "vacancy": "...",
+            "labelTablePosition": "...",
+            "pj": "...",
+            "pg": "...",
+            "pe": "...",
+            "pp": "...",
+            "pts": "...",
+            "gf": "...",
+            "gc": "...",
+            "dg": "...",
+            "promotions": "..."
+          }
+        ]
+      }
+    ]
+  },
+  "primera_categoria": {
+    "id": 3864,
+    "createdAt": "2026-08-03T22:57:15.017Z",
+    "updatedAt": "2026-08-03T22:57:15.017Z",
+    "deletedAt": null,
+    "active": true,
+    "value": "2016 PROMOCIONALES",
+    "tablePosition": {
+      "id": 3865,
+      "createdAt": "2026-08-03T22:57:15.005Z",
+      "updatedAt": "2026-08-03T22:57:15.005Z",
+      "deletedAt": null,
+      "active": true,
+      "name": null,
+      "description": null,
+      "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+    },
+    "customPoints": [],
+    "allowedTeams": [],
+    "promotions": [],
+    "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+  },
+  "primera_posicion": {
+    "club": {
+      "id": 7026,
+      "createdAt": "2026-08-03T22:59:58.991Z",
+      "updatedAt": "2026-08-03T22:59:58.991Z",
+      "deletedAt": null,
+      "active": true,
+      "idx": null,
+      "fixedPlayerListPublicOpened": false,
+      "clubInscription": {
+        "id": 2248,
+        "createdAt": "2026-03-11T22:46:46.407Z",
+        "updatedAt": "2026-08-06T20:48:30.075Z",
+        "deletedAt": null,
+        "active": true,
+        "idx": null,
+        "name": "CAFAYATE FC (PROMO)",
+        "customName": null,
+        "originalName": "CAFAYATE FC (PROMO)",
+        "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250428-163148-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-izbj9eylhraen1piwr3e6fyeeq33_1000183205.png",
+        "tableName": "CAFAYATE FC",
+        "tableShortName": "",
+        "color": "#2662aa",
+        "amount": 0,
+        "description": null,
+        "file": null,
+        "dateStart": "2026-01-01T03:00:00.000Z",
+        "dateEnd": "2026-12-31T03:00:00.000Z",
+        "bonifiedPlayersCount": 0,
+        "contactsOrder": null,
+        "filesOrder": null,
+        "club": {
+          "id": 734,
+          "createdAt": "2025-03-15T22:29:00.068Z",
+          "updatedAt": "2025-04-28T16:31:49.416Z",
+          "deletedAt": null,
+          "active": true,
+          "name": "CAFAYATE FC",
+          "color": "#2662aa",
+          "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250428-163148-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-izbj9eylhraen1piwr3e6fyeeq33_1000183205.png",
+          "tableName": null,
+          "tableShortName": null,
+          "foundationDate": null,
+          "allowChangesByInstance": null,
+          "idFutsala": null,
+          "contactsOrder": null,
+          "filesOrder": null,
+          "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+        },
+        "labels": [],
+        "fichajesEnabled": true,
+        "recategorizationEnabled": true,
+        "useInstanceFichajeSettings": true,
+        "clubPreInscriptionEnabled": null,
+        "manualClubFichajeEnabled": null,
+        "inscriptionPaused": false,
+        "inscriptionPausedAt": null,
+        "inscriptionForceFinalized": false,
+        "inscriptionForceFinalizedAt": null,
+        "inscriptionStarted": true,
+        "inscriptionStartedAt": "2026-03-11T22:46:46.455Z",
+        "bonified": false,
+        "markAsBonifiedAt": null,
+        "paid": false,
+        "markAsPaidAt": null,
+        "status": null,
+        "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+      },
+      "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+    },
+    "vacancy": {
+      "id": 17727,
+      "createdAt": "2026-08-03T22:57:13.289Z",
+      "updatedAt": "2026-08-03T22:57:13.289Z",
+      "deletedAt": null,
+      "active": true,
+      "internalId": null,
+      "name": "Equipo 1",
+      "shortName": null,
+      "color": "#89953B",
+      "instanceUUID": "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
+    },
+    "labelTablePosition": {
+      "name": "CAFAYATE FC",
+      "shortName": "",
+      "color": "#2662aa",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250428-163148-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-izbj9eylhraen1piwr3e6fyeeq33_1000183205.png"
+    },
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "pts": 0,
+    "gf": 0,
+    "gc": 0,
+    "dg": 0,
+    "promotions": []
+  }
+}
