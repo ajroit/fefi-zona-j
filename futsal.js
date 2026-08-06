@@ -6,7 +6,6 @@
 const FUTSAL_REGULAR_DATA_URL = "data/futsal-data.json";
 const FUTSAL_ELITE_DATA_URL = "data/futsal-elite-data.json";
 const FUTSAL_PROMO_DATA_URL = "data/futsal-promo-data.json";
-const FUTSAL_DUELOS_DATA_URL = "data/futsal-duelos-data.json";
 const FUTSAL_STORAGE_KEY = "futsal-cat-preferida";
 const FUTSAL_SUBTORNEO_STORAGE_KEY = "futsal-subtorneo-preferido";
 
@@ -14,7 +13,6 @@ let FUTSAL_DATA = null;
 let FUTSAL_REGULAR_DATA = null;
 let FUTSAL_ELITE_DATA = null;
 let FUTSAL_PROMO_DATA = null;
-let FUTSAL_DUELOS_DATA = null;
 let futsalSubTorneoActual = "elite";
 let futsalCategoriaActual = "general";
 let futsalIsPromoMode = false;
@@ -112,9 +110,6 @@ const FUTSAL_ES_FOCO = (eq) => eq === FUTSAL_DATA.equipo_foco;
 
 function futsalObtenerTabla(cat) {
   if (!FUTSAL_DATA || !FUTSAL_DATA.tablas_posiciones) return null;
-  if (futsalSubTorneoActual === "duelos") {
-    return FUTSAL_DATA.tablas_posiciones["Clasificación General"] || FUTSAL_DATA.tablas_posiciones.general || null;
-  }
   if (cat === "general") {
     return FUTSAL_DATA.tablas_posiciones.general || null;
   }
@@ -255,8 +250,7 @@ function futsalRenderCategorySelector() {
       localStorage.setItem(FUTSAL_STORAGE_KEY, futsalCategoriaActual);
 
       if (typeof window.trackEvent === "function") {
-        const activeSport = (futsalSubTorneoActual === "duelos") ? "futsal-duelos" : "futsal";
-        window.trackEvent("select_category", { category_id: futsalCategoriaActual, sport_id: activeSport });
+        window.trackEvent("select_category", { category_id: futsalCategoriaActual, sport_id: "futsal" });
       }
       wrap.querySelectorAll(".cat-btn").forEach(b => {
         const active = b.dataset.cat === futsalCategoriaActual;
@@ -283,9 +277,7 @@ function futsalRender() {
   const tag = futsalCategoriaActual === "general"
     ? "Acumulado"
     : FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual;
-  const tableTag = (futsalSubTorneoActual === "duelos" && futsalCategoriaActual !== "general")
-    ? `General (Cat. ${FUTSAL_CAT_LABELS[futsalCategoriaActual] || futsalCategoriaActual})`
-    : tag;
+  const tableTag = tag;
   document.getElementById("form-cat-tag").textContent = tag;
   document.getElementById("table-cat-tag").textContent = tableTag;
   document.getElementById("history-cat-tag").textContent = tag;

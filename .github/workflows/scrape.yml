@@ -60,7 +60,7 @@ jobs:
       - name: Backup datos previos
         run: |
           mkdir -p /tmp/old
-          for f in futsal-data futsal-duelos-data futsal-reducido-data futsal-femenino-data fefi-data; do
+          for f in futsal-data futsal-reducido-data futsal-femenino-data fefi-data; do
             cp "data/$f.json" "/tmp/old/$f.json" 2>/dev/null || true
           done
 
@@ -76,11 +76,6 @@ jobs:
         id: s_futsal
         continue-on-error: true
         run: python scraper/scraper_futsal.py
-
-      - name: Run Futsal Duelos fetcher
-        id: s_duelos
-        continue-on-error: true
-        run: python scraper/scraper_futsal_duelos.py
 
       - name: Run Futsal Reducido fetcher
         id: s_reducido
@@ -146,25 +141,6 @@ jobs:
           exit 1
 
       # Resumen legible + marca el job en rojo si algo falló, pero DESPUÉS de commitear
-      # TEMPORAL: captura el stderr de los scrapers de futsal a un archivo
-      # commiteado, porque los logs de Actions no son legibles desde fuera.
-      # Se saca en cuanto quede diagnosticado.
-      - name: Diagnóstico futsal
-        if: always()
-        continue-on-error: true
-        run: |
-          mkdir -p data/_debug
-          for s in scraper_futsal scraper_futsal_femenino scraper_futsal_duelos; do
-            echo "===== $s =====" > "data/_debug/$s.log"
-            python "scraper/$s.py" >> "data/_debug/$s.log" 2>&1 || echo "EXIT=$?" >> "data/_debug/$s.log"
-          done
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f data/_debug/ data/ || true
-          git commit -m "debug: capturar salida de scrapers futsal" || true
-          git pull --rebase --autostash origin main || true
-          git push origin HEAD:main || true
-
       - name: Resumen
         if: always()
         run: |
@@ -174,7 +150,6 @@ jobs:
           }
           check "FEFI"             "${{ steps.s_fefi.outcome }}"
           check "Futsal"           "${{ steps.s_futsal.outcome }}"
-          check "Duelos"           "${{ steps.s_duelos.outcome }}"
           check "Reducido"         "${{ steps.s_reducido.outcome }}"
           check "Femenino"         "${{ steps.s_femenino.outcome }}"
           check "Stats"            "${{ steps.s_stats.outcome }}"

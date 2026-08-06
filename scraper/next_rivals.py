@@ -19,7 +19,6 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 TORNEOS = [
     ("futsal-data.json", "futsal", "VILLA SAHORES"),
-    ("futsal-duelos-data.json", "futsal-duelos", "VILLA SAHORES"),
     ("futsal-reducido-data.json", "futsal-reducido", "VILLA SAHORES"),
     ("futsal-femenino-data.json", "futsal-femenino", "VILLA SAHORES"),
     ("fefi-data.json", "babyfutbol", "CLUB SAHORES"),
