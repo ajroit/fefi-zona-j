@@ -88,24 +88,32 @@ def procesar_tablas(clasificacion_raw):
         categorias.append(cat_nombre)
 
         tabla = []
-        for i, pos in enumerate(cat_data.get("positions", []), 1):
-            club_insc = pos.get("club", {}).get("clubInscription", {})
-            nombre = club_insc.get("tableName") or club_insc.get("name", "?")
+        for pos in cat_data.get("positions", []):
+            # FIX: en el Clausura la API devuelve filas con "club": null (plazas
+            # todavía sin definir). `.get("club", {})` NO cubre ese caso: solo
+            # aplica el default si falta la clave, no si el valor es null.
+            # Eso reventaba con AttributeError y tiraba abajo todo el scraper.
+            club_insc = (pos.get("club") or {}).get("clubInscription") or {}
+            nombre = club_insc.get("tableName") or club_insc.get("name") or ""
+            if not nombre:
+                continue  # plaza sin equipo asignado: no va a la tabla
             logo = club_insc.get("logo") or ""
 
             if nombre not in equipos_set:
                 equipos_set[nombre] = logo
 
+            # FIX: los contadores también pueden venir null antes del primer
+            # partido; `or 0` evita que la suma de la tabla general explote.
             tabla.append({
-                "posicion": i,
+                "posicion": len(tabla) + 1,
                 "equipo": nombre,
-                "pj": pos.get("pj", 0),
-                "g": pos.get("pg", 0),
-                "e": pos.get("pe", 0),
-                "p": pos.get("pp", 0),
-                "gf": pos.get("gf", 0),
-                "gc": pos.get("gc", 0),
-                "pts": pos.get("pts", 0),
+                "pj": pos.get("pj") or 0,
+                "g": pos.get("pg") or 0,
+                "e": pos.get("pe") or 0,
+                "p": pos.get("pp") or 0,
+                "gf": pos.get("gf") or 0,
+                "gc": pos.get("gc") or 0,
+                "pts": pos.get("pts") or 0,
             })
 
         tablas[cat_nombre] = tabla
@@ -169,7 +177,7 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
         node_id = child.get("id")
         for mp in child.get("matchesPlanning", []):
             for tm in mp.get("tournamentMatches", []):
-                cat_id = tm.get("category", {}).get("id")
+                cat_id = (tm.get("category") or {}).get("id")
                 if node_id and cat_id:
                     tareas.add((node_id, cat_id))
     
@@ -183,7 +191,7 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
         ]
         for fut in concurrent.futures.as_completed(futuros):
             for match in fut.result():
-                m_id = match.get("matchInfo", {}).get("id")
+                m_id = (match.get("matchInfo") or {}).get("id")
                 venue = match.get("venue")
                 if m_id and venue:
                     match_venues[m_id] = venue
@@ -306,21 +314,22 @@ def main():
     print(f"📋 Usando fase: {fase_nombre} (ID: {phase_id}) — {_motivo}")
 
     # 2. Obtener grupos
+    # FIX: una fase recién arrancada todavía no tiene tabla de posiciones
+    # armada. Antes eso era `sys.exit(1)` y se perdía TAMBIÉN el fixture, que
+    # sí estaba disponible. Ahora seguimos con las tablas vacías.
     groups = obtener_groups(phase_id)
+    tablas, categorias, equipos = {}, [], []
     if not groups:
-        print("❌ No hay grupos de clasificación")
-        sys.exit(1)
+        print("⚠️  La fase todavía no tiene tabla de posiciones; sigo solo con el fixture")
+    else:
+        group = groups[0]
+        group_id = group["id"]
+        print(f"📊 Grupo: {group.get('value', '?')} (ID: {group_id})")
 
-    # Usar el primer grupo (CATEGORÍAS)
-    group = groups[0]
-    group_id = group["id"]
-    print(f"📊 Grupo: {group.get('value', '?')} (ID: {group_id})")
-
-    # 3. Clasificación
-    print("📊 Obteniendo tablas de posiciones...")
-    clasificacion = obtener_clasificacion(phase_id, group_id)
-    tablas, categorias, equipos = procesar_tablas(clasificacion)
-    print(f"✅ {len(categorias)} categorías, {len(equipos)} equipos")
+        print("📊 Obteniendo tablas de posiciones...")
+        clasificacion = obtener_clasificacion(phase_id, group_id)
+        tablas, categorias, equipos = procesar_tablas(clasificacion)
+        print(f"✅ {len(categorias)} categorías, {len(equipos)} equipos")
 
     # 4. Fixture
     print("📅 Obteniendo fixture...")
