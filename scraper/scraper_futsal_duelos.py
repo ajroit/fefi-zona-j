@@ -17,6 +17,8 @@ connection.allowed_gai_family = lambda: socket.AF_INET
 
 import requests
 
+from weball_fases import elegir_fase, resumen_fases
+
 # ── Configuración ──────────────────────────────────────────
 API_BASE = "https://api.weball.me/public-v2"
 INSTANCE_UUID = "2d260df1-7986-49fd-95a2-fcb046e7a4fb"
@@ -295,11 +297,15 @@ def main():
         print("⚠️ No hay fases disponibles para Torneo de Duelos. Finalizando sin error.")
         sys.exit(0)
 
-    # Usar la primera fase activa, o la primera disponible
-    fase = fases[0]
+    # FIX: antes era `fases[0]`, o sea SIEMPRE la primera fase. Cuando el torneo
+    # pasó de Apertura a Clausura, el scraper quedó clavado en la Apertura
+    # terminada y no volvió a traer datos nuevos nunca más.
+    for _f in fases:
+        print(f"   · fase disponible: {_f.get('id')} — {_f.get('name')}")
+    fase, _motivo = elegir_fase(fases, env_var="FUTSAL_DUELOS_PHASE_ID", etiqueta="Torneo de Duelos")
     phase_id = fase["id"]
     fase_nombre = fase["name"]
-    print(f"📋 Usando fase: {fase_nombre} (ID: {phase_id})")
+    print(f"📋 Usando fase: {fase_nombre} (ID: {phase_id}) — {_motivo}")
 
     # 2. Obtener grupos
     groups = obtener_groups(phase_id)
@@ -330,6 +336,9 @@ def main():
         "torneo": "Liga de Honor B",
         "zona": "Zona 1",
         "fase": fase_nombre.capitalize(),
+        "fase_id": phase_id,
+        "fase_seleccion": _motivo,
+        "fases_disponibles": resumen_fases(fases),
         "anio": datetime.utcnow().year,
         "equipo_foco": EQUIPO_FOCO,
         "categorias": categorias,
