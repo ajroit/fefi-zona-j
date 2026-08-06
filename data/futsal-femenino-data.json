@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T23:32:00.960634Z",
+  "actualizado": "2026-08-06T23:47:19.002141Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Clausura",
@@ -19,8 +19,85 @@
   ],
   "anio": 2026,
   "equipo_foco": "VILLA SAHORES",
-  "categorias": [],
-  "equipos": [],
+  "categorias": [
+    "UNICA ADULTAS FEMENINO ",
+    "RESERVA ADULTAS FEMENINO ",
+    "PRIMERA ADULTAS FEMENINO "
+  ],
+  "equipos": [
+    {
+      "nombre": "17 DE AGOSTO",
+      "logo": ""
+    },
+    {
+      "nombre": "ALLENDE",
+      "logo": ""
+    },
+    {
+      "nombre": "ASTRA MACKIE",
+      "logo": ""
+    },
+    {
+      "nombre": "BROWN DE ADROGUE",
+      "logo": ""
+    },
+    {
+      "nombre": "CENTRO ASTURIANO",
+      "logo": ""
+    },
+    {
+      "nombre": "CENTRO VK",
+      "logo": ""
+    },
+    {
+      "nombre": "CULTURAL DE TAPIALES",
+      "logo": ""
+    },
+    {
+      "nombre": "EL GALPON",
+      "logo": ""
+    },
+    {
+      "nombre": "ESTRELLA FEDERAL",
+      "logo": ""
+    },
+    {
+      "nombre": "INDEPENDIENTE (C)",
+      "logo": ""
+    },
+    {
+      "nombre": "LA DESCOSEMOS (FEM)",
+      "logo": ""
+    },
+    {
+      "nombre": "MAVIA FC",
+      "logo": ""
+    },
+    {
+      "nombre": "PURA SUELA",
+      "logo": ""
+    },
+    {
+      "nombre": "SACA DEL MEDIO",
+      "logo": ""
+    },
+    {
+      "nombre": "SOCIAL OESTE",
+      "logo": ""
+    },
+    {
+      "nombre": "VELEZ SARSFIELD",
+      "logo": ""
+    },
+    {
+      "nombre": "VILLA SAHORES",
+      "logo": ""
+    },
+    {
+      "nombre": "ZIZOU FUTSAL",
+      "logo": ""
+    }
+  ],
   "tablas_posiciones": {},
   "fechas": [
     {
