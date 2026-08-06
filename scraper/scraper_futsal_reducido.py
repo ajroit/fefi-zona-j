@@ -35,7 +35,7 @@ def fetch_reducido_data():
 
     # FIX: el visualizer trae venue=null en cada partido. La sede hay que
     # pedirla aparte por (fecha, categoria); este scraper nunca lo hacia.
-    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID)
+    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID, cache_json=OUTPUT_DATA)
     
     fechas = []
     equipos_dict = {}

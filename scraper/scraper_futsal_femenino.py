@@ -157,13 +157,22 @@ def obtener_fixture(phase_id):
 
 
 def _fetch_match_details(phase_id, node_id, cat_id):
-    """Auxiliar para hacer fetch concurrente de los detalles de partidos (sedes)."""
+    """Detalle de partidos (trae la sede). Con reintentos: la API responde 503
+    cuando se le pegan muchos pedidos concurrentes, y antes ese fallo se
+    tragaba en silencio y la sede quedaba vacia."""
+    import random, time as _t
     url = f"/tournament/{TOURNAMENT_ID}/phase/{phase_id}/category/{cat_id}/visualizer/{node_id}/match"
-    try:
-        res = api_get(url, params={"instanceUUID": INSTANCE_UUID})
-        return res if isinstance(res, list) else []
-    except Exception as e:
-        return []
+    for intento in range(4):
+        try:
+            res = api_get(url, params={"instanceUUID": INSTANCE_UUID})
+            if isinstance(res, list):
+                return res
+        except Exception:
+            pass
+        if intento < 3:
+            _t.sleep((2 ** intento) + random.uniform(0, 0.8))
+    print(f"   ⚠️  sin detalle para nodo {node_id}/cat {cat_id} tras 4 intentos")
+    return []
 
 def procesar_fixture(visualizer_data, categorias, phase_id):
     """Convierte los datos del fixture en la lista estructurada de fechas."""
@@ -184,7 +193,7 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
     # 2. Fetch concurrente de sedes
     match_venues = {} # match_id -> venue
     print(f"   ⏳ Fetcheando sedes de {len(tareas)} combinaciones de categoría/fecha...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futuros = [
             executor.submit(_fetch_match_details, phase_id, n_id, c_id)
             for n_id, c_id in tareas
