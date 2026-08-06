@@ -20,7 +20,9 @@ permissions:
 # FIX: evita que dos corridas simultáneas (cron + push) se pisen al hacer git push
 concurrency:
   group: scrape-data
-  cancel-in-progress: false
+  # FIX: era false. El incidente de Actions dejo corridas viejas encoladas
+  # que arrancaban tarde, con datos mas viejos, y chocaban al pushear.
+  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -132,8 +134,11 @@ jobs:
           echo "   Ahora: ${{ steps.post-rivals.outputs.rivals }}"
           python scraper/predictor.py
 
-      # FIX: git push pelado fallaba con "non-fast-forward" cuando entraba
-      # otro commit mientras corría el scraper. Ahora hace rebase y reintenta.
+      # FIX: antes esto hacia `git pull --rebase`. Rebasear JSON regenerados
+      # contra otra corrida SIEMPRE da conflicto: los dos lados reescriben el
+      # archivo entero. Como los datos scrapeados son la version buena y se
+      # regeneran de cero en cada corrida, nos ponemos encima de origin/main y
+      # volvemos a apoyar nuestros archivos. Sin merge, sin conflicto posible.
       - name: Commit & push si hay cambios
         id: commit
         run: |
@@ -141,39 +146,40 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [[ -z "$(git status --porcelain data/)" ]]; then
-            echo "ℹ️ Sin cambios — no se commitea"
+            echo "Sin cambios - no se commitea"
             echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-          echo "changed=true" >> $GITHUB_OUTPUT
 
-          if grep -rlE '^(<<<<<<< |>>>>>>> )' data/ 2>/dev/null | grep -q .; then
-            echo "❌ Hay marcadores de conflicto en data/ — no se commitea nada"
-            grep -rlE '^(<<<<<<< |>>>>>>> )' data/
-            exit 1
-          fi
-
-          git add data/
-          git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Red de seguridad: nunca subir JSON rotos (ya paso una vez)
+          for f in data/*.json; do
+            python -c "import json,sys; json.load(open(sys.argv[1]))" "$f" || {
+              echo "$f no es JSON valido - no se commitea nada"; exit 1; }
+          done
 
           for i in 1 2 3; do
-            if git pull --rebase --autostash origin main; then
-              if git push origin HEAD:main; then
-                echo "✅ Datos actualizados"
-                exit 0
-              fi
-            else
-              # FIX: si el rebase queda a medias hay que abortarlo. Sin esto el
-              # arbol queda con marcadores <<<<<<< y un `git add data/` los
-              # commitea, dejando JSON corruptos en main (ya paso una vez).
-              echo "⚠️ Rebase conflictivo, abortando"
-              git rebase --abort || true
-              exit 1
+            rm -rf /tmp/data-nueva && cp -r data /tmp/data-nueva
+            git fetch origin main
+            git reset --hard origin/main
+            rm -rf data && mv /tmp/data-nueva data
+
+            if [[ -z "$(git status --porcelain data/)" ]]; then
+              echo "Otra corrida ya subio estos mismos datos"
+              echo "changed=false" >> $GITHUB_OUTPUT
+              exit 0
             fi
-            echo "⚠️ Push falló (intento $i), reintentando en 5s..."
+
+            git add data/
+            git commit -m "update data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            if git push origin HEAD:main; then
+              echo "Datos actualizados"
+              echo "changed=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            echo "Push rechazado (intento $i), reintentando..."
             sleep 5
           done
-          echo "❌ No se pudo pushear después de 3 intentos"
+          echo "No se pudo pushear despues de 3 intentos"
           exit 1
 
       # FIX: el encadenado por `workflow_run` dejó de dispararse (el workflow de

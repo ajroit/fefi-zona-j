@@ -10,6 +10,7 @@ import os
 import requests
 
 from weball_tabla import obtener_tablas
+from weball_sedes import obtener_sedes
 import shutil
 from datetime import datetime
 
@@ -31,6 +32,10 @@ def fetch_elite_data():
         raise Exception(f"HTTP Error {r.status_code} fetching Elite A data")
         
     viz = r.json()
+
+    # FIX: el visualizer trae venue=null en cada partido. La sede hay que
+    # pedirla aparte por (fecha, categoria); este scraper nunca lo hacia.
+    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID)
     
     fechas = []
     equipos_dict = {}
@@ -80,7 +85,9 @@ def fetch_elite_data():
                     "jugado": jugado,
                     "estado": status,
                     "match_id": match_id,
-                    "fecha_hora": _dt
+                    "fecha_hora": _dt,
+                    "sede": (SEDES.get(match_id) or {}).get("name"),
+                    "direccion": (SEDES.get(match_id) or {}).get("address"),
                 }
                 
             encuentros.append({

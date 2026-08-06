@@ -10,6 +10,7 @@ import os
 import requests
 
 from weball_tabla import obtener_tablas
+from weball_sedes import obtener_sedes
 import shutil
 from datetime import datetime
 
@@ -31,6 +32,10 @@ def fetch_reducido_data():
         raise Exception(f"HTTP Error {r.status_code} fetching Reducido data")
         
     viz = r.json()
+
+    # FIX: el visualizer trae venue=null en cada partido. La sede hay que
+    # pedirla aparte por (fecha, categoria); este scraper nunca lo hacia.
+    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID)
     
     fechas = []
     equipos_dict = {}
@@ -91,8 +96,8 @@ def fetch_reducido_data():
                     "jugado": jugado,
                     "estado": status_label,
                     "fecha_hora": dt,
-                    "sede": venue.get("name"),
-                    "direccion": venue.get("address"),
+                    "sede": (SEDES.get(match_id) or venue or {}).get("name"),
+                    "direccion": (SEDES.get(match_id) or venue or {}).get("address"),
                 }
 
             algun_jugado = any(p["jugado"] for p in partidos_cat.values())
