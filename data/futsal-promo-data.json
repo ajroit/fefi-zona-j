@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T22:04:13.278712",
+  "actualizado": "2026-08-06T22:23:11.332231",
   "torneo": "Torneo Joma 2026 - Promocionales Zona C (Clausura)",
   "torneo_id": "futsal-promo",
   "equipo_foco": "VILLA SAHORES",
@@ -11,43 +11,56 @@
   ],
   "equipos": [
     {
-      "nombre": "CAFAYATE FC"
+      "nombre": "CAFAYATE FC",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250428-163148-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-izbj9eylhraen1piwr3e6fyeeq33_1000183205.png"
     },
     {
-      "nombre": "DEPORTIVO EL TIO"
+      "nombre": "DEPORTIVO EL TIO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260306-024011-sd__1_.png"
     },
     {
-      "nombre": "COPELLO FUTSAL"
+      "nombre": "COPELLO FUTSAL",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250409-213056-images%20(2)%20(1).png"
     },
     {
-      "nombre": "SOCIAL PARQUE"
+      "nombre": "SOCIAL PARQUE",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260610-200930-ClubParque.png"
     },
     {
-      "nombre": "JOSE MARIA BOSCH"
+      "nombre": "JOSE MARIA BOSCH",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260804-153719-92.png"
     },
     {
-      "nombre": "SAN TELMO"
+      "nombre": "SAN TELMO",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260725-171406-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-tnlrjgd9qwp1uywan0zz912mwp62_20250708-180614-fa012df2-b15a-4ffa-9e97-fad616d45a95.png"
     },
     {
-      "nombre": "CABALLITO JUNIORS"
+      "nombre": "CABALLITO JUNIORS",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260305-223006-images-removebg-preview__4_.png"
     },
     {
-      "nombre": "ARGENTINO DE MATADEROS"
+      "nombre": "ARGENTINO DE MATADEROS",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/5cf34df5-70ef-4858-bb3b-b8b5b3fd5be9.png"
     },
     {
-      "nombre": "25 DE MAYO (LAFERRERE)"
+      "nombre": "25 DE MAYO (LAFERRERE)",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260304-185352-WhatsApp_Image_2026-03-04_at_15.49.52-removebg-preview.png"
     },
     {
-      "nombre": "SUELA DORADA"
+      "nombre": "SUELA DORADA",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb%2Fu-gy2v13fhmygo3mwxno4afp8i7ap2%2F20250414-180732-i-2d260df1-7986-49fd-95a2-fcb046e7a4fb_u-gy2v13fhmygo3mwxno4afp8i7ap2_logo%20suela%20dorada-final-Photoroom.png"
     },
     {
-      "nombre": "VILLA SAHORES"
+      "nombre": "VILLA SAHORES",
+      "logo": "https://d1tjx1ch4fbgc.cloudfront.net/512d7602-c307-4be0-8201-8fad9f262646.png"
     },
     {
-      "nombre": "HURACAN"
+      "nombre": "HURACAN",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260706-202833-images-Photoroom.png"
     },
     {
-      "nombre": "EXCURSIONISTAS B (PROMO)"
+      "nombre": "EXCURSIONISTAS B (PROMO)",
+      "logo": "https://cdn.weball.me/i-2d260df1-7986-49fd-95a2-fcb046e7a4fb/u-gy2v13fhmygo3mwxno4afp8i7ap2/20260302-180608-i.png"
     }
   ],
   "fechas": [
@@ -3172,5 +3185,731 @@
       ]
     }
   ],
-  "tablas_posiciones": {}
+  "tablas_posiciones": {
+    "2016 PROMOCIONALES": [
+      {
+        "posicion": 1,
+        "equipo": "CAFAYATE FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 2,
+        "equipo": "DEPORTIVO EL TIO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 3,
+        "equipo": "COPELLO FUTSAL",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 4,
+        "equipo": "SOCIAL PARQUE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 5,
+        "equipo": "JOSE MARIA BOSCH",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 6,
+        "equipo": "SAN TELMO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 7,
+        "equipo": "CABALLITO JUNIORS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 8,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 9,
+        "equipo": "25 DE MAYO (LAFERRERE)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 10,
+        "equipo": "SUELA DORADA",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 11,
+        "equipo": "VILLA SAHORES",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 12,
+        "equipo": "HURACAN",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 13,
+        "equipo": "EXCURSIONISTAS B (PROMO)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      }
+    ],
+    "2017 PROMOCIONALES": [
+      {
+        "posicion": 1,
+        "equipo": "CAFAYATE FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 2,
+        "equipo": "DEPORTIVO EL TIO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 3,
+        "equipo": "COPELLO FUTSAL",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 4,
+        "equipo": "SOCIAL PARQUE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 5,
+        "equipo": "JOSE MARIA BOSCH",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 6,
+        "equipo": "SAN TELMO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 7,
+        "equipo": "CABALLITO JUNIORS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 8,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 9,
+        "equipo": "25 DE MAYO (LAFERRERE)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 10,
+        "equipo": "SUELA DORADA",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 11,
+        "equipo": "VILLA SAHORES",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 12,
+        "equipo": "HURACAN",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 13,
+        "equipo": "EXCURSIONISTAS B (PROMO)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      }
+    ],
+    "2018 PROMOCIONALES": [
+      {
+        "posicion": 1,
+        "equipo": "CAFAYATE FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 2,
+        "equipo": "DEPORTIVO EL TIO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 3,
+        "equipo": "COPELLO FUTSAL",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 4,
+        "equipo": "SOCIAL PARQUE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 5,
+        "equipo": "JOSE MARIA BOSCH",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 6,
+        "equipo": "SAN TELMO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 7,
+        "equipo": "CABALLITO JUNIORS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 8,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 9,
+        "equipo": "25 DE MAYO (LAFERRERE)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 10,
+        "equipo": "SUELA DORADA",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 11,
+        "equipo": "VILLA SAHORES",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 12,
+        "equipo": "HURACAN",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 13,
+        "equipo": "EXCURSIONISTAS B (PROMO)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      }
+    ],
+    "2019 PROMOCIONALES": [
+      {
+        "posicion": 1,
+        "equipo": "CAFAYATE FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 2,
+        "equipo": "DEPORTIVO EL TIO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 3,
+        "equipo": "COPELLO FUTSAL",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 4,
+        "equipo": "SOCIAL PARQUE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 5,
+        "equipo": "JOSE MARIA BOSCH",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 6,
+        "equipo": "SAN TELMO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 7,
+        "equipo": "CABALLITO JUNIORS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 8,
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 9,
+        "equipo": "25 DE MAYO (LAFERRERE)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 10,
+        "equipo": "SUELA DORADA",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 11,
+        "equipo": "VILLA SAHORES",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 12,
+        "equipo": "HURACAN",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      },
+      {
+        "posicion": 13,
+        "equipo": "EXCURSIONISTAS B (PROMO)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0
+      }
+    ],
+    "general": [
+      {
+        "equipo": "CAFAYATE FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 1
+      },
+      {
+        "equipo": "DEPORTIVO EL TIO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 2
+      },
+      {
+        "equipo": "COPELLO FUTSAL",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 3
+      },
+      {
+        "equipo": "SOCIAL PARQUE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 4
+      },
+      {
+        "equipo": "JOSE MARIA BOSCH",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 5
+      },
+      {
+        "equipo": "SAN TELMO",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 6
+      },
+      {
+        "equipo": "CABALLITO JUNIORS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 7
+      },
+      {
+        "equipo": "ARGENTINO DE MATADEROS",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 8
+      },
+      {
+        "equipo": "25 DE MAYO (LAFERRERE)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 9
+      },
+      {
+        "equipo": "SUELA DORADA",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 10
+      },
+      {
+        "equipo": "VILLA SAHORES",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 11
+      },
+      {
+        "equipo": "HURACAN",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 12
+      },
+      {
+        "equipo": "EXCURSIONISTAS B (PROMO)",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "pts": 0,
+        "posicion": 13
+      }
+    ]
+  }
 }
