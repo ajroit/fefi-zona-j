@@ -12,10 +12,13 @@ import sys
 import time
 from datetime import datetime
 
+# FIX: google.generativeai es el SDK VIEJO (deprecado) y no sirve los modelos
+# Gemini 3.x. Con "gemini-3.1-flash-lite" devolvía 404 NotFound y el predictor
+# fallaba siempre. Migrado al SDK unificado google-genai.
 try:
-    import google.generativeai as genai
+    from google import genai
 except ImportError:
-    print("❌ Instalar: pip install google-generativeai")
+    print("❌ Instalar: pip install google-genai")
     sys.exit(1)
 
 
@@ -258,12 +261,27 @@ Respondé SOLO con un array JSON (sin markdown):
     return prompt
 
 
+_client = None
+
+
+def get_client():
+    """Cliente Gemini único, reutilizado en todas las llamadas."""
+    global _client
+    if _client is None:
+        _client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    return _client
+
+
 def llamar_gemini(prompt, label):
-    model = genai.GenerativeModel(GEMINI_MODEL)
+    client = get_client()
+    response = None
 
     for attempt in range(3):
         try:
-            response = model.generate_content(prompt)
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt,
+            )
             break
         except Exception as e:
             if ("429" in str(e) or "503" in str(e)) and attempt < 2:
@@ -273,6 +291,11 @@ def llamar_gemini(prompt, label):
             else:
                 print(f"      ❌ Error: {e}")
                 return []
+
+    # FIX: si los 3 intentos se agotaron sin break, response quedaba sin asignar
+    if response is None or not response.text:
+        print(f"      ⚠️ Sin respuesta de Gemini para {label}")
+        return []
 
     text = response.text.strip()
     if text.startswith("```"):
@@ -300,7 +323,8 @@ def main():
         print("❌ Falta GEMINI_API_KEY")
         sys.exit(1)
 
-    genai.configure(api_key=api_key)
+    # FIX: el SDK nuevo toma la key al crear el Client, no con configure()
+    os.environ["GEMINI_API_KEY"] = api_key
     todas = []
 
     for torneo in TORNEOS:

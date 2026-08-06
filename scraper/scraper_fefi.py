@@ -317,6 +317,15 @@ def scrape():
         "tablas_posiciones": tablas_pos,
     }
 
+    # FIX: guarda de seguridad. Si FEFI devuelve una página de error, un captcha
+    # o cambia el HTML, el parseo daba vacío y ESCRIBÍA el JSON igual, borrando
+    # todo el historial de un plumazo. Ahora prefiere fallar antes que pisar datos.
+    if not equipos or not fechas:
+        raise RuntimeError(
+            f"Parseo vacío ({len(equipos)} equipos, {len(fechas)} fechas). "
+            "No se sobrescribe fefi-data.json — revisar si cambió el HTML de FEFI."
+        )
+
     salida = Path(__file__).parent.parent / "data" / "fefi-data.json"
     salida.parent.mkdir(exist_ok=True)
     with salida.open("w", encoding="utf-8") as f:

@@ -1,32 +1,43 @@
 name: Scrape FEFI & Futsal
 
 on:
-  # Diario a las 04:00 UTC (01:00 hora Argentina) y fines de semana cada 2 horas (9 AM - 9 PM hora AR)
   schedule:
-    - cron: '0 4 * * *'                      # Diario de control
-    - cron: '0 12,14,16,18,20,22 * * 6,0'    # Sab/Dom 9:00 a 19:00 AR (12:00 a 22:00 UTC)
-    - cron: '0 0 * * 0,1'                    # Sab/Dom 21:00 AR (Dom/Lun 00:00 UTC)
+    - cron: '0 4 * * *'                      # Diario de control (01:00 AR)
+    - cron: '0 12,14,16,18,20,22 * * 6,0'    # Sab/Dom 9:00 a 19:00 AR
+    - cron: '0 0 * * 0,1'                    # Sab/Dom 21:00 AR
 
-  # También dispara en cada push al scraper, para testear cambios
   push:
     paths:
       - 'scraper/**'
       - '.github/workflows/scrape.yml'
 
-  # Disparable manualmente desde la pestaña Actions
   workflow_dispatch:
 
 permissions:
-  contents: write   # necesario para que el bot commitee data/
+  contents: write
+
+# FIX: evita que dos corridas simultáneas (cron + push) se pisen al hacer git push
+concurrency:
+  group: scrape-data
+  cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+
+    # FIX: los secrets van a nivel de JOB. Si se declaran en el propio step,
+    # `env.X` NO está disponible dentro del `if:` de ese mismo step.
+    env:
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,142 +49,116 @@ jobs:
       - name: Install deps
         run: pip install -r scraper/requirements.txt
 
-      # Guardar los rivales actuales ANTES de scrapear
-      - name: Snapshot rivales actuales
+      # FIX: los rivales "antes" se calculan con la MISMA lógica que los "después".
+      # Antes se leían de predictions.json con otro formato, así que nunca coincidían
+      # y el predictor se disparaba en cada corrida.
+      - name: Snapshot rivales ANTES
         id: pre-rivals
-        run: |
-          python3 -c "
-          import json
-          rivales = {}
-          for fname, tid in [
-              ('data/predictions.json', '__preds__'),
-          ]:
-              try:
-                  with open(fname) as f:
-                      data = json.load(f)
-                  for p in data.get('predicciones', []):
-                      key = p.get('torneo_id', '')
-                      if key not in rivales:
-                          rivales[key] = p.get('rival', '')
-              except: pass
-          print(','.join(f'{k}:{v}' for k, v in sorted(rivales.items())))
-          " > /tmp/pre_rivals.txt
-          echo "rivals=$(cat /tmp/pre_rivals.txt)" >> $GITHUB_OUTPUT
+        run: echo "rivals=$(python scraper/next_rivals.py)" >> $GITHUB_OUTPUT
 
-      - name: Backup old Futsal data
+      # FIX: se agregó reducido, que faltaba en el backup
+      - name: Backup datos previos
         run: |
-          cp data/futsal-data.json /tmp/futsal-data-old.json || true
-          cp data/futsal-duelos-data.json /tmp/futsal-duelos-data-old.json || true
-          cp data/futsal-femenino-data.json /tmp/futsal-femenino-data-old.json || true
+          mkdir -p /tmp/old
+          for f in futsal-data futsal-duelos-data futsal-reducido-data futsal-femenino-data fefi-data; do
+            cp "data/$f.json" "/tmp/old/$f.json" 2>/dev/null || true
+          done
 
+      # FIX: cada scraper es independiente. Si uno falla (FEFI 403, Weball caída),
+      # los demás siguen y SÍ se commitea lo que sí funcionó.
+      # El job igual termina en rojo al final para que te llegue la notificación.
       - name: Run FEFI scraper
+        id: s_fefi
+        continue-on-error: true
         run: python scraper/scraper_fefi.py
 
       - name: Run Futsal fetcher
+        id: s_futsal
+        continue-on-error: true
         run: python scraper/scraper_futsal.py
 
       - name: Run Futsal Duelos fetcher
+        id: s_duelos
+        continue-on-error: true
         run: python scraper/scraper_futsal_duelos.py
 
       - name: Run Futsal Reducido fetcher
+        id: s_reducido
+        continue-on-error: true
         run: python scraper/scraper_futsal_reducido.py
 
       - name: Run Futsal Femenino fetcher
+        id: s_femenino
+        continue-on-error: true
         run: python scraper/scraper_futsal_femenino.py
 
       - name: Run Futsal Stats compiler
+        id: s_stats
+        continue-on-error: true
         run: python scraper/scraper_stats.py
 
+      # FIX: si los secrets de Telegram no están cargados, el paso se saltea
+      # en vez de romper la corrida.
       - name: Notify Telegram (Futsal Schedules)
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        id: s_telegram
+        continue-on-error: true
+        if: ${{ env.TELEGRAM_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
         run: python scraper/notify_telegram.py
 
-      # Detectar los nuevos próximos rivales DESPUÉS de scrapear
-      - name: Detectar próximos rivales
+      - name: Detectar rivales DESPUÉS
         id: post-rivals
-        run: |
-          python3 -c "
-          import json
+        run: echo "rivals=$(python scraper/next_rivals.py)" >> $GITHUB_OUTPUT
 
-          def next_rival(fname, equipo_default):
-              from datetime import datetime, timedelta, timezone
-              tz_arg = timezone(timedelta(hours=-3))
-              today_str = datetime.now(tz_arg).strftime('%Y-%m-%d')
-
-              try:
-                  with open(fname) as f:
-                      data = json.load(f)
-              except: return ''
-              equipo = data.get('equipo_foco', equipo_default)
-              matches = []
-              for fecha in data.get('fechas', []):
-                  for enc in fecha.get('encuentros', []):
-                      if equipo not in (enc.get('local',''), enc.get('visitante','')):
-                          continue
-                      es_local = enc['local'] == equipo
-                      rival = enc['visitante'] if es_local else enc['local']
-                      jugado = enc.get('estado') == 'Finalizado' or any(
-                          p.get('jugado') for p in enc.get('partidos', {}).values()
-                      )
-                      matches.append({
-                          'rival': rival,
-                          'jugado': jugado,
-                          'fecha': fecha.get('fecha_partido')
-                      })
-
-              # 1. Buscar primero partidos de hoy o futuros
-              for m in matches:
-                  if m.get('fecha') and m['fecha'] >= today_str:
-                      return m['rival']
-
-              # 2. Si no hay partidos futuros/hoy, buscar el primero no jugado (postergados)
-              for m in matches:
-                  if not m['jugado']:
-                      return m['rival']
-              return ''
-
-          rivales = {}
-          for fname, tid, foco in [
-              ('data/futsal-data.json', 'futsal', 'VILLA SAHORES'),
-              ('data/futsal-duelos-data.json', 'futsal-duelos', 'VILLA SAHORES'),
-              ('data/futsal-reducido-data.json', 'futsal-reducido', 'VILLA SAHORES'),
-              ('data/futsal-femenino-data.json', 'futsal-femenino', 'VILLA SAHORES'),
-              ('data/fefi-data.json', 'babyfutbol', 'CLUB SAHORES'),
-          ]:
-              r = next_rival(fname, foco)
-              if r: rivales[tid] = r
-          print(','.join(f'{k}:{v}' for k, v in sorted(rivales.items())))
-          " > /tmp/post_rivals.txt
-          echo "rivals=$(cat /tmp/post_rivals.txt)" >> $GITHUB_OUTPUT
-
-      # Comparar: si cambió algún rival, ejecutar predictor
       - name: Ejecutar predictor si cambió el rival
-        if: ${{ steps.pre-rivals.outputs.rivals != steps.post-rivals.outputs.rivals }}
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        id: s_predictor
+        continue-on-error: true
+        if: ${{ steps.post-rivals.outputs.rivals != '' && steps.pre-rivals.outputs.rivals != steps.post-rivals.outputs.rivals && env.GEMINI_API_KEY != '' }}
         run: |
-          echo "🔮 Rivales cambiaron!"
+          echo "🔮 Rivales cambiaron"
           echo "   Antes: ${{ steps.pre-rivals.outputs.rivals }}"
           echo "   Ahora: ${{ steps.post-rivals.outputs.rivals }}"
           python scraper/predictor.py
 
-      - name: Info si no cambió
-        if: ${{ steps.pre-rivals.outputs.rivals == steps.post-rivals.outputs.rivals }}
-        run: |
-          echo "ℹ️ Mismos rivales, no se ejecuta predictor"
-          echo "   Rivales: ${{ steps.post-rivals.outputs.rivals }}"
-
+      # FIX: git push pelado fallaba con "non-fast-forward" cuando entraba
+      # otro commit mientras corría el scraper. Ahora hace rebase y reintenta.
       - name: Commit & push si hay cambios
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/
-            git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ Datos actualizados"
-          else
+
+          if [[ -z "$(git status --porcelain data/)" ]]; then
             echo "ℹ️ Sin cambios — no se commitea"
+            exit 0
           fi
+
+          git add data/
+          git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && {
+              echo "✅ Datos actualizados"
+              exit 0
+            }
+            echo "⚠️ Push falló (intento $i), reintentando en 5s..."
+            sleep 5
+          done
+          echo "❌ No se pudo pushear después de 3 intentos"
+          exit 1
+
+      # Resumen legible + marca el job en rojo si algo falló, pero DESPUÉS de commitear
+      - name: Resumen
+        if: always()
+        run: |
+          fail=0
+          check() {
+            if [[ "$2" == "failure" ]]; then echo "❌ $1"; fail=1; else echo "✅ $1"; fi
+          }
+          check "FEFI"             "${{ steps.s_fefi.outcome }}"
+          check "Futsal"           "${{ steps.s_futsal.outcome }}"
+          check "Duelos"           "${{ steps.s_duelos.outcome }}"
+          check "Reducido"         "${{ steps.s_reducido.outcome }}"
+          check "Femenino"         "${{ steps.s_femenino.outcome }}"
+          check "Stats"            "${{ steps.s_stats.outcome }}"
+          check "Telegram"         "${{ steps.s_telegram.outcome }}"
+          check "Predictor"        "${{ steps.s_predictor.outcome }}"
+          exit $fail

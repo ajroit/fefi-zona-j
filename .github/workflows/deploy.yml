@@ -1,7 +1,6 @@
 name: Deploy a GitHub Pages
 
 on:
-  # Cada vez que cambian los archivos del sitio en main
   push:
     branches: [main]
     paths:
@@ -24,10 +23,11 @@ on:
       - 'data/**'
       - '.github/workflows/deploy.yml'
 
+  # Necesario: los commits que hace el bot con GITHUB_TOKEN NO disparan
+  # el trigger `push`, así que el deploy se encadena por workflow_run.
   workflow_run:
     workflows: ["Scrape FEFI & Futsal"]
-    types:
-      - completed
+    types: [completed]
 
   workflow_dispatch:
 
@@ -44,23 +44,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # FIX: checkout explícito de main. En un workflow_run el ref por defecto
+      # puede no traer el commit recién pusheado por el bot.
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
+      # FIX: los `cp` sin guarda tiraban abajo el deploy entero si faltaba
+      # UN solo archivo. Ahora avisa y sigue; solo aborta si no hay nada que publicar.
       - name: Armar carpeta de publicación
         run: |
+          set -u
           mkdir -p dist/data dist/images
-          cp index.html app.js futsal.js futsal_reducido.js futsal_femenino.js futsal_stats.js share.js weather.js match.html match.js styles.css dist/
-          cp predictions.html predictions.js dist/
-          cp manifest.json sw.js dist/
+
+          for f in index.html app.js futsal.js futsal_reducido.js futsal_femenino.js \
+                   futsal_stats.js share.js weather.js match.html match.js styles.css \
+                   predictions.html predictions.js manifest.json sw.js; do
+            if [[ -f "$f" ]]; then cp "$f" dist/; else echo "⚠️ falta $f"; fi
+          done
+
           cp -r images/* dist/images/ 2>/dev/null || true
-          cp data/fefi-data.json dist/data/
-          cp data/futsal-data.json dist/data/
-          cp data/futsal-duelos-data.json dist/data/
-          cp data/futsal-reducido-data.json dist/data/
-          cp data/futsal-femenino-data.json dist/data/ 2>/dev/null || true
-          cp data/futsal-stats.json dist/data/ 2>/dev/null || true
-          cp data/predictions.json dist/data/ 2>/dev/null || true
+
+          for f in fefi-data futsal-data futsal-duelos-data futsal-reducido-data \
+                   futsal-femenino-data futsal-stats predictions; do
+            if [[ -f "data/$f.json" ]]; then cp "data/$f.json" dist/data/; else echo "⚠️ falta data/$f.json"; fi
+          done
+
+          if [[ ! -f dist/index.html ]]; then
+            echo "❌ No hay index.html, aborto el deploy"
+            exit 1
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
