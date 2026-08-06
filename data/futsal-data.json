@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-05T12:25:06.685728Z",
+  "actualizado": "2026-08-06T22:04:11.147547Z",
   "torneo": "Liga de Honor B",
   "zona": "Zona 1",
   "fase": "Apertura",
+  "fase_id": 930,
+  "fase_seleccion": "forzada por FUTSAL_PHASE_ID=930",
+  "fases_disponibles": [
+    {
+      "id": 930,
+      "name": "APERTURA",
+      "active": false
+    },
+    {
+      "id": 1366,
+      "name": "CLAUSURA",
+      "active": false
+    }
+  ],
   "anio": 2026,
   "equipo_foco": "VILLA SAHORES",
   "categorias": [
