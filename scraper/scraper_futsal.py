@@ -356,6 +356,36 @@ def main():
     fechas = procesar_fixture(visualizer, categorias, phase_id)
     print(f"✅ {len(fechas)} fechas procesadas")
 
+    # FIX: si la fase todavia no publica tabla de posiciones, `categorias` y
+    # `equipos` quedaban vacios, porque salian de la clasificacion. El frontend
+    # arma las pestanas de categoria a partir de `categorias`, asi que la
+    # division por categoria desaparecia aunque los partidos SI la tuvieran
+    # (fue el caso de Femenino Clausura: 3 categorias en los partidos y la
+    # lista vacia). Se derivan del propio fixture como respaldo.
+    #
+    # Ojo: los nombres se dejan TAL CUAL vienen de la API, con espacios finales
+    # incluidos ("UNICA ADULTAS FEMENINO "), porque las etiquetas del frontend
+    # usan esa misma clave exacta.
+    if not categorias:
+        vistas = []
+        for _f in fechas:
+            for _e in _f.get("encuentros", []):
+                for _c in _e.get("partidos", {}):
+                    if _c not in vistas:
+                        vistas.append(_c)
+        categorias = vistas
+        print(f"   ↳ {len(categorias)} categorias derivadas del fixture")
+
+    if not equipos:
+        _nombres = []
+        for _f in fechas:
+            for _e in _f.get("encuentros", []):
+                for _n in (_e.get("local"), _e.get("visitante")):
+                    if _n and _n != "?" and _n not in _nombres:
+                        _nombres.append(_n)
+        equipos = [{"nombre": n, "logo": ""} for n in sorted(_nombres)]
+        print(f"   ↳ {len(equipos)} equipos derivados del fixture")
+
     # 5. Armar JSON de salida
     output = {
         "actualizado": datetime.utcnow().isoformat() + "Z",
