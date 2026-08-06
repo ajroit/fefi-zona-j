@@ -1,0 +1,18 @@
+===== scraper_futsal_femenino =====
+🏟️  Fetcher Futsal Femenino - Elite 1
+==================================================
+✅ 2 fase(s): APERTURA, CLAUSURA
+   · fase disponible: 935 — APERTURA
+   · fase disponible: 1393 — CLAUSURA
+📋 Usando fase: CLAUSURA (ID: 1393) — última de la lista (heurística por defecto)
+⚠️  La fase todavía no tiene tabla de posiciones; sigo solo con el fixture
+📅 Obteniendo fixture...
+   ⏳ Fetcheando sedes de 54 combinaciones de categoría/fecha...
+   ✅ Se encontraron sedes para 23 partidos.
+✅ 18 fechas procesadas
+
+✅ Datos guardados en /home/runner/work/fefi-zona-j/fefi-zona-j/data/futsal-femenino-data.json
+   📊 Categorías: 0
+   👥 Equipos: 0
+   📅 Fechas: 18
+   ⚠️  VILLA SAHORES no encontrado en los equipos

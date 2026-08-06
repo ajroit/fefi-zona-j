@@ -1,0 +1,20 @@
+===== scraper_futsal =====
+🏟️  Fetcher Futsal - Liga de Honor B Zona 1
+==================================================
+✅ 2 fase(s): APERTURA, CLAUSURA
+   · fase disponible: 930 — APERTURA
+   · fase disponible: 1366 — CLAUSURA
+📋 Usando fase: CLAUSURA (ID: 1366) — última de la lista (heurística por defecto)
+📊 Grupo: Clasificación (ID: 1982)
+📊 Obteniendo tablas de posiciones...
+✅ 11 categorías, 17 equipos
+📅 Obteniendo fixture...
+   ⏳ Fetcheando sedes de 187 combinaciones de categoría/fecha...
+   ✅ Se encontraron sedes para 65 partidos.
+✅ 17 fechas procesadas
+
+✅ Datos guardados en /home/runner/work/fefi-zona-j/fefi-zona-j/data/futsal-data.json
+   📊 Categorías: 11
+   👥 Equipos: 17
+   📅 Fechas: 17
+   ⚠️  VILLA SAHORES no encontrado en los equipos
