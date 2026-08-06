@@ -54,37 +54,69 @@ def fetch_reducido_data():
                 equipos_dict.setdefault(eq, {"nombre": eq})
                 
             partidos_cat = {}
-            sub_matches = mp.get("matches") or []
+            # FIX: la API devuelve los partidos por categoría bajo la clave
+            # "tournamentMatches", no "matches". Este scraper buscaba "matches",
+            # que nunca existe, así que `partidos` quedaba SIEMPRE vacío: el
+            # Reducido tenía 155 encuentros y cero resultados desde el día uno.
+            # (Los otros scrapers ya usaban la clave correcta.)
+            sub_matches = mp.get("tournamentMatches") or mp.get("matches") or []
             for m in sub_matches:
-                cat_obj = m.get("category", {}).get("categoryInstance", {})
-                cat_name = cat_obj.get("name", "").upper().strip()
-                if not cat_name: continue
-                
+                cat_obj = (m.get("category") or {}).get("categoryInstance") or {}
+                cat_name = (cat_obj.get("name") or "").upper().strip()
+                if not cat_name:
+                    continue
+
                 sh = m.get("scoreHome")
                 sa = m.get("scoreAway")
-                status = m.get("status")
-                match_id = m.get("id")
-                
-                jugado = (sh is not None and sa is not None) or status == "Finalizado"
-                
+
+                # FIX: el estado viene como objeto matchStatus, no como string
+                status_obj = m.get("matchStatus") or {}
+                status_label = status_obj.get("label") or ""
+                finalizado = bool(status_obj.get("finalized"))
+
+                # FIX: id y fecha/hora viven dentro de matchInfo
+                m_info = m.get("matchInfo") or {}
+                match_id = m_info.get("id")
+                dt = m_info.get("dateTime") or m_info.get("dateTimeUTC")
+                venue = m.get("venue") or {}
+
+                jugado = (sh is not None and sa is not None) or finalizado
+
                 partidos_cat[cat_name] = {
+                    "match_id": match_id,
                     "goles_local": sh,
                     "goles_visitante": sa,
                     "jugado": jugado,
-                    "estado": status,
-                    "match_id": match_id
+                    "estado": status_label,
+                    "fecha_hora": dt,
+                    "sede": venue.get("name"),
+                    "direccion": venue.get("address"),
                 }
-                
+
+            algun_jugado = any(p["jugado"] for p in partidos_cat.values())
+
             encuentros.append({
                 "local": local,
                 "visitante": visitante,
-                "estado": mp.get("status"),
+                "estado": "Finalizado" if algun_jugado else "Pendiente",
                 "partidos": partidos_cat
             })
-            
+
+        # FIX: la fecha estaba hardcodeada en None, así que el dashboard no
+        # podía ordenar ni saber cuál era el próximo partido. Se toma del
+        # primer partido de la fecha que traiga dateTime.
+        fecha_str = None
+        for enc in encuentros:
+            for p in enc["partidos"].values():
+                if p.get("fecha_hora"):
+                    fecha_str = p["fecha_hora"][:10]
+                    break
+            if fecha_str:
+                break
+
         fechas.append({
             "numero": num_fecha,
-            "fecha_partido": None,
+            "fecha_partido": fecha_str,
             "encuentros": encuentros
         })
         
@@ -107,6 +139,13 @@ def fetch_reducido_data():
         "tablas_posiciones": {}
     }
     
+    # FIX: no pisar el JSON bueno si la API devolvió algo vacío o cambió de forma
+    if not fechas or not equipos_dict:
+        raise RuntimeError(
+            f"Parseo vacío ({len(fechas)} fechas, {len(equipos_dict)} equipos). "
+            "No se sobrescribe futsal-reducido-data.json."
+        )
+
     os.makedirs(os.path.dirname(OUTPUT_DATA), exist_ok=True)
     os.makedirs(os.path.dirname(OUTPUT_WEB_DATA), exist_ok=True)
     

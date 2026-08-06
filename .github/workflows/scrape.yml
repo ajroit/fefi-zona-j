@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # para disparar el workflow de deploy explícitamente
 
 # FIX: evita que dos corridas simultáneas (cron + push) se pisen al hacer git push
 concurrency:
@@ -24,7 +25,10 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # El timeout incluye la espera en cola, no solo la ejecución. Con backlog
+    # de runners, 15 min alcanzaban para que GitHub cancelara el job antes de
+    # que arrancara. El scrape en sí tarda ~2 min.
+    timeout-minutes: 30
 
     # FIX: los secrets van a nivel de JOB. Si se declaran en el propio step,
     # `env.X` NO está disponible dentro del `if:` de ese mismo step.
@@ -60,7 +64,7 @@ jobs:
       - name: Backup datos previos
         run: |
           mkdir -p /tmp/old
-          for f in futsal-data futsal-reducido-data futsal-femenino-data fefi-data; do
+          for f in futsal-data futsal-duelos-data futsal-reducido-data futsal-femenino-data fefi-data; do
             cp "data/$f.json" "/tmp/old/$f.json" 2>/dev/null || true
           done
 
@@ -76,6 +80,11 @@ jobs:
         id: s_futsal
         continue-on-error: true
         run: python scraper/scraper_futsal.py
+
+      - name: Run Futsal Duelos fetcher
+        id: s_duelos
+        continue-on-error: true
+        run: python scraper/scraper_futsal_duelos.py
 
       - name: Run Futsal Reducido fetcher
         id: s_reducido
@@ -117,14 +126,17 @@ jobs:
       # FIX: git push pelado fallaba con "non-fast-forward" cuando entraba
       # otro commit mientras corría el scraper. Ahora hace rebase y reintenta.
       - name: Commit & push si hay cambios
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [[ -z "$(git status --porcelain data/)" ]]; then
             echo "ℹ️ Sin cambios — no se commitea"
+            echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
+          echo "changed=true" >> $GITHUB_OUTPUT
 
           git add data/
           git commit -m "🤖 update data $(date -u +'%Y-%m-%d %H:%M UTC')"
@@ -140,7 +152,36 @@ jobs:
           echo "❌ No se pudo pushear después de 3 intentos"
           exit 1
 
+      # FIX: el encadenado por `workflow_run` dejó de dispararse (el workflow de
+      # deploy es válido y anda por dispatch, pero el evento no llega). En vez de
+      # depender de esa semántica, lo llamamos explícitamente.
+      - name: Disparar deploy
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
+
       # Resumen legible + marca el job en rojo si algo falló, pero DESPUÉS de commitear
+      # TEMPORAL: captura el stderr de los scrapers de futsal a un archivo
+      # commiteado, porque los logs de Actions no son legibles desde fuera.
+      # Se saca en cuanto quede diagnosticado.
+      - name: Diagnóstico futsal
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p data/_debug
+          for s in scraper_futsal scraper_futsal_femenino scraper_futsal_duelos; do
+            echo "===== $s =====" > "data/_debug/$s.log"
+            python "scraper/$s.py" >> "data/_debug/$s.log" 2>&1 || echo "EXIT=$?" >> "data/_debug/$s.log"
+          done
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/_debug/ data/ || true
+          git commit -m "debug: capturar salida de scrapers futsal" || true
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main || true
+
       - name: Resumen
         if: always()
         run: |
@@ -150,9 +191,11 @@ jobs:
           }
           check "FEFI"             "${{ steps.s_fefi.outcome }}"
           check "Futsal"           "${{ steps.s_futsal.outcome }}"
+          check "Duelos"           "${{ steps.s_duelos.outcome }}"
           check "Reducido"         "${{ steps.s_reducido.outcome }}"
           check "Femenino"         "${{ steps.s_femenino.outcome }}"
           check "Stats"            "${{ steps.s_stats.outcome }}"
           check "Telegram"         "${{ steps.s_telegram.outcome }}"
           check "Predictor"        "${{ steps.s_predictor.outcome }}"
+          echo "datos cambiaron: ${{ steps.commit.outputs.changed }}"
           exit $fail
