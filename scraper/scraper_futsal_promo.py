@@ -8,6 +8,8 @@ Genera data/futsal-promo-data.json y web/data/futsal-promo-data.json
 import json
 import os
 import requests
+
+from weball_tabla import obtener_tablas
 import shutil
 from datetime import datetime
 
@@ -94,12 +96,22 @@ def fetch_promo_data():
             "encuentros": encuentros
         })
         
+    # FIX: este scraper nunca pedia la tabla de posiciones (solo el fixture),
+    # por eso el dashboard no mostraba tabla para este torneo.
+    print("Obteniendo tabla de posiciones...")
+    tablas_posiciones, cats_api, equipos_api = obtener_tablas(
+        TOURNAMENT_ID, PHASE_ID, env_var="PROMO_GROUP_ID")
+    for e in equipos_api:
+        equipos_dict.setdefault(e["nombre"], {"nombre": e["nombre"]})
+        if e.get("logo"):
+            equipos_dict[e["nombre"]]["logo"] = e["logo"]
+
     result = {
         "actualizado": datetime.now().isoformat(),
         "torneo": "Torneo Joma 2026 - Promocionales Zona C (Clausura)",
         "torneo_id": "futsal-promo",
         "equipo_foco": EQUIPO_FOCO,
-        "categorias": [
+        "categorias": cats_api or [
             "2016 PROMOCIONALES",
             "2017 PROMOCIONALES",
             "2018 PROMOCIONALES",
@@ -107,7 +119,7 @@ def fetch_promo_data():
         ],
         "equipos": list(equipos_dict.values()),
         "fechas": fechas,
-        "tablas_posiciones": {}
+        "tablas_posiciones": tablas_posiciones
     }
     
     os.makedirs(os.path.dirname(OUTPUT_DATA), exist_ok=True)

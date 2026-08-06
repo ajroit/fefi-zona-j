@@ -8,6 +8,8 @@ Genera data/futsal-reducido-data.json y web/data/futsal-reducido-data.json
 import json
 import os
 import requests
+
+from weball_tabla import obtener_tablas
 import shutil
 from datetime import datetime
 
@@ -120,12 +122,22 @@ def fetch_reducido_data():
             "encuentros": encuentros
         })
         
+    # FIX: este scraper nunca pedia la tabla de posiciones (solo el fixture),
+    # por eso el dashboard no mostraba tabla para este torneo.
+    print("Obteniendo tabla de posiciones...")
+    tablas_posiciones, cats_api, equipos_api = obtener_tablas(
+        TOURNAMENT_ID, PHASE_ID, env_var="REDUCIDO_GROUP_ID")
+    for e in equipos_api:
+        equipos_dict.setdefault(e["nombre"], {"nombre": e["nombre"]})
+        if e.get("logo"):
+            equipos_dict[e["nombre"]]["logo"] = e["logo"]
+
     result = {
         "actualizado": datetime.now().isoformat(),
         "torneo": "Torneo Joma 2026 - Futsal Reducido (Clausura)",
         "torneo_id": "futsal-reducido",
         "equipo_foco": EQUIPO_FOCO,
-        "categorias": [
+        "categorias": cats_api or [
             "PRIMERA MASCULINO",
             "TERCERA MASCULINO",
             "CUARTA MASCULINO",
@@ -136,7 +148,7 @@ def fetch_reducido_data():
         ],
         "equipos": list(equipos_dict.values()),
         "fechas": fechas,
-        "tablas_posiciones": {}
+        "tablas_posiciones": tablas_posiciones
     }
     
     # FIX: no pisar el JSON bueno si la API devolvió algo vacío o cambió de forma

@@ -8,6 +8,8 @@ Genera data/futsal-elite-data.json y web/data/futsal-elite-data.json
 import json
 import os
 import requests
+
+from weball_tabla import obtener_tablas
 import shutil
 from datetime import datetime
 
@@ -96,19 +98,22 @@ def fetch_elite_data():
             "encuentros": encuentros
         })
         
-    # Cargar tablas de posiciones compiladas si existen
-    tablas_posiciones = {}
-    tablas_cache = os.path.join(BASE_DIR, "scratch", "elite_a_tablas_final.json")
-    if os.path.exists(tablas_cache):
-        with open(tablas_cache) as f:
-            tablas_posiciones = json.load(f)
-            
+    # FIX: este scraper nunca pedia la tabla de posiciones (solo el fixture),
+    # por eso el dashboard no mostraba tabla para este torneo.
+    print("Obteniendo tabla de posiciones...")
+    tablas_posiciones, cats_api, equipos_api = obtener_tablas(
+        TOURNAMENT_ID, PHASE_ID, env_var="ELITE_GROUP_ID")
+    for e in equipos_api:
+        equipos_dict.setdefault(e["nombre"], {"nombre": e["nombre"]})
+        if e.get("logo"):
+            equipos_dict[e["nombre"]]["logo"] = e["logo"]
+
     result = {
         "actualizado": datetime.now().isoformat(),
         "torneo": "Torneo Joma 2026 - Elite A (Clausura)",
         "torneo_id": "futsal-elite",
         "equipo_foco": EQUIPO_FOCO,
-        "categorias": [
+        "categorias": cats_api or [
             "PRIMERA MASCULINO",
             "TERCERA MASCULINO",
             "CUARTA MASCULINO",
