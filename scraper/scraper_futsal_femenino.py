@@ -192,6 +192,7 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
     
     # 2. Fetch concurrente de sedes
     match_venues = {} # match_id -> venue
+    match_status = {} # match_id -> estado real (solo llega por el detalle)
     print(f"   ⏳ Fetcheando sedes de {len(tareas)} combinaciones de categoría/fecha...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         futuros = [
@@ -204,6 +205,12 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
                 venue = match.get("venue")
                 if m_id and venue:
                     match_venues[m_id] = venue
+                if m_id:
+                    _s = match.get("status") or {}
+                    _lab = _s.get("publicLabel") or _s.get("label")
+                    if _lab:
+                        match_status[m_id] = {"label": _lab,
+                                              "finalized": bool(_s.get("finalized"))}
 
     print(f"   ✅ Se encontraron sedes para {len(match_venues)} partidos.")
 
@@ -233,9 +240,12 @@ def procesar_fixture(visualizer_data, categorias, phase_id):
 
                 score_h = tm.get("scoreHome")
                 score_a = tm.get("scoreAway")
-                status = tm.get("matchStatus", {}) or {}
-                status_label = status.get("label", "")
-                finalized = status.get("finalized", False)
+                # FIX: `matchStatus` no existe en ninguna respuesta de la API.
+                # El estado real es `status` y SOLO llega por el endpoint de
+                # detalle, por eso un partido suspendido salia con estado "".
+                _st = match_status.get((tm.get("matchInfo") or {}).get("id")) or {}
+                status_label = _st.get("label", "")
+                finalized = _st.get("finalized", False)
                 
                 # Extraer info de matchInfo
                 m_info = tm.get("matchInfo", {}) or {}

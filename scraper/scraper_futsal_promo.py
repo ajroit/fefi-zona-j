@@ -10,7 +10,7 @@ import os
 import requests
 
 from weball_tabla import obtener_tablas
-from weball_sedes import obtener_sedes
+from weball_sedes import obtener_detalles
 import shutil
 from datetime import datetime
 
@@ -35,7 +35,7 @@ def fetch_promo_data():
 
     # FIX: el visualizer trae venue=null en cada partido. La sede hay que
     # pedirla aparte por (fecha, categoria); este scraper nunca lo hacia.
-    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID, cache_json=OUTPUT_DATA)
+    DETALLES = obtener_detalles(viz, TOURNAMENT_ID, PHASE_ID, cache_json=OUTPUT_DATA)
     
     fechas = []
     equipos_dict = {}
@@ -71,11 +71,16 @@ def fetch_promo_data():
                 
                 sh = m.get("scoreHome")
                 sa = m.get("scoreAway")
-                status = (m.get("matchStatus") or {}).get("label") or ""
                 match_id = (m.get("matchInfo") or {}).get("id")
                 _dt = (m.get("matchInfo") or {}).get("dateTime") or (m.get("matchInfo") or {}).get("dateTimeUTC")
+                # FIX: el estado real vive en `status` y SOLO en el endpoint de
+                # detalle. Los scrapers leian `matchStatus`, que no existe, asi
+                # que un partido suspendido salia con estado vacio.
+                _det = DETALLES.get(match_id) or {}
+                _dt = _dt or _det.get("fecha_hora")
+                status = _det.get("estado") or ""
                 
-                jugado = (sh is not None and sa is not None) or status == "Finalizado"
+                jugado = (sh is not None and sa is not None) or bool(_det.get("finalizado"))
                 
                 partidos_cat[cat_name] = {
                     "goles_local": sh,
@@ -84,8 +89,8 @@ def fetch_promo_data():
                     "estado": status,
                     "match_id": match_id,
                     "fecha_hora": _dt,
-                    "sede": (SEDES.get(match_id) or {}).get("name"),
-                    "direccion": (SEDES.get(match_id) or {}).get("address"),
+                    "sede": (_det.get("venue") or {}).get("name"),
+                    "direccion": (_det.get("venue") or {}).get("address"),
                 }
                 
             encuentros.append({

@@ -10,7 +10,7 @@ import os
 import requests
 
 from weball_tabla import obtener_tablas
-from weball_sedes import obtener_sedes
+from weball_sedes import obtener_detalles
 import shutil
 from datetime import datetime
 
@@ -35,7 +35,7 @@ def fetch_reducido_data():
 
     # FIX: el visualizer trae venue=null en cada partido. La sede hay que
     # pedirla aparte por (fecha, categoria); este scraper nunca lo hacia.
-    SEDES = obtener_sedes(viz, TOURNAMENT_ID, PHASE_ID, cache_json=OUTPUT_DATA)
+    DETALLES = obtener_detalles(viz, TOURNAMENT_ID, PHASE_ID, cache_json=OUTPUT_DATA)
     
     fechas = []
     equipos_dict = {}
@@ -76,15 +76,17 @@ def fetch_reducido_data():
                 sh = m.get("scoreHome")
                 sa = m.get("scoreAway")
 
-                # FIX: el estado viene como objeto matchStatus, no como string
-                status_obj = m.get("matchStatus") or {}
-                status_label = status_obj.get("label") or ""
-                finalizado = bool(status_obj.get("finalized"))
+                # FIX: el estado real vive en `status` y SOLO en el endpoint de
+                # detalle. `matchStatus` no existe en ninguna respuesta, asi que
+                # un partido suspendido salia con estado vacio.
+                _det = DETALLES.get((m.get("matchInfo") or {}).get("id")) or {}
+                status_label = _det.get("estado") or ""
+                finalizado = bool(_det.get("finalizado"))
 
                 # FIX: id y fecha/hora viven dentro de matchInfo
                 m_info = m.get("matchInfo") or {}
                 match_id = m_info.get("id")
-                dt = m_info.get("dateTime") or m_info.get("dateTimeUTC")
+                dt = m_info.get("dateTime") or m_info.get("dateTimeUTC") or _det.get("fecha_hora")
                 venue = m.get("venue") or {}
 
                 jugado = (sh is not None and sa is not None) or finalizado
@@ -96,8 +98,8 @@ def fetch_reducido_data():
                     "jugado": jugado,
                     "estado": status_label,
                     "fecha_hora": dt,
-                    "sede": (SEDES.get(match_id) or venue or {}).get("name"),
-                    "direccion": (SEDES.get(match_id) or venue or {}).get("address"),
+                    "sede": (_det.get("venue") or venue or {}).get("name"),
+                    "direccion": (_det.get("venue") or venue or {}).get("address"),
                 }
 
             algun_jugado = any(p["jugado"] for p in partidos_cat.values())

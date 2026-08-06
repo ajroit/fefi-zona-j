@@ -8,6 +8,16 @@ El objeto que devuelve /visualizer trae `venue: null` en cada partido: la sede
 NO viaja ahi. Hay que pedirla aparte, por combinacion de (fecha, categoria),
 al endpoint .../category/{cat_id}/visualizer/{node_id}/match.
 
+EL ESTADO DEL PARTIDO
+---------------------
+El estado real (Suspendido, Postergado, Finalizado...) vive en el campo
+`status` al NIVEL del partido, y SOLO en este endpoint de detalle: el
+visualizer lo devuelve null. Los scrapers leian `matchStatus`, que no existe
+en ninguna respuesta, asi que el estado salia siempre "".
+
+`status.publicLabel` es lo que muestra la web ("Suspendido");
+`status.label` es la etiqueta interna ("Postergado").
+
 EL PROBLEMA DE LOS 503
 ----------------------
 Sondeando la API se vio que con 10 pedidos concurrentes empieza a devolver
@@ -66,8 +76,8 @@ def _fetch(tournament_id, phase_id, node_id, cat_id):
     return [], True
 
 
-def cargar_sedes_previas(json_path):
-    """Sedes ya conocidas del JSON anterior, para no perderlas si la API falla."""
+def cargar_previos(json_path):
+    """Sede y estado ya conocidos del JSON anterior, para no perderlos si la API falla."""
     previas = {}
     if not json_path or not os.path.exists(json_path):
         return previas
@@ -80,14 +90,24 @@ def cargar_sedes_previas(json_path):
         for enc in fecha.get("encuentros") or []:
             for p in (enc.get("partidos") or {}).values():
                 mid = p.get("match_id")
-                if mid and p.get("sede"):
-                    previas[mid] = {"name": p.get("sede"), "address": p.get("direccion")}
+                if not mid:
+                    continue
+                guardado = {}
+                if p.get("sede"):
+                    guardado["venue"] = {"name": p.get("sede"), "address": p.get("direccion")}
+                if p.get("estado"):
+                    guardado["estado"] = p.get("estado")
+                if p.get("fecha_hora"):
+                    guardado["fecha_hora"] = p.get("fecha_hora")
+                if guardado:
+                    previas[mid] = guardado
     return previas
 
 
-def obtener_sedes(visualizer, tournament_id, phase_id, cache_json=None):
-    """Devuelve {match_id: venue}. Conserva las sedes previas si la API falla."""
-    previas = cargar_sedes_previas(cache_json)
+def obtener_detalles(visualizer, tournament_id, phase_id, cache_json=None):
+    """Devuelve {match_id: {"venue":..., "estado":..., "fecha_hora":...}}.
+    Conserva lo que ya sabiamos si la API falla."""
+    previas = cargar_previos(cache_json)
 
     tareas = set()
     for child in (visualizer or {}).get("children", []) or []:
@@ -106,7 +126,7 @@ def obtener_sedes(visualizer, tournament_id, phase_id, cache_json=None):
     print(f"   ⏳ Sedes: {len(tareas)} combinaciones fecha/categoria "
           f"({MAX_WORKERS} en paralelo, hasta {REINTENTOS} intentos)")
 
-    sedes, fallidas = {}, 0
+    detalles, fallidas = {}, 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futuros = [ex.submit(_fetch, tournament_id, phase_id, n, c) for n, c in tareas]
         for fut in concurrent.futures.as_completed(futuros):
@@ -115,17 +135,40 @@ def obtener_sedes(visualizer, tournament_id, phase_id, cache_json=None):
                 fallidas += 1
             for match in matches:
                 m_id = (match.get("matchInfo") or {}).get("id")
-                venue = match.get("venue")
-                if m_id and venue:
-                    sedes[m_id] = venue
+                if not m_id:
+                    continue
+                info = {}
+                if match.get("venue"):
+                    info["venue"] = match["venue"]
+                st = match.get("status") or {}
+                # publicLabel es lo que muestra la web; label es el interno
+                etiqueta = st.get("publicLabel") or st.get("label")
+                if etiqueta:
+                    info["estado"] = etiqueta
+                    info["finalizado"] = bool(st.get("finalized"))
+                dt = (match.get("matchInfo") or {}).get("dateTime")
+                if dt:
+                    info["fecha_hora"] = dt
+                if info:
+                    detalles[m_id] = info
 
     if fallidas:
         print(f"   ⚠️  {fallidas} de {len(tareas)} combinaciones fallaron tras reintentar")
 
-    # Lo nuevo pisa a lo viejo, pero lo viejo nunca se pierde
-    resultado = dict(previas)
-    resultado.update(sedes)
-    recuperadas = len(resultado) - len(sedes)
-    print(f"   ✅ Sedes: {len(sedes)} de la API"
-          + (f" + {recuperadas} conservadas del JSON anterior" if recuperadas > 0 else ""))
+    # Fusion campo por campo: lo nuevo pisa, pero lo viejo nunca se pierde
+    resultado = {}
+    for mid in set(previas) | set(detalles):
+        combinado = dict(previas.get(mid) or {})
+        combinado.update(detalles.get(mid) or {})
+        resultado[mid] = combinado
+
+    con_sede = sum(1 for v in resultado.values() if v.get("venue"))
+    con_estado = sum(1 for v in resultado.values() if v.get("estado"))
+    print(f"   ✅ {len(resultado)} partidos con detalle "
+          f"({con_sede} con sede, {con_estado} con estado)")
     return resultado
+
+
+# Alias por compatibilidad
+def obtener_sedes(*a, **k):
+    return obtener_detalles(*a, **k)
