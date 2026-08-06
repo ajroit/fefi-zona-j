@@ -146,6 +146,25 @@ jobs:
           exit 1
 
       # Resumen legible + marca el job en rojo si algo falló, pero DESPUÉS de commitear
+      # TEMPORAL: captura el stderr de los scrapers de futsal a un archivo
+      # commiteado, porque los logs de Actions no son legibles desde fuera.
+      # Se saca en cuanto quede diagnosticado.
+      - name: Diagnóstico futsal
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p data/_debug
+          for s in scraper_futsal scraper_futsal_femenino scraper_futsal_duelos; do
+            echo "===== $s =====" > "data/_debug/$s.log"
+            python "scraper/$s.py" >> "data/_debug/$s.log" 2>&1 || echo "EXIT=$?" >> "data/_debug/$s.log"
+          done
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/_debug/ data/ || true
+          git commit -m "debug: capturar salida de scrapers futsal" || true
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main || true
+
       - name: Resumen
         if: always()
         run: |
