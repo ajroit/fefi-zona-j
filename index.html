@@ -253,17 +253,16 @@
   <script src="futsal_femenino.js?v=20"></script>
   <script src="app.js?v=20"></script>
 
-  <!-- Service Worker para PWA -->
+  <!-- Desregistrar Service Worker y limpiar cachés -->
   <script>
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        // Register sw.js with a cache buster parameter to force the browser to check for changes
-        navigator.serviceWorker.register('/sw.js?v=20').then(function(reg) {
-          console.log('✅ Service Worker registrado:', reg.scope);
-          reg.update();
-        }).catch(function(err) {
-          console.log('⚠️ Service Worker error:', err);
-        });
+      navigator.serviceWorker.getRegistrations().then(function(regs) {
+        for (var r of regs) { r.unregister(); }
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function(keys) {
+        for (var k of keys) { caches.delete(k); }
       });
     }
   </script>

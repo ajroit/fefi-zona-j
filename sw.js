@@ -28,16 +28,10 @@ self.addEventListener("install", (event) => {
   self.skipWaiting();
 });
 
-// Activación: limpiar todas las caches viejas de inmediato
+// Activación: limpiar todas las caches y desregistrar
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
-        keys
-          .filter((key) => key !== CACHE_NAME)
-          .map((key) => caches.delete(key))
-      )
-    )
+    caches.keys().then((keys) => Promise.all(keys.map((k) => caches.delete(k))))
   );
   self.clients.claim();
 });
