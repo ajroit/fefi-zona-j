@@ -139,7 +139,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 34px 14px 14px 14px;
+    padding: 10px 14px 10px 14px;
     z-index: 12;
     opacity: 0.9;
   }
@@ -155,7 +155,7 @@
     color: var(--led);
     font-family: "Silkscreen", monospace;
     font-size: 11px;
-    padding: 7px 13px;
+    padding: 8px 14px;
     border-radius: 20px;
     letter-spacing: 0.05em;
     transition: all 0.15s ease;
@@ -167,18 +167,16 @@
   }
 
   .touch-zone-badge.top-zone {
-    margin-top: auto;
-    margin-bottom: 6px;
+    margin-top: 34px;
   }
 
   .touch-zone-badge.bottom-zone {
-    margin-top: 6px;
-    margin-bottom: auto;
+    margin-bottom: 10px;
   }
 
   .touch-zone-badge.active,
   .touch-zone-badge:active {
-    background: rgba(67, 201, 123, 0.55);
+    background: rgba(67, 201, 123, 0.6);
     border-color: #43c97b;
     color: #ffffff;
     transform: scale(1.08);
@@ -310,10 +308,10 @@
       <div class="rec">REC <b id="record">0000</b></div>
     <div class="touch-zones-guide" id="touchGuide">
       <div class="touch-zone-badge top-zone" id="badgeJump">
-        <span>⬆️</span> <span>SALTÁ (Tap Arriba)</span>
+        <span>⬆️ SALTÁ</span>
       </div>
       <div class="touch-zone-badge bottom-zone" id="badgeSlide">
-        <span>⬇️</span> <span>BARRÉ (Tap Abajo)</span>
+        <span>⬇️ BARRÉ</span>
       </div>
     </div>
 
