@@ -110,8 +110,9 @@
     z-index:20;
     display:grid;place-content:center;justify-items:center;gap:10px;
     text-align:center;
-    background:rgba(220,234,247,.92);
-    backdrop-filter:blur(1px);
+    background:rgba(13,21,24,.55);
+    backdrop-filter:blur(6px) saturate(1.4);
+    -webkit-backdrop-filter:blur(6px) saturate(1.4);
     padding:20px;
     border-radius:2px;
   }
@@ -120,21 +121,22 @@
     font-family:"Barlow Condensed",sans-serif;font-weight:700;
     text-transform:uppercase;letter-spacing:.04em;
     font-size:clamp(26px,5.4vw,44px);line-height:1;
-    color:#12181c;margin:0;
+    color:#f2f6f4;margin:0;
+    text-shadow: 0 2px 12px rgba(0,0,0,.45);
   }
   .curtain .sub{
     font-family:"Silkscreen",monospace;font-size:11px;letter-spacing:.06em;
-    color:#3c5a68;margin:0;max-width:44ch;line-height:1.9;
+    color:#9bbccc;margin:0;max-width:44ch;line-height:1.9;
   }
   .curtain .sub kbd{
     font:inherit;background:#12181c;color:var(--led);
     padding:2px 6px;border-radius:2px;
   }
   .curtain .stat{
-    font-family:"Silkscreen",monospace;font-size:12px;color:#12181c;
+    font-family:"Silkscreen",monospace;font-size:12px;color:#e7edf2;
     margin:0;letter-spacing:.06em;
   }
-  .curtain .stat span{color:#0f7a3f}
+  .curtain .stat span{color:#43c97b}
 
   /* ---- Guía sutil de zonas táctiles a la derecha para mobile ---- */
   .touch-zones-guide {
