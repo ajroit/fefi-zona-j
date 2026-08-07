@@ -939,7 +939,7 @@ init();
       if (typeof window.trackEvent === 'function') {
         window.trackEvent('easter_egg_entrenamiento', { method: 'crest_triple_tap' });
       }
-      window.location.href = 'entrenamiento.html';
+      window.location.href = 'entrenamiento.html?v=' + Date.now();
     } else {
       tapTimer = setTimeout(() => {
         tapCount = 0;
