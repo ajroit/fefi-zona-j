@@ -254,6 +254,15 @@
     box-shadow: 0 4px 12px rgba(15, 122, 63, 0.45);
   }
 
+  .curtain-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+
   .btn-play {
     display: inline-flex;
     align-items: center;
@@ -269,7 +278,6 @@
     background: #0d1518;
     color: var(--led);
     cursor: pointer;
-    margin-top: 4px;
     transition: all 0.15s ease;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
     touch-action: manipulation;
@@ -280,6 +288,36 @@
     border-color: #a8f0c4;
     color: #ffffff;
     transform: scale(1.04);
+  }
+
+  .btn-share {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: "Silkscreen", monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    padding: 10px 18px;
+    border-radius: 26px;
+    border: 2px solid #a8f0c4;
+    background: rgba(15, 122, 63, 0.35);
+    color: #a8f0c4;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    touch-action: manipulation;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  }
+
+  .btn-share:hover, .btn-share:active {
+    background: #0f7a3f;
+    color: #ffffff;
+    border-color: #43c97b;
+    transform: scale(1.04);
+  }
+
+  .btn-share[hidden] {
+    display: none;
   }
 
   /* ---- controls bar ---- */
@@ -426,9 +464,14 @@
           </button>
         </div>
       </div>
-      <button type="button" class="btn-play" id="btnPlay">
-        ¡SALIR A LA CANCHA!
-      </button>
+      <div class="curtain-actions">
+        <button type="button" class="btn-play" id="btnPlay">
+          ¡SALIR A LA CANCHA!
+        </button>
+        <button type="button" class="btn-share" id="btnShareCard" hidden>
+          <span>📸</span> Compartir Tarjeta
+        </button>
+      </div>
       <p class="sub" id="cSub"><kbd>ESPACIO</kbd> o Tocá para arrancar</p>
     </div>
   </div>
@@ -846,6 +889,10 @@ document.addEventListener("visibilitychange", () => { if (document.hidden) pause
 function start(){
   reset(); mode = "play"; paused = false;
   elCurtain.hidden = true;
+  const elBtnPlay = document.getElementById("btnPlay");
+  if (elBtnPlay) elBtnPlay.textContent = "¡SALIR A LA CANCHA!";
+  const elBtnShare = document.getElementById("btnShareCard");
+  if (elBtnShare) elBtnShare.hidden = true;
   beep(520,.07); setTimeout(()=>beep(780,.09),80);
 }
 function gameOver(){
@@ -861,6 +908,10 @@ function gameOver(){
     : `${pad(m)} M · récord ${pad(record)}`;
   elSub.innerHTML = TOUCH ? "Tocá la cancha para la revancha"
                           : '<kbd>ESPACIO</kbd> para la revancha';
+  const elBtnPlay = document.getElementById("btnPlay");
+  if (elBtnPlay) elBtnPlay.textContent = "¡REVANCHA!";
+  const elBtnShare = document.getElementById("btnShareCard");
+  if (elBtnShare) elBtnShare.hidden = false;
   elCurtain.hidden = false;
   elRecord.textContent = pad(record);
 }
@@ -1153,6 +1204,148 @@ if (btnPlay) {
   };
   btnPlay.addEventListener("click", playHandler);
   btnPlay.addEventListener("pointerdown", playHandler);
+}
+
+/* ================= compartir tarjeta de resultado ================= */
+function generateShareCardCanvas(meters, isRecord) {
+  const cardCanvas = document.createElement("canvas");
+  cardCanvas.width = 800;
+  cardCanvas.height = 450;
+  const c = cardCanvas.getContext("2d");
+
+  // Fondo degradado deportivo
+  const bgGrad = c.createLinearGradient(0, 0, 800, 450);
+  bgGrad.addColorStop(0, "#0d1518");
+  bgGrad.addColorStop(0.5, "#18262b");
+  bgGrad.addColorStop(1, "#0a1013");
+  c.fillStyle = bgGrad;
+  c.fillRect(0, 0, 800, 450);
+
+  // Línea de parquet en el piso
+  c.fillStyle = "#1f7a45";
+  c.fillRect(0, 360, 800, 90);
+  c.fillStyle = "#f2f6f4";
+  c.fillRect(0, 360, 800, 4);
+
+  // Escudo gigante en marca de agua al fondo
+  const fBadge = META.badge;
+  if (fBadge) {
+    c.globalAlpha = 0.14;
+    c.drawImage(IMG, fBadge[0], fBadge[1], fBadge[2], fBadge[3], 500, 30, 270, 270);
+    c.globalAlpha = 1.0;
+  }
+
+  // Escudo + Encabezado
+  if (fBadge) {
+    c.drawImage(IMG, fBadge[0], fBadge[1], fBadge[2], fBadge[3], 40, 36, 52, 52);
+  }
+  c.fillStyle = "#e7edf2";
+  c.font = "bold 26px 'Barlow Condensed', sans-serif";
+  c.fillText("EL ENTRENAMIENTO", 104, 60);
+  c.fillStyle = "#a8f0c4";
+  c.font = "12px 'Silkscreen', monospace";
+  c.fillText("C.S.D. VILLA SAHORES · 1931", 104, 78);
+
+  // Título del reporte
+  c.fillStyle = isRecord ? "#43c97b" : "#f2f6f4";
+  c.font = "bold 38px 'Barlow Condensed', sans-serif";
+  c.fillText(isRecord ? "¡NUEVO RÉCORD DEL CLUB!" : "REPORTE DE ENTRENAMIENTO", 40, 145);
+
+  // Metros en tamaño gigante
+  c.fillStyle = "#ffffff";
+  c.font = "bold 76px 'Barlow Condensed', sans-serif";
+  c.fillText(`${pad(meters)} M`, 40, 230);
+
+  c.fillStyle = "#9bbccc";
+  c.font = "13px 'Silkscreen', monospace";
+  c.fillText(`RÉCORD MÁXIMO: ${pad(record)} M`, 40, 270);
+
+  if (isRecord) {
+    c.fillStyle = "#43c97b";
+    c.fillRect(40, 290, 185, 30);
+    c.fillStyle = "#0d1518";
+    c.font = "bold 12px 'Silkscreen', monospace";
+    c.fillText("★ MEJOR MARCA ★", 54, 310);
+  }
+
+  // Jugador / Jugadora celebrando
+  const pfx = getCharPrefix();
+  const fCel = META[pfx + "cel1"] || META["cel1"];
+  if (fCel) {
+    const sprScale = 1.85;
+    const sw = fCel[2] * sprScale;
+    const sh = fCel[3] * sprScale;
+    c.drawImage(IMG, fCel[0], fCel[1], fCel[2], fCel[3], 630 - sw/2, 360 - sh, sw, sh);
+    
+    const fBall = META["ball"];
+    if (fBall) {
+      c.drawImage(IMG, fBall[0], fBall[1], fBall[2], fBall[3], 630 + sw/2 - 10, 360 - 28, 28, 28);
+    }
+  }
+
+  // Pie de tarjeta
+  c.fillStyle = "rgba(231,237,242,0.7)";
+  c.font = "12px 'Silkscreen', monospace";
+  c.fillText("futbolsahores.pages.dev", 40, 410);
+
+  return cardCanvas;
+}
+
+async function shareCard() {
+  const meters = Math.floor(dist / 40);
+  const isRecord = meters >= record && meters > 0;
+  const cardCanvas = generateShareCardCanvas(meters, isRecord);
+  const charText = selectedChar === "f" ? "Futsal Femenino" : "Baby / Futsal Masculino";
+
+  cardCanvas.toBlob(async blob => {
+    if (!blob) return;
+    const fileName = `sahores-entrenamiento-${meters}m.png`;
+    const file = new File([blob], fileName, { type: "image/png" });
+
+    const shareData = {
+      title: "El Entrenamiento — Villa Sahores",
+      text: `🏃 Corrí ${meters}m en El Entrenamiento de Villa Sahores (${charText}). ¡Superá mi marca! ⚽`,
+      url: window.location.href,
+      files: [file]
+    };
+
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share(shareData);
+        return;
+      }
+    } catch (err) {
+      if (err.name !== "AbortError") console.log("Share failed:", err);
+    }
+
+    try {
+      if (navigator.clipboard && window.ClipboardItem) {
+        await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+        alert("¡Imagen de la tarjeta copiada al portapapeles! Podés pegarla en cualquier chat.");
+        return;
+      }
+    } catch (_) {}
+
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = fileName;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }, "image/png");
+}
+
+const btnShareCard = document.getElementById("btnShareCard");
+if (btnShareCard) {
+  const shareHandler = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    shareCard();
+  };
+  btnShareCard.addEventListener("click", shareHandler);
+  btnShareCard.addEventListener("pointerdown", e => {
+    e.stopPropagation();
+    shareHandler(e);
+  });
 }
 
 function boot(){
