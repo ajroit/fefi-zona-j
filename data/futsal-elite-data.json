@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T23:47:05.154837",
+  "actualizado": "2026-08-07T05:45:55.852700",
   "torneo": "Torneo Joma 2026 - Elite A (Clausura)",
   "torneo_id": "futsal-elite",
   "equipo_foco": "VILLA SAHORES",
@@ -226,6 +226,16 @@
           "visitante": "SARMIENTO VILLA SOLDATI",
           "estado": null,
           "partidos": {
+            "PRIMERA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 220958,
+              "fecha_hora": "2026-08-08 17:30",
+              "sede": "Ferroviario",
+              "direccion": "Reservistas argentinos 219"
+            },
             "TERCERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -276,16 +286,6 @@
               "sede": "Villa sahores",
               "direccion": "Santo Tom\u00e9 2496"
             },
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220958,
-              "fecha_hora": "2026-08-08 17:30",
-              "sede": "Ferroviario",
-              "direccion": "Reservistas argentinos 219"
-            },
             "OCTAVA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -312,26 +312,6 @@
               "fecha_hora": "2026-10-11 15:00",
               "sede": "Suela Dorada",
               "direccion": "Nicasio Oro\u00f1o 566 "
-            },
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220965,
-              "fecha_hora": "2026-08-07 20:45",
-              "sede": "Estrella de Boedo",
-              "direccion": "Constitucion 4151"
-            },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220966,
-              "fecha_hora": "2026-08-07 22:15",
-              "sede": "Estrella de Boedo",
-              "direccion": "Constitucion 4151"
             },
             "SEPTIMA MASCULINO": {
               "goles_local": null,
@@ -372,6 +352,26 @@
               "fecha_hora": "2026-10-11 19:00",
               "sede": "Suela Dorada",
               "direccion": "Nicasio Oro\u00f1o 566 "
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 220965,
+              "fecha_hora": "2026-08-07 20:45",
+              "sede": "Estrella de Boedo",
+              "direccion": "Constitucion 4151"
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 220966,
+              "fecha_hora": "2026-08-07 22:15",
+              "sede": "Estrella de Boedo",
+              "direccion": "Constitucion 4151"
             }
           }
         },
@@ -400,23 +400,13 @@
               "sede": null,
               "direccion": null
             },
-            "QUINTA MASCULINO": {
+            "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "match_id": 221745,
-              "fecha_hora": "2026-08-08 16:00",
-              "sede": "Club sportivo Dock sud",
-              "direccion": "Av. Agust\u00edn Debenedetti 2055, B1871AAS Dock Sud, Provincia de Buenos Aires"
-            },
-            "CUARTA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 221744,
-              "fecha_hora": "2026-08-08 17:00",
+              "match_id": 221742,
+              "fecha_hora": "2026-08-08 19:30",
               "sede": "Club sportivo Dock sud",
               "direccion": "Av. Agust\u00edn Debenedetti 2055, B1871AAS Dock Sud, Provincia de Buenos Aires"
             },
@@ -430,13 +420,23 @@
               "sede": "Club sportivo Dock sud",
               "direccion": "Av. Agust\u00edn Debenedetti 2055, B1871AAS Dock Sud, Provincia de Buenos Aires"
             },
-            "PRIMERA MASCULINO": {
+            "CUARTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "match_id": 221742,
-              "fecha_hora": "2026-08-08 19:30",
+              "match_id": 221744,
+              "fecha_hora": "2026-08-08 17:00",
+              "sede": "Club sportivo Dock sud",
+              "direccion": "Av. Agust\u00edn Debenedetti 2055, B1871AAS Dock Sud, Provincia de Buenos Aires"
+            },
+            "QUINTA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 221745,
+              "fecha_hora": "2026-08-08 16:00",
               "sede": "Club sportivo Dock sud",
               "direccion": "Av. Agust\u00edn Debenedetti 2055, B1871AAS Dock Sud, Provincia de Buenos Aires"
             },
@@ -457,16 +457,6 @@
           "visitante": "PADILLA",
           "estado": null,
           "partidos": {
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220973,
-              "fecha_hora": "2026-08-07 20:30",
-              "sede": "CLUB DON BOSCO RAMOS MEJIA",
-              "direccion": "Jos\u00e9 Nicol\u00e1s de Arriola 1801-1849, Ramos Mej\u00eda, Provincia de Buenos Aires"
-            },
             "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
@@ -474,6 +464,16 @@
               "estado": "Programado",
               "match_id": 220972,
               "fecha_hora": "2026-08-07 22:00",
+              "sede": "CLUB DON BOSCO RAMOS MEJIA",
+              "direccion": "Jos\u00e9 Nicol\u00e1s de Arriola 1801-1849, Ramos Mej\u00eda, Provincia de Buenos Aires"
+            },
+            "TERCERA MASCULINO": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 220973,
+              "fecha_hora": "2026-08-07 20:30",
               "sede": "CLUB DON BOSCO RAMOS MEJIA",
               "direccion": "Jos\u00e9 Nicol\u00e1s de Arriola 1801-1849, Ramos Mej\u00eda, Provincia de Buenos Aires"
             },
@@ -651,15 +651,15 @@
               "sede": "Copello",
               "direccion": "Salvador Mar\u00eda del carril 3570"
             },
-            "CUARTA MASCULINO": {
+            "PRIMERA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "match_id": 220988,
-              "fecha_hora": "2026-08-09 16:15",
-              "sede": "Copello",
-              "direccion": "Salvador Mar\u00eda del carril 3570"
+              "match_id": 220986,
+              "fecha_hora": "2026-08-09 21:30",
+              "sede": "El ferroviario",
+              "direccion": "Av reservistas argentinos 219"
             },
             "TERCERA MASCULINO": {
               "goles_local": null,
@@ -671,15 +671,15 @@
               "sede": "El ferroviario",
               "direccion": "Av reservistas argentinos 219"
             },
-            "PRIMERA MASCULINO": {
+            "CUARTA MASCULINO": {
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "match_id": 220986,
-              "fecha_hora": "2026-08-09 21:30",
-              "sede": "El ferroviario",
-              "direccion": "Av reservistas argentinos 219"
+              "match_id": 220988,
+              "fecha_hora": "2026-08-09 16:15",
+              "sede": "Copello",
+              "direccion": "Salvador Mar\u00eda del carril 3570"
             }
           }
         }

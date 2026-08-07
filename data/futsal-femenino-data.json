@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T23:47:19.002141Z",
+  "actualizado": "2026-08-07T05:46:08.477910Z",
   "torneo": "Futsal Femenino",
   "zona": "Elite 1",
   "fase": "Clausura",
@@ -399,17 +399,6 @@
               "direccion": null,
               "planillas": null
             },
-            "RESERVA ADULTAS FEMENINO ": {
-              "match_id": 241336,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 19:00",
-              "sede": "El poli",
-              "direccion": "Esteban Bonorino 897, flores, caba",
-              "planillas": null
-            },
             "PRIMERA ADULTAS FEMENINO ": {
               "match_id": 241335,
               "goles_local": null,
@@ -417,6 +406,17 @@
               "jugado": false,
               "estado": "Programado",
               "fecha_hora": "2026-08-09 20:15",
+              "sede": "El poli",
+              "direccion": "Esteban Bonorino 897, flores, caba",
+              "planillas": null
+            },
+            "RESERVA ADULTAS FEMENINO ": {
+              "match_id": 241336,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 19:00",
               "sede": "El poli",
               "direccion": "Esteban Bonorino 897, flores, caba",
               "planillas": null
