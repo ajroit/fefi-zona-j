@@ -917,7 +917,7 @@ init();
 
 // ============================================================
 // Easter Egg: 3 toques/clics en el escudo (header o footer)
-// abren el juego secreto barrido.html
+// abren el juego secreto entrenamiento.html
 // ============================================================
 (function setupEasterEgg() {
   let tapCount = 0;
@@ -937,9 +937,9 @@ init();
     if (tapCount >= 3) {
       tapCount = 0;
       if (typeof window.trackEvent === 'function') {
-        window.trackEvent('easter_egg_barrido', { method: 'crest_triple_tap' });
+        window.trackEvent('easter_egg_entrenamiento', { method: 'crest_triple_tap' });
       }
-      window.location.href = 'barrido.html';
+      window.location.href = 'entrenamiento.html';
     } else {
       tapTimer = setTimeout(() => {
         tapCount = 0;
