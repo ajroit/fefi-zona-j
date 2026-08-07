@@ -783,6 +783,7 @@ addEventListener("keyup", e => {
 const bezel = document.getElementById("bezel");
 const zone = new Map();
 function grab(id, kind){
+  if (mode !== "play") return;
   zone.set(id, kind);
   if (kind === "slide") {
     pressSlide();
@@ -800,19 +801,23 @@ function drop(e){
   (k === "slide" ? releaseSlide : releaseJump)();
 }
 bezel.addEventListener("pointerdown", e => {
-  if (e.target && e.target.closest && (e.target.closest("#charSelect") || e.target.closest("#btnPlay"))) return;
+  if (e.target && e.target.closest && e.target.closest("button, a, #charSelect, #btnPlay")) return;
+  if (mode !== "play") return;
   e.preventDefault();
   try { bezel.setPointerCapture(e.pointerId); } catch(_){}
   const r = bezel.getBoundingClientRect();
   const abajo = (e.clientY - r.top) / r.height > .55;
-  grab(e.pointerId, abajo && mode === "play" ? "slide" : "jump");
+  grab(e.pointerId, abajo ? "slide" : "jump");
 });
 ["pointerup","pointercancel"].forEach(t => bezel.addEventListener(t, drop));
 bezel.addEventListener("contextmenu", e => e.preventDefault());
 
 function bindHold(el, kind){
+  if (!el) return;
   el.addEventListener("pointerdown", e => {
+    if (mode !== "play") return;
     e.preventDefault();
+    e.stopPropagation();
     try { el.setPointerCapture(e.pointerId); } catch(_){}
     grab(e.pointerId, kind);
   });
