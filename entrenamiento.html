@@ -187,51 +187,90 @@
     .touch-zones-guide {
       display: none;
     }
-  /* ---- Selector de personaje ---- */
-  .char-select {
+  /* ---- Selector de personaje y botón jugar ---- */
+  .char-select-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    margin: 6px 0;
+    gap: 8px;
+    margin: 8px 0;
+    z-index: 25;
   }
+
   .char-label {
     font-family: "Silkscreen", monospace;
-    font-size: 10px;
-    letter-spacing: 0.06em;
-    color: #3c5a68;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #12181c;
+    font-weight: 700;
     text-transform: uppercase;
   }
-  .char-options {
+
+  .char-cards {
     display: flex;
-    gap: 8px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .char-btn {
+
+  .char-card {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     font-family: "Silkscreen", monospace;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.05em;
-    padding: 6px 12px;
-    border-radius: 20px;
-    border: 1px solid #7f9aa4;
-    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 2px solid #7f9aa4;
+    background: rgba(255, 255, 255, 0.95);
     color: #12181c;
     cursor: pointer;
     transition: all 0.15s ease;
     touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   }
-  .char-btn:hover {
+
+  .char-card:hover {
     border-color: #0f7a3f;
+    transform: translateY(-1px);
   }
-  .char-btn.active {
+
+  .char-card.active {
     background: #0f7a3f;
-    border-color: #0f7a3f;
+    border-color: #0b5c2f;
     color: #ffffff;
-    box-shadow: 0 2px 8px rgba(15, 122, 63, 0.4);
+    box-shadow: 0 4px 12px rgba(15, 122, 63, 0.45);
+  }
+
+  .btn-play {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    border-radius: 26px;
+    border: 2px solid #43c97b;
+    background: #0d1518;
+    color: var(--led);
+    cursor: pointer;
+    margin-top: 4px;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    touch-action: manipulation;
+  }
+
+  .btn-play:hover, .btn-play:active {
+    background: #182428;
+    border-color: #a8f0c4;
+    color: #ffffff;
+    transform: scale(1.04);
   }
 
   /* ---- controls bar ---- */
@@ -363,18 +402,23 @@
     <div class="curtain" id="curtain">
       <p class="big" id="cTitle">Salí a la cancha</p>
       <p class="stat" id="cStat" hidden></p>
-      <div class="char-select" id="charSelect">
+      <div class="char-select-container" id="charSelect">
         <span class="char-label">Elegí tu equipo:</span>
-        <div class="char-options">
-          <button type="button" class="char-btn active" id="btnCharM" data-char="m">
-            <span>🚹</span> Baby / Futsal Masculino
+        <div class="char-cards">
+          <button type="button" class="char-card active" id="btnCharM" data-char="m">
+            <span class="char-icon">🚹</span>
+            <span class="char-name">Baby / Futsal M.</span>
           </button>
-          <button type="button" class="char-btn" id="btnCharF" data-char="f">
-            <span>🚺</span> Futsal Femenino
+          <button type="button" class="char-card" id="btnCharF" data-char="f">
+            <span class="char-icon">🚺</span>
+            <span class="char-name">Futsal Femenino</span>
           </button>
         </div>
       </div>
-      <p class="sub" id="cSub"><kbd>ESPACIO</kbd> para arrancar · empieza el turno de FEFI</p>
+      <button type="button" class="btn-play" id="btnPlay">
+        ¡SALIR A LA CANCHA!
+      </button>
+      <p class="sub" id="cSub"><kbd>ESPACIO</kbd> o Tocá para arrancar</p>
     </div>
   </div>
 
@@ -756,7 +800,7 @@ function drop(e){
   (k === "slide" ? releaseSlide : releaseJump)();
 }
 bezel.addEventListener("pointerdown", e => {
-  if (e.target && e.target.closest && e.target.closest("#charSelect")) return;
+  if (e.target && e.target.closest && (e.target.closest("#charSelect") || e.target.closest("#btnPlay"))) return;
   e.preventDefault();
   try { bezel.setPointerCapture(e.pointerId); } catch(_){}
   const r = bezel.getBoundingClientRect();
@@ -1058,8 +1102,8 @@ let selectedChar = localStorage.getItem("sahores_char") || "m";
 function getCharPrefix(){ return selectedChar === "f" ? "f_" : ""; }
 
 function updateCharUI(){
-  document.querySelectorAll(".char-btn").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.char === selectedChar);
+  document.querySelectorAll(".char-card").forEach(card => {
+    card.classList.toggle("active", card.dataset.char === selectedChar);
   });
   if (selectedChar === "f") {
     TURNOS[0][0] = "FUTSAL FEMENINO";
@@ -1072,20 +1116,33 @@ function updateCharUI(){
   }
 }
 
-document.querySelectorAll(".char-btn").forEach(btn => {
+document.querySelectorAll(".char-card").forEach(card => {
   const handler = e => {
     e.preventDefault();
     e.stopPropagation();
-    selectedChar = btn.dataset.char;
+    selectedChar = card.dataset.char;
     localStorage.setItem("sahores_char", selectedChar);
     updateCharUI();
   };
-  btn.addEventListener("click", handler);
-  btn.addEventListener("pointerdown", e => {
+  card.addEventListener("click", handler);
+  card.addEventListener("pointerdown", e => {
     e.stopPropagation();
     handler(e);
   });
 });
+
+const btnPlay = document.getElementById("btnPlay");
+if (btnPlay) {
+  const playHandler = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (mode === "ready" || (mode === "over" && P.deadT > 0.3)) {
+      start();
+    }
+  };
+  btnPlay.addEventListener("click", playHandler);
+  btnPlay.addEventListener("pointerdown", playHandler);
+}
 
 function boot(){
   elRotate.querySelector("img").src = document.querySelector(".marquee .crest").src;
