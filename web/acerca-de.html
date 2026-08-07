@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8c4a">
+  <meta name="description" content="Información sobre la aplicación web del Club Social y Deportivo Villa Sahores">
+  <title>Información sobre esta App Web - Villa Sahores</title>
+  
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icon-512.png">
+  <link rel="shortcut icon" href="images/icon-192.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=12">
+
+  <style>
+    .about-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 16px 60px 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .btn-back-wrap {
+      margin-bottom: 24px;
+    }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-back:hover {
+      background: var(--brand-green);
+      color: #ffffff;
+      border-color: var(--brand-green);
+      transform: translateX(-2px);
+    }
+
+    .about-hero-card {
+      background: linear-gradient(135deg, #0f4c28 0%, #1a8c4a 100%);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .about-hero-logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffffff;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-md);
+    }
+
+    .about-hero-text h1 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #ffffff;
+      margin: 0 0 6px 0;
+      line-height: 1.25;
+    }
+
+    .about-hero-text p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .about-section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .about-section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .about-section-icon {
+      font-size: 20px;
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-md);
+      background: var(--success-bg);
+      color: var(--success);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .about-section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .about-section-body {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--text-secondary);
+    }
+
+    .about-section-body strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .about-section-body p {
+      margin-bottom: 14px;
+    }
+
+    .about-section-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-disclaimer-card {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .about-disclaimer-card .about-section-icon {
+      background: rgba(202, 138, 4, 0.2);
+      color: var(--warning);
+    }
+
+    .about-disclaimer-card .about-section-title {
+      color: var(--warning);
+    }
+
+    .about-disclaimer-card .about-section-body {
+      color: var(--text);
+    }
+
+    .source-badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .source-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--brand-green-light);
+      text-decoration: none;
+      transition: all var(--transition-fast);
+    }
+
+    .source-badge:hover {
+      background: var(--brand-green);
+      color: #ffffff;
+      border-color: var(--brand-green);
+    }
+
+    .about-actions {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .btn-main-dashboard {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: var(--brand-green);
+      color: white;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(26, 140, 74, 0.3);
+      transition: all var(--transition-base);
+    }
+
+    .btn-main-dashboard:hover {
+      background: var(--brand-green-light);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(26, 140, 74, 0.4);
+    }
+
+    .btn-whatsapp-contact {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #25D366;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+      transition: all var(--transition-base);
+    }
+
+    .btn-whatsapp-contact:hover {
+      background: #128C7E;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+    }
+
+    @media (max-width: 600px) {
+      .about-container {
+        padding: 16px 12px 36px 12px;
+      }
+      .about-hero-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 18px;
+        gap: 14px;
+      }
+      .about-hero-logo {
+        width: 64px;
+        height: 64px;
+      }
+      .about-hero-text h1 {
+        font-size: 20px;
+      }
+      .about-section-card,
+      .about-disclaimer-card {
+        padding: 20px 16px;
+      }
+      .about-section-title {
+        font-size: 16px;
+      }
+      .about-section-body {
+        font-size: 13px;
+        line-height: 1.65;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+    <!-- Back Button -->
+    <div class="btn-back-wrap">
+      <a href="index.html" class="btn-back">
+        <span>←</span> Volver al Dashboard
+      </a>
+    </div>
+
+    <!-- Hero Card -->
+    <div class="about-hero-card">
+      <img src="images/logo-sahores.jpeg" alt="Villa Sahores" class="about-hero-logo">
+      <div class="about-hero-text">
+        <h1>Información sobre esta aplicación web</h1>
+        <p>Un proyecto independiente creado con cariño para acompañar al fútbol de la familia de Villa Sahores.</p>
+      </div>
+    </div>
+
+    <!-- Section 1: Origen del Proyecto -->
+    <div class="about-section-card">
+      <div class="about-section-header">
+        <div class="about-section-icon">⚽</div>
+        <h2 class="about-section-title">Origen e Historia del Proyecto</h2>
+      </div>
+      <div class="about-section-body">
+        <p>
+          Esta plataforma nació por la iniciativa totalmente independiente de un <strong>padre de dos niños futbolistas del club</strong> que, buscando simplificar el dilema de cada fin de semana —coordinar partidos, categorías, sedes cambiantes y horarios a contrarreloj—, decidió armar una solución práctica.
+        </p>
+        <p>
+          Lo que arrancó como una herramienta personal para no errar la cancha del día se convirtió, por el enorme cariño que su familia siente por el <strong>Club Social y Deportivo Villa Sahores</strong>, en un espacio de consulta abierto para todos. Un lugar pensado para acompañar a las familias, chicos y chicas que fin de semana tras fin de semana dejan todo representando los colores del club tanto en <strong>Baby Fútbol (FEFI)</strong> como en <strong>Futsal</strong>. 🟢⚪
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2: Fuentes e Información -->
+    <div class="about-section-card">
+      <div class="about-section-header">
+        <div class="about-section-icon">🔄</div>
+        <h2 class="about-section-title">Origen y Agrupación de los Datos</h2>
+      </div>
+      <div class="about-section-body">
+        <p>
+          Toda la información publicada en esta plataforma (fixtures, partidos, tablas de posiciones, goleadores, sedes y horarios) es obtenida de forma <strong>automática desde los sitios web oficiales</strong> de las ligas correspondientes.
+        </p>
+        <p>
+          Los datos se agrupan estratégicamente para generar contenido claro y accesible para toda la comunidad de Sahores.
+        </p>
+        <div class="source-badge-list">
+          <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener" class="source-badge">
+            🌐 FEFI Oficial (Zona J)
+          </a>
+          <a href="https://futsala.ar" target="_blank" rel="noopener" class="source-badge">
+            🌐 Futsala Oficial (Joma)
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3: Deslinde de Responsabilidad -->
+    <div class="about-disclaimer-card">
+      <div class="about-section-header">
+        <div class="about-section-icon">⚠️</div>
+        <h2 class="about-section-title">Deslinde de Responsabilidad</h2>
+      </div>
+      <div class="about-section-body">
+        <p>
+          <strong>Aviso importante:</strong> Nada de lo que está en esta página pertenece ni ha sido creado por el <strong>Club Social y Deportivo Villa Sahores</strong>.
+        </p>
+        <p>
+          El club <strong>no tiene ninguna responsabilidad</strong> sobre el contenido publicado, la exactitud de los datos o el funcionamiento de la plataforma. Se trata de un proyecto 100% independiente, familiar y sin fines de lucro.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 4: Contacto y Sugerencias -->
+    <div class="about-section-card" style="text-align: center;">
+      <div class="about-section-header" style="justify-content: center;">
+        <div class="about-section-icon" style="background: rgba(37, 211, 102, 0.15); color: #25D366;">💬</div>
+        <h2 class="about-section-title">Sugerencias, Comentarios o Propuestas</h2>
+      </div>
+      <div class="about-section-body">
+        <p>
+          ¿Tenés alguna sugerencia para mejorar la plataforma, querés reportar algún detalle o sumar propuestas?
+        </p>
+        <p>
+          Podés escribir directamente por WhatsApp:
+        </p>
+        <div style="margin-top: 16px; display: flex; justify-content: center;">
+          <a href="https://wa.me/5491168080953?text=Hola!%20Te%20escribo%20desde%20la%20App%20Web%20de%20Villa%20Sahores%20con%20una%20sugerencia/comentario." target="_blank" rel="noopener" class="btn-whatsapp-contact">
+            💬 Enviar mensaje por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Button -->
+    <div class="about-actions">
+      <a href="index.html" class="btn-main-dashboard">
+        <span>← Volver al Dashboard Principal</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <img src="images/logo-sahores.jpeg" alt="Villa Sahores" class="footer-logo">
+        <div class="footer-text">
+          <p>Club Social y Deportivo Villa Sahores - Fundado en 1931</p>
+          <p class="footer-credits">Iniciativa independiente para la comunidad del club</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

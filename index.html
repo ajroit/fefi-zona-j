@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="styles.css?v=12">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBW05P5Q7M"></script>
@@ -237,25 +237,28 @@
         <div class="footer-text">
           <p>Club Social y Deportivo Villa Sahores - Fundado en 1931</p>
           <p class="footer-credits" id="footer-credits">Datos de <a href="https://fefi.com.ar/2026-torneo-anual-baby-futbol/j/" target="_blank" rel="noopener">fefi.com.ar</a></p>
+          <p class="footer-about">
+            <a href="acerca-de.html" class="footer-about-link">ℹ️ Acerca de esta aplicación web</a>
+          </p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="weather.js?v=13"></script>
-  <script src="share.js?v=13"></script>
-  <script src="futsal_stats.js?v=13"></script>
-  <script src="futsal.js?v=13"></script>
-  <script src="futsal_reducido.js?v=13"></script>
-  <script src="futsal_femenino.js?v=13"></script>
-  <script src="app.js?v=13"></script>
+  <script src="weather.js?v=12"></script>
+  <script src="share.js?v=12"></script>
+  <script src="futsal_stats.js?v=12"></script>
+  <script src="futsal.js?v=12"></script>
+  <script src="futsal_reducido.js?v=12"></script>
+  <script src="futsal_femenino.js?v=12"></script>
+  <script src="app.js?v=12"></script>
 
   <!-- Service Worker para PWA -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         // Register sw.js with a cache buster parameter to force the browser to check for changes
-        navigator.serviceWorker.register('/sw.js?v=13').then(function(reg) {
+        navigator.serviceWorker.register('/sw.js?v=12').then(function(reg) {
           console.log('✅ Service Worker registrado:', reg.scope);
         }).catch(function(err) {
           console.log('⚠️ Service Worker error:', err);
