@@ -130,7 +130,7 @@
   }
   .curtain .stat span{color:#0f7a3f}
 
-  /* ---- Guía sutil de zonas táctiles para mobile ---- */
+  /* ---- Guía sutil de zonas táctiles a la derecha para mobile ---- */
   .touch-zones-guide {
     position: absolute;
     inset: 0;
@@ -138,44 +138,51 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px 10px 10px 10px;
+    align-items: flex-end;
+    padding: 34px 14px 14px 14px;
     z-index: 12;
-    opacity: 0.85;
+    opacity: 0.9;
   }
 
   .touch-zone-badge {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(13, 21, 24, 0.75);
+    background: rgba(13, 21, 24, 0.78);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(168, 240, 196, 0.35);
     color: var(--led);
     font-family: "Silkscreen", monospace;
-    font-size: 10px;
-    padding: 4px 10px;
+    font-size: 11px;
+    padding: 7px 13px;
     border-radius: 20px;
     letter-spacing: 0.05em;
     transition: all 0.15s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     width: fit-content;
+    pointer-events: auto;
+    user-select: none;
+    -webkit-user-select: none;
   }
 
   .touch-zone-badge.top-zone {
-    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: 6px;
   }
 
   .touch-zone-badge.bottom-zone {
-    align-self: flex-start;
+    margin-top: 6px;
+    margin-bottom: auto;
   }
 
-  .touch-zone-badge.active {
-    background: rgba(67, 201, 123, 0.5);
+  .touch-zone-badge.active,
+  .touch-zone-badge:active {
+    background: rgba(67, 201, 123, 0.55);
     border-color: #43c97b;
     color: #ffffff;
     transform: scale(1.08);
-    box-shadow: 0 0 14px rgba(67, 201, 123, 0.7);
+    box-shadow: 0 0 16px rgba(67, 201, 123, 0.8);
   }
 
   @media (hover: hover) and (pointer: fine) {
@@ -714,6 +721,10 @@ function bindHold(el, kind){
 }
 bindHold(document.getElementById("btnJump"),  "jump");
 bindHold(document.getElementById("btnSlide"), "slide");
+const bJump = document.getElementById("badgeJump");
+const bSlide = document.getElementById("badgeSlide");
+if (bJump) bindHold(bJump, "jump");
+if (bSlide) bindHold(bSlide, "slide");
 document.addEventListener("visibilitychange", () => { if (document.hidden) paused = true; });
 
 /* ================= flujo ================= */
@@ -728,7 +739,7 @@ function gameOver(){
   const m = Math.floor(dist/40);
   const nuevo = m > record;
   if (nuevo) record = m;
-  elTitle.textContent = nuevo ? "¡Récord de Sahores!" : "Te barrieron";
+  elTitle.textContent = nuevo ? "¡Récord en El Entrenamiento!" : "El entrenamiento terminó";
   elStat.hidden = false;
   elStat.innerHTML = nuevo
     ? `<span>${pad(m)}</span> M · nuevo récord`
