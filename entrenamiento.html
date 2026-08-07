@@ -411,6 +411,9 @@
       overflow: hidden !important;
       padding: 0 !important;
       margin: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      height: 100dvh !important;
     }
     .cabinet {
       display: none !important;
@@ -420,42 +423,116 @@
     }
   }
 
-  /* ---- Modo apaisado en celulares ---- */
-  @media (orientation: landscape) and (min-aspect-ratio: 1/1) {
+  /* ---- Modo apaisado en celulares: experiencia arcade pantalla completa ---- */
+  @media (orientation: landscape) and (max-height: 560px) {
+    body {
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      height: 100dvh !important;
+      overflow: hidden !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: #0d1518 !important;
+    }
     .rotate {
       display: none !important;
     }
     .cabinet {
       display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      height: 100dvh !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
-    .rack .keys {
+    .marquee {
       display: none !important;
     }
-  }
-
-  /* ---- pantallas chicas ---- */
-  @media (max-width:600px){
-    body{padding:10px 10px 14px;align-items:flex-start}
-    .marquee{gap:10px;padding-bottom:8px}
-    .marquee h1{font-size:30px}
-    .marquee p{font-size:9px;line-height:1.6}
-    .crest{width:44px;height:44px}
-    .rack{padding-top:10px;justify-content:center}
-    .curtain .sub{font-size:10px;line-height:2}
-  }
-
-  /* ---- celular acostado: todo el alto para la cancha ---- */
-  @media (orientation:landscape) and (max-height:540px){
-    body{padding:6px}
-    .marquee{padding-bottom:6px}
-    .marquee p{display:none}
-    .marquee h1{font-size:22px}
-    .crest{width:32px;height:32px}
-    .rack{padding-top:6px}
-  }
-  .cabinet:fullscreen{
-    display:flex;flex-direction:column;justify-content:center;
-    background:#0d1518;padding:10px;width:100%;height:100%;
+    .rack {
+      display: none !important;
+    }
+    .bezel-wrap {
+      width: 100vw !important;
+      height: 100vh !important;
+      height: 100dvh !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .bezel {
+      width: 100% !important;
+      height: 100% !important;
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+    }
+    .curtain {
+      padding: 8px !important;
+      gap: 5px !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+    }
+    .curtain .big {
+      font-size: 20px !important;
+      line-height: 1.1 !important;
+    }
+    .curtain .stat {
+      font-size: 11px !important;
+    }
+    .char-select-container {
+      gap: 3px !important;
+      margin: 2px 0 !important;
+    }
+    .char-label {
+      font-size: 9px !important;
+    }
+    .char-card {
+      padding: 5px 12px !important;
+      font-size: 10px !important;
+      gap: 5px !important;
+    }
+    .curtain-actions {
+      gap: 8px !important;
+      margin-top: 2px !important;
+    }
+    .btn-play {
+      font-size: 15px !important;
+      padding: 5px 18px !important;
+    }
+    .btn-share {
+      font-size: 10px !important;
+      padding: 5px 12px !important;
+    }
+    .curtain .sub {
+      display: none !important;
+    }
+    .touch-zone-badge {
+      padding: 10px 16px !important;
+      font-size: 12px !important;
+      border-radius: 10px !important;
+    }
+    .touch-zone-badge.top-zone {
+      top: 10px !important;
+      right: 14px !important;
+    }
+    .touch-zone-badge.bottom-zone {
+      bottom: 10px !important;
+      right: 14px !important;
+    }
   }
 
   @media (prefers-reduced-motion:reduce){
@@ -580,22 +657,29 @@ const elTurno   = document.getElementById("turno");
 /* La cancha mantiene 300 de alto lógico y estira el ancho según la pantalla:
    en el celular se ve más cuadrada, en la compu bien panorámica. */
 function layout(){
+  const isLandscapeMobile = (window.innerHeight <= 560 && window.innerWidth > window.innerHeight);
   const shell = document.querySelector(".bezel");
-  const cabW  = Math.max(240, shell.clientWidth);
+  const cabW  = Math.max(240, shell ? shell.clientWidth : window.innerWidth);
   const vh    = window.innerHeight;
-  const used  = document.querySelector(".marquee").offsetHeight
-              + document.querySelector(".rack").offsetHeight
-              + document.querySelector(".pad").offsetHeight + 56;
-  const room  = Math.max(140, vh - used);
 
-  let cssH = Math.min(300, room);
-  cssH = Math.max(cabW/3.4, Math.min(cabW/1.5, cssH));
-  cssH = Math.max(108, cssH);
-
-  W = Math.max(380, Math.min(1100, Math.round(H * cabW / cssH)));
+  let cssH;
+  if (isLandscapeMobile) {
+    cssH = Math.min(300, vh);
+    W = Math.max(480, Math.min(1100, Math.round(H * (cabW || window.innerWidth) / (cssH || 240))));
+  } else {
+    const marquee = document.querySelector(".marquee");
+    const rack = document.querySelector(".rack");
+    const used = (marquee && marquee.offsetHeight ? marquee.offsetHeight : 0)
+               + (rack && rack.offsetHeight ? rack.offsetHeight : 0) + 40;
+    const room = Math.max(140, vh - used);
+    cssH = Math.min(300, room);
+    cssH = Math.max(cabW/3.4, Math.min(cabW/1.5, cssH));
+    cssH = Math.max(108, cssH);
+    W = Math.max(380, Math.min(1100, Math.round(H * cabW / cssH)));
+  }
   SCALE = W / 900;
 
-  cv.style.height = Math.round(cssH) + "px";
+  cv.style.height = isLandscapeMobile ? "100%" : (Math.round(cssH) + "px");
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   cv.width  = Math.round(W * dpr);
   cv.height = Math.round(H * dpr);
