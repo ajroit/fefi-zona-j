@@ -130,6 +130,60 @@
   }
   .curtain .stat span{color:#0f7a3f}
 
+  /* ---- Guía sutil de zonas táctiles para mobile ---- */
+  .touch-zones-guide {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 10px 10px 10px;
+    z-index: 12;
+    opacity: 0.85;
+  }
+
+  .touch-zone-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(13, 21, 24, 0.75);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(168, 240, 196, 0.35);
+    color: var(--led);
+    font-family: "Silkscreen", monospace;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+    transition: all 0.15s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+  }
+
+  .touch-zone-badge.top-zone {
+    align-self: flex-start;
+  }
+
+  .touch-zone-badge.bottom-zone {
+    align-self: flex-start;
+  }
+
+  .touch-zone-badge.active {
+    background: rgba(67, 201, 123, 0.5);
+    border-color: #43c97b;
+    color: #ffffff;
+    transform: scale(1.08);
+    box-shadow: 0 0 14px rgba(67, 201, 123, 0.7);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .touch-zones-guide {
+      display: none;
+    }
+  }
+
   /* ---- controls bar ---- */
   .rack{
     display:flex;justify-content:space-between;align-items:center;gap:12px;
@@ -247,6 +301,13 @@
       <div><b id="metros">0000</b> M <span class="flash" id="flash"></span></div>
       <div class="turno" id="turno">FEFI · BABY FÚTBOL</div>
       <div class="rec">REC <b id="record">0000</b></div>
+    <div class="touch-zones-guide" id="touchGuide">
+      <div class="touch-zone-badge top-zone" id="badgeJump">
+        <span>⬆️</span> <span>SALTÁ (Tap Arriba)</span>
+      </div>
+      <div class="touch-zone-badge bottom-zone" id="badgeSlide">
+        <span>⬇️</span> <span>BARRÉ (Tap Abajo)</span>
+      </div>
     </div>
 
     <div class="curtain" id="curtain">
@@ -616,7 +677,18 @@ addEventListener("keyup", e => {
    Se sostiene mientras el dedo esté apoyado y admite las dos cosas a la vez. */
 const bezel = document.getElementById("bezel");
 const zone = new Map();
-function grab(id, kind){ zone.set(id, kind); (kind === "slide" ? pressSlide : pressJump)(); }
+function grab(id, kind){
+  zone.set(id, kind);
+  if (kind === "slide") {
+    pressSlide();
+    const b = document.getElementById("badgeSlide");
+    if (b) { b.classList.add("active"); setTimeout(() => b.classList.remove("active"), 220); }
+  } else {
+    pressJump();
+    const b = document.getElementById("badgeJump");
+    if (b) { b.classList.add("active"); setTimeout(() => b.classList.remove("active"), 220); }
+  }
+}
 function drop(e){
   const k = zone.get(e.pointerId); if (!k) return;
   zone.delete(e.pointerId);
