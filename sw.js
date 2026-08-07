@@ -1,8 +1,9 @@
 // sw.js - Service Worker para Villa Sahores Dashboard
-const CACHE_NAME = "sahores-v16";
+const CACHE_NAME = "sahores-v20";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
+  "/entrenamiento.html",
   "/styles.css",
   "/app.js",
   "/futsal.js",
@@ -27,7 +28,7 @@ self.addEventListener("install", (event) => {
   self.skipWaiting();
 });
 
-// Activación: limpiar caches viejas
+// Activación: limpiar todas las caches viejas de inmediato
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
@@ -41,9 +42,23 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Fetch: estrategia "Network First" para datos, "Cache First" para assets estáticos
+// Fetch: estrategia "Network First" para HTML y datos, "Cache First" solo para imágenes/fonts estáticos
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
+
+  // Para páginas HTML y navegación: SIEMPRE RED PRIMERO para que los deploys se vean al instante
+  if (event.request.mode === "navigate" || url.pathname.endsWith(".html") || url.pathname === "/" || url.pathname.includes("/entrenamiento")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   // Para archivos de datos JSON: siempre intentar red primero, con fallback a caché
   if (url.pathname.includes("/data/") || url.pathname.endsWith(".json")) {
@@ -65,7 +80,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Para todo lo demás: Cache First (assets estáticos)
+  // Para todo lo demás (CSS, JS, imágenes): Cache First con actualización en background
   event.respondWith(
     caches.match(event.request).then((cached) => {
       return cached || fetch(event.request).then((response) => {

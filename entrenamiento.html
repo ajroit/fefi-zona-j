@@ -5,8 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>El Entrenamiento — Villa Sahores</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(regs) {
+      for (var r of regs) { r.update(); }
+    });
+  }
+  if ('caches' in window) {
+    caches.keys().then(function(keys) {
+      for (var k of keys) {
+        if (k !== 'sahores-v20') caches.delete(k);
+      }
+    });
+  }
+</script>
 <style>
   :root{
     --sky:#dceaf7;
