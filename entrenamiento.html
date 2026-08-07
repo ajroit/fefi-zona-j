@@ -756,6 +756,7 @@ function drop(e){
   (k === "slide" ? releaseSlide : releaseJump)();
 }
 bezel.addEventListener("pointerdown", e => {
+  if (e.target && e.target.closest && e.target.closest("#charSelect")) return;
   e.preventDefault();
   try { bezel.setPointerCapture(e.pointerId); } catch(_){}
   const r = bezel.getBoundingClientRect();
@@ -1072,11 +1073,17 @@ function updateCharUI(){
 }
 
 document.querySelectorAll(".char-btn").forEach(btn => {
-  btn.addEventListener("click", e => {
+  const handler = e => {
+    e.preventDefault();
     e.stopPropagation();
     selectedChar = btn.dataset.char;
     localStorage.setItem("sahores_char", selectedChar);
     updateCharUI();
+  };
+  btn.addEventListener("click", handler);
+  btn.addEventListener("pointerdown", e => {
+    e.stopPropagation();
+    handler(e);
   });
 });
 
