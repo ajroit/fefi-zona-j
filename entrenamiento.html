@@ -175,11 +175,11 @@
   }
 
   .touch-zone-badge.top-zone {
-    margin-top: 34px;
+    margin-top: 4px;
   }
 
   .touch-zone-badge.bottom-zone {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
   }
 
   .touch-zone-badge.active,
@@ -209,9 +209,10 @@
     font-family: "Silkscreen", monospace;
     font-size: 11px;
     letter-spacing: 0.08em;
-    color: #12181c;
+    color: #a8f0c4;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
   }
 
   .char-cards {
@@ -375,7 +376,7 @@
 </head>
 <body>
 <div class="rotate" id="rotate" hidden>
-  <img alt="Escudo del Club Social Deportivo Villa Sahores">
+  <img class="crest" src="data:image/png;base64,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" alt="Escudo del Club Social Deportivo Villa Sahores">
   <div class="phone" aria-hidden="true"></div>
   <p class="big">Girá el celular</p>
   <p class="sub">La cancha se juega apaisada. Poné el teléfono en horizontal y salís a jugar.</p>
