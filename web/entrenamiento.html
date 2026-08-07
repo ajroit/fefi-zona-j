@@ -1249,7 +1249,7 @@ function generateShareCardCanvas(meters, isRecord) {
   // Título del reporte
   c.fillStyle = isRecord ? "#43c97b" : "#f2f6f4";
   c.font = "bold 38px 'Barlow Condensed', sans-serif";
-  c.fillText(isRecord ? "¡NUEVO RÉCORD DEL CLUB!" : "REPORTE DE ENTRENAMIENTO", 40, 145);
+  c.fillText(isRecord ? "¡NUEVO RÉCORD DEL CLUB!" : "ASÍ ME FUE EN EL ENTRENAMIENTO", 40, 145);
 
   // Metros en tamaño gigante
   c.fillStyle = "#ffffff";
@@ -1304,7 +1304,7 @@ async function shareCard() {
 
     const shareData = {
       title: "El Entrenamiento — Villa Sahores",
-      text: `🏃 Corrí ${meters}m en El Entrenamiento de Villa Sahores (${charText}). ¡Superá mi marca! ⚽`,
+      text: `🏃 Así me fue en El Entrenamiento de Villa Sahores: ${meters}m (${charText}). ¡Superá mi marca! ⚽`,
       url: window.location.href,
       files: [file]
     };
