@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T05:45:58.091380",
+  "actualizado": "2026-08-07T18:51:26.599566",
   "torneo": "Torneo Joma 2026 - Promocionales Zona C (Clausura)",
   "torneo_id": "futsal-promo",
   "equipo_foco": "VILLA SAHORES",
@@ -79,19 +79,9 @@
               "jugado": false,
               "estado": "Programado",
               "match_id": 239656,
-              "fecha_hora": "2026-08-09 11:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albari\u00f1o 2253"
-            },
-            "2017 PROMOCIONALES": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 239747,
               "fecha_hora": "2026-08-09 12:00",
-              "sede": "C.s.y.d argentino ",
-              "direccion": "Albari\u00f1o 2253"
+              "sede": "Club Cafayate ",
+              "direccion": "Cafayate 5218"
             },
             "2019 PROMOCIONALES": {
               "goles_local": null,
@@ -102,6 +92,16 @@
               "fecha_hora": null,
               "sede": null,
               "direccion": null
+            },
+            "2017 PROMOCIONALES": {
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "match_id": 239747,
+              "fecha_hora": "2026-08-09 11:00",
+              "sede": "Club Cafayate ",
+              "direccion": "Cafayate 5218"
             },
             "2018 PROMOCIONALES": {
               "goles_local": null,

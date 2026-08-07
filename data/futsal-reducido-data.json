@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T05:46:03.825307",
+  "actualizado": "2026-08-07T18:51:33.961218",
   "torneo": "Torneo Joma 2026 - Futsal Reducido (Clausura)",
   "torneo_id": "futsal-reducido",
   "equipo_foco": "VILLA SAHORES",
@@ -232,43 +232,13 @@
           "visitante": "ALTO PASTO",
           "estado": "Pendiente",
           "partidos": {
-            "OCTAVA MASCULINO": {
-              "match_id": 222771,
+            "TERCERA MASCULINO": {
+              "match_id": 222766,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 13:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142"
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 222770,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 14:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142"
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 222769,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 15:00",
-              "sede": "All boys saavedra ",
-              "direccion": "Besares 3142"
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 222768,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 16:00",
+              "fecha_hora": "2026-08-09 18:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142"
             },
@@ -282,13 +252,43 @@
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142"
             },
-            "TERCERA MASCULINO": {
-              "match_id": 222766,
+            "QUINTA MASCULINO": {
+              "match_id": 222768,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 18:00",
+              "fecha_hora": "2026-08-09 16:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142"
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 222769,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 15:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142"
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 222770,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 14:00",
+              "sede": "All boys saavedra ",
+              "direccion": "Besares 3142"
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 222771,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 13:00",
               "sede": "All boys saavedra ",
               "direccion": "Besares 3142"
             },
@@ -463,53 +463,13 @@
           "visitante": "CAPITAN ROSALES",
           "estado": "Pendiente",
           "partidos": {
-            "OCTAVA MASCULINO": {
-              "match_id": 223786,
+            "PRIMERA MASCULINO": {
+              "match_id": 223780,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 16:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero "
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 223785,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 17:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero "
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 223784,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 18:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero "
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 223783,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 19:15",
-              "sede": "Club Social y Deportivo Resplandor",
-              "direccion": "Pintos 57, Villa Madero "
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 223782,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 20:15",
+              "fecha_hora": "2026-08-09 22:30",
               "sede": "Club Social y Deportivo Resplandor",
               "direccion": "Pintos 57, Villa Madero "
             },
@@ -523,13 +483,53 @@
               "sede": "Club Social y Deportivo Resplandor",
               "direccion": "Pintos 57, Villa Madero "
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 223780,
+            "CUARTA MASCULINO": {
+              "match_id": 223782,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 22:30",
+              "fecha_hora": "2026-08-09 20:15",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero "
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 223783,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 19:15",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero "
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 223784,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 18:15",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero "
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 223785,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 17:15",
+              "sede": "Club Social y Deportivo Resplandor",
+              "direccion": "Pintos 57, Villa Madero "
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 223786,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 16:15",
               "sede": "Club Social y Deportivo Resplandor",
               "direccion": "Pintos 57, Villa Madero "
             }
@@ -617,53 +617,13 @@
           "visitante": "PARQUE CHAS",
           "estado": "Pendiente",
           "partidos": {
-            "OCTAVA MASCULINO": {
-              "match_id": 222792,
+            "PRIMERA MASCULINO": {
+              "match_id": 222786,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 14:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555"
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 222791,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 15:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555"
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 222790,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 16:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555"
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 222789,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 17:00",
-              "sede": "Club Mineirao ",
-              "direccion": "Coronel sayos 555"
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 222788,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 18:00",
+              "fecha_hora": "2026-08-09 20:15",
               "sede": "Club Mineirao ",
               "direccion": "Coronel sayos 555"
             },
@@ -677,13 +637,53 @@
               "sede": "Club Mineirao ",
               "direccion": "Coronel sayos 555"
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 222786,
+            "CUARTA MASCULINO": {
+              "match_id": 222788,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 20:15",
+              "fecha_hora": "2026-08-09 18:00",
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555"
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 222789,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 17:00",
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555"
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 222790,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 16:00",
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555"
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 222791,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 15:00",
+              "sede": "Club Mineirao ",
+              "direccion": "Coronel sayos 555"
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 222792,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 14:00",
               "sede": "Club Mineirao ",
               "direccion": "Coronel sayos 555"
             }
@@ -694,53 +694,13 @@
           "visitante": "VILLA SAHORES",
           "estado": "Pendiente",
           "partidos": {
-            "OCTAVA MASCULINO": {
-              "match_id": 223821,
+            "PRIMERA MASCULINO": {
+              "match_id": 223815,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 15:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano "
-            },
-            "SEPTIMA MASCULINO": {
-              "match_id": 223820,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 16:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano "
-            },
-            "SEXTA MASCULINO": {
-              "match_id": 223819,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 17:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano "
-            },
-            "QUINTA MASCULINO": {
-              "match_id": 223818,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 18:00",
-              "sede": "El Ideal ",
-              "direccion": "Montiel 5142 - Lugano "
-            },
-            "CUARTA MASCULINO": {
-              "match_id": 223817,
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "fecha_hora": "2026-08-09 19:00",
+              "fecha_hora": "2026-08-09 21:15",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano "
             },
@@ -754,13 +714,53 @@
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano "
             },
-            "PRIMERA MASCULINO": {
-              "match_id": 223815,
+            "CUARTA MASCULINO": {
+              "match_id": 223817,
               "goles_local": null,
               "goles_visitante": null,
               "jugado": false,
               "estado": "Programado",
-              "fecha_hora": "2026-08-09 21:15",
+              "fecha_hora": "2026-08-09 19:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano "
+            },
+            "QUINTA MASCULINO": {
+              "match_id": 223818,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 18:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano "
+            },
+            "SEXTA MASCULINO": {
+              "match_id": 223819,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 17:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano "
+            },
+            "SEPTIMA MASCULINO": {
+              "match_id": 223820,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 16:00",
+              "sede": "El Ideal ",
+              "direccion": "Montiel 5142 - Lugano "
+            },
+            "OCTAVA MASCULINO": {
+              "match_id": 223821,
+              "goles_local": null,
+              "goles_visitante": null,
+              "jugado": false,
+              "estado": "Programado",
+              "fecha_hora": "2026-08-09 15:00",
               "sede": "El Ideal ",
               "direccion": "Montiel 5142 - Lugano "
             }
