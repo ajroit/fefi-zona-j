@@ -175,11 +175,15 @@
   }
 
   .touch-zone-badge.top-zone {
-    margin-top: 4px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
   }
 
   .touch-zone-badge.bottom-zone {
-    margin-bottom: 4px;
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
   }
 
   .touch-zone-badge.active,
@@ -350,14 +354,23 @@
   @media (pointer:coarse){ .pad{display:flex} .rack .keys{display:none} }
 
   /* ---- portón: en celular solo se juega apaisado ---- */
+  body.is-portrait .cabinet {
+    display: none !important;
+  }
+  body.is-portrait {
+    overflow: hidden !important;
+    padding: 0 !important;
+  }
   .rotate{
-    position:fixed;inset:0;z-index:60;
+    position:fixed;top:0;left:0;right:0;bottom:0;
+    width:100vw;height:100dvh;z-index:999999;
     background:#0d1518;
     background-image:radial-gradient(120% 90% at 50% 0%, #1b2a2f 0%, #0d1518 65%);
     display:flex;flex-direction:column;align-items:center;justify-content:center;
     gap:20px;padding:28px;text-align:center;
+    box-sizing:border-box;
   }
-  .rotate[hidden]{display:none}
+  .rotate[hidden]{display:none !important}
   .rotate img{
     width:66px;height:66px;border-radius:50%;
     box-shadow:0 0 0 2px #263a41, 0 6px 18px rgba(0,0,0,.6);
@@ -1133,6 +1146,7 @@ function esCelularParado(){
 function checkOrientation(){
   const parado = esCelularParado();
   elRotate.hidden = !parado;
+  document.body.classList.toggle("is-portrait", parado);
   if (parado && !gated){
     gated = true;
     resumeCount = 0;

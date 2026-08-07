@@ -258,7 +258,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         // Register sw.js with a cache buster parameter to force the browser to check for changes
-        navigator.serviceWorker.register('/sw.js?v=12').then(function(reg) {
+        navigator.serviceWorker.register('/sw.js?v=16').then(function(reg) {
           console.log('✅ Service Worker registrado:', reg.scope);
         }).catch(function(err) {
           console.log('⚠️ Service Worker error:', err);
