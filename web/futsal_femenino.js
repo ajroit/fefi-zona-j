@@ -24,15 +24,7 @@ const FUTSAL_FEMENINO_CAT_LABELS = {
 };
 
 
-// Estados "normales" de un partido. Cualquier otro (Suspendido, Postergado,
-// Pendiente de Tribunal...) merece mostrarse al usuario en vez de un generico
-// "Sede pendiente", porque explica POR QUE no hay sede ni horario.
-const FUTSAL_ESTADOS_NORMALES = ["", "pendiente", "programado", "finalizado"];
-function estadoDestacado(e) {
-  if (!e) return null;
-  const limpio = String(e).trim();
-  return FUTSAL_ESTADOS_NORMALES.includes(limpio.toLowerCase()) ? null : limpio;
-}
+// estadoDestacado() se define en share.js (scope global compartido)
 
 // ---- Carga de datos ----
 async function initFutsalFemenino() {

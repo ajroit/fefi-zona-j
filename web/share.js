@@ -1,3 +1,19 @@
+// ---- Estado de partido (compartido por los 4 modulos de futsal) ----
+// OJO: esto vive ACA y no en cada futsal_*.js porque los tres se cargan en el
+// mismo scope global. Declarar `const FUTSAL_ESTADOS_NORMALES` en cada archivo
+// tira "Identifier has already been declared" y mata los scripts que cargan
+// despues, dejando la vista sin re-renderizar al cambiar de categoria.
+//
+// Estados "normales" de un partido. Cualquier otro (Suspendido, Postergado,
+// Pendiente de Tribunal...) merece mostrarse, porque explica por que no hay
+// sede ni horario.
+const FUTSAL_ESTADOS_NORMALES = ["", "pendiente", "programado", "finalizado"];
+function estadoDestacado(e) {
+  if (!e) return null;
+  const limpio = String(e).trim();
+  return FUTSAL_ESTADOS_NORMALES.includes(limpio.toLowerCase()) ? null : limpio;
+}
+
 // v3 - fix clima + cancha + PWA
 // share.js - Componente para compartir detalles de partidos de Villa Sahores
 
