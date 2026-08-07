@@ -71,6 +71,9 @@
     text-transform:uppercase;
   }
 
+  .bezel-wrap{
+    position:relative;
+  }
   .bezel{
     position:relative;
     touch-action:none;
@@ -102,12 +105,15 @@
 
   /* ---- overlay ---- */
   .curtain{
-    position:absolute;inset:0;
+    position:absolute;
+    top:3px;left:3px;right:3px;bottom:3px;
+    z-index:20;
     display:grid;place-content:center;justify-items:center;gap:10px;
     text-align:center;
-    background:rgba(220,234,247,.82);
+    background:rgba(220,234,247,.92);
     backdrop-filter:blur(1px);
     padding:20px;
+    border-radius:2px;
   }
   .curtain[hidden]{display:none}
   .curtain .big{
@@ -383,19 +389,21 @@
     </div>
   </div>
 
-  <div class="bezel" id="bezel">
-    <canvas id="game" width="900" height="300" aria-label="Juego: el jugador corre con la pelota y esquiva obstáculos"></canvas>
+  <div class="bezel-wrap">
+    <div class="bezel" id="bezel">
+      <canvas id="game" width="900" height="300" aria-label="Juego: el jugador corre con la pelota y esquiva obstáculos"></canvas>
 
-    <div class="hud">
-      <div><b id="metros">0000</b> M <span class="flash" id="flash"></span></div>
-      <div class="turno" id="turno">FEFI · BABY FÚTBOL</div>
-      <div class="rec">REC <b id="record">0000</b></div>
-    <div class="touch-zones-guide" id="touchGuide">
-      <div class="touch-zone-badge top-zone" id="badgeJump">
-        <span>⬆️ SALTÁ</span>
-      </div>
-      <div class="touch-zone-badge bottom-zone" id="badgeSlide">
-        <span>⬇️ BARRÉ</span>
+      <div class="hud">
+        <div><b id="metros">0000</b> M <span class="flash" id="flash"></span></div>
+        <div class="turno" id="turno">FEFI · BABY FÚTBOL</div>
+        <div class="rec">REC <b id="record">0000</b></div>
+      <div class="touch-zones-guide" id="touchGuide">
+        <div class="touch-zone-badge top-zone" id="badgeJump">
+          <span>⬆️ SALTÁ</span>
+        </div>
+        <div class="touch-zone-badge bottom-zone" id="badgeSlide">
+          <span>⬇️ BARRÉ</span>
+        </div>
       </div>
     </div>
 
