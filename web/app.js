@@ -914,3 +914,51 @@ function renderScoutingSection($container, torneoId, rival, categoriaFilter) {
 
 // Iniciar
 init();
+
+// ============================================================
+// Easter Egg: 3 toques/clics en el escudo (header o footer)
+// abren el juego secreto barrido.html
+// ============================================================
+(function setupEasterEgg() {
+  let tapCount = 0;
+  let tapTimer = null;
+
+  function handleCrestTap(e) {
+    tapCount++;
+    if (tapTimer) clearTimeout(tapTimer);
+
+    const target = e.currentTarget;
+    target.style.transform = 'scale(1.18) rotate(6deg)';
+    target.style.transition = 'transform 0.15s ease';
+    setTimeout(() => {
+      target.style.transform = 'scale(1) rotate(0deg)';
+    }, 150);
+
+    if (tapCount >= 3) {
+      tapCount = 0;
+      if (typeof window.trackEvent === 'function') {
+        window.trackEvent('easter_egg_barrido', { method: 'crest_triple_tap' });
+      }
+      window.location.href = 'barrido.html';
+    } else {
+      tapTimer = setTimeout(() => {
+        tapCount = 0;
+      }, 1200);
+    }
+  }
+
+  function initLogos() {
+    const logos = document.querySelectorAll('.club-logo, .footer-logo, img[src*="logo-sahores"]');
+    logos.forEach(logo => {
+      logo.style.cursor = 'pointer';
+      logo.removeEventListener('click', handleCrestTap);
+      logo.addEventListener('click', handleCrestTap);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLogos);
+  } else {
+    initLogos();
+  }
+})();
