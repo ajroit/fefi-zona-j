@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-08T12:51:03.570549",
+  "actualizado": "2026-08-08T14:33:24.281252",
   "torneo": "Torneo Joma 2026 - Elite A (Clausura)",
   "torneo_id": "futsal-elite",
   "equipo_foco": "VILLA SAHORES",
@@ -457,21 +457,11 @@
           "visitante": "PADILLA",
           "estado": null,
           "partidos": {
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220972,
-              "fecha_hora": "2026-08-07 22:00",
-              "sede": "CLUB DON BOSCO RAMOS MEJIA",
-              "direccion": "Jos\u00e9 Nicol\u00e1s de Arriola 1801-1849, Ramos Mej\u00eda, Provincia de Buenos Aires"
-            },
             "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
+              "goles_local": 6,
+              "goles_visitante": 7,
+              "jugado": true,
+              "estado": "Finalizado",
               "match_id": 220973,
               "fecha_hora": "2026-08-07 20:30",
               "sede": "CLUB DON BOSCO RAMOS MEJIA",
@@ -526,6 +516,16 @@
               "fecha_hora": "2026-08-09 10:00",
               "sede": "BRISAS DE LINIERS",
               "direccion": "Montiel 1382 CABA"
+            },
+            "PRIMERA MASCULINO": {
+              "goles_local": 4,
+              "goles_visitante": 2,
+              "jugado": true,
+              "estado": "Finalizado",
+              "match_id": 220972,
+              "fecha_hora": "2026-08-07 22:00",
+              "sede": "CLUB DON BOSCO RAMOS MEJIA",
+              "direccion": "Jos\u00e9 Nicol\u00e1s de Arriola 1801-1849, Ramos Mej\u00eda, Provincia de Buenos Aires"
             }
           }
         },
