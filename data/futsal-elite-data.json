@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T18:51:22.078098",
+  "actualizado": "2026-08-08T05:04:47.084011",
   "torneo": "Torneo Joma 2026 - Elite A (Clausura)",
   "torneo_id": "futsal-elite",
   "equipo_foco": "VILLA SAHORES",
@@ -353,23 +353,23 @@
               "sede": "Suela Dorada",
               "direccion": "Nicasio Oro\u00f1o 566 "
             },
-            "PRIMERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220965,
-              "fecha_hora": "2026-08-07 20:45",
+            "TERCERA MASCULINO": {
+              "goles_local": 8,
+              "goles_visitante": 0,
+              "jugado": true,
+              "estado": "Finalizado",
+              "match_id": 220966,
+              "fecha_hora": "2026-08-07 22:15",
               "sede": "Estrella de Boedo",
               "direccion": "Constitucion 4151"
             },
-            "TERCERA MASCULINO": {
-              "goles_local": null,
-              "goles_visitante": null,
-              "jugado": false,
-              "estado": "Programado",
-              "match_id": 220966,
-              "fecha_hora": "2026-08-07 22:15",
+            "PRIMERA MASCULINO": {
+              "goles_local": 0,
+              "goles_visitante": 5,
+              "jugado": true,
+              "estado": "Finalizado",
+              "match_id": 220965,
+              "fecha_hora": "2026-08-07 20:45",
               "sede": "Estrella de Boedo",
               "direccion": "Constitucion 4151"
             }
